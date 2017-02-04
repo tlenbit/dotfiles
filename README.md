@@ -1,1 +1,3 @@
-> README pending
+# dotfiles
+
+Config files for terminator, i3, vlc, code, gtk, ranger, rofi, etc...

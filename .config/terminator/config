@@ -50,11 +50,16 @@
 [plugins]
 [profiles]
   [[default]]
-    background_darkness = 1.17
+    background_color = "#132738"
+    background_darkness = 1
     background_image = None
     background_type = transparent
+    cursor_color = "#f0cc09"
     font = Hack 7
-    palette = "#000000:#aa0000:#00aa00:#aa5500:#0000aa:#aa00aa:#00aaaa:#aaaaaa:#555555:#ff5555:#55ff55:#ffff55:#5555ff:#ff55ff:#55ffff:#ffffff"
+    foreground_color = "#ffffff"
+    palette = "#000000:#ff0000:#38de21:#ffe50a:#1460d2:#ff005d:#00bbbb:#bbbbbb:#555555:#f40e17:#3bd01d:#edc809:#5555ff:#ff55ff:#6ae3fa:#ffffff"
+    scroll_on_output = False
+    scrollbar_position = hidden
     show_titlebar = False
     use_system_font = False
   [[Duotone Dark]]

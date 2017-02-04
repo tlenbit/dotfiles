@@ -2,5 +2,9 @@
 {
     "editor.fontSize": 11,
     "editor.fontFamily": "Iosevka",
-    "window.openFilesInNewWindow": false
+    "window.openFilesInNewWindow": "off",
+    "terminal.integrated.fontSize": 10,
+    "terminal.integrated.fontFamily": "Hack",
+    "terminal.integrated.lineHeight": 0,
+    "window.menuBarVisibility": "toggle"
 }

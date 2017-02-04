@@ -39,7 +39,7 @@ bindsym $mod+Shift+7 move container to workspace $ws7
 bindsym $mod+Shift+8 move container to workspace $ws8
 bindsym $mod+Shift+9 move container to workspace $ws9
 bindsym $mod+Shift+0 move container to workspace $ws10
-bindsym $mod+Return exec i3-sensible-terminal
+bindsym $mod+Return exec --no-startup-id terminator -l KJ -T "Emergent Terminal"
 bindsym $mod+Shift+c reload
 bindsym $mod+Shift+r restart
 bindsym $mod+Shift+q kill
@@ -80,9 +80,10 @@ bindsym XF86AudioPrev exec playerctl previous
 bindsym $mod+d exec rofi -show run -lines 8 -width 25
 bindsym $mod+x exec $HOME/.config/i3/scripts/powermenu.sh
 bindsym $mod+F1 exec --no-startup-id thunar
-bindsym $mod+F2 exec --no-startup-id terminator -l KJ -T "Emergent Terminal"
+bindsym $mod+F2 exec i3-sensible-terminal
 bindsym $mod+F3 exec --no-startup-id google-chrome
 bindsym $mod+F4 exec --no-startup-id code
+bindsym $mod+F12 exec --no-startup-id vlc
 # bindsym Control+Mod1+Delete exec $TERMINAL -t htop -e htop
 # bindsym $mod+Print exec --no-startup-id maim -d 3 ~/images/screenshots/$(date +%F-%T).png
 # bindsym $mod+Shift+Print exec --no-startup-id maim -d 3 -s ~/images/screenshots/$(date +%F-%T).png
@@ -127,8 +128,9 @@ bar {
 }
 
 # default workspaces
-assign [class="Code"] $ws3
+assign [class="X-terminal-emulator"] $ws1
 assign [class="Google-chrome"] $ws2
+assign [class="Code"] $ws3
 
 # border colors:        border: bg:     text:   indicator:
 client.focused          #2f343f #2f343f #f3f4f5 #523445
@@ -145,6 +147,7 @@ exec_always --no-startup-id feh --bg-scale "$HOME/Pictures/wallpapers/$(ls $HOME
 for_window [instance="terminator" title="Emergent"] border normal, floating enable, move scratchpad, scratchpad show;
 for_window [class="Yad"] floating enable
 for_window [class="Sxiv"] floating enable
+for_window [class="vlc"] floating enable
 for_window [class="Thunar"] floating enable
 for_window [class="Thunar"] border normal
 for_window [class="File-roller"] floating enable

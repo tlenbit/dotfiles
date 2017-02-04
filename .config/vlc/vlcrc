@@ -880,7 +880,7 @@
 [freetype] # Freetype2 font renderer
 
 # Font (string)
-#freetype-font=Serif Bold
+freetype-font=DejaVu Sans
 
 # Monospace Font (string)
 #freetype-monofont=Monospace
@@ -1286,7 +1286,7 @@
 #crossfeed=0.300000
 
 # Dry mix (float)
-#dry-mix=0.800000
+dry-mix=0.400000
 
 [samplerate] # Secret Rabbit Code (libsamplerate) resampler
 
@@ -1501,7 +1501,7 @@
 #qt-recentplay-filter=
 
 # Continue playback? (integer)
-#qt-continue=1
+qt-continue=0
 
 # Embed the file browser in open dialog (boolean)
 #qt-embedded-open=0
@@ -3176,10 +3176,10 @@ qt-privacy-ask=0
 #sout-x264-stats=x264_2pass.log
 
 # Default preset setting used (string)
-#sout-x264-preset=
+sout-x264-preset=ultrafast
 
 # Default tune setting used (string)
-#sout-x264-tune=
+sout-x264-tune=film
 
 # x264 advanced options. (string)
 #sout-x264-options=
@@ -3624,7 +3624,7 @@ qt-privacy-ask=0
 #audio-desync=0
 
 # Audio resampler (string)
-#audio-resampler=
+audio-resampler=any
 
 # Replay gain mode (string)
 #audio-replay-gain-mode=none
@@ -3642,7 +3642,7 @@ qt-privacy-ask=0
 #audio-time-stretch=1
 
 # Audio output module (string)
-#aout=
+aout=any
 
 # Audio filters (string)
 #audio-filter=
@@ -3699,7 +3699,7 @@ qt-privacy-ask=0
 #video-title-timeout=5000
 
 # Position of video title (integer)
-#video-title-position=8
+video-title-position=4
 
 # Hide cursor and fullscreen controller after x milliseconds (integer)
 #mouse-hide-timeout=1000
@@ -3780,7 +3780,7 @@ qt-privacy-ask=0
 #deinterlace-mode=blend
 
 # Video output module (string)
-#vout=
+vout=any
 
 # Video filter module (string)
 #video-filter=
@@ -4035,10 +4035,10 @@ qt-privacy-ask=0
 #sap-interval=5
 
 # Mux module (string)
-#mux=
+mux=any
 
 # Access output module (string)
-#access_output=
+access_output=any
 
 # Hop limit (TTL) (integer)
 #ttl=-1
@@ -4053,7 +4053,7 @@ qt-privacy-ask=0
 #packetizer=
 
 # VoD server module (string)
-#vod-server=
+vod-server=any
 
 # Use a plugins cache (boolean)
 #plugins-cache=1
@@ -4068,7 +4068,7 @@ qt-privacy-ask=0
 #inhibit=1
 
 # Play files randomly forever (boolean)
-#random=0
+random=1
 
 # Repeat all (boolean)
 #loop=0
@@ -4101,19 +4101,19 @@ qt-privacy-ask=0
 #playlist-enqueue=0
 
 # Use media library (boolean)
-#media-library=0
+media-library=1
 
 # Display playlist tree (boolean)
 #playlist-tree=0
 
 # Default stream (string)
-#open=
+open=file:////home/jc/Music/musiq.xspf
 
 # Automatically preparse files (boolean)
 #auto-preparse=1
 
 # Allow metadata network access (boolean)
-#metadata-network-access=0
+metadata-network-access=1
 
 # Services discovery modules (string)
 #services-discovery=

@@ -29,5 +29,5 @@ export PATH=$GOPATH/bin:$PATH
 # aliases
 alias showifi='nmcli dev wifi'
 alias sx='sxiv -t *'
-alias ranger='ranger --choosedir=$HOME/rangerdir; LASTDIR=`cat $HOME/rangerdir`; cd "$LASTDIR"'
+alias rr='ranger --choosedir=$HOME/rangerdir; LASTDIR=`cat $HOME/rangerdir`; cd "$LASTDIR"'
 alias glances='sudo docker run -v /var/run/docker.sock:/var/run/docker.sock:ro --pid host -it docker.io/nicolargo/glances'

@@ -28,6 +28,7 @@ export GOPATH=$HOME/Documents/code/go
 export PATH=$PATH:$GOPATH/bin
 
 # aliases
+alias c='xclip -selection clipboard'
 alias showifi='nmcli dev wifi'
 alias sx='sxiv -t *'
 alias rr='ranger --choosedir=$HOME/rangerdir; LASTDIR=`cat $HOME/rangerdir`; cd "$LASTDIR"'

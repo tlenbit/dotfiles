@@ -21,6 +21,7 @@ PATH="$HOME/bin:$HOME/.local/bin:$PATH"
 export PATH="$HOME/.cargo/bin:$PATH"
 
 # go
+export GOROOT="/usr/local/go"
 export PATH=$PATH:/usr/local/go/bin
 export GOPATH=$HOME/Documents/code/go
 export PATH=$PATH:$GOPATH/bin

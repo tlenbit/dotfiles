@@ -22,9 +22,9 @@ export INFOPATH="$HOME/.linuxbrew/share/info:$INFOPATH"
 export PATH="$HOME/.cargo/bin:$PATH"
 
 # go
-# export GOROOT="/home/jc/.linuxbrew/Cellar/go/1.7.5/libexec"
+export PATH=$PATH:/usr/local/go/bin
 export GOPATH=$HOME/Documents/code/go
-export PATH=$GOPATH/bin:$PATH
+export PATH=$PATH:$GOPATH/bin
 
 # aliases
 alias showifi='nmcli dev wifi'

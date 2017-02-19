@@ -3,3 +3,7 @@ search vide
 search .pk
 search .con
 search .conf
+search docu
+
+search documen
+open_with code

@@ -2793,7 +2793,7 @@ qt-privacy-ask=0
 #lua-config=
 
 # Password (string)
-#http-password=
+http-password=123456
 
 # Source directory (string)
 #http-src=
@@ -4068,7 +4068,7 @@ vod-server=any
 #inhibit=1
 
 # Play files randomly forever (boolean)
-random=1
+#random=0
 
 # Repeat all (boolean)
 #loop=0

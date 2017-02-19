@@ -6,5 +6,6 @@
     "terminal.integrated.fontSize": 10,
     "terminal.integrated.fontFamily": "Hack",
     "terminal.integrated.lineHeight": 0,
-    "window.menuBarVisibility": "toggle"
+    "window.menuBarVisibility": "toggle",
+    "editor.wrappingColumn": -1
 }

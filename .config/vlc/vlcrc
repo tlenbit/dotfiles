@@ -1542,10 +1542,10 @@ qt-privacy-ask=0
 [skins2] # Skinnable Interface
 
 # Skin to use (string)
-#skins2-last=
+skins2-last=/home/jc/Downloads/Blend_0-1-4.vlt
 
 # Config of last used skin (string)
-#skins2-config=
+skins2-config=["eqwin" "_ReservedId_90" 100 100 200 61 0]["main" "tab_file" 501 316 200 61 1]["plwin" "pll" 501 377 200 97 1]["taskbar" "taskbar_mode" 700 500 150 30 0]["video" "vid" 300 300 287 95 0]
 
 # Enable transparency effects (boolean)
 #skins2-transparency=0

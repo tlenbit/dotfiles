@@ -7,5 +7,9 @@
     "terminal.integrated.fontFamily": "Hack",
     "terminal.integrated.lineHeight": 0,
     "window.menuBarVisibility": "toggle",
-    "editor.wrappingColumn": -1
+    "workbench.colorTheme": "Eagle Oceanic Next",
+    "workbench.iconTheme": "vs-seti",
+    "window.zoomLevel": 0,
+    "workbench.activityBar.visible": false,
+    "workbench.welcome.enabled": true
 }

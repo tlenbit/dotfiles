@@ -4107,7 +4107,7 @@ media-library=1
 #playlist-tree=0
 
 # Default stream (string)
-open=file:////home/jc/Music/musiq.xspf
+#open=
 
 # Automatically preparse files (boolean)
 #auto-preparse=1

@@ -1,15 +1,20 @@
 // Place your settings in this file to overwrite the default settings
 {
-    "editor.fontSize": 11,
-    "editor.fontFamily": "Iosevka",
-    "window.openFilesInNewWindow": "off",
-    "terminal.integrated.fontSize": 10,
-    "terminal.integrated.fontFamily": "Hack",
-    "terminal.integrated.lineHeight": 0,
-    "window.menuBarVisibility": "toggle",
-    "workbench.colorTheme": "Eagle Oceanic Next",
-    "workbench.iconTheme": "vs-seti",
-    "window.zoomLevel": 0,
-    "workbench.activityBar.visible": false,
-    "workbench.welcome.enabled": true
+  "editor.fontSize": 10,
+  "editor.minimap.enabled": false,
+  "editor.renderIndentGuides": false,
+  "editor.fontFamily": "Fira Code",
+  "editor.fontLigatures": true,
+  "window.openFilesInNewWindow": "off",
+  "terminal.integrated.fontSize": 10,
+  "terminal.integrated.fontFamily": "Hack",
+  "terminal.integrated.lineHeight": 0,
+  "window.menuBarVisibility": "toggle",
+  "workbench.colorTheme": "Eagle Oceanic Next",
+  "workbench.iconTheme": "vscode-great-icons",
+  "window.zoomLevel": 0,
+  "workbench.activityBar.visible": true,
+  "typescript.check.npmIsInstalled": false,
+  "rust.build_lib": true,
+  "rust.formatOnSave": true
 }

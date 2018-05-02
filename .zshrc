@@ -55,3 +55,6 @@ drmc() { docker rm $(docker ps -a -q); }
 dstart() { systemctl start docker; }
 dstatus() { systemctl status docker; }
 dstop() { systemctl stop docker; }
+
+# Processing
+export PATH=$PATH:/home/jc/Documents/deps/processing-3.3.6

@@ -1,0 +1,16 @@
+// Place your key bindings in this file to overwrite the defaults
+[
+    { "key": "ctrl+l", "command": "extension.codeFileNav" },
+    {
+        "key": "ctrl+k b",
+        "command": "workbench.action.toggleActivityBarVisibility"
+    },
+    {
+        "key": "ctrl+[Semicolon]",
+        "command": "workbench.action.terminal.toggleTerminal"
+    },
+    {
+        "key": "ctrl+k ctrl+c",
+        "command": "workbench.files.action.collapseExplorerFolders"
+    }
+]

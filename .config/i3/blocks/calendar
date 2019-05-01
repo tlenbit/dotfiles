@@ -13,4 +13,4 @@ case $BLOCK_BUTTON in
     1) yad --calendar --no-buttons --mouse --on-top --undecorated --skip-taskbar;;     # left click
 esac
 
-echo "$(date +%d)"
+echo "$(date +%d/%m)"

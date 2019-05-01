@@ -1,0 +1,5 @@
+[
+	{ "keys": ["ctrl+alt+t"], "command": "delete_trailing_spaces" },
+	{ "keys": ["ctrl+ñ"], "command": "toggle_comment", "args": { "block": false } },
+	{ "keys": ["ctrl+shift+ñ"], "command": "calculate", "args": {"replace": true} },
+]

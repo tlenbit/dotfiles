@@ -1,6 +1,5 @@
 // Place your key bindings in this file to overwrite the defaults
 [
-    { "key": "ctrl+l", "command": "extension.codeFileNav" },
     {
         "key": "ctrl+k b",
         "command": "workbench.action.toggleActivityBarVisibility"
@@ -12,5 +11,13 @@
     {
         "key": "ctrl+k ctrl+c",
         "command": "workbench.files.action.collapseExplorerFolders"
+    },
+    {
+        "key": "ctrl+alt+enter",
+        "command": "python.execInTerminal"
+    },
+    {
+        "key": "ctrl+shift+[Semicolon]",
+        "command": "workbench.action.terminal.focus"
     }
 ]

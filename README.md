@@ -1,6 +1,6 @@
 # dotfiles
 
-## pc personal
+## pc
 
 ### screenfetch
 
@@ -19,20 +19,16 @@ CPU: Intel Core i5-3337U @ 4x 2.7GHz [50.0°C]
 GPU: GeForce GT 740M
 RAM: 796MiB / 5846MiB
 
-### os
-
-- ubuntu
-
 ### desktop
 
 - i3: window manager
 - i3blocks: scheduler for i3bar
-- i3lock
 - materia theme gtk
 - papirus icon set gtk
 
 ### software
 
+non-graphical:
 - yad: popup util
 - scrot: screenshot tool
 - pactl: pulse audio control
@@ -64,6 +60,7 @@ RAM: 796MiB / 5846MiB
 - mupdf
 - 7z
 
+graphical:
 - arandr: screen layout editor
 - lxappearance: desktop customizer
 - thunar
@@ -97,91 +94,54 @@ optional:
 - gucharmap: character picker
 - kazam: screen recorder
 
-### Fonts
+binaries:
+- anki-2.1.11-linux-amd64
+- blender-2.80-e57ee5934a30-linux-glibc224-x86_64
+- clion-2018.2.5
+- clion-2018.3.3
+- DataGrip-2018.2.4
+- dotgrid
+- genact
+- idea-IC-182.4892.20
+- OctaChainer-master
+- Postman
+- processing-3.3.7
+- Rack
+- StarUML
+- WebStorm-182.4892.25
+- z
+- Zotero_linux-x86_64
+- wps-office
 
-- Archia-Regular.otf
-- FantasqueSansMono-Bold.ttf
-- FantasqueSansMono-BoldItalic.ttf
-- FantasqueSansMono-Italic.ttf
-- FantasqueSansMono-Regular.ttf
-- FiraCode-Regular.ttf
-- FiraCode-Retina.ttf
-- FiraMono-Regular.ttf
-- FiraSans-Bold.ttf
-- FiraSans-Light.ttf
-- FiraSans-Regular.ttf
-- fontawesome-webfont.ttf
-- Gidole-Regular.ttf
-- Hack-Bold.ttf
-- Hack-BoldItalic.ttf
-- Hack-Italic.ttf
-- Hack-Regular.ttf
-- InputSansCompressed-Regular.ttf
-- InputSansCondensed-Regular.ttf
-- InputSansNarrow-Regular.ttf
-- InputSans-Regular.ttf
-- Inter-Bold.ttf
-- Inter-Regular.ttf
-- iosevka-regular.ttf
-- Monoid-Bold-Small.ttf
-- Monoid-Italic-Small.ttf
-- Monoid-Regular-Small.ttf
-- Noway-Regular.otf
-- Noway_Regular_Italic.otf
-- RobotoSlab-Bold.ttf
-- RobotoSlab-Light.ttf
-- RobotoSlab-Regular.ttf
-- RobotoSlab-Thin.ttf
-- SFCompactDisplay-Regular.ttf
-- SFCompactText-Regular.ttf
-- SFProDisplay-Regular.ttf
-- SFProText-Regular.ttf
-- Wavehaus-42Light.otf
-- Wavehaus-66Book.otf
-- Wavehaus-128Bold.otf
+## iphone
 
-## mobile personal
+- Airbnb
+- Day One
+- Discogs
+- Firefox
+- Gmail
+- Goodreads
+- Google Calendar
+- Google Keep
+- Google Maps
+- Google Photos
+- Google Tasks
+- Insight Timer
+- Instapaper
+- Interbank
+- Letterboxd
+- Linguee
+- NTS Radio
+- Overcast
+- Pinterest
+- Raindrop.io
+- Spendee
+- Streaks
+- Trello
+- VOX
+- Whatsapp
 
-### os
-
-- ios
-
-### Apps
-
-- Anki: for learn anything
-- AnyList: keep track of recipes
-- Bobby: keep track of subscriptions
-- Day One: journaling
-- Deviantart: art creation or discovery backup
-- Discogs: keep track of music
-- Firefox: browser of preference
-- Goodreads: keep track of books
-- Google Contacts: to keep my contacts
-- Google Maps: keep track of places
-- Google Photos: personal photos backup
-- Hours: keep track of time usage
-- Insight Timer: meditation app (just the timer feature)
-- Instapaper: for keepin' track of articles
-- Last Time: keep track of last time of doing something
-- Letterboxd: keep track of movies
-- Microsoft To-Do: keep track of todos/goals
-- NTS Radio: keep track of favorite shows/hosts
-- Overcast: Podcast manager
-- Pinterest: interesting web images
-- Raindrop.io: keep track of bookmarks
-- Spendee: keep track of money flow (credit card)
-- Streaks: keep track of streaks
-- Trello: plannig/goals
-- TV Time: keep track of series
-- VOX: personal music cloud
-
-## ipad personal
-
-### os
-
-- ios
-
-### Apps
+## ipad
 
 - iELECTRIBE
 - iProphet
@@ -191,13 +151,10 @@ optional:
 - Audulus 3
 - SunVox
 - Synthesia
-- Syntorial
 - Documents
 - Google Translate
 - Safari
 - Instapaper
-- NTS Radio
 - Workout
 - Raindrop.io
-- Notes
 - Google Maps

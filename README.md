@@ -4,6 +4,7 @@
 
 ### screenfetch
 
+```
 jc@0x7b1
 OS: Ubuntu 18.04 bionic
 Kernel: x86_64 Linux 4.15.0-22-generic
@@ -18,6 +19,7 @@ Font: SF Compact Display 9
 CPU: Intel Core i5-3337U @ 4x 2.7GHz [50.0°C]
 GPU: GeForce GT 740M
 RAM: 796MiB / 5846MiB
+```
 
 ### desktop
 

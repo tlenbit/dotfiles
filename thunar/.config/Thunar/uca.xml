@@ -1,0 +1,32 @@
+<?xml encoding="UTF-8" version="1.0"?>
+<actions>
+<action>
+	<icon>utilities-terminal</icon>
+	<name>Open Terminal Here</name>
+	<unique-id>1557339282839952-1</unique-id>
+	<command>alacritty --working-directory %f</command>
+	<description>Open terminal on current path</description>
+	<patterns>*</patterns>
+	<startup-notify/>
+	<directories/>
+</action>
+<action>
+	<icon>image-x-generic</icon>
+	<name>Open Images on sxiv</name>
+	<unique-id>1558111124965646-1</unique-id>
+	<command>sxiv -a -p -t %f</command>
+	<description>Open the list of images in current folder</description>
+	<patterns>*</patterns>
+	<directories/>
+</action>
+<action>
+	<icon>vlc</icon>
+	<name>Add files to VLC</name>
+	<unique-id>1559316072864076-1</unique-id>
+	<command>vlc --started-from-file --playlist-enqueue %F</command>
+	<description>Add media files to current playlist, otherwise it will open a new vlc instance</description>
+	<patterns>*</patterns>
+	<audio-files/>
+	<video-files/>
+</action>
+</actions>

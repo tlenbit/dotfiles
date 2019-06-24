@@ -1,0 +1,222 @@
+[bar/top]
+height = 14
+;bottom = true
+
+tray-position = right
+tray-transparent = true
+tray-detached = false
+tray-padding = 0
+
+spacing = 3
+module-margin = 1
+underline-size = 0
+
+background = #24292e
+foreground = #ffffff
+
+font-0 = xos4Terminus:pixelsize=8;2
+font-1 = Siji:pixelsize=8;2
+
+modules-left = i3
+modules-center = title
+modules-right = timer tasks cpu memory filesystem bluetooth wifi volume battery datetime
+
+wm-name = bar
+wm-restack = i3
+
+[module/i3]
+type = internal/i3
+
+pin-workspaces = true
+strip-wsnumbers = false
+index-sort = true
+enable-scroll = false
+
+format = <label-state>
+
+label-focused = %index%
+label-focused-foreground = #82ccdd
+label-focused-background = #0a3d62
+label-focused-padding = 1
+
+label-unfocused = %index%
+label-unfocused-padding = 1
+
+label-visible = %index%
+label-visible-padding = 1
+
+label-urgent = %index%
+label-urgent-background = #e55039
+label-urgent-padding = 1
+
+[module/title]
+type = internal/xwindow
+label-maxlen = 100
+
+[module/datetime]
+type = internal/date
+interval = 30
+label = %date% %time%
+date = %d %b
+time = %H:%M
+format-padding = 1
+format =%{A1:gsimplecal:}<label> %{A}
+
+[module/volume]
+type = internal/volume
+;format-volume = <ramp-volume><label-volume>
+format-volume = <ramp-volume>
+label-muted = 
+label-muted-foreground = #999
+ramp-volume-0 = 
+ramp-volume-1 = 
+ramp-volume-2 = 
+ramp-volume-3 = 
+ramp-volume-4 = 
+
+[module/bluetooth]
+type = custom/script
+interval = 10
+exec-if = systemctl is-active bluetooth.service
+exec = echo ""
+
+; Approach 1
+;[module/timer]
+;type = custom/script
+;interval = 1
+;exec = cat /tmp/termdown.tmp
+;exec-if = [[ -f /tmp/termdown.tmp ]]
+;format = <label>
+;label = "%{F#82ccdd} %output%"
+;;click-right = stop, and prompt total time
+;;click-left = pause
+
+; Approach 2
+;[module/timer]
+;type = custom/script
+;interval = 5
+;exec = echo "$(timew get dom.active.duration | $HOME/.config/polybar/format-time.py )"
+;exec-if = [ $(timew get dom.active) == 1 ]
+;format-prefix = " "
+;format-prefix-foreground = #82ccdd
+;click-left = timew stop && notify-send -u low -i $HOME/.config/i3/scripts/icons/state-information.svg "Timer stoppped"
+
+; Approach 3
+[module/timer]
+type = custom/script
+interval = 5
+exec-if = task active
+exec = $HOME/.config/polybar/scripts/task-timer.sh
+format-prefix-foreground = #a29bfe
+label = "%{F#ff7f50} %{F-}%output%"
+format-padding = 0
+click-left = $HOME/.config/i3/scripts/tasks-stop.sh
+
+[module/music]
+type = custom/script
+interval = 1
+exec = echo "03:40"
+# label = "%{F#079992} %{F#079992}%output%"
+format-prefix = " "
+format-prefix-foreground = #079992
+
+[module/tasks]
+type = custom/script
+interval = 60
+exec = task status:pending count
+exec-if = task
+format-prefix = " "
+format-prefix-foreground = #b8e994
+
+[module/battery]
+type = internal/battery
+full-at = 99
+battery = BAT0
+adapter = AC
+poll-interval = 5
+
+;format =%{A1:gsimplecal:}<label> %{A}
+
+;format-discharging = <ramp-capacity><label-discharging>
+format-discharging = <ramp-capacity>
+label-charging = "%{F#78e08f} %{F-}%percentage%%"
+label-discharging = "%percentage%% "
+
+label-full = "%{F#78e08f} %percentage%%"
+
+ramp-capacity = 100
+
+ramp-capacity-0 = "%{F#e55039}"
+ramp-capacity-1 = "%{F#f6b93b}"
+ramp-capacity-2 = "%{F-}"
+ramp-capacity-3 = "%{F-}"
+ramp-capacity-4 = "%{F-}"
+ramp-capacity-5 = "%{F-}"
+ramp-capacity-6 = "%{F-}"
+ramp-capacity-7 = "%{F-}"
+ramp-capacity-8 = "%{F-}"
+ramp-capacity-9 = "%{F-}"
+
+[module/wifi]
+type = internal/network
+interface = wlp4s0
+interval = 5
+
+;format-connected = <ramp-signal><label-connected>
+;label-connected = "%{F#4a69bd} %{F-}%downspeed% %{F#60a3bc} %{F-}%upspeed%"
+
+format-connected = <ramp-signal>
+
+ramp-signal-0 = 
+ramp-signal-1 = 
+ramp-signal-2 = 
+
+;format-disconnected = <label-disconnected>
+;label-disconnected = "%{F#e55039}"
+label-disconnected = 
+label-disconnected-foreground = #999
+
+[module/filesystem]
+type = internal/fs
+
+; Mountpoints to display
+mount-0 = /
+
+interval = 30
+fixed-values = true
+
+format-mounted = <label-mounted>
+label-mounted = "%{F#fad390} %{F-}%free%"
+format-unmounted = <label-unmounted>
+label-unmounted = "%{F#e55039}%mountpoint%: not mounted"
+
+[module/memory]
+type = internal/memory
+interval = 5
+label = "%{F#82ccdd} %{F-}%percentage_used%%"
+
+[module/cpu]
+type = internal/cpu
+interval = 5
+label = "%{F#4bcffa} %{F-}%percentage%%"
+
+[module/torrent]
+type = custom/script
+interval = 60
+exec = echo "2"
+format-prefix = " "
+format-prefix-foreground = #a29bfe
+
+[module/screenrecord]
+type = custom/script
+interval = 60
+exec = echo "02:20"
+format-prefix = " "
+format-prefix-foreground = #ff7f50
+
+[settings]
+throttle-limit = 5
+throttle-ms = 50
+throttle-input-for = 50
+
+;; colors extracted from https://flatuicolors.com/palette/fr

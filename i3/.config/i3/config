@@ -1,0 +1,167 @@
+# general config
+set $mod Mod4
+font pango:xos4 Terminus 8
+new_window pixel 1
+new_float pixel 1
+floating_modifier $mod
+workspace_auto_back_and_forth yes
+# default_orientation horizontal
+gaps inner 5
+gaps outer 0
+# hide_edge_borders both
+
+# set variables
+set $term --no-startup-id alacritty
+set $ws1 "1"
+set $ws2 "2"
+set $ws3 "3"
+set $ws4 "4"
+set $ws5 "5"
+set $ws6 "6"
+set $ws7 "7"
+set $ws8 "8"
+set $ws9 "9"
+set $ws10 "10"
+
+# key bindings
+bindsym $mod+1 workspace $ws1
+bindsym $mod+2 workspace $ws2
+bindsym $mod+3 workspace $ws3
+bindsym $mod+4 workspace $ws4
+bindsym $mod+5 workspace $ws5
+bindsym $mod+6 workspace $ws6
+bindsym $mod+7 workspace $ws7
+bindsym $mod+8 workspace $ws8
+bindsym $mod+9 workspace $ws9
+bindsym $mod+0 workspace $ws10
+
+bindsym $mod+Shift+1 move container to workspace $ws1
+bindsym $mod+Shift+2 move container to workspace $ws2
+bindsym $mod+Shift+3 move container to workspace $ws3
+bindsym $mod+Shift+4 move container to workspace $ws4
+bindsym $mod+Shift+5 move container to workspace $ws5
+bindsym $mod+Shift+6 move container to workspace $ws6
+bindsym $mod+Shift+7 move container to workspace $ws7
+bindsym $mod+Shift+8 move container to workspace $ws8
+bindsym $mod+Shift+9 move container to workspace $ws9
+bindsym $mod+Shift+0 move container to workspace $ws10
+
+bindsym $mod+Shift+c reload
+bindsym $mod+Shift+r restart
+bindsym $mod+Shift+q kill
+
+bindsym $mod+Ctrl+Left focus left
+bindsym $mod+Ctrl+Down focus down
+bindsym $mod+Ctrl+Up focus up
+bindsym $mod+Ctrl+Right focus right
+bindsym $mod+Left workspace prev
+bindsym $mod+Right workspace next
+bindsym $mod+Tab workspace back_and_forth
+bindsym $mod+Shift+Tab workspace next
+bindsym $mod+Shift+Left move left
+bindsym $mod+Shift+Down move down
+bindsym $mod+Shift+Up move up
+bindsym $mod+Shift+Right move right
+
+bindsym $mod+h split h
+bindsym $mod+v split v
+bindsym $mod+r mode "resize"
+bindsym $mod+l mode "layout"
+bindsym $mod+b mode "border"
+bindsym $mod+f fullscreen toggle
+bindsym $mod+Shift+space floating toggle
+bindsym Mod1+Tab focus mode_toggle
+bindsym $mod+s sticky toggle
+bindsym $mod+space scratchpad show
+
+bindsym $mod+Return exec $term
+bindsym XF86Favorites exec $HOME/.config/i3/scripts/run-utils.sh
+bindsym XF86Bluetooth exec $HOME/.config/i3/scripts/toggle-bluetooth.sh
+bindsym XF86MonBrightnessUp exec --no-startup-id $HOME/.config/i3/scripts/brightness.sh up
+bindsym XF86MonBrightnessDown exec --no-startup-id $HOME/.config/i3/scripts/brightness.sh down
+bindsym XF86AudioMute exec --no-startup-id $HOME/.config/i3/scripts/volume.sh mute
+bindsym XF86AudioMicMute exec --no-startup-id pactl set-source-mute 1 toggle
+bindsym XF86AudioRaiseVolume exec --no-startup-id $HOME/.config/i3/scripts/volume.sh up
+bindsym XF86AudioLowerVolume exec --no-startup-id $HOME/.config/i3/scripts/volume.sh down
+bindsym $mod+Next exec playerctl play-pause
+bindsym $mod+Shift+Prior exec playerctl previous
+bindsym $mod+Shift+Next exec playerctl next
+
+# screenshot
+# whole
+bindsym Print exec maim -u | xclip -selection clipboard -t image/png && notify-send -i $HOME/.config/i3/scripts/icons/screenshot.svg "Screenshot in clipboard"
+bindsym $mod+Print exec maim -u $HOME/Pictures/screenshots/$(date +%F_%H%M%S).png && notify-send -i $HOME/.config/i3/scripts/icons/screenshot.svg "Screenshot saved"
+bindsym $mod+Ctrl+Print exec maim -u | convert - \( +clone -background black -shadow 80x20+0+15 \) +swap -background none -layers merge +repage $HOME/Pictures/screenshots/$(date +%F_%H%M%S).png && notify-send -i $HOME/.config/i3/scripts/icons/screenshot.svg "Screenshot (styled) saved"
+# selection
+bindsym Shift+Print exec maim -su | xclip -selection clipboard -t image/png && notify-send -i $HOME/.config/i3/scripts/icons/screenshot.svg "Screenshot section in clipboard"
+bindsym $mod+Shift+Print exec maim -su $HOME/Pictures/screenshots/$(date +%F_%H%M%S)_cropped.png | xclip -selection clipboard -t image/png && notify-send -i $HOME/.config/i3/scripts/icons/screenshot.svg "Screenshot section saved"
+bindsym $mod+Shift+Ctrl+Print exec maim -su | convert - \( +clone -background black -shadow 80x20+0+15 \) +swap -background none -layers merge +repage $HOME/Pictures/screenshots/$(date +%F_%H%M%S)_cropped.png && notify-send -i $HOME/.config/i3/scripts/icons/screenshot.svg "Screenshot section (styled) saved"
+
+# rofi
+bindsym $mod+c exec --no-startup-id "rofi -show calc -modi calc -no-show-match -no-sort -terse -no-history -width 15"
+bindsym $mod+d exec rofi -show drun -lines 10 -width 15 -show-icons
+bindsym $mod+x exec $HOME/.config/i3/scripts/powermenu.sh
+bindsym $mod+n exec networkmanager_dmenu
+bindsym $mod+t exec --no-startup-id rofi -modi TODO:$HOME/.config/i3/scripts/rofi-todo.sh -show TODO -width 30
+bindsym $mod+a exec --no-startup-id $HOME/.config/i3/scripts/tasks.sh
+
+# applications
+bindsym $mod+w exec firefox
+bindsym $mod+Shift+w exec firefox --private-window
+bindsym $mod+q exec thunar
+bindsym $mod+e exec subl3
+bindsym $mod+p exec $term -t "Process Manager" -e gotop
+
+# resize mode
+mode "resize" {
+        bindsym Left resize shrink width 5 px or 5 ppt
+        bindsym Down resize grow height 5 px or 5 ppt
+        bindsym Up resize shrink height 5 px or 5 ppt
+        bindsym Right resize grow width 5 px or 5 ppt
+        bindsym Return mode "default"
+        bindsym Escape mode "default"
+}
+
+# layout mode
+mode "layout" {
+    bindsym 1 layout stacking; mode "default"
+    bindsym 2 layout tabbed; mode "default"
+    bindsym 3 layout toggle split; mode "default"
+    bindsym Return mode "default"
+    bindsym Escape mode "default"
+}
+
+# border mode
+mode "border" {
+    bindsym 1 border pixel 1; mode "default"
+    bindsym 2 border normal 1; mode "default"
+    bindsym 3 border none; mode "default"
+    bindsym Return mode "default"
+    bindsym Escape mode "default"
+}
+
+# border colors:        border: bg:     text:   indicator:
+client.focused          #636e72 #f5f5f5 #24292e #878787
+client.focused_inactive #24292e #24292e #b2bec3 #49483E
+client.unfocused        #24292e #24292e #b2bec3 #000000
+client.urgent           #E53935 #E53935 #24292e #58252B
+
+# autostart
+exec_always setxkbmap -layout latam
+exec_always xrdb -merge $HOME/.Xresources
+exec_always --no-startup-id $HOME/.config/polybar/launch.sh
+exec --no-startup-id hsetroot -fill "$HOME/Pictures/wallpapers/$(ls $HOME/Pictures/wallpapers | sort -R | head -1)" # set random wallpaper from folder
+exec --no-startup-id unclutter --timeout 1 # hide mouse cursor when inactive
+
+# config apps
+assign [class="Thunar" title="File Operation Progress"] $ws10
+for_window [class="Gsimplecal"] border pixel 0;
+
+# for_window [class="^.*"] border pixel 0;
+# for_window [class="vlc"] move scratchpad;
+# for_window [class="WebTorrent"] move scratchpad;
+
+# for_window [class="Thunar"] floating enable;
+# for_window [class="Alacritty"] floating enable;
+# for_window [class="Thunar"] resize shrink width 30 px or 30 ppt;
+# for_window [class="Alacritty"] resize shrink height 40 px or 40 ppt;

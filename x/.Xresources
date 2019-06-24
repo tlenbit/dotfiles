@@ -1,0 +1,18 @@
+! Execute this after alter this file xrdb -merge ~/.Xresources
+
+!Xft.dpi: 100
+Xft.dpi: 102
+Xft.antialias: true
+Xft.hinting: true
+Xft.rgba: rgb
+Xft.autohint: false
+Xft.hintstyle: hintfull
+Xft.lcdfilter: lcddefault
+
+!SXIV COLORS
+sxiv.win_bg_color: #21211F
+sxiv.win_fs_color: #2E2E2C
+sxiv.sel_color:    #2E2E2C
+sxiv.bar_bg_color: #292927
+sxiv.bar_fg_color: #B8B9B4
+

@@ -19,7 +19,7 @@ font-1 = Siji:pixelsize=8;2
 
 modules-left = i3
 modules-center = title
-modules-right = timer tasks cpu memory filesystem bluetooth wifi volume battery datetime
+modules-right = clock timer tasks cpu memory filesystem bluetooth wifi volume battery datetime
 
 wm-name = bar
 wm-restack = i3
@@ -111,6 +111,15 @@ format-prefix-foreground = #a29bfe
 label = "%{F#ff7f50} %{F-}%output%"
 format-padding = 0
 click-left = $HOME/.config/i3/scripts/tasks-stop.sh
+
+[module/clock]
+type = custom/script
+interval = 1
+exec = cat /tmp/countdown_time.tmp
+exec-if = [[ -f /tmp/countdown_time.tmp ]]
+format-prefix-foreground = #a29bfe
+label = "%{F#ff7f50} %{F-}%output%"
+click-left = kill -9 $(cat /tmp/countdown_pid.tmp) && rm /tmp/countdown_* && notify-send -u low -i $HOME/.config/i3/scripts/icons/state-information.svg "Countdown stopped"
 
 [module/music]
 type = custom/script

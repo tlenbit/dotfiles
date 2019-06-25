@@ -49,6 +49,33 @@ function show_calendar {
 	rofi -e "$(cal 2019)" -fullscreen -markup
 }
 
+function run_countdown {
+	time_minutes=`rofi -dmenu -p 'Time (minutes)' -width 10`
+	time_seconds="$(($time_minutes*60))"
+
+	echo "$$" > /tmp/countdown_pid.tmp
+
+  date1=$((`date +%s` + "$time_seconds"));
+  while [ "$date1" -ge `date +%s` ]; do
+  	time="$(date -u --date @$(($date1 - `date +%s`)) +%H:%M:%S)"
+  	echo -ne "$time" > /tmp/countdown_time.tmp
+    sleep 0.1
+  done
+
+  rm /tmp/countdown_time.tmp
+  rm /tmp/countdown_pid.tmp
+
+  # TODO: disable vlc notification trigger and replace it with notify-send
+  vlc \
+  	--quiet \
+  	--play-and-exit \
+  	--no-video-title-show \
+  	--intf dummy \
+  	--novideo \
+  	--qt-notification 0 \
+  	$HOME/Documents/me/misc/DIAMOND.WAV 2>/dev/null
+}
+
 function run_stopwatch {
 	# NOTE
 	# this does not work because the command can not be hide in background
@@ -59,7 +86,14 @@ function run_stopwatch {
 	# termdown --no-figlet --no-text-magic -o /tmp/termdown.tmp
 
 	# Approach 2
-	timew start
+	# timew start
+
+	# Approach 3
+  date1=`date +%s`;
+   while true; do
+    echo -ne "$(date -u --date @$((`date +%s` - $date1)) +%H:%M:%S)\r";
+    sleep 0.1
+   done
 }
 
 function report_project_tasks {
@@ -82,6 +116,7 @@ Clean System
 Switch Theme
 Calendar
 Timer
+Countdown
 Stopwatch
 Pomodoro
 Screencast
@@ -109,6 +144,9 @@ case $choice in
 		;;
 	"Calendar")
 		show_calendar
+		;;
+	"Countdown")
+		run_countdown
 		;;
 	"Stopwatch")
 		run_stopwatch

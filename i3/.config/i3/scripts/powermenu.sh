@@ -10,6 +10,7 @@ if [[ $choice == "Logout" ]]; then
 	i3-msg exit
 fi
 if [[ $choice == "Shutdown" ]]; then
+	$HOME/.config/i3/scripts/tasks-stop.sh
 	systemctl poweroff
 fi
 if [[ $choice == "Suspend" ]]; then

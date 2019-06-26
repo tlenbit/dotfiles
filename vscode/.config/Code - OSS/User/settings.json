@@ -2,7 +2,7 @@
   "editor.fontFamily": "Sudo",
   "editor.fontSize": 16,
   "editor.lineHeight": 14,
-  "workbench.colorTheme": "White",
+  "workbench.colorTheme": "White Night",
   "window.zoomLevel": 0,
   "window.menuBarVisibility": "hidden",
   "editor.renderIndentGuides": true,
@@ -25,4 +25,21 @@
   "terminal.integrated.fontSize": 12,
   "terminal.integrated.fontFamily": "Input Mono Narrow",
   "explorer.confirmDelete": false,
+  "editor.tokenColorCustomizations": {
+    "[White Night]": {
+      "comments": "#ff6b81",
+      "functions": "#badc58",
+    }
+  },
+  "workbench.colorCustomizations": {
+    "[White Night]": {
+      "tab.inactiveForeground": "#a4b0be",
+      "editorLineNumber.activeForeground": "#7f8fa6",
+      "editorLineNumber.foreground": "#353b48",
+      "editor.lineHighlightBackground": "#102020"
+    },
+  },
+  "editor.minimap.renderCharacters": false,
+  "explorer.confirmDragAndDrop": false,
+  "editor.cursorStyle": "block",
 }

@@ -605,3 +605,45 @@ time 1561489780
 old [annotation_1561461374:"Started task" annotation_1561469230:"Stopped task" annotation_1561476405:"Started task" description:"Revisar MVC" entry:"1561461363" modified:"1561476405" priority:"H" project:"Freelo.BLP" start:"1561476405" status:"pending" uuid:"8e1bc2f6-be6a-4b38-a49e-562152a0f16b"]
 new [annotation_1561461374:"Started task" annotation_1561469230:"Stopped task" annotation_1561476405:"Started task" annotation_1561489780:"Stopped task" description:"Revisar MVC" entry:"1561461363" modified:"1561489780" priority:"H" project:"Freelo.BLP" status:"pending" uuid:"8e1bc2f6-be6a-4b38-a49e-562152a0f16b"]
 ---
+time 1561497005
+old [annotation_1561461374:"Started task" annotation_1561469230:"Stopped task" annotation_1561476405:"Started task" annotation_1561489780:"Stopped task" description:"Revisar MVC" entry:"1561461363" modified:"1561489780" priority:"H" project:"Freelo.BLP" status:"pending" uuid:"8e1bc2f6-be6a-4b38-a49e-562152a0f16b"]
+new [annotation_1561461374:"Started task" annotation_1561469230:"Stopped task" annotation_1561476405:"Started task" annotation_1561489780:"Stopped task" annotation_1561497005:"Started task" description:"Revisar MVC" entry:"1561461363" modified:"1561497005" priority:"H" project:"Freelo.BLP" start:"1561497005" status:"pending" uuid:"8e1bc2f6-be6a-4b38-a49e-562152a0f16b"]
+---
+time 1561499007
+old [annotation_1561461374:"Started task" annotation_1561469230:"Stopped task" annotation_1561476405:"Started task" annotation_1561489780:"Stopped task" annotation_1561497005:"Started task" description:"Revisar MVC" entry:"1561461363" modified:"1561497005" priority:"H" project:"Freelo.BLP" start:"1561497005" status:"pending" uuid:"8e1bc2f6-be6a-4b38-a49e-562152a0f16b"]
+new [annotation_1561461374:"Started task" annotation_1561469230:"Stopped task" annotation_1561476405:"Started task" annotation_1561489780:"Stopped task" annotation_1561497005:"Started task" annotation_1561499007:"Stopped task" description:"Revisar MVC" end:"1561499007" entry:"1561461363" modified:"1561499007" priority:"H" project:"Freelo.BLP" status:"completed" uuid:"8e1bc2f6-be6a-4b38-a49e-562152a0f16b"]
+---
+time 1561503674
+new [description:"Validacion de rutas" entry:"1561503674" modified:"1561503674" priority:"H" project:"Freelo.BLP" status:"pending" uuid:"7ca21aef-a172-42d9-87b5-2b5a839870e3"]
+---
+time 1561503677
+old [description:"Validacion de rutas" entry:"1561503674" modified:"1561503674" priority:"H" project:"Freelo.BLP" status:"pending" uuid:"7ca21aef-a172-42d9-87b5-2b5a839870e3"]
+new [annotation_1561503677:"Started task" description:"Validacion de rutas" entry:"1561503674" modified:"1561503677" priority:"H" project:"Freelo.BLP" start:"1561503677" status:"pending" uuid:"7ca21aef-a172-42d9-87b5-2b5a839870e3"]
+---
+time 1561507494
+old [annotation_1561503677:"Started task" description:"Validacion de rutas" entry:"1561503674" modified:"1561503677" priority:"H" project:"Freelo.BLP" start:"1561503677" status:"pending" uuid:"7ca21aef-a172-42d9-87b5-2b5a839870e3"]
+new [annotation_1561503677:"Started task" annotation_1561507494:"Stopped task" description:"Validacion de rutas" entry:"1561503674" modified:"1561507494" priority:"H" project:"Freelo.BLP" status:"pending" uuid:"7ca21aef-a172-42d9-87b5-2b5a839870e3"]
+---
+time 1561543565
+old [annotation_1561503677:"Started task" annotation_1561507494:"Stopped task" description:"Validacion de rutas" entry:"1561503674" modified:"1561507494" priority:"H" project:"Freelo.BLP" status:"pending" uuid:"7ca21aef-a172-42d9-87b5-2b5a839870e3"]
+new [annotation_1561503677:"Started task" annotation_1561507494:"Stopped task" description:"Validacion de rutas" end:"1561543565" entry:"1561503674" modified:"1561543565" priority:"H" project:"Freelo.BLP" status:"completed" uuid:"7ca21aef-a172-42d9-87b5-2b5a839870e3"]
+---
+time 1561543581
+new [description:"Mapeo y arreglo de modelos nuevos" entry:"1561543581" modified:"1561543581" priority:"M" project:"Freelo.BLP" status:"pending" uuid:"474593e2-8476-4243-863f-9e09c8c47d85"]
+---
+time 1561543585
+old [description:"Mapeo y arreglo de modelos nuevos" entry:"1561543581" modified:"1561543581" priority:"M" project:"Freelo.BLP" status:"pending" uuid:"474593e2-8476-4243-863f-9e09c8c47d85"]
+new [annotation_1561543585:"Started task" description:"Mapeo y arreglo de modelos nuevos" entry:"1561543581" modified:"1561543585" priority:"M" project:"Freelo.BLP" start:"1561543585" status:"pending" uuid:"474593e2-8476-4243-863f-9e09c8c47d85"]
+---
+time 1561552139
+old [annotation_1561543585:"Started task" description:"Mapeo y arreglo de modelos nuevos" entry:"1561543581" modified:"1561543585" priority:"M" project:"Freelo.BLP" start:"1561543585" status:"pending" uuid:"474593e2-8476-4243-863f-9e09c8c47d85"]
+new [annotation_1561543585:"Started task" annotation_1561552139:"Stopped task" description:"Mapeo y arreglo de modelos nuevos" entry:"1561543581" modified:"1561552139" priority:"M" project:"Freelo.BLP" status:"pending" uuid:"474593e2-8476-4243-863f-9e09c8c47d85"]
+---
+time 1561557252
+old [annotation_1561543585:"Started task" annotation_1561552139:"Stopped task" description:"Mapeo y arreglo de modelos nuevos" entry:"1561543581" modified:"1561552139" priority:"M" project:"Freelo.BLP" status:"pending" uuid:"474593e2-8476-4243-863f-9e09c8c47d85"]
+new [annotation_1561543585:"Started task" annotation_1561552139:"Stopped task" annotation_1561557252:"Started task" description:"Mapeo y arreglo de modelos nuevos" entry:"1561543581" modified:"1561557252" priority:"M" project:"Freelo.BLP" start:"1561557252" status:"pending" uuid:"474593e2-8476-4243-863f-9e09c8c47d85"]
+---
+time 1561560776
+old [annotation_1561543585:"Started task" annotation_1561552139:"Stopped task" annotation_1561557252:"Started task" description:"Mapeo y arreglo de modelos nuevos" entry:"1561543581" modified:"1561557252" priority:"M" project:"Freelo.BLP" start:"1561557252" status:"pending" uuid:"474593e2-8476-4243-863f-9e09c8c47d85"]
+new [annotation_1561543585:"Started task" annotation_1561552139:"Stopped task" annotation_1561557252:"Started task" annotation_1561560776:"Stopped task" description:"Mapeo y arreglo de modelos nuevos" entry:"1561543581" modified:"1561560776" priority:"M" project:"Freelo.BLP" status:"pending" uuid:"474593e2-8476-4243-863f-9e09c8c47d85"]
+---

@@ -114,7 +114,7 @@ click-left = $HOME/.config/i3/scripts/tasks-stop.sh
 
 [module/clock]
 type = custom/script
-interval = 1
+interval = 10
 exec = cat /tmp/countdown_time.tmp
 exec-if = [[ -f /tmp/countdown_time.tmp ]]
 format-prefix-foreground = #a29bfe

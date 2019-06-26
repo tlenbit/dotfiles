@@ -1,4 +1,27 @@
 # dotfiles
+
+```
+                   -`                    jc@0x7b1
+                  .o+`                   --------
+                 `ooo/                   OS: Arch Linux x86_64
+                `+oooo:                  Host: 20HQS0DN00 ThinkPad X1 Carbon 5th
+               `+oooooo:                 Kernel: 5.1.14-arch1-1-ARCH
+               -+oooooo+:                Uptime: 1 hour, 51 mins
+             `/:-:++oooo+:               Packages: 854 (pacman)
+            `/++++/+++++++:              Shell: zsh 5.7.1
+           `/++++++++++++++:             Resolution: 1920x1080
+          `/+++ooooooooooooo/`           WM: i3
+         ./ooosssso++osssssso+`          Theme: Flat-Remix-GTK-Blue-Darkest-Solid-NoBorder [GTK2/3]
+        .oossssso-````/ossssss+`         Icons: Papirus-Dark [GTK2/3]
+       -osssssso.      :ssssssso.        Terminal: alacritty
+      :osssssss/        osssso+++.       Terminal Font: xos4 Terminus
+     /ossssssss/        +ssssooo/-       CPU: Intel i7-7500U (4) @ 3.500GHz
+   `/ossssso+/:-        -:/+osssso+-     GPU: Intel HD Graphics 620
+  `+sso+:-`                 `.-/+oso:    Memory: 2986MiB / 7739MiB
+ `++:.                           `-/+/
+ .`                                 `/
+```
+
 ```
  dunst      > notification daemon
  git        > git config and aliases
@@ -26,5 +49,4 @@ stow * # for a complete configuration
 stow git # for a specific configuration
 ```
 
-
-https://github.com/aeolyus/dotfiles
+> Originaly based on https://github.com/aeolyus/dotfiles

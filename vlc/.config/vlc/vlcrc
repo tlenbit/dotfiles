@@ -3923,7 +3923,7 @@ vod-server=any
 #rt-offset=0
 
 # Play files randomly forever (boolean)
-#random=0
+random=1
 
 # Repeat all (boolean)
 #loop=0

@@ -88,7 +88,7 @@ bindsym $mod+Shift+Prior exec playerctl previous
 bindsym $mod+Shift+Next exec playerctl next
 
 # screenshot
-# whole
+# entire screen
 bindsym Print exec maim -u | xclip -selection clipboard -t image/png && notify-send -i $HOME/.config/i3/scripts/icons/screenshot.svg "Screenshot in clipboard"
 bindsym $mod+Print exec maim -u $HOME/Pictures/screenshots/$(date +%F_%H%M%S).png && notify-send -i $HOME/.config/i3/scripts/icons/screenshot.svg "Screenshot saved"
 bindsym $mod+Ctrl+Print exec maim -u | convert - \( +clone -background black -shadow 80x20+0+15 \) +swap -background none -layers merge +repage $HOME/Pictures/screenshots/$(date +%F_%H%M%S).png && notify-send -i $HOME/.config/i3/scripts/icons/screenshot.svg "Screenshot (styled) saved"
@@ -108,6 +108,8 @@ bindsym $mod+d exec --no-startup-id $HOME/.config/i3/scripts/tasks.sh
 # applications
 # bindsym $mod+w exec firefox
 # bindsym $mod+Shift+w exec firefox --private-window
+bindsym $mod+Shift+w exec chromium %U
+bindsym $mod+w exec chromium --incognito
 bindsym $mod+q exec thunar
 bindsym $mod+e exec subl3
 bindsym $mod+p exec $term -t "Process Manager" -e gotop

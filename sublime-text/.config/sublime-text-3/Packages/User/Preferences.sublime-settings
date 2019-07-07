@@ -19,6 +19,10 @@
 	"line_numbers": true,
 	"margin": 0,
 	"mini_diff": true,
+	"node_path":
+	{
+		"linux": "/usr/bin/node"
+	},
 	"overlay_scroll_bars": "enabled",
 	"tab_size": 2,
 	"theme": "ayu-dark.sublime-theme",

@@ -787,3 +787,46 @@ time 1562162435
 old [annotation_1562161142:"Started task" description:"Desplegar en servidor de desarrollo" entry:"1562160042" modified:"1562161142" priority:"H" project:"Freelo.BLP" start:"1562161142" status:"pending" uuid:"cf8a9e66-f464-41f8-a3f4-30b2327c514a"]
 new [annotation_1562161142:"Started task" annotation_1562162435:"Stopped task" description:"Desplegar en servidor de desarrollo" entry:"1562160042" modified:"1562162435" priority:"H" project:"Freelo.BLP" status:"pending" uuid:"cf8a9e66-f464-41f8-a3f4-30b2327c514a"]
 ---
+time 1562321177
+old [annotation_1562161142:"Started task" annotation_1562162435:"Stopped task" description:"Desplegar en servidor de desarrollo" entry:"1562160042" modified:"1562162435" priority:"H" project:"Freelo.BLP" status:"pending" uuid:"cf8a9e66-f464-41f8-a3f4-30b2327c514a"]
+new [annotation_1562161142:"Started task" annotation_1562162435:"Stopped task" annotation_1562321177:"Started task" description:"Desplegar en servidor de desarrollo" entry:"1562160042" modified:"1562321177" priority:"H" project:"Freelo.BLP" start:"1562321177" status:"pending" uuid:"cf8a9e66-f464-41f8-a3f4-30b2327c514a"]
+---
+time 1562321182
+old [annotation_1562161142:"Started task" annotation_1562162435:"Stopped task" annotation_1562321177:"Started task" description:"Desplegar en servidor de desarrollo" entry:"1562160042" modified:"1562321177" priority:"H" project:"Freelo.BLP" start:"1562321177" status:"pending" uuid:"cf8a9e66-f464-41f8-a3f4-30b2327c514a"]
+new [annotation_1562161142:"Started task" annotation_1562162435:"Stopped task" annotation_1562321177:"Started task" annotation_1562321182:"Stopped task" description:"Desplegar en servidor de desarrollo" end:"1562321182" entry:"1562160042" modified:"1562321182" priority:"H" project:"Freelo.BLP" status:"completed" uuid:"cf8a9e66-f464-41f8-a3f4-30b2327c514a"]
+---
+time 1562321215
+new [description:"Terminar migracion a nuevo codigo" entry:"1562321215" modified:"1562321215" priority:"H" project:"Freelo.BLP" status:"pending" uuid:"13f4bcd9-e793-49c7-b2b6-cb4fc6738be1"]
+---
+time 1562321219
+old [description:"Terminar migracion a nuevo codigo" entry:"1562321215" modified:"1562321215" priority:"H" project:"Freelo.BLP" status:"pending" uuid:"13f4bcd9-e793-49c7-b2b6-cb4fc6738be1"]
+new [annotation_1562321219:"Started task" description:"Terminar migracion a nuevo codigo" entry:"1562321215" modified:"1562321219" priority:"H" project:"Freelo.BLP" start:"1562321219" status:"pending" uuid:"13f4bcd9-e793-49c7-b2b6-cb4fc6738be1"]
+---
+time 1562333465
+old [annotation_1562321219:"Started task" description:"Terminar migracion a nuevo codigo" entry:"1562321215" modified:"1562321219" priority:"H" project:"Freelo.BLP" start:"1562321219" status:"pending" uuid:"13f4bcd9-e793-49c7-b2b6-cb4fc6738be1"]
+new [annotation_1562321219:"Started task" annotation_1562333465:"Stopped task" description:"Terminar migracion a nuevo codigo" entry:"1562321215" modified:"1562333465" priority:"H" project:"Freelo.BLP" status:"pending" uuid:"13f4bcd9-e793-49c7-b2b6-cb4fc6738be1"]
+---
+time 1562339953
+old [annotation_1562321219:"Started task" annotation_1562333465:"Stopped task" description:"Terminar migracion a nuevo codigo" entry:"1562321215" modified:"1562333465" priority:"H" project:"Freelo.BLP" status:"pending" uuid:"13f4bcd9-e793-49c7-b2b6-cb4fc6738be1"]
+new [annotation_1562321219:"Started task" annotation_1562333465:"Stopped task" annotation_1562339953:"Started task" description:"Terminar migracion a nuevo codigo" entry:"1562321215" modified:"1562339953" priority:"H" project:"Freelo.BLP" start:"1562339953" status:"pending" uuid:"13f4bcd9-e793-49c7-b2b6-cb4fc6738be1"]
+---
+time 1562342445
+old [annotation_1562321219:"Started task" annotation_1562333465:"Stopped task" annotation_1562339953:"Started task" description:"Terminar migracion a nuevo codigo" entry:"1562321215" modified:"1562339953" priority:"H" project:"Freelo.BLP" start:"1562339953" status:"pending" uuid:"13f4bcd9-e793-49c7-b2b6-cb4fc6738be1"]
+new [annotation_1562321219:"Started task" annotation_1562333465:"Stopped task" annotation_1562339953:"Started task" annotation_1562342445:"Stopped task" description:"Terminar migracion a nuevo codigo" entry:"1562321215" modified:"1562342445" priority:"H" project:"Freelo.BLP" status:"pending" uuid:"13f4bcd9-e793-49c7-b2b6-cb4fc6738be1"]
+---
+time 1562357890
+old [annotation_1562321219:"Started task" annotation_1562333465:"Stopped task" annotation_1562339953:"Started task" annotation_1562342445:"Stopped task" description:"Terminar migracion a nuevo codigo" entry:"1562321215" modified:"1562342445" priority:"H" project:"Freelo.BLP" status:"pending" uuid:"13f4bcd9-e793-49c7-b2b6-cb4fc6738be1"]
+new [annotation_1562321219:"Started task" annotation_1562333465:"Stopped task" annotation_1562339953:"Started task" annotation_1562342445:"Stopped task" annotation_1562357890:"Started task" description:"Terminar migracion a nuevo codigo" entry:"1562321215" modified:"1562357890" priority:"H" project:"Freelo.BLP" start:"1562357890" status:"pending" uuid:"13f4bcd9-e793-49c7-b2b6-cb4fc6738be1"]
+---
+time 1562367595
+old [annotation_1562321219:"Started task" annotation_1562333465:"Stopped task" annotation_1562339953:"Started task" annotation_1562342445:"Stopped task" annotation_1562357890:"Started task" description:"Terminar migracion a nuevo codigo" entry:"1562321215" modified:"1562357890" priority:"H" project:"Freelo.BLP" start:"1562357890" status:"pending" uuid:"13f4bcd9-e793-49c7-b2b6-cb4fc6738be1"]
+new [annotation_1562321219:"Started task" annotation_1562333465:"Stopped task" annotation_1562339953:"Started task" annotation_1562342445:"Stopped task" annotation_1562357890:"Started task" annotation_1562367595:"Stopped task" description:"Terminar migracion a nuevo codigo" entry:"1562321215" modified:"1562367595" priority:"H" project:"Freelo.BLP" status:"pending" uuid:"13f4bcd9-e793-49c7-b2b6-cb4fc6738be1"]
+---
+time 1562409227
+old [annotation_1562321219:"Started task" annotation_1562333465:"Stopped task" annotation_1562339953:"Started task" annotation_1562342445:"Stopped task" annotation_1562357890:"Started task" annotation_1562367595:"Stopped task" description:"Terminar migracion a nuevo codigo" entry:"1562321215" modified:"1562367595" priority:"H" project:"Freelo.BLP" status:"pending" uuid:"13f4bcd9-e793-49c7-b2b6-cb4fc6738be1"]
+new [annotation_1562321219:"Started task" annotation_1562333465:"Stopped task" annotation_1562339953:"Started task" annotation_1562342445:"Stopped task" annotation_1562357890:"Started task" annotation_1562367595:"Stopped task" annotation_1562409227:"Started task" description:"Terminar migracion a nuevo codigo" entry:"1562321215" modified:"1562409227" priority:"H" project:"Freelo.BLP" start:"1562409227" status:"pending" uuid:"13f4bcd9-e793-49c7-b2b6-cb4fc6738be1"]
+---
+time 1562411040
+old [annotation_1562321219:"Started task" annotation_1562333465:"Stopped task" annotation_1562339953:"Started task" annotation_1562342445:"Stopped task" annotation_1562357890:"Started task" annotation_1562367595:"Stopped task" annotation_1562409227:"Started task" description:"Terminar migracion a nuevo codigo" entry:"1562321215" modified:"1562409227" priority:"H" project:"Freelo.BLP" start:"1562409227" status:"pending" uuid:"13f4bcd9-e793-49c7-b2b6-cb4fc6738be1"]
+new [annotation_1562321219:"Started task" annotation_1562333465:"Stopped task" annotation_1562339953:"Started task" annotation_1562342445:"Stopped task" annotation_1562357890:"Started task" annotation_1562367595:"Stopped task" annotation_1562409227:"Started task" annotation_1562411040:"Stopped task" description:"Terminar migracion a nuevo codigo" entry:"1562321215" modified:"1562411040" priority:"H" project:"Freelo.BLP" status:"pending" uuid:"13f4bcd9-e793-49c7-b2b6-cb4fc6738be1"]
+---

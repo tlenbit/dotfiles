@@ -25,6 +25,7 @@
   "terminal.integrated.fontSize": 12,
   "terminal.integrated.fontFamily": "Input Mono Narrow",
   "explorer.confirmDelete": false,
+  "terminal.external.linuxExec": "alacritty",
   "editor.tokenColorCustomizations": {
     "[White Night]": {
       "comments": "#ff6b81",

@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=Docker
+Comment=Docker daemon
+Exec=sudo systemctl start docker
+Icon=/home/jc/.local/share/icons/hicolor/16x16/apps/docker.svg
+Terminal=false
+Type=Application
+Categories=Uitlities;
+Keywords=docker;

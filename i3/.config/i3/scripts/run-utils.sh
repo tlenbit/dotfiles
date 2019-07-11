@@ -14,12 +14,26 @@ function translate_word {
 	cat /usr/share/dict/cracklib-small | rofi -dmenu -i -p "word" -width 15 -lines 6 -matching regex | xargs -I{} xdg-open https://www.linguee.com/english-spanish/search\?source\=auto\&query\=\{\}
 }
 
-function translate_text {
-	rofi -dmenu -i -p "text" -width 30 -lines 0 | xargs -I{} xdg-open https://www.deepl.com/translator\#en/es/\{\}
-}
-
 function clean_system {
-	bleachbit --clean --preset && paccache -r && pacman -Sc && sudo pacman -Rns $(pacman -Qtdq) && notify-send "System cleared"
+	icon=$HOME/.config/i3/scripts/icons/user-trash-full.svg
+
+	# Cleaning the system with bleachbit utility, first scan and then remove
+	notify-send -u low -i "$icon" "[1/5] Cleaning the system - Bleachbit preview"
+	bleachbit --preview --preset >/dev/null
+
+	notify-send -u low -i "$icon" "[2/5] Cleaning the system - Bleachbit clean"
+	bleachbit --clean --preset >/dev/null
+
+	notify-send -u low -i "$icon" "[3/5] Cleaning the system - Paccache remove"
+	paccache -r
+
+	notify-send -u low -i "$icon" "[4/5] Cleaning the system - Pacman cache remove"
+	sudo pacman -Sc
+
+	notify-send -u low -i "$icon" "[5/5] Cleaning the system - Pacman orphans remove"
+	sudo pacman -Rns $(pacman -Qtdq)
+
+	notify-send -u low -i $HOME/.config/i3/scripts/icons/cleaned.svg "The system is now clean!"
 }
 
 function clone_repo {
@@ -49,21 +63,27 @@ function show_calendar {
 	rofi -e "$(cal 2019)" -fullscreen -markup
 }
 
+function kill_current_timer {
+	$HOME/.config/polybar/scripts/kill-timer.sh
+}
+
 function run_countdown {
-	time_minutes=`rofi -dmenu -p 'Time (minutes)' -width 10`
+	kill_current_timer
+
+	time_minutes=$1
 	time_seconds="$(($time_minutes*60))"
 
-	echo "$$" > /tmp/countdown_pid.tmp
+	echo "$$" > /tmp/timer_pid.tmp
 
   date1=$((`date +%s` + "$time_seconds"));
   while [ "$date1" -ge `date +%s` ]; do
   	time="$(date -u --date @$(($date1 - `date +%s`)) +%H:%M:%S)"
-  	echo -ne "$time" > /tmp/countdown_time.tmp
+  	echo -ne "$time" > /tmp/timer_time.tmp
     sleep 0.1
   done
 
-  rm /tmp/countdown_time.tmp
-  rm /tmp/countdown_pid.tmp
+  rm /tmp/timer_time.tmp
+  rm /tmp/timer_pid.tmp
 
   # TODO: disable vlc notification trigger and replace it with notify-send
   vlc \
@@ -89,11 +109,23 @@ function run_stopwatch {
 	# timew start
 
 	# Approach 3
+	kill_current_timer
+
+  notify-send -u low -i $HOME/.config/i3/scripts/icons/time-start.svg "Timer started!"
+
+	echo "$$" > /tmp/timer_pid.tmp
+
   date1=`date +%s`;
    while true; do
-    echo -ne "$(date -u --date @$((`date +%s` - $date1)) +%H:%M:%S)\r";
+   	time="$(date -u --date @$((`date +%s` - $date1)) +%H:%M:%S)"
+    echo -ne "$time" > /tmp/timer_time.tmp
     sleep 0.1
    done
+
+  rm /tmp/timer_time.tmp
+  rm /tmp/timer_pid.tmp
+
+  notify-send -u low -i $HOME/.config/i3/scripts/icons/time-stop.svg "Timer stopped!"
 }
 
 function report_project_tasks {
@@ -108,14 +140,26 @@ function report_project_tasks {
 	# rofi -e "<span color='white'>$report</span>" -width 30 -markup
 }
 
+function toggle_theme {
+	# ALERT: This function contains many flaws such as the consistency of the file
+	# ant the future modification of the theme. In that case modify the settings.ini and
+	# create the respective dark and light versions
+	is_light=`cat $HOME/.config/gtk-3.0/settings.ini | rg -i "dark"`
+	if [[ -z "$is_light" ]]; then
+		cat $HOME/.config/gtk-3.0/settings_dark.ini > $HOME/.config/gtk-3.0/settings.ini
+		notify-send -u low -i $HOME/.config/i3/scripts/icons/state-information.svg "Now the theme is dark"
+	else
+		cat $HOME/.config/gtk-3.0/settings_light.ini > $HOME/.config/gtk-3.0/settings.ini
+		notify-send -u low -i $HOME/.config/i3/scripts/icons/state-information.svg "Now the theme is light"
+	fi
+}
+
 options="Define Word
 Translate Word
-Translate Text
 Clone Repo
 Clean System
-Switch Theme
+Toggle Theme
 Calendar
-Timer
 Countdown
 Stopwatch
 Pomodoro
@@ -131,22 +175,24 @@ case $choice in
 	"Translate Word")
 		translate_word
 		;;
-	"Translate Text")
-		translate_text
-		;;
 	"Clean System")
 		clean_system
 		;;
 	"Clone Repo")
 		clone_repo
 		;;
-	"Switch Theme")
+	"Toggle Theme")
+		toggle_theme
 		;;
 	"Calendar")
 		show_calendar
 		;;
+	"Pomodoro")
+		run_countdown 25
+		;;
 	"Countdown")
-		run_countdown
+		time_minutes=`rofi -dmenu -p 'Time (minutes)' -width 10`
+		run_countdown $time_minutes
 		;;
 	"Stopwatch")
 		run_stopwatch
@@ -157,3 +203,9 @@ case $choice in
 esac
 
 exit 0
+
+
+## Removed utilities
+# function translate_text {
+# 	rofi -dmenu -i -p "text" -width 30 -lines 0 | xargs -I{} xdg-open https://www.deepl.com/translator\#en/es/\{\}
+# }

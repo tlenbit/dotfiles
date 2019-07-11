@@ -19,7 +19,7 @@ font-1 = Siji:pixelsize=8;2
 
 modules-left = i3
 modules-center = title
-modules-right = clock timer tasks cpu memory filesystem wifi volume battery datetime
+modules-right = timer tasktimer cpu memory filesystem wifi volume battery datetime
 
 wm-name = bar
 wm-restack = i3
@@ -81,45 +81,61 @@ exec-if = systemctl is-active bluetooth.service
 exec = echo ""
 
 ; Approach 1
-;[module/timer]
-;type = custom/script
-;interval = 1
-;exec = cat /tmp/termdown.tmp
-;exec-if = [[ -f /tmp/termdown.tmp ]]
-;format = <label>
-;label = "%{F#82ccdd} %output%"
-;;click-right = stop, and prompt total time
-;;click-left = pause
+; [module/tasktimer]
+; type = custom/script
+; interval = 1
+; exec = cat /tmp/termdown.tmp
+; exec-if = [[ -f /tmp/termdown.tmp ]]
+; format = <label>
+; label = "%{F#82ccdd} %output%"
+; ;click-right = stop, and prompt total time
+; ;click-left = pause
 
 ; Approach 2
-;[module/timer]
-;type = custom/script
-;interval = 5
-;exec = echo "$(timew get dom.active.duration | $HOME/.config/polybar/format-time.py )"
-;exec-if = [ $(timew get dom.active) == 1 ]
-;format-prefix = " "
-;format-prefix-foreground = #82ccdd
-;click-left = timew stop && notify-send -u low -i $HOME/.config/i3/scripts/icons/state-information.svg "Timer stoppped"
+; [module/tasktimer]
+; type = custom/script
+; interval = 5
+; exec = echo "$(timew get dom.active.duration | $HOME/.config/polybar/format-time.py )"
+; exec-if = [ $(timew get dom.active) == 1 ]
+; format-prefix = " "
+; format-prefix-foreground = #82ccdd
+; click-left = timew stop && notify-send -u low -i $HOME/.config/i3/scripts/icons/state-information.svg "Timer stoppped"
 
 ; Approach 3
-[module/timer]
-type = custom/script
-interval = 5
-exec-if = task active
-exec = $HOME/.config/polybar/scripts/task-timer.sh
-format-prefix-foreground = #a29bfe
-label = "%{F#ff7f50} %{F-}%output%"
-format-padding = 0
-click-left = $HOME/.config/i3/scripts/tasks-stop.sh
+; [module/tasktimer]
+; type = custom/script
+; interval = 5
+; exec-if = task active
+; exec = $HOME/.config/polybar/scripts/task-timer.sh
+; format-prefix-foreground = #a29bfe
+; label = "%{F#ff7f50} %{F-}%output%"
+; format-padding = 0
+; click-left = $HOME/.config/i3/scripts/tasks-stop.sh
 
-[module/clock]
+; [module/tasks]
+; type = custom/script
+; interval = 60
+; exec = task status:pending count
+; exec-if = task
+; format-prefix = " "
+; format-prefix-foreground = #b8e994
+
+; Tasktimer is the merge of tasks and tasktimer
+[module/tasktimer]
 type = custom/script
 interval = 10
-exec = cat /tmp/countdown_time.tmp
-exec-if = [[ -f /tmp/countdown_time.tmp ]]
+exec-if = task
+exec = $HOME/.config/polybar/scripts/task-timer.sh
+
+; Timer involves stopwatch and countdown utilities (only one of both can be used at the same time)
+[module/timer]
+type = custom/script
+interval = 10
+exec = cat /tmp/timer_time.tmp
+exec-if = [[ -f /tmp/timer_time.tmp ]]
 format-prefix-foreground = #a29bfe
-label = "%{F#ff7f50} %{F-}%output%"
-click-left = kill -9 $(cat /tmp/countdown_pid.tmp) && rm /tmp/countdown_* && notify-send -u low -i $HOME/.config/i3/scripts/icons/state-information.svg "Countdown stopped"
+label = "%{F#ff7f50} %{F-}%output%"
+click-left = $HOME/.config/polybar/scripts/kill-timer.sh
 
 [module/music]
 type = custom/script
@@ -128,14 +144,6 @@ exec = echo "03:40"
 # label = "%{F#079992} %{F#079992}%output%"
 format-prefix = " "
 format-prefix-foreground = #079992
-
-[module/tasks]
-type = custom/script
-interval = 60
-exec = task status:pending count
-exec-if = task
-format-prefix = " "
-format-prefix-foreground = #b8e994
 
 [module/battery]
 type = internal/battery
@@ -214,6 +222,13 @@ type = custom/script
 interval = 60
 exec = echo "2"
 format-prefix = " "
+format-prefix-foreground = #a29bfe
+
+[module/docker]
+type = custom/script
+interval = 1
+exec = echo "%{F#82ccdd}Docker"
+;format-prefix = " "
 format-prefix-foreground = #a29bfe
 
 [module/screenrecord]

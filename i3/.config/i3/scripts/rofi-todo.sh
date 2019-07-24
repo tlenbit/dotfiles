@@ -6,7 +6,8 @@ if [[ ! -a "${TODO_FILE}" ]]; then
 fi
 
 function add_todo() {
-    echo -e "`date +"%B %d %H:%M"` $*" >> "${TODO_FILE}"
+    #echo -e "`date +"%B %d %H:%M"` $*" >> "${TODO_FILE}"
+    echo -e "$*" >> "${TODO_FILE}"
 }
 
 function remove_todo() {

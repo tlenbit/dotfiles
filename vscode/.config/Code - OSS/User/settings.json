@@ -6,7 +6,7 @@
   "window.zoomLevel": 0,
   "window.menuBarVisibility": "hidden",
   "editor.renderIndentGuides": true,
-  "editor.minimap.enabled": true,
+  "editor.minimap.enabled": false,
   "workbench.iconTheme": "vs-minimal",
   "editor.wordWrap": "off",
   "workbench.editor.tabSizing": "shrink",
@@ -28,8 +28,9 @@
   "terminal.external.linuxExec": "alacritty",
   "editor.tokenColorCustomizations": {
     "[White Night]": {
-      "comments": "#ff6b81",
-      "functions": "#badc58",
+      "comments": "#ff7979",
+      // "functions": "#badc58",
+      "functions": "#999",
     }
   },
   "workbench.colorCustomizations": {

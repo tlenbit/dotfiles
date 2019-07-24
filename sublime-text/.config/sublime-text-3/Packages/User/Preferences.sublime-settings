@@ -11,7 +11,7 @@
 	],
 	"font_size": 8,
 	"gutter": true,
-	"highlight_line": true,
+	"highlight_line": false,
 	"ignored_packages":
 	[
 		"Vintage"
@@ -24,7 +24,6 @@
 		"linux": "/usr/bin/node"
 	},
 	"overlay_scroll_bars": "enabled",
-	"spell_check": true,
 	"tab_size": 2,
 	"theme": "Adaptive.sublime-theme",
 	"ui_separator": true,

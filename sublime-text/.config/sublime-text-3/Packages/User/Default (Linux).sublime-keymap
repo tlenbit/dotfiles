@@ -6,4 +6,9 @@
 	{ "keys": ["alt+right"], "command": "next_bookmark" },
   { "keys": ["alt+pagedown"], "command": "find_next" },
   { "keys": ["alt+pageup"], "command": "find_prev" },
+  {
+  "keys": ["f1"],
+  "command": "dired",
+  "args": { "immediate": true }
+}
 ]

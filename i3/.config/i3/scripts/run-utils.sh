@@ -136,6 +136,7 @@ function report_project_tasks {
 	fi
 	# report=`{ task burndown.weekly test & "$HOME"/.config/i3/scripts/tasktime.py "$project" }`
 	report=`"$HOME"/.config/i3/scripts/tasktime.py -r "$project"`
+	cat "$report"
 	rofi -e "$report" -width 15 -markup -fullscreen
 	# rofi -e "<span color='white'>$report</span>" -width 30 -markup
 }

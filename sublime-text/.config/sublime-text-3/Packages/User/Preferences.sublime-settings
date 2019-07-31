@@ -9,7 +9,7 @@
 		"no_italic",
 		"no_bold"
 	],
-	"font_size": 8,
+	"font_size": 9,
 	"gutter": true,
 	"highlight_line": false,
 	"ignored_packages":

@@ -29,4 +29,4 @@ stow * # for a complete configuration
 stow git # for a specific configuration
 ```
 
-> Originaly based on https://github.com/aeolyus/dotfiles
+> Originally based on https://github.com/aeolyus/dotfiles

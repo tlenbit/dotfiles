@@ -19,7 +19,7 @@ font-1 = Siji:pixelsize=8;2
 
 modules-left = i3
 modules-center = title
-modules-right = timer tasktimer cpu memory filesystem wifi volume battery datetime
+modules-right = torrent timer tasktimer cpu memory filesystem wifi volume battery datetime
 
 wm-name = bar
 wm-restack = i3
@@ -220,9 +220,11 @@ label = "%{F#4bcffa} %{F-}%percentage%%"
 [module/torrent]
 type = custom/script
 interval = 60
-exec = echo "2"
+exec-if = transmission-remote --auth arch:linux -l
+exec = transmission-remote --auth arch:linux -l | grep Downloading | wc -l
 format-prefix = " "
 format-prefix-foreground = #a29bfe
+click-left = transmission-remote --auth arch:linux --exit && notify-send -u low -i $HOME/.config/i3/scripts/icons/state-information.svg "Transmission Stopped"
 
 [module/docker]
 type = custom/script

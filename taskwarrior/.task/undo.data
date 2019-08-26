@@ -1031,3 +1031,15 @@ time 1565226751
 old [annotation_1565190758:"Started task" annotation_1565194049:"Stopped task" annotation_1565204703:"Started task" description:"calculadora inversa" entry:"1565120812" modified:"1565204703" priority:"H" project:"Freelo.BLP" start:"1565204703" status:"pending" uuid:"7d9745fb-bb82-4d5b-b628-91b3f70afaf4"]
 new [annotation_1565190758:"Started task" annotation_1565194049:"Stopped task" annotation_1565204703:"Started task" annotation_1565226751:"Stopped task" description:"calculadora inversa" entry:"1565120812" modified:"1565226751" priority:"H" project:"Freelo.BLP" status:"pending" uuid:"7d9745fb-bb82-4d5b-b628-91b3f70afaf4"]
 ---
+time 1565359905
+old [annotation_1565190758:"Started task" annotation_1565194049:"Stopped task" annotation_1565204703:"Started task" annotation_1565226751:"Stopped task" description:"calculadora inversa" entry:"1565120812" modified:"1565226751" priority:"H" project:"Freelo.BLP" status:"pending" uuid:"7d9745fb-bb82-4d5b-b628-91b3f70afaf4"]
+new [annotation_1565190758:"Started task" annotation_1565194049:"Stopped task" annotation_1565204703:"Started task" annotation_1565226751:"Stopped task" annotation_1565359905:"Started task" description:"calculadora inversa" entry:"1565120812" modified:"1565359905" priority:"H" project:"Freelo.BLP" start:"1565359905" status:"pending" uuid:"7d9745fb-bb82-4d5b-b628-91b3f70afaf4"]
+---
+time 1565373113
+old [annotation_1565190758:"Started task" annotation_1565194049:"Stopped task" annotation_1565204703:"Started task" annotation_1565226751:"Stopped task" annotation_1565359905:"Started task" description:"calculadora inversa" entry:"1565120812" modified:"1565359905" priority:"H" project:"Freelo.BLP" start:"1565359905" status:"pending" uuid:"7d9745fb-bb82-4d5b-b628-91b3f70afaf4"]
+new [annotation_1565190758:"Started task" annotation_1565194049:"Stopped task" annotation_1565204703:"Started task" annotation_1565226751:"Stopped task" annotation_1565359905:"Started task" annotation_1565373113:"Stopped task" description:"calculadora inversa" entry:"1565120812" modified:"1565373113" priority:"H" project:"Freelo.BLP" status:"pending" uuid:"7d9745fb-bb82-4d5b-b628-91b3f70afaf4"]
+---
+time 1565970097
+old [annotation_1565190758:"Started task" annotation_1565194049:"Stopped task" annotation_1565204703:"Started task" annotation_1565226751:"Stopped task" annotation_1565359905:"Started task" annotation_1565373113:"Stopped task" description:"calculadora inversa" entry:"1565120812" modified:"1565373113" priority:"H" project:"Freelo.BLP" status:"pending" uuid:"7d9745fb-bb82-4d5b-b628-91b3f70afaf4"]
+new [annotation_1565190758:"Started task" annotation_1565194049:"Stopped task" annotation_1565204703:"Started task" annotation_1565226751:"Stopped task" annotation_1565359905:"Started task" annotation_1565373113:"Stopped task" description:"calculadora inversa" end:"1565970097" entry:"1565120812" modified:"1565970097" priority:"H" project:"Freelo.BLP" status:"completed" uuid:"7d9745fb-bb82-4d5b-b628-91b3f70afaf4"]
+---

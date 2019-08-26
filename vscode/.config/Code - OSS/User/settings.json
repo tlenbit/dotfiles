@@ -6,8 +6,7 @@
   "window.zoomLevel": 0,
   "window.menuBarVisibility": "hidden",
   "editor.renderIndentGuides": true,
-  "editor.minimap.enabled": false,
-  "workbench.iconTheme": "vs-minimal",
+  "editor.minimap.enabled": true,
   "editor.wordWrap": "off",
   "workbench.editor.tabSizing": "shrink",
   "workbench.editor.tabCloseButton": "off",
@@ -31,7 +30,7 @@
       "comments": "#ff7979",
       // "functions": "#badc58",
       "functions": "#999",
-    }
+    },
   },
   "workbench.colorCustomizations": {
     "[White Night]": {
@@ -44,4 +43,5 @@
   "editor.minimap.renderCharacters": false,
   "explorer.confirmDragAndDrop": false,
   "editor.cursorStyle": "block",
+  "workbench.iconTheme": null,
 }

@@ -1,5 +1,5 @@
 ﻿###
-###  vlc 3.0.7.1
+###  vlc 3.0.8
 ###
 
 ###
@@ -58,7 +58,7 @@
 #sout-avi-subject=
 
 # Encoder (string)
-#sout-avi-encoder=VLC Media Player - 3.0.7.1 Vetinari
+#sout-avi-encoder=VLC Media Player - 3.0.8 Vetinari
 
 # Keywords (string)
 #sout-avi-keywords=
@@ -328,6 +328,14 @@ notify-timeout=3000
 
 # Quality mode (integer)
 #sout-vpx-quality-mode=1000000
+
+[dav1d] # Dav1d video decoder
+
+# Frames Threads (integer)
+#dav1d-thread-frames=0
+
+# Tiles Threads (integer)
+#dav1d-thread-tiles=0
 
 [cc] # Closed Captions decoder
 
@@ -1022,7 +1030,7 @@ notify-timeout=3000
 #prefetch-buffer-size=16384
 
 # Read size (integer)
-#prefetch-read-size=16384
+#prefetch-read-size=16777216
 
 # Seek threshold (integer)
 #prefetch-seek-threshold=16384
@@ -1144,6 +1152,29 @@ qt-privacy-ask=0
 
 # Prefix to show on output line (string)
 #sout-stats-prefix=stats
+
+[stream_out_chromecast] # Chromecast stream output
+
+# ? (string)
+#sout-chromecast-ip=
+
+# ? (integer)
+#sout-chromecast-port=8009
+
+# ? (boolean)
+#sout-chromecast-video=1
+
+# HTTP port (integer)
+#sout-chromecast-http-port=8010
+
+# Performance warning (integer)
+#sout-chromecast-show-perf-warning=1
+
+# Enable Audio passthrough (boolean)
+#sout-chromecast-audio-passthrough=0
+
+# Conversion quality (integer)
+#sout-chromecast-conversion-quality=1
 
 [stream_out_standard] # Standard stream output
 

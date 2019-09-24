@@ -103,11 +103,7 @@ bindsym $mod+c exec --no-startup-id "rofi -show calc -modi calc -no-show-match -
 bindsym $mod+x exec $HOME/.config/i3/scripts/powermenu.sh
 bindsym $mod+n exec networkmanager_dmenu
 bindsym $mod+t exec --no-startup-id rofi -modi TODO:$HOME/.config/i3/scripts/rofi-todo.sh -show TODO -width 30
-bindsym $mod+d exec --no-startup-id $HOME/.config/i3/scripts/tasks.sh
-
-# other
-bindsym $mod+j exec subl3 $HOME/Documents/me/misc/temp.md
-bindsym $mod+k exec subl3 $HOME/Documents/me/misc/bitacora.md
+# bindsym $mod+d exec --no-startup-id $HOME/.config/i3/scripts/tasks.sh
 
 # applications
 # bindsym $mod+w exec firefox

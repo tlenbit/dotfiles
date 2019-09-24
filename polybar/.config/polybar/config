@@ -19,7 +19,8 @@ font-1 = Siji:pixelsize=8;2
 
 modules-left = i3
 modules-center = title
-modules-right = torrent timer tasktimer cpu memory filesystem wifi volume battery datetime
+modules-right = torrent timer cpu memory filesystem wifi volume battery datetime
+;modules-right = torrent timer tasktimer cpu memory filesystem wifi volume battery datetime
 
 wm-name = bar
 wm-restack = i3

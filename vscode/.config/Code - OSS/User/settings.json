@@ -6,7 +6,7 @@
   "window.zoomLevel": 0,
   "window.menuBarVisibility": "hidden",
   "editor.renderIndentGuides": true,
-  "editor.minimap.enabled": true,
+  "editor.minimap.enabled": false,
   "editor.wordWrap": "off",
   "workbench.editor.tabSizing": "shrink",
   "workbench.editor.tabCloseButton": "off",
@@ -34,6 +34,7 @@
   },
   "workbench.colorCustomizations": {
     "[White Night]": {
+      "statusBar.foreground": "#7f8fa6",
       "tab.inactiveForeground": "#a4b0be",
       "editorLineNumber.activeForeground": "#7f8fa6",
       "editorLineNumber.foreground": "#353b48",
@@ -44,4 +45,8 @@
   "explorer.confirmDragAndDrop": false,
   "editor.cursorStyle": "block",
   "workbench.iconTheme": null,
+  "workbench.statusBar.visible": true,
+  "python.dataScience.sendSelectionToInteractiveWindow": true,
+  "python.dataScience.jupyterServerURI": "local",
+  "python.formatting.provider": "black",
 }

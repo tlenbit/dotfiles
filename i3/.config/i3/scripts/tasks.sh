@@ -46,12 +46,12 @@ if [[ $line == +* ]]; then
 # otherwise, get the task id to execute other commands
 else
 	task_active=`echo "$line" | awk 'NR==1 { print $1 }'`
+	task_options="Stop\nDone\nView\nDelete"
 
 	if [ "$task_active" = "*" ]; then # selected task is active
 		task_project_name=`echo "$line" | awk 'NR==1 { print $2 }'`
 		task_description=`echo "$line" | cut -f 3- -d " " | sed -e 's/^[ \t]*//'`
 		task_id=`task rc.verbose:nothing rc.report.list.columns:id rc.report.list.labels:id /"$(printf %q "$task_description")"/ limit:1 list | sed -e 's/^[ \t]*//'`
-		task_options="Stop\nDone\nView\nDelete"
 
 		echo "$task_description"
 		echo "$task_id"
@@ -69,6 +69,8 @@ else
 		echo "$task_id"
 		# exit 0
 	fi
+
+	echo "$task_options"
 
 	if [ -z "$task_options" ]; then
 		exit 0

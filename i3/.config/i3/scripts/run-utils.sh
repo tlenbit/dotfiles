@@ -155,17 +155,17 @@ function toggle_theme {
 	fi
 }
 
-options="Define Word
-Translate Word
-Clone Repo
+options="Translate Word
+Define Word
 Clean System
-Toggle Theme
 Calendar
 Countdown
-Stopwatch
-Pomodoro
-Screencast
-Task Report"
+Stopwatch"
+# Toggle Theme
+# Screencast
+# Clone Repo
+# Pomodoro
+# Task Report
 
 choice=$(echo "$options" | rofi -dmenu -i -p 'util' -hide-scrollbar -width -30)
 

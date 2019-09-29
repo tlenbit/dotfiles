@@ -2563,7 +2563,7 @@ qt-privacy-ask=0
 [transform] # Video transformation filter
 
 # Transform type (string)
-#transform-type=90
+transform-type=270
 
 [puzzle] # Puzzle interactive game video filter
 
@@ -2716,7 +2716,7 @@ qt-privacy-ask=0
 #contrast=1.000000
 
 # Image brightness (0-2) (float)
-#brightness=1.000000
+brightness=1.010000
 
 # Image hue (-180..180) (float)
 #hue=0.000000
@@ -3666,7 +3666,7 @@ qt-privacy-ask=0
 #vout=
 
 # Video filter module (string)
-#video-filter=
+video-filter=adjust:transform
 
 # Video splitter module (string)
 #video-splitter=

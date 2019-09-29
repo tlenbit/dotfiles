@@ -93,7 +93,7 @@ function run_countdown {
   	--intf dummy \
   	--novideo \
   	--qt-notification 0 \
-  	$HOME/Documents/me/misc/DIAMOND.WAV 2>/dev/null
+  	$HOME/.config/i3/scripts/bell.wav 2>/dev/null
 }
 
 function run_stopwatch {

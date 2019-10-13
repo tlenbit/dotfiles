@@ -3666,7 +3666,7 @@ brightness=1.010000
 #vout=
 
 # Video filter module (string)
-video-filter=adjust:transform
+#video-filter=
 
 # Video splitter module (string)
 #video-splitter=

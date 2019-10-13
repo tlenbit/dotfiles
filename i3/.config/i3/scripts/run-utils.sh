@@ -155,12 +155,11 @@ function toggle_theme {
 	fi
 }
 
-options="Translate Word
-Define Word
+options="Define Word
 Clean System
 Calendar
-Countdown
 Stopwatch"
+#Countdown
 # Toggle Theme
 # Screencast
 # Clone Repo

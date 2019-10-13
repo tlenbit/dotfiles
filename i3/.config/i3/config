@@ -72,7 +72,8 @@ bindsym $mod+f fullscreen toggle
 bindsym $mod+Shift+space floating toggle
 bindsym Mod1+Tab focus mode_toggle
 bindsym $mod+s sticky toggle
-# bindsym $mod+space scratchpad show
+
+# bindsym $mod+space move scratchpad # scratchpad show
 
 bindsym $mod+Return exec $term
 bindsym XF86Favorites exec $HOME/.config/i3/scripts/run-utils.sh
@@ -103,6 +104,10 @@ bindsym $mod+c exec --no-startup-id "rofi -show calc -modi calc -no-show-match -
 bindsym $mod+x exec $HOME/.config/i3/scripts/powermenu.sh
 bindsym $mod+n exec networkmanager_dmenu
 bindsym $mod+t exec --no-startup-id rofi -modi TODO:$HOME/.config/i3/scripts/rofi-todo.sh -show TODO -width 30
+bindsym $mod+j exec --no-startup-id xdg-open $HOME/Documents/ut
+bindsym $mod+d exec --no-startup-id cat /usr/share/dict/cracklib-small | rofi -dmenu -i -p "word" -width 15 -lines 6 -matching regex | xargs -I{} xdg-open https://www.linguee.com/english-spanish/search\?source\=auto\&query\=\{\}
+bindsym $mod+a exec --no-startup-id chromium --profile-directory=Default --app-id=edcmabgkbicempmpgmniellhbjopafjh
+bindsym $mod+o exec --no-startup-id $HOME/.config/i3/scripts/countdown.sh
 # bindsym $mod+d exec --no-startup-id $HOME/.config/i3/scripts/tasks.sh
 
 # applications
@@ -167,3 +172,5 @@ for_window [class="Gsimplecal"] border pixel 0;
 # for_window [class="Alacritty"] floating enable;
 # for_window [class="Thunar"] resize shrink width 30 px or 30 ppt;
 # for_window [class="Alacritty"] resize shrink height 40 px or 40 ppt;
+
+for_window [class="crx_edcmabgkbicempmpgmniellhbjopafjh"] move scratchpad;

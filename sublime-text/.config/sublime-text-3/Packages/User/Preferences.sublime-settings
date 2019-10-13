@@ -1,17 +1,18 @@
 {
 	"always_show_minimap_viewport": true,
-	"color_scheme": "Packages/ayu/ayu-mirage.sublime-color-scheme",
-	"draw_white_space": "selection",
+	"black_on_save": true,
+	"color_scheme": "Packages/Theme - Cyanide/Monocyanide - Black.tmTheme",
+	"draw_white_space": "all",
 	"fold_buttons": false,
-	"font_face": "xos4 Terminus",
+	"font_face": "Curie",
 	"font_options":
 	[
-		"no_italic",
-		"no_bold"
+		"no_bold",
+		"no_italic"
 	],
 	"font_size": 8,
 	"gutter": true,
-	"highlight_line": false,
+	"highlight_line": true,
 	"ignored_packages":
 	[
 		"Vintage"

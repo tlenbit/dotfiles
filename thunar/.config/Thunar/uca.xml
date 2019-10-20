@@ -1,4 +1,4 @@
-<?xml encoding="UTF-8" version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <actions>
 <action>
 	<icon>utilities-terminal</icon>
@@ -27,6 +27,20 @@
 	<description>Add media files to current playlist, otherwise it will open a new vlc instance</description>
 	<patterns>*</patterns>
 	<audio-files/>
+	<video-files/>
+</action>
+<action>
+	<icon>text-x-generic</icon>
+	<name>Open text file</name>
+	<unique-id>1571483057687476-1</unique-id>
+	<command>subl3 %f/info.md</command>
+	<description>Open new text file in current directory</description>
+	<patterns>*</patterns>
+	<directories/>
+	<audio-files/>
+	<image-files/>
+	<other-files/>
+	<text-files/>
 	<video-files/>
 </action>
 </actions>

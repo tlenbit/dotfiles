@@ -57,7 +57,8 @@ label-maxlen = 100
 [module/datetime]
 type = internal/date
 interval = 30
-label = %date% %time%
+label = %date%
+;label = %date% %time%
 date = %d %b
 time = %H:%M
 format-padding = 1

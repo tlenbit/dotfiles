@@ -15,7 +15,7 @@ source /usr/share/fzf/completion.zsh
 
 export EDITOR="nvim"
 export TERMINAL="alacritty"
-export BROWSER="firefox"
+export BROWSER="chromium"
 
 # aliases
 alias c='xclip -selection clipboard'

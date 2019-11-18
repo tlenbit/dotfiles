@@ -1,6 +1,6 @@
 [Desktop Entry]
 Type=Application
-Version=2.20191015.0
+Version=2.20191113.0
 Name=Kite
 Comment=Kite - ML powered code completions
 Exec=/home/jc/.local/share/kite/kited

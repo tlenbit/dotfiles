@@ -10,5 +10,5 @@
   "keys": ["f1"],
   "command": "dired",
   "args": { "immediate": true }
-}
+  },
 ]

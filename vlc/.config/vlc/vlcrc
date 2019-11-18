@@ -255,7 +255,7 @@
 [notify] # LibNotify Notification Plugin
 
 # Timeout (ms) (integer)
-notify-timeout=3000
+#notify-timeout=4000
 
 [a52] # ATSC A/52 (AC-3) audio decoder
 
@@ -1043,10 +1043,10 @@ notify-timeout=3000
 [skins2] # Skinnable Interface
 
 # Skin to use (string)
-skins2-last=/usr/share/vlc/skins2/default.vlt
+#skins2-last=
 
 # Config of last used skin (string)
-skins2-config=["aboutwin" "aboutwinwin-main" 795 454 330 171 0]["eqwin" "eqwin-main" 795 454 330 171 0]["fullscreenController" "fsc_normal" 710 918 500 130 0]["main" "normal" 710 365 1280 846 1]["plwin" "plwin-normal" 806 419 500 350 0]
+#skins2-config=
 
 # Enable transparency effects (boolean)
 #skins2-transparency=0
@@ -1060,16 +1060,16 @@ skins2-config=["aboutwin" "aboutwinwin-main" 795 454 330 171 0]["eqwin" "eqwin-m
 [qt] # Qt interface
 
 # Start in minimal view (without menus) (boolean)
-qt-minimal-view=1
+#qt-minimal-view=0
 
 # Systray icon (boolean)
 #qt-system-tray=1
 
 # Show notification popup on track change (integer)
-qt-notification=0
+#qt-notification=1
 
 # Start VLC with only a systray icon (boolean)
-qt-start-minimized=1
+#qt-start-minimized=0
 
 # Pause the video playback when minimized (boolean)
 #qt-pause-minimized=0
@@ -1090,13 +1090,13 @@ qt-start-minimized=1
 #qt-fs-controller=1
 
 # Save the recently played items in the menu (boolean)
-qt-recentplay=0
+#qt-recentplay=1
 
 # List of words separated by | to filter (string)
 #qt-recentplay-filter=
 
 # Continue playback? (integer)
-qt-continue=0
+#qt-continue=1
 
 # Embed the file browser in open dialog (boolean)
 #qt-embedded-open=0
@@ -2563,7 +2563,7 @@ qt-privacy-ask=0
 [transform] # Video transformation filter
 
 # Transform type (string)
-transform-type=270
+#transform-type=90
 
 [puzzle] # Puzzle interactive game video filter
 
@@ -2716,7 +2716,7 @@ transform-type=270
 #contrast=1.000000
 
 # Image brightness (0-2) (float)
-brightness=1.010000
+#brightness=1.000000
 
 # Image hue (-180..180) (float)
 #hue=0.000000
@@ -3936,7 +3936,7 @@ brightness=1.010000
 #packetizer=
 
 # VoD server module (string)
-vod-server=any
+#vod-server=
 
 # Use a plugins cache (boolean)
 #plugins-cache=1
@@ -4044,7 +4044,7 @@ vod-server=any
 #extraintf=
 
 # Control interfaces (string)
-control=notify
+#control=
 
 # Mouse wheel vertical axis control (integer)
 #hotkeys-y-wheel-mode=0

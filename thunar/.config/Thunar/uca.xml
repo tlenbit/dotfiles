@@ -33,7 +33,7 @@
 	<icon>text-x-generic</icon>
 	<name>Open text file</name>
 	<unique-id>1571483057687476-1</unique-id>
-	<command>subl3 %f/info.md</command>
+	<command>subl3 %f/file</command>
 	<description>Open new text file in current directory</description>
 	<patterns>*</patterns>
 	<directories/>

@@ -105,6 +105,7 @@ bindsym $mod+x exec $HOME/.config/i3/scripts/powermenu.sh
 bindsym $mod+n exec networkmanager_dmenu
 bindsym $mod+t exec --no-startup-id rofi -modi TODO:$HOME/.config/i3/scripts/rofi-todo.sh -show TODO -width 30
 bindsym $mod+j exec --no-startup-id xdg-open $HOME/Documents/ut
+# bindsym $mod+d exec --no-startup-id cat /usr/share/dict/cracklib-small | rofi -dmenu -i -p "word" -width 15 -lines 6 -matching regex | xargs -I{} chromium --app=https://www.linguee.com/english-spanish/search\?source\=auto\&query\=\{\}
 bindsym $mod+d exec --no-startup-id cat /usr/share/dict/cracklib-small | rofi -dmenu -i -p "word" -width 15 -lines 6 -matching regex | xargs -I{} xdg-open https://www.linguee.com/english-spanish/search\?source\=auto\&query\=\{\}
 bindsym $mod+a exec --no-startup-id chromium --profile-directory=Default --app-id=edcmabgkbicempmpgmniellhbjopafjh
 bindsym $mod+o exec --no-startup-id $HOME/.config/i3/scripts/countdown.sh
@@ -115,7 +116,8 @@ bindsym $mod+o exec --no-startup-id $HOME/.config/i3/scripts/countdown.sh
 # bindsym $mod+Shift+w exec firefox --private-window
 bindsym $mod+Shift+w exec chromium %U
 bindsym $mod+w exec chromium --incognito
-bindsym $mod+q exec thunar
+bindsym $mod+q exec --no-startup-id $term -e ranger
+bindsym $mod+k exec thunar
 bindsym $mod+e exec subl3
 bindsym $mod+p exec $term -t "Process Manager" -e gotop
 

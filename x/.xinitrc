@@ -9,4 +9,6 @@ xset -b
 
 export WINIT_HIDPI_FACTOR=1
 
+udiskie -N &
+
 exec dbus-launch i3

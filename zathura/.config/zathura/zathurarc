@@ -59,3 +59,5 @@ set recolor-keephue "true"
 unmap f
 map f toggle_fullscreen
 map [fullscreen] f toggle_fullscreen
+
+map <C-c> feedkeys ":exec xdg-open $FILE<Return>"

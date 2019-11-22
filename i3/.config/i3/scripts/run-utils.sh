@@ -155,7 +155,19 @@ function toggle_theme {
 	fi
 }
 
+function play_youtube {
+	url=$(rofi -dmenu -p 'url' -width 20)
+
+	if [ -z $url ]; then
+		exit 0
+	fi
+
+	mpc add $(youtube-dl --prefer-insecure -g -f140 "$url")
+	exit 0
+}
+
 options="Define Word
+Play Youtube
 Clean System
 Calendar
 Stopwatch"
@@ -199,6 +211,9 @@ case $choice in
 		;;
 	"Task Report")
 		report_project_tasks
+		;;
+	"Play Youtube")
+		play_youtube
 		;;
 esac
 

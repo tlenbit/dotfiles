@@ -1,0 +1,4 @@
+statusbar_visibility = yes
+header_visibility = no
+display_remaining_time = yes
+

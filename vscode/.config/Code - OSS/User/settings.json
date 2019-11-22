@@ -49,4 +49,5 @@
   "python.dataScience.sendSelectionToInteractiveWindow": true,
   "python.dataScience.jupyterServerURI": "local",
   "python.formatting.provider": "black",
+  "kite.showWelcomeNotificationOnStartup": false,
 }

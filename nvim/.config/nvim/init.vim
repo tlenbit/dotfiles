@@ -1,5 +1,6 @@
-" Some basics:
+"Some basics:
 	nnoremap c "_c
+	set nowrap
 	set nocompatible
 	filetype plugin on
 	syntax on
@@ -12,3 +13,4 @@
 	"let ayucolor="mirage" " for mirage version of theme
 	let ayucolor="dark"   " for dark version of theme
 	colorscheme ayu
+	noremap <Leader>s :update<CR>

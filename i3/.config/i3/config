@@ -84,7 +84,7 @@ bindsym XF86AudioMute exec --no-startup-id $HOME/.config/i3/scripts/volume.sh mu
 bindsym XF86AudioMicMute exec --no-startup-id pactl set-source-mute 1 toggle
 bindsym XF86AudioRaiseVolume exec --no-startup-id $HOME/.config/i3/scripts/volume.sh up
 bindsym XF86AudioLowerVolume exec --no-startup-id $HOME/.config/i3/scripts/volume.sh down
-bindsym $mod+Next exec playerctl play-pause
+bindsym $mod+Next exec playerctl play-pause && mpc toggle
 bindsym $mod+Shift+Prior exec playerctl previous
 bindsym $mod+Shift+Next exec playerctl next
 
@@ -114,12 +114,11 @@ bindsym $mod+o exec --no-startup-id $HOME/.config/i3/scripts/countdown.sh
 # bindsym $mod+w exec firefox
 # bindsym $mod+Shift+w exec firefox --private-window
 
+bindsym $mod+m exec --no-startup-id $term -e ncmpcpp
 bindsym $mod+Shift+w exec chromium %U
 bindsym $mod+w exec chromium --incognito
-
 bindsym $mod+space exec --no-startup-id $term -e ranger
 bindsym $mod+Shift+space exec thunar
-
 bindsym $mod+e exec subl3
 bindsym $mod+p exec $term -t "Process Manager" -e gotop
 

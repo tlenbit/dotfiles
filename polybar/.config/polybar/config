@@ -19,7 +19,7 @@ font-1 = Siji:pixelsize=8;2
 
 modules-left = i3
 modules-center = title
-modules-right = torrent timer cpu memory filesystem wifi volume battery datetime
+modules-right = torrent timer music cpu memory filesystem wifi volume battery datetime
 ;modules-right = torrent timer tasktimer cpu memory filesystem wifi volume battery datetime
 
 wm-name = bar
@@ -141,8 +141,14 @@ click-left = $HOME/.config/polybar/scripts/kill-timer.sh
 
 [module/music]
 type = custom/script
+exec = $HOME/.config/polybar/scripts/mpd-status.sh
+tail = true
+interval = 0
+
+[module/music2]
+type = custom/script
 interval = 1
-exec = echo "03:40"
+exec = mpc current -f "%time%"
 # label = "%{F#079992} %{F#079992}%output%"
 format-prefix = " "
 format-prefix-foreground = #079992

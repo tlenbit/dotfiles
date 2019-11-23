@@ -1,0 +1,10 @@
+#EXTM3U
+#EXTINF:0,stream
+http://stream-relay-geo.ntslive.net/stream
+#EXTINF:0,stream2
+http://stream-relay-geo.ntslive.net/stream2
+#EXTINF:0,CRP_OAS_SC?dist=20001
+https://13683.live.streamtheworld.com/CRP_OAS_SC?dist=20001
+#EXTINF:0,stream
+http://51.255.123.116:6017/stream
+http://192.99.148.184:6710/stream/1/

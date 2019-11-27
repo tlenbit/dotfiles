@@ -1,7 +1,7 @@
 [Desktop Entry]
 NoDisplay=true
 Type=Application
-Version=2.20191121.0
+Version=2.20191125.0
 Name=Kite Copilot
 Exec=/home/jc/.local/share/kite/current/linux-unpacked/kite %u
 Icon=/home/jc/.local/share/icons/hicolor/128x128/apps/kite.png

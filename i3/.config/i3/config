@@ -87,6 +87,8 @@ bindsym XF86AudioLowerVolume exec --no-startup-id $HOME/.config/i3/scripts/volum
 bindsym $mod+Next exec --no-startup-id mpc toggle
 bindsym $mod+Shift+Prior exec --no-startup-id mpc prev
 bindsym $mod+Shift+Next exec --no-startup-id mpc next
+bindsym $mod+Shift+Ctrl+Prior exec --no-startup-id mpc seekthrough -00:00:05
+bindsym $mod+Shift+Ctrl+Next exec --no-startup-id mpc seekthrough +00:00:05
 # bindsym $mod+Next exec playerctl play-pause
 # bindsym $mod+Shift+Prior exec playerctl previous
 # bindsym $mod+Shift+Next exec playerctl next

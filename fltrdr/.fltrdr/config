@@ -1,0 +1,33 @@
+wpm 450
+prev 0
+next 0
+offset 0
+
+set view off
+set progress on
+set status off
+set border off
+set border-top on
+set border-bottom on
+
+sym border ─
+sym border-top-mark ┬
+sym border-bottom-mark ┴
+sym progress ▁
+
+style background #1b1e24
+style countdown #2c323c
+style border #2c323c
+style prompt #2c323c
+style success #55ff00
+style error #ff5500
+style progress-bar #2c323c
+style progress-fill #4feae7
+style status-primary #2c323c
+style status-secondary #4feae7
+style status-background #4feae7
+style text-primary #f0f0f0
+style text-secondary #c0c0c0
+style text-highlight #4feae7
+style text-punct #4feae7
+style text-quote #4feae7

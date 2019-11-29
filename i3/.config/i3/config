@@ -119,6 +119,7 @@ bindsym $mod+o exec --no-startup-id $HOME/.config/i3/scripts/countdown.sh
 # bindsym $mod+w exec firefox
 # bindsym $mod+Shift+w exec firefox --private-window
 
+bindsym $mod+i exec --no-startup-id $term --config-file=$HOME/.config/alacritty/for-reading.yml -e $HOME/.config/i3/scripts/read-text.sh
 bindsym $mod+m exec --no-startup-id $term -e ncmpcpp
 bindsym $mod+Shift+w exec chromium %U
 bindsym $mod+w exec chromium --incognito

@@ -10,9 +10,7 @@ Xft.hintstyle: hintfull
 Xft.lcdfilter: lcddefault
 
 !SXIV COLORS
-sxiv.win_bg_color: #21211F
-sxiv.win_fs_color: #2E2E2C
-sxiv.sel_color:    #2E2E2C
-sxiv.bar_bg_color: #292927
-sxiv.bar_fg_color: #B8B9B4
+Sxiv.foreground: #bbbbbb
+Sxiv.background: #222222
 
+! to apply changes use: xrdb -load .Xresources

@@ -2,6 +2,7 @@
 	"always_show_minimap_viewport": true,
 	"black_on_save": true,
 	"color_scheme": "Packages/Theme - Cyanide/Cyanide - Golden.tmTheme",
+	"dictionary": "Packages/Language - English/en_US.dic",
 	"draw_white_space": "all",
 	"fold_buttons": false,
 	"font_face": "xos4 Terminus",
@@ -25,6 +26,7 @@
 		"linux": "/usr/bin/node"
 	},
 	"overlay_scroll_bars": "enabled",
+	"spell_check": false,
 	"tab_size": 2,
 	"theme": "ayu-dark.sublime-theme",
 	"ui_separator": true,

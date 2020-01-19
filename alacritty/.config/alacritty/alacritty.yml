@@ -89,7 +89,7 @@ tabspaces: 8
 # Font configuration (changes require restart)
 font:
   normal:
-    family: xos4 Terminus
+    family: Terminus
   # Normal (roman) font face
   #normal:
     # Font family

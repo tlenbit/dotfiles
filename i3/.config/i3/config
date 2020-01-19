@@ -63,6 +63,7 @@ bindsym $mod+Shift+Down move down
 bindsym $mod+Shift+Up move up
 bindsym $mod+Shift+Right move right
 
+bindsym $mod+Shift+f floating toggle
 bindsym $mod+h split h
 bindsym $mod+v split v
 bindsym $mod+r mode "resize"
@@ -116,7 +117,6 @@ bindsym $mod+e exec subl3
 bindsym $mod+p exec $term -t "Process Manager" -e gotop
 
 # No longer used
-# bindsym $mod+Shift+space floating toggle
 # bindsym $mod+space move scratchpad # scratchpad show
 # bindsym $mod+Next exec playerctl play-pause
 # bindsym $mod+Shift+Prior exec playerctl previous

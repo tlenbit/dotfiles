@@ -18,7 +18,7 @@
    darkgray:         #848484;
    scrollbarcolor:   #505050;
 
-   font: "xos4 Terminus 8";
+   font: "Terminus 8";
    background-color: @blackdarkest;
 }
 

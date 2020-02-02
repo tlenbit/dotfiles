@@ -48,6 +48,10 @@
   "workbench.statusBar.visible": true,
   "python.dataScience.sendSelectionToInteractiveWindow": true,
   "python.dataScience.jupyterServerURI": "local",
-  "python.formatting.provider": "black",
+  "python.formatting.provider": "autopep8",
   "kite.showWelcomeNotificationOnStartup": false,
+  "python.linting.pylintEnabled": false,
+  "python.linting.flake8Enabled": true,
+  "python.linting.enabled": true,
+  "python.linting.banditEnabled": false,
 }

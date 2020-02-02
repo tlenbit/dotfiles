@@ -20,7 +20,7 @@ set zoom-min 10
 #set guioptions "s"
 set guioptions ""
 
-set font "xos4 Terminus 8"
+set font "Terminus 8"
 
 # zathurarc-dark
 set default-bg "#000000" #00

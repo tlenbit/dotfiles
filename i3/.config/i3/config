@@ -1,6 +1,6 @@
 # general config
 set $mod Mod4
-font pango:xos4 Terminus 8
+font pango:Terminus 8
 new_window pixel 1
 new_float pixel 1
 floating_modifier $mod
@@ -165,7 +165,7 @@ client.urgent           #E53935 #E53935 #24292e #58252B
 exec_always setxkbmap -layout latam
 exec_always xrdb -merge $HOME/.Xresources
 exec_always --no-startup-id $HOME/.config/polybar/launch.sh
-exec --no-startup-id hsetroot -fill "$HOME/Pictures/wallpapers/$(ls $HOME/Pictures/wallpapers | sort -R | head -1)" # set random wallpaper from folder
+exec --no-startup-id hsetroot -cover "$HOME/Pictures/wallpapers/$(ls $HOME/Pictures/wallpapers | sort -R | head -1)" # set random wallpaper from folder
 exec --no-startup-id unclutter --timeout 1 # hide mouse cursor when inactive
 
 # config apps

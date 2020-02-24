@@ -1,6 +1,7 @@
 {
   "editor.fontFamily": "Sudo",
   "editor.fontSize": 16,
+  "editor.fontLigatures": true,
   "editor.lineHeight": 14,
   "workbench.colorTheme": "White Night",
   "window.zoomLevel": 0,

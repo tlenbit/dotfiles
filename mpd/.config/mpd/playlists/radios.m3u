@@ -1,10 +1,23 @@
 #EXTM3U
-#EXTINF:0,stream
+#EXTINF:0,NTS Radio 1
 http://stream-relay-geo.ntslive.net/stream
-#EXTINF:0,stream2
+#EXTINF:0,NTS Radio 2
 http://stream-relay-geo.ntslive.net/stream2
-#EXTINF:0,CRP_OAS_SC?dist=20001
+#EXTINF:0,NTS Slow Focus
+https://stream-mixtape-geo.ntslive.net/mixtape?client=NTSWebApp&t=1582568165534
+#EXTINF:0,NTS Memory Lane
+https://stream-mixtape-geo.ntslive.net/mixtape6?client=NTSWebApp&t=1582568504880
+#EXTINF:0,NTS Poolside
+https://stream-mixtape-geo.ntslive.net/mixtape4?client=NTSWebApp&t=1582568546762
+#EXTINF:0,NTS Expansions
+https://stream-mixtape-geo.ntslive.net/mixtape3?client=NTSWebApp&t=1582568578451
+#EXTINF:0,NTS 4 to the floor
+https://stream-mixtape-geo.ntslive.net/mixtape5?client=NTSWebApp&t=1582568599761
+#EXTINF:0,Radio Oasis
 https://13683.live.streamtheworld.com/CRP_OAS_SC?dist=20001
-#EXTINF:0,stream
+#EXTINF:0,Radio Sonica
 http://51.255.123.116:6017/stream
+#EXTINF:0,Radio Panamericana
 http://192.99.148.184:6710/stream/1/
+#EXTINF:0,Radiomar
+https://18323.live.streamtheworld.com/CRP_MARAAC_TOKEN.aac?tdtok=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6IkRHODNKIn0.eyJ0ZC1yZWciOnRydWUsImlhdCI6MTU4MjU2ODU5NywiZXhwIjoxNTgyNTY4NjEyLCJhdWQiOiJ0ZCIsImlzcyI6InBsYXllciIsInN1YiI6Ik9wZW5TdHJlYW1pbmcifQ.QWzjMWEsh_wSKT4JzdLAaQo-rsYmCXGFtqL8c7mhcbM&csegid=1010&dist=1010&tdsdk=js-%40td&pname=TDSdk&pversion=%40td&banners=none&sbmid=b8661cd5-0199-41ea-8828-0bf4aa884ae1

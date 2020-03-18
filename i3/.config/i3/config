@@ -117,6 +117,7 @@ bindsym $mod+e exec subl3
 bindsym $mod+p exec $term -t "Process Manager" -e gotop
 
 # No longer used
+# bindsym $mod+t exec --no-startup-id $term -t voidtask --config-file=$HOME/.config/alacritty/for-reading-medium.yml -e $HOME/.cargo/bin/void
 # bindsym $mod+space move scratchpad # scratchpad show
 # bindsym $mod+Next exec playerctl play-pause
 # bindsym $mod+Shift+Prior exec playerctl previous
@@ -172,6 +173,7 @@ exec --no-startup-id unclutter --timeout 1 # hide mouse cursor when inactive
 assign [class="Thunar" title="File Operation Progress"] $ws10
 for_window [class="Gsimplecal"] border pixel 0;
 
+# for_window [title="voidtask"] floating enable;
 # for_window [class="^.*"] border pixel 0;
 # for_window [class="vlc"] move scratchpad;
 # for_window [class="WebTorrent"] move scratchpad;

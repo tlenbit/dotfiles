@@ -26,22 +26,22 @@ alias h=hexyl
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 export FZF_DEFAULT_COMMAND='rg --files --no-ignore-vcs --hidden'
 export FZF_CTRL_T_COMMAND=$FZF_DEFAULT_COMMAND
-export FZF_CTRL_T_OPTS='--preview "bat --style=numbers --color=always {} | head -500"'
+export FZF_CTRL_T_OPTS='--height 50% --preview-window bottom:80% --preview "bat --style=numbers --color=always {} | head -500"'
 export FZF_DEFAULT_OPTS='--height 50% --layout=reverse --preview-window right:70% --color "fg+:#ffffff,fg:#808e9b"'
 
 # ripgrep
 export RIPGREP_CONFIG_PATH=$HOME/.ripgreprc
 
 # fd - cd to selected directory
-fd() {
-  local dir
-  dir=$(find ${1:-.} -path '*/\.*' -prune \
-                  -o -type d -print 2> /dev/null | fzf +m) &&
-  cd "$dir"
-}
+# fd() {
+#   local dir
+#   dir=$(find ${1:-.} -path '*/\.*' -prune \
+#                   -o -type d -print 2> /dev/null | fzf +m) &&
+#   cd "$dir"
+# }
 
-# fdr - cd to selected parent directory
-fdr() {
+# _fdr - cd to selected parent directory
+_fdr() {
   local declare dirs=()
   get_parent_dirs() {
     if [[ -d "${1}" ]]; then dirs+=("$1"); else return; fi
@@ -86,13 +86,14 @@ FZF-EOF"
 }
 
 # -----------------------------
+# Navigate in fs
 function _fcd() {
     if [[ "$#" != 0 ]]; then
         builtin cd "$@";
         return
     fi
     while true; do
-        local lsd=$(echo ".." && ls -p | grep '/$' | sed 's;/$;;')
+        local lsd=$(echo ".." && ls -pa | grep '/$' | sed 's;/$;;')
         local dir="$(printf '%s\n' "${lsd[@]}" |
             fzf --reverse --preview '
                 __cd_nxt="$(echo {})";
@@ -148,9 +149,22 @@ function drm() {
   [ -n "$cid" ] && docker rm "$cid"
 }
 
+function fif() {
+  if [ ! "$#" -gt 0 ]; then echo "Need a string to search for!"; return 1; fi
+  rg --files-with-matches --no-messages "$1" | 
+  fzf --height 50% --preview-window bottom:80% \
+    --preview "highlight -O ansi -l {} 2> /dev/null | rg --colors 'match:bg:yellow' \
+    --ignore-case --pretty --context 10 '$1' || rg --ignore-case --pretty --context 10 '$1' {}"
+}
+
+alias f=fif
+
 # -----------------------------
 zle -N _fcd
-bindkey '^X' _fcd
+bindkey '^[[1;5B' _fcd # ctrl + down
+
+zle -N _fdr
+bindkey '^[[1;5A' _fdr # ctrl + up
 
 zle -N _ranger_here
 bindkey '^O' _ranger_here
@@ -158,3 +172,22 @@ bindkey '^O' _ranger_here
 export KEYTIMEOUT=1
 bindkey -rpM viins '^['
 bindkey -rpM vicmd '^['
+
+
+alias glNoGraph='git log --color=always --format="%C(auto)%h%d %s %C(black)%C(bold)%cr% C(auto)%an" "$@"'
+_gitLogLineToHash="echo {} | grep -o '[a-f0-9]\{7\}' | head -1"
+_viewGitLogLine="$_gitLogLineToHash | xargs -I % sh -c 'git show --color=always % | diff-so-fancy'"
+
+# fshow_preview - git commit browser with previews
+function fshow_preview() {
+    glNoGraph |
+        fzf --no-sort --reverse --tiebreak=index --no-multi \
+            --ansi --preview="$_viewGitLogLine" \
+                --header "enter to view, alt-y to copy hash" \
+                --bind "enter:execute:$_viewGitLogLine   | less -R" \
+                --bind "alt-y:execute:$_gitLogLineToHash | xclip"
+}
+
+function yta() {
+    mpv --ytdl-format=bestaudio ytdl://ytsearch:"$*"
+}

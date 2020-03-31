@@ -155,7 +155,7 @@ function toggle_theme {
 	fi
 }
 
-function play_youtube {
+function play_youtube_url {
 	url=$(rofi -dmenu -p 'url' -width 20)
 
 	if [ -z $url ]; then
@@ -213,7 +213,7 @@ case $choice in
 		report_project_tasks
 		;;
 	"Play Youtube")
-		play_youtube
+		play_youtube_url
 		;;
 esac
 

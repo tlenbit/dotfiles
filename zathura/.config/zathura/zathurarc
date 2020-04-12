@@ -14,6 +14,7 @@ set selection-clipboard clipboard
 # Titlebar and statusbar tweaks
 set window-title-basename "true"
 set statusbar-home-tilde "true"
+set window-title-page "true"
 
 #zoom settings
 set zoom-min 10

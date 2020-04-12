@@ -17,14 +17,16 @@ function run_countdown {
   rm /tmp/timer_pid.tmp
 
   # TODO: disable vlc notification trigger and replace it with notify-send
-  vlc \
-  	--quiet \
-  	--play-and-exit \
-  	--no-video-title-show \
-  	--intf dummy \
-  	--novideo \
-  	--qt-notification 0 \
-  	$HOME/.config/i3/scripts/bell.wav 2>/dev/null
+  slock
+
+  # vlc \
+  # 	--quiet \
+  # 	--play-and-exit \
+  # 	--no-video-title-show \
+  # 	--intf dummy \
+  # 	--novideo \
+  # 	--qt-notification 0 \
+  # 	$HOME/.config/i3/scripts/bell.wav 2>/dev/null
 }
 
 time_minutes=`rofi -dmenu -p 'Time (minutes)' -width 10`

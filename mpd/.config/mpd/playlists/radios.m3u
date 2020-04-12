@@ -1,4 +1,6 @@
 #EXTM3U
+#EXTINF:0,IDA
+https://streams.radio.co/s053b51423/listen
 #EXTINF:0,NTS Radio 1
 http://stream-relay-geo.ntslive.net/stream
 #EXTINF:0,NTS Radio 2

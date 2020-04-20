@@ -1,9 +1,0 @@
-[Desktop Entry]
-Name=MPD
-Comment=MPD daemon
-Exec=mpd
-Icon=/usr/share/icons/Papirus/16x16/apps/mpd.svg
-Terminal=false
-Type=Application
-Categories=Uitlities;
-Keywords=mpd;

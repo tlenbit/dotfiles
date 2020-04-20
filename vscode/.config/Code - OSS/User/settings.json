@@ -1,6 +1,6 @@
 {
-  "editor.fontFamily": "Sudo",
-  "editor.fontSize": 16,
+  "editor.fontFamily": "Jetbrains Mono",
+  "editor.fontSize": 12,
   "editor.fontLigatures": true,
   "editor.lineHeight": 14,
   "workbench.colorTheme": "White Night",

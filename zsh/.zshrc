@@ -29,6 +29,8 @@ export FZF_CTRL_T_COMMAND=$FZF_DEFAULT_COMMAND
 export FZF_CTRL_T_OPTS='--height 50% --preview-window bottom:80% --preview "bat --style=numbers --color=always {} | head -500"'
 export FZF_DEFAULT_OPTS='--height 50% --layout=reverse --preview-window right:70% --color "fg+:#ffffff,fg:#808e9b"'
 
+# export PATH=PATH:$HOME/.cargo/bin
+
 # ripgrep
 export RIPGREP_CONFIG_PATH=$HOME/.ripgreprc
 

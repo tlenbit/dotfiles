@@ -1,0 +1,7 @@
+show_calendar = 1
+close_on_unfocus = 1
+clock_format = %a %d %b %H:%M
+mainwindow_xoffset = 0
+mainwindow_yoffset = 0
+# external_viewer = sunbird -showdate "%Y-%m-%d"
+# mainwindow_position = center

@@ -1,8 +1,0 @@
-[Desktop Entry]
-Type=Application
-Name=wordpad
-MimeType=application/wps-office.doc;
-Exec=env WINEPREFIX="/home/jc/Downloads/win64" wine start /ProgIDOpen rtffile %f
-NoDisplay=true
-StartupNotify=true
-Icon=97C1_wordpad.0

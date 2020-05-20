@@ -12,4 +12,8 @@
     "key": "ctrl+[Semicolon]",
     "command": "editor.action.commentLine"
   },
+  {
+    "key": "ctrl+shift+[Semicolon]",
+    "command": "workbench.action.terminal.toggleTerminal",
+  }
 ]

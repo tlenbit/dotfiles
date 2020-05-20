@@ -28,7 +28,7 @@
 
 
 [core]
-    editor = vim
+	editor = nvim
 
     # Use custom `.gitignore` and `.gitattributes`
     excludesfile = ~/.gitignore_global

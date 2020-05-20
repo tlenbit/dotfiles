@@ -18,8 +18,6 @@
   "editor.multiCursorModifier": "ctrlCmd",
   "editor.snippetSuggestions": "top",
   "workbench.activityBar.visible": false,
-  "workbench.sideBar.location": "left",
-  "workbench.panel.defaultLocation": "right",
   "editor.formatOnSave": false,
   "editor.minimap.showSlider": "always",
   "terminal.integrated.fontSize": 12,

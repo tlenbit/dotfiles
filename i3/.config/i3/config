@@ -72,6 +72,7 @@ bindsym $mod+b mode "border"
 bindsym $mod+f fullscreen toggle
 bindsym Mod1+Tab focus mode_toggle
 bindsym $mod+s sticky toggle
+bindsym $mod+Shift+s scratchpad show
 
 bindsym $mod+Return exec $term
 bindsym XF86Favorites exec $HOME/.config/i3/scripts/run-utils.sh
@@ -121,7 +122,6 @@ bindsym $mod+j exec gsimplecal
 
 # No longer used
 # bindsym $mod+t exec --no-startup-id $term -t voidtask --config-file=$HOME/.config/alacritty/for-reading-medium.yml -e $HOME/.cargo/bin/void
-# bindsym $mod+space move scratchpad # scratchpad show
 # bindsym $mod+Next exec playerctl play-pause
 # bindsym $mod+Shift+Prior exec playerctl previous
 # bindsym $mod+Shift+Next exec playerctl next
@@ -166,16 +166,20 @@ client.unfocused        #24292e #24292e #b2bec3 #000000
 client.urgent           #E53935 #E53935 #24292e #58252B
 
 # autostart
+exec_always --no-startup-id $HOME/.config/i3/scripts/screen-setup.sh
+# exec_always --no-startup-id $HOME/.config/polybar/launch.sh
 exec_always setxkbmap -layout latam
 exec_always xrdb -merge $HOME/.Xresources
-exec_always --no-startup-id $HOME/.config/polybar/launch.sh
-exec --no-startup-id hsetroot -cover "$HOME/Pictures/wallpapers/$(ls $HOME/Pictures/wallpapers | sort -R | head -1)" # set random wallpaper from folder
 exec --no-startup-id unclutter --timeout 1 # hide mouse cursor when inactive
+# exec --no-startup-id hsetroot -cover "$HOME/Pictures/wallpapers/$(ls $HOME/Pictures/wallpapers | sort -R | head -1)" # set random wallpaper from folder
 
 # config apps
 assign [class="Thunar" title="File Operation Progress"] $ws10
 for_window [class="Gsimplecal"] border pixel 0;
 for_window [class="Toggl Desktop"] floating enable border pixel 0;
+for_window [class="Chromium" instance="crx_aefeiggpkcfffkkcfndjgkiefnpmnbio"] floating enable border pixel 0 move scratchpad;
+
+# move scratchpad
 
 # for_window [title="voidtask"] floating enable;
 # for_window [class="^.*"] border pixel 0;

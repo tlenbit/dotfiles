@@ -22,6 +22,11 @@ alias c='xclip -selection clipboard'
 alias e=$EDITOR
 alias h=hexyl
 
+alias ls='exa'                                                          # ls
+alias l='exa -lbF --git'                                                # list, size, type, git
+alias ll='exa --tree --level=2 --long --classify --header --git'                                             # long list
+alias lS='exa -1'                                                              # one column, just names
+
 # FZF
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 export FZF_DEFAULT_COMMAND='rg --files --no-ignore-vcs --hidden'
@@ -29,7 +34,7 @@ export FZF_CTRL_T_COMMAND=$FZF_DEFAULT_COMMAND
 export FZF_CTRL_T_OPTS='--height 50% --preview-window bottom:80% --preview "bat --style=numbers --color=always {} | head -500"'
 export FZF_DEFAULT_OPTS='--height 50% --layout=reverse --preview-window right:70% --color "fg+:#ffffff,fg:#808e9b"'
 
-# export PATH=PATH:$HOME/.cargo/bin
+export PATH="$HOME/.cargo/bin:$PATH"
 
 # ripgrep
 export RIPGREP_CONFIG_PATH=$HOME/.ripgreprc

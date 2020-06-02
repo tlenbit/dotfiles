@@ -18,7 +18,8 @@
    darkgray:         #848484;
    scrollbarcolor:   #505050;
 
-   font: "Terminus 8";
+   /*font: "Terminus 8";*/
+   font: "Cozette 8";
    background-color: @blackdarkest;
 }
 

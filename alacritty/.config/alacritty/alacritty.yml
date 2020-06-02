@@ -89,7 +89,8 @@ scrolling:
 # Font configuration (changes require restart)
 font:
   normal:
-    family: Terminus
+    family: Cozette
+    # family: Terminus
   # Normal (roman) font face
   #normal:
     # Font family

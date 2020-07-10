@@ -24,7 +24,8 @@
     sort = yes
 
     idle_threshold = 120
-    font = "Terminus 8"
+    font = "Cozette 8"
+    # font = "Terminus 8"
     line_height = 10
     markup = full
 

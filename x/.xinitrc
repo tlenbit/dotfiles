@@ -7,11 +7,6 @@ xinput set-button-map 4 1 0 3
 xinput set-button-map 12 1 0 3
 xinput set-button-map 13 1 0 3
 
-# MagicTrackpad (14)
-xinput set-prop 14 "libinput Natural Scrolling Enabled" 1
-xinput --set-prop 14 "libinput Tapping Enabled" 1
-xinput set-prop 14 "libinput Click Method Enabled" 1 0
-
 xset -b
 
 export WINIT_HIDPI_FACTOR=1

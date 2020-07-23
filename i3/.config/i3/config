@@ -180,6 +180,7 @@ client.urgent           #E53935 #E53935 #24292e #58252B
 
 # autostart
 exec_always --no-startup-id $HOME/.config/i3/scripts/screen-setup.sh
+exec_always --no-startup-id $HOME/.config/i3/scripts/mac-controls.sh
 # exec_always --no-startup-id $HOME/.config/polybar/launch.sh
 exec_always setxkbmap -layout latam
 exec_always xrdb -merge $HOME/.Xresources

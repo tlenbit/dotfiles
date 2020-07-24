@@ -7,19 +7,8 @@
 
 MUSIC_DIR="/media/roygbiv/music"
 COVER="/tmp/cover.png"
+UNKNOWN_COVER="$HOME/.ncmpcpp/cover.png"
 COVER_SIZE=150
-
-BORDERS=false
-BORDER_WIDTH=5
-BORDER_COLOR="white"
-
-function ffmpeg_cover {
-    if $BORDERS; then
-        ffmpeg -loglevel 0 -y -i "$1" -vf "scale=$COVER_SIZE:-1,pad=$COVER_SIZE+$BORDER_WIDTH:ow:(ow-iw)/2:(oh-ih)/2:$BORDER_COLOR" "$COVER"
-    else
-        ffmpeg -loglevel 0 -y -i "$1" -vf "scale=$COVER_SIZE:-1" "$COVER"
-    fi
-}
 
 function fallback_find_cover {
     album="${file%/*}"
@@ -33,19 +22,17 @@ function fallback_find_cover {
     album_cover="$(echo -n "$album_cover" | head -n1)"
 }
 
-{
-    file="$MUSIC_DIR/$(mpc --format %file% current)"
+# {
+file="$MUSIC_DIR/$(mpc --format %file% current)"
 
-    if [[ -n "$file" ]] ; then
-        if ffmpeg_cover "$file"; then
-            # notify-send -u low "_" -h string:x-canonical-private-synchronous:mpd-info -i "$COVER"
-            notify-send -u low "$(mpc --format '%title% \n%artist% - %album%' current)" -h string:x-canonical-private-synchronous:mpd-info -i "$COVER"
-            exit
-        else
-            fallback_find_cover
-            ffmpeg_cover "$album_cover"
-            exit
-        fi
-    fi
-}
+ffmpeg -loglevel 0 -y -i "$file" -vf "scale=$COVER_SIZE:-1" "$COVER"
+HAS_COVER=$?
+
+if [ $HAS_COVER != 0 ]; then
+COVER=$UNKNOWN_COVER
+fi
+
+notify-send -u low "$(mpc --format '%title% \n%artist% - %album%' current)" -h string:x-canonical-private-synchronous:mpd-info -i "$COVER"
+
+exit
 # } &

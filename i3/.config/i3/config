@@ -132,10 +132,11 @@ bindsym $mod+Shift+space exec thunar
 bindsym $mod+e exec subl3
 bindsym $mod+p exec $term -t "Process Manager" -e gotop
 bindsym $mod+y exec --no-startup-id $HOME/.config/i3/scripts/play-youtube.sh
-bindsym $mod+z exec zotero
+bindsym $mod+z exec --no-startup-id $HOME/.config/i3/scripts/zotero-rofi.sh
 bindsym $mod+j exec gsimplecal
 
 # No longer used
+# bindsym $mod+z exec zotero
 # bindsym $mod+t exec --no-startup-id $term -t voidtask --config-file=$HOME/.config/alacritty/for-reading-medium.yml -e $HOME/.cargo/bin/void
 # bindsym $mod+Next exec playerctl play-pause
 # bindsym $mod+Shift+Prior exec playerctl previous

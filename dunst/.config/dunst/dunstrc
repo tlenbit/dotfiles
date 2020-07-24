@@ -42,7 +42,7 @@
     # format = "<b>%s</b>\n%b"
     format = "%s\n%b"
 
-    alignment = left
+    alignment = right
     show_age_threshold = 60
     word_wrap = yes
     ellipsize = middle
@@ -50,8 +50,8 @@
     stack_duplicates = true
     hide_duplicate_count = true
     show_indicators = yes
-    icon_position = left
-    max_icon_size = 40
+    icon_position = right
+    max_icon_size = 100
     #icon_path = /usr/share/icons/gnome/16x16/status/:/usr/share/icons/gnome/16x16/devices/:/usr/share/icons/Adwaita/256x256/status/
     sticky_history = yes
     history_length = 20

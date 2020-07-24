@@ -3,11 +3,12 @@ if ! mpc >/dev/null 2>&1; then
 	echo ""
 	exit 1
 elif mpc status | grep -q playing; then
-	echo "%{F#32ff7e} %{F#FFFFFF}$(mpc current -f '%time%')" # ncmpcpp --current-song '{%l}'
+	echo "%{F#32ff7e}" 
+	# echo "%{F#32ff7e} %{F#FFFFFF}$(mpc current -f '%time%')" # ncmpcpp --current-song '{%l}'
 else
 	# msg="%{F#FFFFFF} %{F#FFFFFF}$(mpc current)"
-	msg="%{F#FFFFFF} %{F#FFFFFF}$(mpc current -f "%artist% - %title%")"
-	echo "$msg"
+	echo "%{F#FFFFFF}"
+	# echo "%{F#FFFFFF} %{F#FFFFFF}$(mpc current -f "%artist% - %title%")"
 	# echo "%{F#FFFFFF} %{F#FFFFFF}$(mpc current) ($(echo -e 'status\nclose' | nc localhost 6600 | awk -F: '/time/{print $3-$2}')s)"
 fi
 

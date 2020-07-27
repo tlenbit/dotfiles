@@ -63,6 +63,16 @@ function play() {
 	display_current_info
 }
 
+function toggle_repeat() {
+	if mpc status | grep -q "repeat: on"; then
+		mpc single off
+		mpc repeat off
+	else
+		mpc single on
+		mpc repeat on
+	fi		
+}
+
 function seekthrough() {
 	case $1 in
 		backward)

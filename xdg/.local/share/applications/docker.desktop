@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=Docker
+GenericName=Docker Daemon
+Icon=terminal
+Exec=sudo systemctl start docker.service
+Terminal=false
+Type=Application
+Categories=Settings;HardwareSettings;
+StartupNotify=true

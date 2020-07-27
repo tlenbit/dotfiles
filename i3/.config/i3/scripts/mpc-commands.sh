@@ -18,7 +18,6 @@ function display_current_info() {
 	    album_cover="$(echo -n "$album_cover" | head -n1)"
 	}
 
-	# {
 	file="$MUSIC_DIR/$(mpc --format %file% current)"
 
 	ffmpeg -loglevel 0 -y -i "$file" -vf "scale=$COVER_SIZE:-1" "$COVER"
@@ -36,6 +35,19 @@ function display_current_info() {
 	fi
 }
 
+function queue_if_empty() {
+	# search=$(mpc queued)
+	# Dependencies
+	# 	ashuffle
+	# 	mpc
+
+	# if current payliust queue reached the end
+	if [ -z "$(mpc queued)" ]; then
+		# add new random tracks to the playlist
+		ashuffle --only 10
+	fi
+}
+
 function play() {
 	case $1 in
 		prev)
@@ -43,18 +55,7 @@ function play() {
 			;;
 		next)
 			mpc_cmd="next"
-			search=$(mpc queued)
-
-			# Dependencies
-			# 	ashuffle
-			# 	mpc
-
-			# if current payliust queue reached the end
-			if [ -z "$search" ]; then
-				# add new random tracks to the playlist
-				echo "YES"
-				ashuffle --only 10
-			fi
+			# queue_if_empty
 			;;
 	esac
 

@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-choice=$(echo -e "Lock\nLogout\nShutdown\nSuspend\nReboot" | rofi -dmenu -i -p 'power' -width 5)
+choice=$(echo -e "Lock\nLogout\nShutdown\nSuspend\nReboot" | rofi -dmenu -i -p '>' -width 5)
 
 if [[ $choice == "Lock" ]]; then
 	# $HOME/.config/i3/scripts/lock.sh

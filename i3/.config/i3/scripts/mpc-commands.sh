@@ -73,6 +73,15 @@ function toggle_repeat() {
 	fi		
 }
 
+# This function play next in the queue a random track of the same album is being reproduced
+# TODO: prevent adding tracks that are already queued
+function queue_random_track() {
+	current_album=$(mpc current --format "%album%")
+	current_artist=$(mpc current --format "%artist%")
+	random_track=$(mpc search album "$current_album" artist "$current_artist" | sort -R | head -1)
+	mpc insert "$random_track"
+}
+
 function seekthrough() {
 	case $1 in
 		backward)

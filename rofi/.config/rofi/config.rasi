@@ -80,7 +80,8 @@ element normal.active {
 
 element selected.normal {
     background-color: @blackselect;
-    text-color:       @fgwhite;
+    text-color:       #fff;
+    /*text-color:       @fgwhite;*/
 }
 
 element selected.urgent {
@@ -141,7 +142,7 @@ prompt {
 entry {
    padding:6px 10px;
    background-color:@blackwidget;
-   text-color:@fgwhite;
+   text-color: @fgwhite;
 }
 
 case-indicator {

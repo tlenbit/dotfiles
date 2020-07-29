@@ -20,7 +20,7 @@ font-1 = Siji:pixelsize=8;2
 
 modules-left = i3
 modules-center = title
-modules-right = torrent timer docker music cpu memory filesystem wifi volume battery datetime
+modules-right = torrent timer midi docker music cpu memory filesystem wifi volume battery datetime
 ;modules-right = torrent timer tasktimer cpu memory filesystem wifi volume battery datetime
 
 wm-name = bar
@@ -241,10 +241,16 @@ type = custom/script
 interval = 60
 exec-if = systemctl is-active docker.service
 exec = docker ps -q | wc -l
-;;exec = docker ps --format '{{.ID}}' | wc -l
 format-prefix = " "
 format-prefix-foreground = #82ccdd
 click-left = sudo systemctl stop docker
+
+[module/midi]
+type = custom/script
+interval = 60
+exec-if = pgrep timidity
+exec = echo "%{F#ED4C67}♯"
+click-left = killall timidity
 
 [module/screenrecord]
 type = custom/script

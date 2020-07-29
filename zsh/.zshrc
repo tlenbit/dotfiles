@@ -35,6 +35,7 @@ export FZF_CTRL_T_OPTS='--height 50% --preview-window bottom:80% --preview "bat 
 export FZF_DEFAULT_OPTS='--height 50% --layout=reverse --preview-window right:70% --color "fg+:#ffffff,fg:#808e9b"'
 
 export PATH="$HOME/.cargo/bin:$PATH"
+# export PATH="$HOME/.local/bin:$PATH"
 
 # ripgrep
 export RIPGREP_CONFIG_PATH=$HOME/.ripgreprc

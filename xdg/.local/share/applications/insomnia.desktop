@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=Insomnia
+GenericName=Insomnia
+Icon=insomnia
+Exec=/home/jc/.local/bin/Insomnia.Core.AppImage
+Terminal=false
+Type=Application
+Categories=Settings;HardwareSettings;
+StartupNotify=true

@@ -11,4 +11,19 @@ fi
 # dwall -s=$(ls /usr/share/dynamic-wallpaper/images | sort -R | head -1) &
 hsetroot -cover "$HOME/Pictures/wallpapers/$(ls $HOME/Pictures/wallpapers | sort -R | head -1)" # set random wallpaper from folder
 
+# Polybar
 $HOME/.config/polybar/launch.sh
+
+# Picom
+if ps -A | grep -q picom; then
+	killall -q picom
+fi
+
+picom -b
+
+# Conky
+if ps -A | grep -q conky; then
+	killall -q conky
+fi
+
+conky -q -d

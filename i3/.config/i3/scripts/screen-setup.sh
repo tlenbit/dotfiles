@@ -56,12 +56,11 @@ function run_conky() {
 }
 
 # RUN SCREEN SETUP (order matters)
-
 set_monitors
 
 run_polybar
-# run_picom
-# run_conky
+run_picom
+run_conky
 
-# set_still_wallpaper
-set_animated_wallpaper
+set_still_wallpaper
+# set_animated_wallpaper

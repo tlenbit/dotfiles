@@ -11,20 +11,24 @@ spacing = 3
 module-margin = 1
 underline-size = 0
 
-background = #24292e
+background = #000000ff
 foreground = #ffffff
 
 ;font-0 = Terminus:pixelsize=8;2
 font-0 = Cozette:pixelsize=8;2
 font-1 = Siji:pixelsize=8;2
-
+|
 modules-left = i3
 modules-center = title
-;modules-right = torrent timer midi docker music wifi volume battery datetime
-modules-right = torrent timer midi docker music cpu memory filesystem wifi volume battery datetime
+modules-right = torrent timer webdav midi docker music wifi volume battery datetime
+;modules-right = torrent timer midi docker music cpu memory filesystem wifi volume battery datetime
 
 wm-name = bar
 wm-restack = i3
+
+;[global/wm]
+;margin-top = 10
+;margin-bottom = 10
 
 [module/i3]
 type = internal/i3
@@ -136,8 +140,9 @@ type = custom/script
 interval = 10
 exec = cat /tmp/timer_time.tmp
 exec-if = [[ -f /tmp/timer_time.tmp ]]
-format-prefix-foreground = #a29bfe
-label = "%{F#ff7f50} %{F-}%output%"
+;format-prefix-foreground = #a29bfe
+;label = "%{F#ff7f50} %{F-}%output%"
+label = "%{F#32ff7e} %{F-}%output%"
 click-left = $HOME/.config/polybar/scripts/kill-timer.sh
 
 [module/music]
@@ -166,10 +171,13 @@ poll-interval = 5
 
 ;format-discharging = <ramp-capacity><label-discharging>
 format-discharging = <ramp-capacity>
-label-charging = "%{F#78e08f} %{F-}%percentage%%"
+label-charging = "%{F#32ff7e} %{F-}%percentage%%"
 label-discharging = "%percentage%% "
+label-full = "%{F#32ff7e} %percentage%%"
 
-label-full = "%{F#78e08f} %percentage%%"
+;label-charging = "%{F#78e08f} %{F-}%percentage%%"
+;label-full = "%{F#78e08f} %percentage%%"
+
 
 ramp-capacity = 100
 
@@ -233,7 +241,8 @@ interval = 60
 exec-if = transmission-remote --auth arch:linux -l
 exec = transmission-remote --auth arch:linux -l | grep Downloading | wc -l
 format-prefix = " "
-format-prefix-foreground = #a29bfe
+format-prefix-foreground = #32ff7e
+;format-prefix-foreground = #a29bfe
 click-left = transmission-remote --auth arch:linux --exit && notify-send -u low -i $HOME/.config/i3/scripts/icons/state-information.svg "Transmission Stopped"
 
 [module/docker]
@@ -242,14 +251,23 @@ interval = 60
 exec-if = systemctl is-active docker.service
 exec = docker ps -q | wc -l
 format-prefix = " "
-format-prefix-foreground = #82ccdd
+format-prefix-foreground = #32ff7e
+;format-prefix-foreground = #82ccdd
 click-left = sudo systemctl stop docker
+
+[module/webdav]
+type = custom/script
+exec-if = pgrep webdav
+exec = echo "%{F#32ff7e}"
+interval = 60
+click-left = killall webdav
 
 [module/midi]
 type = custom/script
 interval = 60
 exec-if = pgrep timidity
-exec = echo "%{F#ED4C67}♯"
+exec = echo "%{F#32ff7e}♯"
+;exec = echo "%{F#ED4C67}♯"
 click-left = killall timidity
 
 [module/screenrecord]

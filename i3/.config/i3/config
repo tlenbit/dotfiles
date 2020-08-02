@@ -49,6 +49,7 @@ bindsym $mod+Shift+0 move container to workspace $ws10
 bindsym $mod+Shift+c reload
 bindsym $mod+Shift+r restart
 bindsym $mod+Shift+q kill
+bindsym $mod+Shift+g gaps inner current toggle 40
 
 bindsym $mod+Ctrl+Left focus left
 bindsym $mod+Ctrl+Down focus down
@@ -124,8 +125,7 @@ bindsym $mod+d exec --no-startup-id cat /usr/share/dict/cracklib-small | rofi -d
 bindsym $mod+a exec --no-startup-id chromium --profile-directory=Default --app-id=edcmabgkbicempmpgmniellhbjopafjh
 bindsym $mod+o exec --no-startup-id $HOME/.config/i3/scripts/countdown.sh
 
-bindsym $mod+i exec --no-startup-id $term --config-file=$HOME/.config/alacritty/for-reading.yml -e $HOME/.config/i3/scripts/read-text.sh
-bindsym $mod+m exec --no-startup-id $term -e ncmpcpp
+bindsym $mod+m exec $term -e ncmpcpp
 bindsym $mod+Shift+w exec chromium %U
 bindsym $mod+w exec chromium --incognito
 bindsym $mod+space exec --no-startup-id $term -e ranger
@@ -137,6 +137,7 @@ bindsym $mod+z exec --no-startup-id $HOME/.config/i3/scripts/zotero-rofi.sh
 bindsym $mod+j exec gsimplecal
 
 # No longer used
+# bindsym $mod+i exec --no-startup-id $term --config-file=$HOME/.config/alacritty/for-reading.yml -e $HOME/.config/i3/scripts/read-text.sh // Input Mono Condensed 13
 # bindsym $mod+z exec zotero
 # bindsym $mod+t exec --no-startup-id $term -t voidtask --config-file=$HOME/.config/alacritty/for-reading-medium.yml -e $HOME/.cargo/bin/void
 # bindsym $mod+Next exec playerctl play-pause

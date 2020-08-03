@@ -1,25 +1,42 @@
 # dotfiles
 
-![Screenshot](images/screenshot_2019-06-26_104850.png)
+![Screenshot](images/2020-08-03_130926.png)
 
 ```
- dunst      > notification daemon
- git        > git config and aliases
- gpg        > gpg-agent config
- i3         > tiling window manager
- mutt       > email client
- nvim       > text editor config
- polybar    > status bar
- ranger     > file manager
- redshift   > screen color temperature
- rofi       > application launcher
- spells     > some automation scripts
- ssh        > ssh-agent service config
- tmux       > terminal multiplexer
- urxvt      > 256 color terminal and some extensions
- xmap       > some keybindings
- zsh        > oh-my-zsh plugins and themes
- ```
+alacritty
+conky
+dunst
+firefox
+fltrdr
+git
+gsimplecal
+gtk
+i3
+mpd
+mpv
+ncmpcpp
+networkmanager
+nvim
+picom
+polybar
+pulseaudio
+qt
+ranger
+ripgrep
+rofi
+scripts
+sublime-text
+sxiv
+thunar
+timidity
+vlc
+vscode
+webdav
+x
+xdg
+zathura
+zsh
+```
 
 # Usage
 ```

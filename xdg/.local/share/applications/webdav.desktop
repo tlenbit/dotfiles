@@ -2,7 +2,7 @@
 Name=Webdav
 GenericName=Webdav
 Icon=terminal
-Exec=webdav --config /home/jc/.config/webdav.yml
+Exec=sh -c "$HOME/.scripts/manage-applications.sh launch_webdav"
 Terminal=false
 Type=Application
 Categories=Settings;HardwareSettings;

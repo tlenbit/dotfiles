@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=Transmission
+GenericName=Transmission
+Icon=transmission
+Exec=sh -c "$HOME/.scripts/manage-applications.sh launch_transmission"
+Terminal=false
+Type=Application
+Categories=Settings;HardwareSettings;
+StartupNotify=true

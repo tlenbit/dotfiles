@@ -2,7 +2,7 @@
 Name=Insomnia
 GenericName=Insomnia
 Icon=insomnia
-Exec=/home/jc/.local/bin/Insomnia.Core.AppImage
+Exec=sh -c "$HOME/.scripts/manage-applications.sh launch_insomnia"
 Terminal=false
 Type=Application
 Categories=Settings;HardwareSettings;

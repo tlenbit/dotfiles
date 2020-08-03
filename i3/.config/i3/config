@@ -55,8 +55,12 @@ bindsym $mod+Ctrl+Left focus left
 bindsym $mod+Ctrl+Down focus down
 bindsym $mod+Ctrl+Up focus up
 bindsym $mod+Ctrl+Right focus right
+
 bindsym $mod+Left workspace prev
 bindsym $mod+Right workspace next
+bindsym $mod+j workspace prev
+bindsym $mod+k workspace next
+
 bindsym $mod+Tab workspace back_and_forth
 bindsym $mod+Shift+Tab workspace next
 bindsym $mod+Shift+Left move left
@@ -76,54 +80,54 @@ bindsym $mod+s sticky toggle
 bindsym $mod+Shift+s scratchpad show
 
 bindsym $mod+Return exec $term
-bindsym XF86Favorites exec $HOME/.config/i3/scripts/run-utils.sh
-bindsym XF86Bluetooth exec $HOME/.config/i3/scripts/toggle-bluetooth.sh
-bindsym XF86MonBrightnessUp exec --no-startup-id $HOME/.config/i3/scripts/brightness.sh up
-bindsym XF86MonBrightnessDown exec --no-startup-id $HOME/.config/i3/scripts/brightness.sh down
-bindsym XF86AudioMute exec --no-startup-id $HOME/.config/i3/scripts/volume.sh mute
+bindsym XF86Bluetooth exec $HOME/.scripts/toggle-bluetooth.sh
+bindsym XF86MonBrightnessUp exec --no-startup-id $HOME/.scripts/brightness.sh up
+bindsym XF86MonBrightnessDown exec --no-startup-id $HOME/.scripts/brightness.sh down
+bindsym XF86AudioMute exec --no-startup-id $HOME/.scripts/volume.sh mute
 bindsym XF86AudioMicMute exec --no-startup-id pactl set-source-mute 1 toggle
-bindsym XF86AudioRaiseVolume exec --no-startup-id $HOME/.config/i3/scripts/volume.sh up
-bindsym XF86AudioLowerVolume exec --no-startup-id $HOME/.config/i3/scripts/volume.sh down
-bindsym XF86AudioPrev exec --no-startup-id $HOME/.config/i3/scripts/mpc-commands.sh play prev
+bindsym XF86AudioRaiseVolume exec --no-startup-id $HOME/.scripts/volume.sh up
+bindsym XF86AudioLowerVolume exec --no-startup-id $HOME/.scripts/volume.sh down
+bindsym XF86AudioPrev exec --no-startup-id $HOME/.scripts/mpc-commands.sh play prev
 bindsym XF86AudioPlay exec --no-startup-id mpc toggle
-bindsym XF86AudioNext exec --no-startup-id $HOME/.config/i3/scripts/mpc-commands.sh play next
-bindsym $mod+XF86AudioNext exec --no-startup-id $HOME/.config/i3/scripts/mpc-commands.sh seekthrough forward
-bindsym $mod+Shift+XF86AudioNext exec --no-startup-id $HOME/.config/i3/scripts/mpc-commands.sh queue_random_track && $HOME/.config/i3/scripts/mpc-commands.sh play next
-bindsym $mod+XF86AudioPlay exec --no-startup-id $HOME/.config/i3/scripts/mpc-commands.sh display_current_info
-bindsym $mod+Shift+XF86AudioPlay exec --no-startup-id $HOME/.config/i3/scripts/mpc-commands.sh toggle_repeat
-bindsym $mod+XF86AudioPrev exec --no-startup-id $HOME/.config/i3/scripts/mpc-commands.sh seekthrough backward
+bindsym XF86AudioNext exec --no-startup-id $HOME/.scripts/mpc-commands.sh play next
+bindsym $mod+XF86AudioNext exec --no-startup-id $HOME/.scripts/mpc-commands.sh seekthrough forward
+bindsym $mod+Shift+XF86AudioNext exec --no-startup-id $HOME/.scripts/mpc-commands.sh queue_random_track && $HOME/.scripts/mpc-commands.sh play next
+bindsym $mod+XF86AudioPlay exec --no-startup-id $HOME/.scripts/mpc-commands.sh display_current_info
+bindsym $mod+Shift+XF86AudioPlay exec --no-startup-id $HOME/.scripts/mpc-commands.sh toggle_repeat
+bindsym $mod+XF86AudioPrev exec --no-startup-id $HOME/.scripts/mpc-commands.sh seekthrough backward
 bindsym $mod+Next exec --no-startup-id mpc toggle
 bindsym $mod+Shift+Prior exec --no-startup-id mpc prev
 bindsym $mod+Shift+Next exec --no-startup-id mpc next
 bindsym $mod+Shift+Ctrl+Prior exec --no-startup-id mpc seekthrough -00:00:05
 bindsym $mod+Shift+Ctrl+Next exec --no-startup-id mpc seekthrough +00:00:05
 
-# screenshot entire screen
-bindsym Print exec maim -u | xclip -selection clipboard -t image/png && notify-send -i $HOME/.config/i3/scripts/icons/screenshot.svg "Screenshot in clipboard"
-bindsym $mod+Print exec maim -u $HOME/Pictures/screenshots/$(date +%F_%H%M%S).png && notify-send -i $HOME/.config/i3/scripts/icons/screenshot.svg "Screenshot saved"
-bindsym $mod+Ctrl+Print exec maim -u | convert - \( +clone -background black -shadow 80x20+0+15 \) +swap -background none -layers merge +repage $HOME/Pictures/screenshots/$(date +%F_%H%M%S).png && notify-send -i $HOME/.config/i3/scripts/icons/screenshot.svg "Screenshot (styled) saved"
+# screenshot bindings
+bindsym Print exec --no-startup-id $HOME/.scripts/screenshot.sh whole_screen_to_clipboard
+bindsym $mod+Print exec --no-startup-id $HOME/.scripts/screenshot.sh whole_screen_to_file
+bindsym $mod+Ctrl+Print exec --no-startup-id $HOME/.scripts/screenshot.sh whole_screen_styled_to_file
+bindsym Shift+Print exec --no-startup-id $HOME/.scripts/screenshot.sh section_screen_to_clipboard
+bindsym $mod+Shift+Print exec --no-startup-id $HOME/.scripts/screenshot.sh section_screen_to_file
+bindsym $mod+Shift+Ctrl+Print exec --no-startup-id $HOME/.scripts/screenshot.sh section_screen_styled_to_file
 
-# screenshot w/ selection
-bindsym Shift+Print exec maim -su | xclip -selection clipboard -t image/png && notify-send -i $HOME/.config/i3/scripts/icons/screenshot.svg "Screenshot section in clipboard"
-bindsym $mod+Shift+Print exec maim -su $HOME/Pictures/screenshots/$(date +%F_%H%M%S)_cropped.png | xclip -selection clipboard -t image/png && notify-send -i $HOME/.config/i3/scripts/icons/screenshot.svg "Screenshot section saved"
-bindsym $mod+Shift+Ctrl+Print exec maim -su | convert - \( +clone -background black -shadow 80x20+0+15 \) +swap -background none -layers merge +repage $HOME/Pictures/screenshots/$(date +%F_%H%M%S)_cropped.png && notify-send -i $HOME/.config/i3/scripts/icons/screenshot.svg "Screenshot section (styled) saved"
-
-# screenshot with apple keyboard key
-bindsym XF86LaunchA exec maim -u | xclip -selection clipboard -t image/png && notify-send -i $HOME/.config/i3/scripts/icons/screenshot.svg "Screenshot in clipboard"
-bindsym $mod+XF86LaunchA exec maim -u $HOME/Pictures/screenshots/$(date +%F_%H%M%S).png && notify-send -i $HOME/.config/i3/scripts/icons/screenshot.svg "Screenshot saved"
-bindsym Shift+XF86LaunchA exec maim -su | xclip -selection clipboard -t image/png && notify-send -i $HOME/.config/i3/scripts/icons/screenshot.svg "Screenshot section in clipboard"
-bindsym $mod+Shift+XF86LaunchA exec maim -su $HOME/Pictures/screenshots/$(date +%F_%H%M%S)_cropped.png | xclip -selection clipboard -t image/png && notify-send -i $HOME/.config/i3/scripts/icons/screenshot.svg "Screenshot section saved"
-
+# bindings for mac keyboard
+bindsym XF86LaunchA exec --no-startup-id $HOME/.scripts/screenshot.sh whole_screen_to_clipboard
+bindsym $mod+XF86LaunchA exec --no-startup-id $HOME/.scripts/screenshot.sh whole_screen_to_file
+bindsym $mod+Ctrl+XF86LaunchA exec --no-startup-id $HOME/.scripts/screenshot.sh whole_screen_styled_to_file
+bindsym Shift+XF86LaunchA exec --no-startup-id $HOME/.scripts/screenshot.sh section_screen_to_clipboard
+bindsym $mod+Shift+XF86LaunchA exec --no-startup-id $HOME/.scripts/screenshot.sh section_screen_to_file
+bindsym $mod+Shift+Ctrl+XF86LaunchA exec --no-startup-id $HOME/.scripts/screenshot.sh section_screen_styled_to_file
 
 # rofi
 bindsym XF86Tools exec rofi -show drun -lines 20 -show-icons -width 10 -drun-display-format "{name}"
+bindsym $mod+q exec rofi -show drun -lines 20 -show-icons -width 10 -drun-display-format "{name}"
 bindsym XF86LaunchB exec rofi -show drun -lines 20 -show-icons -width 10 -drun-display-format "{name}"
 bindsym $mod+c exec --no-startup-id "rofi -show calc -modi calc -no-show-match -no-sort -terse -no-history -width 15"
-bindsym $mod+x exec $HOME/.config/i3/scripts/powermenu.sh
+bindsym $mod+x exec $HOME/.scripts/rofi-utils.sh powermenu
+bindsym $mod+a exec $HOME/.scripts/manage-applications.sh kill_apps
 bindsym $mod+n exec networkmanager_dmenu
 bindsym $mod+d exec --no-startup-id cat /usr/share/dict/cracklib-small | rofi -dmenu -i -p "word" -width 15 -lines 6 -matching regex | xargs -I{} xdg-open https://www.linguee.com/english-spanish/search\?source\=auto\&query\=\{\}
-bindsym $mod+a exec --no-startup-id chromium --profile-directory=Default --app-id=edcmabgkbicempmpgmniellhbjopafjh
-bindsym $mod+o exec --no-startup-id $HOME/.config/i3/scripts/countdown.sh
+bindsym $mod+Shift+d exec --no-startup-id $HOME/.scripts/rofi-utils.sh define_word
+bindsym $mod+o exec --no-startup-id $HOME/.scripts/rofi-utils.sh countdown
 
 bindsym $mod+m exec $term -e ncmpcpp
 bindsym $mod+Shift+w exec chromium %U
@@ -132,11 +136,11 @@ bindsym $mod+space exec --no-startup-id $term -e ranger
 bindsym $mod+Shift+space exec thunar
 bindsym $mod+e exec subl3
 bindsym $mod+p exec $term -t "Process Manager" -e gotop
-bindsym $mod+y exec --no-startup-id $HOME/.config/i3/scripts/play-youtube.sh
-bindsym $mod+z exec --no-startup-id $HOME/.config/i3/scripts/zotero-rofi.sh
-bindsym $mod+j exec gsimplecal
+bindsym $mod+y exec --no-startup-id $HOME/.scripts/rofi-utils play_youtube
+bindsym $mod+z exec --no-startup-id $HOME/.scripts/rofi-utils zotero_collection
 
 # No longer used
+# bindsym $mod+j exec gsimplecal
 # bindsym $mod+i exec --no-startup-id $term --config-file=$HOME/.config/alacritty/for-reading.yml -e $HOME/.config/i3/scripts/read-text.sh // Input Mono Condensed 13
 # bindsym $mod+z exec zotero
 # bindsym $mod+t exec --no-startup-id $term -t voidtask --config-file=$HOME/.config/alacritty/for-reading-medium.yml -e $HOME/.cargo/bin/void
@@ -178,15 +182,14 @@ mode "border" {
 }
 
 # border colors:        border: bg:     text:   indicator:
-client.focused          #636e72 #f5f5f5 #24292e #878787
+client.focused          #636e72 #24292e #24292e #878787
 client.focused_inactive #24292e #24292e #b2bec3 #49483E
 client.unfocused        #24292e #24292e #b2bec3 #000000
 client.urgent           #E53935 #E53935 #24292e #58252B
 
 # autostart
-exec_always --no-startup-id $HOME/.config/i3/scripts/screen-setup.sh
-exec_always --no-startup-id $HOME/.config/i3/scripts/mac-controls.sh
-# exec_always --no-startup-id $HOME/.config/polybar/launch.sh
+exec_always --no-startup-id $HOME/.scripts/screen-setup.sh
+exec_always --no-startup-id $HOME/.scripts/mac-controls.sh
 exec_always setxkbmap -layout latam
 exec_always xrdb -merge $HOME/.Xresources
 exec --no-startup-id unclutter --timeout 1 # hide mouse cursor when inactive

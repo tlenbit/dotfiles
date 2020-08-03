@@ -2,7 +2,7 @@
 Name=Timidity++
 GenericName=Timidity
 Icon=timidity
-Exec=/home/jc/.local/share/applications/timidity.sh
+Exec=sh -c "$HOME/.scripts/manage-applications.sh launch_timidity"
 Terminal=false
 Type=Application
 Categories=Settings;HardwareSettings;

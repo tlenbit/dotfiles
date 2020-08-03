@@ -2,7 +2,7 @@
 Name=MPD
 GenericName=MPD Daemon
 Icon=mpd
-Exec=sh -c "mpd ; ashuffle </dev/null &>/dev/null &"
+Exec=sh -c "$HOME/.scripts/manage-applications.sh launch_mpd"
 Terminal=false
 Type=Application
 Categories=Settings;HardwareSettings;

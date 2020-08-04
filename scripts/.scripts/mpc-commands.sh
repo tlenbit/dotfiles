@@ -63,27 +63,55 @@ function play() {
 	display_current_info
 }
 
-function toggle_same_album() {
-	// TODO: Implement
+function toggle_loop_on_album() {
+	if pgrep -f "ashuffle -f -" > /dev/null; then # if it's in album loop mode
+		# then turn it off to normal
+		if pgrep ashuffle; then 
+			killall ashuffle
+		fi 
+
+		ashuffle </dev/null &>/dev/null &
+		notify-send -u low " MPD: Loop in album mode OFF" -t 500 -h string:x-canonical-private-synchronous:volume_level
+	else
+		# otherwise turn it on
+		if pgrep ashuffle; then 
+			killall ashuffle
+		fi
+
+		current_music_dir=$(mpc current -f "%file%" | awk '{ print $1 }' FS="/")
+		# mpc searchplay filename "$(mpc playlist | tail -1)"
+		mpc ls "$current_music_dir" | ashuffle -f - &>/dev/null &
+		# mpc next
+		notify-send -u low " MPD: Loop in album mode ON" -t 500 -h string:x-canonical-private-synchronous:volume_level
+	fi
 }
 
 function toggle_repeat() {
 	if mpc status | grep -q "repeat: on"; then
 		mpc single off
 		mpc repeat off
+		notify-send -u low " MPD: Repeat mode OFF" -t 500 -h string:x-canonical-private-synchronous:volume_level
 	else
 		mpc single on
 		mpc repeat on
+		notify-send -u low " MPD: Repeat mode ON" -t 500 -h string:x-canonical-private-synchronous:volume_level
 	fi		
+
 }
 
 # This function play next in the queue a random track of the same album is being reproduced
 # TODO: prevent adding tracks that are already queued
 function queue_random_track() {
-	current_album=$(mpc current --format "%album%")
-	current_artist=$(mpc current --format "%artist%")
-	random_track=$(mpc search album "$current_album" artist "$current_artist" | sort -R | head -1)
+	# current_album=$(mpc current --format "%album%")
+	# current_artist=$(mpc current --format "%artist%")
+	# random_track=$(mpc search album "$current_album" artist "$current_artist" | sort -R | head -1)
+	
+	current_music_dir=$(mpc current -f "%file%" | awk '{ print $1 }' FS="/")
+	random_track=$(mpc ls "$current_music_dir" | sort -R | head -1)
 	mpc insert "$random_track"
+
+	# Append whole directory of the current album
+	# mpc ls "$(mpc current -f "%file%" | awk '{ print $1 }' FS="/")" | mpc insert
 }
 
 function seekthrough() {

@@ -60,7 +60,7 @@ set_monitors
 
 run_polybar
 run_picom
-# run_conky
+run_conky
 
 set_still_wallpaper
 # set_animated_wallpaper

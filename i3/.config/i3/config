@@ -51,22 +51,34 @@ bindsym $mod+Shift+r restart
 bindsym $mod+Shift+q kill
 bindsym $mod+Shift+g gaps inner current toggle 40
 
+# vim bindings
+bindsym $mod+Ctrl+h focus left
+bindsym $mod+Ctrl+j focus down
+bindsym $mod+Ctrl+k focus up
+bindsym $mod+Ctrl+l focus right
+
 bindsym $mod+Ctrl+Left focus left
 bindsym $mod+Ctrl+Down focus down
 bindsym $mod+Ctrl+Up focus up
 bindsym $mod+Ctrl+Right focus right
 
-bindsym $mod+Left workspace prev
-bindsym $mod+Right workspace next
-bindsym $mod+j workspace prev
-bindsym $mod+k workspace next
-
-bindsym $mod+Tab workspace back_and_forth
-bindsym $mod+Shift+Tab workspace next
 bindsym $mod+Shift+Left move left
 bindsym $mod+Shift+Down move down
 bindsym $mod+Shift+Up move up
 bindsym $mod+Shift+Right move right
+
+# vim bindings
+bindsym $mod+Shift+h move left
+bindsym $mod+Shift+j move down
+bindsym $mod+Shift+k move up
+bindsym $mod+Shift+l move right
+
+bindsym $mod+Left workspace prev
+bindsym $mod+Right workspace next
+bindsym $mod+j workspace prev
+bindsym $mod+k workspace next
+bindsym $mod+Tab workspace back_and_forth
+bindsym $mod+Shift+Tab workspace next
 
 bindsym $mod+Shift+f floating toggle
 bindsym $mod+h split h
@@ -80,6 +92,9 @@ bindsym $mod+s sticky toggle
 bindsym $mod+Shift+s scratchpad show
 
 bindsym $mod+Return exec $term
+bindsym $mod+Shift+Return exec $term -e ranger
+bindsym $mod+Shift+o open
+
 bindsym XF86Bluetooth exec $HOME/.scripts/toggle-bluetooth.sh
 bindsym XF86MonBrightnessUp exec --no-startup-id $HOME/.scripts/brightness.sh up
 bindsym XF86MonBrightnessDown exec --no-startup-id $HOME/.scripts/brightness.sh down
@@ -94,6 +109,7 @@ bindsym $mod+XF86AudioNext exec --no-startup-id $HOME/.scripts/mpc-commands.sh s
 bindsym $mod+Shift+XF86AudioNext exec --no-startup-id $HOME/.scripts/mpc-commands.sh queue_random_track && $HOME/.scripts/mpc-commands.sh play next
 bindsym $mod+XF86AudioPlay exec --no-startup-id $HOME/.scripts/mpc-commands.sh display_current_info
 bindsym $mod+Shift+XF86AudioPlay exec --no-startup-id $HOME/.scripts/mpc-commands.sh toggle_repeat
+bindsym $mod+Shift+XF86AudioPrev exec --no-startup-id $HOME/.scripts/mpc-commands.sh toggle_loop_on_album
 bindsym $mod+XF86AudioPrev exec --no-startup-id $HOME/.scripts/mpc-commands.sh seekthrough backward
 bindsym $mod+Next exec --no-startup-id mpc toggle
 bindsym $mod+Shift+Prior exec --no-startup-id mpc prev
@@ -123,11 +139,12 @@ bindsym $mod+q exec rofi -show drun -lines 20 -show-icons -width 10 -drun-displa
 bindsym XF86LaunchB exec rofi -show drun -lines 20 -show-icons -width 10 -drun-display-format "{name}"
 bindsym $mod+c exec --no-startup-id "rofi -show calc -modi calc -no-show-match -no-sort -terse -no-history -width 15"
 bindsym $mod+x exec $HOME/.scripts/rofi-utils.sh powermenu
-bindsym $mod+a exec $HOME/.scripts/manage-applications.sh kill_apps
+bindsym $mod+Shift+x exec $HOME/.scripts/manage-applications.sh kill_apps
 bindsym $mod+n exec networkmanager_dmenu
 bindsym $mod+d exec --no-startup-id cat /usr/share/dict/cracklib-small | rofi -dmenu -i -p "word" -width 15 -lines 6 -matching regex | xargs -I{} xdg-open https://www.linguee.com/english-spanish/search\?source\=auto\&query\=\{\}
 bindsym $mod+Shift+d exec --no-startup-id $HOME/.scripts/rofi-utils.sh define_word
 bindsym $mod+o exec --no-startup-id $HOME/.scripts/rofi-utils.sh countdown
+bindsym $mod+a exec --no-startup-id rofi -modi NOTES:$HOME/.scripts/rofi-notes.sh -show NOTES -width 30
 
 bindsym $mod+m exec $term -e ncmpcpp
 bindsym $mod+Shift+w exec chromium %U
@@ -148,7 +165,6 @@ bindsym $mod+z exec --no-startup-id $HOME/.scripts/rofi-utils zotero_collection
 # bindsym $mod+Shift+Prior exec playerctl previous
 # bindsym $mod+Shift+Next exec playerctl next
 # bindsym $mod+d exec --no-startup-id cat /usr/share/dict/cracklib-small | rofi -dmenu -i -p "word" -width 15 -lines 6 -matching regex | xargs -I{} chromium --app=https://www.linguee.com/english-spanish/search\?source\=auto\&query\=\{\}
-# bindsym $mod+t exec --no-startup-id rofi -modi TODO:$HOME/.config/i3/scripts/rofi-todo.sh -show TODO -width 30
 # bindsym $mod+d exec --no-startup-id $HOME/.config/i3/scripts/tasks.sh
 # bindsym $mod+w exec firefox
 # bindsym $mod+Shift+w exec firefox --private-window

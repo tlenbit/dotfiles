@@ -1,12 +1,11 @@
 #!/bin/bash
-TODO_FILE=~/.rofi_todos
+TODO_FILE=~/.notes
 
 if [[ ! -a "${TODO_FILE}" ]]; then
     touch "${TODO_FILE}"
 fi
 
 function add_todo() {
-    #echo -e "`date +"%B %d %H:%M"` $*" >> "${TODO_FILE}"
     echo -e "$*" >> "${TODO_FILE}"
 }
 

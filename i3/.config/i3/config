@@ -145,6 +145,7 @@ bindsym $mod+d exec --no-startup-id cat /usr/share/dict/cracklib-small | rofi -d
 bindsym $mod+Shift+d exec --no-startup-id $HOME/.scripts/rofi-utils.sh define_word
 bindsym $mod+o exec --no-startup-id $HOME/.scripts/rofi-utils.sh countdown
 bindsym $mod+a exec --no-startup-id rofi -modi NOTES:$HOME/.scripts/rofi-notes.sh -show NOTES -width 30
+bindsym $mod+Shift+a exec --no-startup-id $HOME/.scripts/rofi-utils.sh toggl_tasks
 
 bindsym $mod+m exec $term -e ncmpcpp
 bindsym $mod+Shift+w exec chromium %U
@@ -214,6 +215,8 @@ exec --no-startup-id unclutter --timeout 1 # hide mouse cursor when inactive
 # config apps
 assign [class="Thunar" title="File Operation Progress"] $ws10
 for_window [class="Gsimplecal"] border pixel 0;
+for_window [class="Zathura"] border pixel 0;
+for_window [class="Conky"] border pixel 0;
 for_window [class="Toggl Desktop"] floating enable border pixel 0;
 for_window [class="Chromium" instance="crx_aefeiggpkcfffkkcfndjgkiefnpmnbio"] floating enable border pixel 0 move scratchpad;
 

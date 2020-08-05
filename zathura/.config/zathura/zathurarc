@@ -25,11 +25,11 @@ set font "Cozette 8"
 # set font "Terminus 8"
 
 # zathurarc-dark
-set default-bg "#000000" #00
+set default-bg "#000000ff" #00
 set default-fg "#F7F7F6" #01
 
 set statusbar-fg "#B0B0B0" #04
-set statusbar-bg "#202020" #01
+set statusbar-bg "#202020FF" #01
 
 set inputbar-bg "#151515" #00 currently not used
 set inputbar-fg "#FFFFFF" #02
@@ -62,4 +62,9 @@ unmap f
 map f toggle_fullscreen
 map [fullscreen] f toggle_fullscreen
 
-map <C-c> feedkeys ":exec xdg-open $FILE<Return>"
+# map <C-c> feedkeys ":exec xdg-open $FILE<Return>"
+map <C-c> feedkeys ":exec alacritty<Return>"
+
+# TODO: use $HOME instead
+map <C-m> feedkeys ":exec sh -c '/home/jc/.scripts/webdav-utils.sh move_file \"$FILE\"'<Return>"
+map <C-l> feedkeys ":exec sh -c '/home/jc/.scripts/webdav-utils.sh link_file \"$FILE\"'<Return>"

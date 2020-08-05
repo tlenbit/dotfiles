@@ -92,5 +92,30 @@ function countdown() {
   slock
 }
 
+function toggl_tasks() {
+	NOTES_FILE=$HOME/.notes
+
+	notes=$(cat "${NOTES_FILE}")
+	selected_task=$(echo -e "$notes" | rofi rofi -dmenu -i -width 30 -p TOGGL)
+
+	if [[ -z "${selected_task}" ]]; then
+		exit 0
+	fi
+
+	# FLAW: if the command takes longer then everything gets blocked. maybe add a timeout?
+	list_projects=$(toggl projects)
+	selected_project="$(echo -e "$list_projects" | rofi -dmenu -i -width 10 -p PROJECT)"
+	selected_project_id=$(echo "$selected_project" | awk '{ print $1 }')
+	selected_project_name=$(echo "$selected_project" | awk '{ print $2 }')
+
+	if [[ -z "${selected_project_id}" ]]; then
+		exit 0
+	fi
+
+	toggl start "$selected_task" -P "$selected_project_id"
+
+	notify-send -u low " Toggl: [$selected_project_name] $selected_task"
+}
+
 "$@"
 exit 0

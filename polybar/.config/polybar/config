@@ -302,7 +302,7 @@ click-left = sudo systemctl stop docker
 [module/webdav]
 type = custom/script
 exec-if = pgrep webdav
-exec = echo "%{F#636e72}"
+exec = echo "%{F#636e72} %{F-}$(ls $HOME/Desktop/share | wc -l)"
 interval = 60
 click-left = killall webdav
 

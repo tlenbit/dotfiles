@@ -1,35 +1,35 @@
 #!/bin/bash
-TODO_FILE=~/.notes
+NOTES_FILE=$HOME/.notes
 
-if [[ ! -a "${TODO_FILE}" ]]; then
-    touch "${TODO_FILE}"
+if [[ ! -a "${NOTES_FILE}" ]]; then
+	touch "${NOTES_FILE}"
 fi
 
 function add_todo() {
-    echo -e "$*" >> "${TODO_FILE}"
+	echo -e "$*" >> "${NOTES_FILE}"
 }
 
 function remove_todo() {
-    sed -i "/^${*}$/d" "${TODO_FILE}"
+	sed -i "/^${*}$/d" "${NOTES_FILE}"
 }
 
-function get_todos() {
-    echo "$(cat "${TODO_FILE}")"
+function get_notes() {
+	echo "$(cat "${NOTES_FILE}")"
 }
 
 if [ -z "$@" ]; then
-    get_todos
+	get_notes
 else
-    LINE=$(echo "${@}" | sed "s/\([^a-zA-Z0-9]\)/\\\\\\1/g")
-    LINE_UNESCAPED=${@}
-    if [[ $LINE_UNESCAPED == +* ]]; then
-        LINE_UNESCAPED=$(echo $LINE_UNESCAPED | sed s/^+//g |sed s/^\s+//g )
-        add_todo ${LINE_UNESCAPED}
-    else
-        MATCHING=$(grep "^${LINE_UNESCAPED}$" "${TODO_FILE}")
-        if [[ -n "${MATCHING}" ]]; then
-            remove_todo ${LINE_UNESCAPED}
-        fi
-    fi
-    get_todos
+	LINE=$(echo "${@}" | sed "s/\([^a-zA-Z0-9]\)/\\\\\\1/g")
+	LINE_UNESCAPED=${@}
+	if [[ $LINE_UNESCAPED == +* ]]; then
+		LINE_UNESCAPED=$(echo $LINE_UNESCAPED | sed s/^+//g |sed s/^\s+//g )
+		add_todo ${LINE_UNESCAPED}
+	else
+		MATCHING=$(grep "^${LINE_UNESCAPED}$" "${NOTES_FILE}")
+		if [[ -n "${MATCHING}" ]]; then
+			remove_todo ${LINE_UNESCAPED}
+		fi
+	fi
+	get_notes
 fi

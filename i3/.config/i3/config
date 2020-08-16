@@ -199,7 +199,7 @@ mode "border" {
 }
 
 # border colors:        border: bg:     text:   indicator:
-client.focused          #636e72 #24292e #24292e #878787
+client.focused          #636e72 #24292e #24292e #333333
 client.focused_inactive #24292e #24292e #b2bec3 #49483E
 client.unfocused        #24292e #24292e #b2bec3 #000000
 client.urgent           #E53935 #E53935 #24292e #58252B

@@ -298,3 +298,5 @@
     # I really dont recommend powerful commands with  one letter only
     #===========================================
     #  a = add .;
+[pull]
+	ff = only

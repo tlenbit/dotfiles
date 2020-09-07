@@ -6,7 +6,7 @@
 height = 40
 bottom = true
 modules-center = i3
-modules-right = torrent timer webdav midi docker music cpu memory filesystem
+modules-right = torrent timer webdav midi docker music headphone_battery cpu memory filesystem
 modules-left = title 
 
 wm-name = bar
@@ -272,6 +272,12 @@ type = internal/memory
 interval = 5
 label = "%{F#636e72} %{F-}%percentage_used%%"
 ;label = "%{F#82ccdd} %{F-}%percentage_used%%"
+
+[module/headphone_battery]
+type = custom/script
+interval = 1
+exec-if = $HOME/.scripts/headphone-bluetooth.sh check_if_available
+exec = $HOME/.scripts/headphone-bluetooth.sh get_battery_percentage
 
 [module/cpu]
 type = internal/cpu

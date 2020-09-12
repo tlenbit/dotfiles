@@ -288,8 +288,8 @@ label = "%{F#636e72} %{F-}%percentage%%"
 [module/torrent]
 type = custom/script
 interval = 60
-exec-if = transmission-remote --auth arch:linux -l
-exec = transmission-remote --auth arch:linux -l | grep Downloading | wc -l
+exec-if = transmission-remote --auth admin:admin -l
+exec = transmission-remote --auth admin:admin -l | grep Downloading | wc -l
 format-prefix = " "
 format-prefix-foreground = #636e72
 ;format-prefix-foreground = #a29bfe

@@ -154,13 +154,13 @@ bindsym $mod+space exec --no-startup-id $term -e ranger
 bindsym $mod+Shift+space exec thunar
 bindsym $mod+e exec subl3
 bindsym $mod+p exec $term -t "Process Manager" -e gotop
-bindsym $mod+y exec --no-startup-id $HOME/.scripts/rofi-utils play_youtube
-bindsym $mod+z exec --no-startup-id $HOME/.scripts/rofi-utils zotero_collection
+bindsym $mod+y exec --no-startup-id $HOME/.scripts/rofi-utils.sh play_youtube
+bindsym $mod+z exec zotero
+bindsym $mod+Shift+z exec --no-startup-id $HOME/.scripts/rofi-utils.sh zotero_collection
 
 # No longer used
 # bindsym $mod+j exec gsimplecal
 # bindsym $mod+i exec --no-startup-id $term --config-file=$HOME/.config/alacritty/for-reading.yml -e $HOME/.config/i3/scripts/read-text.sh // Input Mono Condensed 13
-# bindsym $mod+z exec zotero
 # bindsym $mod+t exec --no-startup-id $term -t voidtask --config-file=$HOME/.config/alacritty/for-reading-medium.yml -e $HOME/.cargo/bin/void
 # bindsym $mod+Next exec playerctl play-pause
 # bindsym $mod+Shift+Prior exec playerctl previous

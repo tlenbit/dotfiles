@@ -1,6 +1,25 @@
 #!/bin/bash
 
 # -------------------
+# LAUNCH MISC
+# -------------------
+
+function ssh_on_directory() {
+	host_dir=`echo "$1" | awk -F "/home/jc/Desktop/mnt/" '{print $2}'`
+	# /home/jc/Desktop/mnt/ut.cluster.1.master/centos/Ragab
+	if [ -z "$host_dir" ];then
+		send_notification "Can't SSH"
+		exit
+	fi
+
+	host_name=`echo $host_dir | awk -F '/' '{print $1}'`
+	current_dir="/home/${host_dir#*/}"
+	cmd="cd $current_dir; exec \$SHELL -l"
+
+	alacritty -e ssh -t "$host_name" "$cmd"
+}
+
+# -------------------
 # LAUNCH APPLICATIONS
 # -------------------
 

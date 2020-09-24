@@ -117,5 +117,42 @@ function toggl_tasks() {
 	notify-send -u low " Toggl: [$selected_project_name] $selected_task"
 }
 
+function mount_ssh_fs() {
+	list_hosts=`sed -rn 's/^\s*Host\s+(.*)\s*/\1/ip' $HOME/.ssh/config`
+	mounted_hosts=`ls $HOME/Desktop/mnt`
+	list_available=`comm -23 <(echo "$list_hosts" | sort) <(echo "$mounted_hosts" | sort)`
+	hostname=`echo "$list_available" | rofi -dmenu -i -p "Mount Host" -width 15 -lines 15 -matching regex`
+
+	if ! grep -q "$hostname" $HOME/.ssh/config; then
+		notify-send -u low " No host match $hostname"
+		exit 1
+	fi
+
+	# Create a directory for mounting
+	mount_dir="$HOME/Desktop/mnt/$hostname"
+	mkdir -p $mount_dir
+
+	sshfs $hostname:/home $mount_dir
+	notify-send -u low " $hostname successfully mounted!"
+}
+
+function umount_ssh_fs() {
+	mounted_dir=`ls $HOME/Desktop/mnt | rofi -dmenu -i -p "Umount Host" -width 15 -lines 15 -matching regex`
+
+	if [[ -z "${mounted_dir}" ]]; then
+		exit 0
+	fi
+
+	mount_dir="$HOME/Desktop/mnt/$mounted_dir"
+	
+	if umount $mount_dir; then
+		rm -rf $mount_dir
+		notify-send -u low " $mounted_dir successfully umounted"
+		exit 0
+	fi
+
+	notify-send -u low " Error umounting $mounted_dir"
+}
+
 "$@"
-exit 0
+#exit 0

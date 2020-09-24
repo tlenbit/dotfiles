@@ -146,6 +146,8 @@ bindsym $mod+Shift+d exec --no-startup-id $HOME/.scripts/rofi-utils.sh define_wo
 bindsym $mod+o exec --no-startup-id $HOME/.scripts/rofi-utils.sh countdown
 bindsym $mod+a exec --no-startup-id rofi -modi NOTES:$HOME/.scripts/rofi-notes.sh -show NOTES -width 30
 bindsym $mod+Shift+a exec --no-startup-id $HOME/.scripts/rofi-utils.sh toggl_tasks
+bindsym $mod+u exec --no-startup-id $HOME/.scripts/rofi-utils.sh mount_ssh_fs
+bindsym $mod+Shift+u exec --no-startup-id $HOME/.scripts/rofi-utils.sh umount_ssh_fs
 
 bindsym $mod+m exec $term -e ncmpcpp
 bindsym $mod+Shift+w exec chromium %U

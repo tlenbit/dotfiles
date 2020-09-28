@@ -5,14 +5,16 @@
 # -------------------
 
 function ssh_on_directory() {
-	host_dir=`echo "$1" | awk -F "/home/jc/Desktop/mnt/" '{print $2}'`
-	# /home/jc/Desktop/mnt/ut.cluster.1.master/centos/Ragab
+	host_dir=`echo "$1" | awk -F "$HOME/Desktop/mnt/" '{print $2}'`
+
 	if [ -z "$host_dir" ];then
 		send_notification "Can't SSH"
 		exit
 	fi
 
-	host_name=`echo $host_dir | awk -F '/' '{print $1}'`
+	host=$(echo $host_dir | awk -F '/' '{print $1}')
+	user=$(echo ${host_dir#*/} | awk -F '/' '{print $1}')
+	host_name="$user@$host"
 	current_dir="/home/${host_dir#*/}"
 	cmd="cd $current_dir; exec \$SHELL -l"
 

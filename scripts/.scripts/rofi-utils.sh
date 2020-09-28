@@ -119,35 +119,72 @@ function toggl_tasks() {
 
 function mount_ssh_fs() {
 	list_hosts=`sed -rn 's/^\s*Host\s+(.*)\s*/\1/ip' $HOME/.ssh/config`
-	mounted_hosts=`ls $HOME/Desktop/mnt`
-	list_available=`comm -23 <(echo "$list_hosts" | sort) <(echo "$mounted_hosts" | sort)`
-	hostname=`echo "$list_available" | rofi -dmenu -i -p "Mount Host" -width 15 -lines 15 -matching regex`
+
+	# mounted_hosts=$(ls $HOME/Desktop/mnt)
+	# list_available=`comm -23 <(echo "$list_hosts" | sort) <(echo "$mounted_hosts" | sort)`
+	# hostname=`echo "$list_available" | rofi -dmenu -i -p "Mount Host" -width 15 -lines 15 -matching regex`
+
+	hostname=`echo "$list_hosts" | rofi -dmenu -i -p "Mount Host" -width 15 -lines 15 -matching regex`
+
+	if [ -z "$hostname" ];then
+		notify-send -u low " Can't mount"
+		exit
+	fi
 
 	if ! grep -q "$hostname" $HOME/.ssh/config; then
 		notify-send -u low " No host match $hostname"
-		exit 1
+		exit
+	fi
+
+	user=`rofi -dmenu -i -p 'user' -hide-scrollbar -width -30`
+	user_hostname="$user@$hostname"
+
+	if [ -z "$user" ];then
+		user_hostname="$hostname"
+	fi
+
+	# Test if the connection is possible
+	ssh -o PreferredAuthentications=publickey "$user_hostname" "echo ''" 2>&1;
+	if [ $? -ne 0 ]; then
+		notify-send -u low " Can't connect to $user_hostname"
+		exit
 	fi
 
 	# Create a directory for mounting
-	mount_dir="$HOME/Desktop/mnt/$hostname"
+	mount_dir="$HOME/Desktop/mnt/$hostname/$user"
 	mkdir -p $mount_dir
 
-	sshfs $hostname:/home $mount_dir
-	notify-send -u low " $hostname successfully mounted!"
+	sshfs "$user_hostname:/home/$user" $mount_dir
+	notify-send -u low " $user_hostname successfully mounted!"
 }
 
 function umount_ssh_fs() {
-	mounted_dir=`ls $HOME/Desktop/mnt | rofi -dmenu -i -p "Umount Host" -width 15 -lines 15 -matching regex`
+	mounted_dir=$(ls $HOME/Desktop/mnt | rofi -dmenu -i -p "Umount Host" -width 15 -lines 15 -matching regex)
 
 	if [[ -z "${mounted_dir}" ]]; then
 		exit 0
 	fi
 
-	mount_dir="$HOME/Desktop/mnt/$mounted_dir"
-	
+	mounted_user=$(ls "$HOME/Desktop/mnt/$mounted_dir" | rofi -dmenu -i -p "Umount Dir" -width 15 -lines 15 -matching regex)
+
+	if [[ -z "${mounted_user}" ]]; then
+		exit 0
+	fi
+
+	mount_dir="$HOME/Desktop/mnt/$mounted_dir/$mounted_user"
+
 	if umount $mount_dir; then
+		sleep 0.1
 		rm -rf $mount_dir
 		notify-send -u low " $mounted_dir successfully umounted"
+
+		# If there's no other user connections, delete the host folder
+		mounted_user=$(ls "$HOME/Desktop/mnt/$mounted_dir")
+
+		if [[ -z "${mounted_user}" ]]; then
+			rm -rf "$HOME/Desktop/mnt/$mounted_dir"		
+		fi
+
 		exit 0
 	fi
 

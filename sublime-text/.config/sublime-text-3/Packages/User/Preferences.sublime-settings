@@ -1,6 +1,6 @@
 {
 	"always_show_minimap_viewport": true,
-	"black_on_save": true,
+	"black_on_save": false,
 	"color_scheme": "Packages/Theme - Cyanide/Cyanide - Golden.tmTheme",
 	"dictionary": "Packages/Language - English/en_US.dic",
 	"draw_white_space": "all",
@@ -12,7 +12,7 @@
 		"no_italic"
 	],
 	"font_size": 10,
-	"gutter": true,
+	"gutter": false,
 	"highlight_line": true,
 	"ignored_packages":
 	[

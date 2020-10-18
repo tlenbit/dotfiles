@@ -88,11 +88,14 @@ bindsym $mod+l mode "layout"
 bindsym $mod+b mode "border"
 bindsym $mod+f fullscreen toggle
 bindsym Mod1+Tab focus mode_toggle
-bindsym $mod+s sticky toggle
-bindsym $mod+Shift+s scratchpad show
+bindsym $mod+Shift+s sticky toggle
+
+bindsym $mod+a [instance="crx_kjbdgfilnfhdoflbpgamdcdgpehopbep"] scratchpad show move position center
+bindsym $mod+s [instance="crx_dibeblefpdjapcdhajpidiklcdpjpipk"] scratchpad show move position center
 
 bindsym $mod+Return exec $term
-bindsym $mod+Shift+Return exec $term -e ranger
+# bindsym $mod+Shift+Return exec $term -e ranger
+bindsym $mod+space exec --no-startup-id $term -e ranger
 bindsym $mod+Shift+o open
 
 bindsym XF86Bluetooth exec $HOME/.scripts/toggle-bluetooth.sh
@@ -144,15 +147,13 @@ bindsym $mod+n exec networkmanager_dmenu
 bindsym $mod+d exec --no-startup-id cat /usr/share/dict/cracklib-small | rofi -dmenu -i -p "word" -width 15 -lines 6 -matching regex | xargs -I{} xdg-open https://www.linguee.com/english-spanish/search\?source\=auto\&query\=\{\}
 bindsym $mod+Shift+d exec --no-startup-id $HOME/.scripts/rofi-utils.sh define_word
 bindsym $mod+o exec --no-startup-id $HOME/.scripts/rofi-utils.sh countdown
-bindsym $mod+a exec --no-startup-id rofi -modi NOTES:$HOME/.scripts/rofi-notes.sh -show NOTES -width 30
-bindsym $mod+Shift+a exec --no-startup-id $HOME/.scripts/rofi-utils.sh toggl_tasks
 bindsym $mod+u exec --no-startup-id $HOME/.scripts/rofi-utils.sh mount_ssh_fs
 bindsym $mod+Shift+u exec --no-startup-id $HOME/.scripts/rofi-utils.sh umount_ssh_fs
+# bindsym $mod+Shift+a exec --no-startup-id $HOME/.scripts/rofi-utils.sh toggl_tasks
 
 bindsym $mod+m exec $term -e ncmpcpp
 bindsym $mod+Shift+w exec chromium %U
 bindsym $mod+w exec chromium --incognito
-bindsym $mod+space exec --no-startup-id $term -e ranger
 bindsym $mod+Shift+space exec thunar
 bindsym $mod+e exec subl3
 bindsym $mod+p exec $term -t "Process Manager" -e gotop
@@ -161,6 +162,8 @@ bindsym $mod+z exec zotero
 bindsym $mod+Shift+z exec --no-startup-id $HOME/.scripts/rofi-utils.sh zotero_collection
 
 # No longer used
+# bindsym $mod+a exec --no-startup-id rofi -modi NOTES:$HOME/.scripts/rofi-notes.sh -show NOTES -width 30
+# bindsym $mod+space exec --no-startup-id $term -e ranger
 # bindsym $mod+j exec gsimplecal
 # bindsym $mod+i exec --no-startup-id $term --config-file=$HOME/.config/alacritty/for-reading.yml -e $HOME/.config/i3/scripts/read-text.sh // Input Mono Condensed 13
 # bindsym $mod+t exec --no-startup-id $term -t voidtask --config-file=$HOME/.config/alacritty/for-reading-medium.yml -e $HOME/.cargo/bin/void
@@ -216,13 +219,12 @@ exec --no-startup-id unclutter --timeout 1 # hide mouse cursor when inactive
 
 # config apps
 assign [class="Thunar" title="File Operation Progress"] $ws10
+for_window [class="Chromium" instance="crx_kjbdgfilnfhdoflbpgamdcdgpehopbep"] floating enable border pixel 0 move scratchpad, scratchpad show;
+for_window [class="Chromium" instance="crx_dibeblefpdjapcdhajpidiklcdpjpipk"] floating enable border pixel 0 move scratchpad, scratchpad show;
 for_window [class="Gsimplecal"] border pixel 0;
 for_window [class="Zathura"] border pixel 0;
 for_window [class="Conky"] border pixel 0;
 for_window [class="Toggl Desktop"] floating enable border pixel 0;
-for_window [class="Chromium" instance="crx_aefeiggpkcfffkkcfndjgkiefnpmnbio"] floating enable border pixel 0 move scratchpad;
-
-# move scratchpad
 
 # for_window [title="voidtask"] floating enable;
 # for_window [class="^.*"] border pixel 0;

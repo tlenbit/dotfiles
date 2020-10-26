@@ -144,7 +144,7 @@ bindsym $mod+c exec --no-startup-id "rofi -show calc -modi calc -no-show-match -
 bindsym $mod+x exec $HOME/.scripts/rofi-utils.sh powermenu
 bindsym $mod+Shift+x exec $HOME/.scripts/manage-applications.sh kill_apps
 bindsym $mod+n exec networkmanager_dmenu
-bindsym $mod+d exec --no-startup-id cat /usr/share/dict/cracklib-small | rofi -dmenu -i -p "word" -width 15 -lines 6 -matching regex | xargs -I{} xdg-open https://www.linguee.com/english-spanish/search\?source\=auto\&query\=\{\}
+bindsym $mod+d exec --no-startup-id cat /usr/share/dict/cracklib-small | rofi -dmenu -i -p "word" -width 15 -lines 6 | xargs -I{} xdg-open https://www.linguee.com/english-spanish/search\?source\=auto\&query\=\{\}
 bindsym $mod+Shift+d exec --no-startup-id $HOME/.scripts/rofi-utils.sh define_word
 bindsym $mod+o exec --no-startup-id $HOME/.scripts/rofi-utils.sh countdown
 bindsym $mod+u exec --no-startup-id $HOME/.scripts/rofi-utils.sh mount_ssh_fs
@@ -215,6 +215,7 @@ exec_always --no-startup-id $HOME/.scripts/mac-controls.sh
 exec_always setxkbmap -layout latam
 exec_always xrdb -merge $HOME/.Xresources
 exec --no-startup-id unclutter --timeout 1 # hide mouse cursor when inactive
+# exec --no-startup-id TogglDesktop
 # exec --no-startup-id hsetroot -cover "$HOME/Pictures/wallpapers/$(ls $HOME/Pictures/wallpapers | sort -R | head -1)" # set random wallpaper from folder
 
 # config apps

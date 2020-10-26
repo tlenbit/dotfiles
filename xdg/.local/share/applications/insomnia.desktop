@@ -1,9 +1,0 @@
-[Desktop Entry]
-Name=Insomnia
-GenericName=Insomnia
-Icon=insomnia
-Exec=sh -c "$HOME/.scripts/manage-applications.sh launch_insomnia"
-Terminal=false
-Type=Application
-Categories=Settings;HardwareSettings;
-StartupNotify=true

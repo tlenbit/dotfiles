@@ -7,7 +7,7 @@ if ! mpc >/dev/null 2>&1; then
 	exit 1
 else
 	if mpc status | grep -q playing; then
-		color_icon="#636e72"
+		color_icon="#ffca3b"
 	else
 		color_icon="#fff"
 	fi

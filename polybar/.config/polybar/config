@@ -1,5 +1,5 @@
 ; Primary
-; #b2bec3
+; #ffca3b
 ; #32ff7e
 
 [bar/bottom]
@@ -80,12 +80,12 @@ format = <label-state>
 label-focused = %index%
 ;label-focused = ●
 ;label-focused-foreground = #82ccdd
-label-focused-foreground = #fff
+label-focused-foreground = #ffca3b
 label-focused-background = #0a3d6200
 label-focused-padding = 1
 
 label-unfocused = %index%
-label-unfocused-foreground = #b2bec3
+label-unfocused-foreground = #fff
 ;label-unfocused = ○
 label-unfocused-padding = 1
 
@@ -116,7 +116,7 @@ type = internal/volume
 ;format-volume = <ramp-volume><label-volume>
 format-volume = <ramp-volume>
 label-muted = 
-label-muted-foreground = #b2bec3
+label-muted-foreground = #ffca3b
 ramp-volume-0 = 
 ramp-volume-1 = 
 ramp-volume-2 = 
@@ -182,7 +182,7 @@ type = custom/script
 interval = 10
 exec = cat /tmp/timer_time.tmp
 exec-if = [[ -f /tmp/timer_time.tmp ]]
-label = "%{F#b2bec3} %{F-}%output%"
+label = "%{F#ffca3b} %{F-}%output%"
 ;format-prefix-foreground = #a29bfe
 ;label = "%{F#ff7f50} %{F-}%output%"
 ;click-left = $HOME/.config/polybar/scripts/kill-timer.sh
@@ -250,7 +250,7 @@ ramp-signal-2 = 
 ;format-disconnected = <label-disconnected>
 ;label-disconnected = "%{F#e55039}"
 label-disconnected = 
-label-disconnected-foreground = #b2bec3
+label-disconnected-foreground = #ffca3b
 
 [module/filesystem]
 type = internal/fs
@@ -262,7 +262,7 @@ interval = 30
 fixed-values = true
 
 format-mounted = <label-mounted>
-label-mounted = "%{F#b2bec3} %{F-}%free%"
+label-mounted = "%{F#ffca3b} %{F-}%free%"
 ;label-mounted = "%{F#fad390} %{F-}%free%"
 format-unmounted = <label-unmounted>
 label-unmounted = "%{F#e55039}%mountpoint%: not mounted"
@@ -270,7 +270,7 @@ label-unmounted = "%{F#e55039}%mountpoint%: not mounted"
 [module/memory]
 type = internal/memory
 interval = 5
-label = "%{F#b2bec3} %{F-}%percentage_used%%"
+label = "%{F#ffca3b} %{F-}%percentage_used%%"
 ;label = "%{F#82ccdd} %{F-}%percentage_used%%"
 
 [module/headphone_battery]
@@ -282,7 +282,7 @@ exec = $HOME/.scripts/headphone-bluetooth.sh get_battery_percentage
 [module/cpu]
 type = internal/cpu
 interval = 5
-label = "%{F#b2bec3} %{F-}%percentage%%"
+label = "%{F#ffca3b} %{F-}%percentage%%"
 ;label = "%{F#4bcffa} %{F-}%percentage%%"
 
 [module/torrent]
@@ -291,7 +291,7 @@ interval = 60
 exec-if = transmission-remote --auth admin:admin -l
 exec = transmission-remote --auth admin:admin -l | grep Downloading | wc -l
 format-prefix = " "
-format-prefix-foreground = #b2bec3
+format-prefix-foreground = #ffca3b
 ;format-prefix-foreground = #a29bfe
 click-left = transmission-remote --auth arch:linux --exit && notify-send -u low -i $HOME/.config/i3/scripts/icons/state-information.svg "Transmission Stopped"
 
@@ -301,14 +301,14 @@ interval = 60
 exec-if = systemctl is-active docker.service
 exec = docker ps -q | wc -l
 format-prefix = " "
-format-prefix-foreground = #b2bec3
+format-prefix-foreground = #ffca3b
 ;format-prefix-foreground = #82ccdd
 click-left = sudo systemctl stop docker
 
 [module/webdav]
 type = custom/script
 exec-if = pgrep webdav
-exec = echo "%{F#b2bec3} %{F-}$(ls $HOME/Desktop/share | wc -l)"
+exec = echo "%{F#ffca3b} %{F-}$(ls $HOME/Desktop/share | wc -l)"
 interval = 60
 click-left = killall webdav
 
@@ -316,7 +316,7 @@ click-left = killall webdav
 type = custom/script
 interval = 60
 exec-if = pgrep timidity
-exec = echo "%{F#b2bec3}♯"
+exec = echo "%{F#ffca3b}♯"
 ;exec = echo "%{F#ED4C67}♯"
 click-left = killall timidity
 

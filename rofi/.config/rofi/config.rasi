@@ -5,6 +5,10 @@
  */
 
 /* global settings and color variables */
+configuration {
+  matching: "regex";
+}
+
 * {
    maincolor:        #ed8712;
    highlight:        bold #ed8712;

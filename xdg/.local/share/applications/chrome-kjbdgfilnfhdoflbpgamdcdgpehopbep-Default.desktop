@@ -3,7 +3,7 @@
 Version=1.0
 Terminal=false
 Type=Application
-Name=Plan
+Name=Calendar
 Exec=/usr/bin/chromium --profile-directory=Default --app-id=kjbdgfilnfhdoflbpgamdcdgpehopbep
 Icon=chrome-kjbdgfilnfhdoflbpgamdcdgpehopbep-Default
 StartupWMClass=crx_kjbdgfilnfhdoflbpgamdcdgpehopbep

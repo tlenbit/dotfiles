@@ -3,7 +3,7 @@
 
 # zsh
 source /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
-export ZSH="/home/jc/.oh-my-zsh"
+export ZSH="/usr/share/oh-my-zsh"
 ZSH_THEME="robbyrussell"
 plugins=(git)
 source $ZSH/oh-my-zsh.sh

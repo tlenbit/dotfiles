@@ -225,6 +225,8 @@ for_window [class="Chromium" instance="crx_dibeblefpdjapcdhajpidiklcdpjpipk"] fl
 for_window [class="Chromium" instance="crx_kmhopmchchfpfdcdjodmpfaaphdclmlj"] floating enable border pixel 0 move position center;
 for_window [class="Chromium" instance="crx_bndmnggfngpgmmijcogkkgglhalbpomk"] floating enable border pixel 0 move position center;
 for_window [class="Chromium" instance="crx_egdalnmencdpmadgdbcmfiinlfflfbpk"] floating enable border pixel 0 move position center;
+for_window [class="Chromium" instance="crx_eilembjdkfgodjkcjnpgpaenohkicgjd"] floating enable border pixel 0 move position center;
+for_window [class="Chromium" instance="crx_pmcngklofgngifnoceehmchjlildnhkj"] floating enable border pixel 0 move position center;
 for_window [class="Toggl Desktop"] floating enable border pixel 0 move position center;
 for_window [class="Gsimplecal"] border pixel 0;
 for_window [class="Zathura"] border pixel 0;

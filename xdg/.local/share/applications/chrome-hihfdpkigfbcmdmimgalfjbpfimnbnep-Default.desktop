@@ -1,0 +1,9 @@
+#!/usr/bin/env xdg-open
+[Desktop Entry]
+Version=1.0
+Terminal=false
+Type=Application
+Name=Coda
+Exec=chromium --profile-directory=Default --app-id=hihfdpkigfbcmdmimgalfjbpfimnbnep
+Icon=chrome-hihfdpkigfbcmdmimgalfjbpfimnbnep-Default
+StartupWMClass=crx_hihfdpkigfbcmdmimgalfjbpfimnbnep

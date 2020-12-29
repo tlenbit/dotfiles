@@ -114,11 +114,12 @@ bindsym $mod+XF86AudioPlay exec --no-startup-id $HOME/.scripts/mpc-commands.sh d
 bindsym $mod+Shift+XF86AudioPlay exec --no-startup-id $HOME/.scripts/mpc-commands.sh toggle_repeat
 bindsym $mod+Shift+XF86AudioPrev exec --no-startup-id $HOME/.scripts/mpc-commands.sh toggle_loop_on_album
 bindsym $mod+XF86AudioPrev exec --no-startup-id $HOME/.scripts/mpc-commands.sh seekthrough backward
+
 bindsym $mod+Next exec --no-startup-id mpc toggle
-bindsym $mod+Shift+Prior exec --no-startup-id mpc prev
-bindsym $mod+Shift+Next exec --no-startup-id mpc next
-bindsym $mod+Shift+Ctrl+Prior exec --no-startup-id mpc seekthrough -00:00:05
-bindsym $mod+Shift+Ctrl+Next exec --no-startup-id mpc seekthrough +00:00:05
+bindsym $mod+Shift+Prior exec --no-startup-id $HOME/.scripts/mpc-commands.sh play prev
+bindsym $mod+Shift+Next exec --no-startup-id $HOME/.scripts/mpc-commands.sh play next
+bindsym $mod+Shift+Ctrl+Prior exec --no-startup-id $HOME/.scripts/mpc-commands.sh toggle_loop_on_album
+bindsym $mod+Shift+Ctrl+Next exec --no-startup-id $HOME/.scripts/mpc-commands.sh queue_random_track && $HOME/.scripts/mpc-commands.sh play next
 
 # screenshot bindings
 bindsym Print exec --no-startup-id $HOME/.scripts/screenshot.sh whole_screen_to_clipboard

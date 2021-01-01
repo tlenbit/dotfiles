@@ -8,7 +8,7 @@
   "window.menuBarVisibility": "hidden",
   "editor.renderIndentGuides": true,
   "editor.minimap.enabled": false,
-  "editor.wordWrap": "off",
+  "editor.wordWrap": "on",
   "workbench.editor.tabSizing": "shrink",
   "workbench.editor.tabCloseButton": "off",
   "breadcrumbs.enabled": false,
@@ -23,6 +23,7 @@
   "terminal.integrated.fontSize": 12,
   "terminal.integrated.fontFamily": "Input Mono Narrow",
   "explorer.confirmDelete": false,
+  
   "terminal.external.linuxExec": "alacritty",
   "editor.tokenColorCustomizations": {
     "[White Night]": {

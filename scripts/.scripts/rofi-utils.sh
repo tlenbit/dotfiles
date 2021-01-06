@@ -127,7 +127,7 @@ function toggl_tasks() {
 function mount_ssh_fs() {
 	list_hosts=`sed -rn 's/^\s*Host\s+(.*)\s*/\1/ip' $HOME/.ssh/config`
 
-	# mounted_hosts=$(ls $HOME/Desktop/mnt)
+	# mounted_hosts=$(ls $HOME/Documents/mnt)
 	# list_available=`comm -23 <(echo "$list_hosts" | sort) <(echo "$mounted_hosts" | sort)`
 	# hostname=`echo "$list_available" | rofi -dmenu -i -p "Mount Host" -width 15 -lines 15 -matching regex`
 
@@ -158,7 +158,7 @@ function mount_ssh_fs() {
 	fi
 
 	# Create a directory for mounting
-	mount_dir="$HOME/Desktop/mnt/$hostname/$user"
+	mount_dir="$HOME/Documents/mnt/$hostname/$user"
 	mkdir -p $mount_dir
 
 	sshfs "$user_hostname:/home/$user" $mount_dir
@@ -166,19 +166,19 @@ function mount_ssh_fs() {
 }
 
 function umount_ssh_fs() {
-	mounted_dir=$(ls $HOME/Desktop/mnt | rofi -dmenu -i -p "Umount Host" -width 15 -lines 15 -matching regex)
+	mounted_dir=$(ls $HOME/Documents/mnt | rofi -dmenu -i -p "Umount Host" -width 15 -lines 15 -matching regex)
 
 	if [[ -z "${mounted_dir}" ]]; then
 		exit 0
 	fi
 
-	mounted_user=$(ls "$HOME/Desktop/mnt/$mounted_dir" | rofi -dmenu -i -p "Umount Dir" -width 15 -lines 15 -matching regex)
+	mounted_user=$(ls "$HOME/Documents/mnt/$mounted_dir" | rofi -dmenu -i -p "Umount Dir" -width 15 -lines 15 -matching regex)
 
 	if [[ -z "${mounted_user}" ]]; then
 		exit 0
 	fi
 
-	mount_dir="$HOME/Desktop/mnt/$mounted_dir/$mounted_user"
+	mount_dir="$HOME/Documents/mnt/$mounted_dir/$mounted_user"
 
 	if umount $mount_dir; then
 		sleep 0.1
@@ -186,10 +186,10 @@ function umount_ssh_fs() {
 		notify-send -u low " $mounted_dir successfully umounted"
 
 		# If there's no other user connections, delete the host folder
-		mounted_user=$(ls "$HOME/Desktop/mnt/$mounted_dir")
+		mounted_user=$(ls "$HOME/Documents/mnt/$mounted_dir")
 
 		if [[ -z "${mounted_user}" ]]; then
-			rm -rf "$HOME/Desktop/mnt/$mounted_dir"		
+			rm -rf "$HOME/Documents/mnt/$mounted_dir"		
 		fi
 
 		exit 0

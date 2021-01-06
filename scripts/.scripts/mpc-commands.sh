@@ -1,7 +1,8 @@
 ICON_DIR=$HOME/.config/i3/scripts/icons
 
 function display_current_info() {
-	MUSIC_DIR="/media/roygbiv/music"
+	MUSIC_DIR="/media/6533-3962/music"
+	# MUSIC_DIR="/media/roygbiv/music"
 	COVER="/tmp/cover.png"
 	UNKNOWN_COVER="$HOME/.scripts/resources/cover.png"
 	COVER_SIZE=150
@@ -23,8 +24,9 @@ function display_current_info() {
 	ffmpeg -loglevel 0 -y -i "$file" -vf "scale=$COVER_SIZE:-1" "$COVER"
 	HAS_COVER=$?
 
+	echo "$HAS_COVER"
 	if [ $HAS_COVER != 0 ]; then
-	COVER=$UNKNOWN_COVER
+		COVER=$UNKNOWN_COVER
 	fi
 
 	notify-send -u low "$(mpc --format '%title%\n%artist%\n%album%' current)" -h string:x-canonical-private-synchronous:mpd-info -i "$COVER" > /dev/null 2>&1

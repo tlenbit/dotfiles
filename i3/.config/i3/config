@@ -90,7 +90,7 @@ bindsym $mod+f fullscreen toggle
 bindsym Mod1+Tab focus mode_toggle
 bindsym $mod+Shift+s sticky toggle
 
-bindsym $mod+a [instance="crx_kjbdgfilnfhdoflbpgamdcdgpehopbep"] scratchpad show move position center
+bindsym $mod+a [instance="crx_eilembjdkfgodjkcjnpgpaenohkicgjd"] scratchpad show move position center
 bindsym $mod+s [instance="crx_dibeblefpdjapcdhajpidiklcdpjpipk"] scratchpad show move position center
 
 bindsym $mod+Return exec $term
@@ -222,8 +222,10 @@ exec --no-startup-id unclutter --timeout 1 # hide mouse cursor when inactive
 
 # config apps
 assign [class="Thunar" title="File Operation Progress"] $ws10
-for_window [class="Chromium" instance="crx_kjbdgfilnfhdoflbpgamdcdgpehopbep"] floating enable border pixel 0 move scratchpad, scratchpad show;
-for_window [class="Chromium" instance="crx_dibeblefpdjapcdhajpidiklcdpjpipk"] floating enable border pixel 0 move scratchpad, scratchpad show;
+for_window [class="Chromium" instance="crx_kjbdgfilnfhdoflbpgamdcdgpehopbep"] floating enable border pixel 0 move scratchpad, scratchpad show; # calendar
+for_window [class="Chromium" instance="crx_eilembjdkfgodjkcjnpgpaenohkicgjd"] floating enable border pixel 0 move scratchpad, scratchpad show; # keep
+for_window [class="Chromium" instance="crx_dibeblefpdjapcdhajpidiklcdpjpipk"] floating enable border pixel 0 move scratchpad, scratchpad show; # paper
+for_window [class="Chromium" instance="crx_ioknjpikighmhnkfbgncchbaneiacjpl"] floating enable border pixel 0 move position center; # observable
 for_window [class="Chromium" instance="crx_kmhopmchchfpfdcdjodmpfaaphdclmlj"] floating enable border pixel 0 move position center;
 for_window [class="Chromium" instance="crx_bndmnggfngpgmmijcogkkgglhalbpomk"] floating enable border pixel 0 move position center;
 for_window [class="Chromium" instance="crx_egdalnmencdpmadgdbcmfiinlfflfbpk"] floating enable border pixel 0 move position center;

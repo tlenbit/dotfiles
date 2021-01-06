@@ -1,8 +1,8 @@
 [Desktop Entry]
-Name=MPD HDD
-GenericName=MPD Daemon HDD
+Name=MPD Local
+GenericName=MPD Daemon Local
 Icon=mpd
-Exec=sh -c "$HOME/.scripts/manage-applications.sh launch_mpd_hdd"
+Exec=sh -c "$HOME/.scripts/manage-applications.sh launch_mpd_local"
 Terminal=false
 Type=Application
 Categories=Settings;HardwareSettings;

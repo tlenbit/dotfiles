@@ -1,5 +1,12 @@
 #!/bin/bash
 
+function editExifDescription {
+	selected_file="$1"
+	description=`rofi -dmenu -i -p "Description" -width 30`
+
+	exiv2 -M"set Exif.Image.ImageDescription $description" "$selected_file"
+}
+
 function define_word {
 	word=`cat /usr/share/dict/cracklib-small | rofi -dmenu -i -p "word" -width 15 -lines 6 -matching regex`
 	if [ -z "$word" ]; then

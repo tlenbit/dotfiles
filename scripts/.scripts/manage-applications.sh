@@ -5,7 +5,7 @@
 # -------------------
 
 function ssh_on_directory() {
-	host_dir=`echo "$1" | awk -F "$HOME/Documents/mnt/" '{print $2}'`
+	host_dir=`echo "$1" | awk -F "$HOME/.mnt/" '{print $2}'`
 
 	if [ -z "$host_dir" ];then
 		send_notification "Can't SSH"

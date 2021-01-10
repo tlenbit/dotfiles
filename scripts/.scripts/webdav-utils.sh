@@ -1,6 +1,6 @@
 #!/bin/bash
 
-SHARE_DIR="$HOME/Documents/share"
+SHARE_DIR="$HOME/.share"
 
 function move_file() {
 	selected_file="$1"

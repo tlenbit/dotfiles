@@ -5,5 +5,5 @@ Terminal=false
 Type=Application
 Name=Photopea
 Exec=chromium --profile-directory=Default --app-id=jdklklfpinionkgpmghaghehojplfjio
-Icon=chrome-jdklklfpinionkgpmghaghehojplfjio-Default
+Icon=photoshop
 StartupWMClass=crx_jdklklfpinionkgpmghaghehojplfjio

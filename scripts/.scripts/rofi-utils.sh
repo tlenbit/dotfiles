@@ -8,7 +8,7 @@ function editExifDescription {
 }
 
 function define_word {
-	word=`cat /usr/share/dict/cracklib-small | rofi -dmenu -i -p "word" -width 15 -lines 6 -matching regex`
+	word=`cat /usr/share/dict/cracklib-small | rofi -dmenu -i -p "word" -width 15 -lines 6 -matching regex -theme $HOME/.config/rofi/config_.rasi`
 	if [ -z "$word" ]; then
 		exit 0
 	fi
@@ -17,6 +17,7 @@ function define_word {
 	rofi -e "$definition" -fullscreen
 }
 
+# DEPRECATED
 function powermenu {
 	choice=$(echo -e "Lock\nLogout\nShutdown\nSuspend\nReboot" | rofi -dmenu -i -p '>' -width 5)
 
@@ -28,7 +29,7 @@ function powermenu {
 		i3-msg exit
 	fi
 	if [[ $choice == "Shutdown" ]]; then
-		$HOME/.config/i3/scripts/tasks-stop.sh
+		# $HOME/.config/i3/scripts/tasks-stop.sh
 		systemctl poweroff
 	fi
 	if [[ $choice == "Suspend" ]]; then
@@ -79,7 +80,7 @@ function zotero_collection() {
 }
 
 function countdown() {
-	time_minutes=`rofi -dmenu -p 'Time' -width 10`
+	time_minutes=`rofi -dmenu -p 'Time' -width 10 -theme $HOME/.config/rofi/config_.rasi`
 	kill_current_timer
 
 	time_seconds="$(($time_minutes*60))"
@@ -131,7 +132,7 @@ function mount_ssh_fs() {
 	# list_available=`comm -23 <(echo "$list_hosts" | sort) <(echo "$mounted_hosts" | sort)`
 	# hostname=`echo "$list_available" | rofi -dmenu -i -p "Mount Host" -width 15 -lines 15 -matching regex`
 
-	hostname=`echo "$list_hosts" | rofi -dmenu -i -p "Mount Host" -width 15 -lines 15 -matching regex`
+	hostname=`echo "$list_hosts" | rofi -dmenu -i -p "Mount Host" -width 15 -lines 15 -matching regex -theme $HOME/.config/rofi/config_.rasi`
 
 	if [ -z "$hostname" ];then
 		notify-send -u low " Can't mount"
@@ -166,13 +167,13 @@ function mount_ssh_fs() {
 }
 
 function umount_ssh_fs() {
-	mounted_dir=$(ls $HOME/.mnt | rofi -dmenu -i -p "Umount Host" -width 15 -lines 15 -matching regex)
+	mounted_dir=$(ls $HOME/.mnt | rofi -dmenu -i -p "Umount Host" -width 15 -lines 15 -matching regex -theme $HOME/.config/rofi/config_.rasi)
 
 	if [[ -z "${mounted_dir}" ]]; then
 		exit 0
 	fi
 
-	mounted_user=$(ls "$HOME/.mnt/$mounted_dir" | rofi -dmenu -i -p "Umount Dir" -width 15 -lines 15 -matching regex)
+	mounted_user=$(ls "$HOME/.mnt/$mounted_dir" | rofi -dmenu -i -p "Umount Dir" -width 15 -lines 15 -matching regex -theme $HOME/.config/rofi/config_.rasi)
 
 	if [[ -z "${mounted_user}" ]]; then
 		exit 0

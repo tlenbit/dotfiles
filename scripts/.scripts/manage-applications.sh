@@ -182,7 +182,7 @@ function kill_timer() {
 function kill_apps() {
 	programs="MPD\nDocker\nTimidity\nWebdav\nTransmission\nTimer"
 
-	choice=$(echo -e "$programs" | rofi -dmenu -i -p 'kill' -hide-scrollbar -width -30)
+	choice=$(echo -e "$programs" | rofi -dmenu -i -p 'kill' -hide-scrollbar -width -30 -theme $HOME/.config/rofi/config_.rasi)
 
 	case $choice in
 		"MPD")

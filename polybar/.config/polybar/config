@@ -1,5 +1,5 @@
 ; Primary
-; #ffca3b
+; #ffd86e
 ; #32ff7e
 
 [bar/bottom]
@@ -27,12 +27,13 @@ underline-size = 0
 background = #000000ff
 foreground = #ffffff
 
-font-0 = Cozette:pixelsize=8;2
-font-1 = Siji:pixelsize=8;2
+font-0 = IosevkaExtended:weight=medium:pixelsize=10;3
+font-1 = Feather:pixelsize=13;4
+# font-0 = Cozette:pixelsize=8;2
+# font-1 = Siji:pixelsize=8;2
 
 [bar/top]
 height = 35
-;height = 14
 bottom = false
 
 tray-position = none
@@ -51,13 +52,12 @@ underline-size = 0
 background = #000000ff
 foreground = #ffffff
 
-font-0 = Cozette:pixelsize=8;2
-font-1 = Siji:pixelsize=8;2
+font-0 = IosevkaExtended:weight=medium:pixelsize=10;3
+font-1 = Feather:pixelsize=13;4
+# font-0 = Cozette:pixelsize=8;2
+# font-1 = Siji:pixelsize=8;2
 
-modules-right = wifi volume battery datetime
-;modules-left = cpu memory torrent timer webdav midi docker music
-;modules-right = torrent timer webdav midi docker music wifi volume battery datetime
-;modules-right = torrent timer midi docker music cpu memory filesystem wifi volume battery datetime
+modules-right = bluetooth wifi volume battery datetime
 
 override-redirect = true
 wm-name = bar
@@ -78,9 +78,9 @@ enable-scroll = false
 format = <label-state>
 
 label-focused = %index%
-;label-focused = ●
+# label-focused = ●
 ;label-focused-foreground = #82ccdd
-label-focused-foreground = #ffca3b
+label-focused-foreground = #ffd86e
 label-focused-background = #0a3d6200
 label-focused-padding = 1
 
@@ -103,31 +103,31 @@ label-maxlen = 135
 
 [module/datetime]
 type = internal/date
-interval = 30
+interval = 60
 ;label = %date%
-label = %date% %time%
+label = %time%
 date = %d %b
 time = %H:%M
-format-padding = 1
-format =%{A1:gsimplecal:}<label> %{A}
+format-padding = 0
+format =%{A1:gsimplecal:}<label>%{A}
 
 [module/volume]
 type = internal/volume
 ;format-volume = <ramp-volume><label-volume>
 format-volume = <ramp-volume>
-label-muted = 
-label-muted-foreground = #ffca3b
-ramp-volume-0 = 
-ramp-volume-1 = 
-ramp-volume-2 = 
-ramp-volume-3 = 
-ramp-volume-4 = 
+label-muted = 
+label-muted-foreground = #ffd86e
+ramp-volume-0 = 
+ramp-volume-1 = 
+ramp-volume-2 = 
+ramp-volume-3 = 
+ramp-volume-4 = 
 
 [module/bluetooth]
 type = custom/script
 interval = 10
 exec-if = systemctl is-active bluetooth.service
-exec = echo ""
+exec = echo ""
 
 ; Approach 1
 ; [module/tasktimer]
@@ -157,7 +157,7 @@ exec = echo ""
 ; exec-if = task active
 ; exec = $HOME/.config/polybar/scripts/task-timer.sh
 ; format-prefix-foreground = #a29bfe
-; label = "%{F#ff7f50} %{F-}%output%"
+; label = "%{F#ff7f50} %{F-}%output%"
 ; format-padding = 0
 ; click-left = $HOME/.config/i3/scripts/tasks-stop.sh
 
@@ -182,9 +182,9 @@ type = custom/script
 interval = 10
 exec = cat /tmp/timer_time.tmp
 exec-if = [[ -f /tmp/timer_time.tmp ]]
-label = "%{F#ffca3b} %{F-}%output%"
+label = "%{F#ffd86e} %{F-}%output%"
 ;format-prefix-foreground = #a29bfe
-;label = "%{F#ff7f50} %{F-}%output%"
+;label = "%{F#ff7f50} %{F-}%output%"
 ;click-left = $HOME/.config/polybar/scripts/kill-timer.sh
 
 [module/music]
@@ -209,29 +209,23 @@ battery = BAT0
 adapter = AC
 poll-interval = 5
 
-;format =%{A1:gsimplecal:}<label> %{A}
-
-;format-discharging = <ramp-capacity><label-discharging>
 format-discharging = <ramp-capacity>
-label-charging = "%{F#32ff7e} %{F-}%percentage%%"
+label-charging = "%{F#32ff7e} %{F-}%percentage%%"
 label-discharging = "%percentage%% "
-label-full = "%{F#32ff7e} %percentage%%"
-
-;label-charging = "%{F#78e08f} %{F-}%percentage%%"
-;label-full = "%{F#78e08f} %percentage%%"
+label-full = "%{F#32ff7e} %percentage%%"
 
 ramp-capacity = 100
 
-ramp-capacity-0 = "%{F#e55039}"
-ramp-capacity-1 = "%{F#f6b93b}"
-ramp-capacity-2 = "%{F-}"
-ramp-capacity-3 = "%{F-}"
-ramp-capacity-4 = "%{F-}"
-ramp-capacity-5 = "%{F-}"
-ramp-capacity-6 = "%{F-}"
-ramp-capacity-7 = "%{F-}"
-ramp-capacity-8 = "%{F-}"
-ramp-capacity-9 = "%{F-}"
+ramp-capacity-0 = "%{F#e55039}"
+ramp-capacity-1 = "%{F#f6b93b}"
+ramp-capacity-2 = "%{F-}"
+ramp-capacity-3 = "%{F-}"
+ramp-capacity-4 = "%{F-}"
+ramp-capacity-5 = "%{F-}"
+ramp-capacity-6 = "%{F-}"
+ramp-capacity-7 = "%{F-}"
+ramp-capacity-8 = "%{F-}"
+ramp-capacity-9 = "%{F-}"
 
 [module/wifi]
 type = internal/network
@@ -243,35 +237,37 @@ interval = 5
 
 format-connected = <ramp-signal>
 
-ramp-signal-0 = 
-ramp-signal-1 = 
-ramp-signal-2 = 
+ramp-signal-0 = 
+ramp-signal-1 = 
+ramp-signal-2 = 
 
 ;format-disconnected = <label-disconnected>
-;label-disconnected = "%{F#e55039}"
-label-disconnected = 
-label-disconnected-foreground = #ffca3b
+;label-disconnected = "%{F#e55039}"
+label-disconnected = 
+label-disconnected-foreground = #ffd86e
 
 [module/filesystem]
 type = internal/fs
 
 ; Mountpoints to display
 mount-0 = /
+mount-1 = /media/6533-3962
 
 interval = 30
 fixed-values = true
 
+spacing = 2
+
 format-mounted = <label-mounted>
-label-mounted = "%{F#ffca3b} %{F-}%free%"
-;label-mounted = "%{F#fad390} %{F-}%free%"
+label-mounted = "%{F#ffd86e} %{F-}%free%"
 format-unmounted = <label-unmounted>
 label-unmounted = "%{F#e55039}%mountpoint%: not mounted"
 
 [module/memory]
 type = internal/memory
 interval = 5
-label = "%{F#ffca3b} %{F-}%percentage_used%%"
-;label = "%{F#82ccdd} %{F-}%percentage_used%%"
+label = "%{F#ffd86e} %{F-}%percentage_used%%"
+;label = "%{F#82ccdd} %{F-}%percentage_used%%"
 
 [module/headphone_battery]
 type = custom/script
@@ -282,16 +278,16 @@ exec = $HOME/.scripts/headphone-bluetooth.sh get_battery_percentage
 [module/cpu]
 type = internal/cpu
 interval = 5
-label = "%{F#ffca3b} %{F-}%percentage%%"
-;label = "%{F#4bcffa} %{F-}%percentage%%"
+label = "%{F#ffd86e} %{F-}%percentage%%"
+;label = "%{F#4bcffa} %{F-}%percentage%%"
 
 [module/torrent]
 type = custom/script
 interval = 60
 exec-if = transmission-remote --auth admin:admin -l
 exec = transmission-remote --auth admin:admin -l | grep Downloading | wc -l
-format-prefix = " "
-format-prefix-foreground = #ffca3b
+format-prefix = " "
+format-prefix-foreground = #ffd86e
 ;format-prefix-foreground = #a29bfe
 click-left = transmission-remote --auth arch:linux --exit && notify-send -u low -i $HOME/.config/i3/scripts/icons/state-information.svg "Transmission Stopped"
 
@@ -300,15 +296,16 @@ type = custom/script
 interval = 60
 exec-if = systemctl is-active docker.service
 exec = docker ps -q | wc -l
-format-prefix = " "
-format-prefix-foreground = #ffca3b
+format-prefix = " "
+# format-prefix = " "
+format-prefix-foreground = #ffd86e
 ;format-prefix-foreground = #82ccdd
 click-left = sudo systemctl stop docker
 
 [module/webdav]
 type = custom/script
 exec-if = pgrep webdav
-exec = echo "%{F#ffca3b} %{F-}$(ls $HOME/Desktop/share | wc -l)"
+exec = echo "%{F#ffd86e} %{F-}$(ls $HOME/.share | wc -l)"
 interval = 60
 click-left = killall webdav
 
@@ -316,8 +313,8 @@ click-left = killall webdav
 type = custom/script
 interval = 60
 exec-if = pgrep timidity
-exec = echo "%{F#ffca3b}♯"
-;exec = echo "%{F#ED4C67}♯"
+exec = echo "%{F#ffd86e}"
+;exec = echo "%{F#ED4C67}"
 click-left = killall timidity
 
 [module/screenrecord]

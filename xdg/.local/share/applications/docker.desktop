@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=Docker
 GenericName=Docker Daemon
-Icon=terminal
+Icon=kdocker
 Exec=sh -c "$HOME/.scripts/manage-applications.sh launch_docker"
 Terminal=false
 Type=Application

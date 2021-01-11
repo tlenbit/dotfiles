@@ -7,21 +7,22 @@ if ! mpc >/dev/null 2>&1; then
 	exit 1
 else
 	if mpc status | grep -q playing; then
-		color_icon="#ffca3b"
+		player_icon=""
 	else
-		color_icon="#fff"
+		player_icon=""
 	fi
 
 	if mpc status | grep -q "repeat: on"; then
-		repeat_icon="%{F#fff} "
+		repeat_icon="%{F#fff}"
 	fi	
 
 	if pgrep -f "ashuffle -f -" > /dev/null; then # if it's in album loop mode
-		loop_on_album_icon="%{F#fff}"
+		loop_on_album_icon="%{F#fff}"
 	fi
 
 
-	label="%{F$color_icon}$repeat_icon $loop_on_album_icon"
+	label="%{F#ffd86e}$player_icon $repeat_icon $loop_on_album_icon"
+	# label="%{F$color_icon} $repeat_icon $loop_on_album_icon"
 
 	echo $label
 fi

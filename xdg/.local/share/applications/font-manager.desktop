@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=Font Manager
+GenericName=Font Manager
+Icon=fonts
+Exec=font-manager
+Terminal=false
+Type=Application
+Categories=Settings;HardwareSettings;
+StartupNotify=true

@@ -1,0 +1,91 @@
+/*
+ *
+ * Author  : Aditya Shakya
+ * Mail    : adi1090x@gmail.com
+ * Github  : @adi1090x
+ * Twitter : @adi1090x
+ *
+ */
+
+configuration {
+  disable-history: false;
+  fullscreen: false;
+  hide-scrollbar: true;
+  sidebar-mode: false;
+}
+
+@import "colors.rasi"
+
+* {
+  background-color: @background;
+  text-color: @foreground;
+}
+
+window {
+  transparency: "real";
+  border-radius: 12px;
+  /*width: 100px;*/
+  width: 19%;
+  location: center;
+  x-offset: 0px;
+  y-offset: 0px;
+}
+
+listview {
+  margin: 8px;
+  spacing: 8px;
+  cycle: false;
+  dynamic: true;
+  layout: horizontal;
+}
+
+mainbox {
+  background-color: @background;
+  children: [ listview];
+}
+
+element {
+  background-color: @background-light;
+  text-color: @foreground;
+  orientation: horizontal;
+  border-radius: 12px;
+}
+
+element-text {
+  font: "feather 25";
+  expand: true;
+  margin: 20px 15px 40px 0px;
+  /*horizontal-align: 100;*/
+  /*margin: 10px 10px 33px 0px;*/
+}
+
+element normal.urgent,
+element alternate.urgent {
+  background-color: @urgent;
+  text-color: @foreground;
+  border-radius: 10px;
+}
+
+element normal.active,
+element alternate.active {
+  background-color: @background-alt;
+  text-color: @foreground;
+}
+
+element selected {
+  background-color: @accent;
+  text-color: @background;
+  border: 0px;
+  border-radius: 10px;
+  border-color: @border;
+}
+
+element selected.urgent {
+  background-color: @urgent;
+  text-color: @foreground;
+}
+
+element selected.active {
+  background-color: @background-alt;
+  color: @foreground;
+}

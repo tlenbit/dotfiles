@@ -1,0 +1,9 @@
+#!/usr/bin/env xdg-open
+[Desktop Entry]
+Version=1.0
+Terminal=false
+Type=Application
+Name=Grammarly
+Exec=chromium --profile-directory=Default --app-id=chhimdaamcpegdphmomkcjhlabehlnjj
+Icon=chrome-chhimdaamcpegdphmomkcjhlabehlnjj-Default
+StartupWMClass=crx_chhimdaamcpegdphmomkcjhlabehlnjj

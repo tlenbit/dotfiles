@@ -1,5 +1,5 @@
 [Added Associations]
-application/pdf=org.pwmt.zathura.desktop;mupdf.desktop;
+application/pdf=org.gnome.Evince.desktop;org.pwmt.zathura.desktop;mupdf.desktop;
 image/png=sxiv.desktop;mupdf.desktop;
 image/jpeg=sxiv.desktop;mupdf.desktop;
 image/gif=sxiv.desktop;mupdf.desktop;
@@ -89,7 +89,8 @@ x-scheme-handler/webcal=chromium.desktop
 x-scheme-handler/mailto=chromium.desktop
 x-scheme-handler/kite=kite-copilot.desktop
 appplication/pdf=chromium.desktop
-application/pdf=chromium.desktop
+application/pdf=org.gnome.Evince.desktop
 application/epub=org.pwmt.zathura.desktop
 application/vnd.powdertoy.save=powdertoy-tpt-open.desktop
 x-scheme-handler/ptsave=powdertoy-tpt-ptsave.desktop
+x-scheme-handler/gitkraken=GitKraken.desktop

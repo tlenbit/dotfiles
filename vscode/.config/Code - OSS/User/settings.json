@@ -21,7 +21,7 @@
   "editor.formatOnSave": false,
   "editor.minimap.showSlider": "always",
   "terminal.integrated.fontSize": 12,
-  "terminal.integrated.fontFamily": "Input Mono Narrow",
+  "terminal.integrated.fontFamily": "Fantasque Sans Mono",
   "explorer.confirmDelete": false,
   
   "terminal.external.linuxExec": "alacritty",

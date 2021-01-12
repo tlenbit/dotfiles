@@ -209,10 +209,11 @@ battery = BAT0
 adapter = AC
 poll-interval = 5
 
-format-discharging = <ramp-capacity>
+# format-discharging = <ramp-capacity>
+# label-discharging = "%percentage%% "
 label-charging = "%{F#32ff7e} %{F-}%percentage%%"
-label-discharging = "%percentage%% "
 label-full = "%{F#32ff7e} %percentage%%"
+label-discharging = "%{F-} %{F-}%percentage%%"
 
 ramp-capacity = 100
 
@@ -232,14 +233,12 @@ type = internal/network
 interface = wlp4s0
 interval = 5
 
-;format-connected = <ramp-signal><label-connected>
-;label-connected = "%{F#4a69bd} %{F-}%downspeed% %{F#60a3bc} %{F-}%upspeed%"
+# format-connected = <ramp-signal><label-connected>
+# label-connected = "%{F#4a69bd} %{F-}%downspeed% %{F#60a3bc} %{F-}%upspeed%"
 
 format-connected = <ramp-signal>
 
 ramp-signal-0 = 
-ramp-signal-1 = 
-ramp-signal-2 = 
 
 ;format-disconnected = <label-disconnected>
 ;label-disconnected = "%{F#e55039}"

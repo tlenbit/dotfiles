@@ -9,7 +9,7 @@
  */
 
 configuration {
-  font: "Iosevka 11";
+  font: "Iosevka Extended 11";
   show-icons: true;
   icon-theme: "Papirus";
   display-drun: "";

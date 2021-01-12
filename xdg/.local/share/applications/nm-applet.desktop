@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=Network Manager Applet
+GenericName=Network Manager Applet
+Icon=wpa_gui
+Exec=nm-applet
+Terminal=false
+Type=Application
+Categories=Settings;HardwareSettings;
+StartupNotify=true

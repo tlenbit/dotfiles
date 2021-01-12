@@ -8,7 +8,7 @@ function editExifDescription {
 }
 
 function define_word {
-	word=`cat /usr/share/dict/cracklib-small | rofi -dmenu -i -p "word" -width 15 -lines 6 -matching regex -theme $HOME/.config/rofi/config_.rasi`
+	word=`cat /usr/share/dict/cracklib-small | rofi -dmenu -i -p "word" -width 15 -lines 6 -matching regex`
 	if [ -z "$word" ]; then
 		exit 0
 	fi
@@ -80,7 +80,7 @@ function zotero_collection() {
 }
 
 function countdown() {
-	time_minutes=`rofi -dmenu -p 'Time' -width 10 -theme $HOME/.config/rofi/config_.rasi`
+	time_minutes=`rofi -dmenu -p 'Time' -width 10`
 	kill_current_timer
 
 	time_seconds="$(($time_minutes*60))"
@@ -122,7 +122,7 @@ function toggl_tasks() {
 
 	toggl start "$selected_task" -P "$selected_project_id"
 
-	notify-send -u low " Toggl: [$selected_project_name] $selected_task"
+	notify-send -u low "Toggl: [$selected_project_name] $selected_task"
 }
 
 function mount_ssh_fs() {
@@ -132,15 +132,15 @@ function mount_ssh_fs() {
 	# list_available=`comm -23 <(echo "$list_hosts" | sort) <(echo "$mounted_hosts" | sort)`
 	# hostname=`echo "$list_available" | rofi -dmenu -i -p "Mount Host" -width 15 -lines 15 -matching regex`
 
-	hostname=`echo "$list_hosts" | rofi -dmenu -i -p "Mount Host" -width 15 -lines 15 -matching regex -theme $HOME/.config/rofi/config_.rasi`
+	hostname=`echo "$list_hosts" | rofi -dmenu -i -p "Mount Host" -width 15 -lines 15 -matching regex`
 
 	if [ -z "$hostname" ];then
-		notify-send -u low " Can't mount"
+		notify-send -i "dialog-error" -u low "Can't mount"
 		exit
 	fi
 
 	if ! grep -q "$hostname" $HOME/.ssh/config; then
-		notify-send -u low " No host match $hostname"
+		notify-send -u -i "dialog-error" low "No host match $hostname"
 		exit
 	fi
 
@@ -154,7 +154,7 @@ function mount_ssh_fs() {
 	# Test if the connection is possible
 	ssh -o PreferredAuthentications=publickey "$user_hostname" "echo ''" 2>&1;
 	if [ $? -ne 0 ]; then
-		notify-send -u low " Can't connect to $user_hostname"
+		notify-send -u -i "dialog-error" low "Can't connect to $user_hostname"
 		exit
 	fi
 
@@ -163,17 +163,17 @@ function mount_ssh_fs() {
 	mkdir -p $mount_dir
 
 	sshfs "$user_hostname:/home/$user" $mount_dir
-	notify-send -u low " $user_hostname successfully mounted!"
+	notify-send -u low -i "drive-optical" "$user_hostname successfully mounted!"
 }
 
 function umount_ssh_fs() {
-	mounted_dir=$(ls $HOME/.mnt | rofi -dmenu -i -p "Umount Host" -width 15 -lines 15 -matching regex -theme $HOME/.config/rofi/config_.rasi)
+	mounted_dir=$(ls $HOME/.mnt | rofi -dmenu -i -p "Umount Host" -width 15 -lines 15 -matching regex)
 
 	if [[ -z "${mounted_dir}" ]]; then
 		exit 0
 	fi
 
-	mounted_user=$(ls "$HOME/.mnt/$mounted_dir" | rofi -dmenu -i -p "Umount Dir" -width 15 -lines 15 -matching regex -theme $HOME/.config/rofi/config_.rasi)
+	mounted_user=$(ls "$HOME/.mnt/$mounted_dir" | rofi -dmenu -i -p "Umount Dir" -width 15 -lines 15 -matching regex)
 
 	if [[ -z "${mounted_user}" ]]; then
 		exit 0
@@ -184,7 +184,7 @@ function umount_ssh_fs() {
 	if umount $mount_dir; then
 		sleep 0.1
 		rm -rf $mount_dir
-		notify-send -u low " $mounted_dir successfully umounted"
+		notify-send -u -i "drive-optical" low "$mounted_dir successfully umounted"
 
 		# If there's no other user connections, delete the host folder
 		mounted_user=$(ls "$HOME/.mnt/$mounted_dir")
@@ -196,7 +196,7 @@ function umount_ssh_fs() {
 		exit 0
 	fi
 
-	notify-send -u low " Error umounting $mounted_dir"
+	notify-send -u low -i "dialog-error" "Error umounting $mounted_dir"
 }
 
 "$@"

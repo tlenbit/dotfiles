@@ -1,0 +1,4 @@
+dir "/home/jc"
+path-sep "/"
+open-parent-as-self
+show-hidden

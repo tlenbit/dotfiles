@@ -138,13 +138,13 @@ bindsym $mod+Shift+XF86LaunchA exec --no-startup-id $HOME/.scripts/screenshot.sh
 bindsym $mod+Shift+Ctrl+XF86LaunchA exec --no-startup-id $HOME/.scripts/screenshot.sh section_screen_styled_to_file
 
 # rofi
+bindsym $mod+i exec --no-startup-id rofi -show file-browser-extended
 bindsym $mod+q exec --no-startup-id $HOME/.config/rofi/bin/launcher
 bindsym XF86LaunchB exec --no-startup-id $HOME/.config/rofi/bin/launcher
 bindsym XF86Tools exec --no-startup-id $HOME/.config/rofi/bin/launcher
 bindsym $mod+x exec --no-startup-id $HOME/.config/rofi/bin/powermenu
 bindsym $mod+c exec --no-startup-id $HOME/.config/rofi/bin/calculator
-bindsym $mod+n exec networkmanager_dmenu
-bindsym $mod+d exec --no-startup-id cat /usr/share/dict/cracklib-small | rofi -dmenu -i -p "word" -width 15 -lines 6 -theme $HOME/.config/rofi/config_.rasi | xargs -I{} xdg-open https://www.linguee.com/english-spanish/search\?source\=auto\&query\=\{\}
+bindsym $mod+d exec --no-startup-id cat /usr/share/dict/cracklib-small | rofi -dmenu -i -p "word" -width 15 -lines 6 | xargs -I{} xdg-open https://www.linguee.com/english-spanish/search\?source\=auto\&query\=\{\}
 bindsym $mod+Shift+d exec --no-startup-id $HOME/.scripts/rofi-utils.sh define_word
 bindsym $mod+o exec --no-startup-id $HOME/.scripts/rofi-utils.sh countdown
 bindsym $mod+u exec --no-startup-id $HOME/.scripts/rofi-utils.sh mount_ssh_fs
@@ -163,6 +163,7 @@ bindsym $mod+Shift+z exec --no-startup-id $HOME/.scripts/rofi-utils.sh zotero_co
 
 # No longer used
 # bindsym $mod+Shift+a exec --no-startup-id $HOME/.scripts/rofi-utils.sh toggl_tasks
+# bindsym $mod+n exec networkmanager_dmenu
 # bindsym $mod+x exec $HOME/.scripts/rofi-utils.sh powermenu
 # bindsym $mod+q exec rofi -show drun -lines 20 -show-icons -width 10 -drun-display-format "{name}"
 # bindsym $mod+a exec --no-startup-id rofi -modi NOTES:$HOME/.scripts/rofi-notes.sh -show NOTES -width 30

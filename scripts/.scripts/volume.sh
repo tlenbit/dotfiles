@@ -18,25 +18,19 @@ function is_mute {
 function send_notification {
     volume=`get_volume`
 
-    # if [ "$volume" = "0" ]; then
-    #     icon_name="$ICON_DIR/audio-volume-muted.svg"
-    # else if [  "$volume" -lt "10" ]; then
-    #     icon_name="$ICON_DIR/audio-volume-low.svg"
-    # else if [ "$volume" -lt "30" ]; then
-    #     icon_name="$ICON_DIR/audio-volume-low.svg"
-    # else if [ "$volume" -lt "70" ]; then
-    #     icon_name="$ICON_DIR/audio-volume-medium.svg"
-    # else
-    #     icon_name="$ICON_DIR/audio-volume-high.svg"
-    # fi
-    # fi
-    # fi
-    # fi
+    if [ "$volume" = "0" ]; then
+        icon_name="audio-volume-low"
+    else if [  "$volume" -lt "10" ]; then
+        icon_name="audio-volume-medium"
+    else if [ "$volume" -lt "60" ]; then
+        icon_name="audio-volume-medium"
+    else
+        icon_name="audio-volume-high"
+    fi
+    fi
+    fi
 
-    # Send the notification
-    # notify-send -u low " $volume" -t 700 -h string:bgcolor:#4444ff00 -h int:value:"$volume" -h string:x-canonical-private-synchronous:volume_level
-
-    notify-send -u low " $volume" -t 700 -h string:x-canonical-private-synchronous:volume_level
+    notify-send -u low -i $icon_name "$volume" -t 700 -h string:x-canonical-private-synchronous:volume_level
 }
 
 case $1 in
@@ -56,9 +50,7 @@ case $1 in
         # Toggle mute
         amixer -D pulse set Master 1+ toggle > /dev/null
         if is_mute; then
-            # notify-send -u low "muted" -i "$ICON_DIR/audio-volume-muted.svg" -t 700 -h string:x-canonical-private-synchronous:volume_level
-            # -h string:bgcolor:#4444ff00
-            notify-send -u low " muted" -t 700 -h string:x-canonical-private-synchronous:volume_level
+            notify-send -u low -i "audio-volume-muted" "muted" -t 700 -h string:x-canonical-private-synchronous:volume_level
         else
             send_notification
         fi

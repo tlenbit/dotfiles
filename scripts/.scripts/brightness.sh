@@ -14,7 +14,7 @@ function send_notification {
 	level=`get_current_brightness`
 	#icon_name=$ICON_DIR/brightness-lcd.svg
 
-	notify-send -u low " $level%" -t 700 -h string:x-canonical-private-synchronous:brightness_level
+	notify-send -u low -i "gpm-brightness-lcd" "$level%" -t 700 -h string:x-canonical-private-synchronous:brightness_level
 	# notify-send -u low "$level%" -i "$icon_name" -t 700 -h string:x-canonical-private-synchronous:brightness_level
 }
 

@@ -252,7 +252,7 @@ type = internal/fs
 mount-0 = /
 mount-1 = /media/6533-3962
 
-interval = 30
+interval = 15
 fixed-values = true
 
 spacing = 2

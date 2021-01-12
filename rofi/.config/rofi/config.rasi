@@ -1,6 +1,8 @@
 /** Basic config file **/
 
 configuration {
+	modi: "file-browser-extended";
+	theme: "config_.rasi";
   show-icons:         true;
   icon-theme:         "Papirus";
 }

@@ -182,7 +182,7 @@ function kill_timer() {
 function kill_apps() {
 	programs="MPD\nDocker\nTimidity\nWebdav\nTransmission\nTimer"
 
-	choice=$(echo -e "$programs" | rofi -dmenu -i -p 'kill' -hide-scrollbar -width -30 -theme $HOME/.config/rofi/config_.rasi)
+	choice=$(echo -e "$programs" | rofi -dmenu -i -p 'kill' -hide-scrollbar -width -30)
 
 	case $choice in
 		"MPD")
@@ -212,7 +212,7 @@ function kill_apps() {
 }
 
 function send_notification() {
-	notify-send -u low " $1" -h string:x-canonical-private-synchronous:volume_level
+	notify-send -u low "$1" -h string:x-canonical-private-synchronous:volume_level
 }
 
 "$@"

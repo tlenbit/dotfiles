@@ -36,7 +36,7 @@ function send_notification {
     # Send the notification
     # notify-send -u low " $volume" -t 700 -h string:bgcolor:#4444ff00 -h int:value:"$volume" -h string:x-canonical-private-synchronous:volume_level
 
-    notify-send -u low "墳 $volume" -t 700 -h string:x-canonical-private-synchronous:volume_level
+    notify-send -u low " $volume" -t 700 -h string:x-canonical-private-synchronous:volume_level
 }
 
 case $1 in
@@ -58,7 +58,7 @@ case $1 in
         if is_mute; then
             # notify-send -u low "muted" -i "$ICON_DIR/audio-volume-muted.svg" -t 700 -h string:x-canonical-private-synchronous:volume_level
             # -h string:bgcolor:#4444ff00
-            notify-send -u low "婢 muted" -t 700 -h string:x-canonical-private-synchronous:volume_level
+            notify-send -u low " muted" -t 700 -h string:x-canonical-private-synchronous:volume_level
         else
             send_notification
         fi

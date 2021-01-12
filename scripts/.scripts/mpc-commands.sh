@@ -73,7 +73,7 @@ function toggle_loop_on_album() {
 		fi 
 
 		ashuffle </dev/null &>/dev/null &
-		notify-send -u low " MPD: Loop in album mode OFF" -t 500 -h string:x-canonical-private-synchronous:volume_level
+		notify-send -u low " MPD: Loop in album mode OFF" -t 500 -h string:x-canonical-private-synchronous:volume_level
 	else
 		# otherwise turn it on
 		if pgrep ashuffle; then 
@@ -84,7 +84,7 @@ function toggle_loop_on_album() {
 		# mpc searchplay filename "$(mpc playlist | tail -1)"
 		mpc ls "$current_music_dir" | ashuffle -f - &>/dev/null &
 		# mpc next
-		notify-send -u low " MPD: Loop in album mode ON" -t 500 -h string:x-canonical-private-synchronous:volume_level
+		notify-send -u low " MPD: Loop in album mode ON" -t 500 -h string:x-canonical-private-synchronous:volume_level
 	fi
 }
 
@@ -92,11 +92,11 @@ function toggle_repeat() {
 	if mpc status | grep -q "repeat: on"; then
 		mpc single off
 		mpc repeat off
-		notify-send -u low " MPD: Repeat mode OFF" -t 500 -h string:x-canonical-private-synchronous:volume_level
+		notify-send -u low " MPD: Repeat mode OFF" -t 500 -h string:x-canonical-private-synchronous:volume_level
 	else
 		mpc single on
 		mpc repeat on
-		notify-send -u low " MPD: Repeat mode ON" -t 500 -h string:x-canonical-private-synchronous:volume_level
+		notify-send -u low " MPD: Repeat mode ON" -t 500 -h string:x-canonical-private-synchronous:volume_level
 	fi		
 
 }

@@ -138,7 +138,7 @@ bindsym $mod+Shift+XF86LaunchA exec --no-startup-id $HOME/.scripts/screenshot.sh
 bindsym $mod+Shift+Ctrl+XF86LaunchA exec --no-startup-id $HOME/.scripts/screenshot.sh section_screen_styled_to_file
 
 # rofi
-bindsym $mod+i exec --no-startup-id rofi -show file-browser-extended
+bindsym $mod+i exec --no-startup-id $HOME/.config/rofi/bin/file-browser
 bindsym $mod+q exec --no-startup-id $HOME/.config/rofi/bin/launcher
 bindsym XF86LaunchB exec --no-startup-id $HOME/.config/rofi/bin/launcher
 bindsym XF86Tools exec --no-startup-id $HOME/.config/rofi/bin/launcher

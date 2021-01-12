@@ -2,7 +2,7 @@
 
 configuration {
 	modi: "file-browser-extended";
-	theme: "config_.rasi";
+	theme: "config2.rasi";
   show-icons:         true;
   icon-theme:         "Papirus";
 }

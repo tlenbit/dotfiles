@@ -4,3 +4,11 @@ open-parent-as-self
 
 hide-hidden-symbol ""
 show-hidden-symbol ""
+
+open-multi-key "kb-custom-1"
+open-custom-key "kb-accept-alt"
+
+oc-cmd "thunar;icon:thunar;name:Thunar"
+oc-cmd "alacritty -e ranger;icon:spacefm;name:Ranger"
+oc-cmd "alacritty --working-directory;icon:Alacritty;name:Alacritty"
+oc-cmd "subl3 -a;icon:sublime;name:Sublime Text"

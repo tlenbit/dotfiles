@@ -1,6 +1,6 @@
 #!/bin/bash
 
-DIR=$HOME/pictures
+DIR=/media/6533-3962/pictures
 
 function set_still_wallpaper() {
 	# ps -ef | grep dwall | grep -v grep | awk '{print $2}' | xargs kill

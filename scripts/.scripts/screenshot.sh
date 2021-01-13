@@ -1,6 +1,6 @@
 #!/bin/bash
 
-DIR=$HOME/pictures
+DIR=/media/6533-3962/pictures
 
 function whole_screen_to_clipboard() {
 	maim -u | xclip -selection clipboard -t image/png

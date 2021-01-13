@@ -37,7 +37,6 @@
 (gtk_accel_path "<Actions>/ThunarStandardView/select-by-pattern" "<Primary>p")
 ; (gtk_accel_path "<Actions>/ThunarStandardView/create-document" "")
 ; (gtk_accel_path "<Actions>/ThunarShortcutsPane/sendto-shortcuts" "")
-; (gtk_accel_path "<Actions>/ThunarBookmarks/0697dc60a62d99ba03270eed2826587b" "")
 ; (gtk_accel_path "<Actions>/ThunarWindow/close-tab" "<Primary>w")
 (gtk_accel_path "<Actions>/ThunarWindow/view-side-pane-tree" "<Primary>z")
 ; (gtk_accel_path "<Actions>/ThunarStandardView/rename" "F2")

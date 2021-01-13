@@ -1,3 +1,0 @@
-#!/usr/bin/env bash
-
-rofi -show file-browser-extended -width "25" -theme-str "#prompt { enabled: false; }"

@@ -1,4 +1,14 @@
 * {
+  al: #00000000;
+  bg: #000000ff;
+  se: #101010ff;
+  fg: #FFFFFFff;
+  ac: #FBC02Dff;
+  gr: #CCCCCC;
+}
+
+/*
+* {
   accent:           #FBC02Dff;
   background:       #000000ff;
   background-light: #000000ff;
@@ -6,3 +16,4 @@
   on:               #66bb6a;
   off:              #ef5350;
 }
+*/

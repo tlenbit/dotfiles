@@ -1,13 +1,3 @@
-/*
- *
- * Author  : Aditya Shakya
- * Fork    : 0x7b1
- * Mail    : adi1090x@gmail.com
- * Github  : @adi1090x
- * Twitter : @adi1090x
- *
- */
-
 configuration {
   font: "Iosevka Extended 11";
   show-icons: true;
@@ -32,7 +22,7 @@ window {
   width: 15%;
   location: center;
   x-offset: 0;
-  y-offset: 0;
+  y-offset: -25%;
 }
 
 prompt {
@@ -70,7 +60,7 @@ listview {
   background-color: @al;
   padding: 10px;
   columns: 1;
-  /*fixed-height: false;*/
+  fixed-height: false;
   lines: 8;
   spacing: 0.5%;
   cycle: false;

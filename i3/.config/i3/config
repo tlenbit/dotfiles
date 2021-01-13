@@ -138,19 +138,18 @@ bindsym $mod+Shift+XF86LaunchA exec --no-startup-id $HOME/.scripts/screenshot.sh
 bindsym $mod+Shift+Ctrl+XF86LaunchA exec --no-startup-id $HOME/.scripts/screenshot.sh section_screen_styled_to_file
 
 # rofi
-bindsym $mod+i exec --no-startup-id $HOME/.config/rofi/bin/file-browser
-bindsym $mod+q exec --no-startup-id $HOME/.config/rofi/bin/launcher
-bindsym XF86LaunchB exec --no-startup-id $HOME/.config/rofi/bin/launcher
-bindsym XF86Tools exec --no-startup-id $HOME/.config/rofi/bin/launcher
-bindsym $mod+x exec --no-startup-id $HOME/.config/rofi/bin/powermenu
-bindsym $mod+c exec --no-startup-id $HOME/.config/rofi/bin/calculator
-bindsym $mod+d exec --no-startup-id cat /usr/share/dict/cracklib-small | rofi -dmenu -i -p "word" -width 15 -lines 6 | xargs -I{} xdg-open https://www.linguee.com/english-spanish/search\?source\=auto\&query\=\{\}
-bindsym $mod+Shift+d exec --no-startup-id $HOME/.scripts/rofi-utils.sh define_word
-bindsym $mod+o exec --no-startup-id $HOME/.scripts/rofi-utils.sh countdown
-bindsym $mod+u exec --no-startup-id $HOME/.scripts/rofi-utils.sh mount_ssh_fs
-bindsym $mod+Shift+u exec --no-startup-id $HOME/.scripts/rofi-utils.sh umount_ssh_fs
-bindsym $mod+Shift+x exec $HOME/.scripts/manage-applications.sh kill_apps
+bindsym $mod+i exec --no-startup-id $HOME/.config/rofi/bin/file-browser.sh
+bindsym $mod+q exec --no-startup-id $HOME/.config/rofi/bin/launcher.sh
+bindsym XF86LaunchB exec --no-startup-id $HOME/.config/rofi/bin/launcher.sh
+bindsym XF86Tools exec --no-startup-id $HOME/.config/rofi/bin/launcher.sh
+bindsym $mod+x exec --no-startup-id $HOME/.config/rofi/bin/powermenu.sh
+bindsym $mod+c exec --no-startup-id $HOME/.config/rofi/bin/calculator.sh
+bindsym $mod+d exec --no-startup-id $HOME/.config/rofi/bin/translate-word.sh
+bindsym $mod+Shift+d exec --no-startup-id $HOME/.config/rofi/bin/define-word.sh
+bindsym $mod+Shift+x exec --no-startup-id $HOME/.config/rofi/bin/kill-apps.sh
+bindsym $mod+Shift+u exec --no-startup-id $HOME/.config/rofi/bin/ssh-unmount-fs.sh
 
+# utils
 bindsym $mod+m exec $term -e ncmpcpp
 bindsym $mod+Shift+w exec chromium %U
 bindsym $mod+w exec chromium --user-data-dir="$HOME/.chromeprofile"
@@ -162,6 +161,8 @@ bindsym $mod+z exec zotero
 bindsym $mod+Shift+z exec --no-startup-id $HOME/.scripts/rofi-utils.sh zotero_collection
 
 # No longer used
+# bindsym $mod+u exec --no-startup-id $HOME/.config/rofi/bin/ssh-mount-fs.sh
+# bindsym $mod+o exec --no-startup-id $HOME/.config/rofi/bin/countdown.sh
 # bindsym $mod+Shift+a exec --no-startup-id $HOME/.scripts/rofi-utils.sh toggl_tasks
 # bindsym $mod+n exec networkmanager_dmenu
 # bindsym $mod+x exec $HOME/.scripts/rofi-utils.sh powermenu

@@ -1,6 +1,6 @@
 # dotfiles
 
-![Screenshot](images/2020-08-03_130926.png)
+![Screenshot](_images/2020-08-03_130926.png)
 
 ```
 alacritty

@@ -1,10 +1,11 @@
 #!/bin/bash
 
+DIR=$HOME/pictures
 
 function set_still_wallpaper() {
 	# ps -ef | grep dwall | grep -v grep | awk '{print $2}' | xargs kill
 	# dwall -s=$(ls /usr/share/dynamic-wallpaper/images | sort -R | head -1) &
-	hsetroot -cover "$HOME/Pictures/wallpapers/$(ls $HOME/Pictures/wallpapers | sort -R | head -1)" # set random wallpaper from folder
+	hsetroot -cover "$DIR/wallpapers/$(ls $DIR/wallpapers | sort -R | head -1)" # set random wallpaper from folder
 }
 
 function set_animated_wallpaper() {
@@ -15,7 +16,7 @@ function set_animated_wallpaper() {
 		killall paperview
 	fi
 
-	paperview "$HOME/Pictures/scenes/$(ls $HOME/Pictures/scenes | sort -R | head -1)" 10
+	paperview "$DIR/scenes/$(ls $DIR/scenes | sort -R | head -1)" 10
 }
 
 function run_polybar() {

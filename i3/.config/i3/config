@@ -138,14 +138,16 @@ bindsym $mod+Shift+XF86LaunchA exec --no-startup-id $HOME/.scripts/screenshot.sh
 bindsym $mod+Shift+Ctrl+XF86LaunchA exec --no-startup-id $HOME/.scripts/screenshot.sh section_screen_styled_to_file
 
 # rofi
-bindsym $mod+i exec --no-startup-id $HOME/.config/rofi/bin/file-browser.sh
 bindsym $mod+q exec --no-startup-id $HOME/.config/rofi/bin/launcher.sh
 bindsym XF86LaunchB exec --no-startup-id $HOME/.config/rofi/bin/launcher.sh
 bindsym XF86Tools exec --no-startup-id $HOME/.config/rofi/bin/launcher.sh
 bindsym $mod+x exec --no-startup-id $HOME/.config/rofi/bin/powermenu.sh
 bindsym $mod+c exec --no-startup-id $HOME/.config/rofi/bin/calculator.sh
-bindsym $mod+d exec --no-startup-id $HOME/.config/rofi/bin/translate-word.sh
-bindsym $mod+Shift+d exec --no-startup-id $HOME/.config/rofi/bin/define-word.sh
+
+bindsym $mod+d exec --no-startup-id $HOME/.config/rofi/bin/file-browser.sh
+bindsym $mod+Shift+i exec --no-startup-id $HOME/.config/rofi/bin/define-word.sh
+bindsym $mod+i exec --no-startup-id $HOME/.config/rofi/bin/translate-word.sh
+
 bindsym $mod+Shift+x exec --no-startup-id $HOME/.config/rofi/bin/kill-apps.sh
 bindsym $mod+Shift+u exec --no-startup-id $HOME/.config/rofi/bin/ssh-unmount-fs.sh
 
@@ -155,12 +157,12 @@ bindsym $mod+Shift+w exec chromium %U
 bindsym $mod+w exec chromium --user-data-dir="$HOME/.chromeprofile"
 bindsym $mod+Shift+space exec thunar
 bindsym $mod+e exec subl3
-bindsym $mod+p exec $term -t "Process Manager" -e gotop
 bindsym $mod+y exec --no-startup-id $HOME/.scripts/rofi-utils.sh play_youtube
 bindsym $mod+z exec zotero
 bindsym $mod+Shift+z exec --no-startup-id $HOME/.scripts/rofi-utils.sh zotero_collection
 
 # No longer used
+# bindsym $mod+p exec $term -t "Process Manager" -e gotop
 # bindsym $mod+u exec --no-startup-id $HOME/.config/rofi/bin/ssh-mount-fs.sh
 # bindsym $mod+o exec --no-startup-id $HOME/.config/rofi/bin/countdown.sh
 # bindsym $mod+Shift+a exec --no-startup-id $HOME/.scripts/rofi-utils.sh toggl_tasks

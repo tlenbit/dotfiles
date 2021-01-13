@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=Gotop Monitor
+GenericName=Gotop Monitor
+Icon=com.github.stsdc.monitor
+Exec=gotop
+Terminal=true
+Type=Application
+Categories=Settings;HardwareSettings;
+StartupNotify=true

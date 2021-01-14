@@ -67,7 +67,7 @@ listview {
   background-color: @al;
   columns: 1;
   lines: 10;
-  cycle: false;
+  cycle: true;
   dynamic: true;
   layout: vertical;
   fixed-height: false;
@@ -86,6 +86,9 @@ mainbox {
   /*children: [inputbar, listview];*/
   spacing: 0%;
   padding: 0%;
+
+
+  fixed-height: false;
 }
 
 element {
@@ -94,7 +97,6 @@ element {
   orientation: horizontal;
   border-radius: 0%;
   padding: 0.2% 0.5% 0.2% 0.5%;
-  /*padding: 0.5% 0.5% 0.5% 0.5%;*/
 }
 
 element-icon {
@@ -144,6 +146,12 @@ textbox {
   text-color: @gr;
   background-color: @bg;
 }
+
+element selected.normal {
+  text-color: @fg;
+  background-color: #FFFFFF33;
+}
+
 
 /*element normal.normal {
   padding: 0px 15px;

@@ -1,12 +1,14 @@
 #!/usr/bin/env bash
 
+# TODO: to be more precise: instead of listing folders, cat mounted volumes
+
 mounted_dir=$(ls $HOME/.mnt | rofi -dmenu -i -p "Umount Host" -width 15 -lines 15 -matching regex)
 
 if [[ -z "${mounted_dir}" ]]; then
   exit 0
 fi
 
-mounted_user=$(ls "$HOME/.mnt/$mounted_dir" | rofi -dmenu -i -p "Umount Dir" -width 15 -lines 15 -matching regex)
+mounted_user=$(ls "$HOME/.mnt/$mounted_dir" | rofi -dmenu -i -p "Dir" -width 15 -lines 15 -matching regex)
 
 if [[ -z "${mounted_user}" ]]; then
   exit 0

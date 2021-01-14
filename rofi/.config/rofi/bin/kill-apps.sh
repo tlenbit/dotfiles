@@ -32,7 +32,12 @@ if [ -n "$(cat /tmp/timer_pid.tmp)" ]; then
   programs="Countdown\0icon\x1fcom.github.parnold-x.timer\n$programs"
 fi
 
-choice=$(echo -en "$programs" | rofi -dmenu -i -p "" -hide-scrollbar -width "10%")
+# Unmount
+if [ "$(ls -A $HOME/.mnt)" ]; then
+  programs="Unmount SSH FS\0icon\x1fdrive-removable-media\n$programs"
+fi
+
+choice=$(echo -en "$programs" | rofi -dmenu -i -p "" -hide-scrollbar -width "10%" -theme "$HOME/.config/rofi/themes/launcher.rasi")
 
 if [ -z "$choice" ];then
   exit
@@ -41,27 +46,34 @@ fi
 case "$choice" in
   MPD)
     mpd --kill
+    notify-send "MPD Killed"
     ;;
   Docker)
     sudo systemctl stop docker.service
+    notify-send "Docker stopped"
     ;;
   Timidity)
     killall timidity
+    notify-send "Timidity stopped"
     ;;
   Webdav)
     killall webdav
+    notify-send "Webdav stopped"
     ;;
   Transmission)
     transmission_user=admin
     transmission-remote --auth "$transmission_user:$transmission_user" --exit
+    notify-send "Transmission stopped"
     ;;
   Countdown)
     kill -9 $(cat /tmp/timer_pid.tmp)
     rm /tmp/timer_*
+    notify-send "Countdown stopped"
+    ;;
+  "Unmount SSH FS")
+    $HOME/.config/rofi/bin/ssh-unmount-fs.sh
     ;;
   *)
     exit 0
     ;;
 esac
-
-notify-send -u low "$choice stopped" -h string:x-canonical-private-synchronous:killed_app

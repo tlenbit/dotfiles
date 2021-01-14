@@ -1,11 +1,11 @@
 #!/bin/bash
 
-DIR=/media/6533-3962/pictures
+DIR=$HOME
 
 function set_still_wallpaper() {
 	# ps -ef | grep dwall | grep -v grep | awk '{print $2}' | xargs kill
 	# dwall -s=$(ls /usr/share/dynamic-wallpaper/images | sort -R | head -1) &
-	hsetroot -cover "$DIR/wallpapers/$(ls $DIR/wallpapers | sort -R | head -1)" # set random wallpaper from folder
+	hsetroot -cover "$HOME/.wallpapers/$(ls $HOME/.wallpapers | sort -R | head -1)" # set random wallpaper from folder
 }
 
 function set_animated_wallpaper() {
@@ -16,7 +16,7 @@ function set_animated_wallpaper() {
 		killall paperview
 	fi
 
-	paperview "$DIR/scenes/$(ls $DIR/scenes | sort -R | head -1)" 10
+	paperview "$HOME/.scenes/$(ls $HOME/.scenes | sort -R | head -1)" 10
 }
 
 function run_polybar() {
@@ -47,7 +47,7 @@ function run_conky() {
 	conky -q -d
 }
 
-# RUN SCREEN SETUP (order matters)
+# RUN SCREEN SETUP (the order matters)
 run_polybar
 run_picom
 # run_conky

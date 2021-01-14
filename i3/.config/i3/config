@@ -48,7 +48,7 @@ bindsym $mod+Shift+0 move container to workspace $ws10
 
 bindsym $mod+Shift+c reload
 bindsym $mod+Shift+r restart
-bindsym $mod+Shift+q kill
+bindsym $mod+x kill
 bindsym $mod+Shift+g gaps inner current toggle 40
 
 # vim bindings
@@ -92,6 +92,7 @@ bindsym $mod+Shift+s sticky toggle
 
 bindsym $mod+a [instance="crx_kjbdgfilnfhdoflbpgamdcdgpehopbep"] scratchpad show move position center
 bindsym $mod+s [instance="crx_dibeblefpdjapcdhajpidiklcdpjpipk"] scratchpad show move position center
+bindsym $mod+d [class="Subl3"] scratchpad show move position center
 
 bindsym $mod+Return exec $term
 # bindsym $mod+Shift+Return exec $term -e ranger
@@ -139,29 +140,27 @@ bindsym $mod+Shift+Ctrl+XF86LaunchA exec --no-startup-id $HOME/.scripts/screensh
 
 # rofi
 bindsym $mod+q exec --no-startup-id $HOME/.config/rofi/bin/launcher.sh
-bindsym XF86LaunchB exec --no-startup-id $HOME/.config/rofi/bin/launcher.sh
-bindsym XF86Tools exec --no-startup-id $HOME/.config/rofi/bin/launcher.sh
-bindsym $mod+x exec --no-startup-id $HOME/.config/rofi/bin/powermenu.sh
-bindsym $mod+c exec --no-startup-id $HOME/.config/rofi/bin/calculator.sh
-
-bindsym $mod+d exec --no-startup-id $HOME/.config/rofi/bin/file-browser.sh
+bindsym $mod+Shift+q exec --no-startup-id $HOME/.config/rofi/bin/kill-apps.sh
+bindsym XF86Tools exec --no-startup-id $HOME/.config/rofi/bin/calculator.sh
+bindsym XF86Favorites exec --no-startup-id $HOME/.config/rofi/bin/powermenu.sh
+bindsym $mod+e exec --no-startup-id $HOME/.config/rofi/bin/file-browser.sh
 bindsym $mod+Shift+i exec --no-startup-id $HOME/.config/rofi/bin/define-word.sh
 bindsym $mod+i exec --no-startup-id $HOME/.config/rofi/bin/translate-word.sh
 
-bindsym $mod+Shift+x exec --no-startup-id $HOME/.config/rofi/bin/kill-apps.sh
-bindsym $mod+Shift+u exec --no-startup-id $HOME/.config/rofi/bin/ssh-unmount-fs.sh
+# bindsym $mod+Shift+u exec --no-startup-id $HOME/.config/rofi/bin/ssh-unmount-fs.sh
 
 # utils
 bindsym $mod+m exec $term -e ncmpcpp
 bindsym $mod+Shift+w exec chromium %U
 bindsym $mod+w exec chromium --user-data-dir="$HOME/.chromeprofile"
 bindsym $mod+Shift+space exec thunar
-bindsym $mod+e exec subl3
 bindsym $mod+y exec --no-startup-id $HOME/.scripts/rofi-utils.sh play_youtube
-bindsym $mod+z exec zotero
 bindsym $mod+Shift+z exec --no-startup-id $HOME/.scripts/rofi-utils.sh zotero_collection
 
 # No longer used
+# bindsym XF86LaunchB exec --no-startup-id $HOME/.config/rofi/bin/launcher.sh
+# bindsym $mod+z exec zotero
+# bindsym $mod+e exec subl3
 # bindsym $mod+p exec $term -t "Process Manager" -e gotop
 # bindsym $mod+u exec --no-startup-id $HOME/.config/rofi/bin/ssh-mount-fs.sh
 # bindsym $mod+o exec --no-startup-id $HOME/.config/rofi/bin/countdown.sh
@@ -228,6 +227,7 @@ exec --no-startup-id unclutter --timeout 1 # hide mouse cursor when inactive
 
 # config apps
 assign [class="Thunar" title="File Operation Progress"] $ws10
+for_window [class="Subl3"] floating enable border pixel 0 move scratchpad, scratchpad show; # subl3
 for_window [class="Chromium" instance="crx_kjbdgfilnfhdoflbpgamdcdgpehopbep"] floating enable border pixel 0 move scratchpad, scratchpad show; # calendar
 for_window [class="Chromium" instance="crx_dibeblefpdjapcdhajpidiklcdpjpipk"] floating enable border pixel 0 move scratchpad, scratchpad show; # paper
 for_window [class="Chromium" instance="crx_ioknjpikighmhnkfbgncchbaneiacjpl"] floating enable border pixel 0 move position center; # observable

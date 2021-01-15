@@ -45,6 +45,14 @@
     }
 },
 {
+    "keys": ["alt+ñ"],
+    "command": "exec",
+    "args":
+    {
+        "cmd": ["/home/jc/.config/rofi/bin/file-browser.sh"]
+    }
+},
+{
     "keys": ["f1"],
     "command": "dired",
     "args":

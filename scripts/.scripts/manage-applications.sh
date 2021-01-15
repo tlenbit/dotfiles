@@ -55,27 +55,6 @@ function launch_timidity() {
 	send_notification "Timidity started"
 }
 
-function launch_mpd() {
-	if pgrep mpd; then
-		send_notification "MPD is already running"
-		exit 0
-	fi
-
-	conf_file="$1"
-
-	mpd $conf_file
-	ashuffle </dev/null &>/dev/null &
-	send_notification "MPD started"
-}
-
-function launch_mpd_hdd() {
-	launch_mpd "$HOME/.config/mpd/mpd.conf"
-}
-
-function launch_mpd_local() {
-	launch_mpd "$HOME/.config/mpd/mpd_local.conf"
-}
-
 function launch_docker() {
 	if sudo systemctl is-active docker.service; then
 		send_notification "Docker ir already running"

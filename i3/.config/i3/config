@@ -51,27 +51,38 @@ bindsym $mod+Shift+r restart
 bindsym $mod+x kill
 bindsym $mod+Shift+g gaps inner current toggle 40
 
+bindsym $mod+comma exec i3-msg border pixel 1
+bindsym --release $mod+comma exec i3-msg border pixel 0
+
+bindsym $mod+Ctrl+Left exec i3-msg border pixel 1; focus left
+bindsym $mod+Ctrl+Down exec i3-msg border pixel 1; focus down
+bindsym $mod+Ctrl+Up exec i3-msg border pixel 1; focus up
+bindsym $mod+Ctrl+Right exec i3-msg border pixel 1; focus right
+
+bindsym --release $mod+Ctrl+Left exec i3-msg border pixel 0
+bindsym --release $mod+Ctrl+Down exec i3-msg border pixel 0
+bindsym --release $mod+Ctrl+Up exec i3-msg border pixel 0
+bindsym --release $mod+Ctrl+Right exec i3-msg border pixel 0
+
+bindsym $mod+Shift+Left exec i3-msg border pixel 1; move left
+bindsym $mod+Shift+Down exec i3-msg border pixel 1; move down
+bindsym $mod+Shift+Up exec i3-msg border pixel 1; move up
+bindsym $mod+Shift+Right exec i3-msg border pixel 1; move right
+
+bindsym --release $mod+Shift+Left exec i3-msg border pixel 0
+bindsym --release $mod+Shift+Down exec i3-msg border pixel 0
+bindsym --release $mod+Shift+Up exec i3-msg border pixel 0
+bindsym --release $mod+Shift+Right exec i3-msg border pixel 0
+
 # vim bindings
-bindsym $mod+Ctrl+h focus left
-bindsym $mod+Ctrl+j focus down
-bindsym $mod+Ctrl+k focus up
-bindsym $mod+Ctrl+l focus right
-
-bindsym $mod+Ctrl+Left focus left
-bindsym $mod+Ctrl+Down focus down
-bindsym $mod+Ctrl+Up focus up
-bindsym $mod+Ctrl+Right focus right
-
-bindsym $mod+Shift+Left move left
-bindsym $mod+Shift+Down move down
-bindsym $mod+Shift+Up move up
-bindsym $mod+Shift+Right move right
-
-# vim bindings
-bindsym $mod+Shift+h move left
-bindsym $mod+Shift+j move down
-bindsym $mod+Shift+k move up
-bindsym $mod+Shift+l move right
+# bindsym $mod+Ctrl+h focus left
+# bindsym $mod+Ctrl+j focus down
+# bindsym $mod+Ctrl+k focus up
+# bindsym $mod+Ctrl+l focus right
+# bindsym $mod+Shift+h move left
+# bindsym $mod+Shift+j move down
+# bindsym $mod+Shift+k move up
+# bindsym $mod+Shift+l move right
 
 bindsym $mod+Left workspace prev
 bindsym $mod+Right workspace next
@@ -87,8 +98,10 @@ bindsym $mod+r mode "resize"
 bindsym $mod+l mode "layout"
 bindsym $mod+b mode "border"
 bindsym $mod+f fullscreen toggle
-bindsym Mod1+Tab focus mode_toggle
 bindsym $mod+Shift+s sticky toggle
+
+bindsym Mod1+Tab exec i3-msg border pixel 1; focus mode_toggle
+bindsym --release Mod1+Tab exec i3-msg border pixel 0
 
 bindsym $mod+a [instance="crx_kjbdgfilnfhdoflbpgamdcdgpehopbep"] scratchpad show move position center
 bindsym $mod+s [instance="crx_dibeblefpdjapcdhajpidiklcdpjpipk"] scratchpad show move position center
@@ -140,6 +153,7 @@ bindsym $mod+Shift+Ctrl+XF86LaunchA exec --no-startup-id $HOME/.scripts/screensh
 
 # rofi
 bindsym $mod+q exec --no-startup-id $HOME/.config/rofi/bin/launcher.sh
+bindsym $mod+Shift+p exec --no-startup-id $HOME/.config/rofi/bin/kill-process.sh
 bindsym $mod+Shift+q exec --no-startup-id $HOME/.config/rofi/bin/kill-apps.sh
 bindsym XF86Tools exec --no-startup-id $HOME/.config/rofi/bin/calculator.sh
 bindsym XF86Favorites exec --no-startup-id $HOME/.config/rofi/bin/powermenu.sh

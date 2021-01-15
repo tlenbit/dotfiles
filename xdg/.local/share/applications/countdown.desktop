@@ -1,7 +1,7 @@
 [Desktop Entry]
-Name=Countdown Timer
-GenericName=Countdown
-Icon=com.github.parnold-x.timer
+Name=Start Countdown
+GenericName=Start Countdown
+Icon=pomodoro-start-light
 Exec=sh -c "$HOME/.config/rofi/bin/countdown.sh"
 Terminal=false
 Type=Application

@@ -43,7 +43,7 @@ entry {
   /*padding: 0% 0% 0% 0%;*/
   background-color: @al;
   text-color: @gr;
-  placeholder-color: @fg;
+  placeholder-color: @gr;
   expand: true;
   blink: true;
   /*horizontal-align: 0;*/

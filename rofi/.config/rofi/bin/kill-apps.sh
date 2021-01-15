@@ -29,7 +29,7 @@ fi
 
 # Countdown
 if [ -n "$(cat /tmp/timer_pid.tmp)" ]; then
-  programs="Countdown\0icon\x1fcom.github.parnold-x.timer\n$programs"
+  programs="Stop Countdown\0icon\x1fpomodoro-stop-light\n$programs"
 fi
 
 # Unmount
@@ -65,7 +65,7 @@ case "$choice" in
     transmission-remote --auth "$transmission_user:$transmission_user" --exit
     notify-send "Transmission stopped"
     ;;
-  Countdown)
+  "Stop Countdown")
     kill -9 $(cat /tmp/timer_pid.tmp)
     rm /tmp/timer_*
     notify-send "Countdown stopped"

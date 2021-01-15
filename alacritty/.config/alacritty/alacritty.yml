@@ -93,6 +93,7 @@ scrolling:
 font:
   normal:
     family: Cozette
+    # family: Curie
     # family: Terminus
     
   # Normal (roman) font face

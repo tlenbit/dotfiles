@@ -1,6 +1,6 @@
 [Desktop Entry]
-Name=Start Countdown
-GenericName=Start Countdown
+Name=Start Timer
+GenericName=Start Timer
 Icon=pomodoro-start-light
 Exec=sh -c "$HOME/.config/rofi/bin/countdown.sh"
 Terminal=false

@@ -6,7 +6,7 @@ if [ -z "$search" ]; then
   exit 0
 fi
 
-mode=$(echo -ne "Sound\0icon\x1fpithos-tray-icon\nVideo\0icon\x1frecord-desktop-indicator" | rofi -show-icons -dmenu -e -p "" -width "10%" -theme-str "entry {placeholder: \"Mode\";}")
+mode=$(echo -ne "Sound\0icon\x1fpithos-tray-icon\nVideo\0icon\x1frecord-desktop-indicator" | rofi -show-icons -dmenu -e -i -p "" -width "10%" -theme-str "entry {placeholder: \"Mode\";}")
 
 if [ -z "$mode" ];then
   exit

@@ -5,7 +5,7 @@ if pgrep mpd; then
   exit 0
 fi
 
-dbconfig=$(echo -ne "Local\0icon\x1fdesktopconnected\nHDD\0icon\x1findicator-sensors-disk" | rofi -dmenu -p "" -width "10%" -theme-str "entry {placeholder: \"Choose database\";}")
+dbconfig=$(echo -ne "Local\0icon\x1fdesktopconnected\nHDD\0icon\x1findicator-sensors-disk" | rofi -dmenu -p "" -width "10%" -i -theme-str "entry {placeholder: \"Choose database\";}")
 
 if [ -z "$dbconfig" ]; then
   exit 0

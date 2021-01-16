@@ -1,35 +1,33 @@
 {
-	"always_show_minimap_viewport": true,
-	"black_on_save": false,
-	"color_scheme": "Packages/Theme - Cyanide/Cyanide - Golden.tmTheme",
-	"dictionary": "Packages/Language - English/en_US.dic",
-	"draw_white_space": "all",
-	"fold_buttons": false,
-	"font_face": "Terminus",
-	"font_options":
-	[
-		"no_bold",
-		"no_italic"
-	],
-	"font_size": 10,
-	"gutter": true,
-	"highlight_line": true,
-	"ignored_packages":
-	[
-		"Vintage"
-	],
-	"line_numbers": true,
-	"margin": 0,
-	"mini_diff": true,
-	"node_path":
-	{
-		"linux": "/usr/bin/node"
-	},
-	"overlay_scroll_bars": "enabled",
-	"spell_check": false,
-	"tab_size": 2,
-	"theme": "ayu-dark.sublime-theme",
-	"ui_separator": true,
-	"viewer": "zathura",
-	"word_wrap": false
+    "always_show_minimap_viewport": true,
+    "black_on_save": false,
+    "color_scheme": "Packages/Theme - Cyanide/Cyanide - Golden.tmTheme",
+    "dictionary": "Packages/Language - English/en_US.dic",
+    "draw_white_space": "all",
+    "fold_buttons": false,
+    "font_face": "Terminus",
+    "font_options": [
+        "no_bold",
+        "no_italic"
+    ],
+    "font_size": 10,
+    "gutter": true,
+    "highlight_line": true,
+    "ignored_packages": [
+        "Vintage"
+    ],
+    "line_numbers": true,
+    "margin": 0,
+    "mini_diff": true,
+    "node_path":
+    {
+        "linux": "/usr/bin/node"
+    },
+    "overlay_scroll_bars": "enabled",
+    "spell_check": false,
+    "tab_size": 2,
+    "theme": "ayu-dark.sublime-theme",
+    "ui_separator": false,
+    "viewer": "zathura",
+    "word_wrap": false
 }

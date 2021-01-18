@@ -1,5 +1,6 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhistcnt =3
+let g:netrw_dirhistcnt =4
+let g:netrw_dirhist_4='/home/jc/downloads/exam'
 let g:netrw_dirhist_3='/home/jc/code/6.824-2018'
 let g:netrw_dirhist_2='/home/jc/.config/alacritty'
 let g:netrw_dirhist_1='/home/jc/Documents/code/projects/SublimeHermes'

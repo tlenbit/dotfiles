@@ -40,25 +40,31 @@ function fif() {
 }
 
 function _ranger_here() {
-    ranger --choosedir=$HOME/.rangerdir < $TTY
-    LASTDIR=`cat $HOME/.rangerdir`
-    cd "$LASTDIR"
-    zle reset-prompt
+  ranger --choosedir=$HOME/.rangerdir < $TTY
+  LASTDIR=`cat $HOME/.rangerdir`
+  cd "$LASTDIR"
+  zle reset-prompt
 }
 
 function _rofi_filebrowser_here() {
-    $HOME/.config/rofi/bin/file-browser.sh
-    zle reset-prompt
+  $HOME/.config/rofi/bin/file-browser.sh
+  zle reset-prompt
 }
 
 function _rofi_find_here() {
-    search=$(rofi -dmenu -p "Search" -width "20%")
+  search=$(rofi -dmenu -p "Search" -width "20%")
 
-    if [ -n "$search" ];then
-      fif "$search"
-    fi
+  if [ -n "$search" ];then
+    fif "$search"
+  fi
 
-    zle reset-prompt
+  zle reset-prompt
+}
+
+function _eval_github_ssh() {
+  eval "$(ssh-agent -s)"
+  ssh-add $HOME/.ssh/github
+  gitui
 }
 
 unalias z 2> /dev/null
@@ -91,5 +97,5 @@ alias l='exa -lbF --git' # list, size, type, git
 alias ll='exa --tree --level=2 --long --classify --header --git' # long list
 alias lS='exa -1' # one column, just names
 
-alias g=gitui
 alias f=fif
+alias g=_eval_github_ssh

@@ -25,7 +25,7 @@ case "$mode" in
     fi
 
     notify-send -i "pithos-tray-icon" "Opening \"$search\""
-    mpc insert $(youtube-dl --prefer-insecure -g -f140 ytsearch:"$search")
+    mpc insert $(youtube-dl -x --add-metadata --prefer-insecure -g -f140 ytsearch:"$search")
     mpc next
     mpc play
     ;;

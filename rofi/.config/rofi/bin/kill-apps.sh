@@ -19,7 +19,7 @@ fi
 
 # Webdav
 if [ -n "$(pgrep webdav)" ]; then
-  programs="Webdav\0icon\x1fterminal\n$programs"
+  programs="Webdav\0icon\x1fnetwork-vpn\n$programs"
 fi
 
 # Transmission

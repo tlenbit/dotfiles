@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=Webdav
 GenericName=Webdav
-Icon=terminal
+Icon=network-vpn
 Exec=sh -c "$HOME/.scripts/manage-applications.sh launch_webdav"
 Terminal=false
 Type=Application

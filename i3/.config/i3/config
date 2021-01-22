@@ -247,8 +247,9 @@ for_window [class="Chromium" instance="crx_dibeblefpdjapcdhajpidiklcdpjpipk"] fl
 for_window [class="Chromium" instance="crx_ioknjpikighmhnkfbgncchbaneiacjpl"] floating enable border pixel 0 move position center; # observable
 for_window [class="Chromium" instance="crx_chhimdaamcpegdphmomkcjhlabehlnjj"] floating enable border pixel 0 move position center; # grammarly
 for_window [class="Chromium" instance="crx_klingkmakcphekbgogbmfldljflfdecb"] floating enable border pixel 0 move position center; # mathcha
+for_window [class="Chromium" instance="crx_bndmnggfngpgmmijcogkkgglhalbpomk"] floating enable border pixel 0 move position center; # raindrop
+for_window [class="Chromium" instance="crx_ldgfbffkinooeloadekpmfoklnobpien"] floating enable border pixel 0 move position center; # raindrop
 for_window [class="Chromium" instance="crx_kmhopmchchfpfdcdjodmpfaaphdclmlj"] floating enable border pixel 0 move position center;
-for_window [class="Chromium" instance="crx_bndmnggfngpgmmijcogkkgglhalbpomk"] floating enable border pixel 0 move position center;
 for_window [class="Chromium" instance="crx_egdalnmencdpmadgdbcmfiinlfflfbpk"] floating enable border pixel 0 move position center;
 for_window [class="Chromium" instance="crx_pmcngklofgngifnoceehmchjlildnhkj"] floating enable border pixel 0 move position center;
 for_window [class="Blueman-manager"] floating enable; # bluetooth manager

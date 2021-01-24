@@ -3,7 +3,9 @@
 ; #32ff7e
 
 [bar/bottom]
-height = 40
+height = 180
+offset-y = -70
+# height = 40
 bottom = true
 modules-center = i3
 modules-right = torrent timer webdav midi docker music headphone_battery cpu memory filesystem
@@ -24,16 +26,21 @@ padding-right = 3
 module-margin-right = 2
 underline-size = 0
 
-background = #000000ff
+background-1 = #000000
+background-0 = #00000000
+# background = #000000ff
 foreground = #ffffff
 
-font-0 = IosevkaExtended:weight=medium:pixelsize=10;3
+font-0 = IosevkaExtended:weight=semibold:pixelsize=10;3
 font-1 = Feather:pixelsize=13;4
 # font-0 = Cozette:pixelsize=8;2
 # font-1 = Siji:pixelsize=8;2
 
 [bar/top]
-height = 35
+height = 180
+offset-y = -70
+# height = 35
+top = 0
 bottom = false
 
 tray-position = none
@@ -49,10 +56,12 @@ spacing = 3
 module-margin = 1
 underline-size = 0
 
-background = #000000ff
+# background = #000000ff
+background-0 = #000000
+background-1 = #00000000
 foreground = #ffffff
 
-font-0 = IosevkaExtended:weight=medium:pixelsize=10;3
+font-0 = IosevkaExtended:weight=semibold:pixelsize=10;3
 font-1 = Feather:pixelsize=13;4
 # font-0 = Cozette:pixelsize=8;2
 # font-1 = Siji:pixelsize=8;2
@@ -63,9 +72,9 @@ override-redirect = true
 wm-name = bar
 wm-restack = i3
 
-;[global/wm]
-;margin-top = 10
-;margin-bottom = 50
+# [global/wm]
+# margin-top = 100
+# margin-bottom = 100
 
 [module/i3]
 type = internal/i3
@@ -78,16 +87,13 @@ enable-scroll = false
 format = <label-state>
 
 label-focused = %index%
-# label-focused = ●
-;label-focused-foreground = #82ccdd
 label-focused-foreground = #ffd86e
-label-focused-background = #0a3d6200
+# label-focused-background = #0a3d6200
 label-focused-padding = 1
 
 label-unfocused = %index%
-label-unfocused-foreground = #fff
-;label-unfocused = ○
 label-unfocused-padding = 1
+# label-unfocused-foreground = #fff
 
 label-visible = %index%
 label-visible-padding = 1

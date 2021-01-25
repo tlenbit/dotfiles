@@ -92,10 +92,10 @@ alias c='xclip -selection clipboard'
 alias e=$EDITOR
 alias h=hexyl
 
-alias ls='exa' # ls
-alias l='exa -lbF --git' # list, size, type, git
-alias ll='exa --tree --level=2 --long --classify --header --git' # long list
-alias lS='exa -1' # one column, just names
+# alias ls='exa' # ls
+# alias l='exa -lbF --git' # list, size, type, git
+# alias ll='exa --tree --level=2 --long --classify --header --git' # long list
+# alias lS='exa -1' # one column, just names
 
 alias f=fif
 alias g=_eval_github_ssh

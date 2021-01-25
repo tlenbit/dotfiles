@@ -1,14 +1,10 @@
-; Primary
-; #ffd86e
-; #32ff7e
-
 [bar/bottom]
 height = 180
 offset-y = -70
 # height = 40
 bottom = true
 modules-center = i3
-modules-right = torrent timer webdav midi docker music headphone_battery cpu memory filesystem
+modules-right = torrent timer webdav docker music headphone_battery cpu memory filesystem
 modules-left = title 
 
 wm-name = bar
@@ -16,14 +12,14 @@ wm-restack = i3
 override-redirect = true
 
 tray-position = right
-tray-transparent = true
 tray-detached = false
-tray-padding = 0
+tray-padding = -70
 
 padding-left = 3
 padding-right = 3
 
-module-margin-right = 2
+module-margin-left = 2
+# module-margin-left = 2
 underline-size = 0
 
 background-1 = #000000
@@ -44,9 +40,6 @@ top = 0
 bottom = false
 
 tray-position = none
-tray-transparent = true
-tray-detached = false
-tray-padding = 0
 
 padding-left = 3
 padding-right = 2
@@ -99,7 +92,7 @@ label-visible = %index%
 label-visible-padding = 1
 
 label-urgent = %index%
-label-urgent-background = #e5503900
+# label-urgent-background = #e5503900
 label-urgent-foreground = #e55039
 label-urgent-padding = 1
 

@@ -3,6 +3,10 @@
 HEADPHONES_MAC=$(pacmd list-cards | grep bluez_card -C20 | grep 'device.string' | cut -d' ' -f 3 | tr -d '"')
 
 function check_if_available() {
+	if [ -z "$HEADPHONES_MAC" ]; then
+		exit 1
+	fi
+
 	bluetoothctl info $HEADPHONES_MAC | grep 'Connected: yes'
 }
 

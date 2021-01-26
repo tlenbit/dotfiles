@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-time_minutes=$(rofi -dmenu -p "" -width "5%")
+time_minutes=$(echo -ne "5\n10\n15\n30\n45\n60" | rofi -dmenu -p "" -width "5%")
 
 if [ -z "$time_minutes" ];then
   exit

@@ -93,9 +93,9 @@ scrolling:
 font:
   normal:
     # family: Jetbrains Mono
-    family: Cozette
+    # family: Cozette
     # family: Curie
-    # family: Terminus
+    family: Terminus
     
   # Normal (roman) font face
   #normal:
@@ -134,7 +134,6 @@ font:
     #family: Source Code Pro
 
   # Point size
-  # size: 8.0
   size: 8.0
   # size: 12.0
 

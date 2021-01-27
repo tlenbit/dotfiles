@@ -105,6 +105,7 @@ bindsym --release Mod1+Tab exec i3-msg border pixel 0
 
 bindsym $mod+a [instance="crx_kjbdgfilnfhdoflbpgamdcdgpehopbep"] scratchpad show move position center
 bindsym $mod+s [instance="crx_dibeblefpdjapcdhajpidiklcdpjpipk"] scratchpad show move position center
+bindsym $mod+z [instance="crx_chhimdaamcpegdphmomkcjhlabehlnjj"] scratchpad show move position center
 bindsym $mod+d [class="Subl3"] scratchpad show move position center
 
 bindsym $mod+Return exec $term
@@ -244,8 +245,8 @@ assign [class="Thunar" title="File Operation Progress"] $ws10
 for_window [class="Subl3"] floating enable border pixel 0 move scratchpad, scratchpad show; # subl3
 for_window [class="Chromium" instance="crx_kjbdgfilnfhdoflbpgamdcdgpehopbep"] floating enable border pixel 0 move scratchpad, scratchpad show; # calendar
 for_window [class="Chromium" instance="crx_dibeblefpdjapcdhajpidiklcdpjpipk"] floating enable border pixel 0 move scratchpad, scratchpad show; # paper
+for_window [class="Chromium" instance="crx_chhimdaamcpegdphmomkcjhlabehlnjj"] floating enable border pixel 0 move scratchpad, scratchpad show; # grammarly
 for_window [class="Chromium" instance="crx_ioknjpikighmhnkfbgncchbaneiacjpl"] floating enable border pixel 0 move position center; # observable
-for_window [class="Chromium" instance="crx_chhimdaamcpegdphmomkcjhlabehlnjj"] floating enable border pixel 0 move position center; # grammarly
 for_window [class="Chromium" instance="crx_klingkmakcphekbgogbmfldljflfdecb"] floating enable border pixel 0 move position center; # mathcha
 for_window [class="Chromium" instance="crx_bndmnggfngpgmmijcogkkgglhalbpomk"] floating enable border pixel 0 move position center; # raindrop
 for_window [class="Chromium" instance="crx_ldgfbffkinooeloadekpmfoklnobpien"] floating enable border pixel 0 move position center; # raindrop

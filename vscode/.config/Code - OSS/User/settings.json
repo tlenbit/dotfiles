@@ -4,7 +4,7 @@
   "editor.fontLigatures": true,
   "editor.lineHeight": 14,
   "workbench.colorTheme": "White Night",
-  "window.zoomLevel": 0,
+  "window.zoomLevel": 2,
   "window.menuBarVisibility": "hidden",
   "editor.renderIndentGuides": true,
   "editor.minimap.enabled": false,

@@ -92,10 +92,11 @@ scrolling:
 # Font configuration (changes require restart)
 font:
   normal:
+    # family: Iosevka
     # family: Jetbrains Mono
-    # family: Cozette
+    family: Cozette
     # family: Curie
-    family: Terminus
+    # family: Terminus
     
   # Normal (roman) font face
   #normal:

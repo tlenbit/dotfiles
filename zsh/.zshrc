@@ -3,7 +3,7 @@
 # zsh
 source /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
 export ZSH="/usr/share/oh-my-zsh"
-ZSH_THEME="robbyrussell"
+ZSH_THEME=fwalch
 plugins=(git)
 source $ZSH/oh-my-zsh.sh
 
@@ -99,3 +99,4 @@ alias h=hexyl
 
 alias f=fif
 alias g=_eval_github_ssh
+source /home/jc/.config/broot/launcher/bash/br

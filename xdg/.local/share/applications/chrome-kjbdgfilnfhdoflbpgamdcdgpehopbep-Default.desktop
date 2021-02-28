@@ -5,5 +5,5 @@ Terminal=false
 Type=Application
 Name=Calendar
 Exec=chromium --profile-directory=Default --app-id=kjbdgfilnfhdoflbpgamdcdgpehopbep
-Icon=google-agenda
+Icon=chrome-kjbdgfilnfhdoflbpgamdcdgpehopbep-Default
 StartupWMClass=crx_kjbdgfilnfhdoflbpgamdcdgpehopbep

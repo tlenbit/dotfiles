@@ -3,7 +3,7 @@
 # zsh
 source /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
 export ZSH="/usr/share/oh-my-zsh"
-ZSH_THEME=fwalch
+ZSH_THEME=simple #fwalch
 plugins=(git)
 source $ZSH/oh-my-zsh.sh
 
@@ -14,7 +14,7 @@ source /usr/share/fzf/completion.zsh
 # z
 . /usr/share/z/z.sh
 
-export EDITOR="nvim"
+export EDITOR="vim"
 export TERMINAL="alacritty"
 export BROWSER="chromium"
 
@@ -61,11 +61,11 @@ function _rofi_find_here() {
   zle reset-prompt
 }
 
-function _eval_github_ssh() {
-  eval "$(ssh-agent -s)"
-  ssh-add $HOME/.ssh/github
-  gitui
-}
+# function _eval_github_ssh() {
+#   eval "$(ssh-agent -s)"
+#   ssh-add $HOME/.ssh/github
+#   gitui
+# }
 
 unalias z 2> /dev/null
 z() {
@@ -82,6 +82,8 @@ bindkey '^S' _rofi_filebrowser_here
 zle -N _rofi_find_here
 bindkey '^F' _rofi_find_here
 
+zle -N z
+bindkey '^Z' z
 
 export KEYTIMEOUT=1
 bindkey -rpM viins '^['
@@ -92,11 +94,16 @@ alias c='xclip -selection clipboard'
 alias e=$EDITOR
 alias h=hexyl
 
-# alias ls='exa' # ls
-# alias l='exa -lbF --git' # list, size, type, git
-# alias ll='exa --tree --level=2 --long --classify --header --git' # long list
-# alias lS='exa -1' # one column, just names
+alias ls='exa' # ls
+alias l='exa -lbF --git' # list, size, type, git
+alias ll='exa --tree --level=1 --long --classify --header --git' # long list
+alias lS='exa -1' # one column, just names
+# alias g=_eval_github_ssh
+# source /home/jc/.config/broot/launcher/bash/br
 
 alias f=fif
-alias g=_eval_github_ssh
-source /home/jc/.config/broot/launcher/bash/br
+
+# lao
+PROG=$HOME/.cargo/bin/lao
+_CLI_ZSH_AUTOCOMPLETE_HACK=1
+source $HOME/projects/lao/zsh_autocomplete

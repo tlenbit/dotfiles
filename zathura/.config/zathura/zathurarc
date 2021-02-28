@@ -21,7 +21,8 @@ set zoom-min 10
 #set guioptions "s"
 set guioptions ""
 
-set font "Cozette 8"
+set font "Curie 8"
+# set font "Cozette 8"
 # set font "Terminus 8"
 
 # zathurarc-dark
@@ -64,6 +65,7 @@ map [fullscreen] f toggle_fullscreen
 
 # map <C-c> feedkeys ":exec xdg-open $FILE<Return>"
 map <C-c> feedkeys ":exec alacritty<Return>"
+map <C-e> feedkeys ":exec evince $FILE<Return><Quit>"
 
 # TODO: use $HOME instead
 map <C-m> feedkeys ":exec sh -c '/home/jc/.scripts/webdav-utils.sh move_file \"$FILE\"'<Return>"

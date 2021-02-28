@@ -1,12 +1,18 @@
 # general config
+# font pango:Cozette 8
 set $mod Mod4
-font pango:Cozette 8
+font pango:Curie 8
 new_window pixel 1
 new_float pixel 1
 floating_modifier $mod
 workspace_auto_back_and_forth yes
-gaps inner 40
-gaps outer 0
+#gaps inner 40
+#gaps outer 0
+
+gaps inner 10
+gaps vertical 100
+gaps horizontal 220
+# gaps outer 0
 # default_orientation horizontal
 # hide_edge_borders both
 
@@ -46,33 +52,36 @@ bindsym $mod+Shift+8 move container to workspace $ws8
 bindsym $mod+Shift+9 move container to workspace $ws9
 bindsym $mod+Shift+0 move container to workspace $ws10
 
-bindsym $mod+Shift+c reload
+# bindsym $mod+Shift+c reload
 bindsym $mod+Shift+r restart
-bindsym $mod+x kill
+bindsym $mod+Shift+x kill
 bindsym $mod+Shift+g gaps inner current toggle 40
+    
+bindsym $mod+comma exec i3-msg border pixel 5
+bindsym --release $mod+comma exec i3-msg border pixel 1
 
-bindsym $mod+comma exec i3-msg border pixel 1
-bindsym --release $mod+comma exec i3-msg border pixel 0
+bindsym $mod+Ctrl+Left exec i3-msg border pixel 5; focus left
+bindsym $mod+Ctrl+Down exec i3-msg border pixel 5; focus down
+bindsym $mod+Ctrl+Up exec i3-msg border pixel 5; focus up
+bindsym $mod+Ctrl+Right exec i3-msg border pixel 5; focus right
 
-bindsym $mod+Ctrl+Left exec i3-msg border pixel 1; focus left
-bindsym $mod+Ctrl+Down exec i3-msg border pixel 1; focus down
-bindsym $mod+Ctrl+Up exec i3-msg border pixel 1; focus up
-bindsym $mod+Ctrl+Right exec i3-msg border pixel 1; focus right
+bindsym --release $mod+Ctrl+Left exec i3-msg border pixel 1
+bindsym --release $mod+Ctrl+Down exec i3-msg border pixel 1
+bindsym --release $mod+Ctrl+Up exec i3-msg border pixel 1
+bindsym --release $mod+Ctrl+Right exec i3-msg border pixel 1
 
-bindsym --release $mod+Ctrl+Left exec i3-msg border pixel 0
-bindsym --release $mod+Ctrl+Down exec i3-msg border pixel 0
-bindsym --release $mod+Ctrl+Up exec i3-msg border pixel 0
-bindsym --release $mod+Ctrl+Right exec i3-msg border pixel 0
+bindsym $mod+Shift+Left exec i3-msg border pixel 5; move left
+bindsym $mod+Shift+Down exec i3-msg border pixel 5; move down
+bindsym $mod+Shift+Up exec i3-msg border pixel 5; move up
+bindsym $mod+Shift+Right exec i3-msg border pixel 5; move right
 
-bindsym $mod+Shift+Left exec i3-msg border pixel 1; move left
-bindsym $mod+Shift+Down exec i3-msg border pixel 1; move down
-bindsym $mod+Shift+Up exec i3-msg border pixel 1; move up
-bindsym $mod+Shift+Right exec i3-msg border pixel 1; move right
+bindsym --release $mod+Shift+Left exec i3-msg border pixel 1
+bindsym --release $mod+Shift+Down exec i3-msg border pixel 1
+bindsym --release $mod+Shift+Up exec i3-msg border pixel 1
+bindsym --release $mod+Shift+Right exec i3-msg border pixel 1
 
-bindsym --release $mod+Shift+Left exec i3-msg border pixel 0
-bindsym --release $mod+Shift+Down exec i3-msg border pixel 0
-bindsym --release $mod+Shift+Up exec i3-msg border pixel 0
-bindsym --release $mod+Shift+Right exec i3-msg border pixel 0
+bindsym Mod1+Tab exec i3-msg border pixel 5; focus mode_toggle
+bindsym --release Mod1+Tab exec i3-msg border pixel 1
 
 # vim bindings
 # bindsym $mod+Ctrl+h focus left
@@ -100,16 +109,20 @@ bindsym $mod+b mode "border"
 bindsym $mod+f fullscreen toggle
 bindsym $mod+Shift+s sticky toggle
 
-bindsym Mod1+Tab exec i3-msg border pixel 1; focus mode_toggle
-bindsym --release Mod1+Tab exec i3-msg border pixel 0
-
-bindsym $mod+a [instance="crx_kjbdgfilnfhdoflbpgamdcdgpehopbep"] scratchpad show move position center
+bindsym $mod+c [instance="crx_kjbdgfilnfhdoflbpgamdcdgpehopbep"] scratchpad show move position center
+bindsym $mod+Shift+d [instance="crx_chhimdaamcpegdphmomkcjhlabehlnjj"] scratchpad show move position center
+bindsym $mod+Shift+c [instance="crx_chpiljhfemlfpnfoohpbokdofonkiifm"] scratchpad show move position center
 bindsym $mod+s [instance="crx_dibeblefpdjapcdhajpidiklcdpjpipk"] scratchpad show move position center
-bindsym $mod+z [instance="crx_chhimdaamcpegdphmomkcjhlabehlnjj"] scratchpad show move position center
 bindsym $mod+d [class="Subl3"] scratchpad show move position center
+bindsym $mod+z [class="Alacritty" instance="floating-ranger"] scratchpad show move position center
+bindsym $mod+x [class="Alacritty" instance="floating-terminal"] scratchpad show move position center
 
-bindsym $mod+Return exec $term
+bindsym $mod+Shift+h [class=".*"] scratchpad show
+
+# bindsym $mod+a [class="code-oss"] scratchpad show move position center
+# bindsym $mod+Shift+a [class="jetbrains-goland"] scratchpad show move position center
 # bindsym $mod+Shift+Return exec $term -e ranger
+bindsym $mod+Return exec $term
 bindsym $mod+space exec --no-startup-id $term -e ranger
 bindsym $mod+Shift+o open
 
@@ -162,17 +175,16 @@ bindsym $mod+e exec --no-startup-id $HOME/.config/rofi/bin/file-browser.sh
 bindsym $mod+Shift+i exec --no-startup-id $HOME/.config/rofi/bin/define-word.sh
 bindsym $mod+i exec --no-startup-id $HOME/.config/rofi/bin/translate-word.sh
 
-# bindsym $mod+Shift+u exec --no-startup-id $HOME/.config/rofi/bin/ssh-unmount-fs.sh
-
 # utils
 bindsym $mod+m exec $term -e ncmpcpp
 bindsym $mod+Shift+w exec chromium %U
 bindsym $mod+w exec chromium --user-data-dir="$HOME/.chromeprofile"
 bindsym $mod+Shift+space exec thunar
-bindsym $mod+y exec --no-startup-id $HOME/.scripts/rofi-utils.sh play_youtube
-bindsym $mod+Shift+z exec --no-startup-id $HOME/.scripts/rofi-utils.sh zotero_collection
 
 # No longer used
+# bindsym $mod+Shift+u exec --no-startup-id $HOME/.config/rofi/bin/ssh-unmount-fs.sh
+# bindsym $mod+y exec --no-startup-id $HOME/.scripts/rofi-utils.sh play_youtube
+# bindsym $mod+Shift+z exec --no-startup-id $HOME/.scripts/rofi-utils.sh zotero_collection
 # bindsym XF86LaunchB exec --no-startup-id $HOME/.config/rofi/bin/launcher.sh
 # bindsym $mod+z exec zotero
 # bindsym $mod+e exec subl3
@@ -242,23 +254,31 @@ exec --no-startup-id unclutter --timeout 1 # hide mouse cursor when inactive
 
 # config apps
 assign [class="Thunar" title="File Operation Progress"] $ws10
-for_window [class="Subl3"] floating enable border pixel 0 move scratchpad, scratchpad show; # subl3
+
+for_window [class="Subl3"] floating enable move scratchpad, scratchpad show; # subl3
+for_window [class="Alacritty" instance="floating-ranger"] floating enable move scratchpad, scratchpad show, resize set 640 350;
+for_window [class="Alacritty" instance="floating-terminal"] floating enable move scratchpad, scratchpad show, resize set 640 350;
 for_window [class="Chromium" instance="crx_kjbdgfilnfhdoflbpgamdcdgpehopbep"] floating enable border pixel 0 move scratchpad, scratchpad show; # calendar
 for_window [class="Chromium" instance="crx_dibeblefpdjapcdhajpidiklcdpjpipk"] floating enable border pixel 0 move scratchpad, scratchpad show; # paper
 for_window [class="Chromium" instance="crx_chhimdaamcpegdphmomkcjhlabehlnjj"] floating enable border pixel 0 move scratchpad, scratchpad show; # grammarly
+for_window [class="Chromium" instance="crx_chpiljhfemlfpnfoohpbokdofonkiifm"] floating enable border pixel 0 move scratchpad, scratchpad show; # toggl track
 for_window [class="Chromium" instance="crx_ioknjpikighmhnkfbgncchbaneiacjpl"] floating enable border pixel 0 move position center; # observable
 for_window [class="Chromium" instance="crx_klingkmakcphekbgogbmfldljflfdecb"] floating enable border pixel 0 move position center; # mathcha
 for_window [class="Chromium" instance="crx_bndmnggfngpgmmijcogkkgglhalbpomk"] floating enable border pixel 0 move position center; # raindrop
-for_window [class="Chromium" instance="crx_ldgfbffkinooeloadekpmfoklnobpien"] floating enable border pixel 0 move position center; # raindrop
+for_window [class="Chromium" instance="crx_ldgfbffkinooeloadekpmfoklnobpien"] floating enable border pixel 0 move position center; 
 for_window [class="Chromium" instance="crx_kmhopmchchfpfdcdjodmpfaaphdclmlj"] floating enable border pixel 0 move position center;
 for_window [class="Chromium" instance="crx_egdalnmencdpmadgdbcmfiinlfflfbpk"] floating enable border pixel 0 move position center;
 for_window [class="Chromium" instance="crx_pmcngklofgngifnoceehmchjlildnhkj"] floating enable border pixel 0 move position center;
-for_window [class="Blueman-manager"] floating enable; # bluetooth manager
-for_window [class="Toggl Desktop"] floating enable border pixel 0 move position center;
+for_window [class="Blueman-manager"] floating enable;
+for_window [class="Pavucontrol"] floating enable;
 for_window [class="Gsimplecal"] border pixel 0;
 for_window [class="Zathura"] border pixel 0;
-for_window [class="Conky"] border pixel 0;
 
+# for_window [class="code-oss"] floating enable border pixel 0 move scratchpad, scratchpad show; # code
+# for_window [class="jetbrains-goland"] floating enable border pixel 0 move scratchpad, scratchpad show; # code
+# for_window [class="Sublime_merge"] floating enable border pixel 0 move scratchpad, scratchpad show; # sublime merge
+# for_window [class="Toggl Desktop"] floating enable border pixel 0 move position center;
+# for_window [class="Conky"] border pixel 0;
 # for_window [title="voidtask"] floating enable;
 # for_window [class="^.*"] border pixel 0;
 # for_window [class="vlc"] move scratchpad;

@@ -1,19 +1,20 @@
 [bar/bottom]
-height = 180
-offset-y = -70
-# height = 40
+# height = 180
+# offset-y = -70
+height = 40
 bottom = true
 modules-center = i3
-modules-right = torrent timer webdav docker music headphone_battery cpu memory filesystem
-modules-left = title 
 
 wm-name = bar
 wm-restack = i3
 override-redirect = true
 
-tray-position = right
-tray-detached = false
-tray-padding = -70
+tray-position = none
+# tray-position = right
+# tray-detached = false
+# tray-padding = -70
+# tray-transparent = true
+# tray-background = #b2000000
 
 padding-left = 3
 padding-right = 3
@@ -22,24 +23,29 @@ module-margin-left = 2
 # module-margin-left = 2
 underline-size = 0
 
-background-1 = #000000
-background-0 = #00000000
-# background = #000000ff
+#background-1 = #000000
+#background-0 = #00000000
+background = #000000ff
 foreground = #ffffff
 
-font-0 = IosevkaExtended:weight=medium:pixelsize=10;3
-font-1 = Feather:pixelsize=13;4
+font-0 = IosevkaExtended:weight=medium:pixelsize=9;4
+# font-1 = Feather:weight=medium:pixelsize=11;3
+# font-0 = IosevkaExtended:weight=medium:pixelsize=9;4
+# font-1 = Feather:weight=medium:pixelsize=11;3
+# font-1 = Feather:pixelsize=11;3
 # font-0 = Cozette:pixelsize=8;2
+# font-0 = Curie:pixelsize=8;2
 # font-1 = Siji:pixelsize=8;2
 
 [bar/top]
-height = 180
-offset-y = -70
-# height = 35
+# height = 180
+# offset-y = -70
+height = 35
 top = 0
 bottom = false
 
-tray-position = none
+tray-position = right
+tray-offset-y = 1
 
 padding-left = 3
 padding-right = 2
@@ -49,17 +55,19 @@ spacing = 3
 module-margin = 1
 underline-size = 0
 
-# background = #000000ff
-background-0 = #000000
-background-1 = #00000000
+background = #000000ff
+#background-0 = #000000
+#background-1 = #00000000
 foreground = #ffffff
 
-font-0 = IosevkaExtended:weight=medium:pixelsize=10;3
-font-1 = Feather:pixelsize=13;4
+font-0 = IosevkaExtended:weight=medium:pixelsize=9;4
+font-1 = Feather:weight=medium:pixelsize=11;3
 # font-0 = Cozette:pixelsize=8;2
 # font-1 = Siji:pixelsize=8;2
 
-modules-right = bluetooth wifi volume battery datetime
+modules-left = datetime
+modules-right = torrent timer webdav docker music headphone_battery bluetooth wifi battery
+#modules-right = torrent timer webdav docker music headphone_battery cpu memory filesystem bluetooth wifi volume battery
 
 override-redirect = true
 wm-name = bar
@@ -210,9 +218,9 @@ poll-interval = 5
 
 # format-discharging = <ramp-capacity>
 # label-discharging = "%percentage%% "
-label-charging = "%{F#32ff7e} %{F-}%percentage%%"
-label-full = "%{F#32ff7e} %percentage%%"
-label-discharging = "%{F-} %{F-}%percentage%%"
+label-charging = "%{F-}%percentage%% %{F#32ff7e}"
+label-full = "%percentage%% %{F#32ff7e}"
+label-discharging = "%{F-}%percentage%% %{F-}"
 
 ramp-capacity = 100
 

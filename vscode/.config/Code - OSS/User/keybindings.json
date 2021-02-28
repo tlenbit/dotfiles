@@ -13,7 +13,11 @@
     "command": "editor.action.commentLine"
   },
   {
-    "key": "ctrl+shift+[Semicolon]",
+    "key": "ctrl+Shift+[Semicolon]",
     "command": "workbench.action.terminal.toggleTerminal",
-  }
+  },
+  {
+    "key": "ctrl+shift+m",
+    "command": "editor.action.smartSelect.expand"
+  },
 ]

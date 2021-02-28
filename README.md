@@ -44,6 +44,7 @@ git clone https://github.com/0x7b1/dotfiles.git ~/dotfiles
 cd ~/dotfiles
 stow * -t $HOME # for a complete configuration
 stow git -t $HOME # for a specific configuration
+stow -v -R -t $HOME vim
 ```
 
 > Originally based on https://github.com/aeolyus/dotfiles

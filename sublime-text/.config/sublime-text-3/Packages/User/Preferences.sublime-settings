@@ -5,21 +5,21 @@
 	"dictionary": "Packages/Language - English/en_US.dic",
 	"draw_white_space": "all",
 	"fold_buttons": false,
-	"font_face": "Terminus",
+	"font_face": "Curie",
 	"font_options":
 	[
 		"no_bold",
 		"no_italic"
 	],
-	"font_size": 10,
-	"gutter": true,
+	"font_size": 8,
+	"gutter": false,
 	"highlight_line": true,
 	"ignored_packages":
 	[
 		"Vintage"
 	],
 	"line_numbers": true,
-	"margin": 0,
+	"margin": 5,
 	"mini_diff": true,
 	"node_path":
 	{
@@ -28,7 +28,7 @@
 	"overlay_scroll_bars": "enabled",
 	"spell_check": false,
 	"tab_size": 2,
-	"theme": "ayu-dark.sublime-theme",
+	"theme": "Cyanide - Golden.sublime-theme",
 	"ui_separator": false,
 	"viewer": "zathura",
 	"word_wrap": false

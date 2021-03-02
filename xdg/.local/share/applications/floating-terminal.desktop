@@ -1,9 +1,0 @@
-[Desktop Entry]
-Name=Floating Terminal
-GenericName=Floating Terminal
-Icon=kitty
-Exec=alacritty --class floating-terminal
-Terminal=false
-Type=Application
-Categories=Settings;HardwareSettings;
-StartupNotify=true

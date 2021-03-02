@@ -3,7 +3,12 @@
 # zsh
 source /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
 export ZSH="/usr/share/oh-my-zsh"
-ZSH_THEME=simple #fwalch
+# export 
+
+ZSH_THEME=example
+# ZSH_THEME=imajes
+# ZSH_THEME=simple #fwalch
+
 plugins=(git)
 source $ZSH/oh-my-zsh.sh
 
@@ -82,8 +87,14 @@ bindkey '^S' _rofi_filebrowser_here
 zle -N _rofi_find_here
 bindkey '^F' _rofi_find_here
 
-zle -N z
-bindkey '^Z' z
+z_here() {
+  z
+  zle reset-prompt
+  return $ret
+}
+
+zle -N z_here
+bindkey '^Z' z_here
 
 export KEYTIMEOUT=1
 bindkey -rpM viins '^['
@@ -107,3 +118,11 @@ alias f=fif
 PROG=$HOME/.cargo/bin/lao
 _CLI_ZSH_AUTOCOMPLETE_HACK=1
 source $HOME/projects/lao/zsh_autocomplete
+
+
+TEXAS_CONFIG_NOSWAP=0
+TEXAS_CONFIG_SIZE=50
+TEXAS_CONFIG_SWITCH_KEY=C-a
+fpath=("/home/jc/downloads/texas" $fpath)
+source "/home/jc/downloads/texas/texas_init.zsh"
+bindkey -s '\ez' "\eq texas\n"

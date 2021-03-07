@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=Texas
+GenericName=Texas
+Icon=kitty
+Exec=alacritty --class texas -e /home/jc/.config/texas/texas
+Terminal=false
+Type=Application
+Categories=Settings;HardwareSettings;
+StartupNotify=true

@@ -10,7 +10,7 @@ time_seconds="$(($time_minutes*60))"
 
 echo "$$" > /tmp/timer_pid.tmp
 
-notify-send -u low "Countdown started" -h string:x-canonical-private-synchronous:volume_level
+notify-send -u low "Countdown started for $time_minutes min(s)" -h string:x-canonical-private-synchronous:volume_level
 
 date1=$((`date +%s` + "$time_seconds"));
 while [ "$date1" -ge `date +%s` ]; do

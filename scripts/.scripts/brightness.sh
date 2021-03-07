@@ -27,6 +27,15 @@ case $1 in
 		light -U 1
 		send_notification
 		;;
+	high )
+		light -A 50
+		send_notification
+		;;
+	low )
+		light -U 50
+		send_notification
+		;;
+
 esac
 
 exit 0

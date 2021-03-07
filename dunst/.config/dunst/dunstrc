@@ -1,7 +1,8 @@
 [global]
     monitor = 0
     follow = keyboard
-    geometry = "300x10-20+40"
+    geometry = "300x10-20+20"
+    # geometry = "300x10-20+40"
     # geometry = "300x10-3+17"
     indicate_hidden = yes
     shrink = yes

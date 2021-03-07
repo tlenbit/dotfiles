@@ -1,5 +1,5 @@
 set $mod Mod4
-font pango:Curie 8
+font pango:Curie 0
 new_window pixel 1
 new_float pixel 1
 floating_modifier $mod
@@ -12,6 +12,7 @@ workspace_layout tabbed
 gaps inner 10
 gaps vertical 25
 gaps horizontal 220
+
 # gaps vertical 100
 # gaps horizontal 220
 # gaps outer 0
@@ -56,34 +57,44 @@ bindsym $mod+Shift+0 move container to workspace $ws10
 
 # bindsym $mod+Shift+c reload
 bindsym $mod+Shift+r restart
-bindsym $mod+Shift+x kill
+bindsym $mod+x kill
 bindsym $mod+Shift+g gaps inner current toggle 40
-    
-bindsym $mod+comma exec i3-msg border pixel 5
+
+bindsym $mod+comma           exec i3-msg border pixel 5
 bindsym --release $mod+comma exec i3-msg border pixel 1
 
-bindsym $mod+Ctrl+Left exec i3-msg border pixel 5; focus left
-bindsym $mod+Ctrl+Down exec i3-msg border pixel 5; focus down
-bindsym $mod+Ctrl+Up exec i3-msg border pixel 5; focus up
-bindsym $mod+Ctrl+Right exec i3-msg border pixel 5; focus right
-
+bindsym $mod+Ctrl+Left           exec i3-msg border pixel 5; focus left
 bindsym --release $mod+Ctrl+Left exec i3-msg border pixel 1
+
+bindsym $mod+Ctrl+Down           exec i3-msg border pixel 5; focus down
 bindsym --release $mod+Ctrl+Down exec i3-msg border pixel 1
+
+bindsym $mod+Ctrl+Up           exec i3-msg border pixel 5; focus up
 bindsym --release $mod+Ctrl+Up exec i3-msg border pixel 1
+
+bindsym $mod+Ctrl+Right           exec i3-msg border pixel 5; focus right
 bindsym --release $mod+Ctrl+Right exec i3-msg border pixel 1
 
-bindsym $mod+Shift+Left exec i3-msg border pixel 5; move left
-bindsym $mod+Shift+Down exec i3-msg border pixel 5; move down
-bindsym $mod+Shift+Up exec i3-msg border pixel 5; move up
-bindsym $mod+Shift+Right exec i3-msg border pixel 5; move right
-
+bindsym $mod+Shift+Left           exec i3-msg border pixel 5; move left
 bindsym --release $mod+Shift+Left exec i3-msg border pixel 1
+
+bindsym $mod+Shift+Down           exec i3-msg border pixel 5; move down
 bindsym --release $mod+Shift+Down exec i3-msg border pixel 1
+
+bindsym $mod+Shift+Up           exec i3-msg border pixel 5; move up
 bindsym --release $mod+Shift+Up exec i3-msg border pixel 1
+
+bindsym $mod+Shift+Right           exec i3-msg border pixel 5; move right
 bindsym --release $mod+Shift+Right exec i3-msg border pixel 1
 
-bindsym Mod1+Tab exec i3-msg border pixel 5; focus mode_toggle
+bindsym Mod1+Tab           exec i3-msg border pixel 5; focus mode_toggle
 bindsym --release Mod1+Tab exec i3-msg border pixel 1
+
+bindsym $mod+Tab           exec i3-msg border pixel 5; focus right
+bindsym --release $mod+Tab exec i3-msg border pixel 1
+
+bindsym $mod+Shift+Tab           exec i3-msg border pixel 5; focus left
+bindsym --release $mod+Shift+Tab exec i3-msg border pixel 1
 
 # vim bindings
 # bindsym $mod+Ctrl+h focus left
@@ -94,13 +105,14 @@ bindsym --release Mod1+Tab exec i3-msg border pixel 1
 # bindsym $mod+Shift+j move down
 # bindsym $mod+Shift+k move up
 # bindsym $mod+Shift+l move right
+# bindsym $mod+j workspace prev
+# bindsym $mod+k workspace next
 
 bindsym $mod+Left workspace prev
 bindsym $mod+Right workspace next
-bindsym $mod+j workspace prev
-bindsym $mod+k workspace next
-bindsym $mod+Tab workspace back_and_forth
-bindsym $mod+Shift+Tab workspace next
+
+bindsym $mod+bar workspace back_and_forth
+bindsym $mod+Shift+bar workspace next
 
 bindsym $mod+Shift+f floating toggle
 bindsym $mod+h split h
@@ -113,77 +125,85 @@ bindsym $mod+Shift+s sticky toggle
 
 bindsym $mod+c [instance="crx_kjbdgfilnfhdoflbpgamdcdgpehopbep"] scratchpad show move position center
 bindsym $mod+Shift+d [instance="crx_chhimdaamcpegdphmomkcjhlabehlnjj"] scratchpad show move position center
-bindsym $mod+Shift+c [instance="crx_chpiljhfemlfpnfoohpbokdofonkiifm"] scratchpad show move position center
-bindsym $mod+s [instance="crx_dibeblefpdjapcdhajpidiklcdpjpipk"] scratchpad show move position center
+bindsym $mod+a [instance="crx_dibeblefpdjapcdhajpidiklcdpjpipk"] scratchpad show move position center
+bindsym $mod+s [class="Alacritty" instance="texas"] scratchpad show move position center
 bindsym $mod+d [class="Subl3"] scratchpad show move position center
-bindsym $mod+a [class="Alacritty" instance="texas"] scratchpad show move position center
-
-#bindsym $mod+z [class="Alacritty" instance="floating-ranger"] scratchpad show move position center
-#bindsym $mod+x [class="Alacritty" instance="floating-terminal"] scratchpad show move position center
+bindsym $mod+m exec $term -e ncmpcpp
 
 bindsym $mod+Shift+h [class=".*"] scratchpad show
 
+# bindsym $mod+m [class="Sonata"] scratchpad show move position center
+# bindsym $mod+z [class="Alacritty" instance="floating-ranger"] scratchpad show move position center
+# bindsym $mod+x [class="Alacritty" instance="floating-terminal"] scratchpad show move position center
+# bindsym $mod+Shift+c [instance="crx_chpiljhfemlfpnfoohpbokdofonkiifm"] scratchpad show move position center
 # bindsym $mod+a [class="code-oss"] scratchpad show move position center
 # bindsym $mod+Shift+a [class="jetbrains-goland"] scratchpad show move position center
 # bindsym $mod+Shift+Return exec $term -e ranger
 bindsym $mod+Return exec $term
-bindsym $mod+space exec --no-startup-id $term -e ranger
+bindsym $mod+space  exec --no-startup-id $term -e ranger
 bindsym $mod+Shift+o open
 
-bindsym XF86Bluetooth exec $HOME/.scripts/toggle-bluetooth.sh
-bindsym XF86MonBrightnessUp exec --no-startup-id $HOME/.scripts/brightness.sh up
-bindsym XF86MonBrightnessDown exec --no-startup-id $HOME/.scripts/brightness.sh down
-bindsym XF86AudioMute exec --no-startup-id $HOME/.scripts/volume.sh mute
-bindsym XF86AudioMicMute exec --no-startup-id pactl set-source-mute 1 toggle
-bindsym XF86AudioRaiseVolume exec --no-startup-id $HOME/.scripts/volume.sh up
-bindsym XF86AudioLowerVolume exec --no-startup-id $HOME/.scripts/volume.sh down
-bindsym XF86AudioPrev exec --no-startup-id $HOME/.scripts/mpc-commands.sh play prev
-bindsym XF86AudioPlay exec --no-startup-id mpc toggle
-bindsym XF86AudioNext exec --no-startup-id $HOME/.scripts/mpc-commands.sh play next
-bindsym $mod+XF86AudioNext exec --no-startup-id $HOME/.scripts/mpc-commands.sh seekthrough forward
+bindsym XF86MonBrightnessUp        exec --no-startup-id $HOME/.scripts/brightness.sh up
+bindsym XF86MonBrightnessDown      exec --no-startup-id $HOME/.scripts/brightness.sh down
+bindsym $mod+XF86MonBrightnessUp   exec --no-startup-id $HOME/.scripts/brightness.sh high
+bindsym $mod+XF86MonBrightnessDown exec --no-startup-id $HOME/.scripts/brightness.sh low
+
+bindsym XF86Bluetooth            exec $HOME/.scripts/toggle-bluetooth.sh
+bindsym XF86AudioMute            exec --no-startup-id $HOME/.scripts/volume.sh mute
+bindsym XF86AudioMicMute         exec --no-startup-id pactl set-source-mute 1 toggle
+bindsym XF86AudioRaiseVolume     exec --no-startup-id $HOME/.scripts/volume.sh up
+bindsym XF86AudioLowerVolume     exec --no-startup-id $HOME/.scripts/volume.sh down
+bindsym XF86AudioPrev            exec --no-startup-id $HOME/.scripts/mpc-commands.sh play prev
+bindsym XF86AudioPlay            exec --no-startup-id mpc toggle
+bindsym XF86AudioNext            exec --no-startup-id $HOME/.scripts/mpc-commands.sh play next
+bindsym $mod+XF86AudioNext       exec --no-startup-id $HOME/.scripts/mpc-commands.sh seekthrough forward
 bindsym $mod+Shift+XF86AudioNext exec --no-startup-id $HOME/.scripts/mpc-commands.sh queue_random_track && $HOME/.scripts/mpc-commands.sh play next
-bindsym $mod+XF86AudioPlay exec --no-startup-id $HOME/.scripts/mpc-commands.sh display_current_info
+bindsym $mod+XF86AudioPlay       exec --no-startup-id $HOME/.scripts/mpc-commands.sh display_current_info
 bindsym $mod+Shift+XF86AudioPlay exec --no-startup-id $HOME/.scripts/mpc-commands.sh toggle_repeat
 bindsym $mod+Shift+XF86AudioPrev exec --no-startup-id $HOME/.scripts/mpc-commands.sh toggle_loop_on_album
-bindsym $mod+XF86AudioPrev exec --no-startup-id $HOME/.scripts/mpc-commands.sh seekthrough backward
+bindsym $mod+XF86AudioPrev       exec --no-startup-id $HOME/.scripts/mpc-commands.sh seekthrough backward
 
-bindsym $mod+Next exec --no-startup-id mpc toggle
-bindsym $mod+Shift+Prior exec --no-startup-id $HOME/.scripts/mpc-commands.sh play prev
-bindsym $mod+Shift+Next exec --no-startup-id $HOME/.scripts/mpc-commands.sh play next
+bindsym $mod+Next             exec --no-startup-id mpc toggle
+bindsym $mod+Shift+Prior      exec --no-startup-id $HOME/.scripts/mpc-commands.sh play prev
+bindsym $mod+Shift+Next       exec --no-startup-id $HOME/.scripts/mpc-commands.sh play next
 bindsym $mod+Shift+Ctrl+Prior exec --no-startup-id $HOME/.scripts/mpc-commands.sh toggle_loop_on_album
-bindsym $mod+Shift+Ctrl+Next exec --no-startup-id $HOME/.scripts/mpc-commands.sh queue_random_track && $HOME/.scripts/mpc-commands.sh play next
+bindsym $mod+Shift+Ctrl+Next  exec --no-startup-id $HOME/.scripts/mpc-commands.sh queue_random_track && $HOME/.scripts/mpc-commands.sh play next
 
 # screenshot bindings
-bindsym Print exec --no-startup-id $HOME/.scripts/screenshot.sh whole_screen_to_clipboard
-bindsym $mod+Print exec --no-startup-id $HOME/.scripts/screenshot.sh whole_screen_to_file
-bindsym $mod+Ctrl+Print exec --no-startup-id $HOME/.scripts/screenshot.sh whole_screen_styled_to_file
-bindsym Shift+Print exec --no-startup-id $HOME/.scripts/screenshot.sh section_screen_to_clipboard
-bindsym $mod+Shift+Print exec --no-startup-id $HOME/.scripts/screenshot.sh section_screen_to_file
+bindsym Print                 exec --no-startup-id $HOME/.scripts/screenshot.sh whole_screen_to_clipboard
+bindsym $mod+Print            exec --no-startup-id $HOME/.scripts/screenshot.sh whole_screen_to_file
+bindsym $mod+Ctrl+Print       exec --no-startup-id $HOME/.scripts/screenshot.sh whole_screen_styled_to_file
+bindsym Shift+Print           exec --no-startup-id $HOME/.scripts/screenshot.sh section_screen_to_clipboard
+bindsym $mod+Shift+Print      exec --no-startup-id $HOME/.scripts/screenshot.sh section_screen_to_file
 bindsym $mod+Shift+Ctrl+Print exec --no-startup-id $HOME/.scripts/screenshot.sh section_screen_styled_to_file
 
 # bindings for mac keyboard
-bindsym XF86LaunchA exec --no-startup-id $HOME/.scripts/screenshot.sh whole_screen_to_clipboard
-bindsym $mod+XF86LaunchA exec --no-startup-id $HOME/.scripts/screenshot.sh whole_screen_to_file
-bindsym $mod+Ctrl+XF86LaunchA exec --no-startup-id $HOME/.scripts/screenshot.sh whole_screen_styled_to_file
-bindsym Shift+XF86LaunchA exec --no-startup-id $HOME/.scripts/screenshot.sh section_screen_to_clipboard
-bindsym $mod+Shift+XF86LaunchA exec --no-startup-id $HOME/.scripts/screenshot.sh section_screen_to_file
+bindsym XF86LaunchA                 exec --no-startup-id $HOME/.scripts/screenshot.sh whole_screen_to_clipboard
+bindsym $mod+XF86LaunchA            exec --no-startup-id $HOME/.scripts/screenshot.sh whole_screen_to_file
+bindsym $mod+Ctrl+XF86LaunchA       exec --no-startup-id $HOME/.scripts/screenshot.sh whole_screen_styled_to_file
+bindsym Shift+XF86LaunchA           exec --no-startup-id $HOME/.scripts/screenshot.sh section_screen_to_clipboard
+bindsym $mod+Shift+XF86LaunchA      exec --no-startup-id $HOME/.scripts/screenshot.sh section_screen_to_file
 bindsym $mod+Shift+Ctrl+XF86LaunchA exec --no-startup-id $HOME/.scripts/screenshot.sh section_screen_styled_to_file
 
 # rofi
-bindsym $mod+q exec --no-startup-id $HOME/.config/rofi/bin/launcher.sh
-bindsym $mod+Shift+p exec --no-startup-id $HOME/.config/rofi/bin/kill-process.sh
-bindsym $mod+Shift+q exec --no-startup-id $HOME/.config/rofi/bin/kill-apps.sh
-bindsym XF86Tools exec --no-startup-id $HOME/.config/rofi/bin/calculator.sh
+bindsym $mod+q        exec --no-startup-id $HOME/.config/rofi/bin/launcher.sh
+bindsym $mod+Shift+p  exec --no-startup-id $HOME/.config/rofi/bin/kill-process.sh
+bindsym $mod+Shift+q  exec --no-startup-id $HOME/.config/rofi/bin/kill-apps.sh
+bindsym XF86Tools     exec --no-startup-id $HOME/.config/rofi/bin/calculator.sh
 bindsym XF86Favorites exec --no-startup-id $HOME/.config/rofi/bin/powermenu.sh
-bindsym $mod+e exec --no-startup-id $HOME/.config/rofi/bin/file-browser.sh
-bindsym $mod+Shift+i exec --no-startup-id $HOME/.config/rofi/bin/define-word.sh
-bindsym $mod+i exec --no-startup-id $HOME/.config/rofi/bin/translate-word.sh
+bindsym $mod+e        exec --no-startup-id $HOME/.config/rofi/bin/file-browser.sh
+bindsym $mod+Shift+i  exec --no-startup-id $HOME/.config/rofi/bin/define-word.sh
+bindsym $mod+i        exec --no-startup-id $HOME/.config/rofi/bin/translate-word.sh
 
 # utils
-bindsym $mod+m exec $term -e ncmpcpp
-bindsym $mod+Shift+w exec chromium %U
-bindsym $mod+w exec chromium --user-data-dir="$HOME/.chromeprofile"
+bindsym $mod+Shift+w     exec chromium %U
+bindsym $mod+w           exec chromium --user-data-dir="$HOME/.chromeprofile"
 bindsym $mod+Shift+space exec thunar
+
+bindsym XF86Display      exec $HOME/.cargo/bin/dotstreak tick && notify-send "Tick"
+bindsym $mod+XF86Display exec $HOME/.cargo/bin/dotstreak finish && notify-send "Finished"
+bindsym XF86LaunchB      exec $HOME/.cargo/bin/dotstreak tick && notify-send "Tick"
+bindsym $mod+XF86LaunchB exec $HOME/.cargo/bin/dotstreak finish && notify-send "Finished"
 
 # No longer used
 # bindsym $mod+Shift+u exec --no-startup-id $HOME/.config/rofi/bin/ssh-unmount-fs.sh
@@ -262,12 +282,12 @@ exec --no-startup-id nm-applet
 # config apps
 assign [class="Thunar" title="File Operation Progress"] $ws10
 
-for_window [class="Alacritty" instance="texas"] floating enable move scratchpad, scratchpad show, resize set 640 350;
+for_window [class="Alacritty" instance="texas"] floating enable move scratchpad, scratchpad show, resize set 640 450, move position center;
 for_window [class="Subl3"] floating enable move scratchpad, scratchpad show; # subl3
 for_window [class="Chromium" instance="crx_kjbdgfilnfhdoflbpgamdcdgpehopbep"] floating enable border pixel 0 move scratchpad, scratchpad show; # calendar
 for_window [class="Chromium" instance="crx_dibeblefpdjapcdhajpidiklcdpjpipk"] floating enable border pixel 0 move scratchpad, scratchpad show; # paper
 for_window [class="Chromium" instance="crx_chhimdaamcpegdphmomkcjhlabehlnjj"] floating enable border pixel 0 move scratchpad, scratchpad show; # grammarly
-for_window [class="Chromium" instance="crx_chpiljhfemlfpnfoohpbokdofonkiifm"] floating enable border pixel 0 move scratchpad, scratchpad show; # toggl track
+for_window [class="Chromium" instance="crx_chpiljhfemlfpnfoohpbokdofonkiifm"] floating enable border pixel 0 move position center; # toggl track
 for_window [class="Chromium" instance="crx_ioknjpikighmhnkfbgncchbaneiacjpl"] floating enable border pixel 0 move position center; # observable
 for_window [class="Chromium" instance="crx_klingkmakcphekbgogbmfldljflfdecb"] floating enable border pixel 0 move position center; # mathcha
 for_window [class="Chromium" instance="crx_bndmnggfngpgmmijcogkkgglhalbpomk"] floating enable border pixel 0 move position center; # raindrop
@@ -275,14 +295,15 @@ for_window [class="Chromium" instance="crx_ldgfbffkinooeloadekpmfoklnobpien"] fl
 for_window [class="Chromium" instance="crx_kmhopmchchfpfdcdjodmpfaaphdclmlj"] floating enable border pixel 0 move position center;
 for_window [class="Chromium" instance="crx_egdalnmencdpmadgdbcmfiinlfflfbpk"] floating enable border pixel 0 move position center;
 for_window [class="Chromium" instance="crx_pmcngklofgngifnoceehmchjlildnhkj"] floating enable border pixel 0 move position center;
+for_window [class="Sonata"] floating enable border pixel 0 move scratchpad, scratchpad show;
 for_window [class="Toggl Desktop"] floating enable border pixel 0 move position center;
 for_window [class="Blueman-manager"] floating enable;
 for_window [class="Pavucontrol"] floating enable;
 for_window [class="Gsimplecal"] border pixel 0;
 for_window [class="Zathura"] border pixel 0;
 
-#for_window [class="Alacritty" instance="floating-ranger"] floating enable move scratchpad, scratchpad show, resize set 640 350;
-#for_window [class="Alacritty" instance="floating-terminal"] floating enable move scratchpad, scratchpad show, resize set 640 350;
+# for_window [class="Alacritty" instance="floating-ranger"] floating enable move scratchpad, scratchpad show, resize set 640 350;
+# for_window [class="Alacritty" instance="floating-terminal"] floating enable move scratchpad, scratchpad show, resize set 640 350;
 # for_window [class="code-oss"] floating enable border pixel 0 move scratchpad, scratchpad show; # code
 # for_window [class="jetbrains-goland"] floating enable border pixel 0 move scratchpad, scratchpad show; # code
 # for_window [class="Sublime_merge"] floating enable border pixel 0 move scratchpad, scratchpad show; # sublime merge

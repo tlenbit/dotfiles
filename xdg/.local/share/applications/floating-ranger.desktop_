@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=Floating Ranger
+GenericName=Floating Ranger
+Icon=kitty
+Exec=alacritty --class floating-ranger -e ranger
+Terminal=false
+Type=Application
+Categories=Settings;HardwareSettings;
+StartupNotify=true

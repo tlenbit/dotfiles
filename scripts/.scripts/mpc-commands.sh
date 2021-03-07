@@ -121,18 +121,18 @@ function seekthrough() {
 		backward)
 				sign="-"
 				# icon_name="$ICON_DIR/media-skip-backward-symbolic.svg"
-				icon_name=""
+				icon_name="media-skip-backward"
 				;;
 		forward)
 				sign="+"
 				# icon_name="$ICON_DIR/media-skip-forward-symbolic.svg"
-				icon_name=""
+				icon_name="media-skip-forward"
 				;;
 	esac
 
 	mpc seekthrough "${sign}00:00:05"
 	track_time="$(mpc status | grep "%)" | awk '{ print $3 }' | awk -F/ '{ print $1 }')/$(mpc --format %time% current)"
-	notify-send -u low "$icon_name $track_time" -t 700 -h string:x-canonical-private-synchronous:mpc-seeking
+	notify-send -u low -i "$icon_name" "$track_time" -t 700 -h string:x-canonical-private-synchronous:mpc-seeking
 	# notify-send -u low "$track_time" -i "$icon_name" -t 700 -h string:x-canonical-private-synchronous:mpc-seeking
 }
 

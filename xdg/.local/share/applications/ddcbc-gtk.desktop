@@ -1,0 +1,6 @@
+[Desktop Entry]
+Name=DDC Brightness Control
+Icon=notification-display-brightness-medium
+Exec=/usr/bin/ddcbc-gtk
+Type=Application
+Categories=GTK;Utility;

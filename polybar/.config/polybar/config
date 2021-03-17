@@ -4,7 +4,7 @@
 height = 35
 bottom = true
 modules-center = i3
-modules-left = datetime dotstreak timer torrent music headphone_battery docker webdav
+modules-left = datetime timer torrent music headphone_battery docker webdav dotstreak
 
 wm-name = bar
 wm-restack = i3
@@ -86,13 +86,14 @@ enable-scroll = false
 format = <label-state>
 
 label-focused = %index%
-label-focused-foreground = #ffd86e
-# label-focused-background = #0a3d6200
+# label-focused-foreground = #b2bec3
+# label-focused-foreground = #ffd86e
 label-focused-padding = 1
+# label-focused-background = #0a3d6200
 
 label-unfocused = %index%
 label-unfocused-padding = 1
-# label-unfocused-foreground = #fff
+label-unfocused-foreground = #636e72
 
 label-visible = %index%
 label-visible-padding = 1

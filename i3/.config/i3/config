@@ -1,5 +1,5 @@
 set $mod Mod4
-font pango:Curie 0
+font pango:Curie 8
 new_window pixel 1
 new_float pixel 1
 floating_modifier $mod
@@ -235,9 +235,13 @@ bindsym $mod+XF86LaunchB exec $HOME/.cargo/bin/dotstreak finish && notify-send "
 # resize mode
 mode "resize" {
         bindsym Left resize shrink width 5 px or 5 ppt
+        bindsym Shift+Left resize shrink width 25 px or 25 ppt
         bindsym Down resize grow height 5 px or 5 ppt
+        bindsym Shift+Down resize grow height 25 px or 25 ppt
         bindsym Up resize shrink height 5 px or 5 ppt
+        bindsym Shift+Up resize shrink height 25 px or 25 ppt
         bindsym Right resize grow width 5 px or 5 ppt
+        bindsym Shift+Right resize grow width 25 px or 25 ppt
         bindsym Return mode "default"
         bindsym Escape mode "default"
 }
@@ -267,15 +271,16 @@ client.unfocused        #24292e #24292e #636e72 #000000
 client.urgent           #E53935 #E53935 #24292e #58252B
 
 # autostart
+exec_always --no-startup-id $HOME/.scripts/monitor-setup.sh
 exec_always --no-startup-id $HOME/.scripts/screen-setup.sh
 exec_always --no-startup-id $HOME/.scripts/mac-controls.sh
 exec_always setxkbmap -layout latam
 exec_always xrdb -merge $HOME/.Xresources
+
 exec --no-startup-id unclutter --timeout 1 # hide mouse cursor when inactive
-exec --no-startup-id cbatticon -r 5 -l 15
+exec --no-startup-id cbatticon -r 5 -l 10
 exec --no-startup-id nm-applet
 
-# exec_always --no-startup-id $HOME/.scripts/monitor-setup.sh
 # exec --no-startup-id TogglDesktop
 # exec --no-startup-id hsetroot -cover "$HOME/Pictures/wallpapers/$(ls $HOME/Pictures/wallpapers | sort -R | head -1)" # set random wallpaper from folder
 
@@ -299,6 +304,7 @@ for_window [class="Sonata"] floating enable border pixel 0 move scratchpad, scra
 for_window [class="Toggl Desktop"] floating enable border pixel 0 move position center;
 for_window [class="Blueman-manager"] floating enable;
 for_window [class="Pavucontrol"] floating enable;
+for_window [class="Ddcbc-gtk"] floating enable;
 for_window [class="Gsimplecal"] border pixel 0;
 for_window [class="Zathura"] border pixel 0;
 

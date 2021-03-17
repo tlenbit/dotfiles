@@ -1,4 +1,3 @@
-/* global settings and color variables */
 configuration {
   font: "Iosevka Extended 11";
   show-icons: true;
@@ -12,6 +11,7 @@ configuration {
   display-file-browser-extended: "";
   display-drun: "";
   display-calc: "";
+  display-top: "";
 
   /*matching: "regex";*/
 }
@@ -144,7 +144,7 @@ sidebar {
 textbox {
   padding: 8px;
   text-color: @gr;
-  background-color: @bg;
+  background-color: @se;
 }
 
 element selected.normal {

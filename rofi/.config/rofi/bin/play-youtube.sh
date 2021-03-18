@@ -44,8 +44,6 @@ choice=$(echo -e "$ids" | cut -d'	' -f2 | rofi -dmenu -i -p "") # dont show i
 if [ -z "$choice" ]; then exit; fi	# if esc-ed then exit
 id=$(echo -e "$ids" | grep -Fwm1 "$choice" | cut -d'	' -f1) # get id of choice
 
-echo -e "$id"
-
 mode=$(echo -ne "Sound\0icon\x1fpithos-tray-icon\nVideo\0icon\x1frecord-desktop-indicator" | rofi -show-icons -dmenu -e -i -p "" -width "10%" -theme-str "entry {placeholder: \"Mode\";}")
 
 if [ -z "$mode" ];then

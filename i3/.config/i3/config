@@ -194,6 +194,7 @@ bindsym XF86Favorites exec --no-startup-id $HOME/.config/rofi/bin/powermenu.sh
 bindsym $mod+e        exec --no-startup-id $HOME/.config/rofi/bin/file-browser.sh
 bindsym $mod+Shift+i  exec --no-startup-id $HOME/.config/rofi/bin/define-word.sh
 bindsym $mod+i        exec --no-startup-id $HOME/.config/rofi/bin/translate-word.sh
+bindsym $mod+z        exec --no-startup-id $HOME/.config/rofi/bin/lao.sh
 
 # utils
 bindsym $mod+Shift+w     exec chromium %U

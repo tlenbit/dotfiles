@@ -3,11 +3,11 @@
 collection_name="Computer Science"
 icon_favorite="package_favorite"
 
-documents=$(lao ls -s "-title" -f "{id}\t{title} ({collection})\0icon\x1f{favorite}" --format-replacements "favorite?$icon_favorite:" "$collection_name")
+documents=$(lao ls -s "-title" -f "{id}\t{title}\0icon\x1f{favorite}" --format-replacements "favorite?$icon_favorite:" "$collection_name")
+# documents=$(lao ls -s "-title" -f "{id}\t{title}\0icon\x1f{favorite?$icon_favorite:}" "$collection_name")
 
+# optional flag for showing more info:  -mesg "<span color='#636e72'>4 Documents | 5 Collections</span>"
 doc=$(echo -en "$documents" | cut -d'	' -f2 | rofi -show-icons -dmenu -i -p "" -width 30% -theme-str "entry {placeholder: \"Search...\";}")
-
-exit
 
 if [ -z "$doc" ];then exit; fi
 

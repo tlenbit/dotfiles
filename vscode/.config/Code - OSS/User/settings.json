@@ -5,7 +5,7 @@
   "editor.fontSize": 15,
   "editor.lineHeight": 12,
   "editor.fontLigatures": true,
-  "breadcrumbs.icons": false,
+  "breadcrumbs.icons": true,
   "breadcrumbs.filePath": "off",
   "workbench.colorTheme": "White Night",
   "window.zoomLevel": 0,
@@ -92,4 +92,5 @@
   },
   "latex-workshop.view.pdf.viewer": "external",
   "cSpell.enabled": true,
+  "breadcrumbs.enabled": false,
 }

@@ -57,7 +57,7 @@ bindsym $mod+Shift+0 move container to workspace $ws10
 
 # bindsym $mod+Shift+c reload
 bindsym $mod+Shift+r restart
-bindsym $mod+x kill
+bindsym $mod+Shift+x kill
 bindsym $mod+Shift+g gaps inner current toggle 40
 
 bindsym $mod+comma           exec i3-msg border pixel 5
@@ -278,6 +278,7 @@ exec_always --no-startup-id $HOME/.scripts/mac-controls.sh
 exec_always setxkbmap -layout latam
 exec_always xrdb -merge $HOME/.Xresources
 
+exec --no-startup-id $HOME/.scripts/set-wallpaper.sh
 exec --no-startup-id unclutter --timeout 1 # hide mouse cursor when inactive
 exec --no-startup-id cbatticon -r 5 -l 10
 exec --no-startup-id nm-applet
@@ -287,8 +288,8 @@ exec --no-startup-id nm-applet
 
 # config apps
 assign [class="Thunar" title="File Operation Progress"] $ws10
-
 for_window [class="Alacritty" instance="texas"] floating enable move scratchpad, scratchpad show, resize set 640 450, move position center;
+for_window [class="Sxiv" instance="wallpaper-handler"] floating enable move scratchpad, scratchpad show, resize set 700 700, move position center;
 for_window [class="Thunar"] floating enable, resize shrink width 30 px or 30 ppt;
 for_window [class="Subl3"] floating enable move scratchpad, scratchpad show; # subl3
 for_window [class="Chromium" instance="crx_kjbdgfilnfhdoflbpgamdcdgpehopbep"] floating enable border pixel 0 move scratchpad, scratchpad show; # calendar
@@ -309,11 +310,12 @@ for_window [class="Pavucontrol"] floating enable;
 for_window [class="Ddcbc-gtk"] floating enable;
 for_window [class="Gsimplecal"] border pixel 0;
 for_window [class="Zathura"] border pixel 0;
+for_window [class="jetbrains-goland" instance="jetbrains-goland" title="win0"] floating enable border pixel 0
+
 
 # for_window [class="Alacritty" instance="floating-ranger"] floating enable move scratchpad, scratchpad show, resize set 640 350;
 # for_window [class="Alacritty" instance="floating-terminal"] floating enable move scratchpad, scratchpad show, resize set 640 350;
 # for_window [class="code-oss"] floating enable border pixel 0 move scratchpad, scratchpad show; # code
-# for_window [class="jetbrains-goland"] floating enable border pixel 0 move scratchpad, scratchpad show; # code
 # for_window [class="Sublime_merge"] floating enable border pixel 0 move scratchpad, scratchpad show; # sublime merge
 # for_window [class="Conky"] border pixel 0;
 # for_window [title="voidtask"] floating enable;

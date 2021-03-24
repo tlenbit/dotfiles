@@ -1,9 +1,11 @@
 #!/usr/bin/env bash
 
+# TODO
 # documents=$(lao ls -s "-title" -f "{id}\t{title}\0icon\x1f{favorite?$icon_favorite:}" "$collections")
 # optional flag for showing more info:  -mesg "<span color='#636e72'>4 Documents | 5 Collections</span>"
+# - include description information as searcheable fields in rofi
 
-collections=("Computer Science" "Papers")
+collections=("Books" "Papers")
 icon_favorite="package_favorite"
 
 documents=$(lao ls \
@@ -13,7 +15,6 @@ documents=$(lao ls \
   "${collections[@]}")
 
 doc=$(echo -en "$documents" | cut -d$'\t' -f2 | rofi \
-  -kb-custom-1 "Control+Alt+p" \
   -show-icons \
   -dmenu \
   -i \

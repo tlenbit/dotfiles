@@ -15,8 +15,8 @@ configuration {
 window {
   transparency: "real";
   border-radius: 12px;
-  /*width: 100px;*/
-  width: 19%;
+  width: 359px;
+  /*width: 19%;*/
   location: center;
   x-offset: 0px;
   y-offset: 0px;

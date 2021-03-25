@@ -1,9 +1,0 @@
-[Desktop Entry]
-Name=Power Statistics
-GenericName=Power Statistics
-Icon=utilities-energy-monitor
-Exec=gnome-power-statistics
-Terminal=false
-Type=Application
-Categories=Settings;HardwareSettings;
-StartupNotify=true

@@ -35,7 +35,7 @@
   "terminal.external.linuxExec": "alacritty",
   "go.useLanguageServer": true,
   "editor.stickyTabStops": true,
-  "window.title": "${dirty}${activeEditorMedium}",
+  "window.title": "${rootName} - ${dirty}${activeEditorMedium}",
   // "window.title": "${dirty}${activeEditorMedium}${rootName}",
   "editor.tokenColorCustomizations": {
     "[White Night]": {

@@ -6,7 +6,7 @@
 # - include description information as searcheable fields in rofi
 
 collections=("Books" "Papers")
-icon_favorite="package_favorite"
+icon_favorite="starred" # package_favorite
 
 documents=$(lao ls \
   -s "-title" \

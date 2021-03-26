@@ -20,4 +20,8 @@
     "key": "ctrl+shift+m",
     "command": "editor.action.smartSelect.expand"
   },
+  {
+    "key": "ctrl+o",
+    "command": "file-browser.open"
+  }
 ]

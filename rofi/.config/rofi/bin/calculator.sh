@@ -6,4 +6,4 @@ rofi \
 	-no-show-match \
 	-no-sort \
 	-terse \
-	-width "18%"
+	-width 345px

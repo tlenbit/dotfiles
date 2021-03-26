@@ -3,7 +3,7 @@
   // "editor.fontSize": 12,
   "editor.fontFamily": "Terminus \\(TTF\\)",
   "editor.fontSize": 15,
-  "editor.lineHeight": 12,
+  "editor.lineHeight": 13,
   "editor.fontLigatures": true,
   "breadcrumbs.icons": true,
   "breadcrumbs.filePath": "off",
@@ -12,10 +12,12 @@
   "window.menuBarVisibility": "hidden",
   "editor.renderIndentGuides": true,
   "editor.minimap.enabled": false,
+  "editor.folding": true,
   "editor.wordWrap": "off",
   "workbench.editor.tabSizing": "shrink",
   "workbench.editor.tabCloseButton": "off",
   "editor.lineNumbers": "relative",
+  "editor.glyphMargin": true,
   "editor.tabSize": 2,
   "zenMode.hideTabs": false,
   "editor.formatOnPaste": true,
@@ -36,6 +38,7 @@
   "go.useLanguageServer": true,
   "editor.stickyTabStops": true,
   "window.title": "${rootName} - ${dirty}${activeEditorMedium}",
+  "zenMode.centerLayout": true,
   // "window.title": "${dirty}${activeEditorMedium}${rootName}",
   "editor.tokenColorCustomizations": {
     "[White Night]": {
@@ -93,4 +96,5 @@
   "latex-workshop.view.pdf.viewer": "external",
   "cSpell.enabled": true,
   "breadcrumbs.enabled": false,
+  "workbench.editor.showTabs": false,
 }

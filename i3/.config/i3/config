@@ -191,6 +191,7 @@ bindsym $mod+q        exec --no-startup-id $HOME/.config/rofi/bin/launcher.sh
 bindsym $mod+Shift+p  exec --no-startup-id $HOME/.config/rofi/bin/kill-process.sh
 bindsym $mod+Shift+q  exec --no-startup-id $HOME/.config/rofi/bin/kill-apps.sh
 bindsym XF86Tools     exec --no-startup-id $HOME/.config/rofi/bin/calculator.sh
+bindsym XF86LaunchB   exec --no-startup-id $HOME/.config/rofi/bin/calculator.sh
 bindsym $mod+Escape   exec --no-startup-id $HOME/.config/rofi/bin/powermenu.sh
 bindsym $mod+e        exec --no-startup-id $HOME/.config/rofi/bin/file-browser.sh
 bindsym $mod+Shift+i  exec --no-startup-id $HOME/.config/rofi/bin/define-word.sh
@@ -204,10 +205,9 @@ bindsym $mod+Shift+space exec thunar
 
 bindsym XF86Display      exec $HOME/.cargo/bin/dotstreak tick && notify-send "Tick"
 bindsym $mod+XF86Display exec $HOME/.cargo/bin/dotstreak finish && notify-send "Finished"
-bindsym XF86LaunchB      exec $HOME/.cargo/bin/dotstreak tick && notify-send "Tick"
-bindsym $mod+XF86LaunchB exec $HOME/.cargo/bin/dotstreak finish && notify-send "Finished"
 
 # No longer used
+# bindsym $mod+Shift+e  exec --no-startup-id $HOME/.config/rofi/bin/file-browser.sh
 # bindsym $mod+Shift+u exec --no-startup-id $HOME/.config/rofi/bin/ssh-unmount-fs.sh
 # bindsym $mod+y exec --no-startup-id $HOME/.scripts/rofi-utils.sh play_youtube
 # bindsym $mod+Shift+z exec --no-startup-id $HOME/.scripts/rofi-utils.sh zotero_collection

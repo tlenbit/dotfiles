@@ -1,3 +1,6 @@
+# Set dark-mode by default
+set recolor
+
 # Open document in fit-width mode by default
 set adjust-open "best-fit"
 
@@ -53,9 +56,8 @@ set completion-fg "#E0E0E0" #0C
 set notification-bg "#90A959" #0B
 set notification-fg "#151515" #00
 
-# set recolor "true"
 set recolor-lightcolor "#000000" #00
-set recolor-darkcolor "#E0E0E0" #06
+set recolor-darkcolor "#FFFFFF" #06
 set recolor-reverse-video "true"
 set recolor-keephue "true"
 

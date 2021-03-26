@@ -19,7 +19,7 @@ doc=$(echo -en "$documents" | cut -d$'\t' -f2 | rofi \
   -dmenu \
   -i \
   -p "" \
-  -width 30% \
+  -width 570px \
   -theme-str "entry {placeholder: \"Search...\";}")
 exit_code="$?"
 

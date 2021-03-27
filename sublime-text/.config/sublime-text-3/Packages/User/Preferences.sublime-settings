@@ -1,8 +1,11 @@
 {
 	"always_show_minimap_viewport": true,
-	"black_on_save": false,
 	"color_scheme": "Packages/Theme - Cyanide/Cyanide - Golden.tmTheme",
 	"dictionary": "Packages/Language - English/en_US.dic",
+	"distraction_free_window.toggle_menu": false,
+	"distraction_free_window.toggle_minimap": true,
+	"distraction_free_window.toggle_status_bar": true,
+	"distraction_free_window.toggle_tabs": true,
 	"draw_white_space": "all",
 	"fold_buttons": false,
 	"font_face": "Curie",
@@ -12,14 +15,13 @@
 		"no_italic"
 	],
 	"font_size": 8,
-	"gutter": false,
+	"gutter": true,
 	"highlight_line": true,
 	"ignored_packages":
 	[
 		"Vintage"
 	],
 	"line_numbers": true,
-	"margin": 5,
 	"mini_diff": true,
 	"node_path":
 	{

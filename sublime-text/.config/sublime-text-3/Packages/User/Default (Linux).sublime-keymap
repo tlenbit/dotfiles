@@ -53,6 +53,10 @@
     }
 },
 {
+    "keys": ["f11"],
+    "command": "distraction_free_window"
+},
+{
     "keys": ["f1"],
     "command": "dired",
     "args":

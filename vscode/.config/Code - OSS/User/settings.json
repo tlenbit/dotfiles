@@ -9,7 +9,6 @@
   "breadcrumbs.filePath": "off",
   "workbench.colorTheme": "White Night",
   "window.zoomLevel": 0,
-  "window.menuBarVisibility": "hidden",
   "editor.renderIndentGuides": true,
   "editor.minimap.enabled": false,
   "editor.folding": true,
@@ -97,4 +96,5 @@
   "cSpell.enabled": true,
   "breadcrumbs.enabled": false,
   "workbench.editor.showTabs": false,
+  "window.menuBarVisibility": "compact",
 }

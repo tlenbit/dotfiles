@@ -1,6 +1,6 @@
 path-sep "/"
 open-parent-as-self
-show-hidden
+# show-hidden
 depth 2
 
 hide-hidden-symbol ""

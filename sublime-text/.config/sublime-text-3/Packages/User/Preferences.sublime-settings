@@ -3,7 +3,7 @@
 	"color_scheme": "Packages/Theme - Cyanide/Cyanide - Golden.tmTheme",
 	"dictionary": "Packages/Language - English/en_US.dic",
 	"distraction_free_window.toggle_menu": false,
-	"distraction_free_window.toggle_minimap": true,
+	"distraction_free_window.toggle_minimap": false,
 	"distraction_free_window.toggle_status_bar": true,
 	"distraction_free_window.toggle_tabs": true,
 	"draw_white_space": "all",

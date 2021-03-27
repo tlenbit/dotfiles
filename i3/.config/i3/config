@@ -305,6 +305,7 @@ for_window [class="Chromium" instance="crx_ldgfbffkinooeloadekpmfoklnobpien"] fl
 for_window [class="Chromium" instance="crx_kmhopmchchfpfdcdjodmpfaaphdclmlj"] floating enable border pixel 0 move position center;
 for_window [class="Chromium" instance="crx_egdalnmencdpmadgdbcmfiinlfflfbpk"] floating enable border pixel 0 move position center;
 for_window [class="Chromium" instance="crx_pmcngklofgngifnoceehmchjlildnhkj"] floating enable border pixel 0 move position center;
+for_window [class="Chromium" instance="crx_gjoaplgcpnmemdaklplebdapjihcoibe"] floating enable border pixel 0 move position center; # overleaf
 for_window [class="Sonata"] floating enable border pixel 0 move scratchpad, scratchpad show;
 for_window [class="Toggl Desktop"] floating enable border pixel 0 move position center;
 for_window [class="Blueman-manager"] floating enable;

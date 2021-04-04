@@ -1,8 +1,8 @@
 #!/bin/bash
 
 # You can call this script like this:
-# $./volume.sh up
-# $./volume.sh down
+# $./volume.sh up 1
+# $./volume.sh down 4
 # $./volume.sh mute
 
 ICON_DIR=$HOME/.config/i3/scripts/icons
@@ -37,13 +37,14 @@ case $1 in
     up)
         # Set the volume on (if it was muted)
         amixer -D pulse set Master on > /dev/null
-        # Up the volume (+ 5%)
-        amixer -D pulse sset Master 5%+ > /dev/null
+        amount="$2"
+        amixer -D pulse sset Master "$amount%+" > /dev/null
         send_notification
         ;;
     down)
+        amount="$2"
         amixer -D pulse set Master on > /dev/null
-        amixer -D pulse sset Master 5%- > /dev/null
+        amixer -D pulse sset Master "$amount%-" > /dev/null
         send_notification
         ;;
     mute)

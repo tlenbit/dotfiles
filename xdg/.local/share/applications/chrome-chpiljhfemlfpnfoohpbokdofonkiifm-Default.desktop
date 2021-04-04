@@ -4,6 +4,6 @@ Version=1.0
 Terminal=false
 Type=Application
 Name=Toggl Track
-Exec=chromium --profile-directory=Default --app-id=chpiljhfemlfpnfoohpbokdofonkiifm
+Exec=/opt/google/chrome/google-chrome --profile-directory=Default --app-id=chpiljhfemlfpnfoohpbokdofonkiifm
 Icon=chrome-chpiljhfemlfpnfoohpbokdofonkiifm-Default
 StartupWMClass=crx_chpiljhfemlfpnfoohpbokdofonkiifm

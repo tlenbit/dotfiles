@@ -28,5 +28,5 @@ rules: []
 users:
   - username: admin
     password: admin
-    scope: /home/jc/Desktop/share
+    scope: /home/jc/.share
     modify:   true

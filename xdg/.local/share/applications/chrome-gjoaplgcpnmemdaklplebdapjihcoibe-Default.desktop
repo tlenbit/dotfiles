@@ -4,6 +4,6 @@ Version=1.0
 Terminal=false
 Type=Application
 Name=Overleaf
-Exec=chromium --profile-directory=Default --app-id=gjoaplgcpnmemdaklplebdapjihcoibe
+Exec=/opt/google/chrome/google-chrome --profile-directory=Default --app-id=gjoaplgcpnmemdaklplebdapjihcoibe
 Icon=chrome-gjoaplgcpnmemdaklplebdapjihcoibe-Default
 StartupWMClass=crx_gjoaplgcpnmemdaklplebdapjihcoibe

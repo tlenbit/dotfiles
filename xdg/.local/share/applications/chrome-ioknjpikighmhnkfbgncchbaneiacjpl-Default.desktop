@@ -4,6 +4,6 @@ Version=1.0
 Terminal=false
 Type=Application
 Name=Observable
-Exec=chromium --profile-directory=Default --app-id=ioknjpikighmhnkfbgncchbaneiacjpl
+Exec=/opt/google/chrome/google-chrome --profile-directory=Default --app-id=ioknjpikighmhnkfbgncchbaneiacjpl
 Icon=chrome-ioknjpikighmhnkfbgncchbaneiacjpl-Default
 StartupWMClass=crx_ioknjpikighmhnkfbgncchbaneiacjpl

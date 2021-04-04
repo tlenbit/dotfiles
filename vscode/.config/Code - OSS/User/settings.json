@@ -95,6 +95,5 @@
   "latex-workshop.view.pdf.viewer": "external",
   "cSpell.enabled": true,
   "breadcrumbs.enabled": false,
-  "workbench.editor.showTabs": false,
-  "window.menuBarVisibility": "compact",
+  "window.menuBarVisibility": "hidden",
 }

@@ -1,8 +1,10 @@
+#!/bin/bash
+
 ICON_DIR=$HOME/.config/i3/scripts/icons
 
 function display_current_info() {
-	MUSIC_DIR="/media/6533-3962/music"
-	# MUSIC_DIR="/media/roygbiv/music"
+	# MUSIC_DIR="/media/6533-3962/music"
+	MUSIC_DIR="/media/roygbiv/music"
 	COVER="/tmp/cover.png"
 	UNKNOWN_COVER="$HOME/.scripts/resources/cover.png"
 	COVER_SIZE=150

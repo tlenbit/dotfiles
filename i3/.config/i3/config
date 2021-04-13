@@ -60,41 +60,30 @@ bindsym $mod+Shift+r restart
 bindsym $mod+Shift+x kill
 bindsym $mod+Shift+g gaps inner current toggle 40
 
-bindsym $mod+comma           exec i3-msg border normal 1
-bindsym --release $mod+comma exec i3-msg border pixel 0
-
-bindsym $mod+Ctrl+Left           exec i3-msg border pixel 5; focus left
-bindsym --release $mod+Ctrl+Left exec i3-msg border pixel 0
-
-bindsym $mod+Ctrl+Down           exec i3-msg border pixel 5; focus down
-bindsym --release $mod+Ctrl+Down exec i3-msg border pixel 0
-
-bindsym $mod+Ctrl+Up           exec i3-msg border pixel 5; focus up
-bindsym --release $mod+Ctrl+Up exec i3-msg border pixel 0
-
-bindsym $mod+Ctrl+Right           exec i3-msg border pixel 5; focus right
-bindsym --release $mod+Ctrl+Right exec i3-msg border pixel 0
-
-bindsym $mod+Shift+Left           exec i3-msg border pixel 5; move left
-bindsym --release $mod+Shift+Left exec i3-msg border pixel 0
-
-bindsym $mod+Shift+Down           exec i3-msg border pixel 5; move down
-bindsym --release $mod+Shift+Down exec i3-msg border pixel 0
-
-bindsym $mod+Shift+Up           exec i3-msg border pixel 5; move up
-bindsym --release $mod+Shift+Up exec i3-msg border pixel 0
-
-bindsym $mod+Shift+Right           exec i3-msg border pixel 5; move right
+bindsym $mod+comma                 exec i3-msg border normal 1
+bindsym --release $mod+comma       exec i3-msg border pixel 0
+bindsym           $mod+Ctrl+Left   exec i3-msg border pixel 5; focus left
+bindsym --release $mod+Ctrl+Left   exec i3-msg border pixel 0
+bindsym           $mod+Ctrl+Down   exec i3-msg border pixel 5; focus down
+bindsym --release $mod+Ctrl+Down   exec i3-msg border pixel 0
+bindsym           $mod+Ctrl+Up     exec i3-msg border pixel 5; focus up
+bindsym --release $mod+Ctrl+Up     exec i3-msg border pixel 0
+bindsym           $mod+Ctrl+Right  exec i3-msg border pixel 5; focus right
+bindsym --release $mod+Ctrl+Right  exec i3-msg border pixel 0
+bindsym           $mod+Shift+Left  exec i3-msg border pixel 5; move left
+bindsym --release $mod+Shift+Left  exec i3-msg border pixel 0
+bindsym           $mod+Shift+Down  exec i3-msg border pixel 5; move down
+bindsym --release $mod+Shift+Down  exec i3-msg border pixel 0
+bindsym           $mod+Shift+Up    exec i3-msg border pixel 5; move up
+bindsym --release $mod+Shift+Up    exec i3-msg border pixel 0
+bindsym           $mod+Shift+Right exec i3-msg border pixel 5; move right
 bindsym --release $mod+Shift+Right exec i3-msg border pixel 0
-
-bindsym Mod1+Tab           exec i3-msg border pixel 5; focus mode_toggle
-bindsym --release Mod1+Tab exec i3-msg border pixel 0
-
-bindsym $mod+Tab           exec i3-msg border pixel 5; focus right
-bindsym --release $mod+Tab exec i3-msg border pixel 0
-
-bindsym $mod+Shift+Tab           exec i3-msg border pixel 5; focus left
-bindsym --release $mod+Shift+Tab exec i3-msg border pixel 0
+bindsym           Mod1+Tab         exec i3-msg border pixel 5; focus mode_toggle
+bindsym --release Mod1+Tab         exec i3-msg border pixel 0
+bindsym           $mod+Tab         exec i3-msg border pixel 5; focus right
+bindsym --release $mod+Tab         exec i3-msg border pixel 0
+bindsym           $mod+Shift+Tab   exec i3-msg border pixel 5; focus left
+bindsym --release $mod+Shift+Tab   exec i3-msg border pixel 0
 
 # vim bindings
 # bindsym $mod+Ctrl+h focus left
@@ -165,7 +154,6 @@ bindsym $mod+XF86AudioPlay        exec --no-startup-id $HOME/.scripts/mpc-comman
 bindsym $mod+Shift+XF86AudioPlay  exec --no-startup-id $HOME/.scripts/mpc-commands.sh toggle_repeat
 bindsym $mod+Shift+XF86AudioPrev  exec --no-startup-id $HOME/.scripts/mpc-commands.sh toggle_loop_on_album
 bindsym $mod+XF86AudioPrev        exec --no-startup-id $HOME/.scripts/mpc-commands.sh seekthrough backward
-bindsym $mod+Ctrl+r               exec --no-startup-id $HOME/.scripts/mac-controls.sh
 
 bindsym $mod+Next             exec --no-startup-id mpc toggle
 bindsym $mod+Shift+Prior      exec --no-startup-id $HOME/.scripts/mpc-commands.sh play prev
@@ -195,8 +183,11 @@ bindsym $mod+p exec pavucontrol
 bindsym $mod+q        exec --no-startup-id $HOME/.config/rofi/bin/launcher.sh
 bindsym $mod+Shift+p  exec --no-startup-id $HOME/.config/rofi/bin/kill-process.sh
 bindsym $mod+Shift+q  exec --no-startup-id $HOME/.config/rofi/bin/kill-apps.sh
+
+bindsym XF86Calculator     exec --no-startup-id $HOME/.config/rofi/bin/calculator.sh
 bindsym XF86Tools     exec --no-startup-id $HOME/.config/rofi/bin/calculator.sh
-bindsym XF86LaunchB   exec --no-startup-id $HOME/.config/rofi/bin/calculator.sh
+# bindsym XF86LaunchB   exec --no-startup-id $HOME/.config/rofi/bin/calculator.sh
+
 bindsym $mod+Escape   exec --no-startup-id $HOME/.config/rofi/bin/powermenu.sh
 bindsym $mod+e        exec --no-startup-id $HOME/.config/rofi/bin/file-browser.sh
 bindsym $mod+Shift+i  exec --no-startup-id $HOME/.config/rofi/bin/define-word.sh
@@ -280,9 +271,11 @@ client.urgent           #E53935 #E53935 #24292e #58252B
 # autostart
 exec_always --no-startup-id $HOME/.scripts/monitor-setup.sh
 exec_always --no-startup-id $HOME/.scripts/screen-setup.sh
-# exec_always --no-startup-id $HOME/.scripts/mac-controls.sh
+exec_always --no-startup-id $HOME/.scripts/mac-controls.sh
 exec_always setxkbmap -layout latam
-exec_always xrdb -merge $HOME/.Xresources
+exec_always setxkbmap -option altwin:swap_lalt_lwin
+# exec_always --no-startup-id setxkbmap -option altwin:swap_alt_win
+exec_always --no-startup-id xrdb -merge $HOME/.Xresources
 
 exec --no-startup-id $HOME/.scripts/set-wallpaper.sh
 exec --no-startup-id unclutter --timeout 1 # hide mouse cursor when inactive
@@ -316,6 +309,7 @@ for_window [class="Sonata"] floating enable border pixel 0 move scratchpad, scra
 for_window [class="Toggl Desktop"] floating enable border pixel 0 move position center;
 for_window [class="Blueman-manager"] floating enable;
 for_window [class="Pavucontrol"] floating enable;
+# for_window [class="Thunderbird"] floating enable;
 for_window [class="Ddcbc-gtk"] floating enable;
 for_window [class="Gnome-power-statistics"] floating enable;
 for_window [class="Gsimplecal"] border pixel 0;

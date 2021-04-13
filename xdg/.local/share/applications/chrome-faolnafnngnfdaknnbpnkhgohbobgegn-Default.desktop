@@ -6,4 +6,5 @@ Type=Application
 Name=Outlook
 Exec=/opt/google/chrome/google-chrome --profile-directory=Default --app-id=faolnafnngnfdaknnbpnkhgohbobgegn
 Icon=chrome-faolnafnngnfdaknnbpnkhgohbobgegn-Default
+NoDisplay=true
 StartupWMClass=crx_faolnafnngnfdaknnbpnkhgohbobgegn

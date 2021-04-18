@@ -13,7 +13,7 @@ function check_if_available() {
 function get_battery_percentage() {
 	percentage=$(python3 $HOME/.scripts/bluetooth_battery.py $HEADPHONES_MAC)
 
-	echo "%{F#ffd86e} %{F-}$percentage"
+	echo "%{F#636e72} %{F-}$percentage"
 }
 
 "$@"

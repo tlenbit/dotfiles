@@ -21,7 +21,7 @@ else
 	fi
 
 
-	label="%{F#ffd86e}$player_icon $repeat_icon $loop_on_album_icon"
+	label="%{F#636e72}$player_icon $repeat_icon $loop_on_album_icon"
 	# label="%{F$color_icon} $repeat_icon $loop_on_album_icon"
 
 	echo $label

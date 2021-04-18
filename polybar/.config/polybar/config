@@ -87,7 +87,7 @@ format = <label-state>
 
 label-focused = %index%
 # label-focused-foreground = #b2bec3
-# label-focused-foreground = #ffd86e
+# label-focused-foreground = #636e72
 label-focused-padding = 1
 # label-focused-background = #0a3d6200
 
@@ -122,7 +122,7 @@ type = internal/volume
 ;format-volume = <ramp-volume><label-volume>
 format-volume = <ramp-volume>
 label-muted = 
-label-muted-foreground = #ffd86e
+label-muted-foreground = #636e72
 ramp-volume-0 = 
 ramp-volume-1 = 
 ramp-volume-2 = 
@@ -188,7 +188,7 @@ type = custom/script
 interval = 10
 exec = cat /tmp/timer_time.tmp
 exec-if = [[ -f /tmp/timer_time.tmp ]]
-label = "%{F#ffd86e} %{F-}%output%"
+label = "%{F#636e72} %{F-}%output%"
 ;format-prefix-foreground = #a29bfe
 ;label = "%{F#ff7f50} %{F-}%output%"
 ;click-left = $HOME/.config/polybar/scripts/kill-timer.sh
@@ -249,7 +249,7 @@ ramp-signal-0 = 
 ;format-disconnected = <label-disconnected>
 ;label-disconnected = "%{F#e55039}"
 label-disconnected = 
-label-disconnected-foreground = #ffd86e
+label-disconnected-foreground = #636e72
 
 [module/filesystem]
 type = internal/fs
@@ -264,14 +264,14 @@ fixed-values = true
 spacing = 2
 
 format-mounted = <label-mounted>
-label-mounted = "%{F#ffd86e} %{F-}%free%"
+label-mounted = "%{F#636e72} %{F-}%free%"
 format-unmounted = <label-unmounted>
 label-unmounted = "%{F#e55039}%mountpoint%: not mounted"
 
 [module/memory]
 type = internal/memory
 interval = 5
-label = "%{F#ffd86e} %{F-}%percentage_used%%"
+label = "%{F#636e72} %{F-}%percentage_used%%"
 ;label = "%{F#82ccdd} %{F-}%percentage_used%%"
 
 [module/headphone_battery]
@@ -283,7 +283,7 @@ exec = $HOME/.scripts/headphone-bluetooth.sh get_battery_percentage
 [module/cpu]
 type = internal/cpu
 interval = 5
-label = "%{F#ffd86e} %{F-}%percentage%%"
+label = "%{F#636e72} %{F-}%percentage%%"
 ;label = "%{F#4bcffa} %{F-}%percentage%%"
 
 [module/dotstreak]
@@ -298,7 +298,7 @@ interval = 60
 exec-if = transmission-remote --auth admin:admin -l
 exec = transmission-remote --auth admin:admin -l | grep Downloading | wc -l
 format-prefix = " "
-format-prefix-foreground = #ffd86e
+format-prefix-foreground = #636e72
 ;format-prefix-foreground = #a29bfe
 click-left = transmission-remote --auth arch:linux --exit && notify-send -u low -i $HOME/.config/i3/scripts/icons/state-information.svg "Transmission Stopped"
 
@@ -309,14 +309,14 @@ exec-if = systemctl is-active docker.service
 exec = docker ps -q | wc -l
 format-prefix = " "
 # format-prefix = " "
-format-prefix-foreground = #ffd86e
+format-prefix-foreground = #636e72
 ;format-prefix-foreground = #82ccdd
 click-left = sudo systemctl stop docker
 
 [module/webdav]
 type = custom/script
 exec-if = pgrep webdav
-exec = echo "%{F#ffd86e} %{F-}$(ls $HOME/.share | wc -l)"
+exec = echo "%{F#636e72} %{F-}$(ls $HOME/.share | wc -l)"
 interval = 60
 click-left = killall webdav
 
@@ -324,7 +324,7 @@ click-left = killall webdav
 type = custom/script
 interval = 60
 exec-if = pgrep timidity
-exec = echo "%{F#ffd86e}"
+exec = echo "%{F#636e72}"
 ;exec = echo "%{F#ED4C67}"
 click-left = killall timidity
 

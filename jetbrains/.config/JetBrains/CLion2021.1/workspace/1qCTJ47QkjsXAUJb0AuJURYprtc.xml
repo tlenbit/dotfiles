@@ -1,0 +1,197 @@
+<project version="4">
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="-1">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SECOND">
+              <first_editor />
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/batti.c">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-825">
+              <caret line="21" column="42" selection-start-line="21" selection-start-column="42" selection-end-line="21" selection-end-column="42" />
+              <folding>
+                <element signature="e#442#467#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>child_watch_cb</find>
+      <find>g_spawn_close_pid</find>
+      <find>include</find>
+      <find>fully cha</find>
+      <find>dischargin</find>
+      <find>--monitor</find>
+    </findStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <changedPaths>
+      <option value="$PROJECT_DIR$/CMakeLists.txt" />
+      <option value="$PROJECT_DIR$/batti.c" />
+    </changedPaths>
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="$PROJECT_DIR$/.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1" />
+    <panes />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="2580000" />
+  </component>
+  <component name="ToolWindowManager">
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" weight="0.14190476" />
+      <window_info id="Structure" order="1" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info id="Commit" order="3" />
+      <window_info id="Pull Requests" order="4" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Run" order="3" weight="0.25766423" />
+      <window_info anchor="bottom" id="Debug" order="4" weight="0.2" />
+      <window_info anchor="bottom" id="Problems View" order="5" />
+      <window_info anchor="bottom" id="Cvs" order="6" weight="0.25" />
+      <window_info anchor="bottom" id="Internal Method Tracing" order="7" />
+      <window_info anchor="bottom" id="File Transfer" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="clangd" order="11" />
+      <window_info anchor="bottom" id="CMake" order="12" weight="0.23138686" />
+      <window_info anchor="bottom" id="Database Changes" order="13" show_stripe_button="false" />
+      <window_info anchor="bottom" id="TypeScript" order="14" />
+      <window_info anchor="bottom" id="Messages" order="15" weight="0.3591241" />
+      <window_info anchor="bottom" id="Inspection" order="16" weight="0.4" />
+      <window_info anchor="bottom" id="Flow" order="17" />
+      <window_info anchor="bottom" id="Services" order="18" show_stripe_button="false" />
+      <window_info anchor="bottom" id="TODO" order="19" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="right" id="make" order="4" side_tool="true" />
+    </layout>
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="640" height="204" key="CreateCMakeListWizard.bottomPanel" timestamp="1616582534713">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state width="640" height="204" key="CreateCMakeListWizard.bottomPanel/0.0.2560.1440@0.0.2560.1440" timestamp="1616582534713" />
+    <state width="640" height="476" key="CreateCMakeListWizard.topPanel" timestamp="1616582534713">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state width="640" height="476" key="CreateCMakeListWizard.topPanel/0.0.2560.1440@0.0.2560.1440" timestamp="1616582534713" />
+    <state x="743" y="274" width="424" height="470" key="FileChooserDialogImpl" timestamp="1616587125380">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="743" y="274" width="424" height="470" key="FileChooserDialogImpl/0.0.1920.1080@0.0.1920.1080" timestamp="1616587125380" />
+    <state width="2100" height="246" key="GridCell.Tab.0.bottom" timestamp="1616584991964">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state width="2100" height="246" key="GridCell.Tab.0.bottom/0.0.2560.1440@0.0.2560.1440" timestamp="1616584991964" />
+    <state width="2100" height="246" key="GridCell.Tab.0.center" timestamp="1616584991963">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state width="2100" height="246" key="GridCell.Tab.0.center/0.0.2560.1440@0.0.2560.1440" timestamp="1616584991963" />
+    <state width="2100" height="246" key="GridCell.Tab.0.left" timestamp="1616584991963">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state width="2100" height="246" key="GridCell.Tab.0.left/0.0.2560.1440@0.0.2560.1440" timestamp="1616584991963" />
+    <state width="2100" height="246" key="GridCell.Tab.0.right" timestamp="1616584991963">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state width="2100" height="246" key="GridCell.Tab.0.right/0.0.2560.1440@0.0.2560.1440" timestamp="1616584991963" />
+    <state width="2100" height="246" key="GridCell.Tab.1.bottom" timestamp="1616584991965">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state width="2100" height="246" key="GridCell.Tab.1.bottom/0.0.2560.1440@0.0.2560.1440" timestamp="1616584991965" />
+    <state width="2100" height="246" key="GridCell.Tab.1.center" timestamp="1616584991964">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state width="2100" height="246" key="GridCell.Tab.1.center/0.0.2560.1440@0.0.2560.1440" timestamp="1616584991964" />
+    <state width="2100" height="246" key="GridCell.Tab.1.left" timestamp="1616584991964">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state width="2100" height="246" key="GridCell.Tab.1.left/0.0.2560.1440@0.0.2560.1440" timestamp="1616584991964" />
+    <state width="2100" height="246" key="GridCell.Tab.1.right" timestamp="1616584991964">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state width="2100" height="246" key="GridCell.Tab.1.right/0.0.2560.1440@0.0.2560.1440" timestamp="1616584991964" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file:///usr/include/glib-2.0/glib/gspawn.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="723">
+          <caret line="279" column="22" selection-start-line="279" selection-start-column="5" selection-end-line="279" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cmake-build-debug/Makefile">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/include/gtk-3.0/gtk/gtkmain.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="153" column="11" selection-start-line="153" selection-start-column="11" selection-end-line="153" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/include/glib-2.0/gobject/gsignal.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="338">
+          <caret line="552" column="32" selection-start-line="552" selection-start-column="8" selection-end-line="552" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/lib/gcc/x86_64-pc-linux-gnu/10.2.0/include/stddef.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="338">
+          <caret line="394" column="12" selection-start-line="394" selection-start-column="12" selection-end-line="394" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SECOND">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/batti.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-825">
+          <caret line="21" column="42" selection-start-line="21" selection-start-column="42" selection-end-line="21" selection-end-column="42" />
+          <folding>
+            <element signature="e#442#467#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

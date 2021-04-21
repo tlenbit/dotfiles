@@ -1,0 +1,804 @@
+<project version="4">
+  <component name="CoverageViewManager">
+    <option name="myElementSize" value="170" />
+  </component>
+  <component name="DatabaseView">
+    <expand />
+    <select />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="lao" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="-1">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/scrapper/isbn.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2405">
+              <caret line="192" column="38" selection-start-line="192" selection-start-column="38" selection-end-line="192" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/scrapper/arxiv.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="13">
+              <caret line="1" selection-start-line="1" selection-end-line="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cmd/list.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="637">
+              <caret line="55" column="22" selection-start-line="55" selection-start-column="22" selection-end-line="55" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/storage/db.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1833">
+              <caret line="151" column="19" selection-start-line="151" selection-start-column="19" selection-end-line="151" selection-end-column="19" />
+              <folding>
+                <element signature="e#17#132#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/lib/storage/renderer.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="429">
+              <caret line="94" column="54" selection-start-line="94" selection-start-column="54" selection-end-line="94" selection-end-column="54" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/utils/formatting.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="494">
+              <caret line="42" column="12" selection-start-line="42" selection-start-column="12" selection-end-line="42" selection-end-column="12" />
+              <folding>
+                <element signature="e#15#75#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/scrapper/doi.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="416">
+              <caret line="36" selection-start-line="36" selection-end-line="36" />
+              <folding>
+                <element signature="e#18#85#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/scrapper/scrapper.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="468">
+              <caret line="40" selection-start-line="40" selection-end-line="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cmd/lao.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="754">
+              <caret line="63" column="24" selection-start-line="63" selection-start-column="21" selection-end-line="63" selection-end-column="24" />
+              <folding>
+                <element signature="e#13#65#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cmd/web.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="104">
+              <caret line="10" selection-start-line="10" selection-end-line="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>storage</find>
+      <find>tags</find>
+      <find>list</find>
+      <find>.collec</find>
+      <find>setfag</find>
+      <find>setflag</find>
+      <find>filterby</find>
+      <find>tag</find>
+      <find>tags =</find>
+      <find>type set</find>
+      <find>filterTags</find>
+      <find>complex12</find>
+      <find>roaring</find>
+      <find>roa</find>
+      <find>filename&quot;</find>
+      <find>filen</find>
+      <find>lao/lib/en</find>
+      <find>lib/env</find>
+      <find>operationState</find>
+      <find>fetching meta</find>
+      <find>.foreg</find>
+      <find>646464</find>
+      <find>reflow</find>
+      <find>pulse</find>
+      <find>split</find>
+      <find />
+      <find>favorite</find>
+      <find>formatReplacements</find>
+      <find>new documen</find>
+      <find>format</find>
+    </findStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$/lib/cmd</dir>
+      <dir>$USER_HOME$/.gopath/pkg/mod/github.com/charmbracelet/glamour@v0.2.0</dir>
+      <dir>$PROJECT_DIR$/lib/tui</dir>
+      <dir>$PROJECT_DIR$/lib/ui/search</dir>
+      <dir>$PROJECT_DIR$/lib/cs</dir>
+      <dir>$PROJECT_DIR$/lib/ui/list</dir>
+      <dir>$PROJECT_DIR$/lib/isbn</dir>
+      <dir>$PROJECT_DIR$</dir>
+      <dir>$PROJECT_DIR$/lib/env</dir>
+      <dir>$PROJECT_DIR$/cmd</dir>
+      <dir>$PROJECT_DIR$/lib/utils</dir>
+      <dir>$PROJECT_DIR$/lib/storage</dir>
+      <dir>$PROJECT_DIR$/lib</dir>
+    </dirStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <changedPaths>
+      <option value="$PROJECT_DIR$/lib/isbn/validate.go" />
+      <option value="$PROJECT_DIR$/lib/env/variables.go" />
+      <option value="$PROJECT_DIR$/lib/isbn/google-books-scrapper.go" />
+      <option value="$PROJECT_DIR$/cmd/search.go" />
+      <option value="$PROJECT_DIR$/lib/isbn/open-library-scrapper.go" />
+      <option value="$PROJECT_DIR$/lib/scrapper/sources/open-library-scrapper.go" />
+      <option value="$PROJECT_DIR$/lib/scrapper/validate.go" />
+      <option value="$PROJECT_DIR$/main_test.go" />
+      <option value="$APPLICATION_CONFIG_DIR$/consoles/db/c7999541-a2c0-4cb8-af30-615748286b3e/console.sql" />
+      <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch.sql" />
+      <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch_1.go" />
+      <option value="$PROJECT_DIR$/lib/scrapper/doi/crossref.go" />
+      <option value="$PROJECT_DIR$/lib/scrapper/doi/doi.go" />
+      <option value="$PROJECT_DIR$/lib/scrapper/isbn/isbn.go" />
+      <option value="$PROJECT_DIR$/lib/scrapper/isbn/google-books.go" />
+      <option value="$PROJECT_DIR$/lib/scrapper/isbn/open-library.go" />
+      <option value="$PROJECT_DIR$/README.md" />
+      <option value="$PROJECT_DIR$/lib/scrapper/arxiv.go" />
+      <option value="$PROJECT_DIR$/lib/scrapper/doi.go" />
+      <option value="$PROJECT_DIR$/lib/scrapper/isbn_test.go" />
+      <option value="$PROJECT_DIR$/lib/scrapper/isbn.go" />
+      <option value="$PROJECT_DIR$/lib/scrapper/scrapper.go" />
+      <option value="$PROJECT_DIR$/cmd/common.go" />
+      <option value="$PROJECT_DIR$/cmd/list/json.go" />
+      <option value="$PROJECT_DIR$/cmd/list/bibtex.go" />
+      <option value="$PROJECT_DIR$/cmd/list/default.go" />
+      <option value="$PROJECT_DIR$/cmd/list/list.go" />
+      <option value="$PROJECT_DIR$/lib/templates/custom.go" />
+      <option value="$PROJECT_DIR$/lib/templates/renderer.go" />
+      <option value="$PROJECT_DIR$/lib/env/config.go" />
+      <option value="$PROJECT_DIR$/lib/storage/types.go" />
+      <option value="$PROJECT_DIR$/go.mod" />
+      <option value="$PROJECT_DIR$/lib/renderer/json.go" />
+      <option value="$PROJECT_DIR$/lib/renderer/default.go" />
+      <option value="$PROJECT_DIR$/lib/renderer/custom.go" />
+      <option value="$PROJECT_DIR$/lib/renderer/bibtex.go" />
+      <option value="$PROJECT_DIR$/lib/renderer/renderer.go" />
+      <option value="$PROJECT_DIR$/cmd/init.go" />
+      <option value="$PROJECT_DIR$/lib/utils/utils.go" />
+      <option value="$PROJECT_DIR$/lib/utils/formating.go" />
+      <option value="$PROJECT_DIR$/cmd/rm.go" />
+      <option value="$PROJECT_DIR$/cmd/web.go" />
+      <option value="$PROJECT_DIR$/main.go" />
+      <option value="$PROJECT_DIR$/lib/utils/set.go" />
+      <option value="$PROJECT_DIR$/lib/utils/formatting.go" />
+      <option value="$PROJECT_DIR$/cmd/add.go" />
+      <option value="$PROJECT_DIR$/cmd/lao.go" />
+      <option value="$PROJECT_DIR$/lib/storage/models.go" />
+      <option value="$PROJECT_DIR$/lib/storage/db.go" />
+      <option value="$PROJECT_DIR$/cmd/list.go" />
+      <option value="$PROJECT_DIR$/lib/storage/renderer.go" />
+    </changedPaths>
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="$PROJECT_DIR$/.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1" />
+    <panes />
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <option name="contentProportion" value="0.24821684" />
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="TerminalArrangementManager">
+    <option name="mySelectedTabIndex" value="-1" />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="TestISBN_IsValid_in_lao_lib_scrapper - 2021.02.23 at 18h 46m 29s.xml">
+      <configuration name="TestISBN_IsValid in lao/lib/scrapper" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestISBN_IsValid_in_lao_lib_scrapper - 2021.02.23 at 18h 46m 35s.xml">
+      <configuration name="TestISBN_IsValid in lao/lib/scrapper" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestISBN_IsValid_in_lao_lib_scrapper - 2021.02.23 at 18h 46m 47s.xml">
+      <configuration name="TestISBN_IsValid in lao/lib/scrapper" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestISBN_IsValid_in_lao_lib_scrapper - 2021.02.23 at 18h 46m 56s.xml">
+      <configuration name="TestISBN_IsValid in lao/lib/scrapper" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestISBN_IsValid_2_in_lao_lib_scrapper - 2021.02.23 at 18h 47m 26s.xml">
+      <configuration name="TestISBN_IsValid/2 in lao/lib/scrapper" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestISBN_IsValid_in_lao_lib_scrapper - 2021.02.23 at 18h 49m 47s.xml">
+      <configuration name="TestISBN_IsValid in lao/lib/scrapper" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestISBN_IsValid_in_lao_lib_scrapper - 2021.02.23 at 18h 49m 57s.xml">
+      <configuration name="TestISBN_IsValid in lao/lib/scrapper" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestISBN_IsValid_in_lao_lib_scrapper - 2021.02.23 at 18h 50m 08s.xml">
+      <configuration name="TestISBN_IsValid in lao/lib/scrapper" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestISBN_IsValid_in_lao_lib_scrapper - 2021.02.23 at 18h 50m 30s.xml">
+      <configuration name="TestISBN_IsValid in lao/lib/scrapper" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestISBN_IsValid_in_lao_lib_scrapper - 2021.02.23 at 18h 51m 02s.xml">
+      <configuration name="TestISBN_IsValid in lao/lib/scrapper" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <layout>
+      <window_info content_ui="combo" x="614" y="88" width="186" height="1340" id="Project" order="0" weight="0.12739725" />
+      <window_info id="Structure" order="1" weight="0.2489712" />
+      <window_info id="Favorites" order="2" side_tool="true" weight="0.128694" />
+      <window_info id="Commit" order="3" />
+      <window_info id="Pull Requests" order="4" />
+      <window_info id="Learn" order="5" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32520324" />
+      <window_info anchor="bottom" id="Event Log" order="2" sideWeight="0.36301368" side_tool="true" weight="0.3292232" />
+      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.6164383" weight="0.31051588" />
+      <window_info anchor="bottom" id="Debug" order="4" weight="0.29166666" />
+      <window_info anchor="bottom" id="Problems View" order="5" weight="0.32738096" />
+      <window_info anchor="bottom" id="Cvs" order="6" weight="0.25" />
+      <window_info anchor="bottom" id="Profiler" order="7" sideWeight="0.6369863" weight="0.32932332" />
+      <window_info anchor="bottom" id="Internal Method Tracing" order="8" />
+      <window_info anchor="bottom" id="File Transfer" order="9" />
+      <window_info anchor="bottom" id="Version Control" order="10" weight="0.32932332" />
+      <window_info anchor="bottom" id="Terminal" order="11" />
+      <window_info anchor="bottom" id="Inspection" order="12" weight="0.4" />
+      <window_info anchor="bottom" id="Database Changes" order="13" show_stripe_button="false" />
+      <window_info anchor="bottom" id="TypeScript" order="14" />
+      <window_info anchor="bottom" id="TODO" order="15" weight="0.32906976" />
+      <window_info anchor="bottom" id="Flow" order="16" />
+      <window_info anchor="bottom" id="Services" order="17" show_stripe_button="false" weight="0.4097222" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="make" order="3" side_tool="true" weight="0.32876712" />
+      <window_info anchor="right" id="Database" order="4" weight="0.32876712" />
+      <window_info anchor="right" id="Coverage" order="5" side_tool="true" weight="0.37260273" />
+      <window_info anchor="right" id="GlassCode" order="6" side_tool="true" weight="0.32983795" />
+    </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" weight="0.2130137" />
+      <window_info id="Structure" order="1" weight="0.24931507" />
+      <window_info id="Favorites" order="2" side_tool="true" weight="0.32876712" />
+      <window_info id="Commit" order="3" />
+      <window_info id="Pull Requests" order="4" />
+      <window_info id="Learn" order="5" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32932332" />
+      <window_info anchor="bottom" id="Event Log" order="2" sideWeight="0.36301368" side_tool="true" weight="0.3292232" />
+      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.6164383" weight="0.24845488" />
+      <window_info anchor="bottom" id="Debug" order="4" visible="true" weight="0.34857848" />
+      <window_info anchor="bottom" id="Problems View" order="5" weight="0.32825485" />
+      <window_info anchor="bottom" id="Cvs" order="6" weight="0.25" />
+      <window_info anchor="bottom" id="Profiler" order="7" sideWeight="0.6369863" weight="0.32932332" />
+      <window_info anchor="bottom" id="Internal Method Tracing" order="8" />
+      <window_info anchor="bottom" id="File Transfer" order="9" />
+      <window_info anchor="bottom" id="Version Control" order="10" weight="0.32932332" />
+      <window_info anchor="bottom" id="Terminal" order="11" />
+      <window_info anchor="bottom" id="Inspection" order="12" weight="0.4" />
+      <window_info anchor="bottom" id="Database Changes" order="13" show_stripe_button="false" />
+      <window_info anchor="bottom" id="TypeScript" order="14" />
+      <window_info anchor="bottom" id="TODO" order="15" weight="0.32906976" />
+      <window_info anchor="bottom" id="Flow" order="16" />
+      <window_info anchor="bottom" id="Services" order="17" show_stripe_button="false" weight="0.4105263" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="make" order="3" side_tool="true" weight="0.32876712" />
+      <window_info anchor="right" id="Database" order="4" weight="0.32876712" />
+      <window_info anchor="right" id="Coverage" order="5" side_tool="true" weight="0.37260273" />
+    </layout-to-restore>
+  </component>
+  <component name="Trusted.Project.Settings" hasCheckedIfOldProject="true" trusted="YES" />
+  <component name="WindowStateProjectService">
+    <state x="754" y="446" key="#GOROOT" timestamp="1609943334155">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="754" y="446" key="#GOROOT/0.0.1920.1080@0.0.1920.1080" timestamp="1609943334155" />
+    <state x="754" y="350" width="402" height="316" key="#Go_Modules" timestamp="1609943342953">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="754" y="350" width="402" height="316" key="#Go_Modules/0.0.1920.1080@0.0.1920.1080" timestamp="1609943342953" />
+    <state x="874" y="358" width="802" height="664" key="#Intentions" timestamp="1614952051824">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state x="874" y="358" width="802" height="664" key="#Intentions/0.0.2560.1440@0.0.2560.1440" timestamp="1614952051824" />
+    <state x="456" y="155" width="802" height="791" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1614097372812">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="456" y="155" width="802" height="791" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1614097372812" />
+    <state x="1602" y="349" width="443" height="430" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1612536191535">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state x="1202" y="275" width="443" height="430" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1080@0.0.1920.1080" timestamp="1611062909525" />
+    <state x="1602" y="349" key="#com.intellij.fileTypes.FileTypeChooser/0.0.2560.1440@0.0.2560.1440" timestamp="1612536191535" />
+    <state x="696" y="202" width="426" height="573" key="#com.intellij.ide.macro.MacrosDialog" timestamp="1614000191065">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="696" y="202" width="426" height="573" key="#com.intellij.ide.macro.MacrosDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1614000191065" />
+    <state x="1000" y="278" width="407" height="572" key="#com.intellij.ide.util.MemberChooser" timestamp="1612963887016">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state x="751" y="222" width="407" height="572" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1080@0.0.1920.1080" timestamp="1612613587502" />
+    <state x="1000" y="278" key="#com.intellij.ide.util.MemberChooser/0.0.2560.1440@0.0.2560.1440" timestamp="1612963887016" />
+    <state x="717" y="260" key="#xdebugger.evaluate" timestamp="1614003219304">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="717" y="260" key="#xdebugger.evaluate/0.0.1920.1080@0.0.1920.1080" timestamp="1614003219304" />
+    <state x="747" y="309" width="426" height="471" key="FileChooserDialogImpl" timestamp="1616402598200">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state x="867" y="76" width="426" height="473" key="FileChooserDialogImpl/0.0.1920.1080@0.0.1920.1080" timestamp="1616133337189" />
+    <state x="747" y="309" width="426" height="471" key="FileChooserDialogImpl/0.0.2560.1440@0.0.2560.1440" timestamp="1616402598200" />
+    <state width="1458" height="239" key="GridCell.Tab.0.bottom" timestamp="1614102363537">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1458" height="239" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1614102363537" />
+    <state width="1458" height="239" key="GridCell.Tab.0.center" timestamp="1614102363536">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1458" height="239" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1614102363536" />
+    <state width="1458" height="239" key="GridCell.Tab.0.left" timestamp="1614102363535">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1458" height="239" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1614102363535" />
+    <state width="1458" height="239" key="GridCell.Tab.0.right" timestamp="1614102363536">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1458" height="239" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1614102363536" />
+    <state width="1458" height="223" key="GridCell.Tab.1.bottom" timestamp="1614102363529">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1458" height="223" key="GridCell.Tab.1.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1614102363529" />
+    <state width="1458" height="223" key="GridCell.Tab.1.center" timestamp="1614102363527">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1458" height="223" key="GridCell.Tab.1.center/0.0.1920.1080@0.0.1920.1080" timestamp="1614102363527" />
+    <state width="1458" height="223" key="GridCell.Tab.1.left" timestamp="1614102363526">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1458" height="223" key="GridCell.Tab.1.left/0.0.1920.1080@0.0.1920.1080" timestamp="1614102363526" />
+    <state width="1458" height="223" key="GridCell.Tab.1.right" timestamp="1614102363528">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1458" height="223" key="GridCell.Tab.1.right/0.0.1920.1080@0.0.1920.1080" timestamp="1614102363528" />
+    <state x="613" y="216" key="SettingsEditor" timestamp="1614953469117">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state x="462" y="198" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1614499040786" />
+    <state x="613" y="216" key="SettingsEditor/0.0.2560.1440@0.0.2560.1440" timestamp="1614953469117" />
+    <state x="547" y="361" width="720" height="699" key="StructurePopup" timestamp="1615656912494">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state x="410" y="271" width="540" height="524" key="StructurePopup/0.0.1920.1080@0.0.1920.1080" timestamp="1615620655457" />
+    <state x="547" y="361" width="720" height="699" key="StructurePopup/0.0.2560.1440@0.0.2560.1440" timestamp="1615656912494" />
+    <state width="498" height="445" key="SwitcherDM" timestamp="1615468794441">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state width="498" height="445" key="SwitcherDM/0.0.2560.1440@0.0.2560.1440" timestamp="1615468794441" />
+    <state x="297" y="369" width="712" height="715" key="find.popup" timestamp="1615657422073">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state x="223" y="277" width="534" height="536" key="find.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1614108215599" />
+    <state x="297" y="369" width="712" height="715" key="find.popup/0.0.2560.1440@0.0.2560.1440" timestamp="1615657422073" />
+    <state x="566" y="287" width="700" height="530" key="recent.locations.popup" timestamp="1613917830260">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="566" y="287" width="700" height="530" key="recent.locations.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1613917830260" />
+    <state x="345" y="245" width="672" height="678" key="search.everywhere.popup" timestamp="1616076370026">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="259" y="581" width="672" height="1608" key="search.everywhere.popup/0.0.1440.2560@0.0.1440.2560" timestamp="1615048014818" />
+    <state x="345" y="245" width="672" height="678" key="search.everywhere.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1616076370026" />
+    <state x="460" y="327" width="896" height="904" key="search.everywhere.popup/0.0.2560.1440@0.0.2560.1440" timestamp="1615815776435" />
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>*(*&quot;lao/lib/scrapper.googleBooksMetaData&quot;)(824635736064)</expression-string>
+        <language-id>go</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="234">
+            <caret line="18" column="66" selection-start-line="18" selection-start-column="66" selection-end-line="18" selection-end-column="66" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/scrapper/isbn_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.gopath/pkg/mod/github.com/urfave/cli/v2@v2.2.0/flag_string.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="65">
+          <caret line="5" column="5" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/lib/go/src/os/getwd.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="21" column="5" lean-forward="true" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.gopath/pkg/mod/github.com/urfave/cli/v2@v2.2.0/args.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="117">
+          <caret line="9" column="12" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.gopath/pkg/mod/github.com/urfave/cli/v2@v2.2.0/context.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="415">
+          <caret line="122" selection-start-line="122" selection-end-line="122" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.gopath/pkg/mod/github.com/urfave/cli/v2@v2.2.0/command.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="143">
+          <caret line="16" column="6" selection-start-line="16" selection-start-column="6" selection-end-line="16" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.gopath/pkg/mod/github.com/urfave/cli/v2@v2.2.0/help.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1090">
+          <caret line="368" lean-forward="true" selection-start-line="368" selection-end-line="368" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/lib/go/src/sort/search.go">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file:///usr/lib/go/src/strings/builder.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1184">
+          <caret line="122" selection-start-line="122" selection-end-line="122" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.gopath/pkg/mod/github.com/kr/text@v0.1.0/wrap.go">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/.gopath/pkg/mod/gopkg.in/yaml.v2@v2.4.0/yaml.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="433">
+          <caret line="198" column="5" lean-forward="true" selection-start-line="198" selection-start-column="5" selection-end-line="198" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/lib/go/src/sort/sort.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="433">
+          <caret line="228" column="5" selection-start-line="228" selection-start-column="5" selection-end-line="228" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/lib/go/src/unicode/tables.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1209">
+          <caret line="8054" lean-forward="true" selection-start-line="8054" selection-end-line="8054" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/lib/go/src/builtin/builtin.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="453">
+          <caret line="199" selection-start-line="199" selection-end-line="199" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.gopath/pkg/mod/golang.org/x/text@v0.3.0/runes/runes.go">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/.gopath/pkg/mod/github.com/!roaring!bitmap/roaring@v0.5.5/roaring.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1209">
+          <caret line="1583" lean-forward="true" selection-start-line="1583" selection-end-line="1583" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/renderer/bibtex.go" />
+    <entry file="file://$PROJECT_DIR$/lib/renderer/default.go" />
+    <entry file="file://$PROJECT_DIR$/lib/renderer/json.go" />
+    <entry file="file://$PROJECT_DIR$/lib/renderer/renderer.go" />
+    <entry file="file://$PROJECT_DIR$/lib/renderer/custom.go" />
+    <entry file="file:///usr/lib/go/src/path/filepath/path.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="872">
+          <caret line="569" column="5" lean-forward="true" selection-start-line="569" selection-start-column="5" selection-end-line="569" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cmd/search.go" />
+    <entry file="file://$PROJECT_DIR$/cmd/init.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="403">
+          <caret line="31" column="15" selection-start-line="31" selection-start-column="15" selection-end-line="31" selection-end-column="15" />
+          <folding>
+            <element signature="e#13#92#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cmd/rm.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret lean-forward="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bash_autocomplete">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.gopath/pkg/mod/github.com/muesli/termenv@v0.7.4/termenv.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="338">
+          <caret line="31" column="18" lean-forward="true" selection-start-line="31" selection-start-column="18" selection-end-line="31" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.gopath/pkg/mod/github.com/muesli/termenv@v0.7.4/color.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="313">
+          <caret line="84" column="33" lean-forward="true" selection-start-line="84" selection-start-column="33" selection-end-line="84" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/utils/utils.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="611">
+          <caret line="53" lean-forward="true" selection-start-line="53" selection-end-line="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/storage/config.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="832">
+          <caret line="64" lean-forward="true" selection-start-line="64" selection-end-line="64" />
+          <folding>
+            <element signature="e#17#98#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.gopath/pkg/mod/github.com/muesli/termenv@v0.7.4/style.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="313">
+          <caret line="53" column="15" selection-start-line="53" selection-start-column="15" selection-end-line="53" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.gopath/pkg/mod/github.com/disiqueira/gotree@v1.0.0/gotree.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="434">
+          <caret line="68" lean-forward="true" selection-start-line="68" selection-end-line="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/lib/go/src/fmt/print.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="438">
+          <caret line="240" column="5" selection-start-line="240" selection-start-column="5" selection-end-line="240" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.gopath/pkg/mod/github.com/valyala/fasttemplate@v1.2.1/template.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="313">
+          <caret line="336" column="19" selection-start-line="336" selection-start-column="19" selection-end-line="336" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="117">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+          <folding>
+            <element signature="e#14#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/lib/go/src/strings/strings.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="430">
+          <caret line="923" column="5" selection-start-line="923" selection-start-column="5" selection-end-line="923" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/go.mod">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/utils/set.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="52">
+          <caret line="4" column="5" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/storage/models.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="429">
+          <caret line="36" column="28" selection-start-line="36" selection-start-column="28" selection-end-line="36" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cmd/add.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1287">
+          <caret line="111" column="24" selection-start-line="111" selection-start-column="24" selection-end-line="111" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/scrapper/isbn.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2405">
+          <caret line="192" column="38" selection-start-line="192" selection-start-column="38" selection-end-line="192" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/scrapper/arxiv.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="13">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cmd/list.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="637">
+          <caret line="55" column="22" selection-start-line="55" selection-start-column="22" selection-end-line="55" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/storage/db.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1833">
+          <caret line="151" column="19" selection-start-line="151" selection-start-column="19" selection-end-line="151" selection-end-column="19" />
+          <folding>
+            <element signature="e#17#132#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/utils/formatting.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="42" column="12" selection-start-line="42" selection-start-column="12" selection-end-line="42" selection-end-column="12" />
+          <folding>
+            <element signature="e#15#75#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/scrapper/doi.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="416">
+          <caret line="36" selection-start-line="36" selection-end-line="36" />
+          <folding>
+            <element signature="e#18#85#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/scrapper/scrapper.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="40" selection-start-line="40" selection-end-line="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cmd/lao.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="754">
+          <caret line="63" column="24" selection-start-line="63" selection-start-column="21" selection-end-line="63" selection-end-column="24" />
+          <folding>
+            <element signature="e#13#65#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cmd/web.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/storage/renderer.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="429">
+          <caret line="94" column="54" selection-start-line="94" selection-start-column="54" selection-end-line="94" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

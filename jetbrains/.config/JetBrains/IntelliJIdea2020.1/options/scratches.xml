@@ -1,0 +1,8 @@
+<application>
+  <component name="ScratchFileService">
+    <file url="file://$APPLICATION_CONFIG_DIR$/scratches/buffer1.txt" value="TEXT" />
+    <file url="file://$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" value="HTTP Request" />
+    <file url="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.rs" value="TEXT" />
+    <file url="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_1.rs" value="TEXT" />
+  </component>
+</application>

@@ -1,0 +1,12 @@
+<keymap version="1" name="Sublime Text copy" parent="Sublime Text">
+  <action id="CommentByLineComment">
+    <keyboard-shortcut first-keystroke="ctrl #10000d1" />
+  </action>
+  <action id="Scala.ShowImplicits">
+    <keyboard-shortcut first-keystroke="shift ctrl alt equals" />
+    <keyboard-shortcut first-keystroke="shift ctrl alt add" />
+  </action>
+  <action id="Tool_External Tools_External Terminal">
+    <keyboard-shortcut first-keystroke="shift ctrl #10000d1" />
+  </action>
+</keymap>

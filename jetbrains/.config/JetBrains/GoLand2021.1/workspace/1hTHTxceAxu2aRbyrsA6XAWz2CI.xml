@@ -1,0 +1,304 @@
+<project version="4">
+  <component name="FavoritesManager">
+    <favorites_list name="homeworks" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="-1" />
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>bst</find>
+      <find>createArray</find>
+      <find>radix</find>
+      <find>fmt.</find>
+      <find>newsca</find>
+      <find>scanne</find>
+      <find>.dat</find>
+      <find>biedge</find>
+      <find>bied</find>
+      <find>os.</find>
+      <find>adding</find>
+      <find>fmt.print</find>
+      <find>Done</find>
+      <find>github.com</find>
+      <find>f</find>
+      <find>redu</find>
+      <find>&gt;&gt;</find>
+      <find>.open</find>
+      <find>words.txt</find>
+      <find>os.args</find>
+      <find>sleep</find>
+      <find>time.</find>
+      <find>time.sec</find>
+    </findStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/HW2/ex4.go" />
+        <option value="$PROJECT_DIR$/HW2/ex4/searching_test.go" />
+        <option value="$PROJECT_DIR$/HW2/ex4/searching.go" />
+        <option value="$PROJECT_DIR$/HW2/ex5.go" />
+        <option value="$PROJECT_DIR$/HW3/ex3/radixsort_test.go" />
+        <option value="$PROJECT_DIR$/HW1/main.go" />
+        <option value="$PROJECT_DIR$/HW3/ex3/radixsort.go" />
+        <option value="$PROJECT_DIR$/HW3/ex4-5/mergesort_test.go" />
+        <option value="$PROJECT_DIR$/HW3/ex4-5/mergesort.go" />
+        <option value="$PROJECT_DIR$/HW4/ex6.go" />
+        <option value="$PROJECT_DIR$/HW4/ex6/util.go" />
+        <option value="$PROJECT_DIR$/HW4/ex6/ex6.go" />
+        <option value="$PROJECT_DIR$/HW4/util/util.go" />
+        <option value="$PROJECT_DIR$/HW4/ex6/bst.go" />
+        <option value="$PROJECT_DIR$/HW4/ex6/benchmark.go" />
+        <option value="$PROJECT_DIR$/HW4/main.go" />
+        <option value="$PROJECT_DIR$/HW7/ex1/main.go" />
+        <option value="$PROJECT_DIR$/HW7/ex2/main.go" />
+        <option value="$PROJECT_DIR$/HW7/ex4/main.go" />
+        <option value="$PROJECT_DIR$/HW8/ex1/main.go" />
+        <option value="$PROJECT_DIR$/HW8/ex2/main.go" />
+        <option value="$PROJECT_DIR$/HW8/ex3/main.go" />
+        <option value="$PROJECT_DIR$/HW8/ex3/main.py" />
+        <option value="$PROJECT_DIR$/HW10/ex3/ex3.go" />
+        <option value="$PROJECT_DIR$/HW10/ex4/ex4.go" />
+        <option value="$PROJECT_DIR$/HW10/ex5/ex5.go" />
+        <option value="$PROJECT_DIR$/HW11/ex1/main.go" />
+        <option value="$PROJECT_DIR$/HW11/ex1/ex1.go" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" x="40" y="23" width="1840" height="1017" />
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" />
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="homeworks" type="b2602c69:ProjectViewProjectNode" />
+              <item name="homeworks" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="ToolWindowManager">
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" weight="0.132753" />
+      <window_info id="Structure" order="1" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" weight="0.16037735" />
+      <window_info id="Commit" order="3" />
+      <window_info id="Pull Requests" order="4" />
+      <window_info id="Learn" order="5" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32865733" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Event Log" order="3" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="4" weight="0.4" />
+      <window_info anchor="bottom" id="Problems View" order="5" weight="0.24248497" />
+      <window_info anchor="bottom" id="Version Control" order="6" />
+      <window_info anchor="bottom" id="Cvs" order="7" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
+      <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="TypeScript" order="11" />
+      <window_info anchor="bottom" id="Flow" order="12" />
+      <window_info anchor="bottom" id="Internal Method Tracing" order="13" />
+      <window_info anchor="bottom" id="Services" order="14" show_stripe_button="false" />
+      <window_info anchor="bottom" id="TODO" order="15" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="make" order="3" side_tool="true" weight="0.32946298" />
+      <window_info anchor="right" id="Database" order="4" />
+    </layout>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/HW3/plots/ex3_8.dat" />
+    <entry file="file://$PROJECT_DIR$/HW3/ex2.plot" />
+    <entry file="file://$PROJECT_DIR$/HW3/ex3.plot" />
+    <entry file="file://$PROJECT_DIR$/HW3/ex4-5.plot" />
+    <entry file="file://$PROJECT_DIR$/HW4/ex5/ex5.dat" />
+    <entry file="file://$PROJECT_DIR$/HW3/ex4-5/mergesort_test.go" />
+    <entry file="file://$PROJECT_DIR$/HW4/data-bench-height-bst.txt" />
+    <entry file="file:///usr/lib/go/src/path/filepath/path.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="372">
+          <caret line="241" column="8" selection-start-line="241" selection-start-column="8" selection-end-line="241" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HW4/ex6/bench-height-bst.data" />
+    <entry file="file://$PROJECT_DIR$/HW4/ex6/bench-height-bst.plot" />
+    <entry file="file://$PROJECT_DIR$/HW3/ex4-5/mergesort.go" />
+    <entry file="file://$PROJECT_DIR$/HW4/ex6/benchmark.go" />
+    <entry file="file://$PROJECT_DIR$/HW4/ex6/bst.go" />
+    <entry file="file://$PROJECT_DIR$/HW4/main.go" />
+    <entry file="file://$PROJECT_DIR$/HW4/ex5/kdtree.py" />
+    <entry file="file://$PROJECT_DIR$/HW4/ex5/ex5.data" />
+    <entry file="file://$PROJECT_DIR$/HW4/ex5/ex5.plot" />
+    <entry file="file:///usr/lib/go/src/bufio/scan.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="372">
+          <caret line="111" column="22" selection-start-line="111" selection-start-column="22" selection-end-line="111" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HW2/ex4/searching.go" />
+    <entry file="file://$PROJECT_DIR$/HW7/ex1/1000_keys.txt" />
+    <entry file="file://$PROJECT_DIR$/HW7/ex2/Makefile" />
+    <entry file="file://$PROJECT_DIR$/HW7/ex1/ex1.gp" />
+    <entry file="file://$PROJECT_DIR$/HW7/ex2/ex2.gp" />
+    <entry file="file:///usr/lib/go/src/os/file.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="332">
+          <caret line="305" column="25" selection-start-line="305" selection-start-column="25" selection-end-line="305" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HW4/util/util.go" />
+    <entry file="file:///usr/lib/go/src/hash/maphash/maphash.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="451">
+          <caret line="187" column="5" selection-start-line="187" selection-start-column="5" selection-end-line="187" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HW7/ex4/main.go" />
+    <entry file="file:///usr/lib/go/src/strconv/atoi.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="332">
+          <caret line="223" column="33" selection-start-line="223" selection-start-column="33" selection-end-line="223" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HW7/ex2/main.go" />
+    <entry file="file://$PROJECT_DIR$/HW7/ex1/main.go" />
+    <entry file="file:///usr/lib/go/src/strings/strings.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="332">
+          <caret line="298" column="12" selection-start-line="298" selection-start-column="12" selection-end-line="298" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HW8/ex1/main.go" />
+    <entry file="file:///usr/lib/go/src/fmt/print.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="598">
+          <caret line="200" column="5" selection-start-line="200" selection-start-column="5" selection-end-line="200" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HW1/main.go" />
+    <entry file="file://$PROJECT_DIR$/HW8/ex2/main.go" />
+    <entry file="file://$PROJECT_DIR$/HW8/report/report.tex" />
+    <entry file="file://$PROJECT_DIR$/HW8/ex3/main.go" />
+    <entry file="file://$PROJECT_DIR$/HW8/ex3/main.py" />
+    <entry file="file://$PROJECT_DIR$/HW03/ex4-5/mergesort_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="15" column="22" lean-forward="true" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
+          <folding>
+            <element signature="e#14#86#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/lib/go/src/math/bits.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="19" column="5" lean-forward="true" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HW01/src/sorting.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="52">
+          <caret line="7" selection-start-line="7" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HW10/ex3/ex3.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="724">
+          <caret line="58" lean-forward="true" selection-start-line="58" selection-end-line="58" />
+          <folding>
+            <element signature="e#14#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HW10/ex5/ex5.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="416">
+          <caret line="32" column="1" selection-start-line="32" selection-start-column="1" selection-end-line="32" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HW10/ex4/ex4.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="13">
+          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+          <folding>
+            <element signature="e#14#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HW02/ex4/searching.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="572">
+          <caret line="57" lean-forward="true" selection-start-line="57" selection-end-line="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HW07/ex4/main.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="52">
+          <caret line="8" selection-start-line="8" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/lib/go/src/io/ioutil/ioutil.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="332">
+          <caret line="51" column="5" lean-forward="true" selection-start-line="51" selection-start-column="5" selection-end-line="51" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/lib/go/src/strings/compare.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+          <folding>
+            <element signature="e#1025#1040#0" expanded="true" />
+            <element signature="e#1051#1067#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HW08/ex1/main.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="65">
+          <caret line="10" selection-start-line="10" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/lib/go/src/sync/map.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="26" column="8" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HW11/ex1/ex1.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1547">
+          <caret line="125" column="37" selection-start-line="125" selection-start-column="37" selection-end-line="125" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

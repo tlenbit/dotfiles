@@ -1,0 +1,320 @@
+<application>
+  <component name="VimHistorySettings">
+    <history>
+      <history-search>
+        <entry>main</entry>
+        <entry encoding="base64">XDxtYWluXD4=</entry>
+        <entry>s</entry>
+        <entry>ok != false</entry>
+        <entry>fakeSearch</entry>
+      </history-search>
+      <history-cmd>
+        <entry>set cursorline</entry>
+        <entry>set nu! rnu!</entry>
+        <entry>set nonu nornu</entry>
+        <entry>set number relativenumber</entry>
+        <entry>wq</entry>
+        <entry>set nu rnu</entry>
+        <entry>set clipboard=unnamedplus</entry>
+        <entry>.q</entry>
+        <entry>%s/ok != false/ok/g</entry>
+        <entry>x</entry>
+        <entry>35</entry>
+        <entry>e d</entry>
+        <entry>e as</entry>
+        <entry>Ex</entry>
+        <entry>Sex</entry>
+        <entry>n aw</entry>
+        <entry>n time.go</entry>
+        <entry>w</entry>
+        <entry>Q</entry>
+        <entry>q</entry>
+      </history-cmd>
+      <history-expr />
+      <history-input />
+    </history>
+  </component>
+  <component name="VimMarksSettings">
+    <globalmarks />
+    <filemarks>
+      <file name="$USER_HOME$/Documents/projects/systems-design/project/6.824/shardmaster/test_test.go" timestamp="1596610816774">
+        <mark key="[" line="34" column="38" />
+        <mark key="]" line="91" column="11" />
+        <mark key="^" line="91" column="11" />
+        <mark key="." line="91" column="10" />
+      </file>
+      <file name="$USER_HOME$/Documents/projects/systems-design/project/6.824/shardkv/common.go" timestamp="1596610407316">
+        <mark key="[" line="2" column="0" />
+        <mark key="]" line="40" column="0" />
+        <mark key="^" line="40" column="0" />
+        <mark key="." line="40" column="0" />
+      </file>
+      <file name="$USER_HOME$/Documents/projects/systems-design/project/6.824/labrpc/labrpc.go" timestamp="1596612135669">
+        <mark key="'" line="268" column="0" />
+        <mark key="[" line="259" column="0" />
+        <mark key="]" line="259" column="8" />
+        <mark key="^" line="259" column="8" />
+        <mark key="." line="259" column="4" />
+      </file>
+      <file name="$USER_HOME$/Documents/projects/systems-design/project/6.824/mr/master.go" timestamp="1596614005248">
+        <mark key="'" line="0" column="0" />
+        <mark key="[" line="82" column="0" />
+        <mark key="]" line="82" column="1" />
+        <mark key="." line="82" column="0" />
+        <mark key="^" line="82" column="1" />
+      </file>
+      <file name="$USER_HOME$/Documents/projects/systems-design/project/6.824/porcupine/checker.go" timestamp="1596640477939">
+        <mark key="'" line="209" column="31" />
+        <mark key="[" line="208" column="0" />
+        <mark key="]" line="208" column="8" />
+        <mark key="." line="208" column="12" />
+      </file>
+      <file name="/" timestamp="1596612349547">
+        <mark key="[" line="0" column="0" />
+      </file>
+      <file name="$USER_HOME$/Documents/projects/systems-design/project/6.824/mr/worker.go" timestamp="1596613836571">
+        <mark key="'" line="52" column="0" />
+        <mark key="[" line="90" column="0" />
+        <mark key="]" line="90" column="0" />
+        <mark key="." line="90" column="0" />
+        <mark key="^" line="100" column="4" />
+      </file>
+      <file name="$USER_HOME$/Documents/projects/algorithms/leetcode/3413.go" timestamp="1596649267375">
+        <mark key="[" line="3" column="0" />
+        <mark key="]" line="4" column="7" />
+        <mark key="^" line="4" column="7" />
+        <mark key="." line="4" column="6" />
+      </file>
+      <file name="$USER_HOME$/Documents/projects/algorithms/leetcode/3414.go" timestamp="1596723673806">
+        <mark key="[" line="22" column="0" />
+        <mark key="]" line="22" column="0" />
+        <mark key="." line="22" column="0" />
+      </file>
+      <file name="$USER_HOME$/Documents/projects/systems-design/project/6.824/porcupine/visualization.go" timestamp="1596632382015">
+        <mark key="'" line="68" column="16" />
+        <mark key="[" line="36" column="8" />
+        <mark key="]" line="36" column="18" />
+        <mark key="." line="36" column="17" />
+        <mark key="^" line="36" column="18" />
+      </file>
+      <file name="$USER_HOME$/Documents/projects/algorithms/concurrency/goroutines.go" timestamp="1596714627512">
+        <mark key="'" line="11" column="0" />
+      </file>
+      <file name="$USER_HOME$/Documents/projects/systems-design/project/6.824/raft/config.go" timestamp="1596614040196">
+        <mark key="'" line="477" column="0" />
+      </file>
+      <file name="$USER_HOME$/Documents/projects/algorithms/leetcode/3412.go" timestamp="1596561863208">
+        <mark key="'" line="3" column="0" />
+        <mark key="[" line="3" column="0" />
+        <mark key="]" line="7" column="0" />
+        <mark key="." line="4" column="33" />
+        <mark key="^" line="4" column="34" />
+      </file>
+      <file name="$USER_HOME$/Documents/projects/algorithms/leetcode/0876.go" timestamp="1596739637821">
+        <mark key="'" line="17" column="0" />
+        <mark key="[" line="27" column="0" />
+        <mark key="]" line="35" column="1" />
+        <mark key="." line="35" column="0" />
+        <mark key="^" line="35" column="1" />
+      </file>
+      <file name="$USER_HOME$/Documents/projects/algorithms/leetcode/0204.go" timestamp="1596609198902">
+        <mark key="[" line="22" column="8" />
+        <mark key="]" line="22" column="8" />
+        <mark key="^" line="22" column="8" />
+        <mark key="." line="22" column="4" />
+      </file>
+      <file name="$USER_HOME$/Documents/projects/algorithms/leetcode/1356.go" timestamp="1596826137095">
+        <mark key="'" line="25" column="0" />
+        <mark key="[" line="6" column="0" />
+        <mark key="]" line="27" column="1" />
+        <mark key="." line="14" column="8" />
+        <mark key="^" line="14" column="9" />
+      </file>
+      <file name="$USER_HOME$/Documents/projects/systems-design/project/6.824/mrapps/nocrash.go" timestamp="1596614394468">
+        <mark key="'" line="38" column="0" />
+      </file>
+      <file name="$USER_HOME$/Documents/projects/algorithms/leetcode/1207.go" timestamp="1596650042487">
+        <mark key="'" line="14" column="0" />
+        <mark key="[" line="3" column="0" />
+        <mark key="]" line="16" column="1" />
+        <mark key="^" line="15" column="32" />
+        <mark key="." line="15" column="0" />
+      </file>
+      <file name="$USER_HOME$/Documents/projects/systems-design/project/6.824/raft/raft.go" timestamp="1596705534840">
+        <mark key="[" line="24" column="0" />
+        <mark key="]" line="24" column="21" />
+        <mark key="^" line="24" column="21" />
+        <mark key="." line="24" column="20" />
+      </file>
+      <file name="$USER_HOME$/Documents/projects/algorithms/leetcode/1078.go" timestamp="1596895660481">
+        <mark key="'" line="20" column="0" />
+        <mark key="[" line="6" column="0" />
+        <mark key="]" line="22" column="1" />
+        <mark key="." line="12" column="17" />
+        <mark key="^" line="12" column="18" />
+      </file>
+    </filemarks>
+    <jumps>
+      <jump line="251" column="0" filename="$USER_HOME$/Documents/projects/systems-design/project/6.824/porcupine/visualization.go" />
+      <jump line="247" column="0" filename="$USER_HOME$/Documents/projects/systems-design/project/6.824/porcupine/visualization.go" />
+      <jump line="237" column="0" filename="$USER_HOME$/Documents/projects/systems-design/project/6.824/porcupine/visualization.go" />
+      <jump line="231" column="0" filename="$USER_HOME$/Documents/projects/systems-design/project/6.824/porcupine/visualization.go" />
+      <jump line="229" column="0" filename="$USER_HOME$/Documents/projects/systems-design/project/6.824/porcupine/visualization.go" />
+      <jump line="202" column="0" filename="$USER_HOME$/Documents/projects/systems-design/project/6.824/porcupine/visualization.go" />
+      <jump line="192" column="0" filename="$USER_HOME$/Documents/projects/systems-design/project/6.824/porcupine/visualization.go" />
+      <jump line="188" column="0" filename="$USER_HOME$/Documents/projects/systems-design/project/6.824/porcupine/visualization.go" />
+      <jump line="184" column="0" filename="$USER_HOME$/Documents/projects/systems-design/project/6.824/porcupine/visualization.go" />
+      <jump line="180" column="0" filename="$USER_HOME$/Documents/projects/systems-design/project/6.824/porcupine/visualization.go" />
+      <jump line="176" column="0" filename="$USER_HOME$/Documents/projects/systems-design/project/6.824/porcupine/visualization.go" />
+      <jump line="172" column="0" filename="$USER_HOME$/Documents/projects/systems-design/project/6.824/porcupine/visualization.go" />
+      <jump line="168" column="0" filename="$USER_HOME$/Documents/projects/systems-design/project/6.824/porcupine/visualization.go" />
+      <jump line="163" column="0" filename="$USER_HOME$/Documents/projects/systems-design/project/6.824/porcupine/visualization.go" />
+      <jump line="159" column="0" filename="$USER_HOME$/Documents/projects/systems-design/project/6.824/porcupine/visualization.go" />
+      <jump line="155" column="0" filename="$USER_HOME$/Documents/projects/systems-design/project/6.824/porcupine/visualization.go" />
+      <jump line="150" column="0" filename="$USER_HOME$/Documents/projects/systems-design/project/6.824/porcupine/visualization.go" />
+      <jump line="142" column="0" filename="$USER_HOME$/Documents/projects/systems-design/project/6.824/porcupine/visualization.go" />
+      <jump line="137" column="0" filename="$USER_HOME$/Documents/projects/systems-design/project/6.824/porcupine/visualization.go" />
+      <jump line="133" column="0" filename="$USER_HOME$/Documents/projects/systems-design/project/6.824/porcupine/visualization.go" />
+      <jump line="127" column="0" filename="$USER_HOME$/Documents/projects/systems-design/project/6.824/porcupine/visualization.go" />
+      <jump line="123" column="0" filename="$USER_HOME$/Documents/projects/systems-design/project/6.824/porcupine/visualization.go" />
+      <jump line="113" column="0" filename="$USER_HOME$/Documents/projects/systems-design/project/6.824/porcupine/visualization.go" />
+      <jump line="103" column="0" filename="$USER_HOME$/Documents/projects/systems-design/project/6.824/porcupine/visualization.go" />
+      <jump line="94" column="0" filename="$USER_HOME$/Documents/projects/systems-design/project/6.824/porcupine/visualization.go" />
+      <jump line="87" column="0" filename="$USER_HOME$/Documents/projects/systems-design/project/6.824/porcupine/visualization.go" />
+      <jump line="31" column="0" filename="$USER_HOME$/Documents/projects/systems-design/project/6.824/porcupine/visualization.go" />
+      <jump line="29" column="0" filename="$USER_HOME$/Documents/projects/systems-design/project/6.824/porcupine/visualization.go" />
+      <jump line="23" column="0" filename="$USER_HOME$/Documents/projects/systems-design/project/6.824/porcupine/visualization.go" />
+      <jump line="21" column="0" filename="$USER_HOME$/Documents/projects/systems-design/project/6.824/porcupine/visualization.go" />
+      <jump line="16" column="0" filename="$USER_HOME$/Documents/projects/systems-design/project/6.824/porcupine/visualization.go" />
+      <jump line="9" column="0" filename="$USER_HOME$/Documents/projects/systems-design/project/6.824/porcupine/visualization.go" />
+      <jump line="1" column="0" filename="$USER_HOME$/Documents/projects/systems-design/project/6.824/porcupine/visualization.go" />
+      <jump line="0" column="0" filename="$USER_HOME$/Documents/projects/systems-design/project/6.824/porcupine/visualization.go" />
+      <jump line="68" column="16" filename="$USER_HOME$/Documents/projects/systems-design/project/6.824/porcupine/visualization.go" />
+      <jump line="47" column="12" filename="$USER_HOME$/Documents/projects/systems-design/project/6.824/porcupine/checker.go" />
+      <jump line="55" column="0" filename="$USER_HOME$/Documents/projects/systems-design/project/6.824/porcupine/checker.go" />
+      <jump line="63" column="0" filename="$USER_HOME$/Documents/projects/systems-design/project/6.824/porcupine/checker.go" />
+      <jump line="76" column="0" filename="$USER_HOME$/Documents/projects/systems-design/project/6.824/porcupine/checker.go" />
+      <jump line="85" column="0" filename="$USER_HOME$/Documents/projects/systems-design/project/6.824/porcupine/checker.go" />
+      <jump line="101" column="0" filename="$USER_HOME$/Documents/projects/systems-design/project/6.824/porcupine/checker.go" />
+      <jump line="114" column="0" filename="$USER_HOME$/Documents/projects/systems-design/project/6.824/porcupine/checker.go" />
+      <jump line="133" column="0" filename="$USER_HOME$/Documents/projects/systems-design/project/6.824/porcupine/checker.go" />
+      <jump line="138" column="0" filename="$USER_HOME$/Documents/projects/systems-design/project/6.824/porcupine/checker.go" />
+      <jump line="147" column="0" filename="$USER_HOME$/Documents/projects/systems-design/project/6.824/porcupine/checker.go" />
+      <jump line="152" column="0" filename="$USER_HOME$/Documents/projects/systems-design/project/6.824/porcupine/checker.go" />
+      <jump line="249" column="5" filename="$USER_HOME$/Documents/projects/systems-design/project/6.824/porcupine/checker.go" />
+      <jump line="209" column="31" filename="$USER_HOME$/Documents/projects/systems-design/project/6.824/porcupine/checker.go" />
+      <jump line="15" column="0" filename="$USER_HOME$/Documents/projects/algorithms/leetcode/1207.go" />
+      <jump line="3" column="0" filename="$USER_HOME$/Documents/projects/algorithms/leetcode/1207.go" />
+      <jump line="9" column="0" filename="$USER_HOME$/Documents/projects/algorithms/leetcode/1207.go" />
+      <jump line="14" column="0" filename="$USER_HOME$/Documents/projects/algorithms/leetcode/1207.go" />
+      <jump line="20" column="0" filename="$USER_HOME$/Documents/projects/algorithms/concurrency/goroutines.go" />
+      <jump line="22" column="0" filename="$USER_HOME$/Documents/projects/algorithms/concurrency/goroutines.go" />
+      <jump line="11" column="0" filename="$USER_HOME$/Documents/projects/algorithms/concurrency/goroutines.go" />
+      <jump line="32" column="0" filename="$USER_HOME$/Documents/projects/algorithms/leetcode/0876.go" />
+      <jump line="8" column="0" filename="$USER_HOME$/Documents/projects/algorithms/leetcode/0876.go" />
+      <jump line="45" column="0" filename="$USER_HOME$/Documents/projects/algorithms/leetcode/0876.go" />
+      <jump line="47" column="0" filename="$USER_HOME$/Documents/projects/algorithms/leetcode/0876.go" />
+      <jump line="50" column="0" filename="$USER_HOME$/Documents/projects/algorithms/leetcode/0876.go" />
+      <jump line="9" column="0" filename="$USER_HOME$/Documents/projects/algorithms/leetcode/0876.go" />
+      <jump line="11" column="0" filename="$USER_HOME$/Documents/projects/algorithms/leetcode/0876.go" />
+      <jump line="35" column="0" filename="$USER_HOME$/Documents/projects/algorithms/leetcode/0876.go" />
+      <jump line="51" column="13" filename="$USER_HOME$/Documents/projects/algorithms/leetcode/0876.go" />
+      <jump line="36" column="0" filename="$USER_HOME$/Documents/projects/algorithms/leetcode/0876.go" />
+      <jump line="33" column="0" filename="$USER_HOME$/Documents/projects/algorithms/leetcode/0876.go" />
+      <jump line="27" column="0" filename="$USER_HOME$/Documents/projects/algorithms/leetcode/0876.go" />
+      <jump line="24" column="0" filename="$USER_HOME$/Documents/projects/algorithms/leetcode/0876.go" />
+      <jump line="19" column="0" filename="$USER_HOME$/Documents/projects/algorithms/leetcode/0876.go" />
+      <jump line="17" column="0" filename="$USER_HOME$/Documents/projects/algorithms/leetcode/0876.go" />
+      <jump line="13" column="0" filename="$USER_HOME$/Documents/projects/algorithms/leetcode/1356.go" />
+      <jump line="23" column="17" filename="$USER_HOME$/Documents/projects/algorithms/leetcode/1356.go" />
+      <jump line="20" column="0" filename="$USER_HOME$/Documents/projects/algorithms/leetcode/1356.go" />
+      <jump line="24" column="0" filename="$USER_HOME$/Documents/projects/algorithms/leetcode/1356.go" />
+      <jump line="27" column="0" filename="$USER_HOME$/Documents/projects/algorithms/leetcode/1356.go" />
+      <jump line="36" column="0" filename="$USER_HOME$/Documents/projects/algorithms/leetcode/1356.go" />
+      <jump line="11" column="0" filename="$USER_HOME$/Documents/projects/algorithms/leetcode/1356.go" />
+      <jump line="0" column="0" filename="$USER_HOME$/Documents/projects/algorithms/leetcode/1356.go" />
+      <jump line="15" column="0" filename="$USER_HOME$/Documents/projects/algorithms/leetcode/1356.go" />
+      <jump line="22" column="0" filename="$USER_HOME$/Documents/projects/algorithms/leetcode/1356.go" />
+      <jump line="26" column="0" filename="$USER_HOME$/Documents/projects/algorithms/leetcode/1356.go" />
+      <jump line="29" column="0" filename="$USER_HOME$/Documents/projects/algorithms/leetcode/1356.go" />
+      <jump line="32" column="0" filename="$USER_HOME$/Documents/projects/algorithms/leetcode/1356.go" />
+      <jump line="39" column="0" filename="$USER_HOME$/Documents/projects/algorithms/leetcode/1356.go" />
+      <jump line="42" column="0" filename="$USER_HOME$/Documents/projects/algorithms/leetcode/1356.go" />
+      <jump line="48" column="0" filename="$USER_HOME$/Documents/projects/algorithms/leetcode/1356.go" />
+      <jump line="8" column="0" filename="$USER_HOME$/Documents/projects/algorithms/leetcode/1356.go" />
+      <jump line="12" column="0" filename="$USER_HOME$/Documents/projects/algorithms/leetcode/1356.go" />
+      <jump line="16" column="0" filename="$USER_HOME$/Documents/projects/algorithms/leetcode/1356.go" />
+      <jump line="14" column="8" filename="$USER_HOME$/Documents/projects/algorithms/leetcode/1356.go" />
+      <jump line="1" column="0" filename="$USER_HOME$/Documents/projects/algorithms/leetcode/1356.go" />
+      <jump line="6" column="0" filename="$USER_HOME$/Documents/projects/algorithms/leetcode/1356.go" />
+      <jump line="18" column="0" filename="$USER_HOME$/Documents/projects/algorithms/leetcode/1356.go" />
+      <jump line="25" column="0" filename="$USER_HOME$/Documents/projects/algorithms/leetcode/1356.go" />
+      <jump line="13" column="41" filename="$USER_HOME$/Documents/projects/algorithms/leetcode/1078.go" />
+      <jump line="12" column="17" filename="$USER_HOME$/Documents/projects/algorithms/leetcode/1078.go" />
+      <jump line="1" column="0" filename="$USER_HOME$/Documents/projects/algorithms/leetcode/1078.go" />
+      <jump line="6" column="0" filename="$USER_HOME$/Documents/projects/algorithms/leetcode/1078.go" />
+      <jump line="10" column="0" filename="$USER_HOME$/Documents/projects/algorithms/leetcode/1078.go" />
+      <jump line="20" column="0" filename="$USER_HOME$/Documents/projects/algorithms/leetcode/1078.go" />
+    </jumps>
+  </component>
+  <component name="VimRegisterSettings">
+    <registers>
+      <register name="&quot;" type="4">
+        <text encoding="base64">CmZ1bmMgZmluZE9jdXJyZW5jZXModGV4dCBzdHJpbmcsIGZpcnN0IHN0cmluZywgc2Vjb25kIHN0cmluZykgW11zdHJpbmcgewoJd29yZHMgOj0gc3RyaW5ncy5TcGxpdCh0ZXh0LCAiICIpCglyZXMgOj0gW11zdHJpbmd7fQoKCWlmIGxlbih3b3JkcykgPCAzIHsKCQlyZXR1cm4gcmVzCgl9CgkKCWZvciBpIDo9IDA7IGkgPCBsZW4od29yZHMpIC0gMjsgaSsrIHsKCQlpZiB3b3Jkc1tpXSA9PSBmaXJzdCAmJiB3b3Jkc1tpICsgMV0gPT0gc2Vjb25kIHsKCQkJcmVzID0gYXBwZW5kKHJlcywgd29yZHNbaSArIDJdKQoJCX0KCX0KCglyZXR1cm4gcmVzCn0K</text>
+      </register>
+      <register name="+" type="4">
+        <text encoding="base64">CmZ1bmMgZmluZE9jdXJyZW5jZXModGV4dCBzdHJpbmcsIGZpcnN0IHN0cmluZywgc2Vjb25kIHN0cmluZykgW11zdHJpbmcgewoJd29yZHMgOj0gc3RyaW5ncy5TcGxpdCh0ZXh0LCAiICIpCglyZXMgOj0gW11zdHJpbmd7fQoKCWlmIGxlbih3b3JkcykgPCAzIHsKCQlyZXR1cm4gcmVzCgl9CgkKCWZvciBpIDo9IDA7IGkgPCBsZW4od29yZHMpIC0gMjsgaSsrIHsKCQlpZiB3b3Jkc1tpXSA9PSBmaXJzdCAmJiB3b3Jkc1tpICsgMV0gPT0gc2Vjb25kIHsKCQkJcmVzID0gYXBwZW5kKHJlcywgd29yZHNbaSArIDJdKQoJCX0KCX0KCglyZXR1cm4gcmVzCn0K</text>
+      </register>
+      <register name="-" type="4">
+        <text>)</text>
+      </register>
+      <register name="/" type="4">
+        <text>fakeSearch</text>
+      </register>
+      <register name="0" type="4">
+        <text encoding="base64">CmZ1bmMgZmluZE9jdXJyZW5jZXModGV4dCBzdHJpbmcsIGZpcnN0IHN0cmluZywgc2Vjb25kIHN0cmluZykgW11zdHJpbmcgewoJd29yZHMgOj0gc3RyaW5ncy5TcGxpdCh0ZXh0LCAiICIpCglyZXMgOj0gW11zdHJpbmd7fQoKCWlmIGxlbih3b3JkcykgPCAzIHsKCQlyZXR1cm4gcmVzCgl9CgkKCWZvciBpIDo9IDA7IGkgPCBsZW4od29yZHMpIC0gMjsgaSsrIHsKCQlpZiB3b3Jkc1tpXSA9PSBmaXJzdCAmJiB3b3Jkc1tpICsgMV0gPT0gc2Vjb25kIHsKCQkJcmVzID0gYXBwZW5kKHJlcywgd29yZHNbaSArIDJdKQoJCX0KCX0KCglyZXR1cm4gcmVzCn0K</text>
+      </register>
+      <register name="1" type="2">
+        <text encoding="base64">CQlmbXQuUHJpbnRsbih3b3Jkc1tpXSkK</text>
+      </register>
+      <register name="2" type="2">
+        <text encoding="base64">CX0K</text>
+      </register>
+      <register name="3" type="2">
+        <text encoding="base64">CQkK</text>
+      </register>
+      <register name="4" type="2">
+        <text encoding="base64">CWZvciBfLCB3b3JkIDo9IHJhbmdlIHdvcmRzIHsK</text>
+      </register>
+      <register name="5" type="2">
+        <text encoding="base64">CWZtdC5QcmludGxuKCItPiIsIGxlbih3b3JkcykpCg==</text>
+      </register>
+      <register name="6" type="2">
+        <text encoding="base64">CWZtdC5QcmludGxuKGZpbmRPY3VycmVuY2VzKCJhbGljZSBpcyBhIGdvb2QgZ2lybCBzaGUgaXMgYSBnb29kIHN0dWRlbnQiLCAiYSIsICJnb29kIikpCg==</text>
+      </register>
+      <register name="7" type="2">
+        <text encoding="base64">CXNvcnQuU29ydChCaW5hcnlOcihhcnIpKQo=</text>
+      </register>
+      <register name="8" type="2">
+        <text encoding="base64">CnR5cGUgQmluYXJ5TnIgW11pbnQKCmZ1bmMgKGIgQmluYXJ5TnIpIExlbigpIGludCB7CglyZXR1cm4gbGVuKGIpCn0KCmZ1bmMgKGIgQmluYXJ5TnIpIExlc3MoaSwgaiBpbnQpIGJvb2wgewoJcmV0dXJuIGNvdW50Qml0cyhiW2ldKSA8IGNvdW50Qml0cyhiW2pdKSAmJiBiW2ldID4gYltqXQp9CgpmdW5jIChiIEJpbmFyeU5yKSBTd2FwKGksIGogaW50KSB7CgliW2ldLCBiW2pdID0gYltqXSwgYltpXQp9Cgo=</text>
+      </register>
+      <register name="9" type="2">
+        <text encoding="base64">CX0K</text>
+      </register>
+      <register name=":" type="4">
+        <text>q</text>
+      </register>
+    </registers>
+  </component>
+  <component name="VimSearchSettings">
+    <search>
+      <last-search>fakeSearch</last-search>
+      <last-offset />
+      <last-pattern>fakeSearch</last-pattern>
+      <last-replace>ok</last-replace>
+      <last-substitute>ok != false</last-substitute>
+      <last-dir>1</last-dir>
+      <show-last>false</show-last>
+    </search>
+  </component>
+</application>

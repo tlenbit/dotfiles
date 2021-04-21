@@ -1,0 +1,330 @@
+<project version="4">
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="-1" />
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>invert</find>
+      <find>radi</find>
+      <find>radix</find>
+      <find>tree</find>
+      <find>csearchindex</find>
+      <find>go test</find>
+      <find>clossing</find>
+      <find>(?m)</find>
+      <find>f, err := os.Create(*cpuProfile)</find>
+      <find>trie</find>
+      <find>grep(</find>
+    </findStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$/cmd</dir>
+    </dirStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <changedPaths>
+      <option value="$PROJECT_DIR$/regexp/copy.go" />
+      <option value="$PROJECT_DIR$/cmd/cindex/cindex.go" />
+      <option value="$PROJECT_DIR$/index/write.go" />
+      <option value="$PROJECT_DIR$/regexp/match.go" />
+    </changedPaths>
+  </component>
+  <component name="ProjectFrameBounds" x="40" y="23" width="1840" height="1017" />
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" />
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="codesearch" type="b2602c69:ProjectViewProjectNode" />
+              <item name="codesearch" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="codesearch" type="b2602c69:ProjectViewProjectNode" />
+              <item name="codesearch" type="462c0819:PsiDirectoryNode" />
+              <item name="cmd" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="codesearch" type="b2602c69:ProjectViewProjectNode" />
+              <item name="codesearch" type="462c0819:PsiDirectoryNode" />
+              <item name="cmd" type="462c0819:PsiDirectoryNode" />
+              <item name="cindex" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="codesearch" type="b2602c69:ProjectViewProjectNode" />
+              <item name="codesearch" type="462c0819:PsiDirectoryNode" />
+              <item name="cmd" type="462c0819:PsiDirectoryNode" />
+              <item name="csearch" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="codesearch" type="b2602c69:ProjectViewProjectNode" />
+              <item name="codesearch" type="462c0819:PsiDirectoryNode" />
+              <item name="index" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="codesearch" type="b2602c69:ProjectViewProjectNode" />
+              <item name="codesearch" type="462c0819:PsiDirectoryNode" />
+              <item name="regexp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="codesearch" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="ToolWindowManager">
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.68036073" visible="true" weight="0.11697497" />
+      <window_info id="Structure" order="1" sideWeight="0.31963927" side_tool="true" visible="true" weight="0.11697497" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info id="Commit" order="3" />
+      <window_info id="Pull Requests" order="4" />
+      <window_info id="Learn" order="5" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3296593" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3296593" />
+      <window_info anchor="bottom" id="Event Log" order="3" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="4" weight="0.4" />
+      <window_info anchor="bottom" id="Problems View" order="5" />
+      <window_info anchor="bottom" id="File Transfer" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
+      <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="TypeScript" order="12" />
+      <window_info anchor="bottom" id="Flow" order="13" />
+      <window_info anchor="bottom" id="Internal Method Tracing" order="14" />
+      <window_info anchor="bottom" id="Services" order="15" show_stripe_button="false" />
+      <window_info anchor="bottom" id="TODO" order="16" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="right" id="make" order="4" side_tool="true" />
+    </layout>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="440" y="317" width="473" height="382" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1605257653163">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="440" y="317" width="473" height="382" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1080@0.0.1920.1080" timestamp="1605257653163" />
+    <state x="588" y="101" width="429" height="486" key="#com.intellij.tools.ToolEditorDialog" timestamp="1610545428195">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="588" y="101" width="429" height="486" key="#com.intellij.tools.ToolEditorDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1610545428195" />
+    <state x="578" y="243" width="426" height="473" key="FileChooserDialogImpl" timestamp="1610552337156">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="578" y="243" width="426" height="473" key="FileChooserDialogImpl/0.0.1920.1080@0.0.1920.1080" timestamp="1610552337156" />
+    <state width="1838" height="301" key="GridCell.Tab.0.bottom" timestamp="1610552338137">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1838" height="301" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1610552338137" />
+    <state width="1838" height="301" key="GridCell.Tab.0.center" timestamp="1610552338131">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1838" height="301" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1610552338131" />
+    <state width="1838" height="301" key="GridCell.Tab.0.left" timestamp="1610552338126">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1838" height="301" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1610552338126" />
+    <state width="1838" height="301" key="GridCell.Tab.0.right" timestamp="1610552338133">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1838" height="301" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1610552338133" />
+    <state x="331" y="75" key="SettingsEditor" timestamp="1610546182129">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="331" y="75" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1610546182129" />
+    <state x="688" y="271" width="540" height="524" key="StructurePopup" timestamp="1610549996051">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="688" y="271" width="540" height="524" key="StructurePopup/0.0.1920.1080@0.0.1920.1080" timestamp="1610549996051" />
+    <state x="677" y="275" width="566" height="512" key="find.popup" timestamp="1605259654849">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="677" y="275" width="566" height="512" key="find.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1605259654849" />
+    <state x="345" y="246" width="672" height="678" key="search.everywhere.popup" timestamp="1610546158866">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="345" y="246" width="672" height="678" key="search.everywhere.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1610546158866" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/lib/version">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/buildall">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="403">
+          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/README.template">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/setup">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/uploadall">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sparse/set.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="38" column="15" selection-start-line="38" selection-start-column="15" selection-end-line="38" selection-end-column="15" />
+          <folding>
+            <element signature="e#1198#1211#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index/mmap_bsd.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="429">
+          <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index/mmap_windows.go">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index/mmap_linux.go">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cmd/cgrep/cgrep.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="556">
+          <caret line="48" column="40" selection-start-line="48" selection-start-column="8" selection-end-line="48" selection-end-column="40" />
+          <folding>
+            <element signature="e#175#270#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index/write_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="529">
+          <caret line="151" column="41" lean-forward="true" selection-start-line="151" selection-start-column="41" selection-end-line="151" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index/merge_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-108">
+          <caret line="23" column="36" lean-forward="true" selection-start-line="23" selection-start-column="36" selection-end-line="23" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/go.mod">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/flow/node.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="356" column="24" selection-start-line="356" selection-start-column="24" selection-end-line="356" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index/merge.go">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/regexp/copy.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1719" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index/write.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="332">
+          <caret line="195" column="23" selection-start-line="195" selection-start-column="23" selection-end-line="195" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/lib/go/src/regexp/syntax/compile.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="219" column="5" selection-start-line="219" selection-start-column="5" selection-end-line="219" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/regexp/regexp.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="658">
+          <caret line="55" lean-forward="true" selection-start-line="55" selection-end-line="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cmd/csearch/csearch.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="815">
+          <caret line="143" column="13" lean-forward="true" selection-start-line="143" selection-start-column="13" selection-end-line="143" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cmd/cindex/cindex.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1092">
+          <caret line="149" column="8" selection-start-line="149" selection-start-column="8" selection-end-line="149" selection-end-column="8" />
+          <folding>
+            <element signature="e#175#294#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/regexp/match.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index/read.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="773">
+          <caret line="430" column="5" selection-start-line="430" selection-start-column="5" selection-end-line="430" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

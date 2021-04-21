@@ -1,0 +1,718 @@
+b'asd' + b'asd'
+-. . -..- - / . -. - .-. -.--
+s.send(b'G')
+-. . -..- - / . -. - .-. -.--
+s.send(b'G\r\n')
+-. . -..- - / . -. - .-. -.--
+s.recv(10)
+-. . -..- - / . -. - .-. -.--
+b'hello'.decode() + "asd"
+-. . -..- - / . -. - .-. -.--
+b'hello'.decode() + b"asd"
+-. . -..- - / . -. - .-. -.--
+b = b'he\r\nContent-Length: 5\r\nContent-Type: '
+-. . -..- - / . -. - .-. -.--
+bc = b.decode()
+-. . -..- - / . -. - .-. -.--
+bc
+-. . -..- - / . -. - .-. -.--
+re.search('Content-Length:\s*(\d+)\s', bc.decode())
+-. . -..- - / . -. - .-. -.--
+re.search('Content-Length:\s*(\d+)\s', b.decode(), re.S )
+-. . -..- - / . -. - .-. -.--
+re.S
+-. . -..- - / . -. - .-. -.--
+re.I
+-. . -..- - / . -. - .-. -.--
+re.I + re.I
+-. . -..- - / . -. - .-. -.--
+type(re.I)
+-. . -..- - / . -. - .-. -.--
+b
+-. . -..- - / . -. - .-. -.--
+re.search('Content-Length:\s*(\d+)\s', b.decode(), re.S + re.I).group(2)
+-. . -..- - / . -. - .-. -.--
+re.search('Content-Length:\s*(\d+)\s', b.decode(), re.S + re.I).group(0)
+-. . -..- - / . -. - .-. -.--
+re.search('Content-Length:\s*(\d+)\s', b.decode(), re.S + re.I).group(1)
+-. . -..- - / . -. - .-. -.--
+int('5')
+-. . -..- - / . -. - .-. -.--
+int('5') + 1
+-. . -..- - / . -. - .-. -.--
+b'ad'.decode()
+-. . -..- - / . -. - .-. -.--
+re.search('Codntent-Length:\s*(\d+)\s', b.decode(), re.S + re.I).group(1)
+-. . -..- - / . -. - .-. -.--
+re.search('Codntent-Length:\s*(\d+)\s', b.decode(), re.S + re.I)
+-. . -..- - / . -. - .-. -.--
+re.search('Content-Length:\s*(\d+)\s', b.decode(), re.S + re.I)
+-. . -..- - / . -. - .-. -.--
+m = "ngth: 5\r\nContent-Type: application/ocsp-response\r\n\r\n0\"
+-. . -..- - / . -. - .-. -.--
+m = """ngth: 5\r\nContent-Type: application/ocsp-response\r\n\r\n0\"""
+-. . -..- - / . -. - .-. -.--
+""
+-. . -..- - / . -. - .-. -.--
+""
+"""""""
+-. . -..- - / . -. - .-. -.--
+das
+-. . -..- - / . -. - .-. -.--
+;
+-. . -..- - / . -. - .-. -.--
+daowd
+-. . -..- - / . -. - .-. -.--
+import re
+-. . -..- - / . -. - .-. -.--
+m = b'ngth: 5\r\nContent-Type: application/ocsp-response\r\n\r\n0\'
+-. . -..- - / . -. - .-. -.--
+m = b'ngth: 5\r\nContent-Type: application/ocsp-response\r\n\r\n0\n'
+-. . -..- - / . -. - .-. -.--
+re.search('content-type:\s*(\w+)\s', m.decode(), re.S + re.I)
+-. . -..- - / . -. - .-. -.--
+re.search('content-type:\s*application/ocsp-response\s', m.decode(), re.S + re.I)
+-. . -..- - / . -. - .-. -.--
+re.search('content-type:\s*application/ocsp-response\s', m.decode(), re.S + re.I).group(0)
+-. . -..- - / . -. - .-. -.--
+re.search('content-type:\s*application/ocsp-response\s', m.decode(), re.S + re.I).group(1)
+-. . -..- - / . -. - .-. -.--
+d ? re.search('content-type:\s*application/ocsp-response\s', m.decode(), re.S + re.I)
+-. . -..- - / . -. - .-. -.--
+d = re.search('content-type:\s*application/ocsp-response\s', m.decode(), re.S + re.I)
+-. . -..- - / . -. - .-. -.--
+b'hello'.decode()
+-. . -..- - / . -. - .-. -.--
+"HTTP/1.1 200 OK\r\nContent-Type: application/x-x509-ca-cert\r\nContent-Length: 1371\r\nConnection: close\r\nx-amz-replication-status: COMPLETED\r\nLast-Modified: Mon, 29 Apr 2019 10:13:28 GMT\r\nx-amz-server-side-encryption: AES256\r\nx-amz-version-id: I_G6dl5i83nFSo7juwA397KQndfYxqB4\r\nAccept-Ranges: bytes\r\nServer: AmazonS3\r\nDate: Mon, 30 Mar 2020 18:36:30 GMT\r\nETag: "c62800d1c284141945106624a233cce6"\r\nX-Cache: Hit from cloudfront\r\nVia: 1.1 a363bcf8a299e9ee68092f31207f8870.cloudfront.net (CloudFront)\r\nX-Amz-Cf-Pop: ARN1-C1\r\nX-Amz-Cf-Id: GVcHkWNQA2ifm37v3Q5lwRkqq992MKQLKucWssEI10sNLRJGJxfgLA==\r\nAge: 719\r\n\r\n"
+-. . -..- - / . -. - .-. -.--
+b'HTTP/1.1 200 OK\r\nContent-Type: application/x-x509-ca-cert\r\nContent-Length: 1371\r\nConnection: close\r\nx-amz-replication-status: COMPLETED\r\nLast-Modified: Mon, 29 Apr 2019 10:13:28 GMT\r\nx-amz-server-side-encryption: AES256\r\nx-amz-version-id: I_G6dl5i83nFSo7juwA397KQndfYxqB4\r\nAccept-Ranges: bytes\r\nServer: AmazonS3\r\nDate: Mon, 30 Mar 2020 18:36:30 GMT\r\nETag: "c62800d1c284141945106624a233cce6"\r\nX-Cache: Hit from cloudfront\r\nVia: 1.1 a363bcf8a299e9ee68092f31207f8870.cloudfront.net (CloudFront)\r\nX-Amz-Cf-Pop: ARN1-C1\r\nX-Amz-Cf-Id: GVcHkWNQA2ifm37v3Q5lwRkqq992MKQLKucWssEI10sNLRJGJxfgLA==\r\nAge: 719\r\n\r\n'
+-. . -..- - / . -. - .-. -.--
+len(b'HTTP/1.1 200 OK\r\nContent-Type: application/x-x509-ca-cert\r\nContent-Length: 1371\r\nConnection: close\r\nx-amz-replication-status: COMPLETED\r\nLast-Modified: Mon, 29 Apr 2019 10:13:28 GMT\r\nx-amz-server-side-encryption: AES256\r\nx-amz-version-id: I_G6dl5i83nFSo7juwA397KQndfYxqB4\r\nAccept-Ranges: bytes\r\nServer: AmazonS3\r\nDate: Mon, 30 Mar 2020 18:36:30 GMT\r\nETag: "c62800d1c284141945106624a233cce6"\r\nX-Cache: Hit from cloudfront\r\nVia: 1.1 a363bcf8a299e9ee68092f31207f8870.cloudfront.net (CloudFront)\r\nX-Amz-Cf-Pop: ARN1-C1\r\nX-Amz-Cf-Id: GVcHkWNQA2ifm37v3Q5lwRkqq992MKQLKucWssEI10sNLRJGJxfgLA==\r\nAge: 719\r\n\r\n')
+-. . -..- - / . -. - .-. -.--
+len(b'HTTP/1.1 200 OK\r\nContent-Type: application/x-x509-ca-cert\r\nContent-Length: 1371\r\nConnection: keep-alive\r\nx-amz-replication-status: COMPLETED\r\nLast-Modified: Mon, 29 Apr 2019 10:13:28 GMT\r\nx-amz-server-side-encryption: AES256\r\nx-amz-version-id: I_G6dl5i83nFSo7juwA397KQndfYxqB4\r\nAccept-Ranges: bytes\r\nServer: AmazonS3\r\nDate: Mon, 30 Mar 2020 19:46:41 GMT\r\nETag: "c62800d1c284141945106624a233cce6"\r\nX-Cache: Hit from cloudfront\r\nVia: 1.1 fb13343f41a549822047f18ba839fd5a.cloudfront.net (CloudFront)\r\nX-Amz-Cf-Pop: ARN1-C1\r\nX-Amz-Cf-Id: iR50Q5VNiWb4B46xBSJxp6J2BvJV2q_rU6Q0TMogAgVrMduQRVD2dA==\r\nAge: 70\r\n\r\n')
+-. . -..- - / . -. - .-. -.--
+len(b'HTTP/1.1 200 OK\r\nContent-Type: application/x-x509-ca-cert\r\nContent-Length: 1371\r\nConnection: close\r\nx-amz-replication-status: COMPLETED\r\nLast-Modified: Mon, 29 Apr 2019 10:13:28 GMT\r\nx-amz-server-side-encryption: AES256\r\nx-amz-version-id: I_G6dl5i83nFSo7juwA397KQndfYxqB4\r\nAccept-Ranges: bytes\r\nServer: AmazonS3\r\nDate: Mon, 30 Mar 2020 19:46:41 GMT\r\nETag: "c62800d1c284141945106624a233cce6"\r\nX-Cache: Hit from cloudfront\r\nVia: 1.1 05c02ade53b3395a9e9f2e8f66c7e4d1.cloudfront.net (CloudFront)\r\nX-Amz-Cf-Pop: ARN1-C1\r\nX-Amz-Cf-Id: xpS3-Pv7PWCFP5Es25LbslIKI3ehaGK-8nOUv7wk14syA5omPyszsQ==\r\nAge: 355\r\n\r\n')
+-. . -..- - / . -. - .-. -.--
+import hashlib
+-. . -..- - / . -. - .-. -.--
+hashlib.sha1("hello")
+-. . -..- - / . -. - .-. -.--
+hashlib.sha1(b"hello")
+-. . -..- - / . -. - .-. -.--
+hashlib.sha1(b"hello").digest()
+-. . -..- - / . -. - .-. -.--
+from ecdsa import SigningKey
+-. . -..- - / . -. - .-. -.--
+sk = SigningKey.generate()
+-. . -..- - / . -. - .-. -.--
+signature = sk.sign(b"message")
+-. . -..- - / . -. - .-. -.--
+assert vk.verify(signature, b"message")
+-. . -..- - / . -. - .-. -.--
+sk = SigningKey.generate(curve=NIST384p)
+-. . -..- - / . -. - .-. -.--
+vk = sk.verifying_key
+-. . -..- - / . -. - .-. -.--
+!clear
+-. . -..- - / . -. - .-. -.--
+vk_string = vk.to_string()
+-. . -..- - / . -. - .-. -.--
+vk2 = VerifyingKey.from_string(vk_string, curve=NIST384p)
+-. . -..- - / . -. - .-. -.--
+html_doc = """
+<html><head><title>The Dormouse's story</title></head>
+<body>
+<p class="title"><b>The Dormouse's story</b></p>
+
+<p class="story">Once upon a time there were three little sisters; and their names were
+<a href="http://example.com/elsie" class="sister" id="link1">Elsie</a>,
+<a href="http://example.com/lacie" class="sister" id="link2">Lacie</a> and
+<a href="http://example.com/tillie" class="sister" id="link3">Tillie</a>;
+and they lived at the bottom of a well.</p>
+
+<p class="story">...</p>
+"""
+-. . -..- - / . -. - .-. -.--
+from bs4 import BeautifulSoup
+-. . -..- - / . -. - .-. -.--
+BeautifulSoup?
+-. . -..- - / . -. - .-. -.--
+soup = BeautifulSoup(html_doc, 'html.parser')
+-. . -..- - / . -. - .-. -.--
+soup.title
+-. . -..- - / . -. - .-. -.--
+soup.body.p
+-. . -..- - / . -. - .-. -.--
+soup.find_all('p')
+-. . -..- - / . -. - .-. -.--
+soup.find_all('p')[0]
+-. . -..- - / . -. - .-. -.--
+soup.find_all('p')[0].title
+-. . -..- - / . -. - .-. -.--
+soup.find_all('p')[0]['class']
+-. . -..- - / . -. - .-. -.--
+soup.find_all('p')[0]['class'][0]
+-. . -..- - / . -. - .-. -.--
+for link in soup.find_all('a'):
+    print(link.get("href"))
+    
+-. . -..- - / . -. - .-. -.--
+for link in soup.find_all('a'):
+    print(link["href"])
+    
+-. . -..- - / . -. - .-. -.--
+soup = BeautifulSoup("<html>data</html>")
+-. . -..- - / . -. - .-. -.--
+soup.get_text()
+-. . -..- - / . -. - .-. -.--
+soup.html
+-. . -..- - / . -. - .-. -.--
+soup.body
+-. . -..- - / . -. - .-. -.--
+soup.body.find_all("p")
+-. . -..- - / . -. - .-. -.--
+xml = """
+<?xml version="1.0" ?>
+<books>
+  <book>
+    <title>The Cat in the Hat</title>
+    <author>Dr. Seuss</author>
+    <price>6.99</price>
+  </book>
+  <book>
+    <title>Ender's Game</title>
+    <author>Orson Scott Card</author>
+    <price>8.99</price>
+  </book>
+  <book>
+    <title>Prey</title>
+    <author>Michael Crichton</author>
+    <price>9.35</price>
+  </book>
+</books>
+"""
+;
+-. . -..- - / . -. - .-. -.--
+soup = BeautifulSoup(xml,'xml')
+-. . -..- - / . -. - .-. -.--
+soup.book
+-. . -..- - / . -. - .-. -.--
+soup.find_all("book")
+-. . -..- - / . -. - .-. -.--
+soup.find_all("books")
+-. . -..- - / . -. - .-. -.--
+soup.books
+-. . -..- - / . -. - .-. -.--
+soup.find_all("title")
+-. . -..- - / . -. - .-. -.--
+for t in soup.find_all("title"):
+    print(i.get_text())
+    
+-. . -..- - / . -. - .-. -.--
+for t in soup.find_all("title"):
+    print(t.get_text())
+    
+-. . -..- - / . -. - .-. -.--
+print("Hello", "world")
+-. . -..- - / . -. - .-. -.--
+print("Hello", "world", end=" ")
+-. . -..- - / . -. - .-. -.--
+print("Hello", "world", end="x")
+-. . -..- - / . -. - .-. -.--
+print("Hello", "world", end="\n\n")
+-. . -..- - / . -. - .-. -.--
+print("Hello", "world", end="\x")
+-. . -..- - / . -. - .-. -.--
+print("Hello", "world", end="\x0")
+-. . -..- - / . -. - .-. -.--
+print("Hello", "world", end="\\")
+-. . -..- - / . -. - .-. -.--
+xml = """"""
+-. . -..- - / . -. - .-. -.--
+xml = """
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<root testAttr="testValue">
+The Tree
+<children>
+<child name="Jack">First</child>
+<child name="Rose">Second</child>
+<child name="Blue Ivy">
+Third
+<grandchildren>
+<data>One</data>
+<data>Two</data>
+<unique>Twins</unique>
+</grandchildren>
+</child>
+<child name="Jane">Fourth</child>
+</children>
+</root>
+""";
+
+-. . -..- - / . -. - .-. -.--
+soup = BeautifulSoup(xml, "xml")
+-. . -..- - / . -. - .-. -.--
+soup.root
+-. . -..- - / . -. - .-. -.--
+soup.find("mother")
+-. . -..- - / . -. - .-. -.--
+
+from pyasn1.codec.der.decoder import decode as der_decoder
+from pyasn1.codec.der.encoder import encode as der_encoder
+
+-. . -..- - / . -. - .-. -.--
+
+from pyasn1_modules import pem
+from pyasn1_modules import rfc2560
+
+-. . -..- - / . -. - .-. -.--
+    pem_text = """\
+MGowaDBBMD8wPTAJBgUrDgMCGgUABBS3ZrMV9C5Dko03aH13cEZeppg3wgQUkqR1LKSevoFE63n8
+isWVpesQdXMCBDXe9M+iIzAhMB8GCSsGAQUFBzABAgQSBBBjdJOiIW9EKJGELNNf/rdA
+"""
+-. . -..- - / . -. - .-. -.--
+pem.readBase64fromText?
+-. . -..- - / . -. - .-. -.--
+asn1Spec = rfc2560.OCSPRequest()
+-. . -..- - / . -. - .-. -.--
+der_encoder(asn1Object), substrate
+-. . -..- - / . -. - .-. -.--
+substrate
+-. . -..- - / . -. - .-. -.--
+pem_text = """\
+MIIEvQoBAKCCBLYwggSyBgkrBgEFBQcwAQEEggSjMIIEnzCCAQ+hgYAwfjELMAkGA1UEBhMCQVUx
+EzARBgNVBAgTClNvbWUtU3RhdGUxITAfBgNVBAoTGEludGVybmV0IFdpZGdpdHMgUHR5IEx0ZDEV
+MBMGA1UEAxMMc25tcGxhYnMuY29tMSAwHgYJKoZIhvcNAQkBFhFpbmZvQHNubXBsYWJzLmNvbRgP
+MjAxMjA0MTExNDA5MjJaMFQwUjA9MAkGBSsOAwIaBQAEFLdmsxX0LkOSjTdofXdwRl6mmDfCBBSS
+pHUspJ6+gUTrefyKxZWl6xB1cwIENd70z4IAGA8yMDEyMDQxMTE0MDkyMlqhIzAhMB8GCSsGAQUF
+BzABAgQSBBBjdJOiIW9EKJGELNNf/rdAMA0GCSqGSIb3DQEBBQUAA4GBADk7oRiCy4ew1u0N52QL
+RFpW+tdb0NfkV2Xyu+HChKiTThZPr9ZXalIgkJ1w3BAnzhbB0JX/zq7Pf8yEz/OrQ4GGH7HyD3Vg
+PkMu+J6I3A2An+bUQo99AmCbZ5/tSHtDYQMQt3iNbv1fk0yvDmh7UdKuXUNSyJdHeg27dMNy4k8A
+oIIC9TCCAvEwggLtMIICVqADAgECAgEBMA0GCSqGSIb3DQEBBQUAMH4xCzAJBgNVBAYTAkFVMRMw
+EQYDVQQIEwpTb21lLVN0YXRlMSEwHwYDVQQKExhJbnRlcm5ldCBXaWRnaXRzIFB0eSBMdGQxFTAT
+BgNVBAMTDHNubXBsYWJzLmNvbTEgMB4GCSqGSIb3DQEJARYRaW5mb0Bzbm1wbGFicy5jb20wHhcN
+MTIwNDExMTMyNTM1WhcNMTMwNDExMTMyNTM1WjB+MQswCQYDVQQGEwJBVTETMBEGA1UECBMKU29t
+ZS1TdGF0ZTEhMB8GA1UEChMYSW50ZXJuZXQgV2lkZ2l0cyBQdHkgTHRkMRUwEwYDVQQDEwxzbm1w
+bGFicy5jb20xIDAeBgkqhkiG9w0BCQEWEWluZm9Ac25tcGxhYnMuY29tMIGfMA0GCSqGSIb3DQEB
+AQUAA4GNADCBiQKBgQDDDU5HOnNV8I2CojxB8ilIWRHYQuaAjnjrETMOprouDHFXnwWqQo/I3m0b
+XYmocrh9kDefb+cgc7+eJKvAvBqrqXRnU38DmQU/zhypCftGGfP8xjuBZ1n23lR3hplN1yYA0J2X
+SgBaAg6e8OsKf1vcX8Es09rDo8mQpt4G2zR56wIDAQABo3sweTAJBgNVHRMEAjAAMCwGCWCGSAGG
++EIBDQQfFh1PcGVuU1NMIEdlbmVyYXRlZCBDZXJ0aWZpY2F0ZTAdBgNVHQ4EFgQU8Ys2dpJFLMHl
+yY57D4BNmlqnEcYwHwYDVR0jBBgwFoAU8Ys2dpJFLMHlyY57D4BNmlqnEcYwDQYJKoZIhvcNAQEF
+BQADgYEAWR0uFJVlQId6hVpUbgXFTpywtNitNXFiYYkRRv77McSJqLCa/c1wnuLmqcFcuRUK0oN6
+8ZJDP2HDDKe8MCZ8+sx+CF54eM8VCgN9uQ9XyE7x9XrXDd3Uw9RJVaWSIezkNKNeBE0lDM2jUjC4
+HAESdf7nebz1wtqAOXE1jWF/y8g=
+"""
+
+-. . -..- - / . -. - .-. -.--
+asn1Spec = rfc2560.OCSPResponse()
+
+-. . -..- - / . -. - .-. -.--
+substrate = pem.readBase64fromText(pem_text)
+-. . -..- - / . -. - .-. -.--
+asn1Object, rest = der_decoder(substrate, asn1Spec=asn1Spec)
+-. . -..- - / . -. - .-. -.--
+rest
+-. . -..- - / . -. - .-. -.--
+asn1Object.prettyPrint()
+-. . -..- - / . -. - .-. -.--
+substrate, der_encoder(asn1Object)
+-. . -..- - / . -. - .-. -.--
+!cd 08
+-. . -..- - / . -. - .-. -.--
+open("08/good.asice", "r").read()
+-. . -..- - / . -. - .-. -.--
+open("08/good.asice", "rb").read()
+-. . -..- - / . -. - .-. -.--
+len(soup.prettify())
+-. . -..- - / . -. - .-. -.--
+soup.find_all("xades")
+-. . -..- - / . -. - .-. -.--
+soup.xades
+-. . -..- - / . -. - .-. -.--
+file[10]
+-. . -..- - / . -. - .-. -.--
+file[09]
+-. . -..- - / . -. - .-. -.--
+file[9]
+-. . -..- - / . -. - .-. -.--
+file[11]
+-. . -..- - / . -. - .-. -.--
+file[5]
+-. . -..- - / . -. - .-. -.--
+file[:10]
+-. . -..- - / . -. - .-. -.--
+file[:12]
+-. . -..- - / . -. - .-. -.--
+file[:15]
+-. . -..- - / . -. - .-. -.--
+file[:15].decode()
+-. . -..- - / . -. - .-. -.--
+file[:10].decode()
+-. . -..- - / . -. - .-. -.--
+b"".decode()
+-. . -..- - / . -. - .-. -.--
+b"\x00".decode()
+-. . -..- - / . -. - .-. -.--
+b"helo world".decode()
+-. . -..- - / . -. - .-. -.--
+b"\x99".decode()
+-. . -..- - / . -. - .-. -.--
+b"\x9a".decode()
+-. . -..- - / . -. - .-. -.--
+b"\xaa".decode()
+-. . -..- - / . -. - .-. -.--
+file.encode
+-. . -..- - / . -. - .-. -.--
+file.decode(errors='replace')
+-. . -..- - / . -. - .-. -.--
+f = file.decode(errors='replace')
+-. . -..- - / . -. - .-. -.--
+soup = BeautifulSoup(f, "xml")
+-. . -..- - / . -. - .-. -.--
+ file
+-. . -..- - / . -. - .-. -.--
+xmldoc = BeautifulSoup(filetext, 'xml')
+-. . -..- - / . -. - .-. -.--
+xmldoc = BeautifulSoup(file, 'xml')
+-. . -..- - / . -. - .-. -.--
+xmldoc.find_all()
+-. . -..- - / . -. - .-. -.--
+xmldoc = BeautifulSoup(file, features='xml')
+-. . -..- - / . -. - .-. -.--
+xml[10:]
+-. . -..- - / . -. - .-. -.--
+xml[8:]
+-. . -..- - / . -. - .-. -.--
+xml[33:]
+-. . -..- - / . -. - .-. -.--
+xml[40:]
+-. . -..- - / . -. - .-. -.--
+xml[50:]
+-. . -..- - / . -. - .-. -.--
+xml
+-. . -..- - / . -. - .-. -.--
+file.decode("utf-8", "replace")
+-. . -..- - / . -. - .-. -.--
+!ls
+-. . -..- - / . -. - .-. -.--
+file = open("08/forgery1.asice", "rb").read()
+-. . -..- - / . -. - .-. -.--
+file.decode()
+-. . -..- - / . -. - .-. -.--
+0x9a
+-. . -..- - / . -. - .-. -.--
+file.decode("cp1252")
+-. . -..- - / . -. - .-. -.--
+BeautifulSoup.__version__
+-. . -..- - / . -. - .-. -.--
+soup = BeautifulSoup(file)
+-. . -..- - / . -. - .-. -.--
+file = open("08/good.asice", "rb").read()
+-. . -..- - / . -. - .-. -.--
+from bs4 import BeautifulSoup
+
+-. . -..- - / . -. - .-. -.--
+soup.find_all("ds")
+-. . -..- - / . -. - .-. -.--
+soup.find_all("d")
+-. . -..- - / . -. - .-. -.--
+soup.find_all("")
+-. . -..- - / . -. - .-. -.--
+soup.find_all("XAdESSignatures")
+-. . -..- - / . -. - .-. -.--
+soup = BeautifulSoup(file, "ñxml")
+-. . -..- - / . -. - .-. -.--
+soup = BeautifulSoup(file, "lxml")
+-. . -..- - / . -. - .-. -.--
+soup.decode()
+-. . -..- - / . -. - .-. -.--
+soup = BeautifulSoup(file, "lxml-xml")
+-. . -..- - / . -. - .-. -.--
+file
+-. . -..- - / . -. - .-. -.--
+soup.prettify()
+-. . -..- - / . -. - .-. -.--
+soup.asic
+-. . -..- - / . -. - .-. -.--
+soup.find_all("manifest")
+-. . -..- - / . -. - .-. -.--
+file = open("08/good.xml", "r").read()
+-. . -..- - / . -. - .-. -.--
+soup = BeautifulSoup(file, "xml")
+-. . -..- - / . -. - .-. -.--
+soup
+-. . -..- - / . -. - .-. -.--
+soup.contents
+-. . -..- - / . -. - .-. -.--
+soup.XAdESSignatures
+-. . -..- - / . -. - .-. -.--
+soup.XAdESSignatures.KeyInfo
+-. . -..- - / . -. - .-. -.--
+soup.XAdESSignatures.KeyInfo.X509Data
+-. . -..- - / . -. - .-. -.--
+soup.XAdESSignatures.KeyInfo.X509Data.X509Certificate
+-. . -..- - / . -. - .-. -.--
+soup.XAdESSignatures.KeyInfo.X509Data.X509Certificate.encode_contents()
+-. . -..- - / . -. - .-. -.--
+import zipfile
+-. . -..- - / . -. - .-. -.--
+archive = zipfile.ZipFile("08/good.asice", "r")
+-. . -..- - / . -. - .-. -.--
+archive.read()
+-. . -..- - / . -. - .-. -.--
+archive.read("hello.txthello")
+-. . -..- - / . -. - .-. -.--
+archive.read("META-INF/signatures0.xml")
+-. . -..- - / . -. - .-. -.--
+ac = zipfile.ZipFile("08/good.asice", "rb")
+-. . -..- - / . -. - .-. -.--
+ac = zipfile.ZipFile("08/good.asice", "r")
+-. . -..- - / . -. - .-. -.--
+ac.filelist
+-. . -..- - / . -. - .-. -.--
+ac.read("META-INF/signatures0.xml")
+-. . -..- - / . -. - .-. -.--
+zipfile.ZipFile("08/good.asice", "r").filelist
+-. . -..- - / . -. - .-. -.--
+zipfile.ZipFile("08/forgery1.asice", "r").filelist
+-. . -..- - / . -. - .-. -.--
+zipfile.ZipFile("08/forgery2.asice", "r").filelist
+-. . -..- - / . -. - .-. -.--
+zipfile.ZipFile("08/forgery3.asice", "r").filelist
+-. . -..- - / . -. - .-. -.--
+zipfile.ZipFile("08/forgery4.asice", "r").filelist
+-. . -..- - / . -. - .-. -.--
+zipfile.ZipFile("08/forgery5.asice", "r").filelist
+-. . -..- - / . -. - .-. -.--
+zipfile.ZipFile("08/forgery6.asice", "r").filelist
+-. . -..- - / . -. - .-. -.--
+zipfile.ZipFile("08/forgery7.asice", "r").filelist
+-. . -..- - / . -. - .-. -.--
+zipfile.ZipFile("08/forgery8.asice", "r").filelist
+-. . -..- - / . -. - .-. -.--
+    import M2Crypto
+
+-. . -..- - / . -. - .-. -.--
+M2Crypto
+-. . -..- - / . -. - .-. -.--
+Alice = M2Crypto.RSA.gen_key (1024, 65537)
+-. . -..- - / . -. - .-. -.--
+Alice
+-. . -..- - / . -. - .-. -.--
+Alice.save_key ('08/'Alice-private.pem', None)
+
+-. . -..- - / . -. - .-. -.--
+Alice.save_key('08/Alice-private.pem', None)
+-. . -..- - / . -. - .-. -.--
+Alice.save_pub_key ('08/Alice-public.pem')
+-. . -..- - / . -. - .-. -.--
+from M2Crypto import SMIME, X509
+
+-. . -..- - / . -. - .-. -.--
+s = SMIME.SMIME()
+-. . -..- - / . -. - .-. -.--
+s
+-. . -..- - / . -. - .-. -.--
+x509 = X509.load_cert('08/temp.pem')
+-. . -..- - / . -. - .-. -.--
+x509 = X509.load_cert('08/temp.der')
+-. . -..- - / . -. - .-. -.--
+x509 = X509.load_cert_der_string('08/temp.der')
+-. . -..- - / . -. - .-. -.--
+tmp = open("08/temp.der", "rb").read()
+-. . -..- - / . -. - .-. -.--
+rmp
+-. . -..- - / . -. - .-. -.--
+tmp
+-. . -..- - / . -. - .-. -.--
+x509 = X509.load_cert_der_string(tmp)
+-. . -..- - / . -. - .-. -.--
+x509.X509_Stack()
+-. . -..- - / . -. - .-. -.--
+x509
+-. . -..- - / . -. - .-. -.--
+st = X509.X509_Store()
+-. . -..- - / . -. - .-. -.--
+st
+-. . -..- - / . -. - .-. -.--
+x509.verify()
+-. . -..- - / . -. - .-. -.--
+x509.verify??
+-. . -..- - / . -. - .-. -.--
+cert = open("temp.der", "rb").read()
+-. . -..- - / . -. - .-. -.--
+cert = open("08/temp.der", "rb").read()
+-. . -..- - / . -. - .-. -.--
+cert
+-. . -..- - / . -. - .-. -.--
+import M2Crypto
+
+X509 = M2Crypto.X509.load_cert_der_string(cert)
+
+-. . -..- - / . -. - .-. -.--
+X509
+-. . -..- - / . -. - .-. -.--
+X509.get_pubkey()
+-. . -..- - / . -. - .-. -.--
+X509.get_pubkey().as_der()
+-. . -..- - / . -. - .-. -.--
+pubkey = X509.get_pubkey().as_der()
+-. . -..- - / . -. - .-. -.--
+pubkey
+-. . -..- - / . -. - .-. -.--
+from ecdsa import VerifyingKey
+
+-. . -..- - / . -. - .-. -.--
+vk = VerifyingKey.from_der(pubkey)
+-. . -..- - / . -. - .-. -.--
+vk.verify??
+-. . -..- - / . -. - .-. -.--
+from ecdsa import SigningKey, VerifyingKey, NIST384p
+-. . -..- - / . -. - .-. -.--
+sk = SigningKey.generate(curve=NIST384p)
+
+-. . -..- - / . -. - .-. -.--
+sk
+-. . -..- - / . -. - .-. -.--
+vk = sk.verifying_key
+
+-. . -..- - / . -. - .-. -.--
+vk
+-. . -..- - / . -. - .-. -.--
+vk_pem = vk.to_pem()
+
+-. . -..- - / . -. - .-. -.--
+vk_pem
+-. . -..- - / . -. - .-. -.--
+vk2 = VerifyingKey.from_pem(vk_pem)
+-. . -..- - / . -. - .-. -.--
+vk2
+-. . -..- - / . -. - .-. -.--
+vk.verify?
+-. . -..- - / . -. - .-. -.--
+archive = zipfile.ZipFile(filename, "r")
+
+-. . -..- - / . -. - .-. -.--
+archive = zipfile.ZipFile("08/good.asice", "r");
+-. . -..- - / . -. - .-. -.--
+signatures_xml = archive.read("META-INF/signatures0.xml")
+-. . -..- - / . -. - .-. -.--
+xmldoc = BeautifulSoup(signatures_xml, 'xml')
+-. . -..- - / . -. - .-. -.--
+xmldoc
+-. . -..- - / . -. - .-. -.--
+import codecs
+-. . -..- - / . -. - .-. -.--
+codecs.decode(xmldoc.XAdESSignatures.KeyInfo.X509Data.X509Certificate.encode_contents(), 'base64')
+-. . -..- - / . -. - .-. -.--
+xmldoc.XAdESSignatures.KeyInfo.X509Data.X509Certificate
+-. . -..- - / . -. - .-. -.--
+xmldoc.XAdESSignatures.KeyInfo.X509Data.X509Certificate.encode_contents()
+-. . -..- - / . -. - .-. -.--
+xmldoc.XAdESSignatures.SignatureValue
+-. . -..- - / . -. - .-. -.--
+codecs.decode?
+-. . -..- - / . -. - .-. -.--
+xmldoc.XAdESSignatures.SignatureValue.encode_contents()
+-. . -..- - / . -. - .-. -.--
+codecs.decode(xmldoc.XAdESSignatures.SignatureValue.encode_contents())
+-. . -..- - / . -. - .-. -.--
+codecs.decode(xmldoc.XAdESSignatures.SignatureValue.encode_contents(), 'base64')
+-. . -..- - / . -. - .-. -.--
+xmldoc.XAdESSignatures.Signatures.SignedInfo
+-. . -..- - / . -. - .-. -.--
+xmldoc.XAdESSignatures.SignedInfo
+-. . -..- - / . -. - .-. -.--
+xmldoc.XAdESSignatures.Signature.SignedInfo
+-. . -..- - / . -. - .-. -.--
+xmldoc.XAdESSignatures.Signature.SignedInfo.contents
+-. . -..- - / . -. - .-. -.--
+xmldoc.XAdESSignatures.Signature.SignedInfo.encode_contents()
+-. . -..- - / . -. - .-. -.--
+xmldoc.XAdESSignatures.Signature.Object.QualifyingProperties.UnsignedProperties.UnsignedSignatureProperties.SignatureTimeStamp.EncapsulatedTimeStamp
+-. . -..- - / . -. - .-. -.--
+xmldoc.XAdESSignatures.Signature.Object.QualifyingProperties.UnsignedProperties.UnsignedSignatureProperties.SignatureTimeStamp.EncapsulatedTimeStamp.encode_contents()[-1]
+-. . -..- - / . -. - .-. -.--
+xmldoc.XAdESSignatures.Signature.Object.QualifyingProperties.UnsignedProperties.UnsignedSignatureProperties.SignatureTimeStamp.EncapsulatedTimeStamp.encode_contents()
+-. . -..- - / . -. - .-. -.--
+aa = xmldoc.XAdESSignatures.Signature.Object.QualifyingProperties.UnsignedProperties.UnsignedSignatureProperties.SignatureTimeStamp.EncapsulatedTimeStamp.encode_contents()
+-. . -..- - / . -. - .-. -.--
+codecs.decode(aa, 'base64')
+-. . -..- - / . -. - .-. -.--
+signature_timestamp = codecs.decode(xmldoc.XAdESSignatures.Signature \
+                                    .Object.QualifyingProperties \
+                                    .UnsignedProperties \
+                                    .UnsignedSignatureProperties \
+                                    .SignatureTimeStamp \
+                                    .EncapsulatedTimeStamp \
+                                    .encode_contents(), 'base64')
+-. . -..- - / . -. - .-. -.--
+signature_timestamp
+-. . -..- - / . -. - .-. -.--
+xmldoc.XAdESSignatures.Signature.Object.QualifyingProperties.UnsignedProperties.UnsignedSignatureProperties.RevocationValues.OCSPValues.EncapsulatedOCSPValuexmldoc.XAdESSignatures.Signature.Object.QualifyingProperties.UnsignedProperties.UnsignedSignatureProperties.RevocationValues.OCSPValues.EncapsulatedOCSPValue
+-. . -..- - / . -. - .-. -.--
+xmldoc.XAdESSignatures
+-. . -..- - / . -. - .-. -.--
+xmldoc.XAdESSignatures.Signature
+-. . -..- - / . -. - .-. -.--
+xmldoc.XAdESSignatures.Signature.Object.QualifyingProperties.UnsignedProperties.UnsignedSignatureProperties.RevocationValues.OCSPValues.EncapsulatedOCSPValue
+-. . -..- - / . -. - .-. -.--
+xmldoc.XAdESSignatures.Signature.Object.QualifyingProperties.UnsignedProperties.UnsignedSignatureProperties.RevocationValues.OCSPValues.EncapsulatedOCSPValue.encode_contents()
+-. . -..- - / . -. - .-. -.--
+    import io
+
+-. . -..- - / . -. - .-. -.--
+    import lxml.etree as ET
+
+-. . -..- - / . -. - .-. -.--
+ET
+
+-. . -..- - / . -. - .-. -.--
+io.BytesIO?
+-. . -..- - / . -. - .-. -.--
+archive
+-. . -..- - / . -. - .-. -.--
+archive.filelist
+-. . -..- - / . -. - .-. -.--
+archive.getinfo?
+-. . -..- - / . -. - .-. -.--
+archive.getinfo("mimetype")
+-. . -..- - / . -. - .-. -.--
+archive.read("hello.txt")
+-. . -..- - / . -. - .-. -.--
+for f in archive.filelist:
+    print(f)
+    
+-. . -..- - / . -. - .-. -.--
+for f in archive.filelist:
+    print(f.content)   
+    
+-. . -..- - / . -. - .-. -.--
+arhcive.getinfo("META-INF/manifest.xml")
+-. . -..- - / . -. - .-. -.--
+archive.getinfo("META-INF/manifest.xml")
+-. . -..- - / . -. - .-. -.--
+archive.read("mimetype")
+-. . -..- - / . -. - .-. -.--
+archive.read("META-INF/manifest.xml")
+-. . -..- - / . -. - .-. -.--
+manifest_files = archive.read("META-INF/manifest.xml")
+xml_signed_files = BeautifulSoup(manifest_files, 'xml')
+
+-. . -..- - / . -. - .-. -.--
+xml_signed_files.manifest
+-. . -..- - / . -. - .-. -.--
+xml_signed_files.file-entry
+-. . -..- - / . -. - .-. -.--
+xml_signed_files
+-. . -..- - / . -. - .-. -.--
+xml_signed_files.find_all("manifest:full-path")
+-. . -..- - / . -. - .-. -.--
+xml_signed_files.find_all("manifest", {"manifest:media-type": "application/octet-stream"})
+-. . -..- - / . -. - .-. -.--
+xml_signed_files.find_all("manifest", {"media-type": "application/octet-stream"})
+-. . -..- - / . -. - .-. -.--
+xml_signed_files.find_all("manifest", {"manifest": "application/octet-stream"})
+-. . -..- - / . -. - .-. -.--
+xml_signed_files.find_all("manifest")

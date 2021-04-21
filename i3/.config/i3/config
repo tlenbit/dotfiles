@@ -6,18 +6,9 @@ floating_modifier $mod
 workspace_auto_back_and_forth yes
 workspace_layout tabbed
 
-#gaps inner 40
-#gaps outer 0
-
 gaps inner 10
 gaps vertical 25
 gaps horizontal 220
-
-# gaps vertical 100
-# gaps horizontal 220
-# gaps outer 0
-# default_orientation horizontal
-# hide_edge_borders both
 
 # set variables
 set $term --no-startup-id alacritty
@@ -55,10 +46,11 @@ bindsym $mod+Shift+8 move container to workspace $ws8
 bindsym $mod+Shift+9 move container to workspace $ws9
 bindsym $mod+Shift+0 move container to workspace $ws10
 
-# bindsym $mod+Shift+c reload
+bindsym $mod+Shift+c reload
 bindsym $mod+Shift+r restart
+bindsym $mod+Ctrl+r exec --no-startup-id $HOME/.scripts/monitor-switch.sh
 bindsym $mod+Shift+x kill
-bindsym $mod+Shift+g gaps inner current toggle 40
+bindsym $mod+Shift+g gaps inner current toggle 0; gaps vertical current toggle 35; gaps horizontal current toggle 0
 
 bindsym $mod+comma                 exec i3-msg border normal 1
 bindsym --release $mod+comma       exec i3-msg border pixel 0
@@ -85,18 +77,6 @@ bindsym --release $mod+Tab         exec i3-msg border pixel 0
 bindsym           $mod+Shift+Tab   exec i3-msg border pixel 5; focus left
 bindsym --release $mod+Shift+Tab   exec i3-msg border pixel 0
 
-# vim bindings
-# bindsym $mod+Ctrl+h focus left
-# bindsym $mod+Ctrl+j focus down
-# bindsym $mod+Ctrl+k focus up
-# bindsym $mod+Ctrl+l focus right
-# bindsym $mod+Shift+h move left
-# bindsym $mod+Shift+j move down
-# bindsym $mod+Shift+k move up
-# bindsym $mod+Shift+l move right
-# bindsym $mod+j workspace prev
-# bindsym $mod+k workspace next
-
 bindsym $mod+Left workspace prev
 bindsym $mod+Right workspace next
 
@@ -117,18 +97,11 @@ bindsym $mod+Shift+d [instance="crx_chhimdaamcpegdphmomkcjhlabehlnjj"] scratchpa
 bindsym $mod+a [instance="crx_heccinhogblhobdnmopadobpgidllaoc"] scratchpad show move position center
 bindsym $mod+s [class="Alacritty" instance="texas"] scratchpad show move position center
 bindsym $mod+d [class="Subl3"] scratchpad show move position center
-bindsym $mod+m exec $term -e ncmpcpp
+bindsym $mod+m exec --no-startup-id xfmpc
 
 bindsym $mod+Shift+h [class=".*"] scratchpad show
 bindsym $mod+Mod1+h move scratchpad
 
-# bindsym $mod+m [class="Sonata"] scratchpad show move position center
-# bindsym $mod+z [class="Alacritty" instance="floating-ranger"] scratchpad show move position center
-# bindsym $mod+x [class="Alacritty" instance="floating-terminal"] scratchpad show move position center
-# bindsym $mod+Shift+c [instance="crx_chpiljhfemlfpnfoohpbokdofonkiifm"] scratchpad show move position center
-# bindsym $mod+a [class="code-oss"] scratchpad show move position center
-# bindsym $mod+Shift+a [class="jetbrains-goland"] scratchpad show move position center
-# bindsym $mod+Shift+Return exec $term -e ranger
 bindsym $mod+Return exec $term
 bindsym $mod+space  exec --no-startup-id $term -e ranger
 bindsym $mod+Shift+o open
@@ -186,7 +159,6 @@ bindsym $mod+Shift+q  exec --no-startup-id $HOME/.config/rofi/bin/kill-apps.sh
 
 bindsym XF86Calculator     exec --no-startup-id $HOME/.config/rofi/bin/calculator.sh
 bindsym XF86Tools     exec --no-startup-id $HOME/.config/rofi/bin/calculator.sh
-# bindsym XF86LaunchB   exec --no-startup-id $HOME/.config/rofi/bin/calculator.sh
 
 bindsym $mod+Escape   exec --no-startup-id $HOME/.config/rofi/bin/powermenu.sh
 bindsym $mod+e        exec --no-startup-id $HOME/.config/rofi/bin/file-browser.sh
@@ -203,34 +175,6 @@ bindsym XF86Search       exec $HOME/.cargo/bin/dotstreak tick && notify-send "Ti
 bindsym $mod+XF86Search  exec $HOME/.cargo/bin/dotstreak finish && notify-send "Finished"
 bindsym XF86Display      exec $HOME/.cargo/bin/dotstreak tick && notify-send "Tick"
 bindsym $mod+XF86Display exec $HOME/.cargo/bin/dotstreak finish && notify-send "Finished"
-
-# No longer used
-# bindsym $mod+Shift+e  exec --no-startup-id $HOME/.config/rofi/bin/file-browser.sh
-# bindsym $mod+Shift+u exec --no-startup-id $HOME/.config/rofi/bin/ssh-unmount-fs.sh
-# bindsym $mod+y exec --no-startup-id $HOME/.scripts/rofi-utils.sh play_youtube
-# bindsym $mod+Shift+z exec --no-startup-id $HOME/.scripts/rofi-utils.sh zotero_collection
-# bindsym XF86LaunchB exec --no-startup-id $HOME/.config/rofi/bin/launcher.sh
-# bindsym $mod+z exec zotero
-# bindsym $mod+e exec subl3
-# bindsym $mod+p exec $term -t "Process Manager" -e gotop
-# bindsym $mod+u exec --no-startup-id $HOME/.config/rofi/bin/ssh-mount-fs.sh
-# bindsym $mod+o exec --no-startup-id $HOME/.config/rofi/bin/countdown.sh
-# bindsym $mod+Shift+a exec --no-startup-id $HOME/.scripts/rofi-utils.sh toggl_tasks
-# bindsym $mod+n exec networkmanager_dmenu
-# bindsym $mod+x exec $HOME/.scripts/rofi-utils.sh powermenu
-# bindsym $mod+q exec rofi -show drun -lines 20 -show-icons -width 10 -drun-display-format "{name}"
-# bindsym $mod+a exec --no-startup-id rofi -modi NOTES:$HOME/.scripts/rofi-notes.sh -show NOTES -width 30
-# bindsym $mod+space exec --no-startup-id $term -e ranger
-# bindsym $mod+j exec gsimplecal
-# bindsym $mod+i exec --no-startup-id $term --config-file=$HOME/.config/alacritty/for-reading.yml -e $HOME/.config/i3/scripts/read-text.sh // Input Mono Condensed 13
-# bindsym $mod+t exec --no-startup-id $term -t voidtask --config-file=$HOME/.config/alacritty/for-reading-medium.yml -e $HOME/.cargo/bin/void
-# bindsym $mod+Next exec playerctl play-pause
-# bindsym $mod+Shift+Prior exec playerctl previous
-# bindsym $mod+Shift+Next exec playerctl next
-# bindsym $mod+d exec --no-startup-id cat /usr/share/dict/cracklib-small | rofi -dmenu -i -p "word" -width 15 -lines 6 -matching regex | xargs -I{} google-chrome-stable --app=https://www.linguee.com/english-spanish/search\?source\=auto\&query\=\{\}
-# bindsym $mod+d exec --no-startup-id $HOME/.config/i3/scripts/tasks.sh
-# bindsym $mod+w exec firefox
-# bindsym $mod+Shift+w exec firefox --private-window
 
 # resize mode
 mode "resize" {
@@ -271,22 +215,20 @@ client.unfocused        #24292e #24292e #636e72 #000000
 client.urgent           #E53935 #E53935 #24292e #58252B
 
 # autostart
-exec_always --no-startup-id $HOME/.scripts/monitor-setup.sh
-exec_always --no-startup-id $HOME/.scripts/screen-setup.sh
 exec_always --no-startup-id $HOME/.scripts/mac-controls.sh
-exec_always setxkbmap -layout latam
-exec_always setxkbmap -option altwin:swap_lalt_lwin
 exec_always --no-startup-id xrdb -merge $HOME/.Xresources
 
-exec --no-startup-id $HOME/.scripts/set-wallpaper.sh
+# exec_always --no-startup-id $HOME/.scripts/screen-setup.sh
+# exec_always --no-startup-id $HOME/.scripts/monitor-switch.sh
+# exec_always setxkbmap -layout latam
+# exec_always setxkbmap -option altwin:swap_lalt_lwin
+# exec --no-startup-id $HOME/.scripts/set-wallpaper.sh
+
+exec --no-startup-id $HOME/.scripts/screen-setup.sh
 exec --no-startup-id unclutter --timeout 1 # hide mouse cursor when inactive
 exec --no-startup-id cbatticon -r 5 -l 10
 exec --no-startup-id nm-applet
 exec --no-startup-id touchegg
-
-# exec_always --no-startup-id setxkbmap -option altwin:swap_alt_win
-# exec --no-startup-id TogglDesktop
-# exec --no-startup-id hsetroot -cover "$HOME/Pictures/wallpapers/$(ls $HOME/Pictures/wallpapers | sort -R | head -1)" # set random wallpaper from folder
 
 # config apps
 assign [class="Thunar" title="File Operation Progress"] $ws10
@@ -312,27 +254,10 @@ for_window [class="Toggl Desktop"] floating enable border pixel 0 move position 
 for_window [class="Blueman-manager"] floating enable;
 for_window [class="Pavucontrol"] floating enable;
 for_window [class="Libddcutil"] floating enable;
-# for_window [class="Thunderbird"] floating enable;
-# for_window [class="Ddcbc-gtk"] floating enable;
 for_window [class="Gnome-power-statistics"] floating enable;
+for_window [class="Xfmpc"] floating enable border pixel 0 resize set 300 600, move position center;
 for_window [class="Gsimplecal"] border pixel 0;
 for_window [class="Zathura"] border pixel 0;
 for_window [class="jetbrains-goland" instance="jetbrains-goland" title="win0"] floating enable border pixel 0
 for_window [class="jetbrains-idea" instance="jetbrains-idea" title="win0"] floating enable border pixel 0
 for_window [class="jetbrains-clion" instance="jetbrains-clion" title="win0"] floating enable border pixel 0
-
-
-# for_window [class="Alacritty" instance="floating-ranger"] floating enable move scratchpad, scratchpad show, resize set 640 350;
-# for_window [class="Alacritty" instance="floating-terminal"] floating enable move scratchpad, scratchpad show, resize set 640 350;
-# for_window [class="code-oss"] floating enable border pixel 0 move scratchpad, scratchpad show; # code
-# for_window [class="Sublime_merge"] floating enable border pixel 0 move scratchpad, scratchpad show; # sublime merge
-# for_window [class="Conky"] border pixel 0;
-# for_window [title="voidtask"] floating enable;
-# for_window [class="^.*"] border pixel 0;
-# for_window [class="vlc"] move scratchpad;
-# for_window [class="WebTorrent"] move scratchpad;
-# for_window [class="Thunar"] floating enable;
-# for_window [class="Alacritty"] floating enable;
-# for_window [class="Thunar"] resize shrink width 30 px or 30 ppt;
-# for_window [class="Alacritty"] resize shrink height 40 px or 40 ppt;
-# for_window [class="crx_edcmabgkbicempmpgmniellhbjopafjh"] move scratchpad;

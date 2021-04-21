@@ -1,0 +1,310 @@
+def fn(a, b):
+    return a + b
+
+-. . -..- - / . -. - .-. -.--
+fn(1, 2, 3)
+-. . -..- - / . -. - .-. -.--
+d = 2
+-. . -..- - / . -. - .-. -.--
+import matplotlib.pyplot as plt
+-. . -..- - / . -. - .-. -.--
+plt.plot([1,2],[3,4])
+-. . -..- - / . -. - .-. -.--
+plt.plot([1,2],[3,2])
+-. . -..- - / . -. - .-. -.--
+ba = b'hello world'
+-. . -..- - / . -. - .-. -.--
+ba = b'hello worlds'
+-. . -..- - / . -. - .-. -.--
+sha1 = hashlib.sha1()
+-. . -..- - / . -. - .-. -.--
+sha1
+-. . -..- - / . -. - .-. -.--
+dat = b'hello world'
+-. . -..- - / . -. - .-. -.--
+hashlib.sha1(b'no')
+-. . -..- - / . -. - .-. -.--
+hashlib.sha1(b'no').digest()
+-. . -..- - / . -. - .-. -.--
+sha1.update(b'n')
+-. . -..- - / . -. - .-. -.--
+sha1.update(b'o')
+-. . -..- - / . -. - .-. -.--
+sha1.update(b'hel')
+-. . -..- - / . -. - .-. -.--
+sha1.digest()
+-. . -..- - / . -. - .-. -.--
+hashlib.sha1?
+-. . -..- - / . -. - .-. -.--
+a ? 2
+-. . -..- - / . -. - .-. -.--
+a = 2
+-. . -..- - / . -. - .-. -.--
+def fn():
+    pass
+
+-. . -..- - / . -. - .-. -.--
+runfile('/home/jc/Documents/ut/MTAT.07.017/appcrypto2020/05/rsa.py', args=['sign', 'priv.pem', 'filetosign', 'signature'], wdir='/home/jc/Documents/ut/MTAT.07.017/appcrypto2020/05')
+-. . -..- - / . -. - .-. -.--
+asod
+-. . -..- - / . -. - .-. -.--
+runfile('/home/jc/Documents/ut/MTAT.07.017/appcrypto2020/05/rsa.py', args=['verify', 'pub.pem', 'signature', 'filetosign'], wdir='/home/jc/Documents/ut/MTAT.07.017/appcrypto2020/05')
+-. . -..- - / . -. - .-. -.--
+raise Exception("Error")
+-. . -..- - / . -. - .-. -.--
+
+
+def get_bit_precision(n):
+    p = 0
+    while n:
+        p += 1
+        n >>= 8
+    return p
+
+-. . -..- - / . -. - .-. -.--
+get_bit_precision(255)
+-. . -..- - / . -. - .-. -.--
+get_bit_precision(256)
+-. . -..- - / . -. - .-. -.--
+get_bit_precision(259)
+-. . -..- - / . -. - .-. -.--
+get_bit_precision(259123123)
+-. . -..- - / . -. - .-. -.--
+get_bit_precision(25912312312321)
+-. . -..- - / . -. - .-. -.--
+list(b'0xff')
+-. . -..- - / . -. - .-. -.--
+def pad(data_to_pad, block_size=16):  # pkcs#5 padding
+    padding_len = block_size - len(data_to_pad) % block_size
+    padding = bytes([padding_len]) * padding_len
+    return data_to_pad + padding
+
+-. . -..- - / . -. - .-. -.--
+pad(b'1234567890123456')
+-. . -..- - / . -. - .-. -.--
+from Crypto.Cipher import AES
+
+-. . -..- - / . -. - .-. -.--
+AES.new(b'')
+-. . -..- - / . -. - .-. -.--
+
+def pad(data_to_pad, block_size=16):  # pkcs#5 padding
+    padding_len = block_size - len(data_to_pad) % block_size
+    padding = bytes([padding_len]) * padding_len
+    return data_to_pad + padding
+
+-. . -..- - / . -. - .-. -.--
+pad(b'1'*16)
+-. . -..- - / . -. - .-. -.--
+a = 10
+-. . -..- - / . -. - .-. -.--
+a = "10"
+-. . -..- - / . -. - .-. -.--
+a = 10.0
+-. . -..- - / . -. - .-. -.--
+a = 0b110
+-. . -..- - / . -. - .-. -.--
+0b1100
+-. . -..- - / . -. - .-. -.--
+0b101
+-. . -..- - / . -. - .-. -.--
+0b1010
+-. . -..- - / . -. - .-. -.--
+runfile('/home/jc/Documents/ut/MTAT.07.017/appcrypto2020/06/issue_cert.py', wdir='/home/jc/Documents/ut/MTAT.07.017/appcrypto2020/06')
+-. . -..- - / . -. - .-. -.--
+#!/usr/bin/env python3
+
+import argparse, codecs, hashlib, os, sys  # do not use any other imports/libraries
+from pyasn1.codec.der import decoder, encoder
+
+# took x.y hours (please specify here how much time your solution required)
+
+
+# parse arguments
+parser = argparse.ArgumentParser(description='issue TLS server certificate based on CSR', add_help=False)
+parser.add_argument("private_key_file", help="Private key file (in PEM or DER form)")
+parser.add_argument("CA_cert_file", help="CA certificate (in PEM or DER form)")
+parser.add_argument("csr_file", help="CSR file (in PEM or DER form)")
+parser.add_argument("output_cert_file", help="File to store certificate (in PEM form)")
+args = parser.parse_args()
+
+-. . -..- - / . -. - .-. -.--
+def bn(b):
+    # converts bytes to integer
+    i = 0
+    for char in b:
+        i <<= 8
+        i |= char
+    return i
+
+-. . -..- - / . -. - .-. -.--
+bn('01010')
+-. . -..- - / . -. - .-. -.--
+bn(10)
+-. . -..- - / . -. - .-. -.--
+bn(b'12')
+-. . -..- - / . -. - .-. -.--
+a = ...
+-. . -..- - / . -. - .-. -.--
+a.__class__
+-. . -..- - / . -. - .-. -.--
+a* 2
+-. . -..- - / . -. - .-. -.--
+from pyasn1.codec.der import decoder, encoder
+
+-. . -..- - / . -. - .-. -.--
+encoder.encode?
+-. . -..- - / . -. - .-. -.--
+encoder.encode??
+-. . -..- - / . -. - .-. -.--
+decoder.decode??
+-. . -..- - / . -. - .-. -.--
+!pwd
+-. . -..- - / . -. - .-. -.--
+
+def pem_to_der(content):
+    # converts PEM content (if it is PEM) to DER
+    if content.find(b'-----') != -1:  # if pem
+        der = content \
+            .replace(b'-----BEGIN RSA PRIVATE KEY-----', b'') \
+            .replace(b'-----BEGIN PUBLIC KEY-----', b'') \
+            .replace(b'-----BEGIN CERTIFICATE REQUEST-----', b'') \
+            .replace(b'-----END CERTIFICATE REQUEST-----', b'') \
+            .replace(b'-----END RSA PRIVATE KEY-----', b'') \
+            .replace(b'-----END RSA PUBLIC KEY-----', b'')
+        der = codecs.decode(der, 'base64')
+        der = decoder.decode(der)
+    else:  # if der
+        der = decoder.decode(content)
+
+    return der
+
+-. . -..- - / . -. - .-. -.--
+pem_to_der(open('UT_rootCA.pem', 'rb').read())
+-. . -..- - / . -. - .-. -.--
+import argparse, codecs, hashlib, os, sys  # do not use any other imports/libraries
+
+-. . -..- - / . -. - .-. -.--
+p = pem_to_der(open('06/UT_rootCA.pem', 'rb').read())
+-. . -..- - / . -. - .-. -.--
+from pyasn1_modules import pem, rfc2459
+
+-. . -..- - / . -. - .-. -.--
+from pyasn1_modules import * 
+-. . -..- - / . -. - .-. -.--
+decoder.decode(p[1])
+-. . -..- - / . -. - .-. -.--
+t1 = decoder.decode(p[0])
+-. . -..- - / . -. - .-. -.--
+t1 = decoder.decode(p[1])
+-. . -..- - / . -. - .-. -.--
+from pyasn1_modules.rfc2459 import Certificate
+-. . -..- - / . -. - .-. -.--
+pem_to_der(open('06/UT_rootCA.pem', 'rb').read())
+-. . -..- - / . -. - .-. -.--
+pem_to_der(open('06/UT_rootCA.der', 'rb').read())
+-. . -..- - / . -. - .-. -.--
+a, b = pem_to_der(open('06/UT_rootCA.pem', 'rb').read())
+-. . -..- - / . -. - .-. -.--
+a, b = pem_to_der(open('06/UT_rootCA.der', 'rb').read())
+-. . -..- - / . -. - .-. -.--
+b
+-. . -..- - / . -. - .-. -.--
+d = pem_to_der(open('06/UT_rootCA.der', 'rb').read())
+-. . -..- - / . -. - .-. -.--
+d
+-. . -..- - / . -. - .-. -.--
+d[0][0][5]
+-. . -..- - / . -. - .-. -.--
+decoder.decode(d)
+-. . -..- - / . -. - .-. -.--
+encode.encode(d[0][0][5])
+-. . -..- - / . -. - .-. -.--
+encoder.encode(d[0][0][5])
+-. . -..- - / . -. - .-. -.--
+pem_to_der(open('06/UT_rootCA.pem', 'rb').read())[0]
+-. . -..- - / . -. - .-. -.--
+pem_to_der(open('06/UT_rootCA.pem', 'rb').read())[0][0]
+-. . -..- - / . -. - .-. -.--
+pem_to_der(open('06/UT_rootCA.pem', 'rb').read())[0][1]
+-. . -..- - / . -. - .-. -.--
+pem_to_der(open('06/UT_rootCA.pem', 'rb').read())[0][3]
+-. . -..- - / . -. - .-. -.--
+pem_to_der(open('06/UT_rootCA.pem', 'rb').read())[1]
+-. . -..- - / . -. - .-. -.--
+!ls
+-. . -..- - / . -. - .-. -.--
+u'awd'
+-. . -..- - / . -. - .-. -.--
+type(u'asd')
+-. . -..- - / . -. - .-. -.--
+type(b'asd')
+-. . -..- - / . -. - .-. -.--
+import hashlib
+-. . -..- - / . -. - .-. -.--
+hashlib.sha256??
+-. . -..- - / . -. - .-. -.--
+hashlib.sha256(b'hello')
+-. . -..- - / . -. - .-. -.--
+hashlib.sha256(b'hello').digest()
+-. . -..- - / . -. - .-. -.--
+hashlib.sha256().digest()
+-. . -..- - / . -. - .-. -.--
+hashlib.sha256().update(b'hello').digest()
+-. . -..- - / . -. - .-. -.--
+a = ahashlib.sha256().update(b'hello')
+-. . -..- - / . -. - .-. -.--
+a = hashlib.sha256().update(b'hello')
+-. . -..- - / . -. - .-. -.--
+a = hashlib.sha256()
+-. . -..- - / . -. - .-. -.--
+a
+-. . -..- - / . -. - .-. -.--
+a.update(b'hello')
+-. . -..- - / . -. - .-. -.--
+a.digest()
+-. . -..- - / . -. - .-. -.--
+ls
+-. . -..- - / . -. - .-. -.--
+
+def asn1_bitstring(bitstr):
+    # bitstr - string containing bitstring (e.g., "10101")
+    # returns DER encoding of BITSTRING
+    t = b'\x03'
+    l = len(bitstr)
+
+    padding_len = (8 - len(bitstr) % 8) % 8
+    bitstr += '0' * padding_len
+
+    octets = [padding_len]
+
+    while len(bitstr):
+        octets.append(bitstr_to_int(bitstr[:8]))
+        bitstr = bitstr[8:]
+
+    l = bytes([len(octets)])
+    v = bytes(octets)
+
+    return t + l + v
+
+-. . -..- - / . -. - .-. -.--
+def bitstr_to_int(bitstr):
+    i = 0
+    for bit in bitstr:
+        i <<= 1
+        if bit == '1':
+            i |= 1
+    return i
+
+-. . -..- - / . -. - .-. -.--
+asn1_bitstring('101010')
+-. . -..- - / . -. - .-. -.--
+asn1_bitstring('303')
+-. . -..- - / . -. - .-. -.--
+asn1_bitstring('1010001')
+-. . -..- - / . -. - .-. -.--
+import codecs
+-. . -..- - / . -. - .-. -.--
+codecs.encode(b'hello', 'hex')
+-. . -..- - / . -. - .-. -.--
+codecs.encode(b'hello awd wad awd awdm waid mwaod waoido mwadwa', 'hex')

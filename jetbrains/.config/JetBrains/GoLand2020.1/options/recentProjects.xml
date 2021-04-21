@@ -1,0 +1,91 @@
+<application>
+  <component name="RecentProjectsManager">
+    <option name="additionalInfo">
+      <map>
+        <entry key="$USER_HOME$/Desktop/go/gopl">
+          <value>
+            <RecentProjectMetaInfo projectWorkspaceId="1dP7xLuBKZoCKPqqTRuNDLHiEhv">
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="GO-201.7846.93" />
+              <option name="buildTimestamp" value="1591209853647" />
+              <frame x="4" y="3" width="1912" height="1073" />
+              <option name="productionCode" value="GO" />
+              <option name="projectOpenTimestamp" value="1594345942767" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Desktop/go/standalone_tests">
+          <value>
+            <RecentProjectMetaInfo projectWorkspaceId="1dAlIngl2YUtMa61yV7B9VkZMkx">
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="GO-201.7846.93" />
+              <option name="buildTimestamp" value="1591209863452" />
+              <frame x="4" y="3" width="1912" height="1193" />
+              <option name="productionCode" value="GO" />
+              <option name="projectOpenTimestamp" value="1594807369799" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Desktop/go/lab_experiments">
+          <value>
+            <RecentProjectMetaInfo projectWorkspaceId="1dAlFanpAbMmxc91Ybu5vBtOlqP">
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="GO-201.7846.93" />
+              <option name="buildTimestamp" value="1591209863452" />
+              <frame x="4" y="3" width="1912" height="1193" />
+              <option name="productionCode" value="GO" />
+              <option name="projectOpenTimestamp" value="1594819027948" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Desktop/go/go-concurrency">
+          <value>
+            <RecentProjectMetaInfo projectWorkspaceId="1ellWVL5xKsPAkP0phPn9fpmOXD">
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="GO-201.7846.93" />
+              <option name="buildTimestamp" value="1591209890273" />
+              <frame x="4" y="3" width="1912" height="1193" />
+              <option name="productionCode" value="GO" />
+              <option name="projectOpenTimestamp" value="1595918455088" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Documents/projects/systems-design">
+          <value>
+            <RecentProjectMetaInfo projectWorkspaceId="1dqaxdx8vvToz5BBix5oufui9PE">
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="GO-201.7846.93" />
+              <option name="buildTimestamp" value="1591209885619" />
+              <frame x="308" y="23" width="1144" height="1137" />
+              <option name="productionCode" value="GO" />
+              <option name="projectOpenTimestamp" value="1596706489988" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Documents/projects/algorithms">
+          <value>
+            <RecentProjectMetaInfo opened="true" projectWorkspaceId="1dWzvFkXQSjK7ATGDQoT0Rf3Sas">
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="GO-201.7846.93" />
+              <option name="buildTimestamp" value="1591209867728" />
+              <frame x="40" y="23" width="1840" height="1137" />
+              <option name="productionCode" value="GO" />
+              <option name="projectOpenTimestamp" value="1596986133173" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="lastProjectLocation" value="$USER_HOME$/go/src" />
+    <option name="recentPaths">
+      <list>
+        <option value="$USER_HOME$/Documents/projects/algorithms" />
+        <option value="$USER_HOME$/Documents/projects/systems-design" />
+        <option value="$USER_HOME$/Desktop/go/go-concurrency" />
+        <option value="$USER_HOME$/Desktop/go/lab_experiments" />
+        <option value="$USER_HOME$/Desktop/go/standalone_tests" />
+        <option value="$USER_HOME$/Desktop/go/gopl" />
+      </list>
+    </option>
+  </component>
+</application>

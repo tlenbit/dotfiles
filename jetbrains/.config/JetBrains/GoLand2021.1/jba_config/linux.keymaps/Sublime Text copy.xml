@@ -1,0 +1,41 @@
+<keymap version="1" name="Sublime Text copy" parent="Sublime Text">
+  <action id="$LRU">
+    <keyboard-shortcut first-keystroke="shift ctrl o" />
+  </action>
+  <action id="ClassNameCompletion" />
+  <action id="CollapseRegion">
+    <keyboard-shortcut first-keystroke="shift ctrl braceleft" />
+  </action>
+  <action id="CommentByLineComment">
+    <keyboard-shortcut first-keystroke="ctrl #10000d1" />
+  </action>
+  <action id="Editor LRU">
+    <keyboard-shortcut first-keystroke="shift ctrl o" />
+  </action>
+  <action id="EditorToggleShowGutterIcons">
+    <keyboard-shortcut first-keystroke="ctrl alt end" />
+  </action>
+  <action id="ExpandRegion">
+    <keyboard-shortcut first-keystroke="shift ctrl braceright" />
+  </action>
+  <action id="ExternalSystem.ProjectRefreshAction" />
+  <action id="Graph.ZoomIn">
+    <keyboard-shortcut first-keystroke="add" />
+    <keyboard-shortcut first-keystroke="ctrl plus" />
+  </action>
+  <action id="ParameterInfo">
+    <keyboard-shortcut first-keystroke="alt #10000d1" />
+  </action>
+  <action id="RenameElement">
+    <keyboard-shortcut first-keystroke="f6" />
+  </action>
+  <action id="ShowNavBar">
+    <keyboard-shortcut first-keystroke="alt x" />
+  </action>
+  <action id="SmartTypeCompletion">
+    <keyboard-shortcut first-keystroke="ctrl alt space" />
+  </action>
+  <action id="Tool_External Tools_External Terminal">
+    <keyboard-shortcut first-keystroke="shift ctrl #10000d1" />
+  </action>
+</keymap>

@@ -1,0 +1,165 @@
+<application>
+  <component name="RecentProjectsManager">
+    <option name="additionalInfo">
+      <map>
+        <entry key="$USER_HOME$/code/rofi-file-browser-extended">
+          <value>
+            <RecentProjectMetaInfo frameTitle="rofi-file-browser-extended" projectWorkspaceId="1n3W1PpPs7LCZDx7QWLEcAGPkl5">
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="CL-203.6682.181" />
+              <option name="buildTimestamp" value="1609354351034" />
+              <frame x="40" y="23" width="1840" height="1017" />
+              <option name="productionCode" value="CL" />
+              <option name="projectOpenTimestamp" value="1610619038693" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/code/rofi-calc">
+          <value>
+            <RecentProjectMetaInfo frameTitle="rofi-calc" projectWorkspaceId="1n3YSCUrOYXCMmRoeF1ZjtFTlbB">
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="CL-203.6682.181" />
+              <option name="buildTimestamp" value="1609354327369" />
+              <frame x="40" y="23" width="1840" height="1017" />
+              <option name="productionCode" value="CL" />
+              <option name="projectOpenTimestamp" value="1610620238761" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/code/alacritty">
+          <value>
+            <RecentProjectMetaInfo frameTitle="alacritty" projectWorkspaceId="1n6HIOJvSJooODFCK7BAPz9qgfy">
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="CL-203.6682.181" />
+              <option name="buildTimestamp" value="1609354337614" />
+              <frame x="40" y="23" width="1840" height="1017" />
+              <option name="productionCode" value="CL" />
+              <option name="projectOpenTimestamp" value="1610703539418" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/code/rust-doodles">
+          <value>
+            <RecentProjectMetaInfo frameTitle="rust-doodles – main.rs" projectWorkspaceId="1n3Umx2IS991twL3Vw5kHei4lfw">
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="CL-203.6682.181" />
+              <option name="buildTimestamp" value="1609354341052" />
+              <frame x="40" y="23" width="1840" height="1017" />
+              <option name="productionCode" value="CL" />
+              <option name="projectOpenTimestamp" value="1610793116897" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/code/MeiliSearch">
+          <value>
+            <RecentProjectMetaInfo frameTitle="MeiliSearch" projectWorkspaceId="1nciLecNiLZzxUlTOyatD9qeskN">
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="CL-203.6682.181" />
+              <option name="buildTimestamp" value="1609354356791" />
+              <frame x="40" y="23" width="2480" height="1377" />
+              <option name="productionCode" value="CL" />
+              <option name="projectOpenTimestamp" value="1611695724875" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/code/gitui">
+          <value>
+            <RecentProjectMetaInfo frameTitle="gitui – keys.rs" projectWorkspaceId="1nyR5IS3vxuQtdHMeqnyHQfLalH">
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="CL-203.6682.181" />
+              <option name="buildTimestamp" value="1609354366088" />
+              <frame x="230" y="708" width="1685" height="622" />
+              <option name="productionCode" value="CL" />
+              <option name="projectOpenTimestamp" value="1612360158783" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/downloads/mison">
+          <value>
+            <RecentProjectMetaInfo frameTitle="mison – lib.rs" projectWorkspaceId="1p1ZoJmavVvaW7dpFTuBW0b9Fvz">
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="CL-203.7148.70" />
+              <option name="buildTimestamp" value="1611692995053" />
+              <frame x="229" y="92" width="2102" height="1239" />
+              <option name="productionCode" value="CL" />
+              <option name="projectOpenTimestamp" value="1614352730650" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/code/buzz">
+          <value>
+            <RecentProjectMetaInfo frameTitle="buzz – main.rs" projectWorkspaceId="1pCLd3KabnlSaDbPjtTjQC6H6FA">
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="CL-203.7148.70" />
+              <option name="buildTimestamp" value="1611692984522" />
+              <frame x="230" y="20" width="1460" height="1025" />
+              <option name="productionCode" value="CL" />
+              <option name="projectOpenTimestamp" value="1614682211137" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/code/rio">
+          <value>
+            <RecentProjectMetaInfo frameTitle="rio – trig.rs" projectWorkspaceId="1pIlyCYj7FqzxRm3ROlDNeGX0q1">
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="CL-203.7148.70" />
+              <option name="buildTimestamp" value="1611692999348" />
+              <frame x="230" y="20" width="2100" height="1385" />
+              <option name="productionCode" value="CL" />
+              <option name="projectOpenTimestamp" value="1614878737770" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/code/i3status-rust">
+          <value>
+            <RecentProjectMetaInfo frameTitle="i3status-rust – util.rs" projectWorkspaceId="1pcDgBZlvsr1gw3i65DW2GHdW1f">
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="CL-203.7148.70" />
+              <option name="buildTimestamp" value="1611692967147" />
+              <frame x="230" y="20" width="2100" height="1385" />
+              <option name="productionCode" value="CL" />
+              <option name="projectOpenTimestamp" value="1615473593819" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/downloads/ddcbc-gtk">
+          <value>
+            <RecentProjectMetaInfo frameTitle="ddcbc-gtk – main.c" projectWorkspaceId="1phT0ZfHAj9TdxkWQyRa0Fig5zY">
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="CL-203.7148.70" />
+              <option name="buildTimestamp" value="1611692964907" />
+              <frame x="230" y="20" width="2100" height="1385" />
+              <option name="productionCode" value="CL" />
+              <option name="projectOpenTimestamp" value="1615634099750" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/code/batti">
+          <value>
+            <RecentProjectMetaInfo frameTitle="batti – batti.c" projectWorkspaceId="1qCTJ47QkjsXAUJb0AuJURYprtc">
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="CL-203.7148.70" />
+              <option name="buildTimestamp" value="1611692962427" />
+              <frame x="230" y="19" width="1460" height="1026" />
+              <option name="productionCode" value="CL" />
+              <option name="projectOpenTimestamp" value="1616582497778" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/code/cbatticon">
+          <value>
+            <RecentProjectMetaInfo frameTitle="cbatticon – cbatticon.c" opened="true" projectWorkspaceId="1qCch26gpAahZhA7RzZ7wurccEi">
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="CL-203.7148.70" />
+              <option name="buildTimestamp" value="1611692943075" />
+              <frame x="230" y="19" width="1460" height="1026" />
+              <option name="productionCode" value="CL" />
+              <option name="projectOpenTimestamp" value="1616587127571" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="lastProjectLocation" value="$USER_HOME$/code" />
+  </component>
+</application>

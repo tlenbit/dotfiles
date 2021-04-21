@@ -1,0 +1,10 @@
+<application>
+  <component name="CodeInsightSettings">
+    <option name="REFORMAT_ON_PASTE" value="1" />
+  </component>
+  <component name="DefaultFont">
+    <option name="FONT_SIZE" value="14" />
+    <option name="FONT_FAMILY" value="Terminus (TTF)" />
+    <option name="LINE_SPACING" value="0.85" />
+  </component>
+</application>

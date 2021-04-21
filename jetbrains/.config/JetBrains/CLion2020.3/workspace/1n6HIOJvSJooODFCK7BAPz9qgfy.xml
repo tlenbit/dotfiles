@@ -1,0 +1,335 @@
+<project version="4">
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="-1" />
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>gl</find>
+      <find>:</find>
+      <find>glutin</find>
+      <find>::event_loop</find>
+      <find>gl.draw_frame</find>
+      <find>draw_frame</find>
+      <find>RedrawRequested</find>
+    </findStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$/alacritty/src</dir>
+    </dirStrings>
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="$PROJECT_DIR$/.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" />
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="alacritty" type="b2602c69:ProjectViewProjectNode" />
+              <item name="alacritty" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="alacritty" type="b2602c69:ProjectViewProjectNode" />
+              <item name="alacritty" type="462c0819:PsiDirectoryNode" />
+              <item name="alacritty" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="alacritty" type="b2602c69:ProjectViewProjectNode" />
+              <item name="alacritty" type="462c0819:PsiDirectoryNode" />
+              <item name="alacritty" type="462c0819:PsiDirectoryNode" />
+              <item name="res" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="alacritty" type="b2602c69:ProjectViewProjectNode" />
+              <item name="alacritty" type="462c0819:PsiDirectoryNode" />
+              <item name="alacritty" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="alacritty" type="b2602c69:ProjectViewProjectNode" />
+              <item name="alacritty" type="462c0819:PsiDirectoryNode" />
+              <item name="alacritty" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="alacritty" type="b2602c69:ProjectViewProjectNode" />
+              <item name="alacritty" type="462c0819:PsiDirectoryNode" />
+              <item name="alacritty" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="macos" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="alacritty" type="b2602c69:ProjectViewProjectNode" />
+              <item name="alacritty" type="462c0819:PsiDirectoryNode" />
+              <item name="alacritty" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="renderer" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="alacritty" type="b2602c69:ProjectViewProjectNode" />
+              <item name="alacritty" type="462c0819:PsiDirectoryNode" />
+              <item name="alacritty_config_derive" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="alacritty" type="b2602c69:ProjectViewProjectNode" />
+              <item name="alacritty" type="462c0819:PsiDirectoryNode" />
+              <item name="alacritty_terminal" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="alacritty" type="b2602c69:ProjectViewProjectNode" />
+              <item name="alacritty" type="462c0819:PsiDirectoryNode" />
+              <item name="alacritty_terminal" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="alacritty" type="b2602c69:ProjectViewProjectNode" />
+              <item name="alacritty" type="462c0819:PsiDirectoryNode" />
+              <item name="alacritty_terminal" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="alacritty" type="b2602c69:ProjectViewProjectNode" />
+              <item name="alacritty" type="462c0819:PsiDirectoryNode" />
+              <item name="alacritty_terminal" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="grid" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="alacritty" type="b2602c69:ProjectViewProjectNode" />
+              <item name="alacritty" type="462c0819:PsiDirectoryNode" />
+              <item name="alacritty_terminal" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="term" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="alacritty" type="b2602c69:ProjectViewProjectNode" />
+              <item name="alacritty" type="462c0819:PsiDirectoryNode" />
+              <item name="alacritty_terminal" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="tty" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="alacritty" type="b2602c69:ProjectViewProjectNode" />
+              <item name="alacritty" type="462c0819:PsiDirectoryNode" />
+              <item name="docs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="alacritty" type="b2602c69:ProjectViewProjectNode" />
+              <item name="alacritty" type="462c0819:PsiDirectoryNode" />
+              <item name="scripts" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="932000" />
+  </component>
+  <component name="ToolWindowManager">
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14798695" />
+      <window_info id="Structure" order="1" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info id="Commit" order="3" />
+      <window_info id="Pull Requests" order="4" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Run" order="3" />
+      <window_info anchor="bottom" id="Debug" order="4" weight="0.4" />
+      <window_info anchor="bottom" id="Problems View" order="5" />
+      <window_info anchor="bottom" id="Cvs" order="6" weight="0.25" />
+      <window_info anchor="bottom" id="Internal Method Tracing" order="7" />
+      <window_info anchor="bottom" id="File Transfer" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="clangd" order="11" />
+      <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
+      <window_info anchor="bottom" id="TypeScript" order="13" />
+      <window_info anchor="bottom" id="Build" order="14" visible="true" weight="0.32958034" />
+      <window_info anchor="bottom" id="Inspection" order="15" weight="0.4" />
+      <window_info anchor="bottom" id="Flow" order="16" />
+      <window_info anchor="bottom" id="Services" order="17" show_stripe_button="false" />
+      <window_info anchor="bottom" id="TODO" order="18" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Cargo" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="make" order="5" side_tool="true" />
+    </layout>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="742" y="271" width="426" height="473" key="FileChooserDialogImpl" timestamp="1610793110029">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="742" y="271" width="426" height="473" key="FileChooserDialogImpl/0.0.1920.1080@0.0.1920.1080" timestamp="1610793110029" />
+    <state x="223" y="277" width="534" height="508" key="find.popup" timestamp="1610704424587">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="223" y="277" width="534" height="508" key="find.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1610704424587" />
+    <state x="270" y="382" width="817" height="196" key="makefile.clean.confirm.dialog" timestamp="1610793105245">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="270" y="382" width="817" height="196" key="makefile.clean.confirm.dialog/0.0.1920.1080@0.0.1920.1080" timestamp="1610793105245" />
+    <state x="623" y="246" width="672" height="678" key="search.everywhere.popup" timestamp="1610793113275">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="623" y="246" width="672" height="678" key="search.everywhere.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1610793113275" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Makefile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SECOND">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/alacritty.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2562" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/alacritty/res/rect.f.glsl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/alacritty/res/rect.v.glsl">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/alacritty/res/text.f.glsl">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/alacritty/res/text.v.glsl">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/extra/osx/Alacritty.app/Contents/Resources/alacritty.icns">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/extra/osx/Alacritty.app/Contents/Info.plist">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/extra/linux/Alacritty.desktop">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/extra/windows/alacritty.ico">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/extra/windows/wix/license.rtf">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/extra/windows/wix/alacritty.wxs">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/extra/windows/windows.rc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/extra/windows/alacritty.manifest">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/alacritty/src/macos/locale.rs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-557" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/24-bit-color.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-575" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/fg-bg.sh">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/alacritty_config_derive/Cargo.toml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/alacritty_terminal/Cargo.toml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="22" column="16" lean-forward="true" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/alacritty/Cargo.toml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="21" column="19" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/alacritty/src/event.rs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5139">
+          <caret line="1147" column="25" selection-start-line="1147" selection-start-column="25" selection-end-line="1147" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/alacritty/src/window.rs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="6" column="10" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/create-flamegraph.sh">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/colors.sh">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/alacritty/src/macos/proc.rs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="34" column="39" lean-forward="true" selection-start-line="34" selection-start-column="39" selection-end-line="34" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/alacritty/src/config/mod.rs">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/alacritty/src/daemon.rs">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+  </component>
+</project>

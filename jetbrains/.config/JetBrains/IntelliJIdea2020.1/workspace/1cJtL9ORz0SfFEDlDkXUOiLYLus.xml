@@ -1,0 +1,204 @@
+<project version="4">
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SECOND">
+              <first_editor />
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/flink-job/src/main/java/com/ververica/field/dynamicrules/sinks/AlertsSink.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="84">
+              <caret line="38" column="15" selection-start-line="38" selection-start-column="15" selection-end-line="38" selection-end-column="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/flink-job/src/main/java/com/ververica/field/dynamicrules/RulesEvaluator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-230">
+              <caret line="32" column="56" selection-start-line="32" selection-start-column="46" selection-end-line="32" selection-end-column="56" />
+              <caret line="113" column="46" selection-start-line="113" selection-start-column="36" selection-end-line="113" selection-end-column="46" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>class Alert</find>
+    </findStrings>
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="$PROJECT_DIR$/.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" />
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="fraud-detection-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fraud-detection-demo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fraud-detection-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fraud-detection-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="flink-job" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fraud-detection-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fraud-detection-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="flink-job" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fraud-detection-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fraud-detection-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="flink-job" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fraud-detection-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fraud-detection-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="flink-job" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fraud-detection-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fraud-detection-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="flink-job" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fraud-detection-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fraud-detection-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="flink-job" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="ververica" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fraud-detection-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fraud-detection-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="flink-job" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="ververica" type="462c0819:PsiDirectoryNode" />
+              <item name="field" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fraud-detection-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fraud-detection-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="flink-job" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="ververica" type="462c0819:PsiDirectoryNode" />
+              <item name="field" type="462c0819:PsiDirectoryNode" />
+              <item name="dynamicrules" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fraud-detection-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fraud-detection-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="flink-job" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="ververica" type="462c0819:PsiDirectoryNode" />
+              <item name="field" type="462c0819:PsiDirectoryNode" />
+              <item name="dynamicrules" type="462c0819:PsiDirectoryNode" />
+              <item name="sinks" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="58000" />
+  </component>
+  <component name="ToolWindowManager">
+    <editor active="true" />
+    <layout>
+      <window_info id="Commit" order="3" />
+      <window_info anchor="bottom" id="Services" order="4" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Endpoints" order="4" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Problems View" order="3" />
+      <window_info anchor="bottom" id="Version Control" order="4" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14823529" />
+      <window_info id="Structure" order="1" side_tool="true" />
+      <window_info anchor="bottom" id="TODO" order="1" />
+      <window_info anchor="bottom" id="Database Changes" order="4" />
+      <window_info anchor="right" id="Ant" order="4" />
+      <window_info anchor="bottom" id="Flow" order="4" />
+      <window_info anchor="bottom" id="TypeScript" order="4" />
+      <window_info anchor="bottom" id="Find" order="4" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="bottom" id="Internal Method Tracing" order="4" />
+      <window_info anchor="bottom" id="Terminal" order="4" />
+      <window_info anchor="bottom" id="Event Log" order="0" side_tool="true" />
+      <window_info anchor="bottom" id="Project Problems" order="4" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+    </layout>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SECOND">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flink-job/src/main/java/com/ververica/field/dynamicrules/sinks/AlertsSink.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="38" column="15" selection-start-line="38" selection-start-column="15" selection-end-line="38" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flink-job/src/main/java/com/ververica/field/dynamicrules/RulesEvaluator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-230">
+          <caret line="32" column="56" selection-start-line="32" selection-start-column="46" selection-end-line="32" selection-end-column="56" />
+          <caret line="113" column="46" selection-start-line="113" selection-start-column="36" selection-end-line="113" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

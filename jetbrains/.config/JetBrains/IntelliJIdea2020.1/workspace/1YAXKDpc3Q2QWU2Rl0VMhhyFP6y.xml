@@ -1,0 +1,634 @@
+<project version="4">
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="h2testdb" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="h2testdb" type="feb32156:DbDataSourceImpl" />
+        <item name="H2TESTDB: database" type="2aa06773:H2ImplModel$Database" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="h2testdb" type="feb32156:DbDataSourceImpl" />
+        <item name="H2TESTDB: database" type="2aa06773:H2ImplModel$Database" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="h2testdb" type="feb32156:DbDataSourceImpl" />
+        <item name="H2TESTDB: database" type="2aa06773:H2ImplModel$Database" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="PUBLIC: schema" type="7f85d983:H2ImplModel$Schema" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="-1">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/example/demo/models/InventoryRepositoryTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="891">
+              <caret line="80" column="19" selection-start-line="80" selection-start-column="19" selection-end-line="80" selection-end-column="19" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/example/demo/DemoApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="392">
+              <caret line="30" column="21" lean-forward="true" selection-start-line="30" selection-start-column="21" selection-end-line="30" selection-end-column="21" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-jpa/2.2.4.RELEASE/spring-data-jpa-2.2.4.RELEASE.jar!/org/springframework/data/jpa/repository/JpaRepository.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="98">
+              <caret line="15" column="30" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/example/demo/DemoApplicationTests.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="70">
+              <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>findByName</find>
+      <find>findByNameContaining</find>
+      <find>customTest</find>
+      <find>maint</find>
+      <find>@query</find>
+      <find>could not start</find>
+      <find>plant_reservation</find>
+      <find>(id, start_date, end_date, plant_id, maintenance_plan_id) values (3, '2017-01-01', '2017-01-10</find>
+      <find>naming</find>
+      <find>ImplicitNamingStrategyJpaCompliantImpl</find>
+      <find>maintenance_task</find>
+      <find>reser</find>
+      <find>insert into plant_inventory_entry (id, name, description, price) values (1,</find>
+      <find>nsert into plant_inventory_entry (id, name, description, price) values (1, 'Mini excavator', '1.5 Tonne Mini excav</find>
+      <find>findAvailablePlants</find>
+      <find>CORRECTIVE</find>
+      <find>query1</find>
+      <find>.query</find>
+      <find>HAL</find>
+    </findStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/com/example/demo/models/TypeOfWork.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/demo/models/BusinessPeriod.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/demo/models/PlantInventoryEntryRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/demo/models/MaintenanceTaskRepo.java" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/c19f83f2-98a5-4fab-bbb0-957142991610/console.sql" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/e59054e9-02a8-4230-a229-08dcbdd1eda7/console.sql" />
+        <option value="a94ea53a-4cec-4afe-a266-c86b71590ade/database/TESTDB/role/PUBLIC" />
+        <option value="$PROJECT_DIR$/src/main/resources/plants-dataset.sql" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/3e101433-99ff-46cf-b1c3-ba3077b4304b/console.sql" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/demo/models/MaintenancePlanRepo.java" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/5daa3274-4d94-4eed-a99e-f6fa4db2a6f1/console.sql" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/6648eff9-81da-4933-af83-f1b16df26f9b/console.sql" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/demo/models/CustomInventoryRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/demo/models/InventoryRepositoryImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/demo/models/PurchaseOrder.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/demo/models/PlantReservation.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/demo/models/MaintenanceTask.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/demo/models/MaintenancePlan.java" />
+        <option value="$PROJECT_DIR$/src/test/resources/query1.sql" />
+        <option value="$PROJECT_DIR$/src/test/resources/plants-dataset.sql" />
+        <option value="$PROJECT_DIR$/src/main/resources/import.sql" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/demo/DemoApplication.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/demo/models/repositories/CustomInventoryRepo.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/src/test/java/com/example/demo/models/InventoryRepositoryTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/demo/models/PlantInvEntry.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/demo/models/repositories/InventoryRepo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/demo/models/repositories/InventoryRepoImpl.java" />
+      </list>
+    </option>
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="$PROJECT_DIR$/.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" x="856" y="3" width="849" height="1433" />
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" />
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="esi2020-group-project" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="esi2020-group-project" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="esi2020-group-project" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="esi2020-group-project" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="esi2020-group-project" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="esi2020-group-project" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="esi2020-group-project" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="esi2020-group-project" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="esi2020-group-project" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="esi2020-group-project" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="esi2020-group-project" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="models" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="esi2020-group-project" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <option name="contentProportion" value="0.20492133" />
+          <treeState>
+            <expand>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="root:h2testdb" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="root:h2testdb" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="com.intellij.database.console.session.MessageBusSession@16a3d023" type="9fbbdea:ServiceModel$ServiceNode" />
+              </path>
+            </expand>
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="TerminalArrangementManager">
+    <option name="mySelectedTabIndex" value="-1" />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="InventoryRepositoryTest_query1Test - 2020.03.04 at 22h 10m 00s.xml">
+      <configuration name="InventoryRepositoryTest.query1Test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="InventoryRepositoryTest_query1Test - 2020.03.04 at 22h 10m 33s.xml">
+      <configuration name="InventoryRepositoryTest.query1Test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="InventoryRepositoryTest_query1Test - 2020.03.04 at 22h 11m 56s.xml">
+      <configuration name="InventoryRepositoryTest.query1Test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="InventoryRepositoryTest_query1Test - 2020.03.04 at 22h 12m 51s.xml">
+      <configuration name="InventoryRepositoryTest.query1Test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="InventoryRepositoryTest_query4Test - 2020.03.04 at 22h 13m 08s.xml">
+      <configuration name="InventoryRepositoryTest.query4Test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="InventoryRepositoryTest_query1Test - 2020.03.04 at 22h 14m 13s.xml">
+      <configuration name="InventoryRepositoryTest.query1Test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="InventoryRepositoryTest_query2Test - 2020.03.04 at 22h 14m 30s.xml">
+      <configuration name="InventoryRepositoryTest.query2Test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="InventoryRepositoryTest_query3Test - 2020.03.04 at 22h 14m 41s.xml">
+      <configuration name="InventoryRepositoryTest.query3Test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="InventoryRepositoryTest_query4Test - 2020.03.04 at 22h 14m 54s.xml">
+      <configuration name="InventoryRepositoryTest.query4Test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="InventoryRepositoryTest_query4Test - 2020.03.04 at 22h 15m 08s.xml">
+      <configuration name="InventoryRepositoryTest.query4Test" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="101563000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <layout>
+      <window_info anchor="right" id="Maven" order="0" weight="0.3294964" />
+      <window_info anchor="bottom" id="Internal Method Tracing" order="13" />
+      <window_info anchor="bottom" id="Build" order="17" />
+      <window_info anchor="bottom" id="Flow" order="7" />
+      <window_info anchor="bottom" id="Messages" order="19" weight="0.3272543" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.30800405" />
+      <window_info id="Persistence" order="3" sideWeight="0.1975128" side_tool="true" visible="true" weight="0.17767295" />
+      <window_info anchor="bottom" id="TypeScript" order="9" />
+      <window_info anchor="bottom" id="Services" order="1" show_stripe_button="false" weight="0.36105478" />
+      <window_info anchor="right" id="Multi Preview" order="5" />
+      <window_info anchor="bottom" id="Terminal" order="15" weight="0.23876871" />
+      <window_info anchor="bottom" id="Hibernate Console" order="20" weight="0.3296146" />
+      <window_info anchor="bottom" id="Event Log" order="14" side_tool="true" weight="0.29078013" />
+      <window_info anchor="bottom" id="TODO" order="3" weight="0.32843497" />
+      <window_info id="Favorites" order="4" side_tool="true" />
+      <window_info anchor="bottom" id="Java Enterprise" order="5" weight="0.3299045" />
+      <window_info anchor="bottom" id="Project Problems" order="10" />
+      <window_info anchor="bottom" id="Spring" order="8" weight="0.3299045" />
+      <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="16" weight="0.32916972" />
+      <window_info anchor="right" id="Ant" order="3" />
+      <window_info id="Commit" order="5" />
+      <window_info anchor="bottom" id="Find" order="0" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" sideWeight="0.8024872" visible="true" weight="0.17767295" />
+      <window_info anchor="bottom" id="Endpoints" order="4" weight="0.32916972" />
+      <window_info anchor="right" id="Database" order="1" weight="0.15644655" />
+      <window_info id="Web" order="0" sideWeight="0.46957403" side_tool="true" weight="0.18897216" />
+      <window_info anchor="right" id="Theme Preview" order="2" />
+      <window_info id="Structure" order="2" sideWeight="0.46957403" side_tool="true" weight="0.18897216" />
+      <window_info anchor="bottom" id="JPA Console" order="18" weight="0.35359675" />
+      <window_info anchor="bottom" id="Problems View" order="6" />
+      <window_info anchor="right" id="Bean Validation" order="4" />
+      <window_info anchor="bottom" id="Debug" order="12" weight="0.32916972" />
+    </layout>
+    <layout-to-restore>
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info id="Web" order="0" side_tool="true" />
+      <window_info anchor="bottom" id="Services" order="1" show_stripe_button="false" weight="0.2494929" />
+      <window_info anchor="bottom" id="Endpoints" order="4" weight="0.32924336" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.26876268" />
+      <window_info anchor="right" id="Theme Preview" order="2" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.17933619" />
+      <window_info id="Structure" order="2" side_tool="true" />
+      <window_info id="Persistence" order="3" side_tool="true" />
+      <window_info anchor="bottom" id="TODO" order="3" weight="0.32924336" />
+      <window_info anchor="bottom" id="Spring" order="6" />
+      <window_info anchor="right" id="Ant" order="3" />
+      <window_info anchor="bottom" id="Java Enterprise" order="5" />
+      <window_info anchor="bottom" id="Find" order="0" />
+      <window_info anchor="right" id="Bean Validation" order="4" />
+      <window_info anchor="right" id="Database" order="1" weight="0.23982869" />
+      <window_info anchor="bottom" id="Internal Method Tracing" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.12474645" />
+      <window_info anchor="right" id="Maven" order="0" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="12" />
+      <window_info anchor="bottom" id="Debug" order="8" />
+      <window_info anchor="bottom" id="Build" order="13" />
+      <window_info anchor="bottom" id="Messages" order="14" weight="0.3286004" />
+      <window_info id="Favorites" order="4" side_tool="true" />
+    </layout-to-restore>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="das://6648eff9-81da-4933-af83-f1b16df26f9b/database/H2TESTDB/schema/PUBLIC/table/PLANT_INVENTORY_ITEM">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state presentationMode="REGULAR" projectRestartId="ee17a8e4-ba0c-4a0c-9558-f245784ee53d" pageSize="500">
+          <filtering>
+            <filter text="" />
+          </filtering>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/demo/models/PlantInventoryItem.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/demo/models/PlantInventoryEntryRepository.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/demo/models/BusinessPeriod.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/demo/models/TypeOfWork.java" />
+    <entry file="das://6648eff9-81da-4933-af83-f1b16df26f9b/database/H2TESTDB/schema/PUBLIC/table/MAINTENANCE_TASK">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state presentationMode="REGULAR" projectRestartId="ee17a8e4-ba0c-4a0c-9558-f245784ee53d" pageSize="500">
+          <filtering>
+            <filter text="" />
+          </filtering>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://6648eff9-81da-4933-af83-f1b16df26f9b/database/H2TESTDB/schema/PUBLIC/table/PLANT_RESERVATION">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state presentationMode="REGULAR" projectRestartId="ee17a8e4-ba0c-4a0c-9558-f245784ee53d" pageSize="500">
+          <filtering>
+            <filter text="" />
+          </filtering>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://6648eff9-81da-4933-af83-f1b16df26f9b/database/H2TESTDB/schema/PUBLIC/table/PLANT_INVENTORY_ENTRY">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state presentationMode="REGULAR" projectRestartId="ee17a8e4-ba0c-4a0c-9558-f245784ee53d" pageSize="500">
+          <filtering>
+            <filter text="" />
+          </filtering>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/demo/models/PlantInventoryEntry.java" />
+    <entry file="file://$PROJECT_DIR$/h2testdb.trace.db">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-705">
+          <caret line="24" column="73" selection-start-line="24" selection-start-column="73" selection-end-line="24" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/demo/models/PurchaseOrder.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/demo/controllers/GreetingsController.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/demo/models/embeddables/BusinessPeriod.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/demo/models/enums/POStatus.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/demo/models/repositories/PlantInvEntryRepo.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/demo/models/InventoryRepositoryImpl.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/demo/models/CustomInventoryRepository.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/demo/controllers/PlantInventoryEntryController.java" />
+    <entry file="jrt:///usr/lib/jvm/java-13-openjdk!/java.base/java/math/BigDecimal.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="390" column="11" selection-start-line="390" selection-start-column="11" selection-end-line="390" selection-end-column="11" />
+          <folding>
+            <element signature="e#13371#13372#0" expanded="true" />
+            <element signature="e#13419#13420#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/demo/models/PlantReservation.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/resources/query1.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="464">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://6648eff9-81da-4933-af83-f1b16df26f9b/database/H2TESTDB/schema/PUBLIC/table/MAINTENANCE_PLAN">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state presentationMode="REGULAR" projectRestartId="2e189faa-73d2-4882-9761-0e1475804586" pageSize="500">
+          <filtering>
+            <filter text="" />
+          </filtering>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://6648eff9-81da-4933-af83-f1b16df26f9b/database/H2TESTDB/schema/PUBLIC/table/PLANT_INV_ITEM">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state presentationMode="REGULAR" projectRestartId="2e189faa-73d2-4882-9761-0e1475804586" pageSize="500">
+          <filtering>
+            <filter text="" />
+          </filtering>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://6648eff9-81da-4933-af83-f1b16df26f9b/database/H2TESTDB/schema/PUBLIC/table/PLANT_INV_ENTRY">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state presentationMode="REGULAR" projectRestartId="2e189faa-73d2-4882-9761-0e1475804586" pageSize="500">
+          <filtering>
+            <filter text="" />
+          </filtering>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/query2-dataset.sql" />
+    <entry file="file://$PROJECT_DIR$/src/test/resources/query3-dataset.sql" />
+    <entry file="file://$PROJECT_DIR$/src/test/resources/query4-dataset.sql" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/demo/models/MaintenancePlan.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/resources/plants-dataset.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="798">
+          <caret line="57" selection-start-line="57" selection-end-line="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application-production.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="3" column="55" lean-forward="true" selection-start-line="3" selection-start-column="55" selection-end-line="3" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/_import.sql" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/demo/models/PlantInvItem.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/demo/models/repositories/MaintenancePlanRepo.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/demo/models/repositories/MaintenanceTaskRepo.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/demo/models/repositories/PlantInvItemRepo.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/demo/models/PlantInvEntry.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/demo/models/repositories/CustomInventoryRepo.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/demo/models/repositories/InventoryRepo.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/demo/models/repositories/InventoryRepoImpl.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/demo/models/MaintenanceTask.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/example/demo/models/InventoryRepositoryTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="891">
+          <caret line="80" column="19" selection-start-line="80" selection-start-column="19" selection-end-line="80" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-jpa/2.2.4.RELEASE/spring-data-jpa-2.2.4.RELEASE.jar!/org/springframework/data/jpa/repository/JpaRepository.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="98">
+          <caret line="15" column="30" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/example/demo/DemoApplicationTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="70">
+          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/demo/DemoApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="392">
+          <caret line="30" column="21" lean-forward="true" selection-start-line="30" selection-start-column="21" selection-end-line="30" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>JPA (demo)|JPA</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>13</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>JPA|demo</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: antlr:antlr:2.7.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

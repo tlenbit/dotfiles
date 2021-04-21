@@ -1,0 +1,26 @@
+<scheme name="_@user_jake-theme" version="142" parent_scheme="Darcula">
+  <option name="FONT_SCALE" value="1.0" />
+  <metaInfo>
+    <property name="created">2020-03-26T19:18:36</property>
+    <property name="ide">GoLand</property>
+    <property name="ideVersion">2019.3.4.0.0</property>
+    <property name="modified">2020-03-26T19:23:54</property>
+    <property name="originalScheme">jake-theme</property>
+  </metaInfo>
+  <option name="CONSOLE_FONT_NAME" value="Terminus (TTF)" />
+  <option name="CONSOLE_FONT_SIZE" value="12" />
+  <option name="CONSOLE_LINE_SPACING" value="0.85" />
+  <colors>
+    <option name="CONSOLE_BACKGROUND_KEY" value="0" />
+    <option name="GUTTER_BACKGROUND" value="0" />
+  </colors>
+  <attributes>
+    <option name="TEXT">
+      <value>
+        <option name="FOREGROUND" value="a9b7c6" />
+        <option name="BACKGROUND" value="0" />
+        <option name="EFFECT_TYPE" value="5" />
+      </value>
+    </option>
+  </attributes>
+</scheme>

@@ -1,0 +1,5 @@
+com.jakecoffman.theme
+IdeaVIM
+name.kropp.intellij.makefile
+com.mallowigi
+org.jetbrains.projector-plugin

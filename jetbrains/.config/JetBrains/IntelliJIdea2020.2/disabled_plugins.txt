@@ -1,0 +1,10 @@
+AngularJS
+IdeaVIM
+JBoss
+WebSphere
+Weblogic
+com.android.tools.idea.smali
+org.coffeescript
+org.jetbrains.android
+org.jetbrains.kotlin
+org.jetbrains.plugins.remote-run

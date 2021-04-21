@@ -1,0 +1,5 @@
+<keymap version="1" name="Sublime Text copy" parent="Sublime Text">
+  <action id="CommentByLineComment">
+    <keyboard-shortcut first-keystroke="ctrl #10000d1" />
+  </action>
+</keymap>

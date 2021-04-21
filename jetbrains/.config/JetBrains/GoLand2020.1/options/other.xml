@@ -1,0 +1,72 @@
+<application>
+  <component name="NodeJsLocalInterpreters">
+    <local-interpreter path="/usr/bin/node" />
+  </component>
+  <component name="NotRoamableUiSettings">
+    <option name="editorAAType" value="No antialiasing" />
+    <option name="fontFace" value="Dialog.plain" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="AFTER.DISTRACTION.MODE.ARE_GUTTER_ICONS_SHOWN" value="false" />
+    <property name="AFTER.DISTRACTION.MODE.ARE_LINE_NUMBERS_SHOWN" value="false" />
+    <property name="AFTER.DISTRACTION.MODE.EDITOR_TAB_PLACEMENT" value="0" />
+    <property name="AFTER.DISTRACTION.MODE.HIDE_TOOL_STRIPES" value="true" />
+    <property name="AFTER.DISTRACTION.MODE.IS_FOLDING_OUTLINE_SHOWN" value="false" />
+    <property name="AFTER.DISTRACTION.MODE.IS_INDENT_GUIDES_SHOWN" value="false" />
+    <property name="AFTER.DISTRACTION.MODE.IS_RIGHT_MARGIN_SHOWN" value="false" />
+    <property name="AFTER.DISTRACTION.MODE.IS_WHITESPACES_SHOWN" value="false" />
+    <property name="AFTER.DISTRACTION.MODE.SHOW_BREADCRUMBS" value="false" />
+    <property name="AFTER.DISTRACTION.MODE.SHOW_MAIN_TOOLBAR" value="false" />
+    <property name="AFTER.DISTRACTION.MODE.SHOW_METHOD_SEPARATORS" value="false" />
+    <property name="AFTER.DISTRACTION.MODE.SHOW_NAVIGATION_BAR" value="false" />
+    <property name="AFTER.DISTRACTION.MODE.SHOW_STATUS_BAR" value="false" />
+    <property name="BEFORE.DISTRACTION.MODE.ARE_GUTTER_ICONS_SHOWN" value="true" />
+    <property name="BEFORE.DISTRACTION.MODE.ARE_LINE_NUMBERS_SHOWN" value="true" />
+    <property name="BEFORE.DISTRACTION.MODE.EDITOR_TAB_PLACEMENT" value="1" />
+    <property name="BEFORE.DISTRACTION.MODE.HIDE_TOOL_STRIPES" value="true" />
+    <property name="BEFORE.DISTRACTION.MODE.IS_FOLDING_OUTLINE_SHOWN" value="true" />
+    <property name="BEFORE.DISTRACTION.MODE.IS_INDENT_GUIDES_SHOWN" value="true" />
+    <property name="BEFORE.DISTRACTION.MODE.IS_RIGHT_MARGIN_SHOWN" value="true" />
+    <property name="BEFORE.DISTRACTION.MODE.IS_WHITESPACES_SHOWN" value="false" />
+    <property name="BEFORE.DISTRACTION.MODE.SHOW_BREADCRUMBS" value="true" />
+    <property name="BEFORE.DISTRACTION.MODE.SHOW_MAIN_TOOLBAR" value="false" />
+    <property name="BEFORE.DISTRACTION.MODE.SHOW_METHOD_SEPARATORS" value="false" />
+    <property name="BEFORE.DISTRACTION.MODE.SHOW_NAVIGATION_BAR" value="true" />
+    <property name="BEFORE.DISTRACTION.MODE.SHOW_STATUS_BAR" value="true" />
+    <property name="ColorChooser.RecentColors" value="239-239-239-255,,,0-0-0-255,,,255-255-255-255,,,75-77-75-255,,,250-255-250-255,,,235-240-235-255,,,112-115-112-255,,,249-255-249-255,,,233-238-233-255,,,226-226-226-255,,,133-133-133-255,,,196-196-196-255,,,168-168-168-255,,,151-151-151-255,,,230-230-230-255,,,224-224-224-255,,,184-184-184-255,,,248-248-248-255,,,185-185-185-255,,,165-165-165-255" />
+    <property name="ExpandBeforeRunStepsPanel" value="true" />
+    <property name="ExpandRunDashboardTypesPanel" value="false" />
+    <property name="ExternalToolDialog.advanced.expanded" value="true" />
+    <property name="GO_IDE_DEFAULT_PROJECT_PATH" value="$USER_HOME$/go/src" />
+    <property name="InstalledPluginsSearchHistory" value="external terminal" />
+    <property name="JSHintOptionsTreeView.TREE_SCROLL_BAR_HORIZONTAL" value="18" />
+    <property name="JSHintOptionsTreeView.TREE_SCROLL_BAR_VERTICAL" value="1" />
+    <property name="JSHintOptionsTreeView.TREE_SELECTED_NODE_ID" value="1" />
+    <property name="LayoutCode.optimizeImports" value="true" />
+    <property name="MarketplacePluginsSearchHistory" value="vim&#10;jake&#10;kaje" />
+    <property name="PluginConfigurable.selectionTab" value="1" />
+    <property name="SHELLCHECK.PATH" value="$APPLICATION_PLUGINS_DIR$/Shell Script/shellcheck" />
+    <property name="SettingsSearchHistory" value="line number&#10;zen&#10;external terminal&#10;terminal&#10;zoom mouse" />
+    <property name="SplitFileEditor.Proportion" value="0.55639976" />
+    <property name="UITheme.relaunch" value="true" />
+    <property name="appcds.runOnSecondStart" value="GO-201.7846.93-068cdd6d3d4dc86af9e403d17cc2248e6a05e347961d3c3dcfff8a7a2a8d769a" />
+    <property name="ask.about.ctrl.y.shortcut" value="true" />
+    <property name="evlsprt3.193" value="14" />
+    <property name="evlsprt3.201" value="10" />
+    <property name="file.chooser.recent.files" value="$USER_HOME$/Documents/projects/algorithms&#10;/home/jc/Documents/projects/systems-design&#10;/home/jc/Desktop/go/go-concurrency&#10;/home/jc/Desktop/go/standalone_tests&#10;/home/jc/Desktop/go/lab_experiments&#10;/home/jc/Desktop/go/gopl&#10;/home/jc/Desktop/go/system-design&#10;/home/jc/Desktop/go/distributed-systems&#10;/home/jc/Desktop/go/algorithms&#10;/home/jc/Desktop/go/gobyexample/main.go&#10;/home/jc/Desktop/go/week1&#10;/home/jc/Desktop/go/gobyexample&#10;/home/jc/Desktop/go/lab1_mapreduce&#10;/home/jc/Desktop/go/pluralsight_concurrent&#10;/home/jc/Downloads/lf&#10;/home/jc/.gopath" />
+    <property name="file.gist.reindex.count" value="18" />
+    <property name="go.init.cfg.2" value="true" />
+    <property name="go.init.cfg.line.markers" value="true" />
+    <property name="go.last.update.timestamp" value="1587190758436" />
+    <property name="go.libraries.notification.had.been.shown" value="true" />
+    <property name="go.optimizeImportsByDefault" value="true" />
+    <property name="go.suggest.all.rc.was.enabled.once" value="true" />
+    <property name="ide.memory.adjusted" value="true" />
+    <property name="ideavim.statistics.timestamp" value="1596986266974" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Documents/projects/algorithms" />
+    <property name="org.jetbrains.plugins.go.LAST_UPDATE" value="1596986267002" />
+    <property name="org.jetbrains.plugins.go.LAST_VERSION" value="201.7846.93" />
+    <property name="selected.color.option.type" value="LINE_NUMBERS_COLOR" />
+    <property name="ts.lib.d.ts.version" value="3.8.2" />
+  </component>
+</application>

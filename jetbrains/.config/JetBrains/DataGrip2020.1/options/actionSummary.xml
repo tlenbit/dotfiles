@@ -1,0 +1,336 @@
+<application>
+  <component name="ActionsLocalSummary">
+    <data>
+      <entry key="$Copy">
+        <ActionSummary times="1" last="1589749017651" />
+      </entry>
+      <entry key="$SelectAll">
+        <ActionSummary times="31" last="1589889000610" />
+      </entry>
+      <entry key="$Undo">
+        <ActionSummary times="18" last="1589873406044" />
+      </entry>
+      <entry key="ActivateDatabaseToolWindow">
+        <ActionSummary times="5" last="1589796216623" />
+      </entry>
+      <entry key="CloseContent">
+        <ActionSummary times="1" last="1589796213979" />
+      </entry>
+      <entry key="CodeCompletion">
+        <ActionSummary times="9" last="1589646103045" />
+      </entry>
+      <entry key="CommentByBlockComment">
+        <ActionSummary times="1" last="1587223408706" />
+      </entry>
+      <entry key="Console.Jdbc.ChooseSchema">
+        <ActionSummary times="6" last="1589748963361" />
+      </entry>
+      <entry key="Console.Jdbc.ChooseSession">
+        <ActionSummary times="12" last="1589748969129" />
+      </entry>
+      <entry key="Console.Jdbc.Execute">
+        <ActionSummary times="392" last="1589884505871" />
+      </entry>
+      <entry key="Console.Jdbc.ToggleParameters">
+        <ActionSummary times="4" last="1587196919862" />
+      </entry>
+      <entry key="Console.TableResult.AddRow">
+        <ActionSummary times="48" last="1589797153068" />
+      </entry>
+      <entry key="Console.TableResult.ChooseExtractor">
+        <ActionSummary times="14" last="1589692181629" />
+      </entry>
+      <entry key="Console.TableResult.CloneRow">
+        <ActionSummary times="1" last="1589749025523" />
+      </entry>
+      <entry key="Console.TableResult.DeleteRows">
+        <ActionSummary times="12" last="1589870526231" />
+      </entry>
+      <entry key="Console.TableResult.EditValue">
+        <ActionSummary times="2" last="1589870723893" />
+      </entry>
+      <entry key="Console.TableResult.ImportTable">
+        <ActionSummary times="4" last="1589687640873" />
+      </entry>
+      <entry key="Console.TableResult.Options">
+        <ActionSummary times="4" last="1589798138137" />
+      </entry>
+      <entry key="Console.TableResult.Reload">
+        <ActionSummary times="8" last="1589796369177" />
+      </entry>
+      <entry key="Console.TableResult.ShowDumpDialogAction">
+        <ActionSummary times="17" last="1589888999813" />
+      </entry>
+      <entry key="Console.TableResult.Submit">
+        <ActionSummary times="54" last="1589870527522" />
+      </entry>
+      <entry key="Console.TableResult.Transpose">
+        <ActionSummary times="2" last="1589659669971" />
+      </entry>
+      <entry key="Console.TableResult.ViewAs">
+        <ActionSummary times="10" last="1589670857527" />
+      </entry>
+      <entry key="Console.TableResult.ViewAsExtractor">
+        <ActionSummary times="2" last="1589670847080" />
+      </entry>
+      <entry key="Console.TableResult.ViewAsTable">
+        <ActionSummary times="2" last="1589670858203" />
+      </entry>
+      <entry key="Console.TableResult.ViewAsTreeTable">
+        <ActionSummary times="4" last="1589670848486" />
+      </entry>
+      <entry key="Console.Toggle.Notebook.Mode">
+        <ActionSummary times="4" last="1587196916156" />
+      </entry>
+      <entry key="Console.Transaction.TxSettings">
+        <ActionSummary times="2" last="1589670867010" />
+      </entry>
+      <entry key="DatabaseView.AddActionGroupPopup">
+        <ActionSummary times="6" last="1589744723249" />
+      </entry>
+      <entry key="DatabaseView.CopyDdlAction">
+        <ActionSummary times="1" last="1589646097787" />
+      </entry>
+      <entry key="DatabaseView.CopyTable">
+        <ActionSummary times="1" last="1589646056101" />
+      </entry>
+      <entry key="DatabaseView.Ddl.AddColumn">
+        <ActionSummary times="1" last="1589645951944" />
+      </entry>
+      <entry key="DatabaseView.Ddl.AddTable">
+        <ActionSummary times="1" last="1589646001499" />
+      </entry>
+      <entry key="DatabaseView.DropAction">
+        <ActionSummary times="8" last="1589796405486" />
+      </entry>
+      <entry key="DatabaseView.Import">
+        <ActionSummary times="1" last="1589646051967" />
+      </entry>
+      <entry key="DatabaseView.PropertiesAction">
+        <ActionSummary times="6" last="1589868714118" />
+      </entry>
+      <entry key="DatabaseView.Refresh">
+        <ActionSummary times="32" last="1589869507580" />
+      </entry>
+      <entry key="DatabaseView.SqlGenerator">
+        <ActionSummary times="1" last="1589646077960" />
+      </entry>
+      <entry key="EditorBackSpace">
+        <ActionSummary times="79" last="1589883195409" />
+      </entry>
+      <entry key="EditorChooseLookupItem">
+        <ActionSummary times="39" last="1589874592200" />
+      </entry>
+      <entry key="EditorCopy">
+        <ActionSummary times="14" last="1589889000996" />
+      </entry>
+      <entry key="EditorCut">
+        <ActionSummary times="5" last="1589871994010" />
+      </entry>
+      <entry key="EditorDeleteToLineStart">
+        <ActionSummary times="2" last="1589744650612" />
+      </entry>
+      <entry key="EditorDeleteToWordStart">
+        <ActionSummary times="16" last="1589796384497" />
+      </entry>
+      <entry key="EditorDown">
+        <ActionSummary times="98" last="1589884514331" />
+      </entry>
+      <entry key="EditorDownWithSelection">
+        <ActionSummary times="2" last="1589871751341" />
+      </entry>
+      <entry key="EditorEnter">
+        <ActionSummary times="42" last="1589874588893" />
+      </entry>
+      <entry key="EditorEscape">
+        <ActionSummary times="3" last="1589889001268" />
+      </entry>
+      <entry key="EditorLeft">
+        <ActionSummary times="101" last="1589878946714" />
+      </entry>
+      <entry key="EditorNextWord">
+        <ActionSummary times="23" last="1589878192412" />
+      </entry>
+      <entry key="EditorNextWordWithSelection">
+        <ActionSummary times="12" last="1589876052769" />
+      </entry>
+      <entry key="EditorPageDown">
+        <ActionSummary times="13" last="1589878427749" />
+      </entry>
+      <entry key="EditorPageUp">
+        <ActionSummary times="20" last="1589875658106" />
+      </entry>
+      <entry key="EditorPaste">
+        <ActionSummary times="5" last="1589646098277" />
+      </entry>
+      <entry key="EditorPasteSimple">
+        <ActionSummary times="10" last="1589871752638" />
+      </entry>
+      <entry key="EditorPreviousWord">
+        <ActionSummary times="17" last="1589878191865" />
+      </entry>
+      <entry key="EditorPreviousWordWithSelection">
+        <ActionSummary times="9" last="1589872314819" />
+      </entry>
+      <entry key="EditorRight">
+        <ActionSummary times="29" last="1589878428202" />
+      </entry>
+      <entry key="EditorRightWithSelection">
+        <ActionSummary times="4" last="1589791944772" />
+      </entry>
+      <entry key="EditorSelectWord">
+        <ActionSummary times="6" last="1589646287485" />
+      </entry>
+      <entry key="EditorStartNewLineBefore">
+        <ActionSummary times="2" last="1589872297178" />
+      </entry>
+      <entry key="EditorTab">
+        <ActionSummary times="2" last="1589872136235" />
+      </entry>
+      <entry key="EditorUp">
+        <ActionSummary times="192" last="1589878502124" />
+      </entry>
+      <entry key="EditorUpWithSelection">
+        <ActionSummary times="5" last="1589791944701" />
+      </entry>
+      <entry key="InsertLiveTemplate">
+        <ActionSummary times="1" last="1589646025968" />
+      </entry>
+      <entry key="Jdbc.OpenConsole.Any">
+        <ActionSummary times="1" last="1589646045313" />
+      </entry>
+      <entry key="Jdbc.OpenConsole.New.Generate">
+        <ActionSummary times="1" last="1587194347901" />
+      </entry>
+      <entry key="Jdbc.OpenEditor.DDL">
+        <ActionSummary times="1" last="1589646088835" />
+      </entry>
+      <entry key="Jdbc.OpenEditor.Data">
+        <ActionSummary times="2" last="1589646112154" />
+      </entry>
+      <entry key="Jdbc.OpenEditor.Grid.DDL">
+        <ActionSummary times="2" last="1589646285272" />
+      </entry>
+      <entry key="ModifyObject">
+        <ActionSummary times="1" last="1589679739293" />
+      </entry>
+      <entry key="MoveLineDown">
+        <ActionSummary times="3" last="1589873096999" />
+      </entry>
+      <entry key="MoveLineUp">
+        <ActionSummary times="2" last="1589871753631" />
+      </entry>
+      <entry key="NewElement">
+        <ActionSummary times="1" last="1589646325041" />
+      </entry>
+      <entry key="PinActiveTab">
+        <ActionSummary times="4" last="1589670862224" />
+      </entry>
+      <entry key="ReformatCode">
+        <ActionSummary times="2" last="1587196878829" />
+      </entry>
+      <entry key="SaveAll">
+        <ActionSummary times="2" last="1589796385559" />
+      </entry>
+      <entry key="SearchEverywhere">
+        <ActionSummary times="8" last="1589646295555" />
+      </entry>
+      <entry key="ServiceView.ShowServices">
+        <ActionSummary times="2" last="1589646322230" />
+      </entry>
+      <entry key="Switcher">
+        <ActionSummary times="85" last="1589883192123" />
+      </entry>
+      <entry key="Table-scrollUpChangeSelection">
+        <ActionSummary times="3" last="1589666920808" />
+      </entry>
+      <entry key="Table-selectNextColumn">
+        <ActionSummary times="1" last="1589873333786" />
+      </entry>
+      <entry key="Table-selectNextRow">
+        <ActionSummary times="1" last="1589873333320" />
+      </entry>
+      <entry key="Table-selectPreviousColumn">
+        <ActionSummary times="1" last="1589736367756" />
+      </entry>
+      <entry key="Table-selectPreviousRow">
+        <ActionSummary times="5" last="1589876634022" />
+      </entry>
+      <entry key="Tree-scrollUpChangeSelection">
+        <ActionSummary times="1" last="1589725135721" />
+      </entry>
+      <entry key="Tree-selectChild">
+        <ActionSummary times="3" last="1589725136404" />
+      </entry>
+      <entry key="Tree-selectNext">
+        <ActionSummary times="1" last="1589645798643" />
+      </entry>
+      <entry key="ViewMainMenu">
+        <ActionSummary times="1" last="1587196378829" />
+      </entry>
+      <entry key="ViewSource">
+        <ActionSummary times="7" last="1589870723469" />
+      </entry>
+      <entry key="WelcomeScreen.Plugins">
+        <ActionSummary times="2" last="1589646293536" />
+      </entry>
+      <entry key="WelcomeScreen.Settings">
+        <ActionSummary times="3" last="1589646297337" />
+      </entry>
+      <entry key="com.intellij.database.actions.DdlActions$CreateObject">
+        <ActionSummary times="1" last="1589744721173" />
+      </entry>
+      <entry key="com.intellij.database.dataSource.LocalDataSourceManager$2">
+        <ActionSummary times="4" last="1589744725411" />
+      </entry>
+      <entry key="com.intellij.database.dataSource.url.ui.DynamicJdbcUrlEditor$6">
+        <ActionSummary times="3" last="1587223394881" />
+      </entry>
+      <entry key="com.intellij.database.ide.DataGripProjectView$1">
+        <ActionSummary times="2" last="1587196358172" />
+      </entry>
+      <entry key="com.intellij.database.run.ScriptingClientDataConsumer$3$1">
+        <ActionSummary times="1" last="1589870725450" />
+      </entry>
+      <entry key="com.intellij.database.run.actions.ChooseExtractorAction$ChooserGroup$SelectExtractorFactoryAction">
+        <ActionSummary times="4" last="1589659648715" />
+      </entry>
+      <entry key="com.intellij.database.run.ui.grid.editors.GridCellEditorTextField$2">
+        <ActionSummary times="36" last="1589797159552" />
+      </entry>
+      <entry key="com.intellij.database.run.ui.grid.editors.GridCellEditorTextField$3">
+        <ActionSummary times="15" last="1589796492704" />
+      </entry>
+      <entry key="com.intellij.database.view.DatabaseView$4">
+        <ActionSummary times="2" last="1587196890861" />
+      </entry>
+      <entry key="com.intellij.ide.projectView.impl.ProjectViewImpl$ScrollFromSourceAction">
+        <ActionSummary times="2" last="1587196868849" />
+      </entry>
+      <entry key="com.intellij.openapi.fileEditor.impl.EditorTabbedContainer$CloseTab">
+        <ActionSummary times="47" last="1589888995102" />
+      </entry>
+      <entry key="com.intellij.openapi.project.DumbAwareAction$SimpleDumbAwareAction">
+        <ActionSummary times="8" last="1589646297310" />
+      </entry>
+      <entry key="com.intellij.openapi.ui.impl.DialogWrapperPeerImpl$AnCancelAction">
+        <ActionSummary times="2" last="1589645954715" />
+      </entry>
+      <entry key="com.intellij.openapi.wm.impl.ToolWindowHeader$HideAction">
+        <ActionSummary times="4" last="1589646082320" />
+      </entry>
+      <entry key="com.intellij.ui.ScrollingUtil$6">
+        <ActionSummary times="7" last="1589658279227" />
+      </entry>
+      <entry key="com.intellij.ui.ScrollingUtil$7">
+        <ActionSummary times="1" last="1589749184219" />
+      </entry>
+      <entry key="com.intellij.ui.tabs.impl.JBTabsImpl$SelectNextAction">
+        <ActionSummary times="7" last="1589876008969" />
+      </entry>
+      <entry key="com.intellij.ui.tabs.impl.JBTabsImpl$SelectPreviousAction">
+        <ActionSummary times="10" last="1589878529107" />
+      </entry>
+    </data>
+  </component>
+</application>

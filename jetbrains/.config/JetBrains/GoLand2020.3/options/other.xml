@@ -1,0 +1,228 @@
+<application>
+  <component name="NodeJsLocalInterpreters">
+    <local-interpreter path="/usr/bin/node">
+      <version-cache version="15.5.1" last-modified="1609836156000" />
+    </local-interpreter>
+  </component>
+  <component name="NotRoamableUiSettings">
+    <option name="editorAAType" value="No antialiasing" />
+    <option name="fontFace" value="Iosevka Nerd Font" />
+  </component>
+  <component name="ProjectPluginTrackerManager">
+    <option name="trackers">
+      <map>
+        <entry key="1dWzvFkXQSjK7ATGDQoT0Rf3Sas">
+          <value>
+            <ProjectPluginTrackerState />
+          </value>
+        </entry>
+        <entry key="1jQDb9AlqMFgTUahFCRgFmcXawX">
+          <value>
+            <ProjectPluginTrackerState />
+          </value>
+        </entry>
+        <entry key="1jxOiqgsAnAmahDbCaIh6QKPntb">
+          <value>
+            <ProjectPluginTrackerState />
+          </value>
+        </entry>
+        <entry key="1kE9IitaHRfMQRcM25LMaqAAuk8">
+          <value>
+            <ProjectPluginTrackerState />
+          </value>
+        </entry>
+        <entry key="1mhQKag76IxgaE3qvjcQ5GPebZ8">
+          <value>
+            <ProjectPluginTrackerState />
+          </value>
+        </entry>
+        <entry key="1mq6buVJu56HchrwQCmNWCZoaqV">
+          <value>
+            <ProjectPluginTrackerState />
+          </value>
+        </entry>
+        <entry key="1n9W5cYjsPIUTcO45trw09qXlNx">
+          <value>
+            <ProjectPluginTrackerState />
+          </value>
+        </entry>
+        <entry key="1nFsaleC2j3fggAoRa2bbCkhCDy">
+          <value>
+            <ProjectPluginTrackerState />
+          </value>
+        </entry>
+        <entry key="1nFtgsIlQiUDiLZWuT9pWxHKip5">
+          <value>
+            <ProjectPluginTrackerState />
+          </value>
+        </entry>
+        <entry key="1nFwPK1Cdxiq1M5qvrK21PChiZc">
+          <value>
+            <ProjectPluginTrackerState />
+          </value>
+        </entry>
+        <entry key="1nFxw5KaiOpUyL2ZlH82xEnhpph">
+          <value>
+            <ProjectPluginTrackerState />
+          </value>
+        </entry>
+        <entry key="1nFyDX86fK9Qa9wDQeZ6DZlcLUZ">
+          <value>
+            <ProjectPluginTrackerState />
+          </value>
+        </entry>
+        <entry key="1nIwi7k4WVGABabBEo7l7nwNOX6">
+          <value>
+            <ProjectPluginTrackerState />
+          </value>
+        </entry>
+        <entry key="1nJSi7PjFX51ze5PraQdYDsgcaz">
+          <value>
+            <ProjectPluginTrackerState />
+          </value>
+        </entry>
+        <entry key="1nJWZME3cGH1u9nqG0mOugOgRfV">
+          <value>
+            <ProjectPluginTrackerState />
+          </value>
+        </entry>
+        <entry key="1nmYUx4UCrQzx49cBP56xSfDP5Z">
+          <value>
+            <ProjectPluginTrackerState />
+          </value>
+        </entry>
+        <entry key="1oOc1clc50lzrfyE4Moy26hyeGQ">
+          <value>
+            <ProjectPluginTrackerState />
+          </value>
+        </entry>
+        <entry key="1pF55Nhg8a9uhOPivIWxycPEyOS">
+          <value>
+            <ProjectPluginTrackerState />
+          </value>
+        </entry>
+        <entry key="1pmsC71yUJtIcOtRCrm432uF1v1">
+          <value>
+            <ProjectPluginTrackerState />
+          </value>
+        </entry>
+        <entry key="1pmsXJbaXRTqWG9sFAFJ44bRaos">
+          <value>
+            <ProjectPluginTrackerState />
+          </value>
+        </entry>
+        <entry key="1pyuK9dVMwu3N6t545URdymwsLR">
+          <value>
+            <ProjectPluginTrackerState />
+          </value>
+        </entry>
+        <entry key="1pz6BVF8UwNEIVIFh50mkr6sZgl">
+          <value>
+            <ProjectPluginTrackerState />
+          </value>
+        </entry>
+        <entry key="1q72TQRycGd8mo6D0GTaA362Yok">
+          <value>
+            <ProjectPluginTrackerState />
+          </value>
+        </entry>
+        <entry key="1q73Vbz4N9hXp3Jk6hNUZYlhrqB">
+          <value>
+            <ProjectPluginTrackerState />
+          </value>
+        </entry>
+        <entry key="1qWaGwOEhnH5XCsqYRndYCgvMbd">
+          <value>
+            <ProjectPluginTrackerState />
+          </value>
+        </entry>
+        <entry key="1qWbt2bDEY2dtXwEwRiPGNVnXax">
+          <value>
+            <ProjectPluginTrackerState />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="AFTER.DISTRACTION.MODE.ARE_GUTTER_ICONS_SHOWN" value="true" />
+    <property name="AFTER.DISTRACTION.MODE.ARE_LINE_NUMBERS_SHOWN" value="false" />
+    <property name="AFTER.DISTRACTION.MODE.EDITOR_TAB_PLACEMENT" value="3" />
+    <property name="AFTER.DISTRACTION.MODE.HIDE_TOOL_STRIPES" value="true" />
+    <property name="AFTER.DISTRACTION.MODE.IS_FOLDING_OUTLINE_SHOWN" value="false" />
+    <property name="AFTER.DISTRACTION.MODE.IS_INDENT_GUIDES_SHOWN" value="false" />
+    <property name="AFTER.DISTRACTION.MODE.IS_RIGHT_MARGIN_SHOWN" value="false" />
+    <property name="AFTER.DISTRACTION.MODE.IS_WHITESPACES_SHOWN" value="false" />
+    <property name="AFTER.DISTRACTION.MODE.SHOW_BREADCRUMBS" value="false" />
+    <property name="AFTER.DISTRACTION.MODE.SHOW_MAIN_TOOLBAR" value="false" />
+    <property name="AFTER.DISTRACTION.MODE.SHOW_METHOD_SEPARATORS" value="false" />
+    <property name="AFTER.DISTRACTION.MODE.SHOW_NAVIGATION_BAR" value="false" />
+    <property name="AFTER.DISTRACTION.MODE.SHOW_STATUS_BAR" value="false" />
+    <property name="BEFORE.DISTRACTION.MODE.ARE_GUTTER_ICONS_SHOWN" value="true" />
+    <property name="BEFORE.DISTRACTION.MODE.ARE_LINE_NUMBERS_SHOWN" value="true" />
+    <property name="BEFORE.DISTRACTION.MODE.EDITOR_TAB_PLACEMENT" value="3" />
+    <property name="BEFORE.DISTRACTION.MODE.HIDE_TOOL_STRIPES" value="true" />
+    <property name="BEFORE.DISTRACTION.MODE.IS_FOLDING_OUTLINE_SHOWN" value="true" />
+    <property name="BEFORE.DISTRACTION.MODE.IS_INDENT_GUIDES_SHOWN" value="true" />
+    <property name="BEFORE.DISTRACTION.MODE.IS_RIGHT_MARGIN_SHOWN" value="true" />
+    <property name="BEFORE.DISTRACTION.MODE.IS_WHITESPACES_SHOWN" value="false" />
+    <property name="BEFORE.DISTRACTION.MODE.SHOW_BREADCRUMBS" value="false" />
+    <property name="BEFORE.DISTRACTION.MODE.SHOW_MAIN_TOOLBAR" value="false" />
+    <property name="BEFORE.DISTRACTION.MODE.SHOW_METHOD_SEPARATORS" value="false" />
+    <property name="BEFORE.DISTRACTION.MODE.SHOW_NAVIGATION_BAR" value="true" />
+    <property name="BEFORE.DISTRACTION.MODE.SHOW_STATUS_BAR" value="true" />
+    <property name="ColorChooser.RecentColors" value="239-239-239-255,,,0-0-0-255,,,255-255-255-255,,,75-77-75-255,,,250-255-250-255,,,235-240-235-255,,,112-115-112-255,,,249-255-249-255,,,233-238-233-255,,,226-226-226-255,,,133-133-133-255,,,196-196-196-255,,,168-168-168-255,,,151-151-151-255,,,230-230-230-255,,,224-224-224-255,,,184-184-184-255,,,248-248-248-255,,,185-185-185-255,,,165-165-165-255" />
+    <property name="EXPORTABILITY_SORTER.file.structure.state" value="true" />
+    <property name="ExpandBeforeRunStepsPanel" value="true" />
+    <property name="ExpandRunDashboardTypesPanel" value="false" />
+    <property name="ExternalToolDialog.advanced.expanded" value="true" />
+    <property name="FindSplitterProportion" value="0.0" />
+    <property name="GO_IDE_DEFAULT_PROJECT_PATH" value="$USER_HOME$/go/src" />
+    <property name="GoFindUsagesHandlerFactory.DO_NOT_SHOW" value="true" />
+    <property name="InstalledPluginsSearchHistory" value="GlassCode&#10;rename&#10;renam&#10;install&#10;external tools" />
+    <property name="JSHintOptionsTreeView.TREE_SCROLL_BAR_HORIZONTAL" value="18" />
+    <property name="JSHintOptionsTreeView.TREE_SCROLL_BAR_VERTICAL" value="1" />
+    <property name="JSHintOptionsTreeView.TREE_SELECTED_NODE_ID" value="1" />
+    <property name="KEYMAP" value="expand&#10;quick&#10;open recent&#10;open" />
+    <property name="LAST_INJECTED_LANGUAGE" value="JSON" />
+    <property name="LayoutCode.optimizeImports" value="true" />
+    <property name="MarketplacePluginsSearchHistory" value="projector&#10;GlassCode&#10;icons&#10;atom material&#10;install" />
+    <property name="MemberChooser.showClasses" value="true" />
+    <property name="PluginConfigurable.selectionTab" value="1" />
+    <property name="SHELLCHECK.PATH" value="$APPLICATION_PLUGINS_DIR$/Shell Script/shellcheck" />
+    <property name="SettingsSearchHistory" value="parameter info&#10;save&#10;renam&#10;install&#10;icons" />
+    <property name="SplitFileEditor.Proportion" value="0.66140777" />
+    <property name="UITheme.relaunch" value="true" />
+    <property name="appcds.runOnSecondStart" value="GO-203.7717.58-636bac4fe20c79140ea95b602dbadacc1d4dc1b6c72800d5321df6f680fa60b1" />
+    <property name="ask.about.ctrl.y.shortcut" value="true" />
+    <property name="evlsprt3.193" value="14" />
+    <property name="evlsprt3.201" value="10" />
+    <property name="evlsprt3.202" value="11" />
+    <property name="evlsprt3.203" value="10" />
+    <property name="experimentalFeature.terminal.shell.command.handling" value="false" />
+    <property name="file.chooser.recent.files" value="$USER_HOME$/code/jsonparser&#10;/home/jc/code/btree-benchmark&#10;/home/jc/code/btree&#10;/home/jc/code/witchcraft_golang&#10;/home/jc/code/fasttemplate&#10;/home/jc/projects/courses/MIT_6.824/6.824&#10;/home/jc/projects/hacks/dotstreak&#10;/home/jc/projects/courses/CMU_15-445/homeworks/01_sql/musicbrainz-cmudb2020.db&#10;/home/jc/code/glow&#10;/home/jc/code/gosketches&#10;/home/jc/code/seneca&#10;/home/jc/code/go-rest-server&#10;/home/jc/code/goexperiments&#10;/home/jc/code/charm&#10;/home/jc/code/books&#10;/home/jc/code/cs&#10;/home/jc/code/lf&#10;/home/jc/ut/ALG/exam&#10;/home/jc/projects/algorithms&#10;/home/jc/projects/lao&#10;/home/jc/code/codesearch&#10;/home/jc/Code/codesearch&#10;/home/jc/Documents/ut/ALG/exam&#10;/home/jc/Downloads/tidb&#10;/home/jc/Desktop/go/ln&#10;/home/jc/Desktop/go/go-radix&#10;/home/jc/Desktop/go/trie&#10;/home/jc/Desktop/go/gg&#10;/home/jc/Desktop/go/codesearch&#10;/home/jc/Desktop/go/hot_trie" />
+    <property name="file.gist.reindex.count" value="163" />
+    <property name="fileTypeChangedCounter" value="7" />
+    <property name="go.enabled.exportability.sorter" value="true" />
+    <property name="go.init.cfg.2" value="true" />
+    <property name="go.init.cfg.line.markers" value="true" />
+    <property name="go.last.update.timestamp" value="1587190758436" />
+    <property name="go.libraries.notification.had.been.shown" value="true" />
+    <property name="go.optimizeImportsByDefault" value="true" />
+    <property name="go.settings.notification.shown" value="true" />
+    <property name="go.suggest.all.rc.was.enabled.once" value="true" />
+    <property name="got.it.tooltip.reader.mode.got.it" value="1" />
+    <property name="gotestSupport.hidePassedTests" value="false" />
+    <property name="ide.memory.adjusted" value="true" />
+    <property name="ide.updates.previous.build.number" value="GO-203.7717.58" />
+    <property name="ideavim.statistics.timestamp" value="1599466850133" />
+    <property name="last_opened_file_path" value="$USER_HOME$/projects/courses/CMU_15-445/homeworks/01_sql/musicbrainz-cmudb2020.db" />
+    <property name="org.jetbrains.plugins.go.LAST_UPDATE" value="1618032032924" />
+    <property name="org.jetbrains.plugins.go.LAST_VERSION" value="203.7717.58" />
+    <property name="selected.color.option.type" value="CODE_LENS_BORDER_COLOR" />
+    <property name="settings.code.style.selected.tab.go" value="Wrapping and Braces" />
+    <property name="shared.index.infrastructure.prop" value="4" />
+    <property name="terminal.shell.command.handling.was.disabled.once" value="true" />
+    <property name="ts.lib.d.ts.version" value="4.1.3" />
+  </component>
+</application>

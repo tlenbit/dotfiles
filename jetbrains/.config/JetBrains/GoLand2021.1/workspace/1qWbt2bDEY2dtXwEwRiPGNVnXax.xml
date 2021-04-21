@@ -1,0 +1,233 @@
+<project version="4">
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="-1">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jsonparse.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="390">
+              <caret line="31" column="19" selection-start-line="31" selection-start-column="19" selection-end-line="31" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/demos/chat.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="501">
+              <caret line="45" column="29" selection-start-line="45" selection-start-column="29" selection-end-line="45" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/simple.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="52">
+              <caret line="7" selection-start-line="7" selection-end-line="7" />
+              <folding>
+                <element signature="e#14#42#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="IdeDocumentHistory">
+    <changedPaths>
+      <option value="$PROJECT_DIR$/misc/basic_test.go" />
+      <option value="$PROJECT_DIR$/jsonparse.go" />
+      <option value="$PROJECT_DIR$/simple.go" />
+      <option value="$PROJECT_DIR$/go.mod" />
+      <option value="$PROJECT_DIR$/demos/chat.go" />
+    </changedPaths>
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="$PROJECT_DIR$/.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1" />
+    <panes />
+  </component>
+  <component name="ToolWindowManager">
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" weight="0.17904761" />
+      <window_info id="Structure" order="1" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info id="Commit" order="3" />
+      <window_info id="Pull Requests" order="4" />
+      <window_info id="Learn" order="5" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Run" order="3" weight="0.32950193" />
+      <window_info anchor="bottom" id="Debug" order="4" weight="0.30181086" />
+      <window_info anchor="bottom" id="Problems View" order="5" />
+      <window_info anchor="bottom" id="Cvs" order="6" weight="0.25" />
+      <window_info anchor="bottom" id="Internal Method Tracing" order="7" />
+      <window_info anchor="bottom" id="File Transfer" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
+      <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
+      <window_info anchor="bottom" id="TypeScript" order="13" />
+      <window_info anchor="bottom" id="TODO" order="14" />
+      <window_info anchor="bottom" id="Flow" order="15" />
+      <window_info anchor="bottom" id="Services" order="16" show_stripe_button="false" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="make" order="3" side_tool="true" />
+      <window_info anchor="right" id="Database" order="4" />
+    </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18047619" />
+      <window_info id="Structure" order="1" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info id="Commit" order="3" />
+      <window_info id="Pull Requests" order="4" />
+      <window_info id="Learn" order="5" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Run" order="3" visible="true" weight="0.32950193" />
+      <window_info anchor="bottom" id="Debug" order="4" weight="0.4" />
+      <window_info anchor="bottom" id="Problems View" order="5" />
+      <window_info anchor="bottom" id="Cvs" order="6" weight="0.25" />
+      <window_info anchor="bottom" id="Internal Method Tracing" order="7" />
+      <window_info anchor="bottom" id="File Transfer" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
+      <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
+      <window_info anchor="bottom" id="TypeScript" order="13" />
+      <window_info anchor="bottom" id="TODO" order="14" />
+      <window_info anchor="bottom" id="Flow" order="15" />
+      <window_info anchor="bottom" id="Services" order="16" show_stripe_button="false" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="make" order="3" side_tool="true" />
+      <window_info anchor="right" id="Database" order="4" />
+    </layout-to-restore>
+    <recentWindows>
+      <value>Project</value>
+    </recentWindows>
+  </component>
+  <component name="Trusted.Project.Settings" hasCheckedIfOldProject="true" />
+  <component name="WindowStateProjectService">
+    <state x="743" y="290" width="424" height="470" key="FileChooserDialogImpl" timestamp="1617261674427">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="743" y="290" width="424" height="470" key="FileChooserDialogImpl/0.0.1920.1080@0.0.1920.1080" timestamp="1617261674427" />
+    <state width="1460" height="272" key="GridCell.Tab.0.bottom" timestamp="1617206815468">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1460" height="272" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1617206815468" />
+    <state width="2100" height="272" key="GridCell.Tab.0.bottom/0.0.2560.1440@0.0.2560.1440" timestamp="1617199032463" />
+    <state width="1460" height="272" key="GridCell.Tab.0.center" timestamp="1617206815467">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1460" height="272" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1617206815467" />
+    <state width="2100" height="272" key="GridCell.Tab.0.center/0.0.2560.1440@0.0.2560.1440" timestamp="1617199032460" />
+    <state width="1460" height="272" key="GridCell.Tab.0.left" timestamp="1617206815466">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1460" height="272" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1617206815466" />
+    <state width="2100" height="272" key="GridCell.Tab.0.left/0.0.2560.1440@0.0.2560.1440" timestamp="1617199032458" />
+    <state width="1460" height="272" key="GridCell.Tab.0.right" timestamp="1617206815468">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1460" height="272" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1617206815468" />
+    <state width="2100" height="272" key="GridCell.Tab.0.right/0.0.2560.1440@0.0.2560.1440" timestamp="1617199032462" />
+    <state width="1460" height="272" key="GridCell.Tab.1.bottom" timestamp="1617206815471">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1460" height="272" key="GridCell.Tab.1.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1617206815471" />
+    <state width="2100" height="272" key="GridCell.Tab.1.bottom/0.0.2560.1440@0.0.2560.1440" timestamp="1617199039275" />
+    <state width="1460" height="272" key="GridCell.Tab.1.center" timestamp="1617206815470">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1460" height="272" key="GridCell.Tab.1.center/0.0.1920.1080@0.0.1920.1080" timestamp="1617206815470" />
+    <state width="2100" height="272" key="GridCell.Tab.1.center/0.0.2560.1440@0.0.2560.1440" timestamp="1617199039274" />
+    <state width="1460" height="272" key="GridCell.Tab.1.left" timestamp="1617206815469">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1460" height="272" key="GridCell.Tab.1.left/0.0.1920.1080@0.0.1920.1080" timestamp="1617206815469" />
+    <state width="2100" height="272" key="GridCell.Tab.1.left/0.0.2560.1440@0.0.2560.1440" timestamp="1617199039273" />
+    <state width="1460" height="272" key="GridCell.Tab.1.right" timestamp="1617206815470">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1460" height="272" key="GridCell.Tab.1.right/0.0.1920.1080@0.0.1920.1080" timestamp="1617206815470" />
+    <state width="2100" height="272" key="GridCell.Tab.1.right/0.0.2560.1440@0.0.2560.1440" timestamp="1617199039274" />
+    <state x="563" y="175" key="SettingsEditor" timestamp="1618492823117">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state x="422" y="167" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1618033913292" />
+    <state x="563" y="175" key="SettingsEditor/0.0.2560.1440@0.0.2560.1440" timestamp="1618492823117" />
+    <state width="1050" height="685" key="XDebugger.FullValuePopup" timestamp="1617199024908">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state width="1050" height="685" key="XDebugger.FullValuePopup/0.0.2560.1440@0.0.2560.1440" timestamp="1617199024908" />
+    <state x="831" y="325" width="896" height="914" key="search.everywhere.popup" timestamp="1618492809843">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state x="623" y="244" width="672" height="685" key="search.everywhere.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1618033889357" />
+    <state x="831" y="325" width="896" height="914" key="search.everywhere.popup/0.0.2560.1440@0.0.2560.1440" timestamp="1618492809843" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/misc/basic_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="455">
+          <caret line="35" column="1" lean-forward="true" selection-start-line="35" selection-start-column="1" selection-end-line="35" selection-end-column="1" />
+          <folding>
+            <element signature="e#14#47#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.gopath/pkg/mod/github.com/buger/jsonparser@v1.1.1/parser.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="13">
+          <caret line="1053" column="5" selection-start-line="1053" selection-start-column="5" selection-end-line="1053" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/go.mod">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="39">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jsonparse.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="31" column="19" selection-start-line="31" selection-start-column="19" selection-end-line="31" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/simple.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="52">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+          <folding>
+            <element signature="e#14#42#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demos/chat.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="501">
+          <caret line="45" column="29" selection-start-line="45" selection-start-column="29" selection-end-line="45" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

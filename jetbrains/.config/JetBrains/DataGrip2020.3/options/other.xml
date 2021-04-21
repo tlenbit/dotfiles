@@ -1,0 +1,42 @@
+<application>
+  <component name="NotRoamableUiSettings">
+    <option name="editorAAType" value="No antialiasing" />
+  </component>
+  <component name="ProjectPluginTrackerManager">
+    <option name="trackers">
+      <map>
+        <entry key="1ahiG6v31JCbeCUKnMbs40RJQOM">
+          <value>
+            <ProjectPluginTrackerState />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DBE.Default.Dialect" value="" />
+    <property name="DBE.Init.Cfg.1" value="true" />
+    <property name="DBE.Init.DialogShown.Ide" value="true" />
+    <property name="ExpandRunDashboardTypesPanel" value="false" />
+    <property name="MarketplacePluginsSearchHistory" value="jake&#10;ja" />
+    <property name="NonModalCommitCustomization.IsApplied" value="true" />
+    <property name="SqlStructureView.filterD.file.structure.state" value="true" />
+    <property name="UITheme.relaunch" value="true" />
+    <property name="appcds.runOnSecondStart" value="DB-203.7148.68-7931d0b69fb04ddebce4388bee30290535330238df1c6ee57fe26c516ef3cf10" />
+    <property name="ask.about.ctrl.y.shortcut" value="true" />
+    <property name="com.intellij.database.actions.DdlActions$CreateObject$1.previewExpanded" value="true" />
+    <property name="com.intellij.database.actions.DdlActions$DeleteProvider2$1.previewExpanded" value="true" />
+    <property name="database.data.extractors.output.dir" value="" />
+    <property name="database.notebook.setting.id" value="7fc6169b-73af-4d1e-8355-035295f45382" />
+    <property name="evlsprt3.201" value="13" />
+    <property name="evlsprt3.203" value="16" />
+    <property name="file.chooser.recent.files" value="$USER_HOME$/projects/courses/CMU_15-445/homeworks/01_sql/q10_around_the_world.sql&#10;/home/jc/projects/courses/CMU_15-445/homeworks/01_sql/q9_dre_and_eminem.sql&#10;/home/jc/projects/courses/CMU_15-445/homeworks/01_sql/q8_collaborate_artist.sql&#10;/home/jc/projects/courses/CMU_15-445/homeworks/01_sql/q7_release_percentage.sql&#10;/home/jc/projects/courses/CMU_15-445/homeworks/01_sql/q6_old_is_not_gold.sql&#10;/home/jc/projects/courses/CMU_15-445/homeworks/01_sql/q5_vinyl_lover.sql&#10;/home/jc/projects/courses/CMU_15-445/homeworks/01_sql/q4_dubbed_smash.sql&#10;/home/jc/projects/courses/CMU_15-445/homeworks/01_sql/q3_old_music_nations.sql&#10;/home/jc/projects/courses/CMU_15-445/homeworks/01_sql/q2_long_name.sql&#10;/home/jc/projects/courses/CMU_15-445/homeworks/01_sql&#10;/home/jc/projects/courses/CMU_15-445/homeworks/01_sql/musicbrainz-cmudb2020.db" />
+    <property name="file.gist.reindex.count" value="338" />
+    <property name="ide.memory.adjusted" value="true" />
+    <property name="ide.updates.previous.build.number" value="DB-203.7148.68" />
+    <property name="lastSeenTip" value="neue-CompareTableStructuresAndContent.html" />
+    <property name="lastTimeTipsWereShown" value="1587194133414" />
+    <property name="last_opened_file_path" value="$USER_HOME$/projects/courses/CMU_15-445/homeworks/01_sql/musicbrainz-cmudb2020.db" />
+    <property name="seenTips" value="neue-CompareTableStructuresAndContent.html" />
+  </component>
+</application>

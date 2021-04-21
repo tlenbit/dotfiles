@@ -1,0 +1,39 @@
+<application>
+  <component name="RecentProjectsManager">
+    <option name="additionalInfo">
+      <map>
+        <entry key="$USER_HOME$/Projects/sparkql-banchmark/SPARKSQLRDFBenchmarking/ProjectSourceCode[Centeralized]">
+          <value>
+            <RecentProjectMetaInfo projectWorkspaceId="1hGGMiTqPTf53vj6vqWfwYEByZ9">
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="IU-201.6668.121" />
+              <option name="buildTimestamp" value="1586355424785" />
+              <frame x="660" y="23" width="600" height="1137" />
+              <option name="productionCode" value="IU" />
+              <option name="projectOpenTimestamp" value="1601038210861" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Desktop/mnt/ut.cluster.1.master/hadoop/RDFBenchMarking/ProjectSourceCode">
+          <value>
+            <RecentProjectMetaInfo opened="true" projectWorkspaceId="1i0IiWtYLnvhxoRgtWT0ZpaTNvZ">
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="IU-201.6668.121" />
+              <option name="buildTimestamp" value="1586355423404" />
+              <frame x="40" y="23" width="1840" height="1137" />
+              <option name="productionCode" value="IU" />
+              <option name="projectOpenTimestamp" value="1601464425704" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="lastProjectLocation" value="$USER_HOME$/Downloads/rust" />
+    <option name="recentPaths">
+      <list>
+        <option value="$USER_HOME$/Desktop/mnt/ut.cluster.1.master/hadoop/RDFBenchMarking/ProjectSourceCode" />
+        <option value="$USER_HOME$/Projects/sparkql-banchmark/SPARKSQLRDFBenchmarking/ProjectSourceCode[Centeralized]" />
+      </list>
+    </option>
+  </component>
+</application>

@@ -1,0 +1,7 @@
+<application>
+  <component name="glasscode.GlassCodeStorage">
+    <option name="brightnessLevel" value="23" />
+    <option name="opacityLevel" value="64" />
+    <option name="textExtraBrightnessLevel" value="23" />
+  </component>
+</application>

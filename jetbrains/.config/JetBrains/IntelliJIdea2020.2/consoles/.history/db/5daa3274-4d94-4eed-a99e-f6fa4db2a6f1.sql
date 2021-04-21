@@ -1,0 +1,1 @@
+select * from MAINTENANCE_PLAN;

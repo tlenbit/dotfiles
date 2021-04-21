@@ -1,0 +1,30 @@
+<application>
+  <component name="ActionsLocalSummary">
+    <data>
+      <entry key="EditorBackSpace">
+        <ActionSummary times="5" last="1587192574214" />
+      </entry>
+      <entry key="SearchEverywhere">
+        <ActionSummary times="2" last="1587192657958" />
+      </entry>
+      <entry key="WelcomeScreen.Plugins">
+        <ActionSummary times="1" last="1587192659765" />
+      </entry>
+      <entry key="com.intellij.notification.NotificationAction$1">
+        <ActionSummary times="1" last="1587192541953" />
+      </entry>
+      <entry key="com.intellij.openapi.fileEditor.impl.EditorTabbedContainer$CloseTab">
+        <ActionSummary times="6" last="1587192657446" />
+      </entry>
+      <entry key="com.intellij.openapi.project.DumbAwareAction$SimpleDumbAwareAction">
+        <ActionSummary times="2" last="1587192659738" />
+      </entry>
+      <entry key="com.intellij.openapi.ui.impl.DialogWrapperPeerImpl$AnCancelAction">
+        <ActionSummary times="1" last="1587192655145" />
+      </entry>
+      <entry key="editRunConfigurations">
+        <ActionSummary times="1" last="1587192653945" />
+      </entry>
+    </data>
+  </component>
+</application>

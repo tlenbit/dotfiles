@@ -1,0 +1,193 @@
+<application>
+  <component name="VimEditorSettings">
+    <editor />
+  </component>
+  <component name="VimHistorySettings">
+    <history>
+      <history-search>
+        <entry>recv</entry>
+        <entry>mpsc</entry>
+        <entry>before wairing</entry>
+        <entry>waiting</entry>
+        <entry>join</entry>
+        <entry>draw</entry>
+        <entry>draw_check</entry>
+        <entry>handle</entry>
+        <entry>16</entry>
+        <entry>char_mut</entry>
+        <entry>draw_text</entry>
+      </history-search>
+      <history-cmd>
+        <entry>help</entry>
+        <entry>q</entry>
+      </history-cmd>
+      <history-expr />
+      <history-input />
+    </history>
+  </component>
+  <component name="VimKeySettings">
+    <shortcut-conflicts>
+      <shortcut-conflict owner="vim">
+        <text>ctrl pressed F</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="vim">
+        <text>ctrl pressed L</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="vim">
+        <text>ctrl pressed N</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="vim">
+        <text>ctrl pressed C</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="vim">
+        <text>ctrl pressed W</text>
+      </shortcut-conflict>
+    </shortcut-conflicts>
+  </component>
+  <component name="VimMarksSettings">
+    <globalmarks />
+    <filemarks>
+      <file name="$USER_HOME$/Downloads/pastel/src/cli/hdcanvas.rs" timestamp="1596804088226">
+        <mark key="'" line="88" column="59" />
+        <mark key="[" line="87" column="0" />
+        <mark key="]" line="88" column="78" />
+        <mark key="^" line="88" column="47" />
+        <mark key="." line="88" column="46" />
+      </file>
+      <file name="$USER_HOME$/Desktop/rust/rust-16-concurrency/src/main.rs" timestamp="1587628751331">
+        <mark key="'" line="4" column="3" />
+        <mark key="[" line="17" column="0" />
+        <mark key="]" line="17" column="0" />
+        <mark key="^" line="90" column="0" />
+        <mark key="." line="17" column="0" />
+      </file>
+      <file name="$USER_HOME$/Downloads/pastel/src/cli/commands/mod.rs" timestamp="1596806858949" />
+      <file name="$USER_HOME$/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/src/libcore/macros/mod.rs" timestamp="1596803786691">
+        <mark key="'" line="264" column="0" />
+      </file>
+      <file name="$USER_HOME$/Downloads/pastel/src/cli/output.rs" timestamp="1596803547172">
+        <mark key="'" line="101" column="0" />
+        <mark key="[" line="25" column="39" />
+        <mark key="]" line="25" column="40" />
+        <mark key="^" line="25" column="40" />
+        <mark key="." line="25" column="39" />
+      </file>
+      <file name="$USER_HOME$/Downloads/pastel/src/cli/commands/gradient.rs" timestamp="1596806873416" />
+    </filemarks>
+    <jumps>
+      <jump line="81" column="23" filename="$USER_HOME$/Desktop/rust/rust-16-concurrency/src/main.rs" />
+      <jump line="0" column="0" filename="$USER_HOME$/Desktop/rust/rust-16-concurrency/src/main.rs" />
+      <jump line="62" column="3" filename="$USER_HOME$/Desktop/rust/rust-16-concurrency/src/main.rs" />
+      <jump line="115" column="0" filename="$USER_HOME$/Desktop/rust/rust-16-concurrency/src/main.rs" />
+      <jump line="7" column="1" filename="$USER_HOME$/Desktop/rust/rust-16-concurrency/src/main.rs" />
+      <jump line="104" column="23" filename="$USER_HOME$/Desktop/rust/rust-16-concurrency/src/main.rs" />
+      <jump line="46" column="22" filename="$USER_HOME$/Desktop/rust/rust-16-concurrency/src/main.rs" />
+      <jump line="51" column="19" filename="$USER_HOME$/Desktop/rust/rust-16-concurrency/src/main.rs" />
+      <jump line="74" column="19" filename="$USER_HOME$/Desktop/rust/rust-16-concurrency/src/main.rs" />
+      <jump line="76" column="14" filename="$USER_HOME$/Desktop/rust/rust-16-concurrency/src/main.rs" />
+      <jump line="2" column="15" filename="$USER_HOME$/Desktop/rust/rust-16-concurrency/src/main.rs" />
+      <jump line="38" column="19" filename="$USER_HOME$/Desktop/rust/rust-16-concurrency/src/main.rs" />
+      <jump line="61" column="25" filename="$USER_HOME$/Desktop/rust/rust-16-concurrency/src/main.rs" />
+      <jump line="18" column="11" filename="$USER_HOME$/Desktop/rust/rust-16-concurrency/src/main.rs" />
+      <jump line="34" column="11" filename="$USER_HOME$/Desktop/rust/rust-16-concurrency/src/main.rs" />
+      <jump line="110" column="7" filename="$USER_HOME$/Desktop/rust/rust-16-concurrency/src/main.rs" />
+      <jump line="4" column="3" filename="$USER_HOME$/Desktop/rust/rust-16-concurrency/src/main.rs" />
+      <jump line="86" column="27" filename="$USER_HOME$/Downloads/pastel/src/cli/output.rs" />
+      <jump line="69" column="19" filename="$USER_HOME$/Downloads/pastel/src/cli/output.rs" />
+      <jump line="68" column="19" filename="$USER_HOME$/Downloads/pastel/src/cli/output.rs" />
+      <jump line="59" column="23" filename="$USER_HOME$/Downloads/pastel/src/cli/output.rs" />
+      <jump line="46" column="15" filename="$USER_HOME$/Downloads/pastel/src/cli/output.rs" />
+      <jump line="38" column="15" filename="$USER_HOME$/Downloads/pastel/src/cli/output.rs" />
+      <jump line="95" column="15" filename="$USER_HOME$/Downloads/pastel/src/cli/output.rs" />
+      <jump line="89" column="15" filename="$USER_HOME$/Downloads/pastel/src/cli/output.rs" />
+      <jump line="17" column="11" filename="$USER_HOME$/Downloads/pastel/src/cli/hdcanvas.rs" />
+      <jump line="18" column="0" filename="$USER_HOME$/Downloads/pastel/src/cli/hdcanvas.rs" />
+      <jump line="108" column="30" filename="$USER_HOME$/Downloads/pastel/src/cli/output.rs" />
+      <jump line="111" column="26" filename="$USER_HOME$/Downloads/pastel/src/cli/output.rs" />
+      <jump line="113" column="26" filename="$USER_HOME$/Downloads/pastel/src/cli/output.rs" />
+      <jump line="12" column="8" filename="$USER_HOME$/Downloads/pastel/src/cli/output.rs" />
+      <jump line="17" column="15" filename="$USER_HOME$/Downloads/pastel/src/cli/output.rs" />
+      <jump line="19" column="12" filename="$USER_HOME$/Downloads/pastel/src/cli/output.rs" />
+      <jump line="102" column="26" filename="$USER_HOME$/Downloads/pastel/src/cli/output.rs" />
+      <jump line="101" column="0" filename="$USER_HOME$/Downloads/pastel/src/cli/output.rs" />
+      <jump line="113" column="36" filename="$USER_HOME$/Downloads/pastel/src/cli/hdcanvas.rs" />
+      <jump line="118" column="7" filename="$USER_HOME$/Downloads/pastel/src/cli/hdcanvas.rs" />
+      <jump line="69" column="18" filename="$USER_HOME$/Downloads/pastel/src/cli/hdcanvas.rs" />
+      <jump line="65" column="11" filename="$USER_HOME$/Downloads/pastel/src/cli/hdcanvas.rs" />
+      <jump line="418" column="0" filename="$USER_HOME$/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/src/libcore/macros/mod.rs" />
+      <jump line="419" column="0" filename="$USER_HOME$/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/src/libcore/macros/mod.rs" />
+      <jump line="344" column="0" filename="$USER_HOME$/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/src/libcore/macros/mod.rs" />
+      <jump line="264" column="0" filename="$USER_HOME$/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/src/libcore/macros/mod.rs" />
+      <jump line="88" column="59" filename="$USER_HOME$/Downloads/pastel/src/cli/hdcanvas.rs" />
+    </jumps>
+  </component>
+  <component name="VimRegisterSettings">
+    <registers>
+      <register name="&quot;" type="2">
+        <text encoding="base64">CiAgICBoYW5kbGUuam9pbigpLnVud3JhcCgpOyAvLyB0aGlzIHdpbGwgd2FpdCBmb3IgdGhlIGhhbmRsZSB0byBmaW5pc2gKICAgIHRocmVhZDo6c2xlZXAoRHVyYXRpb246OmZyb21fbWlsbGlzKDUwMCkpOwogICA=</text>
+      </register>
+      <register name="+" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgICJ7fSIsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBzZWxmLmJydXNoLnBhaW50KCLiloAiLCB0b3AuYW5zaV9zdHlsZSgpLm9uKGJvdHRvbSkpCg==</text>
+      </register>
+      <register name="-" type="4">
+        <text>d</text>
+      </register>
+      <register name="/" type="4">
+        <text>draw_text</text>
+      </register>
+      <register name="0" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgICJ7fSIsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBzZWxmLmJydXNoLnBhaW50KCLiloAiLCB0b3AuYW5zaV9zdHlsZSgpLm9uKGJvdHRvbSkpCg==</text>
+      </register>
+      <register name="1" type="2">
+        <text encoding="base64">ICAgICAgICBwcmludGxuISgie30ge30iLCBjaGVja2VyYl9wb3NpdGlvbl94LCBjaGVja2VyYm9hcmRfcG9zaXRpb25feSk7Cg==</text>
+      </register>
+      <register name="2" type="2">
+        <text encoding="base64">ICAgICAgICBwcmludGxuISgie30iLCBvdTsK</text>
+      </register>
+      <register name="3" type="2">
+        <text encoding="base64">ICAgICAgICBPaygoKSkK</text>
+      </register>
+      <register name="4" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgIHByaW50bG4hKCJ7Oj99IiwgY29sb3IpOwo=</text>
+      </register>
+      <register name="5" type="2">
+        <text encoding="base64">ICAgICAgICBwcmludGxuISgiezo/fSIsIGNvbmZpZyk7Cg==</text>
+      </register>
+      <register name="6" type="2">
+        <text encoding="base64">ICAgICAgICBwcmludGxuISgiSEVMTE8hIik7Cg==</text>
+      </register>
+      <register name="7" type="2">
+        <text encoding="base64">CiAgICBoYW5kbGUuam9pbigpLnVud3JhcCgpOyAvLyB0aGlzIHdpbGwgd2FpdCBmb3IgdGhlIGhhbmRsZSB0byBmaW5pc2gKICAgIHRocmVhZDo6c2xlZXAoRHVyYXRpb246OmZyb21fbWlsbGlzKDUwMCkpOwogICA=</text>
+      </register>
+      <register name="8" type="4">
+        <text>thread::sleep(Duration::from_millis(500));
+    thread::sleep(Duration::from_millis(500));
+    thread::sleep(Duration::from_millis(500));
+    thread::sleep(Duration::from_millis(500));
+}</text>
+      </register>
+      <register name="9" type="2">
+        <text encoding="base64">ICAgIHRocmVhZDo6c2xlZXAoRHVyYXRpb246OmZyb21fbWlsbGlzKDUwMCkpOwo=</text>
+      </register>
+      <register name=":" type="4">
+        <text>q</text>
+      </register>
+    </registers>
+  </component>
+  <component name="VimSearchSettings">
+    <search>
+      <last-search>draw_text</last-search>
+      <last-offset />
+      <last-pattern>draw_text</last-pattern>
+      <last-dir>1</last-dir>
+      <show-last>false</show-last>
+    </search>
+  </component>
+  <component name="VimSettings">
+    <state version="6" enabled="true" />
+    <notifications>
+      <idea-join enabled="true" />
+      <idea-put enabled="false" />
+    </notifications>
+  </component>
+</application>

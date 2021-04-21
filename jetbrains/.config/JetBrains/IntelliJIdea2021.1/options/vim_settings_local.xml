@@ -1,0 +1,171 @@
+<application>
+  <component name="VimHistorySettings">
+    <history>
+      <history-search>
+        <entry encoding="base64">cmVjdg==</entry>
+        <entry encoding="base64">bXBzYw==</entry>
+        <entry encoding="base64">YmVmb3JlIHdhaXJpbmc=</entry>
+        <entry encoding="base64">d2FpdGluZw==</entry>
+        <entry encoding="base64">am9pbg==</entry>
+        <entry encoding="base64">ZHJhdw==</entry>
+        <entry encoding="base64">ZHJhd19jaGVjaw==</entry>
+        <entry encoding="base64">aGFuZGxl</entry>
+        <entry encoding="base64">MTY=</entry>
+        <entry encoding="base64">Y2hhcl9tdXQ=</entry>
+        <entry encoding="base64">ZHJhd190ZXh0</entry>
+      </history-search>
+      <history-cmd>
+        <entry encoding="base64">aGVscA==</entry>
+        <entry encoding="base64">cQ==</entry>
+      </history-cmd>
+      <history-expr />
+      <history-input />
+    </history>
+  </component>
+  <component name="VimMarksSettings">
+    <globalmarks />
+    <filemarks>
+      <file name="$USER_HOME$/Downloads/pastel/src/cli/hdcanvas.rs" timestamp="1596804088226">
+        <mark key="'" line="88" column="59" />
+        <mark key="[" line="87" column="0" />
+        <mark key="]" line="88" column="78" />
+        <mark key="^" line="88" column="47" />
+        <mark key="." line="88" column="46" />
+      </file>
+      <file name="$USER_HOME$/Desktop/rust/rust-16-concurrency/src/main.rs" timestamp="1587628751331">
+        <mark key="'" line="4" column="3" />
+        <mark key="[" line="17" column="0" />
+        <mark key="]" line="17" column="0" />
+        <mark key="^" line="90" column="0" />
+        <mark key="." line="17" column="0" />
+      </file>
+      <file name="$USER_HOME$/ut/jena-examples/src/main/java/org/apache/jena/examples/ExampleARQ_01.java" timestamp="1618492617023">
+        <mark key="[" line="37" column="0" />
+        <mark key="]" line="42" column="20" />
+        <mark key="^" line="36" column="0" />
+        <mark key="." line="36" column="0" />
+      </file>
+      <file name="$USER_HOME$/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/src/libcore/macros/mod.rs" timestamp="1596803786691">
+        <mark key="'" line="264" column="0" />
+      </file>
+      <file name="$USER_HOME$/Downloads/pastel/src/cli/output.rs" timestamp="1596803547172">
+        <mark key="'" line="101" column="0" />
+        <mark key="[" line="25" column="39" />
+        <mark key="]" line="25" column="40" />
+        <mark key="^" line="25" column="40" />
+        <mark key="." line="25" column="39" />
+      </file>
+      <file name="$USER_HOME$/ut/jena-examples/src/main/java/org/apache/jena/examples/Local_Queries_01.java" timestamp="1618492624737">
+        <mark key="[" line="10" column="1" />
+        <mark key="]" line="10" column="4" />
+        <mark key="." line="10" column="1" />
+        <mark key="^" line="17" column="4" />
+      </file>
+      <file name="$USER_HOME$/ut/jena-examples/src/main/java/org/apache/jena/examples/ExampleDataTypes_01.java" timestamp="1618492240606" />
+    </filemarks>
+    <jumps>
+      <jump line="81" column="23" filename="$USER_HOME$/Desktop/rust/rust-16-concurrency/src/main.rs" />
+      <jump line="0" column="0" filename="$USER_HOME$/Desktop/rust/rust-16-concurrency/src/main.rs" />
+      <jump line="62" column="3" filename="$USER_HOME$/Desktop/rust/rust-16-concurrency/src/main.rs" />
+      <jump line="115" column="0" filename="$USER_HOME$/Desktop/rust/rust-16-concurrency/src/main.rs" />
+      <jump line="7" column="1" filename="$USER_HOME$/Desktop/rust/rust-16-concurrency/src/main.rs" />
+      <jump line="104" column="23" filename="$USER_HOME$/Desktop/rust/rust-16-concurrency/src/main.rs" />
+      <jump line="46" column="22" filename="$USER_HOME$/Desktop/rust/rust-16-concurrency/src/main.rs" />
+      <jump line="51" column="19" filename="$USER_HOME$/Desktop/rust/rust-16-concurrency/src/main.rs" />
+      <jump line="74" column="19" filename="$USER_HOME$/Desktop/rust/rust-16-concurrency/src/main.rs" />
+      <jump line="76" column="14" filename="$USER_HOME$/Desktop/rust/rust-16-concurrency/src/main.rs" />
+      <jump line="2" column="15" filename="$USER_HOME$/Desktop/rust/rust-16-concurrency/src/main.rs" />
+      <jump line="38" column="19" filename="$USER_HOME$/Desktop/rust/rust-16-concurrency/src/main.rs" />
+      <jump line="61" column="25" filename="$USER_HOME$/Desktop/rust/rust-16-concurrency/src/main.rs" />
+      <jump line="18" column="11" filename="$USER_HOME$/Desktop/rust/rust-16-concurrency/src/main.rs" />
+      <jump line="34" column="11" filename="$USER_HOME$/Desktop/rust/rust-16-concurrency/src/main.rs" />
+      <jump line="110" column="7" filename="$USER_HOME$/Desktop/rust/rust-16-concurrency/src/main.rs" />
+      <jump line="4" column="3" filename="$USER_HOME$/Desktop/rust/rust-16-concurrency/src/main.rs" />
+      <jump line="86" column="27" filename="$USER_HOME$/Downloads/pastel/src/cli/output.rs" />
+      <jump line="69" column="19" filename="$USER_HOME$/Downloads/pastel/src/cli/output.rs" />
+      <jump line="68" column="19" filename="$USER_HOME$/Downloads/pastel/src/cli/output.rs" />
+      <jump line="59" column="23" filename="$USER_HOME$/Downloads/pastel/src/cli/output.rs" />
+      <jump line="46" column="15" filename="$USER_HOME$/Downloads/pastel/src/cli/output.rs" />
+      <jump line="38" column="15" filename="$USER_HOME$/Downloads/pastel/src/cli/output.rs" />
+      <jump line="95" column="15" filename="$USER_HOME$/Downloads/pastel/src/cli/output.rs" />
+      <jump line="89" column="15" filename="$USER_HOME$/Downloads/pastel/src/cli/output.rs" />
+      <jump line="17" column="11" filename="$USER_HOME$/Downloads/pastel/src/cli/hdcanvas.rs" />
+      <jump line="18" column="0" filename="$USER_HOME$/Downloads/pastel/src/cli/hdcanvas.rs" />
+      <jump line="108" column="30" filename="$USER_HOME$/Downloads/pastel/src/cli/output.rs" />
+      <jump line="111" column="26" filename="$USER_HOME$/Downloads/pastel/src/cli/output.rs" />
+      <jump line="113" column="26" filename="$USER_HOME$/Downloads/pastel/src/cli/output.rs" />
+      <jump line="12" column="8" filename="$USER_HOME$/Downloads/pastel/src/cli/output.rs" />
+      <jump line="17" column="15" filename="$USER_HOME$/Downloads/pastel/src/cli/output.rs" />
+      <jump line="19" column="12" filename="$USER_HOME$/Downloads/pastel/src/cli/output.rs" />
+      <jump line="102" column="26" filename="$USER_HOME$/Downloads/pastel/src/cli/output.rs" />
+      <jump line="101" column="0" filename="$USER_HOME$/Downloads/pastel/src/cli/output.rs" />
+      <jump line="113" column="36" filename="$USER_HOME$/Downloads/pastel/src/cli/hdcanvas.rs" />
+      <jump line="118" column="7" filename="$USER_HOME$/Downloads/pastel/src/cli/hdcanvas.rs" />
+      <jump line="69" column="18" filename="$USER_HOME$/Downloads/pastel/src/cli/hdcanvas.rs" />
+      <jump line="65" column="11" filename="$USER_HOME$/Downloads/pastel/src/cli/hdcanvas.rs" />
+      <jump line="418" column="0" filename="$USER_HOME$/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/src/libcore/macros/mod.rs" />
+      <jump line="419" column="0" filename="$USER_HOME$/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/src/libcore/macros/mod.rs" />
+      <jump line="344" column="0" filename="$USER_HOME$/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/src/libcore/macros/mod.rs" />
+      <jump line="264" column="0" filename="$USER_HOME$/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/src/libcore/macros/mod.rs" />
+      <jump line="88" column="59" filename="$USER_HOME$/Downloads/pastel/src/cli/hdcanvas.rs" />
+      <jump line="7" column="35" filename="$USER_HOME$/ut/jena-examples/src/main/java/org/apache/jena/examples/Local_Queries_01.java" />
+    </jumps>
+  </component>
+  <component name="VimRegisterSettings">
+    <registers>
+      <register name="&quot;" type="4">
+        <text encoding="base64">a2trag==</text>
+      </register>
+      <register name="+" type="4">
+        <text encoding="base64">a2trag==</text>
+      </register>
+      <register name="-" type="4">
+        <text encoding="base64">a2trag==</text>
+      </register>
+      <register name="/" type="4">
+        <text encoding="base64">ZHJhd190ZXh0</text>
+      </register>
+      <register name="0" type="2">
+        <text encoding="base64">ICAgICAgICBTdHJpbmcgcXVlcnlTdHJpbmcgPSAKICAgICAgICAgICAgICAgICJQUkVGSVggZm9hZjogPGh0dHA6Ly94bWxucy5jb20vZm9hZi8wLjEvPiAiICsKICAgICAgICAJCSJTRUxFQ1QgP25hbWUgP3BlcnNvbiBXSEVSRSB7ICIgKwogICAgICAgIAkJIiAgICA/cGVyc29uIGZvYWY6bWJveCA8bWFpbHRvOmFsaWNlQGV4YW1wbGUub3JnPiAuICIgKwogICAgICAgIAkJIiAgICA/cGVyc29uIGZvYWY6bmFtZSA/bmFtZSAuICIgKwogICAgICAgIAkJIn0iOwo=</text>
+      </register>
+      <register name="1" type="2">
+        <text encoding="base64">ICAgIHF1ZXJ5LmdldFF1ZXJ5UGF0dGVybigpOwo=</text>
+      </register>
+      <register name="2" type="2">
+        <text encoding="base64">Cg==</text>
+      </register>
+      <register name="3" type="2">
+        <text encoding="base64">ICAgIFN0cmluZyBxdWVyeVN0cmluZyA9ICJTRUxFQ1QgP3MgP3AgP28gV0hFUkUge30iOwogICAgUXVlcnkgcXVlcnkgPSBRdWVyeUZhY3RvcnkuY3JlYXRlKHF1ZXJ5U3RyaW5nKTsKLy8gICAgcXVlcnkuZ2V0UXVlcnlQYXR0ZXJuKCk7Cg==</text>
+      </register>
+      <register name="4" type="2">
+        <text encoding="base64">ICAgIFN0cmluZyBxdWVyeVN0cmluZyA9ICJTRUxFQ1QgP3MgP3AgP28gV0hFUkUge30iOwo=</text>
+      </register>
+      <register name="5" type="4">
+        <text encoding="base64">OwogICAg</text>
+      </register>
+      <register name="6" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgICJQUkVGSVggZm9hZjogPGh0dHA6Ly94bWxucy5jb20vZm9hZi8wLjEvPiAiICsK</text>
+      </register>
+      <register name="7" type="2">
+        <text encoding="base64">ICAgICAgICBwcmludGxuISgie30ge30iLCBjaGVja2VyYl9wb3NpdGlvbl94LCBjaGVja2VyYm9hcmRfcG9zaXRpb25feSk7Cg==</text>
+      </register>
+      <register name="8" type="2">
+        <text encoding="base64">ICAgICAgICBwcmludGxuISgie30iLCBvdTsK</text>
+      </register>
+      <register name="9" type="2">
+        <text encoding="base64">ICAgICAgICBPaygoKSkK</text>
+      </register>
+      <register name=":" type="4">
+        <text encoding="base64">cQ==</text>
+      </register>
+    </registers>
+  </component>
+  <component name="VimSearchSettings">
+    <search>
+      <last-search encoding="base64">ZHJhd190ZXh0</last-search>
+      <last-pattern encoding="base64">ZHJhd190ZXh0</last-pattern>
+      <last-dir encoding="base64">MQ==</last-dir>
+      <show-last encoding="base64">ZmFsc2U=</show-last>
+    </search>
+  </component>
+</application>

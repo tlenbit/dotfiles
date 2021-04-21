@@ -1,0 +1,578 @@
+<project version="4">
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/ee/ut/cs/bigdata/sp2bench/csv/WPTTables2.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="598">
+              <caret line="52" column="37" selection-start-line="52" selection-start-column="27" selection-end-line="52" selection-end-column="37" />
+              <folding>
+                <element signature="e#39#78#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/ee/ut/cs/bigdata/sp2bench/csv/Tests.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="442">
+              <caret line="34" column="36" lean-forward="true" selection-start-line="34" selection-start-column="36" selection-end-line="34" selection-end-column="36" />
+              <folding>
+                <element signature="e#39#78#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/ee/ut/cs/bigdata/sp2bench/csv/WPTTables.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2249">
+              <caret line="179" selection-start-line="179" selection-end-line="180" />
+              <folding>
+                <element signature="e#39#78#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/ee/ut/cs/bigdata/sp2bench/queries/WPTQueries.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="663">
+              <caret line="51" column="6" selection-start-line="51" selection-start-column="6" selection-end-line="51" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>com.databricks.spark.orc</find>
+      <find>com.databricks.spark.avro</find>
+      <find>.avro</find>
+      <find>.orc</find>
+      <find>MyRDFTable</find>
+      <find>PTQueries</find>
+      <find>.option(&quot;url&quot;, &quot;jdbc:postgresql://localhost:5432/rdfbenchmarking&quot;)</find>
+      <find>T.document</find>
+      <find>Predicatescombined</find>
+      <find>$path/</find>
+      <find>.show())</find>
+      <find>spark.time</find>
+      <find>spark.time(spark.sql(new PTQueries q1).show())</find>
+      <find>spark.time(spark.sql(new PTQueries q1).show)</find>
+      <find>))</find>
+      <find>RDFBenchMa</find>
+      <find>resultsHorizontal</find>
+      <find>static</find>
+      <find>targe</find>
+      <find>RDFBenchMain</find>
+      <find>deplo</find>
+      <find>conte</find>
+      <find>span</find>
+      <find>deploy</find>
+      <find>sparksession</find>
+      <find>spark:</find>
+      <find>spark</find>
+      <find>master</find>
+      <find>FileOutputStream</find>
+      <find>hell</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>//</replace>
+      <replace>MyRDFTable</replace>
+      <replace>PTQueries</replace>
+      <replace>$path</replace>
+      <replace>s&quot;$</replace>
+      <replace>.avro</replace>
+      <replace>avro&quot;</replace>
+      <replace>s&quot;$path</replace>
+      <replace>spark.read.format(&quot;com.databricks.spark.avro&quot;)</replace>
+      <replace>.avro&quot;</replace>
+      <replace>&quot;org.apache.spark.sql.execution.datasources.orc&quot;</replace>
+      <replace>.orc</replace>
+      <replace>org.apache.spark.sql.execution.datasources.orc</replace>
+      <replace>parquet</replace>
+      <replace>.parquet</replace>
+      <replace>VTQueries</replace>
+      <replace>postgres</replace>
+      <replace>.option(&quot;url&quot;, s&quot;jdbc:postgresql://localhost:5432/$pgsqlDB&quot;)</replace>
+      <replace>SingleStmtTable</replace>
+      <replace>$path/VerticalTables/</replace>
+      <replace>) }</replace>
+      <replace>)}</replace>
+      <replace>Console.withOut(fos) {&quot;Q1:&quot;+spark.time</replace>
+      <replace>).show)</replace>
+      <replace>))}</replace>
+    </replaceStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/scala/ee/ut/cs/bigdata/sp2bench/hive/TESTTEST.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/ee/ut/cs/bigdata/sp2bench/csv/TESTTEST.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/ee/ut/cs/bigdata/sp2bench/queries/PTQueries.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/ee/ut/cs/bigdata/sp2bench/queries/STQueries.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/ee/ut/cs/bigdata/sp2bench/queries/VTQueries.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/ee/ut/cs/bigdata/sp2bench/avro/ProertyTables.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/ee/ut/cs/bigdata/sp2bench/avro/SingleStatementTable.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/ee/ut/cs/bigdata/sp2bench/avro/VerticalTables.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/ee/ut/cs/bigdata/sp2bench/csv/ProertyTables.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/ee/ut/cs/bigdata/sp2bench/csv/SingleStatementTable.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/ee/ut/cs/bigdata/sp2bench/csv/VerticalTables.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/ee/ut/cs/bigdata/sp2bench/hive/ProertyTables.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/ee/ut/cs/bigdata/sp2bench/hive/VerticalTables.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/ee/ut/cs/bigdata/sp2bench/hive/SingleStatementTable.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/ee/ut/cs/bigdata/sp2bench/orc/ProertyTables.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/ee/ut/cs/bigdata/sp2bench/orc/SingleStatementTable.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/ee/ut/cs/bigdata/sp2bench/orc/VerticalTables.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/ee/ut/cs/bigdata/sp2bench/parquet/ProertyTables.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/ee/ut/cs/bigdata/sp2bench/parquet/SingleStatementTable.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/ee/ut/cs/bigdata/sp2bench/postgresql/ProertyTables.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/ee/ut/cs/bigdata/sp2bench/postgresql/SingleStatementTable.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/ee/ut/cs/bigdata/sp2bench/postgresql/VerticalTables.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/ee/ut/cs/bigdata/sp2bench/parquet/VerticalTables.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/ee/ut/cs/bigdata/sp2bench/SplitWPTTable.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/ee/ut/cs/bigdata/sp2bench/csv/PropertyTables.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/ee/ut/cs/bigdata/sp2bench/RDFBenchMain.scala" />
+        <option value="$PROJECT_DIR$/build.sbt" />
+        <option value="$PROJECT_DIR$/run_queries.sh" />
+        <option value="$PROJECT_DIR$/src/main/scala/ee/ut/cs/bigdata/sp2bench/csv/WPTTables2.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/ee/ut/cs/bigdata/sp2bench/queries/WPTQueries.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/ee/ut/cs/bigdata/sp2bench/csv/WPTTables.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/ee/ut/cs/bigdata/sp2bench/csv/Tests.scala" />
+      </list>
+    </option>
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="$PROJECT_DIR$/.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" x="40" y="23" width="900" height="1137" />
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" />
+    <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="RDFBenchmarkingProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ProjectSourceCode" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="RDFBenchmarkingProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ProjectSourceCode" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="RDFBenchmarkingProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ProjectSourceCode" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="RDFBenchmarkingProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ProjectSourceCode" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="RDFBenchmarkingProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ProjectSourceCode" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="sp2bench" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="RDFBenchmarkingProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ProjectSourceCode" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="sp2bench" type="462c0819:PsiDirectoryNode" />
+              <item name="csv" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="50676000" />
+  </component>
+  <component name="ToolWindowManager">
+    <layout>
+      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="bottom" id="Internal Method Tracing" order="9" />
+      <window_info anchor="bottom" id="Build" order="7" weight="0.31209505" />
+      <window_info id="Designer" order="2" />
+      <window_info anchor="bottom" id="Flow" order="10" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="bottom" id="SBT Console" order="11" weight="0.3290653" />
+      <window_info anchor="right" id="sbt" order="5" />
+      <window_info anchor="bottom" id="sbt-shell-toolwindow" order="18" weight="0.21515435" />
+      <window_info anchor="bottom" id="TypeScript" order="12" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.2385407" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Event Log" order="20" side_tool="true" weight="0.2160898" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="19" weight="0.3290653" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="internal-profiler" order="15" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Project Problems" order="13" />
+      <window_info anchor="bottom" id="Database Changes" order="14" />
+      <window_info anchor="bottom" id="Version Control" order="21" weight="0.3695042" />
+      <window_info anchor="right" id="Ant" order="8" />
+      <window_info id="Commit" order="7" weight="0.3049922" />
+      <window_info anchor="right" id="Gradle" order="7" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14309032" />
+      <window_info anchor="bottom" id="Endpoints" order="16" show_stripe_button="false" />
+      <window_info anchor="right" id="Database" order="9" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info id="Image Layers" order="3" />
+      <window_info anchor="right" id="Palette&#9;" order="10" />
+      <window_info anchor="right" id="Theme Preview" order="12" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Problems View" order="8" />
+      <window_info anchor="bottom" id="Services" order="17" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="right" id="Bean Validation" order="11" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3975678" />
+    </layout>
+    <layout-to-restore>
+      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="bottom" id="Build" order="7" weight="0.31209505" />
+      <window_info id="Designer" order="2" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="bottom" id="SBT Console" order="8" weight="0.3290653" />
+      <window_info anchor="right" id="sbt" order="5" />
+      <window_info anchor="bottom" id="sbt-shell-toolwindow" order="9" weight="0.42765686" />
+      <window_info id="Image Layers" order="3" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.9372599" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.3290653" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" order="12" />
+      <window_info anchor="right" id="Gradle" order="7" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.19808307" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Theme Preview" order="9" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39949748" />
+    </layout-to-restore>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/ee/ut/cs/bigdata/sp2bench/csv/TESTTEST.scala" />
+    <entry file="file://$PROJECT_DIR$/src/main/scala/ee/ut/cs/bigdata/sp2bench/hive/TESTTEST.scala" />
+    <entry file="file://$PROJECT_DIR$/src/main/scala/ee/ut/cs/bigdata/sp2bench/avro/ProertyTables.scala" />
+    <entry file="file://$PROJECT_DIR$/src/main/scala/ee/ut/cs/bigdata/sp2bench/avro/SingleStatementTable.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+          <folding>
+            <element signature="e#40#79#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/ee/ut/cs/bigdata/sp2bench/avro/VerticalTables.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="29" column="41" lean-forward="true" selection-start-line="29" selection-start-column="41" selection-end-line="29" selection-end-column="41" />
+          <folding>
+            <element signature="e#43#82#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/ee/ut/cs/bigdata/sp2bench/csv/ProertyTables.scala" />
+    <entry file="file://$PROJECT_DIR$/src/main/scala/ee/ut/cs/bigdata/sp2bench/hive/SingleStatementTable.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="20" column="16" lean-forward="true" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
+          <folding>
+            <element signature="e#40#79#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/ee/ut/cs/bigdata/sp2bench/hive/ProertyTables.scala" />
+    <entry file="file://$PROJECT_DIR$/src/main/scala/ee/ut/cs/bigdata/sp2bench/hive/VerticalTables.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="40" column="53" selection-start-line="40" selection-start-column="53" selection-end-line="40" selection-end-column="53" />
+          <folding>
+            <element signature="e#45#84#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/ee/ut/cs/bigdata/sp2bench/orc/ProertyTables.scala" />
+    <entry file="file://$PROJECT_DIR$/src/main/scala/ee/ut/cs/bigdata/sp2bench/orc/SingleStatementTable.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="35" lean-forward="true" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="35" />
+          <folding>
+            <element signature="e#39#78#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/ee/ut/cs/bigdata/sp2bench/parquet/ProertyTables.scala" />
+    <entry file="file://$PROJECT_DIR$/src/main/scala/ee/ut/cs/bigdata/sp2bench/orc/VerticalTables.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="263">
+          <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
+          <folding>
+            <element signature="e#42#81#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/ee/ut/cs/bigdata/sp2bench/postgresql/ProertyTables.scala" />
+    <entry file="file://$PROJECT_DIR$/src/main/scala/ee/ut/cs/bigdata/sp2bench/parquet/SingleStatementTable.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="239">
+          <caret line="39" column="27" lean-forward="true" selection-start-line="39" selection-start-column="27" selection-end-line="39" selection-end-column="27" />
+          <folding>
+            <element signature="e#43#82#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/ee/ut/cs/bigdata/sp2bench/postgresql/SingleStatementTable.scala" />
+    <entry file="file://$PROJECT_DIR$/src/main/scala/ee/ut/cs/bigdata/sp2bench/postgresql/VerticalTables.scala" />
+    <entry file="file://$PROJECT_DIR$/src/main/scala/ee/ut/cs/bigdata/sp2bench/parquet/VerticalTables.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+          <folding>
+            <element signature="e#46#85#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/ee/ut/cs/bigdata/sp2bench/queries/PTQueries.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/ee/ut/cs/bigdata/sp2bench/queries/STQueries.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="650">
+          <caret line="50" column="10" selection-start-line="50" selection-start-column="10" selection-end-line="50" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/ee/ut/cs/bigdata/sp2bench/queries/VTQueries.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="143">
+          <caret line="11" selection-start-line="11" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/ee/ut/cs/bigdata/sp2bench/SplitWPTTable.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="302">
+          <caret line="110" selection-start-line="110" selection-end-line="110" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/target/streams/runtime/exportedProducts/$global/streams/export" />
+    <entry file="file://$PROJECT_DIR$/src/main/scala/ee/ut/cs/bigdata/sp2bench/CreateWPTTable.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="30" column="20" lean-forward="true" selection-start-line="30" selection-start-column="20" selection-end-line="30" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/java-8-openjdk/jre/lib/rt.jar!/java/io/FileOutputStream.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/ee/ut/cs/bigdata/sp2bench/csv/VerticalTables2.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="13">
+          <caret line="8" column="7" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/ee/ut/cs/bigdata/sp2bench/csv/SingleStatementTable.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="457">
+          <caret line="37" selection-start-line="37" selection-end-line="38" />
+          <folding>
+            <element signature="e#39#78#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/ee/ut/cs/bigdata/sp2bench/csv/PropertyTables.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="107" column="89" selection-start-line="107" selection-start-column="89" selection-end-line="107" selection-end-column="89" />
+          <folding>
+            <element signature="e#39#78#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/ee/ut/cs/bigdata/sp2bench/csv/VerticalTablesPartition.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="52">
+          <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/ee/ut/cs/bigdata/sp2bench/RDFBenchMain.scala" />
+    <entry file="jar://$USER_HOME$/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.8/scala-library-2.12.8-sources.jar!/scala/Option.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="793">
+          <caret line="355" selection-start-line="355" selection-end-line="355" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/spark/spark-core_2.12/2.4.2/spark-core_2.12-2.4.2-sources.jar!/org/apache/spark/SparkConf.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="347">
+          <caret line="114" column="6" lean-forward="true" selection-start-line="114" selection-start-column="6" selection-end-line="114" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/spark/spark-sql_2.12/2.4.2/spark-sql_2.12-2.4.2-sources.jar!/org/apache/spark/sql/SparkSession.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="347">
+          <caret line="856" column="8" lean-forward="true" selection-start-line="856" selection-start-column="8" selection-end-line="856" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.8/scala-library-2.12.8-sources.jar!/scala/Unit.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="26" column="44" lean-forward="true" selection-start-line="26" selection-start-column="44" selection-end-line="26" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/spark/spark-sql_2.12/2.4.2/spark-sql_2.12-2.4.2-sources.jar!/org/apache/spark/sql/DataFrameReader.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="339">
+          <caret line="111" column="6" selection-start-line="111" selection-start-column="6" selection-end-line="111" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/run_queries.sh" />
+    <entry file="file://$PROJECT_DIR$/build.sbt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/spark/spark-sql_2.12/2.4.2/spark-sql_2.12-2.4.2-sources.jar!/org/apache/spark/sql/Dataset.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="454">
+          <caret line="3094" column="29" selection-start-line="3094" selection-start-column="6" selection-end-line="3094" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.8/scala-library-2.12.8-sources.jar!/scala/Predef.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="454">
+          <caret line="396" column="6" lean-forward="true" selection-start-line="396" selection-start-column="6" selection-end-line="396" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/ee/ut/cs/bigdata/sp2bench/csv/VerticalTables.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="643">
+          <caret line="133" lean-forward="true" selection-start-line="133" selection-end-line="133" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.8/scala-library-2.12.8-sources.jar!/scala/Console.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="445">
+          <caret line="167" selection-start-line="167" selection-end-line="167" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/ee/ut/cs/bigdata/sp2bench/csv/WPTTables2.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="598">
+          <caret line="52" column="37" selection-start-line="52" selection-start-column="27" selection-end-line="52" selection-end-column="37" />
+          <folding>
+            <element signature="e#39#78#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/ee/ut/cs/bigdata/sp2bench/csv/WPTTables.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2249">
+          <caret line="179" selection-start-line="179" selection-end-line="180" />
+          <folding>
+            <element signature="e#39#78#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/ee/ut/cs/bigdata/sp2bench/queries/WPTQueries.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="663">
+          <caret line="51" column="6" selection-start-line="51" selection-start-column="6" selection-end-line="51" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/ee/ut/cs/bigdata/sp2bench/csv/Tests.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="34" column="36" lean-forward="true" selection-start-line="34" selection-start-column="36" selection-end-line="34" selection-end-column="36" />
+          <folding>
+            <element signature="e#39#78#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

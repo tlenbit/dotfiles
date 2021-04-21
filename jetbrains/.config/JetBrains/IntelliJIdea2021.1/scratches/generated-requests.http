@@ -1,0 +1,8 @@
+###
+POST http://localhost/api/suppliers/invoice/submit
+
+###
+GET http://localhost/api/plants
+
+###
+GET http://localhost/api/requests/{{id}}

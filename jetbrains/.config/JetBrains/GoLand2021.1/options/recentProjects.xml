@@ -1,0 +1,249 @@
+<application>
+  <component name="RecentProjectsManager">
+    <option name="additionalInfo">
+      <map>
+        <entry key="$USER_HOME$/code/codesearch">
+          <value>
+            <RecentProjectMetaInfo frameTitle="codesearch" projectWorkspaceId="1kE9IitaHRfMQRcM25LMaqAAuk8">
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="GO-203.5981.98" />
+              <option name="buildTimestamp" value="1606278433137" />
+              <frame x="40" y="23" width="1840" height="1017" />
+              <option name="productionCode" value="GO" />
+              <option name="projectOpenTimestamp" value="1610544973393" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/ut/ALG/exam">
+          <value>
+            <RecentProjectMetaInfo frameTitle="exam" projectWorkspaceId="1mq6buVJu56HchrwQCmNWCZoaqV">
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="GO-203.6682.164" />
+              <option name="buildTimestamp" value="1609208591636" />
+              <frame x="40" y="23" width="1840" height="1017" />
+              <option name="productionCode" value="GO" />
+              <option name="projectOpenTimestamp" value="1610916405628" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/code/books">
+          <value>
+            <RecentProjectMetaInfo frameTitle="books – books.go" projectWorkspaceId="1nFyDX86fK9Qa9wDQeZ6DZlcLUZ">
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="GO-203.6682.164" />
+              <option name="buildTimestamp" value="1609208630533" />
+              <frame x="40" y="23" width="1840" height="1017" />
+              <option name="productionCode" value="GO" />
+              <option name="projectOpenTimestamp" value="1611037762590" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/code/charm">
+          <value>
+            <RecentProjectMetaInfo frameTitle="charm – ui.go" projectWorkspaceId="1nJWZME3cGH1u9nqG0mOugOgRfV">
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="GO-203.6682.164" />
+              <option name="buildTimestamp" value="1609208599028" />
+              <frame x="39" y="22" width="1842" height="1019" />
+              <option name="productionCode" value="GO" />
+              <option name="projectOpenTimestamp" value="1611131231323" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/code/lf">
+          <value>
+            <RecentProjectMetaInfo frameTitle="lf – main.go" projectWorkspaceId="1n9W5cYjsPIUTcO45trw09qXlNx">
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="GO-203.6682.164" />
+              <option name="buildTimestamp" value="1609208604201" />
+              <frame x="40" y="23" width="1840" height="1017" />
+              <option name="productionCode" value="GO" />
+              <option name="projectOpenTimestamp" value="1611182512190" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/code/cs">
+          <value>
+            <RecentProjectMetaInfo frameTitle="cs [~/code/cs] – .../main.go" projectWorkspaceId="1nFwPK1Cdxiq1M5qvrK21PChiZc">
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="GO-203.6682.164" />
+              <option name="buildTimestamp" value="1609208604133" />
+              <frame x="979" y="22" width="902" height="1019" />
+              <option name="productionCode" value="GO" />
+              <option name="projectOpenTimestamp" value="1611738963514" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/code/go-rest-server">
+          <value>
+            <RecentProjectMetaInfo frameTitle="go-rest-server [~/code/go-rest-server]" projectWorkspaceId="1nmYUx4UCrQzx49cBP56xSfDP5Z">
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="GO-203.6682.164" />
+              <option name="buildTimestamp" value="1609208631787" />
+              <frame x="1299" y="22" width="1222" height="1379" />
+              <option name="productionCode" value="GO" />
+              <option name="projectOpenTimestamp" value="1611996752299" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/code/seneca">
+          <value>
+            <RecentProjectMetaInfo frameTitle="seneca [~/code/seneca] – .../pkg/app/add.go" projectWorkspaceId="1nFsaleC2j3fggAoRa2bbCkhCDy">
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="GO-203.7148.71" />
+              <option name="buildTimestamp" value="1611693575777" />
+              <frame x="40" y="23" width="1840" height="1017" />
+              <option name="productionCode" value="GO" />
+              <option name="projectOpenTimestamp" value="1613157675059" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/code/gosketches">
+          <value>
+            <RecentProjectMetaInfo frameTitle="gosketches [~/code/gosketches] – .../crossref.go" projectWorkspaceId="1oOc1clc50lzrfyE4Moy26hyeGQ">
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="GO-203.7148.71" />
+              <option name="buildTimestamp" value="1611693572500" />
+              <frame x="40" y="23" width="1840" height="1017" />
+              <option name="productionCode" value="GO" />
+              <option name="projectOpenTimestamp" value="1613160892248" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/code/glow">
+          <value>
+            <RecentProjectMetaInfo frameTitle="glow [~/code/glow] – .../main.go" projectWorkspaceId="1nJSi7PjFX51ze5PraQdYDsgcaz">
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="GO-203.7148.71" />
+              <option name="buildTimestamp" value="1611693542017" />
+              <frame x="40" y="23" width="1840" height="1017" />
+              <option name="productionCode" value="GO" />
+              <option name="projectOpenTimestamp" value="1613905300286" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/projects/hacks/dotstreak">
+          <value>
+            <RecentProjectMetaInfo frameTitle="dotstreak [~/projects/hacks/dotstreak] – .../main.go" projectWorkspaceId="1pF55Nhg8a9uhOPivIWxycPEyOS">
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="GO-203.7148.71" />
+              <option name="buildTimestamp" value="1611693575771" />
+              <frame x="230" y="35" width="1460" height="1010" />
+              <option name="productionCode" value="GO" />
+              <option name="projectOpenTimestamp" value="1614765814584" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/projects/courses/MIT_6.824/6.824">
+          <value>
+            <RecentProjectMetaInfo frameTitle="6.824 [~/projects/courses/MIT_6.824/6.824] – .../mr/coordinator.go" projectWorkspaceId="1pmsXJbaXRTqWG9sFAFJ44bRaos">
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="GO-203.7717.15" />
+              <option name="buildTimestamp" value="1614601421573" />
+              <frame x="230" y="20" width="1460" height="1025" />
+              <option name="productionCode" value="GO" />
+              <option name="projectOpenTimestamp" value="1615799469257" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/code/btree">
+          <value>
+            <RecentProjectMetaInfo frameTitle="btree [~/code/btree] – .../btree.go" projectWorkspaceId="1q72TQRycGd8mo6D0GTaA362Yok">
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="GO-203.7717.58" />
+              <option name="buildTimestamp" value="1615805222734" />
+              <frame x="230" y="20" width="1460" height="1025" />
+              <option name="productionCode" value="GO" />
+              <option name="projectOpenTimestamp" value="1616420589102" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/code/fasttemplate">
+          <value>
+            <RecentProjectMetaInfo frameTitle="fasttemplate [~/code/fasttemplate] – .../example_test.go" projectWorkspaceId="1pyuK9dVMwu3N6t545URdymwsLR">
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="GO-203.7717.58" />
+              <option name="buildTimestamp" value="1615805277442" />
+              <frame x="230" y="20" width="1460" height="1025" />
+              <option name="productionCode" value="GO" />
+              <option name="projectOpenTimestamp" value="1616495553182" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/code/btree-benchmark">
+          <value>
+            <RecentProjectMetaInfo frameTitle="btree-benchmark [~/code/btree-benchmark] – .../splitlist.go" projectWorkspaceId="1q73Vbz4N9hXp3Jk6hNUZYlhrqB">
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="GO-203.7717.58" />
+              <option name="buildTimestamp" value="1615805239596" />
+              <frame x="230" y="20" width="1460" height="1025" />
+              <option name="productionCode" value="GO" />
+              <option name="projectOpenTimestamp" value="1616505785010" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/projects/lao">
+          <value>
+            <RecentProjectMetaInfo frameTitle="lao [~/projects/lao] – .../lib/storage/renderer.go" projectWorkspaceId="1mhQKag76IxgaE3qvjcQ5GPebZ8">
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="GO-203.7717.58" />
+              <option name="buildTimestamp" value="1615805223521" />
+              <frame x="230" y="19" width="1460" height="1026" />
+              <option name="productionCode" value="GO" />
+              <option name="projectOpenTimestamp" value="1616920703203" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/code/witchcraft_golang">
+          <value>
+            <RecentProjectMetaInfo frameTitle="witchcraft_golang [~/code/witchcraft_golang] – .../src/orderedmap.go" projectWorkspaceId="1pz6BVF8UwNEIVIFh50mkr6sZgl">
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="GO-203.7717.58" />
+              <option name="buildTimestamp" value="1615805232230" />
+              <frame x="230" y="19" width="1460" height="1026" />
+              <option name="productionCode" value="GO" />
+              <option name="projectOpenTimestamp" value="1617371355171" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/code/jsonparser">
+          <value>
+            <RecentProjectMetaInfo frameTitle="jsonparser [~/code/jsonparser] – .../README.md" projectWorkspaceId="1qWaGwOEhnH5XCsqYRndYCgvMbd">
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="GO-203.7717.58" />
+              <option name="buildTimestamp" value="1615805244632" />
+              <frame x="230" y="19" width="1460" height="1026" />
+              <option name="productionCode" value="GO" />
+              <option name="projectOpenTimestamp" value="1617803962542" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/code/goexperiments">
+          <value>
+            <RecentProjectMetaInfo frameTitle="goexperiments [~/code/goexperiments] – .../demos/chat.go" projectWorkspaceId="1qWbt2bDEY2dtXwEwRiPGNVnXax">
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="GO-211.6693.119" />
+              <option name="buildTimestamp" value="1617762590468" />
+              <frame x="230" y="19" width="1460" height="1026" />
+              <option name="productionCode" value="GO" />
+              <option name="projectOpenTimestamp" value="1618552954572" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/projects/algorithms">
+          <value>
+            <RecentProjectMetaInfo frameTitle="algorithms [~/projects/algorithms] – .../leetcode/0746.go" opened="true" projectWorkspaceId="1dWzvFkXQSjK7ATGDQoT0Rf3Sas">
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="GO-211.6693.119" />
+              <option name="buildTimestamp" value="1617762547586" />
+              <frame x="230" y="19" width="2100" height="1386" />
+              <option name="productionCode" value="GO" />
+              <option name="projectOpenTimestamp" value="1618587209512" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="lastProjectLocation" value="$USER_HOME$/go/src" />
+  </component>
+</application>

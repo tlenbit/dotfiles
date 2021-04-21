@@ -1,0 +1,3 @@
+SELECT * FROM CONSTRUCTION_SIT;
+;-- -. . -..- - / . -. - .-. -.--
+SELECT * FROM CONSTRUCTION_SITE;

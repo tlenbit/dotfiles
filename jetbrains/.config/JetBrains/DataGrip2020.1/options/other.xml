@@ -1,0 +1,25 @@
+<application>
+  <component name="NotRoamableUiSettings">
+    <option name="ideAAType" value="Greyscale" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DBE.Init.Cfg.1" value="true" />
+    <property name="DBE.Init.DialogShown.Ide" value="true" />
+    <property name="MarketplacePluginsSearchHistory" value="jake&#10;ja" />
+    <property name="NonModalCommitCustomization.IsApplied" value="true" />
+    <property name="SqlStructureView.filterD.file.structure.state" value="true" />
+    <property name="UITheme.relaunch" value="true" />
+    <property name="appcds.runOnSecondStart" value="DB-201.6668.99-9491888a7364b196163c2a0b5433a22f4985655ecafc83b6b62f97623bbf5414" />
+    <property name="ask.about.ctrl.y.shortcut" value="true" />
+    <property name="com.intellij.database.actions.DdlActions$CreateObject$1.previewExpanded" value="true" />
+    <property name="com.intellij.database.actions.DdlActions$DeleteProvider2$1.previewExpanded" value="true" />
+    <property name="database.data.extractors.output.dir" value="" />
+    <property name="database.notebook.setting.id" value="7fc6169b-73af-4d1e-8355-035295f45382" />
+    <property name="evlsprt3.201" value="13" />
+    <property name="file.gist.reindex.count" value="210" />
+    <property name="ide.memory.adjusted" value="true" />
+    <property name="lastSeenTip" value="neue-CompareTableStructuresAndContent.html" />
+    <property name="lastTimeTipsWereShown" value="1587194133414" />
+    <property name="seenTips" value="neue-CompareTableStructuresAndContent.html" />
+  </component>
+</application>

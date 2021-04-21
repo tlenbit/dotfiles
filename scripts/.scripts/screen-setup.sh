@@ -28,6 +28,12 @@ function run_conky() {
 	conky -q -d
 }
 
+function set_wallpaper() {
+	WALLPAPER_DIR=$HOME/.wallpapers
+	hsetroot -cover "$WALLPAPER_DIR/$(ls $WALLPAPER_DIR | sort -R | head -1)" # set random wallpaper from folder
+}
+
 run_polybar
 run_picom
+set_wallpaper
 # run_conky

@@ -1,0 +1,18 @@
+<keymap version="1" name="Sublime Text copy" parent="Sublime Text">
+  <action id="$LRU">
+    <keyboard-shortcut first-keystroke="shift ctrl o" />
+  </action>
+  <action id="CommentByLineComment">
+    <keyboard-shortcut first-keystroke="ctrl #10000d1" />
+  </action>
+  <action id="Editor LRU">
+    <keyboard-shortcut first-keystroke="shift ctrl o" />
+  </action>
+  <action id="ExternalSystem.ProjectRefreshAction" />
+  <action id="Tool_External Tools_External Terminal">
+    <keyboard-shortcut first-keystroke="shift ctrl #10000d1" />
+  </action>
+  <action id="Tool_External Tools_Quick File Manager">
+    <keyboard-shortcut first-keystroke="alt #10000d1" />
+  </action>
+</keymap>

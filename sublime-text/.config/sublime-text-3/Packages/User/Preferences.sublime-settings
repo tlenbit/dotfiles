@@ -30,7 +30,7 @@
 	"overlay_scroll_bars": "enabled",
 	"spell_check": false,
 	"tab_size": 2,
-	"theme": "Cyanide - Golden.sublime-theme",
+	"theme": "ayu-dark.sublime-theme",
 	"ui_separator": false,
 	"viewer": "zathura",
 	"word_wrap": false

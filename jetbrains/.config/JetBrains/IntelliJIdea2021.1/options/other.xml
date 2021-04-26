@@ -28,7 +28,7 @@
     </trackers>
   </component>
   <component name="PropertiesComponent">
-    <property name="AFTER.DISTRACTION.MODE.ARE_GUTTER_ICONS_SHOWN" value="false" />
+    <property name="AFTER.DISTRACTION.MODE.ARE_GUTTER_ICONS_SHOWN" value="true" />
     <property name="AFTER.DISTRACTION.MODE.ARE_LINE_NUMBERS_SHOWN" value="true" />
     <property name="AFTER.DISTRACTION.MODE.EDITOR_TAB_PLACEMENT" value="3" />
     <property name="AFTER.DISTRACTION.MODE.HIDE_TOOL_STRIPES" value="true" />
@@ -49,12 +49,12 @@
     <property name="BEFORE.DISTRACTION.MODE.IS_INDENT_GUIDES_SHOWN" value="true" />
     <property name="BEFORE.DISTRACTION.MODE.IS_RIGHT_MARGIN_SHOWN" value="false" />
     <property name="BEFORE.DISTRACTION.MODE.IS_WHITESPACES_SHOWN" value="false" />
-    <property name="BEFORE.DISTRACTION.MODE.SHOW_BREADCRUMBS" value="true" />
+    <property name="BEFORE.DISTRACTION.MODE.SHOW_BREADCRUMBS" value="false" />
     <property name="BEFORE.DISTRACTION.MODE.SHOW_MAIN_TOOLBAR" value="false" />
     <property name="BEFORE.DISTRACTION.MODE.SHOW_METHOD_SEPARATORS" value="false" />
-    <property name="BEFORE.DISTRACTION.MODE.SHOW_NAVIGATION_BAR" value="false" />
+    <property name="BEFORE.DISTRACTION.MODE.SHOW_NAVIGATION_BAR" value="true" />
     <property name="BEFORE.DISTRACTION.MODE.SHOW_STATUS_BAR" value="false" />
-    <property name="BuildView.Splitter.Proportion" value="0.22549494" />
+    <property name="BuildView.Splitter.Proportion" value="0.16129032" />
     <property name="ColorChooser.RecentColors" value="214-87-88-255,,,255-70-60-255,,,226-92-106-255,,,126-129-131-255,,,142-146-148-255,,,133-133-136-255,,,171-171-175-255,,,189-189-193-255,,,204-204-209-255,,,193-193-193-255,,,218-218-218-255,,,229-229-229-255,,,229-48-62-255,,,229-0-28-255,,,120-120-125-255,,,133-133-139-255,,,255-0-42-255,,,203-203-203-255,,,255-255-255-255,,,225-225-225-255" />
     <property name="CommitChangeListDialog.DETAILS_SPLITTER_PROPORTION_2" value="0.6056911" />
     <property name="DBE.Default.Dialect" value="" />
@@ -73,7 +73,7 @@
     <property name="InstalledPluginsSearchHistory" value="tabs&#10;remote hosts&#10;remote hos&#10;remote ho&#10;remote h" />
     <property name="JUnit.Splitter.Proportion" value="0.12050573" />
     <property name="JUnitSupport.hidePassedTests" value="false" />
-    <property name="KEYMAP" value="replace&#10;open recent&#10;external termin&#10;comment" />
+    <property name="KEYMAP" value="build&#10;replace&#10;open recent&#10;external termin&#10;comment" />
     <property name="LAST_INJECTED_LANGUAGE" value="JSON" />
     <property name="LiveContextsPanel[0]" value="0.110558316" />
     <property name="MarketplacePluginsSearchHistory" value="icons&#10;shader&#10;fragmen&#10;fra&#10;vim" />
@@ -86,10 +86,10 @@
     <property name="SAVED_ANDROID_PACKAGE" value="com.example" />
     <property name="SHELLCHECK.PATH" value="$APPLICATION_PLUGINS_DIR$/Shell Script/shellcheck" />
     <property name="SHFMT.PATH" value="$APPLICATION_PLUGINS_DIR$/Shell Script/shfmt" />
-    <property name="SettingsSearchHistory" value="render space&#10;spaces&#10;tabs&#10;tab position&#10;zen" />
+    <property name="SettingsSearchHistory" value="extern&#10;external&#10;render space&#10;spaces&#10;tabs" />
     <property name="SpringBeansModulesPanel[0]" value="0.10881393" />
     <property name="UITheme.relaunch" value="true" />
-    <property name="appcds.runOnSecondStart" value="IU-211.6693.111-951c61d12cf1edf4830ab8f200654f30d7b3c744ca2d9983e2f0d54418ed8453" />
+    <property name="appcds.runOnSecondStart" value="IU-211.6693.111-38bde1ed8f9b628947c1ffb4652cbc482013b32663f776c6e4d79e1accda855a" />
     <property name="ask.about.ctrl.y.shortcut" value="true" />
     <property name="build.toolwindow.Build Output.selection.state" value="com.intellij.build.BuildTreeConsoleView" />
     <property name="build.toolwindow.Sync.selection.state" value="com.intellij.build.BuildTreeConsoleView" />
@@ -108,10 +108,12 @@
     <property name="evlsprt3.211" value="10" />
     <property name="experimentalFeature.run.targets" value="true" />
     <property name="file.chooser.recent.files" value="$USER_HOME$/ut/titanium-json-ld&#10;/home/jc/ut/jena&#10;/home/jc/ut/jena-examples&#10;/home/jc/ut/sw/apache-jena-3.17.0/src-examples/jena-examples&#10;/home/jc/Desktop/mnt/ut.xroad/ubuntu/kafkademo&#10;/home/jc/Desktop/mnt/ut.xroad/ubuntu/X-Road/src&#10;/home/jc/Downloads&#10;/home/jc/Desktop/mnt/ut.xroad/ubuntu/X-Road/src/proxy&#10;/home/jc/Desktop/mnt/ut.cluster.1.master/hadoop/SPARKSQLRDFBenchmarking/ProjectSourceCode&#10;/home/jc/Desktop/mnt/ut.cluster.1.master/hadoop/SPARKSQLRDFBenchmarking/S2RDFDataGeneration&#10;/home/jc/Desktop/mnt/ut.cluster.1.master/hadoop/generator/S2RDFDataGeneration&#10;/home/jc/Downloads/S2RDFDataGeneration&#10;/home/jc/Desktop/mnt/ut.cluster.1.master/hadoop/RDFBenchMarking/ProjectSourceCode&#10;/home/jc/Projects/sparkql-banchmark/SPARKSQLRDFBenchmarking/ProjectSourceCode[Centeralized]&#10;/home/jc/Downloads/pastel&#10;/home/jc/Documents/projects/rustlings&#10;/home/jc/Downloads/rust_graphs&#10;/home/jc/Documents/projects/toydb&#10;/home/jc/Desktop/rust/rbe-1&#10;/home/jc/Desktop/java/heatmap-alert-app&#10;/home/jc/Downloads/esi/esi-demo-20&#10;/home/jc/Downloads/esi/esi2020-group-project/HW3/RentIT&#10;/home/jc/Desktop/java/enterprise-system-integration-project-javaspring/HW3/RentIT/back-end&#10;/home/jc/Downloads/esi/spring-hateoas-examples&#10;/home/jc/Desktop/java/heatmap-alert-app/event-source/pom.xml&#10;/home/jc/Desktop/java/flink-prometheus-example&#10;/home/jc/Desktop/java/fraud-detection-demo&#10;/home/jc/Desktop/java/flink-twitter-stream&#10;/home/jc/Desktop/java/streaming-with-flink-examples&#10;/home/jc/Desktop/java/flink-batch-movies" />
-    <property name="file.gist.reindex.count" value="22648" />
+    <property name="file.gist.reindex.count" value="23068" />
     <property name="fileTypeChangedCounter" value="11" />
     <property name="fileTypeDetectors" value="com.intellij.database.vfs.DbStorageFileType$Detector:com.intellij.ide.scratch.ScratchFileServiceImpl$Detector:com.intellij.javascript.debugger.sourcemap.SourceMapFileType$MyFileTypeDetector:com.intellij.profiler.ultimate.hprof.impl.HprofFileTypeDetector:com.jetbrains.nodejs.util.NodeFileTypeDetector$JavaScriptFileTypeDetector:com.jetbrains.nodejs.util.NodeFileTypeDetector$TypeScriptFileTypeDetector" />
     <property name="got.it.tooltip.cwm.invitation.notification" value="1" />
+    <property name="got.it.tooltip.fragment.hidden.redirectInput" value="1" />
+    <property name="got.it.tooltip.fragment.hidden.vmParameters" value="1" />
     <property name="got.it.tooltip.reader.mode.got.it" value="1" />
     <property name="ide.memory.adjusted" value="true" />
     <property name="ide.updates.previous.build.number" value="IU-211.6693.111" />
@@ -131,7 +133,7 @@
     <property name="org.rust.LAST_UPDATE" value="1596796933412" />
     <property name="packagesearch.endpoint.url.fulltext" value="https://package-search.services.jetbrains.com/api/search/idea/fulltext" />
     <property name="packagesearch.endpoint.url.suggest" value="https://package-search.services.jetbrains.com/api/search/idea/suggest" />
-    <property name="packagesearch.status.updated.ts" value="1618467625134" />
+    <property name="packagesearch.status.updated.ts" value="1619155738030" />
     <property name="project.wizard.group" value="org.jetbrains.idea.maven.wizards.InternalMavenModuleBuilder" />
     <property name="project.wizard.template" value="JavaScript" />
     <property name="quick.doc.font.size.v3" value="MEDIUM" />

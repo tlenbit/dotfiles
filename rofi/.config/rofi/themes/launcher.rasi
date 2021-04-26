@@ -1,5 +1,5 @@
 configuration {
-  font: "Iosevka Extended 11";
+  font: "Iosevka Medium 11";
   show-icons: true;
   icon-theme: "Papirus";
   display-drun: "";

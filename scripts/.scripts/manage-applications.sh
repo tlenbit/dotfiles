@@ -8,7 +8,7 @@ function ssh_on_directory() {
 	host_dir=`echo "$1" | awk -F "$HOME/.mnt/" '{print $2}'`
 
 	if [ -z "$host_dir" ];then
-		send_notification "Can't SSH"
+		notify-send "Can't SSH"
 		exit
 	fi
 
@@ -27,7 +27,7 @@ function ssh_on_directory() {
 
 function launch_timidity() {
 	if pgrep timidity; then
-		send_notification "Timidity is already running"
+		notify-send "Timidity is already running"
 		exit 0
 	fi
 
@@ -52,17 +52,17 @@ function launch_timidity() {
 	sleep 0.3
 	aconnect 20:0 128:0
 
-	send_notification "Timidity started"
+	notify-send "Timidity started"
 }
 
 function launch_docker() {
 	if sudo systemctl is-active docker.service; then
-		send_notification "Docker ir already running"
+		notify-send "Docker ir already running"
 		exit 0
 	fi
 
 	sudo systemctl start docker.service
-	send_notification "Docker started"
+	notify-send "Docker started"
 }
 
 function launch_insomnia() {
@@ -71,7 +71,7 @@ function launch_insomnia() {
 
 function launch_transmission() {
 	if pgrep transmission-da; then
-		send_notification "Transmission is already running"
+		notify-send "Transmission is already running"
 		exit 0
 	fi
 
@@ -80,19 +80,19 @@ function launch_transmission() {
 	transmission_user="admin"
 
 	transmission-daemon --auth --username "$transmission_user" --password "$transmission_user" --port "$transmission_port" --allowed "$transmission_host"
-	send_notification "Transmission started at $transmission_host:$transmission_port ($transmission_user)"
+	notify-send "Transmission started at $transmission_host:$transmission_port ($transmission_user)"
 }
 
 function launch_webdav() {
 	if pgrep webdav; then
-		send_notification "Webdav is already running"
+		notify-send "Webdav is already running"
 		exit 0
 	fi
 
-	webdav_port="8888"
+	webdav_port="6666"
 
 	webdav --config $HOME/.config/webdav.yml --port $webdav_port </dev/null &>/dev/null &
-	send_notification "Webdav started at :$webdav_port"
+	notify-send "Webdav started at :$webdav_port"
 }
 
 function launch_clickup() {

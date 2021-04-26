@@ -1,3 +1,6 @@
+#--------------#
+#   DEFAULTS   #
+#--------------#
 set $mod Mod4
 font pango:Curie 8
 new_window pixel 0
@@ -6,12 +9,30 @@ floating_modifier $mod
 workspace_auto_back_and_forth yes
 workspace_layout tabbed
 
-gaps inner 10
-gaps vertical 25
-gaps horizontal 220
+#--------------#
+#     GAPS     #
+#--------------#
+set $default_gaps_inner 10
+set $default_gaps_vertical 25
+set $default_gaps_horizontal 220
+set $default_gaps_outer 0
 
-# set variables
-set $term --no-startup-id alacritty
+gaps inner $default_gaps_inner
+gaps outer $default_gaps_outer
+gaps vertical $default_gaps_vertical
+gaps horizontal $default_gaps_horizontal
+
+bindsym $mod+g mode "toggle_gaps"
+mode "toggle_gaps" {
+    bindsym 1 mode "default", gaps inner current set $default_gaps_inner, gaps outer current set $default_gaps_outer, gaps vertical current set $default_gaps_vertical, gaps horizontal current set $default_gaps_horizontal
+    bindsym 2 mode "default", gaps top current set 0, gaps horizontal current set 0 
+    bindsym Return mode "default"
+    bindsym Escape mode "default"
+}
+
+#--------------#
+#  WORKSPACES  #
+#--------------#
 set $ws1 "1"
 set $ws2 "2"
 set $ws3 "3"
@@ -23,7 +44,6 @@ set $ws8 "8"
 set $ws9 "9"
 set $ws10 "10"
 
-# key bindings
 bindsym $mod+1 workspace $ws1
 bindsym $mod+2 workspace $ws2
 bindsym $mod+3 workspace $ws3
@@ -48,9 +68,8 @@ bindsym $mod+Shift+0 move container to workspace $ws10
 
 bindsym $mod+Shift+c reload
 bindsym $mod+Shift+r restart
-bindsym $mod+Ctrl+r exec --no-startup-id $HOME/.scripts/monitor-switch.sh
+bindsym $mod+Ctrl+r exec autorandr --change --default only-second
 bindsym $mod+Shift+x kill
-bindsym $mod+Shift+g gaps inner current toggle 0; gaps vertical current toggle 35; gaps horizontal current toggle 0
 
 bindsym $mod+comma                 exec i3-msg border normal 1
 bindsym --release $mod+comma       exec i3-msg border pixel 0
@@ -86,12 +105,12 @@ bindsym $mod+Shift+bar workspace next
 bindsym $mod+Shift+f floating toggle
 bindsym $mod+h split h
 bindsym $mod+v split v
-bindsym $mod+r mode "resize"
-bindsym $mod+l mode "layout"
-bindsym $mod+b mode "border"
 bindsym $mod+f fullscreen toggle
 bindsym $mod+Shift+s sticky toggle
 
+#--------------#
+# KEY BINDINGS #
+#--------------#
 bindsym $mod+c [instance="crx_kjbdgfilnfhdoflbpgamdcdgpehopbep"] scratchpad show move position center
 bindsym $mod+Shift+d [instance="crx_chhimdaamcpegdphmomkcjhlabehlnjj"] scratchpad show move position center
 bindsym $mod+a [instance="crx_heccinhogblhobdnmopadobpgidllaoc"] scratchpad show move position center
@@ -102,8 +121,8 @@ bindsym $mod+m exec --no-startup-id xfmpc
 bindsym $mod+Shift+h [class=".*"] scratchpad show
 bindsym $mod+Mod1+h move scratchpad
 
-bindsym $mod+Return exec $term
-bindsym $mod+space  exec --no-startup-id $term -e ranger
+bindsym $mod+Return exec alacritty
+bindsym $mod+space  exec alacritty -e ranger
 bindsym $mod+Shift+o open
 
 bindsym XF86MonBrightnessUp        exec --no-startup-id $HOME/.scripts/brightness.sh up
@@ -134,15 +153,12 @@ bindsym $mod+Shift+Next       exec --no-startup-id $HOME/.scripts/mpc-commands.s
 bindsym $mod+Shift+Ctrl+Prior exec --no-startup-id $HOME/.scripts/mpc-commands.sh toggle_loop_on_album
 bindsym $mod+Shift+Ctrl+Next  exec --no-startup-id $HOME/.scripts/mpc-commands.sh queue_random_track && $HOME/.scripts/mpc-commands.sh play next
 
-# screenshot bindings
-bindsym Print                 exec --no-startup-id $HOME/.scripts/screenshot.sh whole_screen_to_clipboard
-bindsym $mod+Print            exec --no-startup-id $HOME/.scripts/screenshot.sh whole_screen_to_file
-bindsym $mod+Ctrl+Print       exec --no-startup-id $HOME/.scripts/screenshot.sh whole_screen_styled_to_file
-bindsym Shift+Print           exec --no-startup-id $HOME/.scripts/screenshot.sh section_screen_to_clipboard
-bindsym $mod+Shift+Print      exec --no-startup-id $HOME/.scripts/screenshot.sh section_screen_to_file
-bindsym $mod+Shift+Ctrl+Print exec --no-startup-id $HOME/.scripts/screenshot.sh section_screen_styled_to_file
-
-# bindings for mac keyboard
+bindsym Print                       exec --no-startup-id $HOME/.scripts/screenshot.sh whole_screen_to_clipboard
+bindsym $mod+Print                  exec --no-startup-id $HOME/.scripts/screenshot.sh whole_screen_to_file
+bindsym $mod+Ctrl+Print             exec --no-startup-id $HOME/.scripts/screenshot.sh whole_screen_styled_to_file
+bindsym Shift+Print                 exec --no-startup-id $HOME/.scripts/screenshot.sh section_screen_to_clipboard
+bindsym $mod+Shift+Print            exec --no-startup-id $HOME/.scripts/screenshot.sh section_screen_to_file
+bindsym $mod+Shift+Ctrl+Print       exec --no-startup-id $HOME/.scripts/screenshot.sh section_screen_styled_to_file
 bindsym XF86LaunchA                 exec --no-startup-id $HOME/.scripts/screenshot.sh whole_screen_to_clipboard
 bindsym $mod+XF86LaunchA            exec --no-startup-id $HOME/.scripts/screenshot.sh whole_screen_to_file
 bindsym $mod+Ctrl+XF86LaunchA       exec --no-startup-id $HOME/.scripts/screenshot.sh whole_screen_styled_to_file
@@ -152,7 +168,9 @@ bindsym $mod+Shift+Ctrl+XF86LaunchA exec --no-startup-id $HOME/.scripts/screensh
 
 bindsym $mod+p exec pavucontrol
 
-# rofi
+#--------------#
+#     ROFI     #
+#--------------#
 bindsym $mod+q        exec --no-startup-id $HOME/.config/rofi/bin/launcher.sh
 bindsym $mod+Shift+p  exec --no-startup-id $HOME/.config/rofi/bin/kill-process.sh
 bindsym $mod+Shift+q  exec --no-startup-id $HOME/.config/rofi/bin/kill-apps.sh
@@ -176,21 +194,25 @@ bindsym $mod+XF86Search  exec $HOME/.cargo/bin/dotstreak finish && notify-send "
 bindsym XF86Display      exec $HOME/.cargo/bin/dotstreak tick && notify-send "Tick"
 bindsym $mod+XF86Display exec $HOME/.cargo/bin/dotstreak finish && notify-send "Finished"
 
-# resize mode
+bindsym $mod+r mode "resize"
 mode "resize" {
         bindsym Left resize shrink width 5 px or 5 ppt
         bindsym Shift+Left resize shrink width 25 px or 25 ppt
+        bindsym Ctrl+Shift+Left resize shrink width 100 px or 100 ppt
         bindsym Down resize grow height 5 px or 5 ppt
         bindsym Shift+Down resize grow height 25 px or 25 ppt
+        bindsym Ctrl+Shift+Down resize grow height 100 px or 100 ppt
         bindsym Up resize shrink height 5 px or 5 ppt
         bindsym Shift+Up resize shrink height 25 px or 25 ppt
+        bindsym Ctrl+Shift+Up resize shrink height 100 px or 100 ppt
         bindsym Right resize grow width 5 px or 5 ppt
         bindsym Shift+Right resize grow width 25 px or 25 ppt
+        bindsym Ctrl+Shift+Right resize grow width 100 px or 100 ppt
         bindsym Return mode "default"
         bindsym Escape mode "default"
 }
 
-# layout mode
+bindsym $mod+l mode "layout"
 mode "layout" {
     bindsym 1 layout stacking; mode "default"
     bindsym 2 layout tabbed; mode "default"
@@ -199,7 +221,7 @@ mode "layout" {
     bindsym Escape mode "default"
 }
 
-# border mode
+bindsym $mod+b mode "border"
 mode "border" {
     bindsym 1 border pixel 1; mode "default"
     bindsym 2 border normal 1; mode "default"
@@ -214,24 +236,16 @@ client.focused_inactive #24292e #24292e #636e72 #49483E
 client.unfocused        #24292e #24292e #636e72 #000000
 client.urgent           #E53935 #E53935 #24292e #58252B
 
-# autostart
-exec_always --no-startup-id $HOME/.scripts/mac-controls.sh
-exec_always --no-startup-id xrdb -merge $HOME/.Xresources
-
-# exec_always --no-startup-id $HOME/.scripts/screen-setup.sh
-# exec_always --no-startup-id $HOME/.scripts/monitor-switch.sh
-# exec_always setxkbmap -layout latam
-# exec_always setxkbmap -option altwin:swap_lalt_lwin
-# exec --no-startup-id $HOME/.scripts/set-wallpaper.sh
-
+exec ls $HOME/.wallpapers | sort -R | head -1 > $HOME/.wallpapers/.current_wallpaper
 exec --no-startup-id $HOME/.scripts/screen-setup.sh
+exec --no-startup-id xrdb -merge $HOME/.Xresources
 exec --no-startup-id unclutter --timeout 1 # hide mouse cursor when inactive
 exec --no-startup-id cbatticon -r 5 -l 10
 exec --no-startup-id nm-applet
 exec --no-startup-id touchegg
 
-# config apps
 assign [class="Thunar" title="File Operation Progress"] $ws10
+
 for_window [class="Alacritty" instance="texas"] floating enable move scratchpad, scratchpad show, resize set 640 450, move position center;
 for_window [class="Sxiv" instance="wallpaper-handler"] floating enable move scratchpad, scratchpad show, resize set 700 700, move position center;
 for_window [class="Thunar"] floating enable, resize shrink width 30 px or 30 ppt;

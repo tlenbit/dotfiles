@@ -232,11 +232,11 @@
         </entry>
         <entry key="$USER_HOME$/projects/algorithms">
           <value>
-            <RecentProjectMetaInfo frameTitle="algorithms [~/projects/algorithms] – .../leetcode/0746.go" opened="true" projectWorkspaceId="1dWzvFkXQSjK7ATGDQoT0Rf3Sas">
+            <RecentProjectMetaInfo frameTitle="algorithms [~/projects/algorithms] – .../leetcode/0693.go" opened="true" projectWorkspaceId="1dWzvFkXQSjK7ATGDQoT0Rf3Sas">
               <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
               <option name="build" value="GO-211.6693.119" />
               <option name="buildTimestamp" value="1617762547586" />
-              <frame x="230" y="19" width="2100" height="1386" />
+              <frame x="230" y="19" width="1460" height="1026" />
               <option name="productionCode" value="GO" />
               <option name="projectOpenTimestamp" value="1618587209512" />
             </RecentProjectMetaInfo>

@@ -1,10 +1,132 @@
 <project version="4">
   <component name="FileEditorManager">
-    <leaf />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="-1">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/apicatalog/jsonld/deseralization/JsonLdToRdf.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="770">
+              <caret line="105" selection-start-line="105" selection-end-line="105" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/apicatalog/jsonld/lang/Keywords.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1022">
+              <caret line="130" column="85" selection-start-line="130" selection-start-column="85" selection-end-line="130" selection-end-column="85" />
+              <folding>
+                <element signature="e#3129#3130#0" expanded="true" />
+                <element signature="e#3180#3181#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/apicatalog/jsonld/context/ActiveContextBuilder.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="354">
+              <caret line="462" selection-start-line="462" selection-end-line="462" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/apicatalog/jsonld/expansion/ObjectExpansion.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="358">
+              <caret line="74" column="42" selection-start-line="74" selection-start-column="42" selection-end-line="74" selection-end-column="42" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/apicatalog/jsonld/expansion/ObjectExpansion1314.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="606">
+              <caret line="71" column="38" selection-start-line="71" selection-start-column="38" selection-end-line="71" selection-end-column="38" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/apicatalog/jsonld/processor/ToRdfProcessor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="661">
+              <caret line="80" selection-start-line="80" selection-end-line="80" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/apicatalog/jsonld/processor/ExpansionProcessor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="688">
+              <caret line="119" column="38" selection-start-line="119" selection-start-column="38" selection-end-line="119" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/apicatalog/jsonld/context/ActiveContext.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="489">
+              <caret line="70" column="11" selection-start-line="70" selection-start-column="11" selection-end-line="70" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/apicatalog/jsonld/expansion/Expansion.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="177">
+              <caret line="40" column="23" selection-start-line="40" selection-start-column="16" selection-end-line="40" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/apicatalog/jsonld/test/JsonLdTestRunnerJunit.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="520">
+              <caret line="87" column="63" selection-start-line="87" selection-start-column="63" selection-end-line="87" selection-end-column="63" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>Json.createParser</find>
+      <find>createIri</find>
+      <find>toRdf</find>
+      <find>JsonLd.toRdf</find>
+      <find>@graph</find>
+    </findStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$/src/test/java/com/apicatalog/rdf/io/nquad/writer</dir>
+      <dir>$PROJECT_DIR$/src/main/java/com/apicatalog/jsonld/document</dir>
+      <dir>$PROJECT_DIR$/src/main/java/com/apicatalog/jsonld/serialization</dir>
+      <dir>$PROJECT_DIR$/src/test/java/com/apicatalog/jsonld/api</dir>
+      <dir>$PROJECT_DIR$/src/test/java/com/apicatalog/jsonld</dir>
+    </dirStrings>
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
       <option value="$PROJECT_DIR$/src/main/java/com/apicatalog/jsonld/framing/Frame.java" />
+      <option value="$PROJECT_DIR$/src/test/java/com/apicatalog/rdf/io/nquad/writer/NQuadsWriterTestSuite.java" />
+      <option value="$PROJECT_DIR$/src/test/java/com/apicatalog/jsonld/test/JsonLdTestRunnerJunit.java" />
+      <option value="$PROJECT_DIR$/src/main/java/com/apicatalog/jsonld/lang/Keywords.java" />
+      <option value="$PROJECT_DIR$/src/main/java/com/apicatalog/jsonld/deseralization/JsonLdToRdf.java" />
+      <option value="$PROJECT_DIR$/src/main/java/com/apicatalog/jsonld/expansion/Expansion.java" />
     </changedPaths>
   </component>
   <component name="IgnoredFileRootStore">
@@ -21,217 +143,48 @@
     </treeState>
   </component>
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1" />
-    <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="titanium-json-ld" type="b2602c69:ProjectViewProjectNode" />
-              <item name="titanium-json-ld" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="titanium-json-ld" type="b2602c69:ProjectViewProjectNode" />
-              <item name="titanium-json-ld" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="titanium-json-ld" type="b2602c69:ProjectViewProjectNode" />
-              <item name="titanium-json-ld" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="titanium-json-ld" type="b2602c69:ProjectViewProjectNode" />
-              <item name="titanium-json-ld" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="titanium-json-ld" type="b2602c69:ProjectViewProjectNode" />
-              <item name="titanium-json-ld" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="apicatalog" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="titanium-json-ld" type="b2602c69:ProjectViewProjectNode" />
-              <item name="titanium-json-ld" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="apicatalog" type="462c0819:PsiDirectoryNode" />
-              <item name="jsonld" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="titanium-json-ld" type="b2602c69:ProjectViewProjectNode" />
-              <item name="titanium-json-ld" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="apicatalog" type="462c0819:PsiDirectoryNode" />
-              <item name="jsonld" type="462c0819:PsiDirectoryNode" />
-              <item name="api" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="titanium-json-ld" type="b2602c69:ProjectViewProjectNode" />
-              <item name="titanium-json-ld" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="apicatalog" type="462c0819:PsiDirectoryNode" />
-              <item name="jsonld" type="462c0819:PsiDirectoryNode" />
-              <item name="context" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="titanium-json-ld" type="b2602c69:ProjectViewProjectNode" />
-              <item name="titanium-json-ld" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="apicatalog" type="462c0819:PsiDirectoryNode" />
-              <item name="jsonld" type="462c0819:PsiDirectoryNode" />
-              <item name="document" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="titanium-json-ld" type="b2602c69:ProjectViewProjectNode" />
-              <item name="titanium-json-ld" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="apicatalog" type="462c0819:PsiDirectoryNode" />
-              <item name="jsonld" type="462c0819:PsiDirectoryNode" />
-              <item name="flattening" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="titanium-json-ld" type="b2602c69:ProjectViewProjectNode" />
-              <item name="titanium-json-ld" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="apicatalog" type="462c0819:PsiDirectoryNode" />
-              <item name="jsonld" type="462c0819:PsiDirectoryNode" />
-              <item name="framing" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="titanium-json-ld" type="b2602c69:ProjectViewProjectNode" />
-              <item name="titanium-json-ld" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="apicatalog" type="462c0819:PsiDirectoryNode" />
-              <item name="jsonld" type="462c0819:PsiDirectoryNode" />
-              <item name="http" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="titanium-json-ld" type="b2602c69:ProjectViewProjectNode" />
-              <item name="titanium-json-ld" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="apicatalog" type="462c0819:PsiDirectoryNode" />
-              <item name="jsonld" type="462c0819:PsiDirectoryNode" />
-              <item name="processor" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="titanium-json-ld" type="b2602c69:ProjectViewProjectNode" />
-              <item name="titanium-json-ld" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="apicatalog" type="462c0819:PsiDirectoryNode" />
-              <item name="jsonld" type="462c0819:PsiDirectoryNode" />
-              <item name="serialization" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="titanium-json-ld" type="b2602c69:ProjectViewProjectNode" />
-              <item name="titanium-json-ld" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="apicatalog" type="462c0819:PsiDirectoryNode" />
-              <item name="jsonld" type="462c0819:PsiDirectoryNode" />
-              <item name="uri" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="titanium-json-ld" type="b2602c69:ProjectViewProjectNode" />
-              <item name="titanium-json-ld" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="apicatalog" type="462c0819:PsiDirectoryNode" />
-              <item name="rdf" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="titanium-json-ld" type="b2602c69:ProjectViewProjectNode" />
-              <item name="titanium-json-ld" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java11" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="titanium-json-ld" type="b2602c69:ProjectViewProjectNode" />
-              <item name="titanium-json-ld" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java11" type="462c0819:PsiDirectoryNode" />
-              <item name="jsonld" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="titanium-json-ld" type="b2602c69:ProjectViewProjectNode" />
-              <item name="titanium-json-ld" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java11" type="462c0819:PsiDirectoryNode" />
-              <item name="jsonld" type="462c0819:PsiDirectoryNode" />
-              <item name="http" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="titanium-json-ld" type="b2602c69:ProjectViewProjectNode" />
-              <item name="titanium-json-ld" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java11" type="462c0819:PsiDirectoryNode" />
-              <item name="jsonld" type="462c0819:PsiDirectoryNode" />
-              <item name="loader" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="titanium-json-ld" type="b2602c69:ProjectViewProjectNode" />
-              <item name="titanium-json-ld" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="titanium-json-ld" type="b2602c69:ProjectViewProjectNode" />
-              <item name="titanium-json-ld" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="titanium-json-ld" type="b2602c69:ProjectViewProjectNode" />
-              <item name="titanium-json-ld" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="apicatalog" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
-    </panes>
+    <navigator proportions="" version="1" />
+    <panes />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="ToRdfApiTest_test1 - 2021.04.23 at 13h 09m 47s.xml">
+      <configuration name="ToRdfApiTest.test1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ToRdfApiTest_test1 - 2021.04.23 at 13h 10m 04s.xml">
+      <configuration name="ToRdfApiTest.test1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ToRdfTest - 2021.04.23 at 13h 16m 28s.xml">
+      <configuration name="ToRdfTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ToRdfTest_testToRdf - 2021.04.23 at 13h 20m 55s.xml">
+      <configuration name="ToRdfTest.testToRdf" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ToRdfTest_testToRdf - 2021.04.23 at 15h 30m 04s.xml">
+      <configuration name="ToRdfTest.testToRdf" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ToRdfTest_testToRdf - 2021.04.24 at 06h 43m 59s.xml">
+      <configuration name="ToRdfTest.testToRdf" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ToRdfTest_testToRdf - 2021.04.26 at 13h 08m 44s.xml">
+      <configuration name="ToRdfTest.testToRdf" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ToRdfTest_testToRdf - 2021.04.26 at 15h 01m 48s.xml">
+      <configuration name="ToRdfTest.testToRdf" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ToRdfTest_testToRdf - 2021.04.26 at 15h 03m 50s.xml">
+      <configuration name="ToRdfTest.testToRdf" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ToRdfTest_testToRdf - 2021.04.26 at 15h 28m 44s.xml">
+      <configuration name="ToRdfTest.testToRdf" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4806000" />
+    <option name="totallyTimeSpent" value="35528000" />
   </component>
   <component name="ToolWindowManager">
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15857142" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.1492126" />
       <window_info id="Structure" order="1" side_tool="true" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info id="Commit" order="3" />
@@ -239,23 +192,26 @@
       <window_info id="Learn" order="5" />
       <window_info id="Pull Requests" order="6" />
       <window_info anchor="bottom" id="Event Log" order="0" side_tool="true" />
-      <window_info anchor="bottom" id="TODO" order="3" />
-      <window_info anchor="bottom" id="Problems View" order="3" />
-      <window_info anchor="bottom" id="File Transfer" order="4" />
+      <window_info anchor="bottom" id="TODO" order="1" />
+      <window_info anchor="bottom" id="Problems View" order="2" />
+      <window_info anchor="bottom" id="File Transfer" order="3" />
       <window_info anchor="bottom" id="Version Control" order="4" />
-      <window_info anchor="bottom" id="Terminal" order="4" />
+      <window_info anchor="bottom" id="Terminal" order="5" />
       <window_info anchor="bottom" id="Profiler" order="6" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="TypeScript" order="7" />
-      <window_info anchor="bottom" id="Endpoints" order="7" />
-      <window_info anchor="bottom" id="Build" order="7" />
-      <window_info anchor="bottom" id="internal-profiler" order="7" />
-      <window_info anchor="bottom" id="Internal Method Tracing" order="7" />
-      <window_info anchor="bottom" id="Flow" order="7" />
-      <window_info anchor="bottom" id="Services" order="7" />
-      <window_info anchor="right" id="Space Automation" order="4" />
-      <window_info anchor="right" id="Maven" order="7" />
-      <window_info anchor="right" id="Database" order="7" />
+      <window_info anchor="bottom" id="Debug" order="8" weight="0.15412186" />
+      <window_info anchor="bottom" id="Run" order="9" weight="0.17849462" />
+      <window_info anchor="bottom" id="Find" order="10" />
+      <window_info anchor="bottom" id="TypeScript" order="11" />
+      <window_info anchor="bottom" id="Endpoints" order="12" />
+      <window_info anchor="bottom" id="Build" order="13" weight="0.22222222" />
+      <window_info anchor="bottom" id="internal-profiler" order="14" />
+      <window_info anchor="bottom" id="Internal Method Tracing" order="15" />
+      <window_info anchor="bottom" id="Flow" order="16" />
+      <window_info anchor="bottom" id="Services" order="17" />
+      <window_info anchor="right" id="Space Automation" order="0" />
+      <window_info anchor="right" id="Maven" order="1" />
+      <window_info anchor="right" id="Database" order="2" />
     </layout>
     <layout-to-restore>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15857142" />
@@ -266,34 +222,89 @@
       <window_info id="Learn" order="5" />
       <window_info id="Pull Requests" order="6" />
       <window_info anchor="bottom" id="Event Log" order="0" side_tool="true" />
-      <window_info anchor="bottom" id="TODO" order="3" />
-      <window_info anchor="bottom" id="Problems View" order="3" />
-      <window_info anchor="bottom" id="File Transfer" order="4" />
+      <window_info anchor="bottom" id="TODO" order="1" />
+      <window_info anchor="bottom" id="Problems View" order="2" />
+      <window_info anchor="bottom" id="File Transfer" order="3" />
       <window_info anchor="bottom" id="Version Control" order="4" />
-      <window_info anchor="bottom" id="Terminal" order="4" />
+      <window_info anchor="bottom" id="Terminal" order="5" />
       <window_info anchor="bottom" id="Profiler" order="6" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="TypeScript" order="7" />
-      <window_info anchor="bottom" id="Endpoints" order="7" />
-      <window_info anchor="bottom" id="Build" order="7" />
-      <window_info anchor="bottom" id="internal-profiler" order="7" />
-      <window_info anchor="bottom" id="Internal Method Tracing" order="7" />
-      <window_info anchor="bottom" id="Flow" order="7" />
-      <window_info anchor="bottom" id="Services" order="7" />
-      <window_info anchor="right" id="Space Automation" order="4" />
-      <window_info anchor="right" id="Maven" order="7" />
-      <window_info anchor="right" id="Database" order="7" />
+      <window_info anchor="bottom" id="TypeScript" order="8" />
+      <window_info anchor="bottom" id="Endpoints" order="9" />
+      <window_info anchor="bottom" id="Build" order="10" />
+      <window_info anchor="bottom" id="internal-profiler" order="11" />
+      <window_info anchor="bottom" id="Internal Method Tracing" order="12" />
+      <window_info anchor="bottom" id="Flow" order="13" />
+      <window_info anchor="bottom" id="Services" order="14" />
+      <window_info anchor="right" id="Space Automation" order="0" />
+      <window_info anchor="right" id="Maven" order="1" />
+      <window_info anchor="right" id="Database" order="2" />
     </layout-to-restore>
     <recentWindows>
+      <value>Debug</value>
+      <value>Run</value>
       <value>Project</value>
+      <value>Build</value>
     </recentWindows>
   </component>
   <component name="Trusted.Project.Settings" hasCheckedIfOldProject="true" trusted="YES" />
   <component name="WindowStateProjectService">
-    <state x="943" y="346" width="672" height="685" key="search.everywhere.popup" timestamp="1618553605745">
+    <state x="1113" y="541" width="324" height="270" key="#com.intellij.debugger.actions.ViewTextAction" timestamp="1619438831241">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state x="943" y="346" width="672" height="685" key="search.everywhere.popup/0.0.2560.1440@0.0.2560.1440" timestamp="1618553605745" />
+    <state x="1113" y="541" width="324" height="270" key="#com.intellij.debugger.actions.ViewTextAction/0.0.2560.1440@0.0.2560.1440" timestamp="1619438831241" />
+    <state width="598" height="124" key="DebuggerActiveHint" timestamp="1619431059662">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state width="598" height="124" key="DebuggerActiveHint/0.0.2560.1440@0.0.2560.1440" timestamp="1619431059662" />
+    <state width="2540" height="187" key="GridCell.Tab.0.bottom" timestamp="1619460349142">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state width="2540" height="187" key="GridCell.Tab.0.bottom/0.0.2560.1440@0.0.2560.1440" timestamp="1619460349142" />
+    <state width="2540" height="187" key="GridCell.Tab.0.center" timestamp="1619460349141">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state width="2540" height="187" key="GridCell.Tab.0.center/0.0.2560.1440@0.0.2560.1440" timestamp="1619460349141" />
+    <state width="2540" height="187" key="GridCell.Tab.0.left" timestamp="1619460349139">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state width="2540" height="187" key="GridCell.Tab.0.left/0.0.2560.1440@0.0.2560.1440" timestamp="1619460349139" />
+    <state width="2540" height="187" key="GridCell.Tab.0.right" timestamp="1619460349142">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state width="2540" height="187" key="GridCell.Tab.0.right/0.0.2560.1440@0.0.2560.1440" timestamp="1619460349142" />
+    <state width="2540" height="187" key="GridCell.Tab.1.bottom" timestamp="1619460349151">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state width="2540" height="187" key="GridCell.Tab.1.bottom/0.0.2560.1440@0.0.2560.1440" timestamp="1619460349151" />
+    <state width="2540" height="187" key="GridCell.Tab.1.center" timestamp="1619460349150">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state width="2540" height="187" key="GridCell.Tab.1.center/0.0.2560.1440@0.0.2560.1440" timestamp="1619460349150" />
+    <state width="2540" height="187" key="GridCell.Tab.1.left" timestamp="1619460349149">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state width="2540" height="187" key="GridCell.Tab.1.left/0.0.2560.1440@0.0.2560.1440" timestamp="1619460349149" />
+    <state width="2540" height="187" key="GridCell.Tab.1.right" timestamp="1619460349150">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state width="2540" height="187" key="GridCell.Tab.1.right/0.0.2560.1440@0.0.2560.1440" timestamp="1619460349150" />
+    <state x="937" y="433" width="685" height="500" key="SettingsEditor" timestamp="1619172493304">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state x="937" y="433" width="685" height="500" key="SettingsEditor/0.0.2560.1440@0.0.2560.1440" timestamp="1619172493304" />
+    <state x="1448" y="412" width="836" height="570" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1619439167723">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state x="1448" y="412" width="836" height="570" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.2560.1440@0.0.2560.1440" timestamp="1619439167723" />
+    <state x="358" y="465" width="534" height="508" key="find.popup" timestamp="1619257557491">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state x="358" y="465" width="534" height="508" key="find.popup/0.0.2560.1440@0.0.2560.1440" timestamp="1619257557491" />
+    <state x="943" y="346" width="672" height="685" key="search.everywhere.popup" timestamp="1619438532779">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state x="943" y="346" width="672" height="685" key="search.everywhere.popup/0.0.2560.1440@0.0.2560.1440" timestamp="1619438532779" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/README.md">
@@ -304,31 +315,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/apicatalog/jsonld/JsonLd.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3603">
-          <caret line="375" lean-forward="true" selection-start-line="375" selection-end-line="375" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/apicatalog/jsonld/json/JsonUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="65">
-          <caret line="32" column="19" selection-start-line="32" selection-start-column="19" selection-end-line="32" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/apicatalog/rdf/RdfLiteral.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="533">
           <caret line="61" column="1" lean-forward="true" selection-start-line="61" selection-start-column="1" selection-end-line="61" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/apicatalog/jsonld/ToRdfTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="57" lean-forward="true" selection-start-line="57" selection-end-line="57" />
         </state>
       </provider>
     </entry>
@@ -376,13 +366,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/apicatalog/jsonld/processor/ToRdfProcessor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="689">
-          <caret line="80" lean-forward="true" selection-start-line="80" selection-end-line="80" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/apicatalog/jsonld/serialization/GraphMap.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1014">
@@ -390,38 +373,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/apicatalog/rdf/Rdf.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="861">
-          <caret line="109" column="27" selection-start-line="109" selection-start-column="27" selection-end-line="109" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/apicatalog/jsonld/JsonLdOptions.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2918">
-          <caret line="319" column="14" lean-forward="true" selection-start-line="319" selection-start-column="14" selection-end-line="319" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/apicatalog/jsonld/document/Document.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="739">
-          <caret line="89" lean-forward="true" selection-start-line="89" selection-end-line="89" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/apicatalog/jsonld/document/DocumentParser.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="65">
           <caret line="26" column="19" selection-start-line="26" selection-start-column="19" selection-end-line="26" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/apicatalog/jsonld/document/JsonDocument.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-999">
-          <caret line="33" column="19" selection-start-line="33" selection-start-column="19" selection-end-line="33" selection-end-column="19" />
         </state>
       </provider>
     </entry>
@@ -442,5 +397,347 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/apicatalog/rdf/io/nquad/writer/NQuadsWriterTestSuite.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="338">
+          <caret line="52" lean-forward="true" selection-start-line="52" selection-end-line="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/apicatalog/jsonld/document/JsonDocument.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="145" column="56" selection-start-line="145" selection-start-column="39" selection-end-line="145" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/apicatalog/jsonld/serialization/RdfToObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="262">
+          <caret line="83" lean-forward="true" selection-start-line="83" selection-end-line="83" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/apicatalog/rdf/Rdf.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="899">
+          <caret line="176" column="42" lean-forward="true" selection-start-line="176" selection-start-column="42" selection-end-line="176" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/jakarta/json/jakarta.json-api/2.0.0/jakarta.json-api-2.0.0.jar!/jakarta/json/EmptyObject.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="520">
+          <caret line="76" lean-forward="true" selection-start-line="76" selection-end-line="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/apicatalog/jsonld/api/MockLoader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="559">
+          <caret line="67" lean-forward="true" selection-start-line="67" selection-end-line="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/apicatalog/jsonld/api/ToRdfApiTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="404">
+          <caret line="79" lean-forward="true" selection-start-line="79" selection-end-line="79" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/apicatalog/jsonld/earl/EarlGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="338">
+          <caret line="109" selection-start-line="109" selection-end-line="109" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/apicatalog/jsonld/api/ToRdfApiNegativeTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="35" column="59" selection-start-line="35" selection-start-column="59" selection-end-line="35" selection-end-column="59" />
+          <folding>
+            <element signature="e#1044#1045#0" expanded="true" />
+            <element signature="e#1138#1139#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/apicatalog/jsonld/test/JsonLdManifestLoader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="52" column="58" lean-forward="true" selection-start-line="52" selection-start-column="58" selection-end-line="52" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/junit/jupiter/junit-jupiter-params/5.7.1/junit-jupiter-params-5.7.1.jar!/org/junit/jupiter/params/provider/MethodSource.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/junit/jupiter/junit-jupiter-api/5.7.1/junit-jupiter-api-5.7.1.jar!/org/junit/jupiter/api/AssertTrue.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+          <folding>
+            <element signature="e#403#404#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/junit/jupiter/junit-jupiter-api/5.7.1/junit-jupiter-api-5.7.1.jar!/org/junit/jupiter/api/Assertions.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="585">
+          <caret line="58" selection-start-line="58" selection-end-line="58" />
+          <folding>
+            <element signature="e#1383#1384#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/apicatalog/jsonld/JsonLd.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="385">
+          <caret line="275" selection-start-line="275" selection-end-line="275" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/apicatalog/jsonld/test/JsonLdTestCaseMethod.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="143">
+          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jrt:///usr/lib/jvm/java-11-openjdk!/java.base/java/util/Optional.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="520">
+          <caret line="59" selection-start-line="59" selection-end-line="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/glassfish/jakarta.json/2.0.0/jakarta.json-2.0.0-sources.jar!/org/glassfish/json/JsonArrayBuilderImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2695">
+          <caret line="371" selection-start-line="371" selection-end-line="371" />
+          <folding>
+            <element signature="e#10772#10773#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/apicatalog/jsonld/uri/UriUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="478">
+          <caret line="90" column="32" selection-start-line="90" selection-start-column="32" selection-end-line="90" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/apicatalog/jsonld/document/RdfDocument.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="590">
+          <caret line="74" column="21" selection-start-line="74" selection-start-column="21" selection-end-line="74" selection-end-column="21" />
+          <folding>
+            <element signature="e#1909#1910#0" expanded="true" />
+            <element signature="e#1962#1963#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/apicatalog/jsonld/flattening/NodeMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="923">
+          <caret line="103" column="121" selection-start-line="103" selection-start-column="115" selection-end-line="103" selection-end-column="121" />
+          <folding>
+            <element signature="e#2981#2982#0" expanded="true" />
+            <element signature="e#3018#3019#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/apicatalog/jsonld/lang/Utils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="37" selection-start-line="37" selection-end-line="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/apicatalog/jsonld/ToRdfTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="559">
+          <caret line="57" lean-forward="true" selection-start-line="57" selection-end-line="57" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/apicatalog/jsonld/api/ToRdfApi.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="754">
+          <caret line="174" column="36" selection-start-line="174" selection-start-column="36" selection-end-line="174" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/apicatalog/jsonld/loader/DocumentLoader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/apicatalog/jsonld/JsonLdOptions.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="354">
+          <caret line="267" column="20" selection-start-line="267" selection-start-column="20" selection-end-line="267" selection-end-column="20" />
+          <folding>
+            <element signature="e#8329#8330#0" expanded="true" />
+            <element signature="e#8365#8366#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/apicatalog/jsonld/json/JsonUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-938">
+          <caret line="32" column="19" selection-start-line="32" selection-start-column="19" selection-end-line="32" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/apicatalog/jsonld/deseralization/JsonLdToRdf.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="770">
+          <caret line="105" lean-forward="true" selection-start-line="105" selection-end-line="105" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/jakarta/json/jakarta.json-api/2.0.0/jakarta.json-api-2.0.0.jar!/jakarta/json/Json.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="78">
+          <caret line="21" column="23" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/apicatalog/jsonld/document/Document.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="302">
+          <caret line="49" column="21" selection-start-line="49" selection-start-column="8" selection-end-line="49" selection-end-column="21" />
+          <folding>
+            <element signature="e#2479#2480#0" expanded="true" />
+            <element signature="e#2518#2519#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/jakarta/json/jakarta.json-api/2.0.0/jakarta.json-api-2.0.0.jar!/jakarta/json/JsonValue.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
+          <folding>
+            <element signature="e#543#544#0" expanded="true" />
+            <element signature="e#605#606#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/apicatalog/jsonld/test/JsonLdTestRunnerJunit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="520">
+          <caret line="87" column="63" lean-forward="true" selection-start-line="87" selection-start-column="63" selection-end-line="87" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/apicatalog/jsonld/expansion/Expansion.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="40" column="23" selection-start-line="40" selection-start-column="16" selection-end-line="40" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/apicatalog/jsonld/context/ActiveContext.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="489">
+          <caret line="70" column="11" selection-start-line="70" selection-start-column="11" selection-end-line="70" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/apicatalog/jsonld/processor/ExpansionProcessor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="688">
+          <caret line="119" column="38" lean-forward="true" selection-start-line="119" selection-start-column="38" selection-end-line="119" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/apicatalog/jsonld/processor/ToRdfProcessor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="661">
+          <caret line="80" lean-forward="true" selection-start-line="80" selection-end-line="80" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/apicatalog/jsonld/lang/Keywords.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1022">
+          <caret line="130" column="85" selection-start-line="130" selection-start-column="85" selection-end-line="130" selection-end-column="85" />
+          <folding>
+            <element signature="e#3129#3130#0" expanded="true" />
+            <element signature="e#3180#3181#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/apicatalog/jsonld/context/ActiveContextBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="354">
+          <caret line="462" selection-start-line="462" selection-end-line="462" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/apicatalog/jsonld/expansion/ObjectExpansion.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="358">
+          <caret line="74" column="42" lean-forward="true" selection-start-line="74" selection-start-column="42" selection-end-line="74" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/apicatalog/jsonld/expansion/ObjectExpansion1314.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="606">
+          <caret line="71" column="38" lean-forward="true" selection-start-line="71" selection-start-column="38" selection-end-line="71" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI" />
+      <state key="GlobalLibrariesConfigurable.UI" />
+      <state key="JdkListConfigurable.UI" />
+      <state key="ModuleStructureConfigurable.UI" />
+      <state key="ProjectLibrariesConfigurable.UI" />
+    </states>
   </component>
 </project>

@@ -14,18 +14,6 @@
             </RecentProjectMetaInfo>
           </value>
         </entry>
-        <entry key="$USER_HOME$/ut/titanium-json-ld">
-          <value>
-            <RecentProjectMetaInfo frameTitle="titanium-json-ld" projectWorkspaceId="1rElmETfr2cuFMo0meCudEMafgU">
-              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
-              <option name="build" value="IU-211.6693.111" />
-              <option name="buildTimestamp" value="1617703815035" />
-              <frame x="230" y="35" width="2100" height="1370" />
-              <option name="productionCode" value="IU" />
-              <option name="projectOpenTimestamp" value="1618582766934" />
-            </RecentProjectMetaInfo>
-          </value>
-        </entry>
         <entry key="$USER_HOME$/ut/jena">
           <value>
             <RecentProjectMetaInfo frameTitle="jena – Metadata.java [jena-core]" projectWorkspaceId="1rD1PvqdFu6wFLtplcNbGvVr51w">
@@ -38,15 +26,27 @@
             </RecentProjectMetaInfo>
           </value>
         </entry>
+        <entry key="$USER_HOME$/ut/titanium-json-ld">
+          <value>
+            <RecentProjectMetaInfo frameTitle="titanium-json-ld – ObjectExpansion1314.java" projectWorkspaceId="1rElmETfr2cuFMo0meCudEMafgU">
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="IU-211.6693.111" />
+              <option name="buildTimestamp" value="1617703810945" />
+              <frame x="10" y="-6" width="2540" height="1411" />
+              <option name="productionCode" value="IU" />
+              <option name="projectOpenTimestamp" value="1619438044667" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
         <entry key="$USER_HOME$/ut/jena-examples">
           <value>
             <RecentProjectMetaInfo frameTitle="jena-examples – Local_Queries_04.java" opened="true" projectWorkspaceId="1rC6G0JLpCM0QSBMo5trtJ6NCYD">
               <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
               <option name="build" value="IU-211.6693.111" />
-              <option name="buildTimestamp" value="1617703841015" />
-              <frame x="230" y="19" width="1460" height="1026" />
+              <option name="buildTimestamp" value="1617703810945" />
+              <frame x="10" y="10" width="1900" height="1035" />
               <option name="productionCode" value="IU" />
-              <option name="projectOpenTimestamp" value="1618925028247" />
+              <option name="projectOpenTimestamp" value="1619460370713" />
             </RecentProjectMetaInfo>
           </value>
         </entry>

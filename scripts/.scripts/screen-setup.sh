@@ -30,7 +30,8 @@ function run_conky() {
 
 function set_wallpaper() {
 	WALLPAPER_DIR=$HOME/.wallpapers
-	hsetroot -cover "$WALLPAPER_DIR/$(ls $WALLPAPER_DIR | sort -R | head -1)" # set random wallpaper from folder
+	CURRENT_WALLPAPER=$(cat $WALLPAPER_DIR/.current_wallpaper)
+	hsetroot -cover "$WALLPAPER_DIR/$CURRENT_WALLPAPER"
 }
 
 run_polybar

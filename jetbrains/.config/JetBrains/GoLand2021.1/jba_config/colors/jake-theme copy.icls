@@ -4,7 +4,7 @@
     <property name="created">2020-03-31T10:00:48</property>
     <property name="ide">PyCharmCore</property>
     <property name="ideVersion">2019.2.3.0.0</property>
-    <property name="modified">2021-02-21T19:25:42</property>
+    <property name="modified">2021-05-01T20:07:18</property>
     <property name="originalScheme">jake-theme copy</property>
   </metaInfo>
   <option name="CONSOLE_FONT_NAME" value="Terminus (TTF)" />
@@ -22,7 +22,7 @@
     </option>
     <option name="DEFAULT_BLOCK_COMMENT">
       <value>
-        <option name="FOREGROUND" value="ff7979" />
+        <option name="FOREGROUND" value="c3e88d" />
       </value>
     </option>
     <option name="DEFAULT_COMMA">
@@ -58,7 +58,7 @@
     </option>
     <option name="DEFAULT_LINE_COMMENT">
       <value>
-        <option name="FOREGROUND" value="ff7979" />
+        <option name="FOREGROUND" value="c3e88d" />
       </value>
     </option>
     <option name="DEFAULT_NUMBER">
@@ -89,7 +89,7 @@
     </option>
     <option name="GO_BLOCK_COMMENT">
       <value>
-        <option name="FOREGROUND" value="bd5656" />
+        <option name="FOREGROUND" value="c3e88d" />
       </value>
     </option>
     <option name="GO_BUILTIN_CONSTANT">
@@ -114,7 +114,7 @@
     </option>
     <option name="GO_COMMENT_REFERENCE">
       <value>
-        <option name="FOREGROUND" value="ff7979" />
+        <option name="FOREGROUND" value="b8e073" />
       </value>
     </option>
     <option name="GO_EXPORTED_FUNCTION">
@@ -134,7 +134,7 @@
     </option>
     <option name="GO_LINE_COMMENT">
       <value>
-        <option name="FOREGROUND" value="bd5656" />
+        <option name="FOREGROUND" value="c3e88d" />
       </value>
     </option>
     <option name="GO_LOCAL_FUNCTION">
@@ -217,7 +217,7 @@
     </option>
     <option name="TODO_DEFAULT_ATTRIBUTES">
       <value>
-        <option name="FOREGROUND" value="ff7979" />
+        <option name="FOREGROUND" value="ace562" />
         <option name="FONT_TYPE" value="1" />
         <option name="ERROR_STRIPE_COLOR" value="977ab" />
       </value>

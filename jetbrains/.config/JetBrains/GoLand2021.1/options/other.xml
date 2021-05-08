@@ -6,7 +6,7 @@
   </component>
   <component name="NotRoamableUiSettings">
     <option name="editorAAType" value="No antialiasing" />
-    <option name="fontFace" value="Iosevka Nerd Font" />
+    <option name="fontFace" value="IBM Plex Sans Cond Text" />
   </component>
   <component name="ProjectPluginTrackerManager">
     <trackers>
@@ -73,7 +73,7 @@
     <property name="SettingsSearchHistory" value="parameter info&#10;save&#10;renam&#10;install&#10;icons" />
     <property name="SplitFileEditor.Proportion" value="0.66140777" />
     <property name="UITheme.relaunch" value="true" />
-    <property name="appcds.runOnSecondStart" value="GO-211.7142.13-db793cb218d33da228399e088ac084d3f6c4d461a60dac51616bd5259cfb6864" />
+    <property name="appcds.runOnSecondStart" value="GO-211.7142.13-fe7d2902d7931bf959f7923250011cb2a040a1fb739a2fba8946ef6efecd3f58" />
     <property name="ask.about.ctrl.y.shortcut" value="true" />
     <property name="completion.ml.enabled.notification.shown" value="true" />
     <property name="evlsprt3.193" value="14" />
@@ -102,10 +102,10 @@
     <property name="ideavim.statistics.timestamp" value="1599466850133" />
     <property name="last_opened_file_path" value="$USER_HOME$/projects/courses/CMU_15-445/homeworks/01_sql/musicbrainz-cmudb2020.db" />
     <property name="log.trace.categories" value="#com.jetbrains.rdserver.requests&#10;#com.jetbrains.rd.ide.document&#10;#com.jetbrains.rdserver.document&#10;#com.jetbrains.rdserver.editors&#10;#com.jetbrains.rdserver.actions" />
-    <property name="org.jetbrains.plugins.go.LAST_UPDATE" value="1619461506338" />
+    <property name="org.jetbrains.plugins.go.LAST_UPDATE" value="1621411903275" />
     <property name="org.jetbrains.plugins.go.LAST_VERSION" value="211.7142.13" />
     <property name="run.targets.was.enabled.once" value="true" />
-    <property name="selected.color.option.type" value="CODE_LENS_BORDER_COLOR" />
+    <property name="selected.color.option.type" value="TODO_DEFAULT_ATTRIBUTES" />
     <property name="settings.code.style.selected.tab.go" value="Wrapping and Braces" />
     <property name="shared.index.infrastructure.prop" value="4" />
     <property name="terminal.shell.command.handling.was.disabled.once" value="true" />

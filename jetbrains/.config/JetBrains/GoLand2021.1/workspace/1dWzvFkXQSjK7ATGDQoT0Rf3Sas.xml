@@ -13,78 +13,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="-1">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/leetcode/0455.go">
+        <entry file="file://$PROJECT_DIR$/leetcode/1013.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <folding>
-                <element signature="e#14#39#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/leetcode/0984.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="34" selection-start-line="34" selection-end-line="34" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/leetcode/1005.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
-              <folding>
-                <element signature="e#14#39#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/leetcode/0746.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="30" selection-start-line="30" selection-end-line="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/leetcode/0788.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="299">
-              <caret line="23" column="23" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/leetcode/1137.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="273">
-              <caret line="21" selection-start-line="21" selection-end-line="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/leetcode/0645.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="299">
-              <caret line="25" selection-start-line="25" selection-end-line="25" />
+            <state relative-caret-position="377">
+              <caret line="29" column="41" selection-start-line="29" selection-start-column="41" selection-end-line="29" selection-end-column="41" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/leetcode/0693.go">
+        <entry file="file://$PROJECT_DIR$/leetcode/0806.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="429">
-              <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
+            <state relative-caret-position="325">
+              <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
             </state>
           </provider>
         </entry>
@@ -133,15 +74,6 @@
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
-      <option value="$PROJECT_DIR$/leetcode/0263.go" />
-      <option value="$PROJECT_DIR$/leetcode/0258.go" />
-      <option value="$PROJECT_DIR$/leetcode/0168.go" />
-      <option value="$PROJECT_DIR$/leetcode/0349.go" />
-      <option value="$PROJECT_DIR$/leetcode/0350.go" />
-      <option value="$PROJECT_DIR$/leetcode/0111.go" />
-      <option value="$PROJECT_DIR$/leetcode/404.go" />
-      <option value="$PROJECT_DIR$/leetcode/0404.go" />
-      <option value="$PROJECT_DIR$/leetcode/0374.go" />
       <option value="$PROJECT_DIR$/leetcode/0744.go" />
       <option value="$PROJECT_DIR$/leetcode/0290.go" />
       <option value="$PROJECT_DIR$/leetcode/0292.go" />
@@ -179,11 +111,20 @@
       <option value="$PROJECT_DIR$/leetcode/0872.go" />
       <option value="$PROJECT_DIR$/leetcode/0984.go" />
       <option value="$PROJECT_DIR$/leetcode/1005.go" />
-      <option value="$PROJECT_DIR$/leetcode/0746.go" />
       <option value="$PROJECT_DIR$/leetcode/0788.go" />
       <option value="$PROJECT_DIR$/leetcode/1137.go" />
       <option value="$PROJECT_DIR$/leetcode/0645.go" />
       <option value="$PROJECT_DIR$/leetcode/0693.go" />
+      <option value="$PROJECT_DIR$/leetcode/0762.go" />
+      <option value="$PROJECT_DIR$/leetcode/0868.go" />
+      <option value="$PROJECT_DIR$/leetcode/0412.go" />
+      <option value="$PROJECT_DIR$/leetcode/0448.go" />
+      <option value="$PROJECT_DIR$/leetcode/0680.go" />
+      <option value="$PROJECT_DIR$/leetcode/0563.go" />
+      <option value="$PROJECT_DIR$/leetcode/0746.go" />
+      <option value="$PROJECT_DIR$/leetcode/1720.go" />
+      <option value="$PROJECT_DIR$/leetcode/1013.go" />
+      <option value="$PROJECT_DIR$/leetcode/0806.go" />
     </changedPaths>
   </component>
   <component name="IgnoredFileRootStore">
@@ -195,8 +136,26 @@
   </component>
   <component name="ProjectFrameBounds" x="40" y="23" width="996" height="1017" />
   <component name="ProjectView">
-    <navigator proportions="" version="1" />
-    <panes />
+    <navigator currentView="ProjectPane" proportions="" version="1" />
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="algorithms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="algorithms" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="algorithms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="algorithms" type="462c0819:PsiDirectoryNode" />
+              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -208,9 +167,8 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49854013" weight="0.17380953" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49854013" weight="0.17412281" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" sideWeight="0.50145984" side_tool="true" weight="0.1747619" />
       <window_info id="Commit" order="3" />
@@ -283,111 +241,31 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="730" height="196" key="GridCell.Tab.1.right/0.0.1920.1080@0.0.1920.1080" timestamp="1613905259701" />
-    <state x="405" y="258" key="SettingsEditor" timestamp="1615991341003">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state x="585" y="383" key="SettingsEditor" timestamp="1620055374672">
+      <screen x="0" y="0" width="2560" height="1440" />
     </state>
     <state x="405" y="258" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1615991341003" />
-    <state x="915" y="191" key="SettingsEditor/0.0.2560.1440@0.0.2560.1440" timestamp="1612510702570" />
+    <state x="585" y="383" key="SettingsEditor/0.0.2560.1440@0.0.2560.1440" timestamp="1620055374672" />
     <state x="458" y="271" width="540" height="524" key="StructurePopup" timestamp="1615310895311">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="458" y="271" width="540" height="524" key="StructurePopup/0.0.1920.1080@0.0.1920.1080" timestamp="1615310895311" />
-    <state x="677" y="283" width="566" height="578" key="find.popup" timestamp="1616738227200">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state x="903" y="377" width="755" height="771" key="find.popup" timestamp="1621412315815">
+      <screen x="0" y="0" width="2560" height="1440" />
     </state>
     <state x="677" y="283" width="566" height="578" key="find.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1616738227200" />
-    <state x="903" y="377" width="755" height="683" key="find.popup/0.0.2560.1440@0.0.2560.1440" timestamp="1612510899203" />
+    <state x="903" y="377" width="755" height="771" key="find.popup/0.0.2560.1440@0.0.2560.1440" timestamp="1621412315815" />
     <state width="800" height="571" key="javadoc.popup" timestamp="1618412146578">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
     <state width="800" height="571" key="javadoc.popup/0.0.2560.1440@0.0.2560.1440" timestamp="1618412146578" />
-    <state x="707" y="248" width="672" height="678" key="search.everywhere.popup" timestamp="1619461536617">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state x="943" y="331" width="896" height="904" key="search.everywhere.popup" timestamp="1621413778565">
+      <screen x="0" y="0" width="2560" height="1440" />
     </state>
     <state x="707" y="248" width="672" height="678" key="search.everywhere.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1619461536617" />
-    <state x="943" y="331" width="896" height="904" key="search.everywhere.popup/0.0.2560.1440@0.0.2560.1440" timestamp="1619279586507" />
+    <state x="943" y="331" width="896" height="904" key="search.everywhere.popup/0.0.2560.1440@0.0.2560.1440" timestamp="1621413778565" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/leetcode/0292.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="104">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/leetcode/0290.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="559">
-          <caret line="43" selection-start-line="43" selection-end-line="43" />
-          <folding>
-            <element signature="e#14#42#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/graphs/dfs.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="354">
-          <caret line="131" column="45" lean-forward="true" selection-start-line="131" selection-start-column="45" selection-end-line="131" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/leetcode/0892.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="143">
-          <caret line="13" selection-start-line="6" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/leetcode/0844.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="36" selection-start-line="36" selection-end-line="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/leetcode/0671.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="598">
-          <caret line="46" selection-start-line="39" selection-end-line="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/leetcode/0783.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="34" column="14" selection-start-line="34" selection-start-column="14" selection-end-line="34" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/leetcode/1287.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/leetcode/0744.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="24" selection-start-line="24" selection-end-line="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/leetcode/0112.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="15" column="46" lean-forward="true" selection-start-line="15" selection-start-column="46" selection-end-line="15" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/leetcode/0530.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="546">
-          <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/leetcode/0070.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="273">
@@ -441,13 +319,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="333">
           <caret line="327" column="9" selection-start-line="327" selection-start-column="5" selection-end-line="327" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/lib/go/src/math/bits/bits.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="453">
-          <caret line="411" column="58" selection-start-line="411" selection-start-column="55" selection-end-line="411" selection-end-column="58" />
         </state>
       </provider>
     </entry>
@@ -621,6 +492,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file:///usr/lib/go/src/bytes/bytes.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="54" column="10" selection-start-line="54" selection-start-column="10" selection-end-line="54" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/lib/go/src/math/bits/bits.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="110" column="5" lean-forward="true" selection-start-line="110" selection-start-column="5" selection-end-line="110" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/leetcode/0455.go">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -647,24 +532,48 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/leetcode/0746.go">
+    <entry file="file://$PROJECT_DIR$/leetcode/0680.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="481">
+          <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetcode/0448.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="78">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetcode/0412.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetcode/0868.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
           <caret line="30" selection-start-line="30" selection-end-line="30" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/leetcode/0788.go">
+    <entry file="file://$PROJECT_DIR$/leetcode/0762.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="23" column="23" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="23" />
+        <state relative-caret-position="338">
+          <caret line="26" column="1" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
+          <folding>
+            <element signature="e#14#44#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/leetcode/1137.go">
+    <entry file="file://$PROJECT_DIR$/leetcode/0693.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        <state relative-caret-position="325">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
         </state>
       </provider>
     </entry>
@@ -675,10 +584,59 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/leetcode/0693.go">
+    <entry file="file://$PROJECT_DIR$/leetcode/1137.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="429">
-          <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
+        <state relative-caret-position="273">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetcode/0788.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="23" column="23" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetcode/0110.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="636">
+          <caret line="58" selection-start-line="52" selection-end-line="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetcode/0563.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="38" column="21" lean-forward="true" selection-start-line="38" selection-start-column="21" selection-end-line="38" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetcode/0746.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="377">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetcode/1720.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetcode/1013.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="377">
+          <caret line="29" column="41" selection-start-line="29" selection-start-column="41" selection-end-line="29" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetcode/0806.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
         </state>
       </provider>
     </entry>

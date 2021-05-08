@@ -1,7 +1,7 @@
 <application>
   <component name="DimensionService">
     <location key="find.popup.0.0.1920.1080" x="677" y="283" />
-    <location key="find.popup.0.0.2560.1440" x="297" y="369" />
+    <location key="find.popup.0.0.2560.1440" x="903" y="377" />
     <location key="find.popup.0.0.1920.1200" x="447" y="306" />
     <size key="GridCell.Tab.0.left.0.0.2560.1440" width="2100" height="418" />
     <size key="GridCell.Tab.0.center.0.0.2560.1440" width="2100" height="418" />
@@ -20,7 +20,7 @@
     <size key="GridCell.Tab.1.center.0.0.1920.1080" width="1460" height="272" />
     <size key="GridCell.Tab.1.right.0.0.1920.1080" width="1460" height="272" />
     <size key="GridCell.Tab.1.bottom.0.0.1920.1080" width="1460" height="272" />
-    <size key="find.popup.0.0.2560.1440" width="712" height="715" />
+    <size key="find.popup.0.0.2560.1440" width="755" height="771" />
     <size key="GridCell.Tab.0.left.0.0.1920.1200" width="1838" height="224" />
     <size key="GridCell.Tab.0.center.0.0.1920.1200" width="1838" height="224" />
     <size key="GridCell.Tab.0.right.0.0.1920.1200" width="1838" height="224" />
@@ -40,7 +40,7 @@
     <size key="GridCell.Tab.1.bottom.0.0.2560.2520" width="1460" height="982" />
   </component>
   <component name="WindowManager">
-    <frame x="230" y="19" width="1460" height="1026" />
+    <frame x="710" y="185" width="1140" height="1070" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.25" />
       <window_info id="Structure" order="1" weight="0.25" />

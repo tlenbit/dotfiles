@@ -14,19 +14,6 @@
         <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
         <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
       </path>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="GROUP_NODE:dependabot" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="GROUP_NODE:dependabot" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="GROUP_NODE:maven" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
     </expand>
     <select />
   </component>
@@ -36,55 +23,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="-1">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/apache/jena/ldparser/TransformDataset.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="611">
+              <caret line="57" selection-start-line="57" selection-end-line="57" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/org/apache/jena/examples/Local_Queries_04.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/apache/jena/ldparser/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="13">
-              <caret line="72" selection-start-line="72" selection-end-line="72" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/apache/jena/jena-arq/3.0.0/jena-arq-3.0.0-sources.jar!/org/apache/jena/riot/RDFDataMgr.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="8073">
-              <caret line="981" selection-start-line="981" selection-end-line="981" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/apache/jena/jena-arq/3.0.0/jena-arq-3.0.0-sources.jar!/org/apache/jena/riot/lang/JsonLDReader.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="585">
-              <caret line="85" selection-start-line="85" selection-end-line="85" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/glassfish/jakarta.json/2.0.0/jakarta.json-2.0.0-sources.jar!/org/glassfish/json/JsonParserImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4966">
-              <caret line="441" selection-start-line="441" selection-end-line="441" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#12899#12900#0" expanded="true" />
-                <element signature="e#12942#12943#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/org/apache/jena/examples/Local_Queries_02.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="403">
-              <caret line="42" selection-start-line="42" selection-end-line="42" />
+            <state relative-caret-position="-2041">
+              <caret line="241" column="32" lean-forward="true" selection-start-line="241" selection-start-column="32" selection-end-line="241" selection-end-column="32" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -95,8 +50,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="26">
-              <caret line="2" selection-start-line="2" selection-end-line="2" />
+            <state relative-caret-position="13">
+              <caret line="1" selection-start-line="1" selection-end-line="1" />
             </state>
           </provider>
         </entry>
@@ -105,40 +60,41 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
+      <find>vocab</find>
       <find>json</find>
-      <find>model.list</find>
-      <find>turtle</find>
-      <find>bindin</find>
-      <find>value</find>
-      <find>getquery</find>
-      <find>Binding</find>
-      <find>project</find>
+      <find>jena</find>
+      <find>read</find>
+      <find>.read</find>
+      <find>=&gt;</find>
+      <find>context</find>
+      <find>extensions</find>
       <find>getobject</find>
-      <find>isEmp</find>
-      <find>getting</find>
-      <find>newliterl</find>
-      <find>NEW</find>
-      <find>NEW LITER</find>
-      <find>PUSHING</find>
-      <find>NEW I</find>
-      <find>log</find>
-      <find>file:</find>
-      <find>stackoperations</find>
-      <find>DEFAULTING</find>
-      <find>vars</find>
-      <find>nextBin</find>
-      <find>Nodefactory.</find>
-      <find>getpa</find>
-      <find>nextbi</find>
-      <find>--&gt;</find>
-      <find>ANY</find>
-      <find>2-&gt;</find>
+      <find>exp</find>
+      <find>vocab|</find>
+      <find>director</find>
+      <find>Cibtext</find>
+      <find>Contex</find>
+      <find>sparql.util</find>
+      <find>.Context</find>
+      <find>apache.jena.sparql</find>
+      <find>Context</find>
+      <find>org.apache.jena.ldparser</find>
+      <find>main</find>
+      <find>matching</find>
+      <find>.debug</find>
+      <find>JsonParser</find>
+      <find>com.</find>
+      <find>querysi</find>
+      <find>system.</find>
+      <find>system.out</find>
+      <find>System.out</find>
       <find>logger.info</find>
-      <find>.getResource</find>
+      <find>logger.inf</find>
     </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/src/main/java/dev</dir>
       <dir>$PROJECT_DIR$/src/main/java/org/apache/jena/examples</dir>
+      <dir>$PROJECT_DIR$/src/main/java/org/apache/jena/ldparser</dir>
     </dirStrings>
   </component>
   <component name="IdeDocumentHistory">
@@ -147,13 +103,21 @@
       <option value="$PROJECT_DIR$/src/main/java/org/apache/jena/examples/ExampleARQ_02.java" />
       <option value="$PROJECT_DIR$/src/main/java/org/apache/jena/examples/Local_Queries_01.java" />
       <option value="$PROJECT_DIR$/src/main/java/org/apache/jena/examples/ExampleAPI_01.java" />
-      <option value="$PROJECT_DIR$/pom.xml" />
       <option value="$PROJECT_DIR$/src/main/java/org/apache/jena/examples/ExampleARQ_01.java" />
       <option value="$PROJECT_DIR$/src/main/java/org/apache/jena/examples/Local_Queries_02.java" />
       <option value="$PROJECT_DIR$/src/main/resources/data/event_compacted.jsonld" />
-      <option value="$PROJECT_DIR$/src/main/resources/log4j.properties" />
       <option value="$PROJECT_DIR$/src/main/java/org/apache/jena/examples/Local_Queries_03.java" />
+      <option value="$PROJECT_DIR$/src/main/resources/data/random_flattened.jsonld" />
       <option value="$PROJECT_DIR$/src/main/java/org/apache/jena/examples/Local_Queries_04.java" />
+      <option value="$PROJECT_DIR$/src/main/java/org/apache/jena/examples/code.java" />
+      <option value="$PROJECT_DIR$/src/main/java/org/apache/jena/Main.java" />
+      <option value="$PROJECT_DIR$/src/main/java/org/apache/jena/Ex_WriteJsonLD.java" />
+      <option value="$PROJECT_DIR$/src/main/java/org/apache/jena/ldparser/Ex_WriteJsonLD.java" />
+      <option value="$PROJECT_DIR$/pom.xml" />
+      <option value="$PROJECT_DIR$/src/main/java/org/apache/jena/ldparser/Sketches.java" />
+      <option value="$PROJECT_DIR$/src/main/java/org/apache/jena/ldparser/TransformDataset.java" />
+      <option value="$PROJECT_DIR$/src/main/resources/log4j.properties" />
+      <option value="$PROJECT_DIR$/src/main/java/org/apache/jena/ldparser/Main.java" />
     </changedPaths>
   </component>
   <component name="IgnoredFileRootStore">
@@ -174,11 +138,11 @@
     <panes />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="162064000" />
+    <option name="totallyTimeSpent" value="295340000" />
   </component>
   <component name="ToolWindowManager">
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.10813648" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.09602864" />
       <window_info id="Structure" order="1" side_tool="true" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info id="Commit" order="3" />
@@ -193,56 +157,26 @@
       <window_info anchor="bottom" id="Terminal" order="5" />
       <window_info anchor="bottom" id="Profiler" order="6" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Duplicates" order="8" weight="0.3297491" />
+      <window_info anchor="bottom" id="Duplicates" order="8" weight="0.33031183" />
       <window_info anchor="bottom" id="Find" order="9" weight="0.3293944" />
       <window_info anchor="bottom" id="TypeScript" order="10" />
       <window_info anchor="bottom" id="Endpoints" order="11" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Build" order="12" weight="0.10007252" />
+      <window_info anchor="bottom" id="Build" order="12" weight="0.26725978" />
       <window_info anchor="bottom" id="internal-profiler" order="13" />
-      <window_info anchor="bottom" id="Debug" order="14" weight="0.20788531" />
+      <window_info anchor="bottom" id="Debug" order="14" weight="0.14285715" />
       <window_info anchor="bottom" id="Internal Method Tracing" order="15" />
-      <window_info anchor="bottom" id="Run" order="16" weight="0.19216824" />
+      <window_info anchor="bottom" id="Run" order="16" weight="0.13354932" />
       <window_info anchor="bottom" id="Flow" order="17" />
       <window_info anchor="bottom" id="Services" order="18" />
       <window_info anchor="right" id="Space Automation" order="0" />
       <window_info anchor="right" id="Maven" order="1" />
       <window_info anchor="right" id="Database" order="2" />
     </layout>
-    <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.10866142" />
-      <window_info id="Structure" order="1" side_tool="true" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info id="Commit" order="3" />
-      <window_info id="Space Code Reviews" order="4" />
-      <window_info id="Learn" order="5" />
-      <window_info id="Pull Requests" order="6" />
-      <window_info anchor="bottom" id="Event Log" order="0" side_tool="true" />
-      <window_info anchor="bottom" id="TODO" order="1" />
-      <window_info anchor="bottom" id="Problems View" order="2" />
-      <window_info anchor="bottom" id="File Transfer" order="3" />
-      <window_info anchor="bottom" id="Version Control" order="4" />
-      <window_info anchor="bottom" id="Terminal" order="5" />
-      <window_info anchor="bottom" id="Profiler" order="6" />
-      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Find" order="8" weight="0.3293944" />
-      <window_info anchor="bottom" id="TypeScript" order="9" />
-      <window_info anchor="bottom" id="Endpoints" order="10" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Build" order="11" weight="0.24426351" />
-      <window_info anchor="bottom" id="internal-profiler" order="12" />
-      <window_info anchor="bottom" id="Debug" order="13" weight="0.18924731" />
-      <window_info anchor="bottom" id="Internal Method Tracing" order="14" />
-      <window_info anchor="bottom" id="Run" order="15" visible="true" weight="0.19319023" />
-      <window_info anchor="bottom" id="Flow" order="16" />
-      <window_info anchor="bottom" id="Services" order="17" />
-      <window_info anchor="right" id="Space Automation" order="0" />
-      <window_info anchor="right" id="Maven" order="1" />
-      <window_info anchor="right" id="Database" order="2" />
-    </layout-to-restore>
     <recentWindows>
-      <value>Debug</value>
+      <value>Run</value>
       <value>Project</value>
       <value>Build</value>
-      <value>Run</value>
+      <value>Debug</value>
       <value>Find</value>
     </recentWindows>
   </component>
@@ -252,10 +186,14 @@
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
     <state x="873" y="425" width="800" height="663" key="#Docker/0.0.2560.1440@0.0.2560.1440" timestamp="1619162372605" />
-    <state x="804" y="361" width="844" height="595" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1619162780179">
+    <state x="875" y="353" width="800" height="663" key="#Intentions" timestamp="1619684055939">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state x="804" y="361" width="844" height="595" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2560.1440@0.0.2560.1440" timestamp="1619162780179" />
+    <state x="875" y="353" width="800" height="663" key="#Intentions/0.0.2560.1440@0.0.2560.1440" timestamp="1619684055939" />
+    <state x="804" y="345" width="844" height="595" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1619684063391">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state x="804" y="345" width="844" height="595" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2560.1440@0.0.2560.1440" timestamp="1619684063391" />
     <state x="1009" y="382" width="424" height="570" key="#com.intellij.ide.macro.MacrosDialog" timestamp="1619162643388">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
@@ -268,82 +206,90 @@
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
     <state x="1113" y="367" width="427" height="483" key="#com.intellij.tools.ToolEditorDialog/0.0.2560.1440@0.0.2560.1440" timestamp="1619162695747" />
-    <state width="598" height="277" key="DebuggerActiveHint" timestamp="1618835749632">
+    <state width="598" height="124" key="DebuggerActiveHint" timestamp="1619616106542">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state width="598" height="277" key="DebuggerActiveHint/0.0.2560.1440@0.0.2560.1440" timestamp="1618835749632" />
-    <state x="1063" y="406" width="424" height="470" key="FileChooserDialogImpl" timestamp="1619172057504">
+    <state width="598" height="124" key="DebuggerActiveHint/0.0.2560.1440@0.0.2560.1440" timestamp="1619616106542" />
+    <state x="1063" y="326" width="424" height="470" key="FileChooserDialogImpl" timestamp="1620218356357">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state x="1063" y="406" width="424" height="470" key="FileChooserDialogImpl/0.0.2560.1440@0.0.2560.1440" timestamp="1619172057504" />
-    <state width="1905" height="262" key="GridCell.Tab.0.bottom" timestamp="1619429601910">
+    <state x="1063" y="326" width="424" height="470" key="FileChooserDialogImpl/0.0.2560.1440@0.0.2560.1440" timestamp="1620218356357" />
+    <state width="2560" height="157" key="GridCell.Tab.0.bottom" timestamp="1620326621614">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state width="1460" height="169" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1618995498374" />
-    <state width="1905" height="262" key="GridCell.Tab.0.bottom/0.0.2560.1440@0.0.2560.1440" timestamp="1619429601910" />
-    <state width="1905" height="262" key="GridCell.Tab.0.center" timestamp="1619429601910">
+    <state width="1900" height="131" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1619806052313" />
+    <state width="2560" height="157" key="GridCell.Tab.0.bottom/0.0.2560.1440@0.0.2560.1440" timestamp="1620326621614" />
+    <state width="2560" height="157" key="GridCell.Tab.0.center" timestamp="1620326621614">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state width="1460" height="169" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1618995498373" />
-    <state width="1905" height="262" key="GridCell.Tab.0.center/0.0.2560.1440@0.0.2560.1440" timestamp="1619429601910" />
-    <state width="1905" height="262" key="GridCell.Tab.0.left" timestamp="1619429601910">
+    <state width="1900" height="131" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1619806052312" />
+    <state width="2560" height="157" key="GridCell.Tab.0.center/0.0.2560.1440@0.0.2560.1440" timestamp="1620326621614" />
+    <state width="2560" height="157" key="GridCell.Tab.0.left" timestamp="1620326621613">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state width="1460" height="169" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1618995498372" />
-    <state width="1905" height="262" key="GridCell.Tab.0.left/0.0.2560.1440@0.0.2560.1440" timestamp="1619429601910" />
-    <state width="1905" height="262" key="GridCell.Tab.0.right" timestamp="1619429601910">
+    <state width="1900" height="131" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1619806052311" />
+    <state width="2560" height="157" key="GridCell.Tab.0.left/0.0.2560.1440@0.0.2560.1440" timestamp="1620326621613" />
+    <state width="2560" height="157" key="GridCell.Tab.0.right" timestamp="1620326621614">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state width="1460" height="169" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1618995498374" />
-    <state width="1905" height="262" key="GridCell.Tab.0.right/0.0.2560.1440@0.0.2560.1440" timestamp="1619429601910" />
-    <state width="1905" height="262" key="GridCell.Tab.1.bottom" timestamp="1619429601911">
+    <state width="1900" height="131" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1619806052313" />
+    <state width="2560" height="157" key="GridCell.Tab.0.right/0.0.2560.1440@0.0.2560.1440" timestamp="1620326621614" />
+    <state width="2540" height="169" key="GridCell.Tab.1.bottom" timestamp="1619806052302">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="2540" height="169" key="GridCell.Tab.1.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1619806052302" />
+    <state width="2540" height="169" key="GridCell.Tab.1.bottom/0.0.2560.1440@0.0.2560.1440" timestamp="1619788510543" />
+    <state width="2540" height="169" key="GridCell.Tab.1.center" timestamp="1619806052301">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="2540" height="169" key="GridCell.Tab.1.center/0.0.1920.1080@0.0.1920.1080" timestamp="1619806052301" />
+    <state width="2540" height="169" key="GridCell.Tab.1.center/0.0.2560.1440@0.0.2560.1440" timestamp="1619788510541" />
+    <state width="2540" height="169" key="GridCell.Tab.1.left" timestamp="1619806052300">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="2540" height="169" key="GridCell.Tab.1.left/0.0.1920.1080@0.0.1920.1080" timestamp="1619806052300" />
+    <state width="2540" height="169" key="GridCell.Tab.1.left/0.0.2560.1440@0.0.2560.1440" timestamp="1619788510538" />
+    <state width="2540" height="169" key="GridCell.Tab.1.right" timestamp="1619806052301">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="2540" height="169" key="GridCell.Tab.1.right/0.0.1920.1080@0.0.1920.1080" timestamp="1619806052301" />
+    <state width="2540" height="169" key="GridCell.Tab.1.right/0.0.2560.1440@0.0.2560.1440" timestamp="1619788510542" />
+    <state x="813" y="365" width="924" height="670" key="Maven.ArtifactSearchDialog" timestamp="1619709605398">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state width="2100" height="217" key="GridCell.Tab.1.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1618995498355" />
-    <state width="1905" height="262" key="GridCell.Tab.1.bottom/0.0.2560.1440@0.0.2560.1440" timestamp="1619429601911" />
-    <state width="1905" height="262" key="GridCell.Tab.1.center" timestamp="1619429601911">
+    <state x="813" y="365" width="924" height="670" key="Maven.ArtifactSearchDialog/0.0.2560.1440@0.0.2560.1440" timestamp="1619709605398" />
+    <state x="770" y="454" width="900" height="716" key="SettingsEditor" timestamp="1620214048196">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state width="2100" height="217" key="GridCell.Tab.1.center/0.0.1920.1080@0.0.1920.1080" timestamp="1618995498353" />
-    <state width="1905" height="262" key="GridCell.Tab.1.center/0.0.2560.1440@0.0.2560.1440" timestamp="1619429601911" />
-    <state width="1905" height="262" key="GridCell.Tab.1.left" timestamp="1619429601911">
+    <state x="770" y="454" width="900" height="716" key="SettingsEditor/0.0.2560.1440@0.0.2560.1440" timestamp="1620214048196" />
+    <state x="1009" y="448" width="540" height="524" key="StructurePopup" timestamp="1620213805580">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state width="2100" height="217" key="GridCell.Tab.1.left/0.0.1920.1080@0.0.1920.1080" timestamp="1618995498352" />
-    <state width="1905" height="262" key="GridCell.Tab.1.left/0.0.2560.1440@0.0.2560.1440" timestamp="1619429601911" />
-    <state width="1905" height="262" key="GridCell.Tab.1.right" timestamp="1619429601911">
-      <screen x="0" y="0" width="2560" height="1440" />
-    </state>
-    <state width="2100" height="217" key="GridCell.Tab.1.right/0.0.1920.1080@0.0.1920.1080" timestamp="1618995498354" />
-    <state width="1905" height="262" key="GridCell.Tab.1.right/0.0.2560.1440@0.0.2560.1440" timestamp="1619429601911" />
-    <state x="870" y="228" width="900" height="716" key="SettingsEditor" timestamp="1619162878703">
-      <screen x="0" y="0" width="2560" height="1440" />
-    </state>
-    <state x="870" y="228" width="900" height="716" key="SettingsEditor/0.0.2560.1440@0.0.2560.1440" timestamp="1619162878703" />
+    <state x="1009" y="448" width="540" height="524" key="StructurePopup/0.0.2560.1440@0.0.2560.1440" timestamp="1620213805580" />
     <state x="905" y="415" width="800" height="663" key="TargetEnvironmentsConfigurable.size" timestamp="1619162376255">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
     <state x="905" y="415" width="800" height="663" key="TargetEnvironmentsConfigurable.size/0.0.2560.1440@0.0.2560.1440" timestamp="1619162376255" />
-    <state width="1050" height="693" key="XDebugger.FullValuePopup" timestamp="1618489785632">
+    <state width="1050" height="693" key="XDebugger.FullValuePopup" timestamp="1619614115719">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state width="1050" height="693" key="XDebugger.FullValuePopup/0.0.2560.1440@0.0.2560.1440" timestamp="1618489785632" />
+    <state width="1050" height="693" key="XDebugger.FullValuePopup/0.0.2560.1440@0.0.2560.1440" timestamp="1619614115719" />
     <state x="1260" y="363" width="198" height="527" key="com.intellij.tools.ToolSelectDialog.dimensionServiceKey" timestamp="1619162381738">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
     <state x="1260" y="363" width="198" height="527" key="com.intellij.tools.ToolSelectDialog.dimensionServiceKey/0.0.2560.1440@0.0.2560.1440" timestamp="1619162381738" />
-    <state x="358" y="465" width="534" height="508" key="find.popup" timestamp="1619429042224">
+    <state x="358" y="465" width="534" height="508" key="find.popup" timestamp="1619963532844">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state x="358" y="465" width="534" height="508" key="find.popup/0.0.2560.1440@0.0.2560.1440" timestamp="1619429042224" />
-    <state x="944" y="336" width="672" height="684" key="run.anything.popup" timestamp="1619427419488">
+    <state x="358" y="465" width="534" height="508" key="find.popup/0.0.2560.1440@0.0.2560.1440" timestamp="1619963532844" />
+    <state x="944" y="336" width="672" height="684" key="run.anything.popup" timestamp="1620318699893">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state x="944" y="336" width="672" height="684" key="run.anything.popup/0.0.2560.1440@0.0.2560.1440" timestamp="1619427419488" />
-    <state x="943" y="334" width="672" height="685" key="search.everywhere.popup" timestamp="1619456751103">
+    <state x="944" y="336" width="672" height="684" key="run.anything.popup/0.0.2560.1440@0.0.2560.1440" timestamp="1620318699893" />
+    <state x="943" y="334" width="672" height="685" key="search.everywhere.popup" timestamp="1620315976324">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state x="943" y="334" width="672" height="685" key="search.everywhere.popup/0.0.2560.1440@0.0.2560.1440" timestamp="1619456751103" />
+    <state x="943" y="334" width="672" height="685" key="search.everywhere.popup/0.0.2560.1440@0.0.2560.1440" timestamp="1620315976324" />
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="watch">
@@ -356,354 +302,194 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/jena/jena-arq/3.0.0/jena-arq-3.0.0-sources.jar!/org/apache/jena/riot/RiotReader.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/apache/jena/examples/Local_Queries_02.java" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/jena/jena-arq/3.0.0/jena-arq-3.0.0-sources.jar!/org/apache/jena/sparql/engine/QueryExecutionBase.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="60" column="1" selection-start-line="60" selection-start-column="1" selection-end-line="60" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/apache/jena/examples/ExampleRIOT_01.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="31" column="14" selection-start-line="31" selection-start-column="14" selection-end-line="31" selection-end-column="14" />
+        <state relative-caret-position="71">
+          <caret line="473" column="17" selection-start-line="473" selection-start-column="17" selection-end-line="473" selection-end-column="17" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#20732#20733#0" expanded="true" />
+            <element signature="e#20780#20781#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/apache/jena/examples/Local_Queries_01.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/jena/jena-arq/3.0.0/jena-arq-3.0.0-sources.jar!/org/apache/jena/query/QueryExecution.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="138">
+          <caret line="30" column="17" selection-start-line="30" selection-start-column="17" selection-end-line="30" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/apache/jena/examples/temperature.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/jena/jena-arq/3.0.0/jena-arq-3.0.0-sources.jar!/org/apache/jena/query/ResultSet.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/jena/jena-arq/3.0.0/jena-arq-3.0.0-sources.jar!/org/apache/jena/query/QueryExecutionFactory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="397">
-          <caret line="50" column="25" lean-forward="true" selection-start-line="50" selection-start-column="25" selection-end-line="50" selection-end-column="25" />
+        <state relative-caret-position="383">
+          <caret line="126" column="24" lean-forward="true" selection-start-line="126" selection-start-column="24" selection-end-line="126" selection-end-column="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/data/event_expanded.jsonld">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/jena/jena-core/3.0.0/jena-core-3.0.0-sources.jar!/org/apache/jena/rdf/model/ModelFactory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="19" column="1" lean-forward="true" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
+        <state relative-caret-position="645">
+          <caret line="111" column="24" selection-start-line="111" selection-start-column="24" selection-end-line="111" selection-end-column="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/apache/jena/examples/ExampleAPI_02.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/jena/jena-core/3.0.0/jena-core-3.0.0-sources.jar!/org/apache/jena/rdf/model/Resource.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
+        <state relative-caret-position="368">
+          <caret line="52" column="17" selection-start-line="52" selection-start-column="17" selection-end-line="52" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/apache/jena/examples/ExampleAPI_03.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="44" lean-forward="true" selection-start-line="44" selection-end-line="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/apache/jena/examples/ExampleAPI_01.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="598">
-          <caret line="67" lean-forward="true" selection-start-line="67" selection-end-line="67" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/glassfish/jakarta.json/2.0.0/jakarta.json-2.0.0-sources.jar!/jakarta/json/Json.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="84" selection-start-line="84" selection-end-line="84" />
-          <folding>
-            <element signature="e#2878#2879#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/glassfish/jakarta.json/2.0.0/jakarta.json-2.0.0-sources.jar!/org/glassfish/json/JsonTokenizer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1325">
-          <caret line="357" selection-start-line="357" selection-end-line="357" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/apache/jena/examples/ExampleARQ_02.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/jena/jena-arq/3.0.0/jena-arq-3.0.0-sources.jar!/org/apache/jena/riot/adapters/AdapterFileManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1325">
-          <caret line="282" selection-start-line="282" selection-end-line="282" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/github/jsonld-java/jsonld-java/0.5.1/jsonld-java-0.5.1-sources.jar!/com/github/jsonldjava/utils/JsonUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="839">
-          <caret line="126" column="5" selection-start-line="126" selection-start-column="5" selection-end-line="126" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/jena/jena-arq/3.0.0/jena-arq-3.0.0-sources.jar!/org/apache/jena/riot/system/RiotLib.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="474">
-          <caret line="125" selection-start-line="125" selection-end-line="125" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="650">
-          <caret line="86" column="21" lean-forward="true" selection-start-line="86" selection-start-column="21" selection-end-line="86" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/glassfish/jakarta.json/2.0.0/jakarta.json-2.0.0-sources.jar!/jakarta/json/stream/JsonParser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="190" selection-start-line="190" selection-end-line="190" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jrt:///usr/lib/jvm/java-11-openjdk!/java.base/java/util/Vector.class">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/jena/jena-core/3.0.0/jena-core-3.0.0-sources.jar!/org/apache/jena/rdf/model/ModelCon.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="450">
-          <caret line="130" column="39" selection-start-line="130" selection-start-column="32" selection-end-line="130" selection-end-column="39" />
+          <caret line="210" column="20" lean-forward="true" selection-start-line="210" selection-start-column="20" selection-end-line="210" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/jena/jena-arq/3.0.0/jena-arq-3.0.0-sources.jar!/org/apache/jena/query/Query.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="352" column="24" selection-start-line="352" selection-start-column="24" selection-end-line="352" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/jena/jena-core/3.0.0/jena-core-3.0.0-sources.jar!/org/apache/jena/rdf/model/Model.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="279" column="21" selection-start-line="279" selection-start-column="21" selection-end-line="279" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/jena/jena-core/3.0.0/jena-core-3.0.0-sources.jar!/org/apache/jena/graph/NodeFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="80" column="23" lean-forward="true" selection-start-line="80" selection-start-column="23" selection-end-line="80" selection-end-column="23" />
           <folding>
-            <element signature="e#3865#3866#0" expanded="true" />
-            <element signature="e#3910#3911#0" expanded="true" />
+            <element signature="e#2762#2763#0" expanded="true" />
+            <element signature="e#2803#2804#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jrt:///usr/lib/jvm/java-11-openjdk!/java.base/java/util/Stack.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="403">
-          <caret line="34" column="24" selection-start-line="34" selection-start-column="19" selection-end-line="34" selection-end-column="24" />
-          <folding>
-            <element signature="e#755#756#0" expanded="true" />
-            <element signature="e#794#795#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/slf4j/slf4j-api/1.6.4/slf4j-api-1.6.4.jar!/org/slf4j/LoggerFactory.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="987">
-          <caret line="181" column="34" selection-start-line="181" selection-start-column="25" selection-end-line="181" selection-end-column="34" />
-          <folding>
-            <element signature="e#7428#7429#0" expanded="true" />
-            <element signature="e#7477#7478#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/apache/jena/examples/ExampleARQ_06.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="871">
-          <caret line="83" selection-start-line="83" selection-end-line="83" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dev/Run2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="78">
-          <caret line="32" column="13" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dev/Run3.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="78">
-          <caret line="31" column="13" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/apache/jena/examples/ExampleAPI_04.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="78">
-          <caret line="30" column="13" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/apache/jena/examples/ExampleScala_01.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="52">
-          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/apache/jena/examples/ExampleARQ_05.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="611">
-          <caret line="65" lean-forward="true" selection-start-line="65" selection-end-line="65" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/slf4j/slf4j-api/1.6.4/slf4j-api-1.6.4.jar!/org/slf4j/Logger.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="455">
-          <caret line="38" column="14" selection-start-line="38" selection-start-column="9" selection-end-line="38" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jrt:///usr/lib/jvm/java-11-openjdk!/java.base/java/lang/Enum.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="741">
-          <caret line="72" column="5" lean-forward="true" selection-start-line="72" selection-start-column="5" selection-end-line="72" selection-end-column="5" />
-          <folding>
-            <element signature="e#721#722#0" expanded="true" />
-            <element signature="e#753#754#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/apicatalog/titanium-json-ld/1.0.0/titanium-json-ld-1.0.0-sources.jar!/com/apicatalog/jsonld/lang/Keywords.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="454">
-          <caret line="67" column="40" lean-forward="true" selection-start-line="67" selection-start-column="40" selection-end-line="67" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jrt:///usr/lib/jvm/java-11-openjdk!/java.base/java/util/List.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="455">
-          <caret line="70" column="9" selection-start-line="70" selection-start-column="6" selection-end-line="70" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/jena/jena-arq/3.0.0/jena-arq-3.0.0-sources.jar!/org/apache/jena/sparql/engine/binding/BindingFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="164">
-          <caret line="30" column="26" lean-forward="true" selection-start-line="30" selection-start-column="26" selection-end-line="30" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/jena/jena-arq/3.0.0/jena-arq-3.0.0-sources.jar!/org/apache/jena/sparql/engine/binding/BindingHashMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1197">
-          <caret line="118" selection-start-line="118" selection-end-line="118" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/jena/jena-arq/3.0.0/jena-arq-3.0.0-sources.jar!/org/apache/jena/sparql/core/TriplePath.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="665">
-          <caret line="90" selection-start-line="90" selection-end-line="90" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/jena/jena-core/3.0.0/jena-core-3.0.0-sources.jar!/org/apache/jena/graph/Triple.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="455">
-          <caret line="99" column="24" selection-start-line="99" selection-start-column="24" selection-end-line="99" selection-end-column="24" />
-          <folding>
-            <element signature="e#5357#5358#0" expanded="true" />
-            <element signature="e#5402#5403#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/jena/jena-core/3.0.0/jena-core-3.0.0-sources.jar!/org/apache/jena/graph/Node_ANY.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="151">
-          <caret line="29" column="18" selection-start-line="29" selection-start-column="18" selection-end-line="29" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/jena/jena-core/3.0.0/jena-core-3.0.0-sources.jar!/org/apache/jena/graph/Node_Variable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="939">
-          <caret line="92" selection-start-line="92" selection-end-line="92" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/apache/jena/examples/ExampleTDB_04.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="403">
-          <caret line="65" column="29" lean-forward="true" selection-start-line="65" selection-start-column="29" selection-end-line="65" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/apache/jena/examples/ExampleARQ_01.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="884">
-          <caret line="87" column="36" lean-forward="true" selection-start-line="87" selection-start-column="36" selection-end-line="87" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2362#2368#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/apache/jena/examples/Local_Queries_03.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="546">
-          <caret line="42" column="27" selection-start-line="42" selection-start-column="27" selection-end-line="42" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/apache/jena/examples/Local_Queries_04.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/apache/jena/examples/code.java" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/jena/jena-core/3.0.0/jena-core-3.0.0-sources.jar!/org/apache/jena/rdf/model/impl/ModelCom.java">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/apache/jena/jena-arq/3.0.0/jena-arq-3.0.0-sources.jar!/org/apache/jena/riot/RDFDataMgr.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="8073">
-          <caret line="981" selection-start-line="981" selection-end-line="981" />
+        <state relative-caret-position="522">
+          <caret line="78" column="4" selection-start-line="78" selection-start-column="4" selection-end-line="78" selection-end-column="4" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/jena/jena-arq/3.0.0/jena-arq-3.0.0-sources.jar!/org/apache/jena/riot/lang/JsonLDReader.java">
+    <entry file="file://$PROJECT_DIR$/.project">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/jena/jena-arq/4.0.0/jena-arq-4.0.0.jar!/org/apache/jena/riot/RDFDataMgr.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="585">
-          <caret line="85" selection-start-line="85" selection-end-line="85" />
+        <state relative-caret-position="169">
+          <caret line="16" column="38" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="38" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/glassfish/jakarta.json/2.0.0/jakarta.json-2.0.0-sources.jar!/org/glassfish/json/JsonParserImpl.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/jena/jena-arq/4.0.0/jena-arq-4.0.0.jar!/org/apache/jena/riot/JsonLDWriteContext.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4966">
-          <caret line="441" selection-start-line="441" selection-end-line="441" />
+        <state relative-caret-position="234">
+          <caret line="19" column="32" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="32" />
+          <caret line="23" column="32" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="32" />
+          <caret line="27" column="32" selection-start-line="27" selection-start-column="16" selection-end-line="27" selection-end-column="32" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#12899#12900#0" expanded="true" />
-            <element signature="e#12942#12943#0" expanded="true" />
+            <element signature="e#535#536#0" expanded="true" />
+            <element signature="e#603#604#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/apache/jena/examples/Local_Queries_02.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/jena/jena-arq/4.0.0/jena-arq-4.0.0.jar!/org/apache/jena/riot/RDFWriterBuilder.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1154">
+          <caret line="109" column="22" selection-start-line="109" selection-start-column="16" selection-end-line="109" selection-end-column="22" />
+          <caret line="109" column="42" selection-start-line="109" selection-start-column="36" selection-end-line="109" selection-end-column="42" />
+          <caret line="110" column="27" selection-start-line="110" selection-start-column="21" selection-end-line="110" selection-end-column="27" />
+          <folding>
+            <element signature="e#2898#2899#0" expanded="true" />
+            <element signature="e#2947#2948#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/commons-io/commons-io/2.8.0/commons-io-2.8.0.jar!/org/apache/commons/io/FileUtils.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="996" column="45" selection-start-line="996" selection-start-column="33" selection-end-line="996" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/github/jsonld-java/jsonld-java/0.13.2/jsonld-java-0.13.2.jar!/com/github/jsonldjava/core/Context.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="24" column="11" selection-start-line="24" selection-start-column="11" selection-end-line="24" selection-end-column="11" />
+          <folding>
+            <element signature="e#752#753#0" expanded="true" />
+            <element signature="e#793#794#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/fasterxml/jackson/core/jackson-databind/2.12.1/jackson-databind-2.12.1.jar!/com/fasterxml/jackson/databind/ObjectMapper.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="144" column="23" selection-start-line="144" selection-start-column="11" selection-end-line="144" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/fasterxml/jackson/core/jackson-core/2.12.1/jackson-core-2.12.1.jar!/com/fasterxml/jackson/core/JsonFactory.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="403">
-          <caret line="42" selection-start-line="42" selection-end-line="42" />
+          <caret line="69" column="11" selection-start-line="69" selection-start-column="11" selection-end-line="69" selection-end-column="11" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#3072#3073#0" expanded="true" />
+            <element signature="e#3111#3112#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/apicatalog/titanium-json-ld/1.0.0/titanium-json-ld-1.0.0-sources.jar!/com/apicatalog/jsonld/JsonLdOptions.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/com/fasterxml/jackson/core/jackson-core/2.12.1/jackson-core-2.12.1.jar!/com/fasterxml/jackson/core/JsonToken.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="541">
-          <caret line="121" selection-start-line="121" selection-end-line="121" />
+        <state relative-caret-position="52">
+          <caret line="7" column="12" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/glassfish/jakarta.json/2.0.0/jakarta.json-2.0.0-sources.jar!/jakarta/json/JsonObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="103" column="27" selection-start-line="103" selection-start-column="17" selection-end-line="103" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/fasterxml/jackson/core/jackson-core/2.12.1/jackson-core-2.12.1.jar!/com/fasterxml/jackson/core/JsonParser.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="397" column="69" lean-forward="true" selection-start-line="397" selection-start-column="69" selection-end-line="397" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/github/jsonld-java/jsonld-java/0.13.2/jsonld-java-0.13.2-sources.jar!/com/github/jsonldjava/core/Context.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="1110" column="73" lean-forward="true" selection-start-line="1110" selection-start-column="73" selection-end-line="1110" selection-end-column="73" />
           <folding>
-            <element signature="e#3381#3382#0" expanded="true" />
-            <element signature="e#3433#3434#0" expanded="true" />
+            <element signature="e#910#911#0" expanded="true" />
+            <element signature="e#951#952#0" expanded="true" />
+            <element signature="e#35347#35348#0" expanded="true" />
+            <element signature="e#35405#35406#0" expanded="true" />
+            <element signature="e#43716#43717#0" expanded="true" />
+            <element signature="e#43787#43788#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -711,57 +497,182 @@
     <entry file="jar://$MAVEN_REPOSITORY$/com/apicatalog/titanium-json-ld/1.0.0/titanium-json-ld-1.0.0-sources.jar!/com/apicatalog/jsonld/context/ActiveContextBuilder.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="450">
-          <caret line="110" column="101" lean-forward="true" selection-start-line="110" selection-start-column="101" selection-end-line="110" selection-end-column="101" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="26">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/apicatalog/titanium-json-ld/1.0.0/titanium-json-ld-1.0.0-sources.jar!/com/apicatalog/jsonld/context/ActiveContext.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="870">
-          <caret line="170" column="26" lean-forward="true" selection-start-line="170" selection-start-column="26" selection-end-line="170" selection-end-column="26" />
+          <caret line="110" column="25" lean-forward="true" selection-start-line="110" selection-start-column="25" selection-end-line="110" selection-end-column="25" />
           <folding>
-            <element signature="e#2103#2104#0" expanded="true" />
-            <element signature="e#2150#2151#0" expanded="true" />
-            <element signature="e#4998#4999#0" expanded="true" />
-            <element signature="e#5044#5045#0" expanded="true" />
-            <element signature="e#5090#5091#0" expanded="true" />
-            <element signature="e#5138#5139#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/glassfish/jakarta.json/2.0.0/jakarta.json-2.0.0-sources.jar!/jakarta/json/stream/JsonParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="786">
+          <caret line="357" column="43" lean-forward="true" selection-start-line="357" selection-start-column="43" selection-end-line="357" selection-end-column="43" />
+          <folding>
+            <element signature="e#13507#13508#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/jena/jena-arq/4.0.0/jena-arq-4.0.0.jar!/org/apache/jena/sparql/engine/binding/BindingMap.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="151">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/jena/jena-arq/4.0.0/jena-arq-4.0.0-sources.jar!/org/apache/jena/sparql/engine/iterator/QueryIterPlainWrapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="36" column="11" lean-forward="true" selection-start-line="36" selection-start-column="11" selection-end-line="36" selection-end-column="11" />
         </state>
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/com/apicatalog/titanium-json-ld/1.0.0/titanium-json-ld-1.0.0-sources.jar!/com/apicatalog/jsonld/expansion/UriExpansion.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="908">
-          <caret line="106" selection-start-line="106" selection-end-line="106" />
+        <state relative-caret-position="739">
+          <caret line="93" selection-start-line="93" selection-end-line="93" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/jena/jena-core/3.0.0/jena-core-3.0.0-sources.jar!/org/apache/jena/util/FileManager.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/glassfish/jakarta.json/2.0.0/jakarta.json-2.0.0-sources.jar!/jakarta/json/stream/JsonCollectors.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="286" selection-start-line="286" selection-end-line="286" />
+        <state relative-caret-position="165">
+          <caret line="40" column="19" selection-start-line="40" selection-start-column="19" selection-end-line="40" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/jena/jena-core/3.0.0/jena-core-3.0.0-sources.jar!/org/apache/jena/graph/Node.java">
+    <entry file="jrt:///usr/lib/jvm/java-11-openjdk!/java.base/java/io/File.class" />
+    <entry file="jar://$MAVEN_REPOSITORY$/com/apicatalog/titanium-json-ld/1.0.0/titanium-json-ld-1.0.0-sources.jar!/com/apicatalog/jsonld/lang/Keywords.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="80" column="19" lean-forward="true" selection-start-line="80" selection-start-column="19" selection-end-line="80" selection-end-column="19" />
+        <state relative-caret-position="169">
+          <caret line="29" column="31" selection-start-line="29" selection-start-column="31" selection-end-line="29" selection-end-column="31" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/apache/jena/examples/Local_Queries_04.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/jena/jena-arq/4.0.0/jena-arq-4.0.0-sources.jar!/org/apache/jena/sparql/util/Context.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="379">
+          <caret line="225" column="39" lean-forward="true" selection-start-line="225" selection-start-column="39" selection-end-line="225" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/maven/lib/maven3/lib/maven-model-builder-3.6.3.jar!/org/apache/maven/model/pom-4.0.0.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="449">
+          <caret line="103" column="18" lean-forward="true" selection-start-line="103" selection-start-column="18" selection-end-line="103" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="844">
+          <caret line="147" column="37" selection-start-line="147" selection-start-column="37" selection-end-line="147" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/jena/jena-arq/4.0.0/jena-arq-4.0.0-sources.jar!/org/apache/jena/riot/RDFFormat.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2032">
+          <caret line="135" column="58" selection-start-line="135" selection-start-column="58" selection-end-line="135" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/jena/jena-core/4.0.0/jena-core-4.0.0.jar!/org/apache/jena/rdf/model/Model.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="91">
+          <caret line="20" column="13" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/jena/jena-core/4.0.0/jena-core-4.0.0.jar!/org/apache/jena/util/FileManager.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="771">
+          <caret line="115" column="19" selection-start-line="115" selection-start-column="10" selection-end-line="115" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/github/jsonld-java/jsonld-java/0.13.2/jsonld-java-0.13.2.jar!/com/github/jsonldjava/shaded/com/google/common/collect/Iterators.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="76" column="26" selection-start-line="76" selection-start-column="22" selection-end-line="76" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/apache/jena/ldparser/Sketches.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="26">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/jena/jena-arq/4.0.0/jena-arq-4.0.0-sources.jar!/org/apache/jena/sparql/engine/binding/BindingMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="303">
+          <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/jena/jena-arq/4.0.0/jena-arq-4.0.0-sources.jar!/org/apache/jena/sparql/core/PathBlock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="47" selection-start-line="47" selection-end-line="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/jena/jena-arq/4.0.0/jena-arq-4.0.0-sources.jar!/org/apache/jena/sparql/engine/binding/BindingFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="33" column="35" selection-start-line="33" selection-start-column="29" selection-end-line="33" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/jena/jena-arq/4.0.0/jena-arq-4.0.0-sources.jar!/org/apache/jena/sparql/engine/binding/BindingBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="453">
+          <caret line="135" column="26" selection-start-line="135" selection-start-column="26" selection-end-line="135" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jrt:///usr/lib/jvm/java-11-openjdk!/java.base/java/util/List.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="559">
+          <caret line="49" column="17" selection-start-line="49" selection-start-column="17" selection-end-line="49" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/jena/jena-arq/4.0.0/jena-arq-4.0.0-sources.jar!/org/apache/jena/riot/RDFWriterBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1002">
+          <caret line="173" column="20" selection-start-line="173" selection-start-column="13" selection-end-line="173" selection-end-column="20" />
+          <caret line="173" column="30" selection-start-line="173" selection-start-column="23" selection-end-line="173" selection-end-column="30" />
+          <caret line="185" column="21" selection-start-line="185" selection-start-column="14" selection-end-line="185" selection-end-column="21" />
+          <caret line="185" column="38" selection-start-line="185" selection-start-column="31" selection-end-line="185" selection-end-column="38" />
+          <caret line="194" column="66" selection-start-line="194" selection-start-column="59" selection-end-line="194" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/apache/jena/ldparser/TransformDataset.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="611">
+          <caret line="57" selection-start-line="57" selection-end-line="57" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="13">
-          <caret line="72" selection-start-line="72" selection-end-line="72" />
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/apache/jena/ldparser/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2041">
+          <caret line="241" column="32" lean-forward="true" selection-start-line="241" selection-start-column="32" selection-end-line="241" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

@@ -2,51 +2,27 @@
   <component name="RecentProjectsManager">
     <option name="additionalInfo">
       <map>
-        <entry key="$USER_HOME$/ut/sw/apache-jena-3.17.0/src-examples/jena-examples">
+        <entry key="$USER_HOME$/ut/code/uba1.7">
           <value>
-            <RecentProjectMetaInfo projectWorkspaceId="1pZLvQKUeW5BtAAgKANBtU1pmQC">
+            <RecentProjectMetaInfo frameTitle="uba1.7 – Generator.java" projectWorkspaceId="1rqYEquEIHtMhOPZnaFDoCIgjS8">
               <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
-              <option name="build" value="IU-202.7660.26" />
-              <option name="buildTimestamp" value="1601973171085" />
-              <frame x="230" y="20" width="2100" height="1385" />
+              <option name="build" value="IU-211.6693.111" />
+              <option name="buildTimestamp" value="1617703819473" />
+              <frame x="230" y="35" width="2100" height="1370" />
               <option name="productionCode" value="IU" />
-              <option name="projectOpenTimestamp" value="1615386901353" />
+              <option name="projectOpenTimestamp" value="1620197581834" />
             </RecentProjectMetaInfo>
           </value>
         </entry>
-        <entry key="$USER_HOME$/ut/jena">
+        <entry key="$USER_HOME$/ut/code/ldparser/ldparser-java">
           <value>
-            <RecentProjectMetaInfo frameTitle="jena – Metadata.java [jena-core]" projectWorkspaceId="1rD1PvqdFu6wFLtplcNbGvVr51w">
+            <RecentProjectMetaInfo frameTitle="ldparser-java – Main.java" opened="true" projectWorkspaceId="1rC6G0JLpCM0QSBMo5trtJ6NCYD">
               <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
-              <option name="build" value="IU-211.6693.111" />
-              <option name="buildTimestamp" value="1617703821927" />
-              <frame x="0" y="35" width="2560" height="1370" />
+              <option name="build" value="IU-211.7142.45" />
+              <option name="buildTimestamp" value="1619777564362" />
+              <frame x="230" y="19" width="1460" height="1026" />
               <option name="productionCode" value="IU" />
-              <option name="projectOpenTimestamp" value="1618826141683" />
-            </RecentProjectMetaInfo>
-          </value>
-        </entry>
-        <entry key="$USER_HOME$/ut/titanium-json-ld">
-          <value>
-            <RecentProjectMetaInfo frameTitle="titanium-json-ld – ObjectExpansion1314.java" projectWorkspaceId="1rElmETfr2cuFMo0meCudEMafgU">
-              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
-              <option name="build" value="IU-211.6693.111" />
-              <option name="buildTimestamp" value="1617703810945" />
-              <frame x="10" y="-6" width="2540" height="1411" />
-              <option name="productionCode" value="IU" />
-              <option name="projectOpenTimestamp" value="1619438044667" />
-            </RecentProjectMetaInfo>
-          </value>
-        </entry>
-        <entry key="$USER_HOME$/ut/jena-examples">
-          <value>
-            <RecentProjectMetaInfo frameTitle="jena-examples – Local_Queries_04.java" opened="true" projectWorkspaceId="1rC6G0JLpCM0QSBMo5trtJ6NCYD">
-              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
-              <option name="build" value="IU-211.6693.111" />
-              <option name="buildTimestamp" value="1617703810945" />
-              <frame x="10" y="10" width="1900" height="1035" />
-              <option name="productionCode" value="IU" />
-              <option name="projectOpenTimestamp" value="1619460370713" />
+              <option name="projectOpenTimestamp" value="1620197585496" />
             </RecentProjectMetaInfo>
           </value>
         </entry>

@@ -2,11 +2,17 @@
   <action id="$LRU">
     <keyboard-shortcut first-keystroke="shift ctrl o" />
   </action>
+  <action id="CollapseRegion">
+    <keyboard-shortcut first-keystroke="shift ctrl braceleft" />
+  </action>
   <action id="CommentByLineComment">
     <keyboard-shortcut first-keystroke="ctrl #10000d1" />
   </action>
   <action id="Editor LRU">
     <keyboard-shortcut first-keystroke="shift ctrl o" />
+  </action>
+  <action id="ExpandRegion">
+    <keyboard-shortcut first-keystroke="shift ctrl braceright" />
   </action>
   <action id="ExternalSystem.ProjectRefreshAction" />
   <action id="Replace" />

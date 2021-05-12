@@ -1,5 +1,4 @@
 {
-  // "editor.fontFamily": "Jetbrains Mono",
   // "editor.fontSize": 12,
   "editor.fontFamily": "Terminus \\(TTF\\)",
   "editor.fontSize": 15,
@@ -7,7 +6,6 @@
   "editor.fontLigatures": true,
   "breadcrumbs.icons": true,
   "breadcrumbs.filePath": "off",
-  "workbench.colorTheme": "White Night",
   "window.zoomLevel": 0,
   "editor.renderIndentGuides": true,
   "editor.minimap.enabled": false,
@@ -22,7 +20,7 @@
   "editor.formatOnPaste": true,
   "editor.multiCursorModifier": "ctrlCmd",
   "editor.snippetSuggestions": "top",
-  "workbench.activityBar.visible": false,
+  "scm.diffDecorations": "gutter",
   "editor.formatOnSave": false,
   "editor.minimap.showSlider": "always",
   "explorer.confirmDelete": false,
@@ -41,14 +39,27 @@
   // "window.title": "${dirty}${activeEditorMedium}${rootName}",
   "editor.tokenColorCustomizations": {
     "[White Night]": {
-      "comments": "#ff7979",
-      "functions": "#dfdfdf",
+      "comments": "#C3E88D",
+      "functions": {
+        "fontStyle": "bold",
+        "foreground": "#808080"
+      },
+      "keywords": {
+        "foreground": "#808080"
+      },
+      "types": {
+        "foreground": "#a7a7a7"
+      },
       "strings": "#b3b3b3",
-      "variables": "#cccccc",
+      "variables": {
+        "foreground": "#929292"
+      },
     },
   },
   "workbench.colorCustomizations": {
     "[White Night]": {
+      "editor.foreground": "#ffffff",
+
       "terminal.background": "#000",
       "terminal.foreground": "#ccc",
       "terminalCursor.background": "#EEFFFF",
@@ -94,8 +105,6 @@
   },
   "latex-workshop.view.pdf.viewer": "external",
   "cSpell.enabled": true,
-  "breadcrumbs.enabled": false,
-  "window.menuBarVisibility": "hidden",
   "latex-workshop.latex.tools": [
     {
       "name": "latexmk",
@@ -111,5 +120,9 @@
       ],
       "env": {}
     },
-  ]
+  ],
+  "workbench.colorTheme": "White Night",
+  "workbench.editor.showTabs": false,
+  "window.menuBarVisibility": "hidden",
+  "workbench.activityBar.visible": false
 }

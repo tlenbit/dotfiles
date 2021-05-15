@@ -1,0 +1,254 @@
+<project version="4">
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="-1">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/edu/lehigh/swat/bench/uba/OwlWriter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="429">
+              <caret line="52" column="19" selection-start-line="52" selection-start-column="19" selection-end-line="52" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/edu/lehigh/swat/bench/uba/Generator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="763">
+              <caret line="681" column="24" selection-start-line="681" selection-start-column="24" selection-end-line="681" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>T_RDF_NS</find>
+      <find>main</find>
+      <find>usage</find>
+      <find>ASSOPROF_PUB_MIN</find>
+      <find>R_UNDERSTUD_FACULTY_MAX</find>
+      <find>generated</find>
+      <find>.owl</find>
+      <find>data</find>
+      <find>/data</find>
+    </findStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$/src/edu/lehigh/swat/bench/uba</dir>
+    </dirStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <changedPaths>
+      <option value="$PROJECT_DIR$/src/edu/lehigh/swat/bench/uba/DamlWriter.java" />
+      <option value="$PROJECT_DIR$/src/edu/lehigh/swat/bench/uba/Generator.java" />
+      <option value="$PROJECT_DIR$/pom.xml" />
+      <option value="$PROJECT_DIR$/src/main/java/edu/lehigh/swat/bench/uba/Generator.java" />
+    </changedPaths>
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="$PROJECT_DIR$/.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" />
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="uba1.7" type="b2602c69:ProjectViewProjectNode" />
+              <item name="uba1.7" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="uba1.7" type="b2602c69:ProjectViewProjectNode" />
+              <item name="uba1.7" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="uba1.7" type="b2602c69:ProjectViewProjectNode" />
+              <item name="uba1.7" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="uba1.7" type="b2602c69:ProjectViewProjectNode" />
+              <item name="uba1.7" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="uba1.7" type="b2602c69:ProjectViewProjectNode" />
+              <item name="uba1.7" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="uba" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="10838000" />
+  </component>
+  <component name="ToolWindowManager">
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15595238" />
+      <window_info id="Structure" order="1" side_tool="true" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info id="Commit" order="3" />
+      <window_info id="Space Code Reviews" order="4" />
+      <window_info id="Learn" order="5" />
+      <window_info id="Pull Requests" order="6" />
+      <window_info anchor="bottom" id="Event Log" order="0" side_tool="true" />
+      <window_info anchor="bottom" id="TODO" order="1" />
+      <window_info anchor="bottom" id="Problems View" order="2" />
+      <window_info anchor="bottom" id="File Transfer" order="3" />
+      <window_info anchor="bottom" id="Version Control" order="4" />
+      <window_info anchor="bottom" id="Terminal" order="5" />
+      <window_info anchor="bottom" id="Profiler" order="6" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="TypeScript" order="8" />
+      <window_info anchor="bottom" id="Endpoints" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Build" order="10" />
+      <window_info anchor="bottom" id="internal-profiler" order="11" />
+      <window_info anchor="bottom" id="Debug" order="12" weight="0.22915156" />
+      <window_info anchor="bottom" id="Internal Method Tracing" order="13" />
+      <window_info anchor="bottom" id="Run" order="14" weight="0.14285715" />
+      <window_info anchor="bottom" id="Flow" order="15" />
+      <window_info anchor="bottom" id="Services" order="16" />
+      <window_info anchor="bottom" id="Find" order="17" weight="0.32994923" />
+      <window_info anchor="right" id="Space Automation" order="0" />
+      <window_info anchor="right" id="Database" order="1" />
+      <window_info anchor="right" id="Maven" order="2" />
+    </layout>
+    <recentWindows>
+      <value>Project</value>
+      <value>Run</value>
+      <value>Debug</value>
+      <value>Find</value>
+    </recentWindows>
+  </component>
+  <component name="Trusted.Project.Settings" hasCheckedIfOldProject="true" trusted="YES" />
+  <component name="WindowStateProjectService">
+    <state width="2540" height="169" key="GridCell.Tab.0.bottom" timestamp="1619969086104">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state width="2540" height="169" key="GridCell.Tab.0.bottom/0.0.2560.1440@0.0.2560.1440" timestamp="1619969086104" />
+    <state width="2540" height="169" key="GridCell.Tab.0.center" timestamp="1619969086101">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state width="2540" height="169" key="GridCell.Tab.0.center/0.0.2560.1440@0.0.2560.1440" timestamp="1619969086101" />
+    <state width="2540" height="169" key="GridCell.Tab.0.left" timestamp="1619969086100">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state width="2540" height="169" key="GridCell.Tab.0.left/0.0.2560.1440@0.0.2560.1440" timestamp="1619969086100" />
+    <state width="2540" height="169" key="GridCell.Tab.0.right" timestamp="1619969086103">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state width="2540" height="169" key="GridCell.Tab.0.right/0.0.2560.1440@0.0.2560.1440" timestamp="1619969086103" />
+    <state width="2540" height="288" key="GridCell.Tab.1.bottom" timestamp="1619715042513">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state width="2540" height="288" key="GridCell.Tab.1.bottom/0.0.2560.1440@0.0.2560.1440" timestamp="1619715042513" />
+    <state width="2540" height="288" key="GridCell.Tab.1.center" timestamp="1619715042513">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state width="2540" height="288" key="GridCell.Tab.1.center/0.0.2560.1440@0.0.2560.1440" timestamp="1619715042513" />
+    <state width="2540" height="288" key="GridCell.Tab.1.left" timestamp="1619715042512">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state width="2540" height="288" key="GridCell.Tab.1.left/0.0.2560.1440@0.0.2560.1440" timestamp="1619715042512" />
+    <state width="2540" height="288" key="GridCell.Tab.1.right" timestamp="1619715042513">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state width="2540" height="288" key="GridCell.Tab.1.right/0.0.2560.1440@0.0.2560.1440" timestamp="1619715042513" />
+    <state x="686" y="449" key="SettingsEditor" timestamp="1620059729973">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state x="686" y="449" key="SettingsEditor/0.0.2560.1440@0.0.2560.1440" timestamp="1620059729973" />
+    <state x="358" y="465" width="534" height="508" key="find.popup" timestamp="1619705540876">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state x="358" y="465" width="534" height="508" key="find.popup/0.0.2560.1440@0.0.2560.1440" timestamp="1619705540876" />
+    <state x="0" y="334" width="672" height="684" key="run.anything.popup" timestamp="1619966720074">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state x="0" y="334" width="672" height="684" key="run.anything.popup/0.0.2560.1440@0.0.2560.1440" timestamp="1619966720074" />
+    <state x="0" y="327" width="672" height="685" key="search.everywhere.popup" timestamp="1620059681230">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state x="0" y="327" width="672" height="685" key="search.everywhere.popup/0.0.2560.1440@0.0.2560.1440" timestamp="1620059681230" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/readme.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="455">
+          <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/edu/lehigh/swat/bench/uba/DamlWriter.java" />
+    <entry file="file://$PROJECT_DIR$/classes/edu/lehigh/swat/bench/uba/DamlWriter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="52">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/uba1.7.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="10" column="9" lean-forward="true" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/edu/lehigh/swat/bench/uba/OwlWriter.java" />
+    <entry file="file://$PROJECT_DIR$/src/edu/lehigh/swat/bench/uba/RdfWriter.java" />
+    <entry file="file://$PROJECT_DIR$/src/edu/lehigh/swat/bench/uba/Writer.java" />
+    <entry file="file://$PROJECT_DIR$/src/edu/lehigh/swat/bench/uba/Generator.java" />
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="338">
+          <caret line="26" column="38" lean-forward="true" selection-start-line="26" selection-start-column="38" selection-end-line="26" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/lehigh/swat/bench/uba/DamlWriter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="579">
+          <caret line="60" column="1" lean-forward="true" selection-start-line="60" selection-start-column="1" selection-end-line="60" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/lehigh/swat/bench/uba/OwlWriter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="429">
+          <caret line="52" column="19" selection-start-line="52" selection-start-column="19" selection-end-line="52" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/lehigh/swat/bench/uba/Generator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="763">
+          <caret line="681" column="24" selection-start-line="681" selection-start-column="24" selection-end-line="681" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

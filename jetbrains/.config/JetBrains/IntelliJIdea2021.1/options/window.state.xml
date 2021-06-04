@@ -2,7 +2,7 @@
   <component name="DimensionService">
     <location key="find.popup.0.0.1920.1080" x="685" y="275" />
     <location key="find.popup.0.0.1920.2160" x="375" y="135" />
-    <location key="find.popup.0.0.2560.1440" x="358" y="465" />
+    <location key="find.popup.0.0.2560.1440" x="913" y="367" />
     <location key="find.popup.0.0.2560.2520" x="664" y="1652" />
     <location key="find.popup.0.0.1920.1200" x="351" y="335" />
     <location key="find.popup.0.0.3120.1920" x="1532" y="917" />
@@ -15,15 +15,15 @@
     <size key="GridCell.Tab.1.center.0.0.1920.1080" width="2540" height="169" />
     <size key="GridCell.Tab.1.right.0.0.1920.1080" width="2540" height="169" />
     <size key="GridCell.Tab.1.bottom.0.0.1920.1080" width="2540" height="169" />
-    <size key="find.popup.0.0.1920.1080" width="684" height="512" />
-    <size key="GridCell.Tab.0.left.0.0.2560.1440" width="2560" height="157" />
-    <size key="GridCell.Tab.0.center.0.0.2560.1440" width="2560" height="157" />
-    <size key="GridCell.Tab.0.right.0.0.2560.1440" width="2560" height="157" />
-    <size key="GridCell.Tab.0.bottom.0.0.2560.1440" width="2560" height="157" />
-    <size key="GridCell.Tab.1.left.0.0.2560.1440" width="2540" height="169" />
-    <size key="GridCell.Tab.1.center.0.0.2560.1440" width="2540" height="169" />
-    <size key="GridCell.Tab.1.right.0.0.2560.1440" width="2540" height="169" />
-    <size key="GridCell.Tab.1.bottom.0.0.2560.1440" width="2540" height="169" />
+    <size key="find.popup.0.0.1920.1080" width="554" height="520" />
+    <size key="GridCell.Tab.0.left.0.0.2560.1440" width="2540" height="381" />
+    <size key="GridCell.Tab.0.center.0.0.2560.1440" width="2540" height="381" />
+    <size key="GridCell.Tab.0.right.0.0.2560.1440" width="2540" height="381" />
+    <size key="GridCell.Tab.0.bottom.0.0.2560.1440" width="2540" height="381" />
+    <size key="GridCell.Tab.1.left.0.0.2560.1440" width="2540" height="381" />
+    <size key="GridCell.Tab.1.center.0.0.2560.1440" width="2540" height="381" />
+    <size key="GridCell.Tab.1.right.0.0.2560.1440" width="2540" height="381" />
+    <size key="GridCell.Tab.1.bottom.0.0.2560.1440" width="2540" height="381" />
     <size key="GridCell.Tab.0.left.0.0.2560.2520" width="1274" height="243" />
     <size key="GridCell.Tab.0.center.0.0.2560.2520" width="1274" height="243" />
     <size key="GridCell.Tab.0.right.0.0.2560.2520" width="1274" height="243" />
@@ -41,7 +41,7 @@
     <size key="GridCell.Tab.2.center.0.0.1920.2160" width="1294" height="471" />
     <size key="GridCell.Tab.2.right.0.0.1920.2160" width="1294" height="471" />
     <size key="GridCell.Tab.2.bottom.0.0.1920.2160" width="1294" height="471" />
-    <size key="find.popup.0.0.2560.1440" width="534" height="508" />
+    <size key="find.popup.0.0.2560.1440" width="739" height="694" />
     <size key="GridCell.Tab.1.left.0.0.2560.2520" width="1274" height="243" />
     <size key="GridCell.Tab.1.center.0.0.2560.2520" width="1274" height="243" />
     <size key="GridCell.Tab.1.right.0.0.2560.2520" width="1274" height="243" />
@@ -100,21 +100,16 @@
     <size key="GridCell.Tab.1.bottom.0.0.3120.1920" width="1186" height="286" />
   </component>
   <component name="WindowManager">
-    <frame x="230" y="19" width="1460" height="1026" />
+    <frame x="10" y="-6" width="2540" height="1411" />
   </component>
   <component name="WindowStateApplicationService">
     <state x="955" y="420" width="650" height="568" key="#Java_Type_Renderers" timestamp="1619235455246">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
     <state x="955" y="420" width="650" height="568" key="#Java_Type_Renderers/0.0.2560.1440" timestamp="1619235455246" />
-    <state x="1006" y="412" width="424" height="470" key="FileChooserDialogImpl" timestamp="1619946320706">
+    <state x="1006" y="396" width="424" height="470" key="FileChooserDialogImpl" timestamp="1621435834719">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state x="1006" y="412" width="424" height="470" key="FileChooserDialogImpl/0.0.2560.1440" timestamp="1619946320706" />
-    <state x="1003" y="722" key="WELCOME_SCREEN" timestamp="1612360139231">
-      <screen x="0" y="0" width="2560" height="1440" />
-    </state>
-    <state x="959" y="409" key="WELCOME_SCREEN/0.0.1920.1080" timestamp="1611485522547" />
-    <state x="1003" y="722" key="WELCOME_SCREEN/0.0.2560.1440" timestamp="1612360139231" />
+    <state x="1006" y="396" width="424" height="470" key="FileChooserDialogImpl/0.0.2560.1440" timestamp="1621435834719" />
   </component>
 </application>

@@ -1,0 +1,540 @@
+<project version="4">
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/app/dmine.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="280">
+              <caret line="28" column="29" lean-forward="true" selection-start-line="28" selection-start-column="29" selection-end-line="28" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/app/dmine_origin.cc">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="560">
+              <caret line="40" column="31" selection-start-line="40" selection-start-column="31" selection-end-line="40" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/include/GUNDAM/test/test_multi_query_dp_iso_using_match.cc">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="593">
+              <caret line="301" column="2" selection-start-line="301" selection-start-column="2" selection-end-line="301" selection-end-column="2" />
+              <folding>
+                <element signature="e#505#8774#0" />
+                <element signature="e#994#1060#0" />
+                <element signature="e#1968#2013#0" />
+                <element signature="e#2282#2428#0" />
+                <element signature="e#2309#2354#0" />
+                <element signature="e#2963#3217#0" />
+                <element signature="e#2990#3035#0" />
+                <element signature="e#3108#3171#0" />
+                <element signature="e#3969#4332#0" />
+                <element signature="e#4045#4111#0" />
+                <element signature="e#4992#5415#0" />
+                <element signature="e#5068#5134#0" />
+                <element signature="e#5342#5369#0" />
+                <element signature="e#7958#8065#0" />
+                <element signature="e#8017#8043#0" />
+                <element signature="e#10311#10403#0" />
+                <element signature="e#10430#10523#0" />
+                <element signature="e#11504#11538#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/include/GUNDAM/test/CMakeLists.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1036">
+              <caret line="74" selection-start-line="74" selection-end-line="74" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/app/datagraph_information.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="28">
+              <caret line="2" column="41" lean-forward="true" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="41" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/app/CMakeLists.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="546">
+              <caret line="39" column="39" lean-forward="true" selection-start-line="39" selection-start-column="39" selection-end-line="39" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/include/GUNDAM/include/gundam/graph_type/graph.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-34356" />
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>gundam/algorithm/mu</find>
+      <find>main(</find>
+      <find>test_multi_query_dp_iso</find>
+      <find>test_multi_query_dp_iso_using_match</find>
+      <find>test</find>
+    </findStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$/include/GUNDAM/include/gundam/algorithm</dir>
+      <dir>$PROJECT_DIR$/src/app</dir>
+      <dir>$PROJECT_DIR$/include/GUNDAM/test</dir>
+    </dirStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <changedPaths>
+      <option value="$PROJECT_DIR$/include/GUNDAM/test/test_multi_query_dp_iso_using_match.cc" />
+      <option value="$PROJECT_DIR$/include/GUNDAM/test/CMakeLists.txt" />
+    </changedPaths>
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="$PROJECT_DIR$/.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" />
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="dmine-pro" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dmine-pro" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dmine-pro" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dmine-pro" type="462c0819:PsiDirectoryNode" />
+              <item name="include" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dmine-pro" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dmine-pro" type="462c0819:PsiDirectoryNode" />
+              <item name="include" type="462c0819:PsiDirectoryNode" />
+              <item name="GUNDAM" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dmine-pro" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dmine-pro" type="462c0819:PsiDirectoryNode" />
+              <item name="include" type="462c0819:PsiDirectoryNode" />
+              <item name="GUNDAM" type="462c0819:PsiDirectoryNode" />
+              <item name="include" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dmine-pro" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dmine-pro" type="462c0819:PsiDirectoryNode" />
+              <item name="include" type="462c0819:PsiDirectoryNode" />
+              <item name="GUNDAM" type="462c0819:PsiDirectoryNode" />
+              <item name="include" type="462c0819:PsiDirectoryNode" />
+              <item name="gundam" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dmine-pro" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dmine-pro" type="462c0819:PsiDirectoryNode" />
+              <item name="include" type="462c0819:PsiDirectoryNode" />
+              <item name="GUNDAM" type="462c0819:PsiDirectoryNode" />
+              <item name="include" type="462c0819:PsiDirectoryNode" />
+              <item name="gundam" type="462c0819:PsiDirectoryNode" />
+              <item name="algorithm" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dmine-pro" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dmine-pro" type="462c0819:PsiDirectoryNode" />
+              <item name="include" type="462c0819:PsiDirectoryNode" />
+              <item name="GUNDAM" type="462c0819:PsiDirectoryNode" />
+              <item name="include" type="462c0819:PsiDirectoryNode" />
+              <item name="gundam" type="462c0819:PsiDirectoryNode" />
+              <item name="component" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dmine-pro" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dmine-pro" type="462c0819:PsiDirectoryNode" />
+              <item name="include" type="462c0819:PsiDirectoryNode" />
+              <item name="GUNDAM" type="462c0819:PsiDirectoryNode" />
+              <item name="include" type="462c0819:PsiDirectoryNode" />
+              <item name="gundam" type="462c0819:PsiDirectoryNode" />
+              <item name="graph_type" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dmine-pro" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dmine-pro" type="462c0819:PsiDirectoryNode" />
+              <item name="include" type="462c0819:PsiDirectoryNode" />
+              <item name="GUNDAM" type="462c0819:PsiDirectoryNode" />
+              <item name="include" type="462c0819:PsiDirectoryNode" />
+              <item name="gundam" type="462c0819:PsiDirectoryNode" />
+              <item name="io" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dmine-pro" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dmine-pro" type="462c0819:PsiDirectoryNode" />
+              <item name="include" type="462c0819:PsiDirectoryNode" />
+              <item name="GUNDAM" type="462c0819:PsiDirectoryNode" />
+              <item name="include" type="462c0819:PsiDirectoryNode" />
+              <item name="gundam" type="462c0819:PsiDirectoryNode" />
+              <item name="match" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dmine-pro" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dmine-pro" type="462c0819:PsiDirectoryNode" />
+              <item name="include" type="462c0819:PsiDirectoryNode" />
+              <item name="GUNDAM" type="462c0819:PsiDirectoryNode" />
+              <item name="include" type="462c0819:PsiDirectoryNode" />
+              <item name="gundam" type="462c0819:PsiDirectoryNode" />
+              <item name="sample" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dmine-pro" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dmine-pro" type="462c0819:PsiDirectoryNode" />
+              <item name="include" type="462c0819:PsiDirectoryNode" />
+              <item name="GUNDAM" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dmine-pro" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dmine-pro" type="462c0819:PsiDirectoryNode" />
+              <item name="include" type="462c0819:PsiDirectoryNode" />
+              <item name="stardand" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dmine-pro" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dmine-pro" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dmine-pro" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dmine-pro" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dmine-pro" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dmine-pro" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dmine-pro" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dmine-pro" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="tgraph_rule" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="4169000" />
+  </component>
+  <component name="ToolWindowManager">
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15019685" />
+      <window_info id="Structure" order="1" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info id="Commit" order="3" />
+      <window_info id="Pull Requests" order="4" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.137276" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Problems View" order="3" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Internal Method Tracing" order="4" />
+      <window_info anchor="bottom" id="File Transfer" order="4" />
+      <window_info anchor="bottom" id="Version Control" order="4" />
+      <window_info anchor="bottom" id="Terminal" order="4" />
+      <window_info anchor="bottom" id="clangd" order="4" />
+      <window_info anchor="bottom" id="CMake" order="5" weight="0.22380951" />
+      <window_info anchor="bottom" id="Database Changes" order="5" show_stripe_button="false" />
+      <window_info anchor="bottom" id="TypeScript" order="5" />
+      <window_info anchor="bottom" id="Python Packages" order="5" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Flow" order="5" />
+      <window_info anchor="bottom" id="Services" order="5" show_stripe_button="false" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="5" />
+      <window_info anchor="right" id="make" order="5" show_stripe_button="false" side_tool="true" />
+    </layout>
+    <recentWindows>
+      <value>Run</value>
+      <value>Project</value>
+      <value>CMake</value>
+    </recentWindows>
+  </component>
+  <component name="Trusted.Project.Settings" hasCheckedIfOldProject="true" trusted="YES" />
+  <component name="WindowStateProjectService">
+    <state width="2540" height="163" key="GridCell.Tab.0.bottom" timestamp="1622485735450">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state width="2540" height="163" key="GridCell.Tab.0.bottom/0.0.2560.1440@0.0.2560.1440" timestamp="1622485735450" />
+    <state width="2540" height="163" key="GridCell.Tab.0.center" timestamp="1622485735448">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state width="2540" height="163" key="GridCell.Tab.0.center/0.0.2560.1440@0.0.2560.1440" timestamp="1622485735448" />
+    <state width="2540" height="163" key="GridCell.Tab.0.left" timestamp="1622485735447">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state width="2540" height="163" key="GridCell.Tab.0.left/0.0.2560.1440@0.0.2560.1440" timestamp="1622485735447" />
+    <state width="2540" height="163" key="GridCell.Tab.0.right" timestamp="1622485735449">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state width="2540" height="163" key="GridCell.Tab.0.right/0.0.2560.1440@0.0.2560.1440" timestamp="1622485735449" />
+    <state x="1013" y="466" width="554" height="520" key="find.popup" timestamp="1622472209461">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state x="1013" y="466" width="554" height="520" key="find.popup/0.0.2560.1440@0.0.2560.1440" timestamp="1622472209461" />
+    <state x="624" y="270" key="run.anything.popup" timestamp="1622472250580">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state x="624" y="270" key="run.anything.popup/0.0.2560.1440@0.0.2560.1440" timestamp="1622472250580" />
+    <state x="623" y="255" width="672" height="686" key="search.everywhere.popup" timestamp="1622471979474">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state x="623" y="255" width="672" height="686" key="search.everywhere.popup/0.0.2560.1440@0.0.2560.1440" timestamp="1622471979474" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SECOND">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/GUNDAM/include/gundam/algorithm/multi_query_dp_iso.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="532">
+          <caret line="38" column="31" selection-start-line="38" selection-start-column="31" selection-end-line="38" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/dmine_origin.cc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="560">
+          <caret line="40" column="31" lean-forward="true" selection-start-line="40" selection-start-column="31" selection-end-line="40" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/GUNDAM/test/test_multi_query_dp_iso_using_match.cc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="593">
+          <caret line="301" column="2" selection-start-line="301" selection-start-column="2" selection-end-line="301" selection-end-column="2" />
+          <folding>
+            <element signature="e#505#8774#0" />
+            <element signature="e#994#1060#0" />
+            <element signature="e#1968#2013#0" />
+            <element signature="e#2282#2428#0" />
+            <element signature="e#2309#2354#0" />
+            <element signature="e#2963#3217#0" />
+            <element signature="e#2990#3035#0" />
+            <element signature="e#3108#3171#0" />
+            <element signature="e#3969#4332#0" />
+            <element signature="e#4045#4111#0" />
+            <element signature="e#4992#5415#0" />
+            <element signature="e#5068#5134#0" />
+            <element signature="e#5342#5369#0" />
+            <element signature="e#7958#8065#0" />
+            <element signature="e#8017#8043#0" />
+            <element signature="e#10311#10403#0" />
+            <element signature="e#10430#10523#0" />
+            <element signature="e#11504#11538#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/doc/todo.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="364">
+            <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/doc/SPARQL/SPARQL.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/doc/SPARQL/query.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/doc/DataGraph.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/doc/media/15815791225815/15815800432687.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testdata/graph.e">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="518">
+          <caret line="37" column="13" selection-start-line="37" selection-start-column="13" selection-end-line="37" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testdata/graph-0.e">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testdata/liantong_n111111.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+      <provider editor-type-id="csv-data-editor">
+        <state>
+          <format>
+            <csv-format name="CSV" id="Comma-separated (CSV)_id">
+              <data>
+                <record-format prefix="" suffix="" nullText="" quotationPolicy="as needed" valueSeparator="," recordSeparator="&#10;">
+                  <quotation>
+                    <quotes left="&quot;" right="&quot;" leftEscaped="&quot;&quot;" rightEscaped="&quot;&quot;" />
+                    <quotes left="'" right="'" leftEscaped="''" rightEscaped="''" />
+                  </quotation>
+                </record-format>
+              </data>
+            </csv-format>
+          </format>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testdata/liantong_n_attr_user.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+      <provider editor-type-id="csv-data-editor">
+        <state>
+          <format>
+            <csv-format name="CSV" id="Comma-separated (CSV)_id">
+              <data>
+                <record-format prefix="" suffix="" nullText="" quotationPolicy="as needed" valueSeparator="," recordSeparator="&#10;">
+                  <quotation>
+                    <quotes left="&quot;" right="&quot;" leftEscaped="&quot;&quot;" rightEscaped="&quot;&quot;" />
+                    <quotes left="'" right="'" leftEscaped="''" rightEscaped="''" />
+                  </quotation>
+                </record-format>
+              </data>
+            </csv-format>
+          </format>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testdata/root_e1.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+      <provider editor-type-id="csv-data-editor">
+        <state>
+          <format>
+            <csv-format name="CSV" id="Comma-separated (CSV)_id">
+              <data>
+                <record-format prefix="" suffix="" nullText="" quotationPolicy="as needed" valueSeparator="," recordSeparator="&#10;">
+                  <quotation>
+                    <quotes left="&quot;" right="&quot;" leftEscaped="&quot;&quot;" rightEscaped="&quot;&quot;" />
+                    <quotes left="'" right="'" leftEscaped="''" rightEscaped="''" />
+                  </quotation>
+                </record-format>
+              </data>
+            </csv-format>
+          </format>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testdata/test.e">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/GUNDAM/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="616">
+            <caret line="44" column="63" lean-forward="true" selection-start-line="44" selection-start-column="63" selection-end-line="44" selection-end-column="63" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/stardand/errcode.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="686">
+          <caret line="49" column="28" lean-forward="true" selection-start-line="49" selection-start-column="28" selection-end-line="49" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/dmine.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="28" column="29" lean-forward="true" selection-start-line="28" selection-start-column="29" selection-end-line="28" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/datagraph_information.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="28">
+          <caret line="2" column="41" lean-forward="true" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="546">
+          <caret line="39" column="39" lean-forward="true" selection-start-line="39" selection-start-column="39" selection-end-line="39" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/GUNDAM/include/gundam/graph_type/graph.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-34356" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cmake-build-debug/Makefile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2128">
+          <caret line="304" column="4" selection-start-line="304" selection-start-column="4" selection-end-line="304" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/GUNDAM/test/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1036">
+          <caret line="74" selection-start-line="74" selection-end-line="74" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

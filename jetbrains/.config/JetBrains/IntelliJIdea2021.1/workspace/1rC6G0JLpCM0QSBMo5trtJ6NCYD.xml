@@ -26,8 +26,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/org/apache/jena/ldparser/TransformDataset.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="611">
-              <caret line="57" selection-start-line="57" selection-end-line="57" />
+            <state relative-caret-position="455">
+              <caret line="45" column="72" selection-start-line="45" selection-start-column="72" selection-end-line="45" selection-end-column="72" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -36,10 +36,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/apache/jena/jena-arq/4.0.0/jena-arq-4.0.0-sources.jar!/org/apache/jena/riot/RDFFormat.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="745">
+              <caret line="141" selection-start-line="141" selection-end-line="141" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/org/apache/jena/ldparser/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2041">
-              <caret line="241" column="32" lean-forward="true" selection-start-line="241" selection-start-column="32" selection-end-line="241" selection-end-column="32" />
+            <state relative-caret-position="988">
+              <caret line="78" column="5" selection-start-line="78" selection-start-column="5" selection-end-line="78" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -60,7 +69,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>vocab</find>
       <find>json</find>
       <find>jena</find>
       <find>read</find>
@@ -90,6 +98,7 @@
       <find>System.out</find>
       <find>logger.info</find>
       <find>logger.inf</find>
+      <find>CONTEXT_FILE</find>
     </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/src/main/java/dev</dir>
@@ -115,9 +124,9 @@
       <option value="$PROJECT_DIR$/src/main/java/org/apache/jena/ldparser/Ex_WriteJsonLD.java" />
       <option value="$PROJECT_DIR$/pom.xml" />
       <option value="$PROJECT_DIR$/src/main/java/org/apache/jena/ldparser/Sketches.java" />
-      <option value="$PROJECT_DIR$/src/main/java/org/apache/jena/ldparser/TransformDataset.java" />
       <option value="$PROJECT_DIR$/src/main/resources/log4j.properties" />
       <option value="$PROJECT_DIR$/src/main/java/org/apache/jena/ldparser/Main.java" />
+      <option value="$PROJECT_DIR$/src/main/java/org/apache/jena/ldparser/TransformDataset.java" />
     </changedPaths>
   </component>
   <component name="IgnoredFileRootStore">
@@ -137,12 +146,25 @@
     <navigator proportions="" version="1" />
     <panes />
   </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="295340000" />
+    <option name="totallyTimeSpent" value="299002000" />
   </component>
   <component name="ToolWindowManager">
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.09602864" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.09595238" />
       <window_info id="Structure" order="1" side_tool="true" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info id="Commit" order="3" />
@@ -165,9 +187,9 @@
       <window_info anchor="bottom" id="internal-profiler" order="13" />
       <window_info anchor="bottom" id="Debug" order="14" weight="0.14285715" />
       <window_info anchor="bottom" id="Internal Method Tracing" order="15" />
-      <window_info anchor="bottom" id="Run" order="16" weight="0.13354932" />
+      <window_info anchor="bottom" id="Run" order="16" weight="0.13321167" />
       <window_info anchor="bottom" id="Flow" order="17" />
-      <window_info anchor="bottom" id="Services" order="18" />
+      <window_info anchor="bottom" id="Services" order="18" weight="0.330292" />
       <window_info anchor="right" id="Space Automation" order="0" />
       <window_info anchor="right" id="Maven" order="1" />
       <window_info anchor="right" id="Database" order="2" />
@@ -175,6 +197,7 @@
     <recentWindows>
       <value>Run</value>
       <value>Project</value>
+      <value>Services</value>
       <value>Build</value>
       <value>Debug</value>
       <value>Find</value>
@@ -210,30 +233,30 @@
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
     <state width="598" height="124" key="DebuggerActiveHint/0.0.2560.1440@0.0.2560.1440" timestamp="1619616106542" />
-    <state x="1063" y="326" width="424" height="470" key="FileChooserDialogImpl" timestamp="1620218356357">
+    <state x="1063" y="310" width="424" height="470" key="FileChooserDialogImpl" timestamp="1622016795324">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state x="1063" y="326" width="424" height="470" key="FileChooserDialogImpl/0.0.2560.1440@0.0.2560.1440" timestamp="1620218356357" />
-    <state width="2560" height="157" key="GridCell.Tab.0.bottom" timestamp="1620326621614">
+    <state x="1063" y="310" width="424" height="470" key="FileChooserDialogImpl/0.0.2560.1440@0.0.2560.1440" timestamp="1622016795324" />
+    <state width="2100" height="154" key="GridCell.Tab.0.bottom" timestamp="1621947804760">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
     <state width="1900" height="131" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1619806052313" />
-    <state width="2560" height="157" key="GridCell.Tab.0.bottom/0.0.2560.1440@0.0.2560.1440" timestamp="1620326621614" />
-    <state width="2560" height="157" key="GridCell.Tab.0.center" timestamp="1620326621614">
+    <state width="2100" height="154" key="GridCell.Tab.0.bottom/0.0.2560.1440@0.0.2560.1440" timestamp="1621947804760" />
+    <state width="2100" height="154" key="GridCell.Tab.0.center" timestamp="1621947804758">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
     <state width="1900" height="131" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1619806052312" />
-    <state width="2560" height="157" key="GridCell.Tab.0.center/0.0.2560.1440@0.0.2560.1440" timestamp="1620326621614" />
-    <state width="2560" height="157" key="GridCell.Tab.0.left" timestamp="1620326621613">
+    <state width="2100" height="154" key="GridCell.Tab.0.center/0.0.2560.1440@0.0.2560.1440" timestamp="1621947804758" />
+    <state width="2100" height="154" key="GridCell.Tab.0.left" timestamp="1621947804756">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
     <state width="1900" height="131" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1619806052311" />
-    <state width="2560" height="157" key="GridCell.Tab.0.left/0.0.2560.1440@0.0.2560.1440" timestamp="1620326621613" />
-    <state width="2560" height="157" key="GridCell.Tab.0.right" timestamp="1620326621614">
+    <state width="2100" height="154" key="GridCell.Tab.0.left/0.0.2560.1440@0.0.2560.1440" timestamp="1621947804756" />
+    <state width="2100" height="154" key="GridCell.Tab.0.right" timestamp="1621947804759">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
     <state width="1900" height="131" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1619806052313" />
-    <state width="2560" height="157" key="GridCell.Tab.0.right/0.0.2560.1440@0.0.2560.1440" timestamp="1620326621614" />
+    <state width="2100" height="154" key="GridCell.Tab.0.right/0.0.2560.1440@0.0.2560.1440" timestamp="1621947804759" />
     <state width="2540" height="169" key="GridCell.Tab.1.bottom" timestamp="1619806052302">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -282,10 +305,10 @@
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
     <state x="358" y="465" width="534" height="508" key="find.popup/0.0.2560.1440@0.0.2560.1440" timestamp="1619963532844" />
-    <state x="944" y="336" width="672" height="684" key="run.anything.popup" timestamp="1620318699893">
+    <state x="944" y="336" width="672" height="684" key="run.anything.popup" timestamp="1621946354116">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state x="944" y="336" width="672" height="684" key="run.anything.popup/0.0.2560.1440@0.0.2560.1440" timestamp="1620318699893" />
+    <state x="944" y="336" width="672" height="684" key="run.anything.popup/0.0.2560.1440@0.0.2560.1440" timestamp="1621946354116" />
     <state x="943" y="334" width="672" height="685" key="search.everywhere.popup" timestamp="1620315976324">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
@@ -571,13 +594,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/jena/jena-arq/4.0.0/jena-arq-4.0.0-sources.jar!/org/apache/jena/riot/RDFFormat.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2032">
-          <caret line="135" column="58" selection-start-line="135" selection-start-column="58" selection-end-line="135" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/apache/jena/jena-core/4.0.0/jena-core-4.0.0.jar!/org/apache/jena/rdf/model/Model.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="91">
@@ -654,8 +670,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/apache/jena/ldparser/TransformDataset.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="611">
-          <caret line="57" selection-start-line="57" selection-end-line="57" />
+        <state relative-caret-position="455">
+          <caret line="45" column="72" selection-start-line="45" selection-start-column="72" selection-end-line="45" selection-end-column="72" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -671,11 +687,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/apache/jena/ldparser/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2041">
-          <caret line="241" column="32" lean-forward="true" selection-start-line="241" selection-start-column="32" selection-end-line="241" selection-end-column="32" />
+        <state relative-caret-position="988">
+          <caret line="78" column="5" selection-start-line="78" selection-start-column="5" selection-end-line="78" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/jena/jena-arq/4.0.0/jena-arq-4.0.0-sources.jar!/org/apache/jena/riot/RDFFormat.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="745">
+          <caret line="141" selection-start-line="141" selection-end-line="141" />
         </state>
       </provider>
     </entry>

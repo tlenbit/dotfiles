@@ -1,6 +1,6 @@
 {
 	"always_show_minimap_viewport": true,
-	"color_scheme": "Packages/Theme - Cyanide/Cyanide - Golden.tmTheme",
+	"color_scheme": "Packages/ayu/ayu-mirage.sublime-color-scheme",
 	"dictionary": "Packages/Language - English/en_US.dic",
 	"distraction_free_window.toggle_menu": false,
 	"distraction_free_window.toggle_minimap": false,
@@ -14,24 +14,26 @@
 		"no_bold",
 		"no_italic"
 	],
-	"font_size": 10,
+	"font_size": 8,
 	"gutter": true,
 	"highlight_line": true,
+	"block_caret": true,
 	"ignored_packages":
 	[
-		"Vintage"
+		"Vintage",
 	],
+	"caret_style": "smooth",
 	"line_numbers": true,
 	"mini_diff": true,
 	"node_path":
 	{
-		"linux": "/usr/bin/node"
+		"linux": "/usr/bin/node",
 	},
 	"overlay_scroll_bars": "enabled",
 	"spell_check": false,
 	"tab_size": 2,
-	"theme": "ayu-dark.sublime-theme",
+	"theme": "Adaptive.sublime-theme",
 	"ui_separator": false,
 	"viewer": "zathura",
-	"word_wrap": false
+	"word_wrap": false,
 }

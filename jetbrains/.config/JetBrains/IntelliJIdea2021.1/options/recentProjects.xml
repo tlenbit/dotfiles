@@ -16,7 +16,7 @@
         </entry>
         <entry key="$USER_HOME$/ut/code/ldparser/ldparser-java">
           <value>
-            <RecentProjectMetaInfo frameTitle="ldparser-java – Main.java" opened="true" projectWorkspaceId="1rC6G0JLpCM0QSBMo5trtJ6NCYD">
+            <RecentProjectMetaInfo frameTitle="ldparser-java – Main.java" projectWorkspaceId="1rC6G0JLpCM0QSBMo5trtJ6NCYD">
               <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
               <option name="build" value="IU-211.7142.45" />
               <option name="buildTimestamp" value="1619777564362" />
@@ -26,8 +26,32 @@
             </RecentProjectMetaInfo>
           </value>
         </entry>
+        <entry key="$USER_HOME$/ut/code/quarser/quarser-java">
+          <value>
+            <RecentProjectMetaInfo frameTitle="quarser-java – RDFFormat.java [Maven: org.apache.jena:jena-arq:4.0.0]" projectWorkspaceId="1rC6G0JLpCM0QSBMo5trtJ6NCYD">
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="IU-211.7142.45" />
+              <option name="buildTimestamp" value="1619777568560" />
+              <frame x="230" y="35" width="2100" height="1370" />
+              <option name="productionCode" value="IU" />
+              <option name="projectOpenTimestamp" value="1622016803384" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/ut/project-arr/qsms">
+          <value>
+            <RecentProjectMetaInfo frameTitle="qsms – R2R.java [seraph]" opened="true" projectWorkspaceId="1t483a1X0jgyagIarbDjgfXv36w">
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="IU-211.7142.45" />
+              <option name="buildTimestamp" value="1619777547185" />
+              <frame x="10" y="-6" width="2540" height="1411" />
+              <option name="productionCode" value="IU" />
+              <option name="projectOpenTimestamp" value="1622017841769" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
       </map>
     </option>
-    <option name="lastProjectLocation" value="$USER_HOME$/ut" />
+    <option name="lastProjectLocation" value="$USER_HOME$/ut/project-arr" />
   </component>
 </application>

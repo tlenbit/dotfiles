@@ -16,7 +16,17 @@
             <ProjectPluginTracker />
           </value>
         </entry>
+        <entry key="1pz6BVF8UwNEIVIFh50mkr6sZgl">
+          <value>
+            <ProjectPluginTracker />
+          </value>
+        </entry>
         <entry key="1qWbt2bDEY2dtXwEwRiPGNVnXax">
+          <value>
+            <ProjectPluginTracker />
+          </value>
+        </entry>
+        <entry key="1skkoh2BUImrKbE0xfwrmRLhBnY">
           <value>
             <ProjectPluginTracker />
           </value>
@@ -73,7 +83,7 @@
     <property name="SettingsSearchHistory" value="parameter info&#10;save&#10;renam&#10;install&#10;icons" />
     <property name="SplitFileEditor.Proportion" value="0.66140777" />
     <property name="UITheme.relaunch" value="true" />
-    <property name="appcds.runOnSecondStart" value="GO-211.7142.13-fe7d2902d7931bf959f7923250011cb2a040a1fb739a2fba8946ef6efecd3f58" />
+    <property name="appcds.runOnSecondStart" value="GO-211.7442.27-682da6a8a9920f4b8cd0638c5ec2372faacbf9536e3b39beb2e08673a10afb49" />
     <property name="ask.about.ctrl.y.shortcut" value="true" />
     <property name="completion.ml.enabled.notification.shown" value="true" />
     <property name="evlsprt3.193" value="14" />
@@ -83,7 +93,7 @@
     <property name="evlsprt3.211" value="17" />
     <property name="experimentalFeature.run.targets" value="true" />
     <property name="experimentalFeature.terminal.shell.command.handling" value="false" />
-    <property name="file.chooser.recent.files" value="$USER_HOME$/code/jsonparser&#10;/home/jc/code/btree-benchmark&#10;/home/jc/code/btree&#10;/home/jc/code/witchcraft_golang&#10;/home/jc/code/fasttemplate&#10;/home/jc/projects/courses/MIT_6.824/6.824&#10;/home/jc/projects/hacks/dotstreak&#10;/home/jc/projects/courses/CMU_15-445/homeworks/01_sql/musicbrainz-cmudb2020.db&#10;/home/jc/code/glow&#10;/home/jc/code/gosketches&#10;/home/jc/code/seneca&#10;/home/jc/code/go-rest-server&#10;/home/jc/code/goexperiments&#10;/home/jc/code/charm&#10;/home/jc/code/books&#10;/home/jc/code/cs&#10;/home/jc/code/lf&#10;/home/jc/ut/ALG/exam&#10;/home/jc/projects/algorithms&#10;/home/jc/projects/lao&#10;/home/jc/code/codesearch&#10;/home/jc/Code/codesearch&#10;/home/jc/Documents/ut/ALG/exam&#10;/home/jc/Downloads/tidb&#10;/home/jc/Desktop/go/ln&#10;/home/jc/Desktop/go/go-radix&#10;/home/jc/Desktop/go/trie&#10;/home/jc/Desktop/go/gg&#10;/home/jc/Desktop/go/codesearch&#10;/home/jc/Desktop/go/hot_trie" />
+    <property name="file.chooser.recent.files" value="$USER_HOME$/ut/project-studentcontest/jagalist&#10;/home/jc/code/witchcraft_golang&#10;/home/jc/code/jsonparser&#10;/home/jc/code/btree-benchmark&#10;/home/jc/code/btree&#10;/home/jc/code/fasttemplate&#10;/home/jc/projects/courses/MIT_6.824/6.824&#10;/home/jc/projects/hacks/dotstreak&#10;/home/jc/projects/courses/CMU_15-445/homeworks/01_sql/musicbrainz-cmudb2020.db&#10;/home/jc/code/glow&#10;/home/jc/code/gosketches&#10;/home/jc/code/seneca&#10;/home/jc/code/go-rest-server&#10;/home/jc/code/goexperiments&#10;/home/jc/code/charm&#10;/home/jc/code/books&#10;/home/jc/code/cs&#10;/home/jc/code/lf&#10;/home/jc/ut/ALG/exam&#10;/home/jc/projects/algorithms&#10;/home/jc/projects/lao&#10;/home/jc/code/codesearch&#10;/home/jc/Code/codesearch&#10;/home/jc/Documents/ut/ALG/exam&#10;/home/jc/Downloads/tidb&#10;/home/jc/Desktop/go/ln&#10;/home/jc/Desktop/go/go-radix&#10;/home/jc/Desktop/go/trie&#10;/home/jc/Desktop/go/gg&#10;/home/jc/Desktop/go/codesearch" />
     <property name="file.gist.reindex.count" value="163" />
     <property name="fileTypeChangedCounter" value="8" />
     <property name="fileTypeDetectors" value="com.intellij.database.vfs.DbStorageFileType$Detector:com.intellij.ide.scratch.ScratchFileServiceImpl$Detector:com.intellij.javascript.debugger.sourcemap.SourceMapFileType$MyFileTypeDetector" />
@@ -98,12 +108,12 @@
     <property name="got.it.tooltip.reader.mode.got.it" value="1" />
     <property name="gotestSupport.hidePassedTests" value="false" />
     <property name="ide.memory.adjusted" value="true" />
-    <property name="ide.updates.previous.build.number" value="GO-211.7142.13" />
+    <property name="ide.updates.previous.build.number" value="GO-211.7442.27" />
     <property name="ideavim.statistics.timestamp" value="1599466850133" />
-    <property name="last_opened_file_path" value="$USER_HOME$/projects/courses/CMU_15-445/homeworks/01_sql/musicbrainz-cmudb2020.db" />
+    <property name="last_opened_file_path" value="$USER_HOME$/ut/project-studentcontest/jagalist" />
     <property name="log.trace.categories" value="#com.jetbrains.rdserver.requests&#10;#com.jetbrains.rd.ide.document&#10;#com.jetbrains.rdserver.document&#10;#com.jetbrains.rdserver.editors&#10;#com.jetbrains.rdserver.actions" />
-    <property name="org.jetbrains.plugins.go.LAST_UPDATE" value="1621411903275" />
-    <property name="org.jetbrains.plugins.go.LAST_VERSION" value="211.7142.13" />
+    <property name="org.jetbrains.plugins.go.LAST_UPDATE" value="1622814050527" />
+    <property name="org.jetbrains.plugins.go.LAST_VERSION" value="211.7442.27" />
     <property name="run.targets.was.enabled.once" value="true" />
     <property name="selected.color.option.type" value="TODO_DEFAULT_ATTRIBUTES" />
     <property name="settings.code.style.selected.tab.go" value="Wrapping and Braces" />

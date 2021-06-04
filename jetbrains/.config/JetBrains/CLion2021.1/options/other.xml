@@ -6,12 +6,17 @@
   </component>
   <component name="NotRoamableUiSettings">
     <option name="editorAAType" value="No antialiasing" />
-    <option name="fontFace" value="Dialog.plain" />
+    <option name="fontFace" value="IBM Plex Sans Cond Text" />
   </component>
   <component name="ProjectPluginTrackerManager">
     <trackers>
       <map>
         <entry key="1qCch26gpAahZhA7RzZ7wurccEi">
+          <value>
+            <ProjectPluginTracker />
+          </value>
+        </entry>
+        <entry key="1tIzIVsic2SA4S6jumzXCOt8qeA">
           <value>
             <ProjectPluginTracker />
           </value>
@@ -56,7 +61,7 @@
     <property name="MarketplacePluginsSearchHistory" value="icons&#10;autotools&#10;auto&#10;ayt&#10;glsl" />
     <property name="SettingsSearchHistory" value="open external&#10;openinter&#10;unindent&#10;comment&#10;method" />
     <property name="UITheme.relaunch" value="true" />
-    <property name="appcds.runOnSecondStart" value="CL-211.6693.114-b0c7db27ff43a7714df0b47a6933a9a6f103bc6fbc5dddbbf6d93292e3793d0a" />
+    <property name="appcds.runOnSecondStart" value="CL-211.7142.21-fc0c4f1b913f0e55c60f0f77470a4d763a8cfe6a05756693c2e7a4bb3a667958" />
     <property name="ask.about.ctrl.y.shortcut" value="true" />
     <property name="build.toolwindow.Build Output.selection.state" value="com.intellij.build.BuildTreeConsoleView" />
     <property name="build.toolwindow.Sync.selection.state" value="com.intellij.build.BuildTreeConsoleView" />
@@ -66,11 +71,11 @@
     <property name="evlsprt3.203" value="18" />
     <property name="evlsprt3.211" value="16" />
     <property name="experimentalFeature.editor.reader.mode" value="false" />
-    <property name="file.chooser.recent.files" value="$USER_HOME$/code/cbatticon&#10;/home/jc/code/batti&#10;/home/jc/downloads/ddcbc-gtk&#10;/home/jc/code/i3status-rust&#10;/home/jc/code/rio&#10;/home/jc/code/buzz&#10;/home/jc/downloads/mison&#10;/home/jc/code/gitui&#10;/home/jc/code/MeiliSearch&#10;/home/jc/code/alacritty&#10;/home/jc/code/rust-doodles&#10;/home/jc/code/rofi-calc&#10;/home/jc/code/rofi-file-browser-extended&#10;/home/jc/code&#10;/home/jc/Desktop/clion-projects/automata-sandbox&#10;/home/jc/Desktop/clion-projects/rust-12-commandline&#10;/home/jc/Desktop/clion-projects/rust-13-functional&#10;/home/jc/Desktop/clion-projects/variables&#10;/home/jc/Desktop/clion-projects/pix_paint&#10;/home/jc/Desktop/clion-projects/playground-canvas&#10;/home/jc/Desktop/idea-projects/cs161&#10;/home/jc/Desktop/idea-projects/ca-1&#10;/home/jc/Documents/projects/tetris-demo&#10;/home/jc/Downloads/rust/wobbly-bars&#10;/home/jc/Downloads/rust/tictactoe-rust-minifb&#10;/home/jc/Downloads/rust/simple_snake&#10;/home/jc/Downloads/rust/rust_minifb_threaded&#10;/home/jc/Downloads/rust/Rust-Framebuffer-Examples&#10;/home/jc/Downloads/rust/pix_paint&#10;/home/jc/Downloads/rust/minifb_testing" />
-    <property name="file.gist.reindex.count" value="23" />
-    <property name="fileTypeChangedCounter" value="7" />
+    <property name="file.chooser.recent.files" value="$USER_HOME$/downloads/dmine-pro&#10;/home/jc/code/cbatticon&#10;/home/jc/code/batti&#10;/home/jc/downloads/ddcbc-gtk&#10;/home/jc/code/i3status-rust&#10;/home/jc/code/rio&#10;/home/jc/code/buzz&#10;/home/jc/downloads/mison&#10;/home/jc/code/gitui&#10;/home/jc/code/MeiliSearch&#10;/home/jc/code/alacritty&#10;/home/jc/code/rust-doodles&#10;/home/jc/code/rofi-calc&#10;/home/jc/code/rofi-file-browser-extended&#10;/home/jc/code&#10;/home/jc/Desktop/clion-projects/automata-sandbox&#10;/home/jc/Desktop/clion-projects/rust-12-commandline&#10;/home/jc/Desktop/clion-projects/rust-13-functional&#10;/home/jc/Desktop/clion-projects/variables&#10;/home/jc/Desktop/clion-projects/pix_paint&#10;/home/jc/Desktop/clion-projects/playground-canvas&#10;/home/jc/Desktop/idea-projects/cs161&#10;/home/jc/Desktop/idea-projects/ca-1&#10;/home/jc/Documents/projects/tetris-demo&#10;/home/jc/Downloads/rust/wobbly-bars&#10;/home/jc/Downloads/rust/tictactoe-rust-minifb&#10;/home/jc/Downloads/rust/simple_snake&#10;/home/jc/Downloads/rust/rust_minifb_threaded&#10;/home/jc/Downloads/rust/Rust-Framebuffer-Examples&#10;/home/jc/Downloads/rust/pix_paint" />
+    <property name="file.gist.reindex.count" value="25" />
+    <property name="fileTypeChangedCounter" value="8" />
     <property name="fileTypeDetectors" value="com.intellij.database.vfs.DbStorageFileType$Detector:com.intellij.ide.scratch.ScratchFileServiceImpl$Detector:com.intellij.javascript.debugger.sourcemap.SourceMapFileType$MyFileTypeDetector:com.jetbrains.cidr.lang.OCHeaderFileTypeDetector" />
-    <property name="ide.updates.previous.build.number" value="CL-211.6693.114" />
+    <property name="ide.updates.previous.build.number" value="CL-211.7142.21" />
     <property name="js.modules.notification.shown" value="true" />
     <property name="lastTip" value="3" />
     <property name="last_opened_file_path" value="$USER_HOME$/code/batti" />

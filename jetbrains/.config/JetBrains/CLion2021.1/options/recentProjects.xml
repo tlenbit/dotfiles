@@ -148,13 +148,25 @@
         </entry>
         <entry key="$USER_HOME$/code/cbatticon">
           <value>
-            <RecentProjectMetaInfo frameTitle="cbatticon – cbatticon.c" opened="true" projectWorkspaceId="1qCch26gpAahZhA7RzZ7wurccEi">
+            <RecentProjectMetaInfo frameTitle="cbatticon – cbatticon.c" projectWorkspaceId="1qCch26gpAahZhA7RzZ7wurccEi">
               <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
               <option name="build" value="CL-203.7148.70" />
               <option name="buildTimestamp" value="1611692943075" />
-              <frame x="230" y="19" width="2100" height="1386" />
+              <frame x="10" y="-6" width="1900" height="1171" />
               <option name="productionCode" value="CL" />
               <option name="projectOpenTimestamp" value="1616587127571" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/downloads/dmine-pro">
+          <value>
+            <RecentProjectMetaInfo frameTitle="dmine-pro – GUNDAM/test/CMakeLists.txt" opened="true" projectWorkspaceId="1tIzIVsic2SA4S6jumzXCOt8qeA">
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="CL-211.7142.21" />
+              <option name="buildTimestamp" value="1619104106116" />
+              <frame x="10" y="-6" width="2540" height="1411" />
+              <option name="productionCode" value="CL" />
+              <option name="projectOpenTimestamp" value="1622471311438" />
             </RecentProjectMetaInfo>
           </value>
         </entry>

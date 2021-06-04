@@ -29,6 +29,11 @@
             <ProjectPluginTracker />
           </value>
         </entry>
+        <entry key="1t483a1X0jgyagIarbDjgfXv36w">
+          <value>
+            <ProjectPluginTracker />
+          </value>
+        </entry>
       </map>
     </trackers>
   </component>
@@ -94,7 +99,7 @@
     <property name="SettingsSearchHistory" value="collapse&#10;extern&#10;external&#10;render space&#10;spaces" />
     <property name="SpringBeansModulesPanel[0]" value="0.10881393" />
     <property name="UITheme.relaunch" value="true" />
-    <property name="appcds.runOnSecondStart" value="IU-211.7142.45-2f2f45c798c05371d2e605e078b50ada281eab920efc25b2e86ffee4e45acf6f" />
+    <property name="appcds.runOnSecondStart" value="IU-211.7142.45-c52c594ffa1831a7d622d59372148424028fc99222a5c5e22e05edbac0ace9f0" />
     <property name="ask.about.ctrl.y.shortcut" value="true" />
     <property name="build.toolwindow.Build Output.selection.state" value="com.intellij.build.BuildTreeConsoleView" />
     <property name="build.toolwindow.Sync.selection.state" value="com.intellij.build.BuildTreeConsoleView" />
@@ -112,9 +117,9 @@
     <property name="evlsprt3.202" value="14" />
     <property name="evlsprt3.211" value="10" />
     <property name="experimentalFeature.run.targets" value="true" />
-    <property name="file.chooser.recent.files" value="$USER_HOME$/ut/code/uba1.7&#10;/home/jc/ut/code/ldparser/ldparser-java&#10;/home/jc/downloads/uba1.7&#10;/home/jc/ut/ldparser/ldparser-java&#10;/home/jc/ut/titanium-json-ld&#10;/home/jc/ut/jena&#10;/home/jc/ut/jena-examples&#10;/home/jc/ut/sw/apache-jena-3.17.0/src-examples/jena-examples&#10;/home/jc/Desktop/mnt/ut.xroad/ubuntu/kafkademo&#10;/home/jc/Desktop/mnt/ut.xroad/ubuntu/X-Road/src&#10;/home/jc/Downloads&#10;/home/jc/Desktop/mnt/ut.xroad/ubuntu/X-Road/src/proxy&#10;/home/jc/Desktop/mnt/ut.cluster.1.master/hadoop/SPARKSQLRDFBenchmarking/ProjectSourceCode&#10;/home/jc/Desktop/mnt/ut.cluster.1.master/hadoop/SPARKSQLRDFBenchmarking/S2RDFDataGeneration&#10;/home/jc/Desktop/mnt/ut.cluster.1.master/hadoop/generator/S2RDFDataGeneration&#10;/home/jc/Downloads/S2RDFDataGeneration&#10;/home/jc/Desktop/mnt/ut.cluster.1.master/hadoop/RDFBenchMarking/ProjectSourceCode&#10;/home/jc/Projects/sparkql-banchmark/SPARKSQLRDFBenchmarking/ProjectSourceCode[Centeralized]&#10;/home/jc/Downloads/pastel&#10;/home/jc/Documents/projects/rustlings&#10;/home/jc/Downloads/rust_graphs&#10;/home/jc/Documents/projects/toydb&#10;/home/jc/Desktop/rust/rbe-1&#10;/home/jc/Desktop/java/heatmap-alert-app&#10;/home/jc/Downloads/esi/esi-demo-20&#10;/home/jc/Downloads/esi/esi2020-group-project/HW3/RentIT&#10;/home/jc/Desktop/java/enterprise-system-integration-project-javaspring/HW3/RentIT/back-end&#10;/home/jc/Downloads/esi/spring-hateoas-examples&#10;/home/jc/Desktop/java/heatmap-alert-app/event-source/pom.xml&#10;/home/jc/Desktop/java/flink-prometheus-example" />
-    <property name="file.gist.reindex.count" value="23115" />
-    <property name="fileTypeChangedCounter" value="13" />
+    <property name="file.chooser.recent.files" value="$USER_HOME$/ut/project-arr/qsms&#10;/home/jc/ut/code/quarser/quarser-java&#10;/home/jc/ut/code/uba1.7&#10;/home/jc/ut/code/ldparser/ldparser-java&#10;/home/jc/downloads/uba1.7&#10;/home/jc/ut/ldparser/ldparser-java&#10;/home/jc/ut/titanium-json-ld&#10;/home/jc/ut/jena&#10;/home/jc/ut/jena-examples&#10;/home/jc/ut/sw/apache-jena-3.17.0/src-examples/jena-examples&#10;/home/jc/Desktop/mnt/ut.xroad/ubuntu/kafkademo&#10;/home/jc/Desktop/mnt/ut.xroad/ubuntu/X-Road/src&#10;/home/jc/Downloads&#10;/home/jc/Desktop/mnt/ut.xroad/ubuntu/X-Road/src/proxy&#10;/home/jc/Desktop/mnt/ut.cluster.1.master/hadoop/SPARKSQLRDFBenchmarking/ProjectSourceCode&#10;/home/jc/Desktop/mnt/ut.cluster.1.master/hadoop/SPARKSQLRDFBenchmarking/S2RDFDataGeneration&#10;/home/jc/Desktop/mnt/ut.cluster.1.master/hadoop/generator/S2RDFDataGeneration&#10;/home/jc/Downloads/S2RDFDataGeneration&#10;/home/jc/Desktop/mnt/ut.cluster.1.master/hadoop/RDFBenchMarking/ProjectSourceCode&#10;/home/jc/Projects/sparkql-banchmark/SPARKSQLRDFBenchmarking/ProjectSourceCode[Centeralized]&#10;/home/jc/Downloads/pastel&#10;/home/jc/Documents/projects/rustlings&#10;/home/jc/Downloads/rust_graphs&#10;/home/jc/Documents/projects/toydb&#10;/home/jc/Desktop/rust/rbe-1&#10;/home/jc/Desktop/java/heatmap-alert-app&#10;/home/jc/Downloads/esi/esi-demo-20&#10;/home/jc/Downloads/esi/esi2020-group-project/HW3/RentIT&#10;/home/jc/Desktop/java/enterprise-system-integration-project-javaspring/HW3/RentIT/back-end&#10;/home/jc/Downloads/esi/spring-hateoas-examples" />
+    <property name="file.gist.reindex.count" value="23482" />
+    <property name="fileTypeChangedCounter" value="15" />
     <property name="fileTypeDetectors" value="com.intellij.database.vfs.DbStorageFileType$Detector:com.intellij.ide.scratch.ScratchFileServiceImpl$Detector:com.intellij.javascript.debugger.sourcemap.SourceMapFileType$MyFileTypeDetector:com.intellij.profiler.ultimate.hprof.impl.HprofFileTypeDetector:com.jetbrains.nodejs.util.NodeFileTypeDetector$JavaScriptFileTypeDetector:com.jetbrains.nodejs.util.NodeFileTypeDetector$TypeScriptFileTypeDetector" />
     <property name="got.it.tooltip.cwm.invitation.notification" value="1" />
     <property name="got.it.tooltip.fragment.hidden.redirectInput" value="1" />
@@ -132,13 +137,13 @@
     <property name="kotlin.plugin.releaseDate" value="1.4.10-release-IJ2020.2-1:2020-09-10" />
     <property name="last.imported.location" value="$USER_HOME$/Desktop/pycharm-projects/appcrypto2020/10" />
     <property name="lastTip" value="18" />
-    <property name="last_opened_file_path" value="$USER_HOME$/ut/code/ldparser/ldparser-java" />
+    <property name="last_opened_file_path" value="$USER_HOME$/ut/code/quarser/quarser-java" />
     <property name="log.trace.categories" value="#com.jetbrains.rdserver.requests&#10;#com.jetbrains.rd.ide.document&#10;#com.jetbrains.rdserver.document&#10;#com.jetbrains.rdserver.editors&#10;#com.jetbrains.rdserver.actions" />
     <property name="org.intellij.images.editor.actions.BackgroundImageDialog#recent" value="" />
     <property name="org.rust.LAST_UPDATE" value="1596796933412" />
     <property name="packagesearch.endpoint.url.fulltext" value="https://package-search.services.jetbrains.com/api/search/idea/fulltext" />
     <property name="packagesearch.endpoint.url.suggest" value="https://package-search.services.jetbrains.com/api/search/idea/suggest" />
-    <property name="packagesearch.status.updated.ts" value="1620478807282" />
+    <property name="packagesearch.status.updated.ts" value="1622807652137" />
     <property name="project.wizard.group" value="org.jetbrains.idea.maven.wizards.InternalMavenModuleBuilder" />
     <property name="project.wizard.template" value="JavaScript" />
     <property name="quick.doc.font.size.v3" value="MEDIUM" />

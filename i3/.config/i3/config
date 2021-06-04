@@ -109,8 +109,8 @@ bindsym $mod+a [instance="crx_heccinhogblhobdnmopadobpgidllaoc"] scratchpad show
 bindsym $mod+Ctrl+s [class="Alacritty" instance="texas"] scratchpad show move position center
 bindsym $mod+s [class="Alacritty" instance="texas"] scratchpad show
 
-bindsym $mod+Ctrl+d [class="Subl3"] scratchpad show move position center
-bindsym $mod+d [class="Subl3"] scratchpad show
+bindsym $mod+Ctrl+d [class="Sublime_text"] scratchpad show move position center
+bindsym $mod+d [class="Sublime_text"] scratchpad show
 
 bindsym $mod+m exec --no-startup-id xfmpc
 
@@ -196,6 +196,7 @@ bindsym $mod+XF86Display exec $HOME/.cargo/bin/dotstreak finish && notify-send "
 
 bindsym $mod+g mode "toggle_gaps"
 mode "toggle_gaps" {
+    bindsym 0 mode "default", gaps inner current set 0, gaps outer current set 0, gaps vertical current set 0, gaps horizontal current set 0
     bindsym 1 mode "default", gaps vertical current set 175, gaps horizontal current set 700
     bindsym 2 mode "default", gaps inner current set $default_gaps_inner, gaps outer current set $default_gaps_outer, gaps vertical current set $default_gaps_vertical, gaps horizontal current set $default_gaps_horizontal
     bindsym 3 mode "default", gaps inner current set $default_gaps_inner, gaps vertical current set $default_gaps_vertical, gaps top current set 0, gaps horizontal current set 0 
@@ -261,7 +262,7 @@ assign [class="Thunar" title="File Operation Progress"] $ws10
 for_window [class="Alacritty" instance="texas"] floating enable move scratchpad, scratchpad show, resize set 850 600, move position center, sticky toggle
 for_window [class="Sxiv" instance="wallpaper-handler"] floating enable move scratchpad, scratchpad show, resize set 700 700, move position center;
 for_window [class="Thunar"] floating enable, resize shrink width 30 px or 30 ppt;
-for_window [class="Subl3"] floating enable move scratchpad, scratchpad show, sticky toggle;
+for_window [class="Sublime_text"] floating enable move scratchpad, scratchpad show, sticky toggle;
 for_window [class="Google-chrome" instance="crx_kjbdgfilnfhdoflbpgamdcdgpehopbep"] floating enable border pixel 0 move scratchpad, scratchpad show; # calendar
 for_window [class="Google-chrome" instance="crx_heccinhogblhobdnmopadobpgidllaoc"] floating enable border pixel 0 move scratchpad, scratchpad show, sticky toggle; # paper
 for_window [class="Google-chrome" instance="crx_chhimdaamcpegdphmomkcjhlabehlnjj"] floating enable border pixel 0 move scratchpad, scratchpad show; # grammarly

@@ -4,8 +4,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/cbatticon.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3189">
-              <caret line="995" selection-start-line="995" selection-end-line="995" />
+            <state relative-caret-position="477">
+              <caret line="608" column="24" lean-forward="true" selection-start-line="608" selection-start-column="24" selection-end-line="608" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -28,15 +28,19 @@
     </option>
   </component>
   <component name="ProjectView">
-    <navigator proportions="" version="1" />
-    <panes />
+    <navigator currentView="ProjectPane" proportions="" version="1" />
+    <panes>
+      <pane id="ProjectPane" />
+      <pane id="Scope" />
+    </panes>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="923000" />
+    <option name="totallyTimeSpent" value="1331000" />
   </component>
   <component name="ToolWindowManager">
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.1890411" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14500001" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info id="Commit" order="3" />
@@ -67,14 +71,29 @@
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="right" id="make" order="4" side_tool="true" />
     </layout>
+    <recentWindows>
+      <value>Project</value>
+    </recentWindows>
   </component>
   <component name="Trusted.Project.Settings" hasCheckedIfOldProject="true" trusted="YES" />
   <component name="WindowStateProjectService">
-    <state x="735" y="529" width="817" height="193" key="makefile.clean.confirm.dialog" timestamp="1618817455918">
+    <state x="743" y="321" width="424" height="470" key="FileChooserDialogImpl" timestamp="1622471307836">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state x="743" y="321" width="424" height="470" key="FileChooserDialogImpl/0.0.2560.1440@0.0.2560.1440" timestamp="1622471307836" />
+    <state x="357" y="262" key="SettingsEditor" timestamp="1622471296565">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state x="357" y="262" key="SettingsEditor/0.0.2560.1440@0.0.2560.1440" timestamp="1622471296565" />
+    <state x="551" y="461" width="817" height="196" key="makefile.clean.confirm.dialog" timestamp="1622471108774">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
     <state x="551" y="421" width="817" height="193" key="makefile.clean.confirm.dialog/0.0.1920.1080@0.0.1920.1080" timestamp="1616587131325" />
-    <state x="735" y="529" width="817" height="193" key="makefile.clean.confirm.dialog/0.0.2560.1440@0.0.2560.1440" timestamp="1618817455918" />
+    <state x="551" y="461" width="817" height="196" key="makefile.clean.confirm.dialog/0.0.2560.1440@0.0.2560.1440" timestamp="1622471108774" />
+    <state x="602" y="255" width="713" height="687" key="search.everywhere.popup" timestamp="1622471295147">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state x="602" y="255" width="713" height="687" key="search.everywhere.popup/0.0.2560.1440@0.0.2560.1440" timestamp="1622471295147" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file:///usr/include/gtk-3.0/gtk/deprecated/gtkstatusicon.h">
@@ -107,8 +126,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/cbatticon.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3189">
-          <caret line="995" selection-start-line="995" selection-end-line="995" />
+        <state relative-caret-position="477">
+          <caret line="608" column="24" lean-forward="true" selection-start-line="608" selection-start-column="24" selection-end-line="608" selection-end-column="24" />
         </state>
       </provider>
     </entry>

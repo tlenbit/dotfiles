@@ -10,4 +10,4 @@ fi
 file="$path/$filename"
 
 touch $file
-subl3 -a $file
+subl -a $file

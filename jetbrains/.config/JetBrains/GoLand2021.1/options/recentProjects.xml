@@ -194,18 +194,6 @@
             </RecentProjectMetaInfo>
           </value>
         </entry>
-        <entry key="$USER_HOME$/code/witchcraft_golang">
-          <value>
-            <RecentProjectMetaInfo frameTitle="witchcraft_golang [~/code/witchcraft_golang] – .../src/orderedmap.go" projectWorkspaceId="1pz6BVF8UwNEIVIFh50mkr6sZgl">
-              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
-              <option name="build" value="GO-203.7717.58" />
-              <option name="buildTimestamp" value="1615805232230" />
-              <frame x="230" y="19" width="1460" height="1026" />
-              <option name="productionCode" value="GO" />
-              <option name="projectOpenTimestamp" value="1617371355171" />
-            </RecentProjectMetaInfo>
-          </value>
-        </entry>
         <entry key="$USER_HOME$/code/jsonparser">
           <value>
             <RecentProjectMetaInfo frameTitle="jsonparser [~/code/jsonparser] – .../README.md" projectWorkspaceId="1qWaGwOEhnH5XCsqYRndYCgvMbd">
@@ -230,15 +218,39 @@
             </RecentProjectMetaInfo>
           </value>
         </entry>
-        <entry key="$USER_HOME$/projects/algorithms">
+        <entry key="$USER_HOME$/code/witchcraft_golang">
           <value>
-            <RecentProjectMetaInfo frameTitle="algorithms [~/projects/algorithms] – .../leetcode/0806.go" opened="true" projectWorkspaceId="1dWzvFkXQSjK7ATGDQoT0Rf3Sas">
+            <RecentProjectMetaInfo frameTitle="witchcraft_golang [~/code/witchcraft_golang] – .../main.go" projectWorkspaceId="1pz6BVF8UwNEIVIFh50mkr6sZgl">
               <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
-              <option name="build" value="GO-211.6693.119" />
-              <option name="buildTimestamp" value="1617762547586" />
+              <option name="build" value="GO-211.7142.13" />
+              <option name="buildTimestamp" value="1618989566127" />
               <frame x="710" y="185" width="1140" height="1070" />
               <option name="productionCode" value="GO" />
-              <option name="projectOpenTimestamp" value="1618587209512" />
+              <option name="projectOpenTimestamp" value="1621423079123" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/ut/project-studentcontest/jagalist">
+          <value>
+            <RecentProjectMetaInfo frameTitle="jagalist [~/ut/project-studentcontest/jagalist] – .../src/orderedmap.go" projectWorkspaceId="1skkoh2BUImrKbE0xfwrmRLhBnY">
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="GO-211.7142.13" />
+              <option name="buildTimestamp" value="1618989559416" />
+              <frame x="230" y="19" width="2100" height="1386" />
+              <option name="productionCode" value="GO" />
+              <option name="projectOpenTimestamp" value="1621591478115" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/projects/algorithms">
+          <value>
+            <RecentProjectMetaInfo frameTitle="algorithms [~/projects/algorithms] – .../leetcode/1033.go" opened="true" projectWorkspaceId="1dWzvFkXQSjK7ATGDQoT0Rf3Sas">
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="GO-211.7142.13" />
+              <option name="buildTimestamp" value="1618989564307" />
+              <frame x="710" y="185" width="1140" height="1070" />
+              <option name="productionCode" value="GO" />
+              <option name="projectOpenTimestamp" value="1621756609802" />
             </RecentProjectMetaInfo>
           </value>
         </entry>

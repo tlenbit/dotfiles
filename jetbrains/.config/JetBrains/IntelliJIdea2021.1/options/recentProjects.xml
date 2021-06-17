@@ -38,15 +38,87 @@
             </RecentProjectMetaInfo>
           </value>
         </entry>
+        <entry key="$USER_HOME$/downloads/javacpp-mvn-simple-demo">
+          <value>
+            <RecentProjectMetaInfo frameTitle="javacpp-mvn-simple-demo – MultiplyDemo.java" projectWorkspaceId="1tfg002NRDjs2AMpWSIfkVm1ooT">
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="IU-211.7442.40" />
+              <option name="buildTimestamp" value="1622517468772" />
+              <frame x="10" y="10" width="1900" height="1035" />
+              <option name="productionCode" value="IU" />
+              <option name="projectOpenTimestamp" value="1623166464159" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/downloads/maven-javacpp-example">
+          <value>
+            <RecentProjectMetaInfo frameTitle="maven-javacpp-example – README.md" projectWorkspaceId="1tfiIGqHFibsZY2HA5KdprJQ17q">
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="IU-211.7442.40" />
+              <option name="buildTimestamp" value="1622517468772" />
+              <frame x="10" y="10" width="1900" height="1035" />
+              <option name="productionCode" value="IU" />
+              <option name="projectOpenTimestamp" value="1623167073902" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
         <entry key="$USER_HOME$/ut/project-arr/qsms">
           <value>
-            <RecentProjectMetaInfo frameTitle="qsms – R2R.java [seraph]" opened="true" projectWorkspaceId="1t483a1X0jgyagIarbDjgfXv36w">
+            <RecentProjectMetaInfo frameTitle="qsms – Ignored pom.xml (arr)" projectWorkspaceId="1t483a1X0jgyagIarbDjgfXv36w">
               <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
-              <option name="build" value="IU-211.7142.45" />
-              <option name="buildTimestamp" value="1619777547185" />
-              <frame x="10" y="-6" width="2540" height="1411" />
+              <option name="build" value="IU-211.7442.40" />
+              <option name="buildTimestamp" value="1622517460261" />
+              <frame x="10" y="10" width="2540" height="1395" />
               <option name="productionCode" value="IU" />
-              <option name="projectOpenTimestamp" value="1622017841769" />
+              <option name="projectOpenTimestamp" value="1623361051688" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/ut/project-arr/qsms/arr">
+          <value>
+            <RecentProjectMetaInfo frameTitle="arr – pom.xml (arr)" projectWorkspaceId="1tm4hcO6rKMYOsARspIIBqn5g46">
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="IU-211.7442.40" />
+              <option name="buildTimestamp" value="1622517460261" />
+              <frame x="10" y="10" width="2540" height="1395" />
+              <option name="productionCode" value="IU" />
+              <option name="projectOpenTimestamp" value="1623389430676" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/ut/project-arr/MQO_Original">
+          <value>
+            <RecentProjectMetaInfo frameTitle="MQO_Original" projectWorkspaceId="1tczYbnI8nJCXBcKTLi473UNOFu">
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="IU-211.7442.40" />
+              <option name="buildTimestamp" value="1622517431070" />
+              <frame x="10" y="10" width="2540" height="1395" />
+              <option name="productionCode" value="IU" />
+              <option name="projectOpenTimestamp" value="1623392226469" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/downloads/MQO">
+          <value>
+            <RecentProjectMetaInfo frameTitle="MQO [~/downloads/MQO] – CMakeLists.txt" projectWorkspaceId="1tn66RVmPRgrk9AkzEe2sDs0mD4">
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="IU-211.7442.40" />
+              <option name="buildTimestamp" value="1622517431070" />
+              <frame x="10" y="10" width="2540" height="1395" />
+              <option name="productionCode" value="IU" />
+              <option name="projectOpenTimestamp" value="1623392330690" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/ut/project-arr/MQO">
+          <value>
+            <RecentProjectMetaInfo frameTitle="MQO – Demo.java" opened="true" projectWorkspaceId="1tn0E0ZTEcQ3dF5W5SXTg5zM6td">
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="IU-211.7442.40" />
+              <option name="buildTimestamp" value="1622517431070" />
+              <frame x="230" y="19" width="2100" height="1386" />
+              <option name="productionCode" value="IU" />
+              <option name="projectOpenTimestamp" value="1623392361285" />
             </RecentProjectMetaInfo>
           </value>
         </entry>

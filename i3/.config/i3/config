@@ -112,7 +112,7 @@ bindsym $mod+s [class="Alacritty" instance="texas"] scratchpad show
 bindsym $mod+Ctrl+d [class="Sublime_text"] scratchpad show move position center
 bindsym $mod+d [class="Sublime_text"] scratchpad show
 
-bindsym $mod+m exec --no-startup-id xfmpc
+# bindsym $mod+m exec --no-startup-id xfmpc
 
 bindsym $mod+Shift+h [class=".*"] scratchpad show
 bindsym $mod+Mod1+h move scratchpad
@@ -167,6 +167,8 @@ bindsym $mod+p exec pavucontrol
 #--------------#
 #     ROFI     #
 #--------------#
+bindsym $mod+m        exec --no-startup-id $HOME/.config/rofi/bin/mpd-gui.sh
+
 bindsym $mod+q        exec --no-startup-id $HOME/.config/rofi/bin/launcher.sh
 bindsym $mod+Shift+p  exec --no-startup-id $HOME/.config/rofi/bin/kill-process.sh
 bindsym $mod+Shift+q  exec --no-startup-id $HOME/.config/rofi/bin/kill-apps.sh

@@ -21,13 +21,28 @@
             <ProjectPluginTracker />
           </value>
         </entry>
+        <entry key="1tczYbnI8nJCXBcKTLi473UNOFu">
+          <value>
+            <ProjectPluginTracker />
+          </value>
+        </entry>
+        <entry key="1tlunV3GJx3NAnUTAwduWQJmDEz">
+          <value>
+            <ProjectPluginTracker />
+          </value>
+        </entry>
+        <entry key="1tn0E0ZTEcQ3dF5W5SXTg5zM6td">
+          <value>
+            <ProjectPluginTracker />
+          </value>
+        </entry>
       </map>
     </trackers>
   </component>
   <component name="PropertiesComponent">
-    <property name="AFTER.DISTRACTION.MODE.ARE_GUTTER_ICONS_SHOWN" value="false" />
+    <property name="AFTER.DISTRACTION.MODE.ARE_GUTTER_ICONS_SHOWN" value="true" />
     <property name="AFTER.DISTRACTION.MODE.ARE_LINE_NUMBERS_SHOWN" value="false" />
-    <property name="AFTER.DISTRACTION.MODE.EDITOR_TAB_PLACEMENT" value="0" />
+    <property name="AFTER.DISTRACTION.MODE.EDITOR_TAB_PLACEMENT" value="3" />
     <property name="AFTER.DISTRACTION.MODE.HIDE_TOOL_STRIPES" value="true" />
     <property name="AFTER.DISTRACTION.MODE.IS_FOLDING_OUTLINE_SHOWN" value="false" />
     <property name="AFTER.DISTRACTION.MODE.IS_INDENT_GUIDES_SHOWN" value="false" />
@@ -54,14 +69,14 @@
     <property name="Cargo Test.Splitter.Proportion" value="0.1383749" />
     <property name="Cargo TestSupport.hidePassedTests" value="true" />
     <property name="ColorChooser.RecentColors" value="255-255-255-255" />
-    <property name="ExpandBeforeRunStepsPanel" value="false" />
+    <property name="ExpandBeforeRunStepsPanel" value="true" />
     <property name="ExpandRunDashboardTypesPanel" value="false" />
     <property name="ExternalToolDialog.advanced.expanded" value="true" />
     <property name="InstalledPluginsSearchHistory" value="aud&#10;au&#10;a&#10;glsl&#10;g" />
     <property name="MarketplacePluginsSearchHistory" value="icons&#10;autotools&#10;auto&#10;ayt&#10;glsl" />
-    <property name="SettingsSearchHistory" value="open external&#10;openinter&#10;unindent&#10;comment&#10;method" />
+    <property name="SettingsSearchHistory" value="out&#10;show tab&#10;tab&#10;open external&#10;openinter" />
     <property name="UITheme.relaunch" value="true" />
-    <property name="appcds.runOnSecondStart" value="CL-211.7142.21-fc0c4f1b913f0e55c60f0f77470a4d763a8cfe6a05756693c2e7a4bb3a667958" />
+    <property name="appcds.runOnSecondStart" value="CL-211.7442.42-b7c8acb49b3c515f9d9d73cd7fd08bd70ad31528d2aaac47f2ed105138df2f0e" />
     <property name="ask.about.ctrl.y.shortcut" value="true" />
     <property name="build.toolwindow.Build Output.selection.state" value="com.intellij.build.BuildTreeConsoleView" />
     <property name="build.toolwindow.Sync.selection.state" value="com.intellij.build.BuildTreeConsoleView" />
@@ -71,14 +86,14 @@
     <property name="evlsprt3.203" value="18" />
     <property name="evlsprt3.211" value="16" />
     <property name="experimentalFeature.editor.reader.mode" value="false" />
-    <property name="file.chooser.recent.files" value="$USER_HOME$/downloads/dmine-pro&#10;/home/jc/code/cbatticon&#10;/home/jc/code/batti&#10;/home/jc/downloads/ddcbc-gtk&#10;/home/jc/code/i3status-rust&#10;/home/jc/code/rio&#10;/home/jc/code/buzz&#10;/home/jc/downloads/mison&#10;/home/jc/code/gitui&#10;/home/jc/code/MeiliSearch&#10;/home/jc/code/alacritty&#10;/home/jc/code/rust-doodles&#10;/home/jc/code/rofi-calc&#10;/home/jc/code/rofi-file-browser-extended&#10;/home/jc/code&#10;/home/jc/Desktop/clion-projects/automata-sandbox&#10;/home/jc/Desktop/clion-projects/rust-12-commandline&#10;/home/jc/Desktop/clion-projects/rust-13-functional&#10;/home/jc/Desktop/clion-projects/variables&#10;/home/jc/Desktop/clion-projects/pix_paint&#10;/home/jc/Desktop/clion-projects/playground-canvas&#10;/home/jc/Desktop/idea-projects/cs161&#10;/home/jc/Desktop/idea-projects/ca-1&#10;/home/jc/Documents/projects/tetris-demo&#10;/home/jc/Downloads/rust/wobbly-bars&#10;/home/jc/Downloads/rust/tictactoe-rust-minifb&#10;/home/jc/Downloads/rust/simple_snake&#10;/home/jc/Downloads/rust/rust_minifb_threaded&#10;/home/jc/Downloads/rust/Rust-Framebuffer-Examples&#10;/home/jc/Downloads/rust/pix_paint" />
-    <property name="file.gist.reindex.count" value="25" />
-    <property name="fileTypeChangedCounter" value="8" />
+    <property name="file.chooser.recent.files" value="$USER_HOME$/ut/project-arr/MQO/src/main/jni&#10;/home/jc/ut/project-arr/MQO_Original&#10;/home/jc/ut/project-arr/MQO&#10;/home/jc/ut/project-arr/MQO/javacpp-example/src/main/jni&#10;/home/jc/ut/project-arr/MQO/MQO&#10;/home/jc/ut/project-arr/MQO_Dev/MQO&#10;/home/jc/downloads/MQO_Dev/MQO&#10;/home/jc/downloads/dmine-pro&#10;/home/jc/code/cbatticon&#10;/home/jc/code/batti&#10;/home/jc/downloads/ddcbc-gtk&#10;/home/jc/code/i3status-rust&#10;/home/jc/code/rio&#10;/home/jc/code/buzz&#10;/home/jc/downloads/mison&#10;/home/jc/code/gitui&#10;/home/jc/code/MeiliSearch&#10;/home/jc/code/alacritty&#10;/home/jc/code/rust-doodles&#10;/home/jc/code/rofi-calc&#10;/home/jc/code/rofi-file-browser-extended&#10;/home/jc/code&#10;/home/jc/Desktop/clion-projects/automata-sandbox&#10;/home/jc/Desktop/clion-projects/rust-12-commandline&#10;/home/jc/Desktop/clion-projects/rust-13-functional&#10;/home/jc/Desktop/clion-projects/variables&#10;/home/jc/Desktop/clion-projects/pix_paint&#10;/home/jc/Desktop/clion-projects/playground-canvas&#10;/home/jc/Desktop/idea-projects/cs161&#10;/home/jc/Desktop/idea-projects/ca-1" />
+    <property name="file.gist.reindex.count" value="83" />
+    <property name="fileTypeChangedCounter" value="9" />
     <property name="fileTypeDetectors" value="com.intellij.database.vfs.DbStorageFileType$Detector:com.intellij.ide.scratch.ScratchFileServiceImpl$Detector:com.intellij.javascript.debugger.sourcemap.SourceMapFileType$MyFileTypeDetector:com.jetbrains.cidr.lang.OCHeaderFileTypeDetector" />
-    <property name="ide.updates.previous.build.number" value="CL-211.7142.21" />
+    <property name="ide.updates.previous.build.number" value="CL-211.7442.42" />
     <property name="js.modules.notification.shown" value="true" />
     <property name="lastTip" value="3" />
-    <property name="last_opened_file_path" value="$USER_HOME$/code/batti" />
+    <property name="last_opened_file_path" value="$USER_HOME$/ut/project-arr/MQO" />
     <property name="log.trace.categories" value="#com.jetbrains.rdserver.requests&#10;#com.jetbrains.rd.ide.document&#10;#com.jetbrains.rdserver.document&#10;#com.jetbrains.rdserver.editors&#10;#com.jetbrains.rdserver.actions" />
     <property name="org.rust.LAST_UPDATE" value="1587130725746" />
     <property name="org.rust.lang.LAST_UPDATE" value="1615634079482" />

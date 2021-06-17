@@ -1,0 +1,491 @@
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="-1">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/eu/atspace/hash/Graph.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1482">
+              <caret line="128" selection-start-line="128" selection-end-line="128" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#585#586#0" expanded="true" />
+                <element signature="e#628#629#0" expanded="true" />
+                <element signature="e#1714#1715#0" expanded="true" />
+                <element signature="e#1765#1766#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/eu/atspace/hash/Demo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="819">
+              <caret line="63" lean-forward="true" selection-start-line="63" selection-end-line="63" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Dockerfile">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="416">
+              <caret line="32" column="21" selection-start-line="32" selection-start-column="21" selection-end-line="32" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/eu/atspace/hash/MQO.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="520">
+              <caret line="45" column="23" selection-start-line="45" selection-start-column="23" selection-end-line="45" selection-end-column="23" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#447#448#0" expanded="true" />
+                <element signature="e#481#482#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/jni/Graph_AdjacenceListsGRAPH_IO.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="832">
+              <caret line="64" selection-start-line="64" selection-end-line="64" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/eu/atspace/hash/MQOMain.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="325">
+              <caret line="26" column="1" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>AdjacenceListsGRAPH</find>
+      <find>insert</find>
+      <find>Vector</find>
+      <find>sEquivalentVertexList</find>
+      <find>pushInEquivalentVertexList</find>
+      <find>multiplyByTen</find>
+      <find>execute||</find>
+      <find>/out</find>
+      <find>std::vector&lt;AdjacenceListsGRAPH&gt;</find>
+      <find>VectorAdjacenceListsGRAPH</find>
+      <find>ed</find>
+      <find>cliq</find>
+      <find>cach</find>
+    </findStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$/src/main/java/eu/atspace/hash</dir>
+    </dirStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <changedPaths>
+      <option value="$PROJECT_DIR$/src/main/java/eu/atspace/hash/Main.java" />
+      <option value="$PROJECT_DIR$/src/main/java/eu/atspace/hash/VectorAdjacenceListsGRAPH.java" />
+      <option value="$PROJECT_DIR$/src/main/java/eu/atspace/hash/Vertex.java" />
+      <option value="$PROJECT_DIR$/src/main/java/eu/atspace/hash/Graph_AdjacenceListsGraph.java" />
+      <option value="$PROJECT_DIR$/src/main/jni/Graph_AdjacenceListsGraph.cpp" />
+      <option value="$PROJECT_DIR$/src/main/jni/Graph_AdjacenceListsGRAPH_IO.cpp" />
+      <option value="$PROJECT_DIR$/src/main/java/eu/atspace/hash/Vector.java" />
+      <option value="$PROJECT_DIR$/src/main/Makefile" />
+      <option value="$PROJECT_DIR$/src/main/java/eu/atspace/hash/Graph.java" />
+      <option value="$PROJECT_DIR$/src/main/java/eu/atspace/hash/MQO.java" />
+      <option value="$PROJECT_DIR$/src/main/java/eu/atspace/hash/Demo.java" />
+      <option value="$PROJECT_DIR$/src/main/jni/CMakeLists.txt" />
+      <option value="$PROJECT_DIR$/Dockerfile" />
+      <option value="$PROJECT_DIR$/src/main/jni/MQO_main_2.cpp" />
+      <option value="$PROJECT_DIR$/src/main/java/eu/atspace/hash/MQOMain.java" />
+    </changedPaths>
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="$PROJECT_DIR$/.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" />
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="MQO" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MQO" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MQO" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MQO" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MQO" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MQO" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MQO" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MQO" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MQO" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MQO" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="hash" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MQO" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MQO" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="jni" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MQO" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MQO" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MQO" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MQO" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="classes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MQO" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MQO" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="classes" type="462c0819:PsiDirectoryNode" />
+              <item name="eu" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MQO" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MQO" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="classes" type="462c0819:PsiDirectoryNode" />
+              <item name="eu" type="462c0819:PsiDirectoryNode" />
+              <item name="atspace" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MQO" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MQO" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="classes" type="462c0819:PsiDirectoryNode" />
+              <item name="eu" type="462c0819:PsiDirectoryNode" />
+              <item name="atspace" type="462c0819:PsiDirectoryNode" />
+              <item name="hash" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MQO" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MQO" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="classes" type="462c0819:PsiDirectoryNode" />
+              <item name="eu" type="462c0819:PsiDirectoryNode" />
+              <item name="atspace" type="462c0819:PsiDirectoryNode" />
+              <item name="hash" type="462c0819:PsiDirectoryNode" />
+              <item name="linux-x86_64" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="47716000" />
+  </component>
+  <component name="ToolWindowManager">
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1214567" />
+      <window_info id="Structure" order="1" side_tool="true" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info id="Commit" order="3" weight="0.33011812" />
+      <window_info id="Space Code Reviews" order="4" />
+      <window_info id="Learn" order="5" />
+      <window_info id="Pull Requests" order="6" />
+      <window_info anchor="bottom" id="Event Log" order="0" side_tool="true" />
+      <window_info anchor="bottom" id="TODO" order="1" />
+      <window_info anchor="bottom" id="Problems View" order="2" />
+      <window_info anchor="bottom" id="File Transfer" order="3" />
+      <window_info anchor="bottom" id="Version Control" order="4" />
+      <window_info anchor="bottom" id="Terminal" order="5" />
+      <window_info anchor="bottom" id="Profiler" order="6" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Find" order="8" weight="0.3299517" />
+      <window_info anchor="bottom" id="TypeScript" order="9" />
+      <window_info anchor="bottom" id="Endpoints" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Build" order="11" weight="0.3299517" />
+      <window_info anchor="bottom" id="internal-profiler" order="12" />
+      <window_info anchor="bottom" id="Internal Method Tracing" order="13" />
+      <window_info anchor="bottom" id="Run" order="14" weight="0.18279174" />
+      <window_info anchor="bottom" id="Flow" order="15" />
+      <window_info anchor="bottom" id="Services" order="16" />
+      <window_info anchor="right" id="Space Automation" order="0" />
+      <window_info anchor="right" id="Maven" order="1" />
+      <window_info anchor="right" id="Database" order="2" />
+      <window_info anchor="right" id="make" order="3" side_tool="true" />
+    </layout>
+    <recentWindows>
+      <value>Run</value>
+      <value>Project</value>
+      <value>Find</value>
+      <value>Commit</value>
+    </recentWindows>
+  </component>
+  <component name="Trusted.Project.Settings" hasCheckedIfOldProject="true" trusted="YES" />
+  <component name="WindowStateProjectService">
+    <state x="858" y="4" width="844" height="598" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1623765672609">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state x="858" y="4" width="844" height="598" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2560.1440@0.0.2560.1440" timestamp="1623765672609" />
+    <state x="1013" y="432" width="524" height="488" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1623398525574">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state x="1013" y="432" width="524" height="488" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.2560.1440@0.0.2560.1440" timestamp="1623398525574" />
+    <state x="1063" y="425" width="424" height="470" key="FileChooserDialogImpl" timestamp="1623392330448">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state x="1063" y="425" width="424" height="470" key="FileChooserDialogImpl/0.0.2560.1440@0.0.2560.1440" timestamp="1623392330448" />
+    <state width="2100" height="219" key="GridCell.Tab.0.bottom" timestamp="1623767464220">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state width="1900" height="143" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1623690744540" />
+    <state width="2100" height="219" key="GridCell.Tab.0.bottom/0.0.2560.1440@0.0.2560.1440" timestamp="1623767464220" />
+    <state width="2100" height="219" key="GridCell.Tab.0.center" timestamp="1623767464216">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state width="1900" height="143" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1623690744538" />
+    <state width="2100" height="219" key="GridCell.Tab.0.center/0.0.2560.1440@0.0.2560.1440" timestamp="1623767464216" />
+    <state width="2100" height="219" key="GridCell.Tab.0.left" timestamp="1623767464214">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state width="1900" height="143" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1623690744537" />
+    <state width="2100" height="219" key="GridCell.Tab.0.left/0.0.2560.1440@0.0.2560.1440" timestamp="1623767464214" />
+    <state width="2100" height="219" key="GridCell.Tab.0.right" timestamp="1623767464217">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state width="1900" height="143" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1623690744539" />
+    <state width="2100" height="219" key="GridCell.Tab.0.right/0.0.2560.1440@0.0.2560.1440" timestamp="1623767464217" />
+    <state x="685" y="275" width="524" height="520" key="find.popup" timestamp="1623689703578">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="685" y="275" width="524" height="520" key="find.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1623689703578" />
+    <state x="913" y="367" width="554" height="520" key="find.popup/0.0.2560.1440@0.0.2560.1440" timestamp="1623682716994" />
+    <state x="944" y="330" width="672" height="685" key="run.anything.popup" timestamp="1623749547594">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state x="708" y="248" width="672" height="514" key="run.anything.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1623689982381" />
+    <state x="944" y="330" width="672" height="685" key="run.anything.popup/0.0.2560.1440@0.0.2560.1440" timestamp="1623749547594" />
+    <state x="943" y="315" width="672" height="686" key="search.everywhere.popup" timestamp="1623765644182">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state x="707" y="236" width="672" height="515" key="search.everywhere.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1623689784529" />
+    <state x="943" y="315" width="672" height="686" key="search.everywhere.popup/0.0.2560.1440@0.0.2560.1440" timestamp="1623765644182" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/eu/atspace/hash/Main.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/jni/MQO_Main.h" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/bytedeco/javacpp/1.1/javacpp-1.1.jar!/org/bytedeco/javacpp/annotation/Name.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="117">
+          <caret line="16" column="22" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/eu/atspace/hash/Graph_AdjacenceListsGraph.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/eu/atspace/hash/Vertex.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/eu/atspace/hash/VectorAdjacenceListsGRAPH.java" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/bytedeco/javacpp/1.1/javacpp-1.1.jar!/org/bytedeco/javacpp/annotation/NoOffset.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="117">
+          <caret line="16" column="18" lean-forward="true" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/bytedeco/javacpp/1.1/javacpp-1.1.jar!/org/bytedeco/javacpp/FloatPointer.class">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/bytedeco/javacpp/1.1/javacpp-1.1.jar!/org/bytedeco/javacpp/annotation/StdVector.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="17" column="8" lean-forward="true" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/jni/Graph_AdjacenceListsGraph.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="38" column="22" selection-start-line="38" selection-start-column="22" selection-end-line="38" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/bytedeco/javacpp/1.1/javacpp-1.1.jar!/org/bytedeco/javacpp/annotation/MemberGetter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="117">
+          <caret line="16" column="18" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SECOND">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/eu/atspace/hash/Vector.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="507">
+          <caret line="43" column="41" lean-forward="true" selection-start-line="43" selection-start-column="41" selection-end-line="43" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Makefile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="169">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="832">
+          <caret line="64" column="80" selection-start-line="64" selection-start-column="80" selection-end-line="64" selection-end-column="80" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/jni/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="35" selection-start-column="35" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/jni/MQO_main_debug.cpp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/jni/MQO_main_1.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="379">
+          <caret line="108" column="12" selection-start-line="108" selection-start-column="12" selection-end-line="108" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/jni/MQO_main_2.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="650">
+          <caret line="60" column="53" selection-start-line="60" selection-start-column="53" selection-end-line="60" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/eu/atspace/hash/Graph.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1482">
+          <caret line="128" selection-start-line="128" selection-end-line="128" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#585#586#0" expanded="true" />
+            <element signature="e#628#629#0" expanded="true" />
+            <element signature="e#1714#1715#0" expanded="true" />
+            <element signature="e#1765#1766#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dockerfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="416">
+          <caret line="32" column="21" selection-start-line="32" selection-start-column="21" selection-end-line="32" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/eu/atspace/hash/MQO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="520">
+          <caret line="45" column="23" selection-start-line="45" selection-start-column="23" selection-end-line="45" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#447#448#0" expanded="true" />
+            <element signature="e#481#482#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/jni/Graph_AdjacenceListsGRAPH_IO.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="832">
+          <caret line="64" selection-start-line="64" selection-end-line="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/eu/atspace/hash/MQOMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="26" column="1" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/eu/atspace/hash/Demo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="819">
+          <caret line="63" lean-forward="true" selection-start-line="63" selection-end-line="63" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

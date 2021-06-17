@@ -1,0 +1,341 @@
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="-1" />
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>Values</find>
+      <find>foolib</find>
+      <find>foo</find>
+      <find>assem</find>
+      <find>assembly</find>
+      <find>b</find>
+      <find>bar</find>
+      <find>tomtom</find>
+      <find>clear</find>
+      <find>make</find>
+      <find>jni</find>
+    </findStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <changedPaths>
+      <option value="$PROJECT_DIR$/src/main/jni/foo.h" />
+      <option value="$PROJECT_DIR$/src/main/java/eu/atspace/hash/Main.java" />
+      <option value="$PROJECT_DIR$/src/test/java/eu/atspace/hash/FooTest.java" />
+      <option value="$PROJECT_DIR$/src/main/jni/foo.cc" />
+      <option value="$PROJECT_DIR$/src/main/cppcode/foo.cc" />
+      <option value="$PROJECT_DIR$/src/main/cppcode/Makefile" />
+      <option value="$PROJECT_DIR$/src/main/cppcode/bar.cc" />
+      <option value="$PROJECT_DIR$/src/main/cppcode/bar.h" />
+      <option value="$PROJECT_DIR$/src/main/java/eu/atspace/hash/FooLib.java" />
+      <option value="$PROJECT_DIR$/src/main/java/eu/atspace/hash/BarSpace.java" />
+      <option value="$PROJECT_DIR$/README.md" />
+      <option value="$PROJECT_DIR$/src/main/jni/Utility.cpp" />
+      <option value="$PROJECT_DIR$/src/main/jni/Utility.h" />
+      <option value="$PROJECT_DIR$/src/main/jni/AdjacenceListsGraph.cpp" />
+      <option value="$PROJECT_DIR$/src/main/java/eu/atspace/hash/Graph.java" />
+      <option value="$PROJECT_DIR$/src/main/jni/AdjacenceListsGraph.h" />
+      <option value="$PROJECT_DIR$/src/main/jni/Makefile" />
+      <option value="$PROJECT_DIR$/pom.xml" />
+      <option value="$PROJECT_DIR$/src/main/java/eu/atspace/hash/Demo.java" />
+      <option value="$PROJECT_DIR$/src/main/java/eu/atspace/hash/MQOMain.java" />
+    </changedPaths>
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="$PROJECT_DIR$/.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" />
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="19670000" />
+  </component>
+  <component name="ToolWindowManager">
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1722441" />
+      <window_info id="Structure" order="1" side_tool="true" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info id="Commit" order="3" />
+      <window_info id="Space Code Reviews" order="4" />
+      <window_info id="Learn" order="5" />
+      <window_info id="Pull Requests" order="6" />
+      <window_info anchor="bottom" id="Event Log" order="0" side_tool="true" />
+      <window_info anchor="bottom" id="TODO" order="1" />
+      <window_info anchor="bottom" id="Problems View" order="2" />
+      <window_info anchor="bottom" id="File Transfer" order="3" />
+      <window_info anchor="bottom" id="Version Control" order="4" />
+      <window_info anchor="bottom" id="Terminal" order="5" />
+      <window_info anchor="bottom" id="Profiler" order="6" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="TypeScript" order="8" />
+      <window_info anchor="bottom" id="Endpoints" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Build" order="10" />
+      <window_info anchor="bottom" id="internal-profiler" order="11" />
+      <window_info anchor="bottom" id="Internal Method Tracing" order="12" />
+      <window_info anchor="bottom" id="Run" order="13" weight="0.23476702" />
+      <window_info anchor="bottom" id="Flow" order="14" />
+      <window_info anchor="bottom" id="Services" order="15" />
+      <window_info anchor="bottom" id="Find" order="16" />
+      <window_info anchor="right" id="Space Automation" order="0" />
+      <window_info anchor="right" id="Maven" order="1" />
+      <window_info anchor="right" id="Database" order="2" />
+      <window_info anchor="right" id="make" order="3" side_tool="true" />
+    </layout>
+    <recentWindows>
+      <value>Project</value>
+      <value>Run</value>
+    </recentWindows>
+  </component>
+  <component name="Trusted.Project.Settings" hasCheckedIfOldProject="true" trusted="YES" />
+  <component name="WindowStateProjectService">
+    <state x="724" y="304" width="543" height="480" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1623256023483">
+      <screen x="0" y="0" width="1920" height="1200" />
+    </state>
+    <state x="724" y="288" width="462" height="432" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1080/0.0.1920.1200@0.0.1920.1080" timestamp="1623167134488" />
+    <state x="724" y="304" width="543" height="480" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1200@0.0.1920.1200" timestamp="1623256023483" />
+    <state x="924" y="261" width="524" height="488" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1623358580703">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state x="693" y="244" width="524" height="488" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1623253910339" />
+    <state x="924" y="261" width="524" height="488" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.2560.1440@0.0.2560.1440" timestamp="1623358580703" />
+    <state width="2540" height="299" key="GridCell.Tab.0.bottom" timestamp="1623359123308">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state width="1460" height="274" key="GridCell.Tab.0.bottom/0.0.1920.1080/0.0.1920.1200@0.0.1920.1080" timestamp="1623172388718" />
+    <state width="1900" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1623253942934" />
+    <state width="1900" height="211" key="GridCell.Tab.0.bottom/0.0.1920.1200@0.0.1920.1200" timestamp="1623256106654" />
+    <state width="2540" height="299" key="GridCell.Tab.0.bottom/0.0.2560.1440@0.0.2560.1440" timestamp="1623359123308" />
+    <state width="2540" height="299" key="GridCell.Tab.0.center" timestamp="1623359123307">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state width="1460" height="274" key="GridCell.Tab.0.center/0.0.1920.1080/0.0.1920.1200@0.0.1920.1080" timestamp="1623172388715" />
+    <state width="1900" height="282" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1623253942930" />
+    <state width="1900" height="211" key="GridCell.Tab.0.center/0.0.1920.1200@0.0.1920.1200" timestamp="1623256106651" />
+    <state width="2540" height="299" key="GridCell.Tab.0.center/0.0.2560.1440@0.0.2560.1440" timestamp="1623359123307" />
+    <state width="2540" height="299" key="GridCell.Tab.0.left" timestamp="1623359123306">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state width="1460" height="274" key="GridCell.Tab.0.left/0.0.1920.1080/0.0.1920.1200@0.0.1920.1080" timestamp="1623172388713" />
+    <state width="1900" height="282" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1623253942928" />
+    <state width="1900" height="211" key="GridCell.Tab.0.left/0.0.1920.1200@0.0.1920.1200" timestamp="1623256106650" />
+    <state width="2540" height="299" key="GridCell.Tab.0.left/0.0.2560.1440@0.0.2560.1440" timestamp="1623359123306" />
+    <state width="2540" height="299" key="GridCell.Tab.0.right" timestamp="1623359123308">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state width="1460" height="274" key="GridCell.Tab.0.right/0.0.1920.1080/0.0.1920.1200@0.0.1920.1080" timestamp="1623172388716" />
+    <state width="1900" height="282" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1623253942932" />
+    <state width="1900" height="211" key="GridCell.Tab.0.right/0.0.1920.1200@0.0.1920.1200" timestamp="1623256106653" />
+    <state width="2540" height="299" key="GridCell.Tab.0.right/0.0.2560.1440@0.0.2560.1440" timestamp="1623359123308" />
+    <state x="589" y="258" width="741" height="500" key="SettingsEditor" timestamp="1623172380685">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="589" y="258" width="741" height="500" key="SettingsEditor/0.0.1920.1080/0.0.1920.1200@0.0.1920.1080" timestamp="1623172380685" />
+    <state x="832" y="325" width="896" height="915" key="run.anything.popup" timestamp="1623358936853">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state x="624" y="244" width="672" height="685" key="run.anything.popup/0.0.1920.1080/0.0.1920.1200@0.0.1920.1080" timestamp="1623171563105" />
+    <state x="624" y="244" width="672" height="685" key="run.anything.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1623253942886" />
+    <state x="624" y="271" width="672" height="762" key="run.anything.popup/0.0.1920.1200@0.0.1920.1200" timestamp="1623255987777" />
+    <state x="832" y="325" width="896" height="915" key="run.anything.popup/0.0.2560.1440@0.0.2560.1440" timestamp="1623358936853" />
+    <state x="831" y="341" width="896" height="916" key="search.everywhere.popup" timestamp="1623358317307">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state x="623" y="256" width="672" height="686" key="search.everywhere.popup/0.0.1920.1080/0.0.1920.1200@0.0.1920.1080" timestamp="1623172333747" />
+    <state x="623" y="284" width="672" height="763" key="search.everywhere.popup/0.0.1920.1200@0.0.1920.1200" timestamp="1623254203545" />
+    <state x="831" y="341" width="896" height="916" key="search.everywhere.popup/0.0.2560.1440@0.0.2560.1440" timestamp="1623358317307" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/bytedeco/javacpp/1.1/javacpp-1.1.jar!/org/bytedeco/javacpp/annotation/ByRef.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/bytedeco/javacpp/1.1/javacpp-1.1.jar!/org/bytedeco/javacpp/Pointer.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="162" column="23" selection-start-line="162" selection-start-column="13" selection-end-line="162" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/eu/atspace/hash/FooTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="21" column="1" lean-forward="true" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+          <folding>
+            <element signature="e#347#348#0" expanded="true" />
+            <element signature="e#379#380#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="338">
+            <caret line="26" selection-start-line="26" selection-end-line="26" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/jni/bar.cc" />
+    <entry file="file://$PROJECT_DIR$/src/main/jni/bar.h" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/eu/atspace/hash/BarSpace.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/jni/foo.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="14" column="8" lean-forward="true" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/jni/foo.cc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/bytedeco/javacpp/1.1/javacpp-1.1.jar!/org/bytedeco/javacpp/annotation/Platform.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="35" column="13" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/jni/AdjacenceListsGraph.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="151" lean-forward="true" selection-start-line="151" selection-end-line="151" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/jni/Utility.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/jni/Utility.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/jni/AdjacenceListsGraph.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="24" column="21" lean-forward="true" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/eu/atspace/hash/LogSpace.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="377">
+          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/eu/atspace/hash/Graph.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="21" column="1" lean-forward="true" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/jni/Makefile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret lean-forward="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/eu/atspace/hash/FooLib.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="832">
+          <caret line="86" column="39" lean-forward="true" selection-start-line="86" selection-start-column="39" selection-end-line="86" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/eu/atspace/hash/Demo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="52">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="134" column="50" lean-forward="true" selection-start-line="134" selection-start-column="50" selection-end-line="134" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/eu/atspace/hash/MQOMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="17" column="11" selection-start-line="17" selection-start-column="11" selection-end-line="17" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI" />
+      <state key="GlobalLibrariesConfigurable.UI" />
+      <state key="JdkListConfigurable.UI" />
+      <state key="ModuleStructureConfigurable.UI" />
+      <state key="ProjectLibrariesConfigurable.UI" />
+    </states>
+  </component>
+</project>

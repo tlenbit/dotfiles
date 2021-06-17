@@ -82,11 +82,11 @@ mainbox {
   border: 0% 0% 0% 0%;
   border-radius: 0% 0% 0% 0%;
   border-color: @ac;
-  children: [inputbar, message, listview];
+  /*children: [inputbar, sidebar, message, listview];*/
+  /*children: [inputbar, message, listview]; */
   /*children: [inputbar, listview];*/
   spacing: 0%;
   padding: 0%;
-
 
   fixed-height: false;
 }
@@ -138,7 +138,19 @@ case-indicator {
 }*/
 
 sidebar {
-  background-color: red;
+  border: 10px dash 0px 10px;
+  border-color:  @se;
+  background-color: #FFFFFF33;
+}
+
+button {
+  background-color: @se; /*@bg*/
+  text-color: @fg;
+  padding:  0px;
+}
+
+button selected {
+  text-color: @ac;
 }
 
 textbox {
@@ -198,12 +210,4 @@ element alternate.active {
   background-color: @blackentry;
   text-color: @maincolor;
 }
-
-button {
-  background-color: @blackwidget;
-  text-color: @darkgray;
-}
-
-button selected {
-  text-color: @maincolor;
-}*/
+*/

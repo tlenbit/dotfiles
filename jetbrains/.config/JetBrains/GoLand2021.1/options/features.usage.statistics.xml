@@ -8,7 +8,7 @@
     <feature id="editing.completion.finishBySmartEnter" count="0" last-shown="0" last-used="0" shown-count="0" />
     <feature id="navigation.popup.symbol" count="0" last-shown="0" last-used="0" shown-count="0" />
     <feature id="find.recent.search" count="0" last-shown="0" last-used="0" shown-count="0" />
-    <feature id="editing.completion.replace" count="17" last-shown="1622816347575" last-used="1619005678878" shown-count="127964" />
+    <feature id="editing.completion.replace" count="17" last-shown="1622998236675" last-used="1619005678878" shown-count="128306" />
     <feature id="switcher" count="6209" last-shown="0" last-used="1622009514012" shown-count="0" />
     <feature id="codeassists.complete.statement" count="0" last-shown="0" last-used="0" shown-count="0" />
     <feature id="navigation.goto.inspection" count="0" last-shown="0" last-used="0" shown-count="0" />
@@ -34,12 +34,12 @@
     <feature id="editor.delete.line" count="3" last-shown="0" last-used="1607061615072" shown-count="0" />
     <feature id="codeassists.quickdefinition" count="10" last-shown="0" last-used="1618412145855" shown-count="0" />
     <feature id="find.completion" count="0" last-shown="0" last-used="0" shown-count="0" />
-    <feature id="editing.completion.basic" count="21050" last-shown="0" last-used="1622816185546" shown-count="0" />
+    <feature id="editing.completion.basic" count="21069" last-shown="0" last-used="1622998169769" shown-count="0" />
     <feature id="tag.name.completion" count="0" last-shown="0" last-used="0" shown-count="0" />
     <feature id="editing.completion.postfix" count="362" last-shown="0" last-used="1622191030964" shown-count="0" />
     <feature id="refactoring.introduceVariable.incompleteStatement" count="0" last-shown="0" last-used="0" shown-count="0" />
     <feature id="dir.diff" count="0" last-shown="0" last-used="0" shown-count="0" />
-    <feature id="editing.select.word" count="3032" last-shown="0" last-used="1622816184605" shown-count="0" />
+    <feature id="editing.select.word" count="3034" last-shown="0" last-used="1622997782141" shown-count="0" />
     <feature id="editing.add.carets.using.double.ctrl" count="3" last-shown="0" last-used="1611657308604" shown-count="0" />
     <feature id="codeassists.quickjavadoc.lookup" count="0" last-shown="0" last-used="0" shown-count="0" />
     <feature id="ui.scheme.quickswitch" count="0" last-shown="0" last-used="0" shown-count="0" />
@@ -54,17 +54,17 @@
     <feature id="editing.completion.changeSorting" count="0" last-shown="0" last-used="0" shown-count="0" />
     <feature id="codeassists.quickdefinition.lookup" count="1" last-shown="0" last-used="1617198206291" shown-count="0" />
     <completionStatsTag>
-      <option name="sparedCharacters" value="91845" />
-      <option name="invocations" value="18569" />
+      <option name="sparedCharacters" value="91900" />
+      <option name="invocations" value="18579" />
       <option name="startDate" value="1585173600000" />
-      <option name="dayCount" value="248" />
-      <option name="lastDate" value="1622754000000" />
+      <option name="dayCount" value="249" />
+      <option name="lastDate" value="1622926800000" />
     </completionStatsTag>
     <fixesStatsTag>
-      <option name="invocations" value="114" />
+      <option name="invocations" value="115" />
       <option name="startDate" value="1587934800000" />
-      <option name="dayCount" value="58" />
-      <option name="lastDate" value="1621890000000" />
+      <option name="dayCount" value="59" />
+      <option name="lastDate" value="1622926800000" />
     </fixesStatsTag>
   </component>
 </application>

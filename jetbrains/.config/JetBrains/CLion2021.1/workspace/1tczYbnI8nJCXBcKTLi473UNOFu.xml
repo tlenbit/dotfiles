@@ -1,0 +1,496 @@
+<project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/MQO/main.cpp" description="MQO mqo(&amp;dataGraphVector, &amp;queryGraphVector, &amp;resu..." line="184" mnemonic="7" />
+  </component>
+  <component name="DatabaseView">
+    <expand />
+    <select />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="-1">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MQO/Main.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="741">
+              <caret line="72" selection-start-line="72" selection-end-line="72" />
+              <folding>
+                <element signature="e#39#57#0" expanded="true" />
+                <element signature="e#143#158#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Graph/AdjacenceListsGRAPH_IO.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="644">
+              <caret line="46" column="29" selection-start-line="46" selection-start-column="29" selection-end-line="46" selection-end-column="29" />
+              <folding>
+                <element signature="e#0#34#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Graph/AdjacenceListsGraph.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="503">
+              <caret line="79" column="30" lean-forward="true" selection-start-line="79" selection-start-column="30" selection-end-line="79" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Graph/AdjacenceListsGraph.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="909">
+              <caret line="617" column="1" lean-forward="true" selection-start-line="617" selection-start-column="1" selection-end-line="617" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>QueryPerformanceFrequency</find>
+      <find>timeuti</find>
+      <find>&quot;TimeUtility.h&quot;</find>
+      <find>FindAllMaximalCliques</find>
+      <find>strcmp</find>
+      <find>FLT_MAX</find>
+      <find>hello</find>
+      <find>na</find>
+      <find>pause</find>
+      <find>Finish One q</find>
+      <find>whole-ar</find>
+      <find>MQO</find>
+      <find>main.cpp</find>
+      <find>Main</find>
+      <find>nt rvalue = Tompson::testGimmeTen();</find>
+      <find>boost</find>
+      <find>printLabelEdges</find>
+    </findStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$/CommonUtility</dir>
+      <dir>$PROJECT_DIR$/MQO</dir>
+    </dirStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <changedPaths>
+      <option value="$PROJECT_DIR$/CommonUtility/StringUtility.h" />
+      <option value="$PROJECT_DIR$/CommonUtility/StringUtility.cpp" />
+      <option value="$PROJECT_DIR$/CommonUtility/TimeUtility.h" />
+      <option value="$PROJECT_DIR$/CommonUtility/TimeUtility.cpp" />
+      <option value="$PROJECT_DIR$/MQO/SimiMethodTest.cpp" />
+      <option value="$PROJECT_DIR$/MQO/main_debug.cpp" />
+      <option value="$PROJECT_DIR$/Graph/AdjacenceListsGRAPH_BOOST.cpp" />
+      <option value="$PROJECT_DIR$/MQO/CacheEmbeddingNode.h" />
+      <option value="$PROJECT_DIR$/MQO/TurboIso_CacheResults.h" />
+      <option value="$PROJECT_DIR$/MQO/ComboLinkedLists.h" />
+      <option value="$PROJECT_DIR$/MQO/JointGraph.h" />
+      <option value="$PROJECT_DIR$/MQO/CacheRetrieval.h" />
+      <option value="$PROJECT_DIR$/MQO/CacheResultsTest.cpp" />
+      <option value="$PROJECT_DIR$/MQO/DebugGraphOverlapQG.h" />
+      <option value="$PROJECT_DIR$/MQO/PCM_Node.h" />
+      <option value="$PROJECT_DIR$/MQO/QuerySubgraphIsomorphismSearch.h" />
+      <option value="$PROJECT_DIR$/MQO/TurboIso.h" />
+      <option value="$PROJECT_DIR$/MQO/PCMBuilder.cpp" />
+      <option value="$PROJECT_DIR$/MQO/QueryGraphIsomorphismTest.cpp" />
+      <option value="$PROJECT_DIR$/MQO/QuerySubgraphIsomorphismSearch.cpp" />
+      <option value="$PROJECT_DIR$/MQO/RdfMQO.cpp" />
+      <option value="$PROJECT_DIR$/MQO/RandomQG.cpp" />
+      <option value="$PROJECT_DIR$/MQO/TurboIso.cpp" />
+      <option value="$PROJECT_DIR$/MQO/TurboIsoBoostedMQO.cpp" />
+      <option value="$PROJECT_DIR$/MQO/TurboIso_CacheResults.cpp" />
+      <option value="$PROJECT_DIR$/MQO/TurboIsoMQO.cpp" />
+      <option value="$PROJECT_DIR$/MQO/TurboIsoBoosted.cpp" />
+      <option value="$PROJECT_DIR$/MQO/CoreVertexSpanOverlapQG.h" />
+      <option value="$PROJECT_DIR$/Graph/FindMaximalDisjointConnCliques.cpp" />
+      <option value="$PROJECT_DIR$/MQO/MQO.cpp" />
+      <option value="$PROJECT_DIR$/MQO/SQP.cpp" />
+      <option value="$PROJECT_DIR$/MQO/main.cpp" />
+      <option value="$PROJECT_DIR$/MQO/main_interface.cpp" />
+      <option value="$PROJECT_DIR$/MQO/Main.cpp" />
+      <option value="$PROJECT_DIR$/Graph/FindMaximumConnectedClique.cpp" />
+      <option value="$PROJECT_DIR$/CMakeLists.txt" />
+      <option value="$PROJECT_DIR$/MQO/Main.h" />
+      <option value="$PROJECT_DIR$/Graph/AdjacenceListsGRAPH_IO.cpp" />
+      <option value="$PROJECT_DIR$/Graph/AdjacenceListsGraph.h" />
+      <option value="$PROJECT_DIR$/Graph/AdjacenceListsGraph.cpp" />
+    </changedPaths>
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="$PROJECT_DIR$/.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" />
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="MQO" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MQO_Original" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MQO" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MQO_Original" type="462c0819:PsiDirectoryNode" />
+              <item name="Graph" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MQO" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MQO_Original" type="462c0819:PsiDirectoryNode" />
+              <item name="MQO" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="28958000" />
+  </component>
+  <component name="ToolWindowManager">
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.122894734" />
+      <window_info id="Structure" order="1" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info id="Commit" order="3" />
+      <window_info id="Pull Requests" order="4" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Run" order="3" weight="0.18963018" />
+      <window_info anchor="bottom" id="Debug" order="4" weight="0.4" />
+      <window_info anchor="bottom" id="Problems View" order="5" />
+      <window_info anchor="bottom" id="Cvs" order="6" weight="0.25" />
+      <window_info anchor="bottom" id="Internal Method Tracing" order="7" />
+      <window_info anchor="bottom" id="File Transfer" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="clangd" order="11" />
+      <window_info anchor="bottom" id="CMake" order="12" weight="0.262724" />
+      <window_info anchor="bottom" id="Database Changes" order="13" show_stripe_button="false" />
+      <window_info anchor="bottom" id="TypeScript" order="14" />
+      <window_info anchor="bottom" id="Python Packages" order="15" />
+      <window_info anchor="bottom" id="Messages" order="16" weight="0.13524294" />
+      <window_info anchor="bottom" id="Inspection" order="17" weight="0.4" />
+      <window_info anchor="bottom" id="Flow" order="18" />
+      <window_info anchor="bottom" id="Services" order="19" show_stripe_button="false" />
+      <window_info anchor="bottom" id="TODO" order="20" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="right" id="make" order="4" show_stripe_button="false" side_tool="true" />
+    </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19349316" />
+      <window_info id="Structure" order="1" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info id="Commit" order="3" />
+      <window_info id="Pull Requests" order="4" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Run" order="3" visible="true" weight="0.18960395" />
+      <window_info anchor="bottom" id="Debug" order="4" weight="0.4" />
+      <window_info anchor="bottom" id="Problems View" order="5" />
+      <window_info anchor="bottom" id="Cvs" order="6" weight="0.25" />
+      <window_info anchor="bottom" id="Internal Method Tracing" order="7" />
+      <window_info anchor="bottom" id="File Transfer" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="clangd" order="11" />
+      <window_info anchor="bottom" id="CMake" order="12" weight="0.2628713" />
+      <window_info anchor="bottom" id="Database Changes" order="13" show_stripe_button="false" />
+      <window_info anchor="bottom" id="TypeScript" order="14" />
+      <window_info anchor="bottom" id="Python Packages" order="15" />
+      <window_info anchor="bottom" id="Messages" order="16" weight="0.21237624" />
+      <window_info anchor="bottom" id="Inspection" order="17" weight="0.4" />
+      <window_info anchor="bottom" id="Flow" order="18" />
+      <window_info anchor="bottom" id="Services" order="19" show_stripe_button="false" />
+      <window_info anchor="bottom" id="TODO" order="20" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="right" id="make" order="4" show_stripe_button="false" side_tool="true" />
+    </layout-to-restore>
+    <recentWindows>
+      <value>Project</value>
+      <value>Run</value>
+      <value>Messages</value>
+      <value>CMake</value>
+    </recentWindows>
+  </component>
+  <component name="Trusted.Project.Settings" hasCheckedIfOldProject="true" trusted="YES" />
+  <component name="WindowStateProjectService">
+    <state x="494" y="364" width="844" height="519" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1623254671342">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="494" y="364" width="844" height="519" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1080/0.0.1920.1200@0.0.1920.1080" timestamp="1623254671342" />
+    <state width="640" height="204" key="CreateCMakeListWizard.bottomPanel" timestamp="1623083463176">
+      <screen x="0" y="0" width="1920" height="1200" />
+    </state>
+    <state width="640" height="204" key="CreateCMakeListWizard.bottomPanel/0.0.1920.1200@0.0.1920.1200" timestamp="1623083463176" />
+    <state width="640" height="476" key="CreateCMakeListWizard.topPanel" timestamp="1623083463175">
+      <screen x="0" y="0" width="1920" height="1200" />
+    </state>
+    <state width="640" height="476" key="CreateCMakeListWizard.topPanel/0.0.1920.1200@0.0.1920.1200" timestamp="1623083463175" />
+    <state x="743" y="250" width="424" height="470" key="FileChooserDialogImpl" timestamp="1623411663241">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="743" y="290" width="424" height="470" key="FileChooserDialogImpl/0.0.1920.1080/0.0.1920.1200@0.0.1920.1080" timestamp="1623254337541" />
+    <state x="743" y="250" key="FileChooserDialogImpl/0.0.1920.1080@0.0.1920.1080" timestamp="1623411663241" />
+    <state x="991" y="355" width="424" height="470" key="FileChooserDialogImpl/0.0.2560.1440@0.0.2560.1440" timestamp="1623357657270" />
+    <state width="2540" height="233" key="GridCell.Tab.0.bottom" timestamp="1623401670011">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state width="1460" height="163" key="GridCell.Tab.0.bottom/0.0.1920.1080/0.0.1920.1200@0.0.1920.1080" timestamp="1623256078610" />
+    <state width="1900" height="168" key="GridCell.Tab.0.bottom/0.0.1920.1200@0.0.1920.1200" timestamp="1623086392004" />
+    <state width="2540" height="233" key="GridCell.Tab.0.bottom/0.0.2560.1440@0.0.2560.1440" timestamp="1623401670011" />
+    <state width="2540" height="233" key="GridCell.Tab.0.center" timestamp="1623401670010">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state width="1460" height="163" key="GridCell.Tab.0.center/0.0.1920.1080/0.0.1920.1200@0.0.1920.1080" timestamp="1623256078607" />
+    <state width="1900" height="168" key="GridCell.Tab.0.center/0.0.1920.1200@0.0.1920.1200" timestamp="1623086392003" />
+    <state width="2540" height="233" key="GridCell.Tab.0.center/0.0.2560.1440@0.0.2560.1440" timestamp="1623401670010" />
+    <state width="2540" height="233" key="GridCell.Tab.0.left" timestamp="1623401670010">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state width="1460" height="163" key="GridCell.Tab.0.left/0.0.1920.1080/0.0.1920.1200@0.0.1920.1080" timestamp="1623256078605" />
+    <state width="1900" height="168" key="GridCell.Tab.0.left/0.0.1920.1200@0.0.1920.1200" timestamp="1623086392001" />
+    <state width="2540" height="233" key="GridCell.Tab.0.left/0.0.2560.1440@0.0.2560.1440" timestamp="1623401670008" />
+    <state width="2540" height="233" key="GridCell.Tab.0.right" timestamp="1623401670011">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state width="1460" height="163" key="GridCell.Tab.0.right/0.0.1920.1080/0.0.1920.1200@0.0.1920.1080" timestamp="1623256078608" />
+    <state width="1900" height="168" key="GridCell.Tab.0.right/0.0.1920.1200@0.0.1920.1200" timestamp="1623086392003" />
+    <state width="2540" height="233" key="GridCell.Tab.0.right/0.0.2560.1440@0.0.2560.1440" timestamp="1623401670011" />
+    <state x="516" y="252" key="SettingsEditor" timestamp="1623338669023">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state x="387" y="223" key="SettingsEditor/0.0.1920.1200@0.0.1920.1200" timestamp="1623084721911" />
+    <state x="516" y="252" key="SettingsEditor/0.0.2560.1440@0.0.2560.1440" timestamp="1623338669023" />
+    <state x="689" y="260" width="540" height="524" key="StructurePopup" timestamp="1623411604994">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="689" y="260" width="540" height="524" key="StructurePopup/0.0.1920.1080@0.0.1920.1080" timestamp="1623411604994" />
+    <state x="1000" y="131" width="739" height="936" key="find.popup" timestamp="1623353975536">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state x="750" y="109" width="554" height="780" key="find.popup/0.0.1920.1200@0.0.1920.1200" timestamp="1623084223782" />
+    <state x="1000" y="131" width="739" height="936" key="find.popup/0.0.2560.1440@0.0.2560.1440" timestamp="1623353975536" />
+    <state x="832" y="288" width="896" height="823" key="run.anything.popup" timestamp="1623392464122">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state x="624" y="216" width="672" height="617" key="run.anything.popup/0.0.1920.1080/0.0.1920.1200@0.0.1920.1080" timestamp="1623254523705" />
+    <state x="624" y="240" width="672" height="685" key="run.anything.popup/0.0.1920.1200@0.0.1920.1200" timestamp="1623165139599" />
+    <state x="832" y="288" width="896" height="823" key="run.anything.popup/0.0.2560.1440@0.0.2560.1440" timestamp="1623392464122" />
+    <state x="831" y="271" width="896" height="824" key="search.everywhere.popup" timestamp="1623392467992">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state x="623" y="203" width="672" height="618" key="search.everywhere.popup/0.0.1920.1080/0.0.1920.1200@0.0.1920.1080" timestamp="1623254632733" />
+    <state x="623" y="225" width="672" height="686" key="search.everywhere.popup/0.0.1920.1200@0.0.1920.1200" timestamp="1623165144204" />
+    <state x="831" y="271" width="896" height="824" key="search.everywhere.popup/0.0.2560.1440@0.0.2560.1440" timestamp="1623392467992" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file:///usr/include/time.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="222">
+          <caret line="212" column="46" selection-start-line="212" selection-start-column="36" selection-end-line="212" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MQO/SQP.h" />
+    <entry file="file://$PROJECT_DIR$/CommonUtility/TimeUtility.h" />
+    <entry file="file://$PROJECT_DIR$/CommonUtility/StringUtility.cpp" />
+    <entry file="file://$PROJECT_DIR$/CommonUtility/TimeUtility.cpp" />
+    <entry file="file://$PROJECT_DIR$/MQO/SimiMethodTest.cpp" />
+    <entry file="file://$PROJECT_DIR$/Graph/AdjacenceListsGRAPH_BOOST.cpp" />
+    <entry file="file://$PROJECT_DIR$/MQO/CacheEmbeddingNode.h" />
+    <entry file="file://$PROJECT_DIR$/MQO/TurboIso_CacheResults.h" />
+    <entry file="file://$PROJECT_DIR$/MQO/ComboLinkedLists.h" />
+    <entry file="file://$PROJECT_DIR$/MQO/JointGraph.h" />
+    <entry file="file://$PROJECT_DIR$/MQO/CacheRetrieval.cpp" />
+    <entry file="file://$PROJECT_DIR$/MQO/CacheRetrieval.h" />
+    <entry file="file://$PROJECT_DIR$/MQO/CacheResultsTest.cpp" />
+    <entry file="file://$PROJECT_DIR$/MQO/FindAllMaximalCliques.cpp" />
+    <entry file="file://$PROJECT_DIR$/MQO/DebugGraphOverlapQG.h" />
+    <entry file="file://$PROJECT_DIR$/MQO/PCM_Node.h" />
+    <entry file="file://$PROJECT_DIR$/MQO/QuerySubgraphIsomorphismSearch.h" />
+    <entry file="file://$PROJECT_DIR$/MQO/TurboIso.h" />
+    <entry file="file://$PROJECT_DIR$/MQO/PCMBuilder.cpp" />
+    <entry file="file://$PROJECT_DIR$/MQO/QueryGraphIsomorphismTest.cpp" />
+    <entry file="file://$PROJECT_DIR$/MQO/TurboIsoBoosted.cpp" />
+    <entry file="file://$PROJECT_DIR$/MQO/TurboIsoBoostedMQO.cpp" />
+    <entry file="file://$PROJECT_DIR$/MQO/TurboIso.cpp" />
+    <entry file="file://$PROJECT_DIR$/MQO/TurboIso_CacheResults.cpp" />
+    <entry file="file:///usr/include/c++/11.1.0/bits/stl_map.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1253">
+          <caret line="391" column="6" selection-start-line="391" selection-start-column="6" selection-end-line="391" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/include/c++/11.1.0/bits/stl_bvector.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="455">
+          <caret line="1110" column="4" selection-start-line="1110" selection-start-column="4" selection-end-line="1110" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MQO/CoreVertexSpanOverlapQG.h" />
+    <entry file="file://$PROJECT_DIR$/MQO/TurboIsoMQO.cpp" />
+    <entry file="file://$PROJECT_DIR$/MQO/RandomQG.cpp" />
+    <entry file="file://$PROJECT_DIR$/MQO/RdfMQO.cpp" />
+    <entry file="file://$PROJECT_DIR$/MQO/QuerySubgraphIsomorphismSearch.cpp" />
+    <entry file="file://$PROJECT_DIR$/Graph/AdjacenceListsGRAPH_IO.h">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Graph/FindMaximalDisjointConnCliques.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="24" column="82" selection-start-line="24" selection-start-column="82" selection-end-line="24" selection-end-column="82" />
+          <folding>
+            <element signature="e#0#43#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Graph/FindMaximalDisjointConnCliques.h">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MQO/GlobalConstant.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="70">
+          <caret line="5" column="21" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MQO/SQP.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="882">
+          <caret line="64" column="17" selection-start-line="64" selection-start-column="17" selection-end-line="64" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/include/c++/11.1.0/fstream">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="367">
+          <caret line="591" column="6" selection-start-line="591" selection-start-column="6" selection-end-line="591" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MQO/main_debug.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="406">
+          <caret line="37" column="14" selection-start-line="37" selection-start-column="14" selection-end-line="37" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MQO/MQO.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="70">
+          <caret line="19" column="6" selection-start-line="19" selection-start-column="6" selection-end-line="19" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MQO/main_interface.cpp" />
+    <entry file="file://$PROJECT_DIR$/Graph/FindMaximumConnectedClique.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret lean-forward="true" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MQO/MQO.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="567">
+          <caret line="71" selection-start-line="71" selection-end-line="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MQO/Main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="70">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/include/c++/11.1.0/bits/stl_vector.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1052">
+          <caret line="551" column="9" lean-forward="true" selection-start-line="551" selection-start-column="9" selection-end-line="551" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MQO/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="392">
+          <caret line="41" selection-start-line="41" selection-end-line="42" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+            <element signature="e#104#119#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="35" column="48" selection-start-line="35" selection-start-column="48" selection-end-line="35" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MQO/Main.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="741">
+          <caret line="72" selection-start-line="72" selection-end-line="72" />
+          <folding>
+            <element signature="e#39#57#0" expanded="true" />
+            <element signature="e#143#158#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Graph/AdjacenceListsGRAPH_IO.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="644">
+          <caret line="46" column="29" selection-start-line="46" selection-start-column="29" selection-end-line="46" selection-end-column="29" />
+          <folding>
+            <element signature="e#0#34#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Graph/AdjacenceListsGraph.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="909">
+          <caret line="617" column="1" lean-forward="true" selection-start-line="617" selection-start-column="1" selection-end-line="617" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Graph/AdjacenceListsGraph.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="503">
+          <caret line="79" column="30" lean-forward="true" selection-start-line="79" selection-start-column="30" selection-end-line="79" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

@@ -1,96 +1,50 @@
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="-1">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/seraph/src/main/java/qsms/engine/windowing/ArrTimeWindowOperatorFactory.java">
+        <entry file="file://$PROJECT_DIR$/arr/src/main/java/mqo/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="52">
-              <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/seraph/src/main/java/QSMSExample.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="520">
-              <caret line="54" selection-start-line="54" selection-end-line="54" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/seraph/src/main/resources/testqueries/testhumanqueries">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="143">
-              <caret line="11" selection-start-line="11" selection-end-line="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/seraph/src/main/java/qsms/data/QuerySource.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="27" column="35" selection-start-line="27" selection-start-column="16" selection-end-line="27" selection-end-column="35" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/seraph/src/main/java/qsms/engine/windowing/ArrStreamToRelationOp.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1313">
-              <caret line="124" selection-start-line="124" selection-end-line="124" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/seraph/src/main/java/qsms/engine/R2R.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="281">
-              <caret line="31" column="79" selection-start-line="31" selection-start-column="79" selection-end-line="31" selection-end-column="79" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/arr/src/main/java/mqo/BuildPCM.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="533">
-              <caret line="59" lean-forward="true" selection-start-line="59" selection-end-line="59" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/seraph/src/main/java/qsms/engine/ContentQuery.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="638">
-              <caret line="59" lean-forward="true" selection-start-line="59" selection-end-line="59" />
+            <state relative-caret-position="273">
+              <caret line="21" column="1" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
               <folding>
-                <element signature="e#928#929#0" expanded="true" />
-                <element signature="e#975#976#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/seraph/src/main/java/qsms/engine/RStream.java">
+        <entry file="file://$PROJECT_DIR$/arr/src/main/Makefile">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="243">
-              <caret line="24" column="1" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
+            <state relative-caret-position="39">
+              <caret line="3" selection-start-line="3" selection-end-line="3" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/arr/src/main/java/mqo/PCM.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/arr/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="598">
-              <caret line="46" selection-start-line="46" selection-end-line="46" />
+            <state relative-caret-position="624">
+              <caret line="48" column="19" selection-start-line="48" selection-start-column="19" selection-end-line="48" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -108,11 +62,22 @@
       <find>Content</find>
       <find>comp</find>
       <find>ContentQuery</find>
+      <find>make</find>
+      <find>&lt;&gt;</find>
+      <find>eu/at</find>
+      <find>eu.at</find>
+      <find>-L</find>
+      <find>main</find>
+      <find>*.main</find>
+      <find>mqo</find>
+      <find>.main</find>
+      <find>arr</find>
     </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/seraph/src/main/java/org/streamreasoning/gsp</dir>
       <dir>$PROJECT_DIR$/yasper</dir>
       <dir>$PROJECT_DIR$/arr/src/main/java/mqo</dir>
+      <dir>$PROJECT_DIR$/arr/src/main</dir>
     </dirStrings>
   </component>
   <component name="IdeDocumentHistory">
@@ -131,6 +96,14 @@
       <option value="$PROJECT_DIR$/seraph/src/main/java/qsms/engine/ARRContinousQueryExecution.java" />
       <option value="$PROJECT_DIR$/seraph/src/main/java/qsms/engine/RStream.java" />
       <option value="$PROJECT_DIR$/seraph/src/main/java/qsms/engine/R2R.java" />
+      <option value="$PROJECT_DIR$/arr/src/main/java/mqo/PCM.java" />
+      <option value="$PROJECT_DIR$/arr/src/main/java/mqo/BuildPCM.java" />
+      <option value="$PROJECT_DIR$/arr/src/main/java/mqo/MQOMain.java" />
+      <option value="$PROJECT_DIR$/arr/src/main/java/mqo/Main.java" />
+      <option value="$PROJECT_DIR$/arr/src/main/java/mqo_old/patternContainmentMap.java" />
+      <option value="$PROJECT_DIR$/arr/src/main/Makefile" />
+      <option value="$PROJECT_DIR$/arr/pom.xml" />
+      <option value="$PROJECT_DIR$/pom.xml" />
     </changedPaths>
   </component>
   <component name="IgnoredFileRootStore">
@@ -149,6 +122,7 @@
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1" />
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -180,14 +154,6 @@
               <item name="arr" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="Human_iGraph_Queries" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="qsms" type="b2602c69:ProjectViewProjectNode" />
-              <item name="qsms" type="462c0819:PsiDirectoryNode" />
-              <item name="arr" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -199,255 +165,20 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="mqo" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="qsms" type="b2602c69:ProjectViewProjectNode" />
-              <item name="qsms" type="462c0819:PsiDirectoryNode" />
-              <item name="arr" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="testQueries" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="qsms" type="b2602c69:ProjectViewProjectNode" />
-              <item name="qsms" type="462c0819:PsiDirectoryNode" />
-              <item name="arr" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="testQueries" type="462c0819:PsiDirectoryNode" />
-              <item name="q1" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="qsms" type="b2602c69:ProjectViewProjectNode" />
-              <item name="qsms" type="462c0819:PsiDirectoryNode" />
-              <item name="arr" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="Yeast_iGraph_Queries" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="qsms" type="b2602c69:ProjectViewProjectNode" />
-              <item name="qsms" type="462c0819:PsiDirectoryNode" />
-              <item name="seraph" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="qsms" type="b2602c69:ProjectViewProjectNode" />
-              <item name="qsms" type="462c0819:PsiDirectoryNode" />
-              <item name="seraph" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="qsms" type="b2602c69:ProjectViewProjectNode" />
-              <item name="qsms" type="462c0819:PsiDirectoryNode" />
-              <item name="seraph" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="qsms" type="b2602c69:ProjectViewProjectNode" />
-              <item name="qsms" type="462c0819:PsiDirectoryNode" />
-              <item name="seraph" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="qsms" type="b2602c69:ProjectViewProjectNode" />
-              <item name="qsms" type="462c0819:PsiDirectoryNode" />
-              <item name="seraph" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="gsp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="qsms" type="b2602c69:ProjectViewProjectNode" />
-              <item name="qsms" type="462c0819:PsiDirectoryNode" />
-              <item name="seraph" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="gsp" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="qsms" type="b2602c69:ProjectViewProjectNode" />
-              <item name="qsms" type="462c0819:PsiDirectoryNode" />
-              <item name="seraph" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="gsp" type="462c0819:PsiDirectoryNode" />
-              <item name="engine" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="qsms" type="b2602c69:ProjectViewProjectNode" />
-              <item name="qsms" type="462c0819:PsiDirectoryNode" />
-              <item name="seraph" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="gsp" type="462c0819:PsiDirectoryNode" />
-              <item name="engine" type="462c0819:PsiDirectoryNode" />
-              <item name="windowing" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="qsms" type="b2602c69:ProjectViewProjectNode" />
-              <item name="qsms" type="462c0819:PsiDirectoryNode" />
-              <item name="seraph" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="qsms" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="qsms" type="b2602c69:ProjectViewProjectNode" />
-              <item name="qsms" type="462c0819:PsiDirectoryNode" />
-              <item name="seraph" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="qsms" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="qsms" type="b2602c69:ProjectViewProjectNode" />
-              <item name="qsms" type="462c0819:PsiDirectoryNode" />
-              <item name="seraph" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="qsms" type="462c0819:PsiDirectoryNode" />
-              <item name="engine" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="qsms" type="b2602c69:ProjectViewProjectNode" />
-              <item name="qsms" type="462c0819:PsiDirectoryNode" />
-              <item name="seraph" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="qsms" type="462c0819:PsiDirectoryNode" />
-              <item name="engine" type="462c0819:PsiDirectoryNode" />
-              <item name="windowing" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="qsms" type="b2602c69:ProjectViewProjectNode" />
-              <item name="qsms" type="462c0819:PsiDirectoryNode" />
-              <item name="seraph" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="qsms" type="b2602c69:ProjectViewProjectNode" />
-              <item name="qsms" type="462c0819:PsiDirectoryNode" />
-              <item name="seraph" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="testqueries" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="qsms" type="b2602c69:ProjectViewProjectNode" />
-              <item name="qsms" type="462c0819:PsiDirectoryNode" />
-              <item name="yasper" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="qsms" type="b2602c69:ProjectViewProjectNode" />
-              <item name="qsms" type="462c0819:PsiDirectoryNode" />
-              <item name="yasper" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="qsms" type="b2602c69:ProjectViewProjectNode" />
-              <item name="qsms" type="462c0819:PsiDirectoryNode" />
-              <item name="yasper" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="qsms" type="b2602c69:ProjectViewProjectNode" />
-              <item name="qsms" type="462c0819:PsiDirectoryNode" />
-              <item name="yasper" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="qsms" type="b2602c69:ProjectViewProjectNode" />
-              <item name="qsms" type="462c0819:PsiDirectoryNode" />
-              <item name="yasper" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="yasper" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="qsms" type="b2602c69:ProjectViewProjectNode" />
-              <item name="qsms" type="462c0819:PsiDirectoryNode" />
-              <item name="yasper" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="yasper" type="462c0819:PsiDirectoryNode" />
-              <item name="engines" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="qsms" type="b2602c69:ProjectViewProjectNode" />
-              <item name="qsms" type="462c0819:PsiDirectoryNode" />
-              <item name="yasper" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="yasper" type="462c0819:PsiDirectoryNode" />
-              <item name="examples" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="qsms" type="b2602c69:ProjectViewProjectNode" />
-              <item name="qsms" type="462c0819:PsiDirectoryNode" />
-              <item name="yasper" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="yasper" type="462c0819:PsiDirectoryNode" />
-              <item name="querying" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="qsms" type="b2602c69:ProjectViewProjectNode" />
-              <item name="qsms" type="462c0819:PsiDirectoryNode" />
-              <item name="yasper" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="yasper" type="462c0819:PsiDirectoryNode" />
-              <item name="querying" type="462c0819:PsiDirectoryNode" />
-              <item name="formatter" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="qsms" type="b2602c69:ProjectViewProjectNode" />
-              <item name="qsms" type="462c0819:PsiDirectoryNode" />
-              <item name="yasper" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="yasper" type="462c0819:PsiDirectoryNode" />
-              <item name="sds" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22895000" />
+    <option name="totallyTimeSpent" value="32412000" />
   </component>
   <component name="ToolWindowManager">
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16547619" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1722441" />
       <window_info id="Structure" order="1" side_tool="true" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info id="Commit" order="3" />
@@ -463,7 +194,7 @@
       <window_info anchor="bottom" id="Profiler" order="6" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Debug" order="8" weight="0.29695433" />
-      <window_info anchor="bottom" id="Run" order="9" weight="0.13297492" />
+      <window_info anchor="bottom" id="Run" order="9" weight="0.14394489" />
       <window_info anchor="bottom" id="Find" order="10" />
       <window_info anchor="bottom" id="TypeScript" order="11" />
       <window_info anchor="bottom" id="Endpoints" order="12" show_stripe_button="false" />
@@ -476,6 +207,7 @@
       <window_info anchor="right" id="Maven" order="1" />
       <window_info anchor="right" id="Database" order="2" />
       <window_info anchor="right" id="Bean Validation" order="3" show_stripe_button="false" />
+      <window_info anchor="right" id="make" order="4" side_tool="true" />
     </layout>
     <recentWindows>
       <value>Project</value>
@@ -489,22 +221,31 @@
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
     <state x="1088" y="391" width="374" height="571" key="#com.intellij.ide.util.MemberChooser/0.0.2560.1440@0.0.2560.1440" timestamp="1622485616552" />
-    <state width="2540" height="381" key="GridCell.Tab.0.bottom" timestamp="1622485733694">
+    <state x="991" y="311" width="424" height="470" key="FileChooserDialogImpl" timestamp="1623361048902">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state width="2540" height="381" key="GridCell.Tab.0.bottom/0.0.2560.1440@0.0.2560.1440" timestamp="1622485733694" />
-    <state width="2540" height="381" key="GridCell.Tab.0.center" timestamp="1622485733692">
+    <state x="743" y="245" width="424" height="470" key="FileChooserDialogImpl/0.0.1920.1080/0.0.1920.1200@0.0.1920.1080" timestamp="1623171525706" />
+    <state x="991" y="311" key="FileChooserDialogImpl/0.0.2560.1440@0.0.2560.1440" timestamp="1623361048902" />
+    <state width="2540" height="170" key="GridCell.Tab.0.bottom" timestamp="1623361060431">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state width="2540" height="381" key="GridCell.Tab.0.center/0.0.2560.1440@0.0.2560.1440" timestamp="1622485733692" />
-    <state width="2540" height="381" key="GridCell.Tab.0.left" timestamp="1622485733691">
+    <state width="1460" height="115" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1622823474455" />
+    <state width="2540" height="170" key="GridCell.Tab.0.bottom/0.0.2560.1440@0.0.2560.1440" timestamp="1623361060431" />
+    <state width="2540" height="170" key="GridCell.Tab.0.center" timestamp="1623361060429">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state width="2540" height="381" key="GridCell.Tab.0.left/0.0.2560.1440@0.0.2560.1440" timestamp="1622485733691" />
-    <state width="2540" height="381" key="GridCell.Tab.0.right" timestamp="1622485733693">
+    <state width="1460" height="115" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1622823474448" />
+    <state width="2540" height="170" key="GridCell.Tab.0.center/0.0.2560.1440@0.0.2560.1440" timestamp="1623361060429" />
+    <state width="2540" height="170" key="GridCell.Tab.0.left" timestamp="1623361060428">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state width="2540" height="381" key="GridCell.Tab.0.right/0.0.2560.1440@0.0.2560.1440" timestamp="1622485733693" />
+    <state width="1460" height="115" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1622823474446" />
+    <state width="2540" height="170" key="GridCell.Tab.0.left/0.0.2560.1440@0.0.2560.1440" timestamp="1623361060428" />
+    <state width="2540" height="170" key="GridCell.Tab.0.right" timestamp="1623361060430">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state width="1460" height="115" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1622823474449" />
+    <state width="2540" height="170" key="GridCell.Tab.0.right/0.0.2560.1440@0.0.2560.1440" timestamp="1623361060430" />
     <state width="2540" height="381" key="GridCell.Tab.1.bottom" timestamp="1622485733698">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
@@ -526,91 +267,23 @@
     </state>
     <state x="689" y="260" width="540" height="524" key="StructurePopup/0.0.1920.1080@0.0.1920.1080" timestamp="1622130385727" />
     <state x="919" y="347" width="720" height="699" key="StructurePopup/0.0.2560.1440@0.0.2560.1440" timestamp="1622135570057" />
-    <state x="913" y="367" width="739" height="694" key="find.popup" timestamp="1622807768382">
+    <state x="913" y="367" width="739" height="694" key="find.popup" timestamp="1623359907419">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
     <state x="685" y="275" width="554" height="520" key="find.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1622032056670" />
-    <state x="913" y="367" width="739" height="694" key="find.popup/0.0.2560.1440@0.0.2560.1440" timestamp="1622807768382" />
-    <state x="944" y="330" key="run.anything.popup" timestamp="1622485609836">
+    <state x="913" y="367" width="739" height="694" key="find.popup/0.0.2560.1440@0.0.2560.1440" timestamp="1623359907419" />
+    <state x="944" y="330" width="672" height="685" key="run.anything.popup" timestamp="1623361004539">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state x="944" y="330" key="run.anything.popup/0.0.2560.1440@0.0.2560.1440" timestamp="1622485609836" />
-    <state x="943" y="315" width="672" height="686" key="search.everywhere.popup" timestamp="1622485613267">
+    <state x="708" y="248" key="run.anything.popup/0.0.1920.1080/0.0.1920.1200@0.0.1920.1080" timestamp="1623171501952" />
+    <state x="944" y="330" width="672" height="685" key="run.anything.popup/0.0.2560.1440@0.0.2560.1440" timestamp="1623361004539" />
+    <state x="943" y="315" width="672" height="686" key="search.everywhere.popup" timestamp="1623360721206">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state x="943" y="315" width="672" height="686" key="search.everywhere.popup/0.0.2560.1440@0.0.2560.1440" timestamp="1622485613267" />
+    <state x="707" y="236" width="672" height="515" key="search.everywhere.popup/0.0.1920.1080/0.0.1920.1200@0.0.1920.1080" timestamp="1623171506326" />
+    <state x="943" y="315" width="672" height="686" key="search.everywhere.popup/0.0.2560.1440@0.0.2560.1440" timestamp="1623360721206" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/seraph/src/main/java/org/streamreasoning/gsp/CeraphExample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="25" column="26" selection-start-line="25" selection-start-column="26" selection-end-line="25" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/seraph/src/main/java/org/streamreasoning/gsp/engine/SeraphRStream.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="18" column="1" lean-forward="true" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/seraph/src/main/java/org/streamreasoning/gsp/engine/windowing/SeraphTimeWindowOperatorFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="47" lean-forward="true" selection-start-line="47" selection-end-line="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/seraph/src/main/java/org/streamreasoning/gsp/data/PGStream.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="16" column="20" lean-forward="true" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/seraph/src/main/java/qsms/data/QueryStream.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="585">
-          <caret line="53" lean-forward="true" selection-start-line="53" selection-end-line="53" />
-          <folding>
-            <element signature="e#353#354#0" expanded="true" />
-            <element signature="e#397#398#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yasper/src/main/java/org/streamreasoning/rsp4j/yasper/querying/formatter/ContinuousQueryImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="65">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/seraph/src/main/java/org/streamreasoning/gsp/engine/Seraph.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-76">
-          <caret line="37" column="41" lean-forward="true" selection-start-line="37" selection-start-column="41" selection-end-line="37" selection-end-column="41" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api/src/main/java/org/streamreasoning/rsp4j/api/querying/ContinuousQueryExecution.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="373">
-          <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yasper/src/main/java/org/streamreasoning/rsp4j/yasper/ContinuousQueryExecutionImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="581">
-          <caret line="66" column="31" selection-start-line="66" selection-start-column="31" selection-end-line="66" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/yasper/src/main/java/org/streamreasoning/rsp4j/yasper/sds/SDSImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="977">
@@ -829,13 +502,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/arr/src/main/Human_iGraph_Queries/human_q10.igraph">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="637">
-          <caret line="97" column="6" selection-start-line="97" selection-start-column="4" selection-end-line="97" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/arr/src/main/Yeast_iGraph_Queries/yeast_q10.igraph">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-3601">
@@ -857,52 +523,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/seraph/src/main/java/QSMSExample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="520">
-          <caret line="54" selection-start-line="54" selection-end-line="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/seraph/src/main/resources/testqueries/testhumanqueries">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="143">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/seraph/src/main/java/qsms/data/QuerySource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="27" column="35" selection-start-line="27" selection-start-column="16" selection-end-line="27" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/seraph/src/main/java/qsms/engine/windowing/ArrStreamToRelationOp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1313">
-          <caret line="124" selection-start-line="124" selection-end-line="124" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/seraph/src/main/java/qsms/engine/RStream.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="24" column="1" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/arr/src/main/java/mqo/PCM.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="598">
-          <caret line="46" selection-start-line="46" selection-end-line="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/seraph/src/main/java/qsms/engine/R2R.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="281">
-          <caret line="31" column="79" selection-start-line="31" selection-start-column="79" selection-end-line="31" selection-end-column="79" />
+        <state relative-caret-position="217">
+          <caret line="20" column="13" lean-forward="true" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -917,10 +541,128 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/arr/src/main/java/mqo/BuildPCM.java">
+    <entry file="file://$PROJECT_DIR$/arr/src/main/Human_iGraph_Queries/human_q10.igraph">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="533">
-          <caret line="59" lean-forward="true" selection-start-line="59" selection-end-line="59" />
+        <state relative-caret-position="385">
+          <caret line="97" column="6" selection-start-line="97" selection-start-column="4" selection-end-line="97" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/arr/src/main/testQueries/queriestest">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="741">
+          <caret line="57" column="7" lean-forward="true" selection-start-line="57" selection-start-column="7" selection-end-line="57" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/arr/src/main/java/mqo_old/BuildPCM.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="711">
+          <caret line="61" selection-start-line="61" selection-end-line="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/seraph/src/main/java/qsms/engine/R2R.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="281">
+          <caret line="31" column="79" selection-start-line="31" selection-start-column="79" selection-end-line="31" selection-end-column="79" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/seraph/src/main/java/qsms/engine/windowing/ArrStreamToRelationOp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1313">
+          <caret line="124" selection-start-line="124" selection-end-line="124" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/seraph/src/main/java/qsms/data/QuerySource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="27" column="35" selection-start-line="27" selection-start-column="16" selection-end-line="27" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/seraph/src/main/resources/testqueries/testhumanqueries">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="143">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/seraph/src/main/java/QSMSExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="520">
+          <caret line="54" selection-start-line="54" selection-end-line="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/arr/src/main/java/mqo_old/embedding.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="12" column="6" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/arr/src/main/java/mqo/MQOMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="26">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/arr/src/main/java/mqo_old/PCM.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="371" column="44" lean-forward="true" selection-start-line="371" selection-start-column="44" selection-end-line="371" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/arr/src/main/java/mqo_old/patternContainmentMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="113">
+          <caret line="11" column="85" selection-start-line="11" selection-start-column="85" selection-end-line="11" selection-end-column="85" />
+          <folding>
+            <element signature="e#242#261#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/bytedeco/javacpp/1.1/javacpp-1.1.jar!/org/bytedeco/javacpp/tools/Builder.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="713">
+          <caret line="779" column="22" lean-forward="true" selection-start-line="779" selection-start-column="22" selection-end-line="779" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/arr/src/main/Makefile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="39">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/arr/src/main/java/mqo/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="21" column="1" lean-forward="true" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1091">
+          <caret line="118" column="10" lean-forward="true" selection-start-line="118" selection-start-column="10" selection-end-line="118" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/arr/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="624">
+          <caret line="48" column="19" selection-start-line="48" selection-start-column="19" selection-end-line="48" selection-end-column="19" />
         </state>
       </provider>
     </entry>

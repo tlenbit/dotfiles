@@ -1,0 +1,226 @@
+<project version="4">
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/somepackage/MultiplyDemo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="247">
+              <caret line="19" column="1" lean-forward="true" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#309#310#0" expanded="true" />
+                <element signature="e#387#388#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="507">
+              <caret line="39" column="33" selection-start-line="39" selection-start-column="33" selection-end-line="39" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>assembl</find>
+      <find>jniMultiplyDemo</find>
+      <find>compilerOptions</find>
+      <find>javacpp</find>
+      <find>test</find>
+    </findStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$/src/main/java/somepackage</dir>
+    </dirStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <changedPaths>
+      <option value="$PROJECT_DIR$/src/main/java/somepackage/NativeLibrary.h" />
+      <option value="$PROJECT_DIR$/src/main/java/somepackage/MultiplyDemo.java" />
+      <option value="$PROJECT_DIR$/pom.xml" />
+    </changedPaths>
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="$PROJECT_DIR$/.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" />
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="javacpp-mvn-simple-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="javacpp-mvn-simple-demo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="javacpp-mvn-simple-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="javacpp-mvn-simple-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="javacpp-mvn-simple-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="javacpp-mvn-simple-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="javacpp-mvn-simple-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="javacpp-mvn-simple-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="javacpp-mvn-simple-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="javacpp-mvn-simple-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="somepackage" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="1735000" />
+  </component>
+  <component name="ToolWindowManager">
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22078948" />
+      <window_info id="Structure" order="1" side_tool="true" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info id="Commit" order="3" />
+      <window_info id="Space Code Reviews" order="4" />
+      <window_info id="Learn" order="5" />
+      <window_info id="Pull Requests" order="6" />
+      <window_info anchor="bottom" id="Event Log" order="0" side_tool="true" />
+      <window_info anchor="bottom" id="TODO" order="3" />
+      <window_info anchor="bottom" id="Problems View" order="3" />
+      <window_info anchor="bottom" id="File Transfer" order="4" />
+      <window_info anchor="bottom" id="Version Control" order="4" />
+      <window_info anchor="bottom" id="Terminal" order="4" />
+      <window_info anchor="bottom" id="Profiler" order="6" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="TypeScript" order="7" />
+      <window_info anchor="bottom" id="Endpoints" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Build" order="7" />
+      <window_info anchor="bottom" id="internal-profiler" order="7" />
+      <window_info anchor="bottom" id="Internal Method Tracing" order="7" />
+      <window_info anchor="bottom" id="Run" order="7" weight="0.297841" />
+      <window_info anchor="bottom" id="Flow" order="7" />
+      <window_info anchor="bottom" id="Services" order="7" />
+      <window_info anchor="bottom" id="Find" order="7" />
+      <window_info anchor="right" id="Space Automation" order="4" />
+      <window_info anchor="right" id="Maven" order="7" />
+      <window_info anchor="right" id="Database" order="7" />
+      <window_info anchor="right" id="make" order="7" side_tool="true" />
+    </layout>
+    <recentWindows>
+      <value>Run</value>
+      <value>Project</value>
+    </recentWindows>
+  </component>
+  <component name="Trusted.Project.Settings" hasCheckedIfOldProject="true" trusted="YES" />
+  <component name="WindowStateProjectService">
+    <state x="743" y="285" width="424" height="470" key="FileChooserDialogImpl" timestamp="1623166459552">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="743" y="285" width="424" height="470" key="FileChooserDialogImpl/0.0.1920.1080/0.0.1920.1200@0.0.1920.1080" timestamp="1623166459552" />
+    <state width="1900" height="275" key="GridCell.Tab.0.bottom" timestamp="1623167073443">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1900" height="275" key="GridCell.Tab.0.bottom/0.0.1920.1080/0.0.1920.1200@0.0.1920.1080" timestamp="1623167073443" />
+    <state width="1900" height="275" key="GridCell.Tab.0.center" timestamp="1623167073440">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1900" height="275" key="GridCell.Tab.0.center/0.0.1920.1080/0.0.1920.1200@0.0.1920.1080" timestamp="1623167073440" />
+    <state width="1900" height="275" key="GridCell.Tab.0.left" timestamp="1623167073439">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1900" height="275" key="GridCell.Tab.0.left/0.0.1920.1080/0.0.1920.1200@0.0.1920.1080" timestamp="1623167073439" />
+    <state width="1900" height="275" key="GridCell.Tab.0.right" timestamp="1623167073442">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1900" height="275" key="GridCell.Tab.0.right/0.0.1920.1080/0.0.1920.1200@0.0.1920.1080" timestamp="1623167073442" />
+    <state x="685" y="275" width="554" height="520" key="find.popup" timestamp="1623165670028">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="685" y="275" width="554" height="520" key="find.popup/0.0.1920.1080/0.0.1920.1200@0.0.1920.1080" timestamp="1623165670028" />
+    <state x="624" y="244" width="672" height="685" key="run.anything.popup" timestamp="1623167052551">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="624" y="244" width="672" height="685" key="run.anything.popup/0.0.1920.1080/0.0.1920.1200@0.0.1920.1080" timestamp="1623167052551" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/somepackage/MultiplyDemo.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="52">
+          <caret line="4" column="1" lean-forward="true" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SECOND">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/somepackage/NativeLibrary.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="117">
+          <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/somepackage/MultiplyDemoTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="169">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="507">
+          <caret line="39" column="33" selection-start-line="39" selection-start-column="33" selection-end-line="39" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/somepackage/MultiplyDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="19" column="1" lean-forward="true" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#309#310#0" expanded="true" />
+            <element signature="e#387#388#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

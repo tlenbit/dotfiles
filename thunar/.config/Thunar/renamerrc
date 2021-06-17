@@ -1,5 +1,5 @@
 [Configuration]
-LastActiveMode=THUNAR_RENAMER_MODE_BOTH
+LastActiveMode=THUNAR_RENAMER_MODE_NAME
 LastActiveRenamer=ThunarSbrInsertRenamer
 
 [ThunarSbrDateRenamer]
@@ -21,8 +21,8 @@ EndOffsetMode=THUNAR_SBR_OFFSET_MODE_LEFT
 StartOffsetMode=THUNAR_SBR_OFFSET_MODE_LEFT
 
 [ThunarSbrInsertRenamer]
-Offset=3
-Text=sparql
-Mode=THUNAR_SBR_INSERT_MODE_OVERWRITE
-OffsetMode=THUNAR_SBR_OFFSET_MODE_RIGHT
+Offset=0
+Text=CommonUtility_
+Mode=THUNAR_SBR_INSERT_MODE_INSERT
+OffsetMode=THUNAR_SBR_OFFSET_MODE_LEFT
 

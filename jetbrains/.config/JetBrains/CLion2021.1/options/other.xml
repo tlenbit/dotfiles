@@ -36,6 +36,11 @@
             <ProjectPluginTracker />
           </value>
         </entry>
+        <entry key="1u82sBp83AbG4afZXHFzb7eTrTr">
+          <value>
+            <ProjectPluginTracker />
+          </value>
+        </entry>
       </map>
     </trackers>
   </component>
@@ -76,7 +81,7 @@
     <property name="MarketplacePluginsSearchHistory" value="icons&#10;autotools&#10;auto&#10;ayt&#10;glsl" />
     <property name="SettingsSearchHistory" value="out&#10;show tab&#10;tab&#10;open external&#10;openinter" />
     <property name="UITheme.relaunch" value="true" />
-    <property name="appcds.runOnSecondStart" value="CL-211.7442.42-b7c8acb49b3c515f9d9d73cd7fd08bd70ad31528d2aaac47f2ed105138df2f0e" />
+    <property name="appcds.runOnSecondStart" value="CL-211.7442.42-064f1160795290636d5f2ef038562ca4270b1f4134053a14464a9cfbedcca1a4" />
     <property name="ask.about.ctrl.y.shortcut" value="true" />
     <property name="build.toolwindow.Build Output.selection.state" value="com.intellij.build.BuildTreeConsoleView" />
     <property name="build.toolwindow.Sync.selection.state" value="com.intellij.build.BuildTreeConsoleView" />
@@ -86,8 +91,8 @@
     <property name="evlsprt3.203" value="18" />
     <property name="evlsprt3.211" value="16" />
     <property name="experimentalFeature.editor.reader.mode" value="false" />
-    <property name="file.chooser.recent.files" value="$USER_HOME$/ut/project-arr/MQO/src/main/jni&#10;/home/jc/ut/project-arr/MQO_Original&#10;/home/jc/ut/project-arr/MQO&#10;/home/jc/ut/project-arr/MQO/javacpp-example/src/main/jni&#10;/home/jc/ut/project-arr/MQO/MQO&#10;/home/jc/ut/project-arr/MQO_Dev/MQO&#10;/home/jc/downloads/MQO_Dev/MQO&#10;/home/jc/downloads/dmine-pro&#10;/home/jc/code/cbatticon&#10;/home/jc/code/batti&#10;/home/jc/downloads/ddcbc-gtk&#10;/home/jc/code/i3status-rust&#10;/home/jc/code/rio&#10;/home/jc/code/buzz&#10;/home/jc/downloads/mison&#10;/home/jc/code/gitui&#10;/home/jc/code/MeiliSearch&#10;/home/jc/code/alacritty&#10;/home/jc/code/rust-doodles&#10;/home/jc/code/rofi-calc&#10;/home/jc/code/rofi-file-browser-extended&#10;/home/jc/code&#10;/home/jc/Desktop/clion-projects/automata-sandbox&#10;/home/jc/Desktop/clion-projects/rust-12-commandline&#10;/home/jc/Desktop/clion-projects/rust-13-functional&#10;/home/jc/Desktop/clion-projects/variables&#10;/home/jc/Desktop/clion-projects/pix_paint&#10;/home/jc/Desktop/clion-projects/playground-canvas&#10;/home/jc/Desktop/idea-projects/cs161&#10;/home/jc/Desktop/idea-projects/ca-1" />
-    <property name="file.gist.reindex.count" value="83" />
+    <property name="file.chooser.recent.files" value="$USER_HOME$/ut/project-arr/qsms/arr-mqo/src/main/jni&#10;/home/jc/ut/project-arr/MQO/src/main/jni&#10;/home/jc/ut/project-arr/MQO_Original&#10;/home/jc/ut/project-arr/MQO&#10;/home/jc/ut/project-arr/MQO/javacpp-example/src/main/jni&#10;/home/jc/ut/project-arr/MQO/MQO&#10;/home/jc/ut/project-arr/MQO_Dev/MQO&#10;/home/jc/downloads/MQO_Dev/MQO&#10;/home/jc/downloads/dmine-pro&#10;/home/jc/code/cbatticon&#10;/home/jc/code/batti&#10;/home/jc/downloads/ddcbc-gtk&#10;/home/jc/code/i3status-rust&#10;/home/jc/code/rio&#10;/home/jc/code/buzz&#10;/home/jc/downloads/mison&#10;/home/jc/code/gitui&#10;/home/jc/code/MeiliSearch&#10;/home/jc/code/alacritty&#10;/home/jc/code/rust-doodles&#10;/home/jc/code/rofi-calc&#10;/home/jc/code/rofi-file-browser-extended&#10;/home/jc/code&#10;/home/jc/Desktop/clion-projects/automata-sandbox&#10;/home/jc/Desktop/clion-projects/rust-12-commandline&#10;/home/jc/Desktop/clion-projects/rust-13-functional&#10;/home/jc/Desktop/clion-projects/variables&#10;/home/jc/Desktop/clion-projects/pix_paint&#10;/home/jc/Desktop/clion-projects/playground-canvas&#10;/home/jc/Desktop/idea-projects/cs161" />
+    <property name="file.gist.reindex.count" value="91" />
     <property name="fileTypeChangedCounter" value="9" />
     <property name="fileTypeDetectors" value="com.intellij.database.vfs.DbStorageFileType$Detector:com.intellij.ide.scratch.ScratchFileServiceImpl$Detector:com.intellij.javascript.debugger.sourcemap.SourceMapFileType$MyFileTypeDetector:com.jetbrains.cidr.lang.OCHeaderFileTypeDetector" />
     <property name="ide.updates.previous.build.number" value="CL-211.7442.42" />

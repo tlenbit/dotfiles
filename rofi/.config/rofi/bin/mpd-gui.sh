@@ -5,9 +5,9 @@ if [ -z "$(pgrep mpd)" ]; then
   exit 0
 fi
 
-current=$(mpc current -f '%file% (%time%)')
-
 # TODO: maybe add music label icons here? along with current
+
+current=$(mpc current -f '%file% (%time%)')
 
 if [[ -z "$current" ]]; then
   current="Nothing is currently playing"
@@ -56,7 +56,7 @@ case $option in
   Youtube)
     query=$(rofi -dmenu -p "" -width "20%" -theme-str "entry {placeholder: \"Search in Youtube...\";}")
 
-    if [ -z "$query" ]; then exit; fi 
+    if [ -z "$query" ]; then exit; fi
     query=$(sed  -e 's|+|%2B|g' -e 's|#|%23|g' -e 's|&|%26|g' -e 's| |+|g' <<< "$query")
 
     response="$(curl -s "https://www.youtube.com/results?search_query=$query" | sed 's|\\.||g')"
@@ -94,5 +94,4 @@ case $option in
 esac
 
 # mpc next
-
-exit
+# exit

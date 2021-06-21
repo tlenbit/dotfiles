@@ -244,13 +244,25 @@
         </entry>
         <entry key="$USER_HOME$/ut/project-arr/MQO/src/main/jni">
           <value>
-            <RecentProjectMetaInfo frameTitle="MQO – MQO_main_2.cpp" opened="true" projectWorkspaceId="1tlunV3GJx3NAnUTAwduWQJmDEz">
+            <RecentProjectMetaInfo frameTitle="MQO – MQO_MQO.cpp" projectWorkspaceId="1tlunV3GJx3NAnUTAwduWQJmDEz">
               <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
               <option name="build" value="CL-211.7442.42" />
               <option name="buildTimestamp" value="1622541590391" />
-              <frame x="230" y="19" width="2100" height="1386" />
+              <frame x="10" y="10" width="2540" height="1395" />
               <option name="productionCode" value="CL" />
-              <option name="projectOpenTimestamp" value="1623411665095" />
+              <option name="projectOpenTimestamp" value="1624033099455" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/ut/project-arr/qsms/arr-mqo/src/main/jni">
+          <value>
+            <RecentProjectMetaInfo frameTitle="MQO – MQO_main_2.cpp" opened="true" projectWorkspaceId="1u82sBp83AbG4afZXHFzb7eTrTr">
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="CL-211.7442.42" />
+              <option name="buildTimestamp" value="1622541552475" />
+              <frame x="715" y="174" width="1130" height="1076" />
+              <option name="productionCode" value="CL" />
+              <option name="projectOpenTimestamp" value="1624033186772" />
             </RecentProjectMetaInfo>
           </value>
         </entry>

@@ -5,11 +5,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="-1">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/MQO_main_2.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="670">
-              <caret line="65" column="1" lean-forward="true" selection-start-line="65" selection-start-column="1" selection-end-line="65" selection-end-column="1" />
+            <state relative-caret-position="980">
+              <caret line="70" column="32" selection-start-line="70" selection-start-column="32" selection-end-line="70" selection-end-column="32" />
               <folding>
                 <element signature="e#39#57#0" expanded="true" />
               </folding>
@@ -17,11 +17,50 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/MQO_MQO.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1190">
-              <caret line="85" selection-start-line="85" selection-end-line="85" />
+            <state relative-caret-position="462">
+              <caret line="53" selection-start-line="53" selection-end-line="53" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MQO_ExecutionOrderNode.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="84">
+              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MQO_QueryExecutionOrder.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="854">
+              <caret line="61" column="21" selection-start-line="61" selection-start-column="21" selection-end-line="61" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MQO_QueryExecutionOrder.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="196">
+              <caret line="14" column="38" selection-start-line="14" selection-start-column="38" selection-end-line="14" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MQO_MQO.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1003">
+              <caret line="96" selection-start-line="96" selection-end-line="96" />
+              <folding>
+                <element signature="e#37#74#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -63,9 +102,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>::Edge</find>
-      <find>Vertex</find>
-      <find>::Vertex</find>
       <find>AdjacenceListsGRAPH::Vertex</find>
       <find>AdjacenceListsGRAPH::Edge</find>
       <find>AdjacenceListsGRAPH::node</find>
@@ -91,8 +127,11 @@
       <find>/out</find>
       <find>AdjacenceListsGRAPH()</find>
       <find>G_MAXIMUM_WIDTH_COMBO =</find>
-      <find>Query Execution Order</find>
       <find>resultFile</find>
+      <find>Query Execution Order</find>
+      <find>hybridExecutionOrder</find>
+      <find>executemqo</find>
+      <find>queryGraph</find>
     </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$</dir>
@@ -106,7 +145,6 @@
       <option value="$PROJECT_DIR$/MQO_PCM_Node.h" />
       <option value="$PROJECT_DIR$/MQO_PCMBuilder.cpp" />
       <option value="$PROJECT_DIR$/MQO_PCMBuilder.h" />
-      <option value="$PROJECT_DIR$/MQO_QueryExecutionOrder.cpp" />
       <option value="$PROJECT_DIR$/MQO_QueryExecutionOrder.h" />
       <option value="$PROJECT_DIR$/MQO_RandomQG.cpp" />
       <option value="$PROJECT_DIR$/MQO_RandomQG.h" />
@@ -146,11 +184,12 @@
       <option value="$PROJECT_DIR$/MQO_main_2.h" />
       <option value="$PROJECT_DIR$/CMakeLists.txt" />
       <option value="$PROJECT_DIR$/Graph_AdjacenceListsGRAPH_IO.cpp" />
-      <option value="$PROJECT_DIR$/MQO_MQO.h" />
       <option value="$PROJECT_DIR$/MQO_SQP.cpp" />
       <option value="$PROJECT_DIR$/MQO_SQP.h" />
-      <option value="$PROJECT_DIR$/MQO_MQO.cpp" />
+      <option value="$PROJECT_DIR$/MQO_QueryExecutionOrder.cpp" />
       <option value="$PROJECT_DIR$/MQO_main_2.cpp" />
+      <option value="$PROJECT_DIR$/MQO_MQO.h" />
+      <option value="$PROJECT_DIR$/MQO_MQO.cpp" />
     </changedPaths>
   </component>
   <component name="IgnoredFileRootStore">
@@ -183,12 +222,12 @@
     </panes>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="48319000" />
+    <option name="totallyTimeSpent" value="54451000" />
   </component>
   <component name="ToolWindowManager">
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.115157485" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.09507874" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info id="Commit" order="3" />
@@ -254,8 +293,8 @@
       <window_info anchor="right" id="make" order="4" show_stripe_button="false" side_tool="true" />
     </layout-to-restore>
     <recentWindows>
-      <value>Project</value>
       <value>Messages</value>
+      <value>Project</value>
       <value>Run</value>
       <value>Debug</value>
       <value>CMake</value>
@@ -273,30 +312,30 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="693" y="252" width="524" height="488" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1623678263264" />
-    <state x="1063" y="457" width="424" height="470" key="FileChooserDialogImpl" timestamp="1623392384275">
+    <state x="1063" y="441" width="424" height="470" key="FileChooserDialogImpl" timestamp="1624033095887">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state x="1063" y="457" width="424" height="470" key="FileChooserDialogImpl/0.0.2560.1440@0.0.2560.1440" timestamp="1623392384275" />
-    <state width="2540" height="274" key="GridCell.Tab.0.bottom" timestamp="1623750438107">
+    <state x="1063" y="441" width="424" height="470" key="FileChooserDialogImpl/0.0.2560.1440@0.0.2560.1440" timestamp="1624033095887" />
+    <state width="2540" height="274" key="GridCell.Tab.0.bottom" timestamp="1623938584371">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
     <state width="1900" height="203" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1623690193037" />
-    <state width="2540" height="274" key="GridCell.Tab.0.bottom/0.0.2560.1440@0.0.2560.1440" timestamp="1623750438107" />
-    <state width="2540" height="274" key="GridCell.Tab.0.center" timestamp="1623750438105">
+    <state width="2540" height="274" key="GridCell.Tab.0.bottom/0.0.2560.1440@0.0.2560.1440" timestamp="1623938584371" />
+    <state width="2540" height="274" key="GridCell.Tab.0.center" timestamp="1623938584371">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
     <state width="1900" height="203" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1623690193036" />
-    <state width="2540" height="274" key="GridCell.Tab.0.center/0.0.2560.1440@0.0.2560.1440" timestamp="1623750438105" />
-    <state width="2540" height="274" key="GridCell.Tab.0.left" timestamp="1623750438104">
+    <state width="2540" height="274" key="GridCell.Tab.0.center/0.0.2560.1440@0.0.2560.1440" timestamp="1623938584371" />
+    <state width="2540" height="274" key="GridCell.Tab.0.left" timestamp="1623938584371">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
     <state width="1900" height="203" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1623690193034" />
-    <state width="2540" height="274" key="GridCell.Tab.0.left/0.0.2560.1440@0.0.2560.1440" timestamp="1623750438104" />
-    <state width="2540" height="274" key="GridCell.Tab.0.right" timestamp="1623750438106">
+    <state width="2540" height="274" key="GridCell.Tab.0.left/0.0.2560.1440@0.0.2560.1440" timestamp="1623938584371" />
+    <state width="2540" height="274" key="GridCell.Tab.0.right" timestamp="1623938584371">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
     <state width="1900" height="203" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1623690193037" />
-    <state width="2540" height="274" key="GridCell.Tab.0.right/0.0.2560.1440@0.0.2560.1440" timestamp="1623750438106" />
+    <state width="2540" height="274" key="GridCell.Tab.0.right/0.0.2560.1440@0.0.2560.1440" timestamp="1623938584371" />
     <state width="1900" height="203" key="GridCell.Tab.1.bottom" timestamp="1623690193041">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -327,38 +366,23 @@
     </state>
     <state x="757" y="336" width="786" height="393" key="StructurePopup/0.0.1920.1080@0.0.1920.1080" timestamp="1623415905166" />
     <state x="1009" y="448" width="540" height="524" key="StructurePopup/0.0.2560.1440@0.0.2560.1440" timestamp="1623393994716" />
-    <state x="1000" y="131" width="674" height="558" key="find.popup" timestamp="1623767029787">
+    <state x="1000" y="131" width="674" height="558" key="find.popup" timestamp="1623933789737">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
     <state x="750" y="98" width="524" height="520" key="find.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1623687556706" />
-    <state x="1000" y="131" width="674" height="558" key="find.popup/0.0.2560.1440@0.0.2560.1440" timestamp="1623767029787" />
-    <state x="944" y="334" width="672" height="685" key="run.anything.popup" timestamp="1623749454606">
+    <state x="1000" y="131" width="674" height="558" key="find.popup/0.0.2560.1440@0.0.2560.1440" timestamp="1623933789737" />
+    <state x="944" y="334" width="672" height="685" key="run.anything.popup" timestamp="1624033071407">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
     <state x="708" y="251" width="672" height="685" key="run.anything.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1623686472455" />
-    <state x="944" y="334" width="672" height="685" key="run.anything.popup/0.0.2560.1440@0.0.2560.1440" timestamp="1623749454606" />
-    <state x="943" y="327" width="672" height="686" key="search.everywhere.popup" timestamp="1623749542841">
+    <state x="944" y="334" width="672" height="685" key="run.anything.popup/0.0.2560.1440@0.0.2560.1440" timestamp="1624033071407" />
+    <state x="943" y="327" width="672" height="686" key="search.everywhere.popup" timestamp="1624033081399">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
     <state x="707" y="245" width="672" height="515" key="search.everywhere.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1623689755932" />
-    <state x="943" y="327" width="672" height="686" key="search.everywhere.popup/0.0.2560.1440@0.0.2560.1440" timestamp="1623749542841" />
+    <state x="943" y="327" width="672" height="686" key="search.everywhere.popup/0.0.2560.1440@0.0.2560.1440" timestamp="1624033081399" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/MQO_SimiMethodTest.h">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MQO_TLSGraph.h">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MQO_TurboIsoMQO.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#14#30#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/MQO_TurboIsoBoostedMQO.h">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -631,16 +655,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MQO_MQO.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="756">
-          <caret line="96" selection-start-line="96" selection-end-line="96" />
-          <folding>
-            <element signature="e#37#74#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/MQO_TLSGraph.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="224">
@@ -694,18 +708,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/MQO_main_2.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="670">
-          <caret line="65" column="1" lean-forward="true" selection-start-line="65" selection-start-column="1" selection-end-line="65" selection-end-column="1" />
+        <state relative-caret-position="980">
+          <caret line="70" column="32" selection-start-line="70" selection-start-column="32" selection-end-line="70" selection-end-column="32" />
           <folding>
             <element signature="e#39#57#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MQO_MQO.cpp">
+    <entry file="file://$PROJECT_DIR$/MQO_ExecutionOrderNode.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1190">
-          <caret line="85" selection-start-line="85" selection-end-line="85" />
+        <state relative-caret-position="84">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MQO_QueryExecutionOrder.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="854">
+          <caret line="61" column="21" selection-start-line="61" selection-start-column="21" selection-end-line="61" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MQO_QueryExecutionOrder.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="14" column="38" selection-start-line="14" selection-start-column="38" selection-end-line="14" selection-end-column="38" />
         </state>
       </provider>
     </entry>
@@ -733,6 +761,23 @@
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MQO_MQO.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1003">
+          <caret line="96" lean-forward="true" selection-start-line="96" selection-end-line="96" />
+          <folding>
+            <element signature="e#37#74#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MQO_MQO.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="53" selection-start-line="53" selection-end-line="53" />
         </state>
       </provider>
     </entry>

@@ -145,7 +145,7 @@ sidebar {
 
 button {
   background-color: @se; /*@bg*/
-  text-color: @fg;
+  text-color: @gr; /*@fg*/
   padding:  0px;
 }
 

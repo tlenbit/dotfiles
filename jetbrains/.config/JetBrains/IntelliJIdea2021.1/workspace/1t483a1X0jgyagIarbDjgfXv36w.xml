@@ -20,31 +20,22 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="-1">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/arr/src/main/java/mqo/Main.java">
+        <entry file="file://$PROJECT_DIR$/arr/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="273">
-              <caret line="21" column="1" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/arr/src/main/Makefile">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="39">
-              <caret line="3" selection-start-line="3" selection-end-line="3" />
+            <state relative-caret-position="143">
+              <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/arr/pom.xml">
+        <entry file="file://$PROJECT_DIR$/arr/src/main/java/mqo/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="624">
-              <caret line="48" column="19" selection-start-line="48" selection-start-column="19" selection-end-line="48" selection-end-column="19" />
+            <state relative-caret-position="273">
+              <caret line="21" column="1" lean-forward="true" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -102,8 +93,8 @@
       <option value="$PROJECT_DIR$/arr/src/main/java/mqo/Main.java" />
       <option value="$PROJECT_DIR$/arr/src/main/java/mqo_old/patternContainmentMap.java" />
       <option value="$PROJECT_DIR$/arr/src/main/Makefile" />
-      <option value="$PROJECT_DIR$/arr/pom.xml" />
       <option value="$PROJECT_DIR$/pom.xml" />
+      <option value="$PROJECT_DIR$/arr/pom.xml" />
     </changedPaths>
   </component>
   <component name="IgnoredFileRootStore">
@@ -122,7 +113,6 @@
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1" />
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -169,11 +159,12 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32412000" />
+    <option name="totallyTimeSpent" value="32521000" />
   </component>
   <component name="ToolWindowManager">
     <editor active="true" />
@@ -555,13 +546,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/arr/src/main/java/mqo_old/BuildPCM.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="711">
-          <caret line="61" selection-start-line="61" selection-end-line="61" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/arr/src/main/java/mqo_old/BuildPCM.java" />
     <entry file="file://$PROJECT_DIR$/seraph/src/main/java/qsms/engine/R2R.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="281">
@@ -597,58 +582,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/arr/src/main/java/mqo_old/embedding.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="12" column="6" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/arr/src/main/java/mqo/MQOMain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="26">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/arr/src/main/java/mqo_old/PCM.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="371" column="44" lean-forward="true" selection-start-line="371" selection-start-column="44" selection-end-line="371" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/arr/src/main/java/mqo_old/patternContainmentMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="113">
-          <caret line="11" column="85" selection-start-line="11" selection-start-column="85" selection-end-line="11" selection-end-column="85" />
-          <folding>
-            <element signature="e#242#261#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/arr/src/main/java/mqo_old/embedding.java" />
+    <entry file="file://$PROJECT_DIR$/arr/src/main/java/mqo/MQOMain.java" />
+    <entry file="file://$PROJECT_DIR$/arr/src/main/java/mqo_old/PCM.java" />
+    <entry file="file://$PROJECT_DIR$/arr/src/main/java/mqo_old/patternContainmentMap.java" />
     <entry file="jar://$MAVEN_REPOSITORY$/org/bytedeco/javacpp/1.1/javacpp-1.1.jar!/org/bytedeco/javacpp/tools/Builder.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="713">
           <caret line="779" column="22" lean-forward="true" selection-start-line="779" selection-start-column="22" selection-end-line="779" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/arr/src/main/Makefile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="39">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/arr/src/main/java/mqo/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="21" column="1" lean-forward="true" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -659,10 +600,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/arr/src/main/Makefile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="39">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/arr/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="624">
-          <caret line="48" column="19" selection-start-line="48" selection-start-column="19" selection-end-line="48" selection-end-column="19" />
+        <state relative-caret-position="143">
+          <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/arr/src/main/java/mqo/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="21" column="1" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

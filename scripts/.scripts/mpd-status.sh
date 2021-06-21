@@ -14,7 +14,7 @@ else
 
 	if mpc status | grep -q "repeat: on"; then
 		repeat_icon="%{F#fff}"
-	fi	
+	fi
 
 	if pgrep -f "ashuffle -f -" > /dev/null; then # if it's in album loop mode
 		loop_on_album_icon="%{F#fff}"

@@ -64,6 +64,11 @@
             <ProjectPluginTracker />
           </value>
         </entry>
+        <entry key="1u4w413EQti2QSx7UPEeuppItaQ">
+          <value>
+            <ProjectPluginTracker />
+          </value>
+        </entry>
       </map>
     </trackers>
   </component>
@@ -114,7 +119,7 @@
     <property name="JUnit.Splitter.Proportion" value="0.12050573" />
     <property name="JUnitSupport.hidePassedTests" value="false" />
     <property name="KEYMAP" value="expand&#10;build&#10;replace&#10;open recent&#10;external termin" />
-    <property name="LAST_INJECTED_LANGUAGE" value="SQL" />
+    <property name="LAST_INJECTED_LANGUAGE" value="TEXT" />
     <property name="LiveContextsPanel[0]" value="0.110558316" />
     <property name="MarketplacePluginsSearchHistory" value="processing&#10;procee&#10;icons&#10;shader&#10;fragmen" />
     <property name="MemberChooser.copyJavadoc" value="false" />
@@ -129,7 +134,7 @@
     <property name="SettingsSearchHistory" value="collapse&#10;extern&#10;external&#10;render space&#10;spaces" />
     <property name="SpringBeansModulesPanel[0]" value="0.10881393" />
     <property name="UITheme.relaunch" value="true" />
-    <property name="appcds.runOnSecondStart" value="IU-211.7442.40-f1536d015547da3873777a8151379abc1fdab595e36ba671c9456d67a16116b8" />
+    <property name="appcds.runOnSecondStart" value="IU-211.7442.40-f2d4aa64e38a5ccea2548f31bb2133fe4f0e41b72a2c60bfb0531d2c6df7d687" />
     <property name="ask.about.ctrl.y.shortcut" value="true" />
     <property name="build.toolwindow.Build Output.selection.state" value="com.intellij.build.BuildTreeConsoleView" />
     <property name="build.toolwindow.Sync.selection.state" value="com.intellij.build.BuildTreeConsoleView" />
@@ -137,7 +142,7 @@
     <property name="com.intellij.database.actions.DdlActions$DeleteProvider2$1.previewExpanded" value="true" />
     <property name="com.intellij.history.integration.ui.views.FileHistoryDialog.0" value="300" />
     <property name="com.intellij.history.integration.ui.views.FileHistoryDialog.1" value="800" />
-    <property name="com.intellij.openapi.roots.ui.configuration.TabbedModuleEditor.selectedEditor" value="Sources" />
+    <property name="com.intellij.openapi.roots.ui.configuration.TabbedModuleEditor.selectedEditor" value="Dependencies" />
     <property name="create.project.preferred.importer" value="Existing Sources" />
     <property name="debugger.smart.chooser.counter" value="3" />
     <property name="decompiler.legal.notice.accepted" value="true" />
@@ -147,8 +152,8 @@
     <property name="evlsprt3.202" value="14" />
     <property name="evlsprt3.211" value="10" />
     <property name="experimentalFeature.run.targets" value="true" />
-    <property name="file.chooser.recent.files" value="$USER_HOME$/downloads/MQO&#10;/home/jc/ut/project-arr/MQO_Original&#10;/home/jc/ut/project-arr/MQO&#10;/home/jc/ut/project-arr/qsms/arr&#10;/home/jc/ut/project-arr/MQO/javacpp-example&#10;/home/jc/downloads/maven-javacpp-example&#10;/home/jc/downloads/javacpp-mvn-simple-demo&#10;/home/jc/ut/project-arr/qsms&#10;/home/jc/ut/code/quarser/quarser-java&#10;/home/jc/ut/code/uba1.7&#10;/home/jc/ut/code/ldparser/ldparser-java&#10;/home/jc/downloads/uba1.7&#10;/home/jc/ut/ldparser/ldparser-java&#10;/home/jc/ut/titanium-json-ld&#10;/home/jc/ut/jena&#10;/home/jc/ut/jena-examples&#10;/home/jc/ut/sw/apache-jena-3.17.0/src-examples/jena-examples&#10;/home/jc/Desktop/mnt/ut.xroad/ubuntu/kafkademo&#10;/home/jc/Desktop/mnt/ut.xroad/ubuntu/X-Road/src&#10;/home/jc/Downloads&#10;/home/jc/Desktop/mnt/ut.xroad/ubuntu/X-Road/src/proxy&#10;/home/jc/Desktop/mnt/ut.cluster.1.master/hadoop/SPARKSQLRDFBenchmarking/ProjectSourceCode&#10;/home/jc/Desktop/mnt/ut.cluster.1.master/hadoop/SPARKSQLRDFBenchmarking/S2RDFDataGeneration&#10;/home/jc/Desktop/mnt/ut.cluster.1.master/hadoop/generator/S2RDFDataGeneration&#10;/home/jc/Downloads/S2RDFDataGeneration&#10;/home/jc/Desktop/mnt/ut.cluster.1.master/hadoop/RDFBenchMarking/ProjectSourceCode&#10;/home/jc/Projects/sparkql-banchmark/SPARKSQLRDFBenchmarking/ProjectSourceCode[Centeralized]&#10;/home/jc/Downloads/pastel&#10;/home/jc/Documents/projects/rustlings&#10;/home/jc/Downloads/rust_graphs" />
-    <property name="file.gist.reindex.count" value="23713" />
+    <property name="file.chooser.recent.files" value="$USER_HOME$/ut/project-arr/qsms&#10;/home/jc/downloads/MQO&#10;/home/jc/ut/project-arr/MQO_Original&#10;/home/jc/ut/project-arr/MQO&#10;/home/jc/ut/project-arr/qsms/arr&#10;/home/jc/ut/project-arr/MQO/javacpp-example&#10;/home/jc/downloads/maven-javacpp-example&#10;/home/jc/downloads/javacpp-mvn-simple-demo&#10;/home/jc/ut/code/quarser/quarser-java&#10;/home/jc/ut/code/uba1.7&#10;/home/jc/ut/code/ldparser/ldparser-java&#10;/home/jc/downloads/uba1.7&#10;/home/jc/ut/ldparser/ldparser-java&#10;/home/jc/ut/titanium-json-ld&#10;/home/jc/ut/jena&#10;/home/jc/ut/jena-examples&#10;/home/jc/ut/sw/apache-jena-3.17.0/src-examples/jena-examples&#10;/home/jc/Desktop/mnt/ut.xroad/ubuntu/kafkademo&#10;/home/jc/Desktop/mnt/ut.xroad/ubuntu/X-Road/src&#10;/home/jc/Downloads&#10;/home/jc/Desktop/mnt/ut.xroad/ubuntu/X-Road/src/proxy&#10;/home/jc/Desktop/mnt/ut.cluster.1.master/hadoop/SPARKSQLRDFBenchmarking/ProjectSourceCode&#10;/home/jc/Desktop/mnt/ut.cluster.1.master/hadoop/SPARKSQLRDFBenchmarking/S2RDFDataGeneration&#10;/home/jc/Desktop/mnt/ut.cluster.1.master/hadoop/generator/S2RDFDataGeneration&#10;/home/jc/Downloads/S2RDFDataGeneration&#10;/home/jc/Desktop/mnt/ut.cluster.1.master/hadoop/RDFBenchMarking/ProjectSourceCode&#10;/home/jc/Projects/sparkql-banchmark/SPARKSQLRDFBenchmarking/ProjectSourceCode[Centeralized]&#10;/home/jc/Downloads/pastel&#10;/home/jc/Documents/projects/rustlings&#10;/home/jc/Downloads/rust_graphs" />
+    <property name="file.gist.reindex.count" value="24407" />
     <property name="fileTypeChangedCounter" value="18" />
     <property name="fileTypeDetectors" value="com.intellij.database.vfs.DbStorageFileType$Detector:com.intellij.ide.scratch.ScratchFileServiceImpl$Detector:com.intellij.javascript.debugger.sourcemap.SourceMapFileType$MyFileTypeDetector:com.intellij.profiler.ultimate.hprof.impl.HprofFileTypeDetector:com.jetbrains.nodejs.util.NodeFileTypeDetector$JavaScriptFileTypeDetector:com.jetbrains.nodejs.util.NodeFileTypeDetector$TypeScriptFileTypeDetector" />
     <property name="got.it.tooltip.cwm.invitation.notification" value="1" />
@@ -173,7 +178,7 @@
     <property name="org.rust.LAST_UPDATE" value="1596796933412" />
     <property name="packagesearch.endpoint.url.fulltext" value="https://package-search.services.jetbrains.com/api/search/idea/fulltext" />
     <property name="packagesearch.endpoint.url.suggest" value="https://package-search.services.jetbrains.com/api/search/idea/suggest" />
-    <property name="packagesearch.status.updated.ts" value="1623491704898" />
+    <property name="packagesearch.status.updated.ts" value="1624204100137" />
     <property name="project.wizard.group" value="org.jetbrains.idea.maven.wizards.InternalMavenModuleBuilder" />
     <property name="project.wizard.template" value="JavaScript" />
     <property name="quick.doc.font.size.v3" value="MEDIUM" />

@@ -167,7 +167,7 @@ bindsym $mod+p exec pavucontrol
 #--------------#
 #     ROFI     #
 #--------------#
-bindsym $mod+m        exec --no-startup-id $HOME/.config/rofi/bin/mpd-gui.sh
+bindsym $mod+m        exec --no-startup-id $HOME/.config/rofi/bin/mpd-gui/exec.sh
 
 bindsym $mod+q        exec --no-startup-id $HOME/.config/rofi/bin/launcher.sh
 bindsym $mod+Shift+p  exec --no-startup-id $HOME/.config/rofi/bin/kill-process.sh
@@ -201,7 +201,7 @@ mode "toggle_gaps" {
     bindsym 0 mode "default", gaps inner current set 0, gaps outer current set 0, gaps vertical current set 0, gaps horizontal current set 0
     bindsym 1 mode "default", gaps vertical current set 175, gaps horizontal current set 700
     bindsym 2 mode "default", gaps inner current set $default_gaps_inner, gaps outer current set $default_gaps_outer, gaps vertical current set $default_gaps_vertical, gaps horizontal current set $default_gaps_horizontal
-    bindsym 3 mode "default", gaps inner current set $default_gaps_inner, gaps vertical current set $default_gaps_vertical, gaps top current set 0, gaps horizontal current set 0 
+    bindsym 3 mode "default", gaps inner current set $default_gaps_inner, gaps vertical current set $default_gaps_vertical, gaps top current set 0, gaps horizontal current set 0
     bindsym 4 mode "default", gaps inner current set 0, gaps outer current set 0, gaps vertical current set 35, gaps top current set 0, gaps horizontal current set 0
     bindsym Return mode "default"
     bindsym Escape mode "default"
@@ -246,10 +246,10 @@ mode "border" {
 }
 
 # border colors:        border: bg:     text:   indicator:
-client.focused          #24292e #24292e #b2bec3 #333333
-client.focused_inactive #24292e #24292e #636e72 #49483E
-client.unfocused        #24292e #24292e #636e72 #000000
-client.urgent           #E53935 #E53935 #24292e #58252B
+client.focused          #FF000000 #FF000000 #b2bec3 #333333
+client.focused_inactive #FF000000 #FF000000 #636e72 #49483E
+client.unfocused        #FF000000 #FF000000 #636e72 #000000
+client.urgent           #FF000000 #FF000000 #24292e #58252B
 
 exec ls $HOME/.wallpapers | sort -R | head -1 > $HOME/.wallpapers/.current_wallpaper
 exec --no-startup-id $HOME/.scripts/screen-setup.sh
@@ -272,7 +272,7 @@ for_window [class="Google-chrome" instance="crx_chpiljhfemlfpnfoohpbokdofonkiifm
 for_window [class="Google-chrome" instance="crx_ioknjpikighmhnkfbgncchbaneiacjpl"] floating enable border pixel 0 move position center; # observable
 for_window [class="Google-chrome" instance="crx_klingkmakcphekbgogbmfldljflfdecb"] floating enable border pixel 0 move position center; # mathcha
 for_window [class="Google-chrome" instance="crx_bndmnggfngpgmmijcogkkgglhalbpomk"] floating enable border pixel 0 move position center; # raindrop
-for_window [class="Google-chrome" instance="crx_ldgfbffkinooeloadekpmfoklnobpien"] floating enable border pixel 0 move position center; 
+for_window [class="Google-chrome" instance="crx_ldgfbffkinooeloadekpmfoklnobpien"] floating enable border pixel 0 move position center;
 for_window [class="Google-chrome" instance="crx_faolnafnngnfdaknnbpnkhgohbobgegn"] floating enable border pixel 0 move position center;
 for_window [class="Google-chrome" instance="crx_kmhopmchchfpfdcdjodmpfaaphdclmlj"] floating enable border pixel 0 move position center;
 for_window [class="Google-chrome" instance="crx_egdalnmencdpmadgdbcmfiinlfflfbpk"] floating enable border pixel 0 move position center;

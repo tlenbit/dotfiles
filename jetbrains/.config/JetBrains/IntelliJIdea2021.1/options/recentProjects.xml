@@ -62,18 +62,6 @@
             </RecentProjectMetaInfo>
           </value>
         </entry>
-        <entry key="$USER_HOME$/ut/project-arr/qsms">
-          <value>
-            <RecentProjectMetaInfo frameTitle="qsms – Ignored pom.xml (arr)" projectWorkspaceId="1t483a1X0jgyagIarbDjgfXv36w">
-              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
-              <option name="build" value="IU-211.7442.40" />
-              <option name="buildTimestamp" value="1622517460261" />
-              <frame x="10" y="10" width="2540" height="1395" />
-              <option name="productionCode" value="IU" />
-              <option name="projectOpenTimestamp" value="1623361051688" />
-            </RecentProjectMetaInfo>
-          </value>
-        </entry>
         <entry key="$USER_HOME$/ut/project-arr/qsms/arr">
           <value>
             <RecentProjectMetaInfo frameTitle="arr – pom.xml (arr)" projectWorkspaceId="1tm4hcO6rKMYOsARspIIBqn5g46">
@@ -112,13 +100,25 @@
         </entry>
         <entry key="$USER_HOME$/ut/project-arr/MQO">
           <value>
-            <RecentProjectMetaInfo frameTitle="MQO – Demo.java" opened="true" projectWorkspaceId="1tn0E0ZTEcQ3dF5W5SXTg5zM6td">
+            <RecentProjectMetaInfo frameTitle="MQO – Demo.java" projectWorkspaceId="1tn0E0ZTEcQ3dF5W5SXTg5zM6td">
               <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
               <option name="build" value="IU-211.7442.40" />
-              <option name="buildTimestamp" value="1622517431070" />
-              <frame x="230" y="19" width="2100" height="1386" />
+              <option name="buildTimestamp" value="1622517420009" />
+              <frame x="10" y="10" width="2540" height="1395" />
               <option name="productionCode" value="IU" />
-              <option name="projectOpenTimestamp" value="1623392361285" />
+              <option name="projectOpenTimestamp" value="1623937974740" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/ut/project-arr/qsms">
+          <value>
+            <RecentProjectMetaInfo frameTitle="qsms – ContentQuery.java [seraph]" opened="true" projectWorkspaceId="1u4w413EQti2QSx7UPEeuppItaQ">
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="IU-211.7442.40" />
+              <option name="buildTimestamp" value="1622517420009" />
+              <frame x="230" y="35" width="2100" height="1370" />
+              <option name="productionCode" value="IU" />
+              <option name="projectOpenTimestamp" value="1623938582549" />
             </RecentProjectMetaInfo>
           </value>
         </entry>

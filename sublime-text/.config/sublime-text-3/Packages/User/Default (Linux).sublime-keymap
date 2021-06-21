@@ -29,7 +29,7 @@
     "command": "find_prev"
 },
 {
-    "keys": ["ctrl+ñ"],
+    "keys": ["f5"],
     "command": "toggle_comment",
     "args":
     {
@@ -37,7 +37,7 @@
     }
 },
 {
-    "keys": ["ctrl+shift+ñ"],
+    "keys": ["f1"],
     "command": "exec",
     "args":
     {
@@ -45,7 +45,7 @@
     }
 },
 {
-    "keys": ["alt+ñ"],
+    "keys": ["ctrl+f1"],
     "command": "exec",
     "args":
     {
@@ -56,12 +56,4 @@
     "keys": ["f11"],
     "command": "distraction_free_window"
 },
-{
-    "keys": ["f1"],
-    "command": "dired",
-    "args":
-    {
-        "immediate": true
-    }
-},    
 ]

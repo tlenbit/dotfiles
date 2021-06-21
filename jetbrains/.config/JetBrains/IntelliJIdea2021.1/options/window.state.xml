@@ -16,10 +16,10 @@
     <size key="GridCell.Tab.1.right.0.0.1920.1080" width="2540" height="169" />
     <size key="GridCell.Tab.1.bottom.0.0.1920.1080" width="2540" height="169" />
     <size key="find.popup.0.0.1920.1080" width="524" height="520" />
-    <size key="GridCell.Tab.0.left.0.0.2560.1440" width="2100" height="219" />
-    <size key="GridCell.Tab.0.center.0.0.2560.1440" width="2100" height="219" />
-    <size key="GridCell.Tab.0.right.0.0.2560.1440" width="2100" height="219" />
-    <size key="GridCell.Tab.0.bottom.0.0.2560.1440" width="2100" height="219" />
+    <size key="GridCell.Tab.0.left.0.0.2560.1440" width="2100" height="207" />
+    <size key="GridCell.Tab.0.center.0.0.2560.1440" width="2100" height="207" />
+    <size key="GridCell.Tab.0.right.0.0.2560.1440" width="2100" height="207" />
+    <size key="GridCell.Tab.0.bottom.0.0.2560.1440" width="2100" height="207" />
     <size key="GridCell.Tab.1.left.0.0.2560.1440" width="2540" height="381" />
     <size key="GridCell.Tab.1.center.0.0.2560.1440" width="2540" height="381" />
     <size key="GridCell.Tab.1.right.0.0.2560.1440" width="2540" height="381" />
@@ -100,7 +100,7 @@
     <size key="GridCell.Tab.1.bottom.0.0.3120.1920" width="1186" height="286" />
   </component>
   <component name="WindowManager">
-    <frame x="230" y="19" width="2100" height="1386" />
+    <frame x="230" y="35" width="2100" height="1370" />
   </component>
   <component name="WindowStateApplicationService">
     <state x="955" y="420" width="650" height="568" key="#Java_Type_Renderers" timestamp="1619235455246">
